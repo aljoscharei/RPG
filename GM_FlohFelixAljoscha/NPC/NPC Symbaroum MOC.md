@@ -4,7 +4,7 @@
  - 20190401 13 jähriger Kellner, das wahre Talent vorher Hilfe in Taverne von Baldursruh 1.4.2019 
  - 20181217 Alahara tot Schinder 17.12.2018 
  - [[201810312003 Monster Aluin]] Sohn von Savola 31.10.2018 
- - 20181231 Amralovest Feindlicher Häuptling der Fundibars Dorf übernommen hat 31.12.2018 
+ - 20181231 [[Symbaroum Monster Amralovest]] Feindlicher Häuptling der Fundibars Dorf übernommen hat 31.12.2018 
  - [[Monster Angmar Söldnerführer]] chef der marodeure, Anführer von der 50 Männern von Angmars Faust einer Söldnertruppe, bei ausbleibendem Sold plündernd durch die Lande zog. Erzfeind von Rojazz 1.4.2019 
  - Anra-Arca Elfin 04.05.2019 
  - Arbom Crueljaws Gesprächspartner 01.02.2019 
@@ -19,7 +19,7 @@
  - ![[crueljaw.jpeg|200]]
  - [[Symbaroum MonsterCrueljaw]] Ogerschmied auf Karvosti 01.02.2019 
  - Desna/Belda wache auf schiff 10.01.2019 
- - Edrafin Leiter des ambrischen Zeltlagers 01.02.2019 
+ - [[Symbaroum Monster Edrafin]] Leiter des ambrischen Zeltlagers 01.02.2019 
  - Edran alter aus Großvater Lints Dorf 01.02.2019 
  - [[Symbaroum Monster Erado]] ragercaptain 23.12.2018 
  - Eran Kalfas Templer stationiert in Kastor 04.05.2019 
@@ -27,7 +27,7 @@
  - [[Symbaroum Monster Eufrynda]] Meisterin des Ordo Magica in Thistle Hold 17.12.2018 
  - Fundibar Häuptling von Ayilis stamm 02.11.2018 
  - Gabba Großtatze Goblinhäuptling 10.1.2019 
- - Gadramon Wasserträger, helfer von Yeleta 01.02.2019 
+ - [[Symbaroum Monster Gadramon]] Wasserträger, helfer von Yeleta 01.02.2019 
  - godalg alter lore-goblin pfärtner des Ordo 23.12.2018 
  - [[201808222010 Monster Godrai]] herbstelf 22.8.2018 
  - [[Monster Gombil]] meister des ordo, Auftraggeber 23.12.2018 
@@ -83,7 +83,7 @@
  - wenender Elf Dareol helfer von kaeroan 13.02.2019 
  - Xanatha Spinnengöttin 10.1.2019 
  - [[Symbaroum Monster Xoras]] Hexer 02.11.2018 
- - Yeleta Erzhexe 01.02.2019 
+ - [[Symbaroum Monster Yeleta]] Erzhexe 01.02.2019 
  - [[Monster Stadtgardistin Zeugin]] Hat alAhara in flagranti erwischt 17.12.2018 
  - [[Symbaroum Monster Kullinan]] Wilde Frisur 13.06.2019 
  - [[Monster Parrak]] Freund von kundra 14.08.2019 
@@ -172,3 +172,4 @@
 - [[Oryela.jpeg|200]]
 - [[Symbaroum Monster Oryela]]
 - [[Symbaroum Monster Bluttochter Blood-daughter]]
+- [[Symbaroum Monster Lobeya]]

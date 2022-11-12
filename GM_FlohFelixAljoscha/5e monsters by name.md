@@ -1,7 +1,7 @@
- [[202202111122 Bestiary MOC]] [[Ruins GM Index]] [[DnD]] 
-
+[[202202111122 Bestiary MOC]] [[Ruins GM Index]] [[DnD]] 
+[[Symbaroum Monsters MOC]]
+[[Ruins of Symbaroum Bestiary new but Gibberish.pdf]]
 description:_All_monsters_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document),_organized_by_name
-
 # Monsters_by_Name
 [[Aarakocra]]
 [[Abjurer]]
@@ -721,8 +721,8 @@ XX[[Kobold Inventor]]
 	- [[Symbaroum Monster Blight Worm]]
 	- [[Symbaroum Monster The Black Plague Termites]] 
 	- [[Symbaroum Monster Chasm Stag]]
-	 - [[Symbaroum Monster Primal Blight Beast]]
-	 - [[Symbaroum Monster The Wily]]
+	- [[Symbaroum Monster Primal Blight Beast]]
+	- [[Symbaroum Monster The Wily]]
 - Amphibians Aquatics
 	- [[Symbaroum Monster Cave Ray]]
 	- [[Symbaroum Monster Drilling Leech]]
@@ -861,7 +861,6 @@ XX[[Kobold Inventor]]
 	- [[Symbaroum Monster Staubmenschen Staubläufer]]
 	- [[Symbaroum Monster Etterherd]]
 	- [[Symbaroum Monster Alahara]]
-
 	- [[Symbaroum Monster der Untote Lenn]]
 	- [[Symbaroum Monster Gorak]] 
 	- [[Symbaroum Monster Baumelo-Odako]]

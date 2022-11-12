@@ -1,3 +1,6 @@
+## Foto
+`dice: [[ambrian foto#^RndmFoto]]`
+## table
  ![[IMG_0344.jpg|200]]                          
  ![[IMG_0350.png|200]]                          
  ![[IMG_0409.jpg|200]]                          
@@ -134,7 +137,7 @@
  ![[Rolfo.png|200]]                             
  ![[Revina.png|200]]                            
  ![[Vilmina.png|200]]                           
- ![[Korinthia.png|200]]                                                                    
+ ![[Korinthia.png|200]] 
 
 
 ## Rndm

@@ -25,7 +25,7 @@ Band of Blades Missions
 	- undead are searching something. kill them and find their aim
 	- find a temple
 - [[sunstrider camp missions]]
-	- hunt a monster that is snatchin villagers in the surroundings
+	- hunt a monster that is snatching villagers in the surroundings
 	- find the bandit hideout and get them to join or kill them
 	- steal special horses from a traitor
 - [[duresh forest missions]]

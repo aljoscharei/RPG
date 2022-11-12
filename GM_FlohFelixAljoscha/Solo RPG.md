@@ -77,3 +77,5 @@ Goblins worship skullbiter crusher grooming itself. Smell of mothers milk.
 
 Goblin Tribe: Silver Fins, fever Swamp, Community Tags WWN 
 ![[WWN Tribes and exiles#Roller]]
+
+![[Random Dungeon DMG#Roller]]

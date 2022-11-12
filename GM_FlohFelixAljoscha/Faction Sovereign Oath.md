@@ -28,6 +28,7 @@ Toxic male Barbaren, die von Bluttochter in den Krieg geführt werden. Die Blutt
 - [[Symbaroum Monster Razameaman der Hexenkönig]]
 - [[Symbaroum Monster Odralintos]] der Lindwurm.  
 - [[Symbaroum Monster Rabaiamon]]
+- [[Symbaroum Monster Amralovest]]
 
 [11 Najir Matrell Waldläufer und Kopfgeldjäger, der die Jagd und die Angst d](https://docs.google.com/spreadsheets/d/1bAX5bh2bWl1-k-9ZEtnztlI-RaUvn_g-OVl1KFlUMFE/edit#gid=461967686&range=H259)er Beute liebt
 

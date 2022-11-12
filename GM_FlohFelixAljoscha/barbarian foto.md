@@ -1,3 +1,6 @@
+## roller
+`dice: [[barbarian foto#^rndm]]`
+## table
 ![[IMG_0340.jpg|200]]
 ![[IMG_0523.jpg|200]]
 ![[IMG_0524.jpg|200]]
