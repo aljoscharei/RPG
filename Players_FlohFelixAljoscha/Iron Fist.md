@@ -1,0 +1,1 @@
+At 17th level, you are trained to use your strength for maximum effect on a target in melee combat. You have advantage on all strength based attack rolls. You may use your reaction to add your proficiency bonus to a melee damage roll.

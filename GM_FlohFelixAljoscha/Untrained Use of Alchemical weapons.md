@@ -1,0 +1,3 @@
+Untrained Use of Alchemical Weapons
+
+The alchemical weapons which may be used by anyone entail risk for the untrained – they must roll a d20, on a natural 1 the weapon blows up in their face. If this happens the user takes damage automatically. Any creatures within the area effect of the device must make a DC 10 Dexterity saving throw, taking full damage on a failed save and half damage on a successful one. Trained users do not risk such cata- strophic failures.

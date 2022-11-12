@@ -1,0 +1,1 @@
+At 13th level, when you use your Bid to Action feature, the ally has advantage on their first ability check or attack roll they make on their turn.

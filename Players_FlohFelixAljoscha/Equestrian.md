@@ -1,0 +1,1 @@
+At 9th level, you are adept at handling mounts in combat and can force an opponent to always attack you and ignore your mount. You also gain proficiency in Animal Handling. [[5e Skills Animal Handling]]

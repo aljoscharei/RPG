@@ -1,0 +1,1 @@
+Gain proficiency in the [[5e Skills Medicine]], [[5e Skills Nature]] or [[5e Skills Survival]] skill. You also gain proficiency with siege weapons. Finally, you gain proficiency with a gaming set of your choice.

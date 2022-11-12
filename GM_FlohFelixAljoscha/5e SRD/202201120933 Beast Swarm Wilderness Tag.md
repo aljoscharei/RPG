@@ -1,0 +1,6 @@
+- [[201808141956 Symbaroum Monster Codex]]
+	- Ettermite
+	- Troll Shadow Schwarm
+	- Monster Hunting Adventure
+- Swarm worshipping intelligent God Beast ![[D93CA090-FF99-4575-AB68-5E0E3E2EA42C_1_105_c.jpeg]]
+- Bär aus Anihilation

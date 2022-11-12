@@ -1,0 +1,1 @@
+At 1st level you become proficient with Alchemist’s Supplies and the Field Laboratory, allowing you to create Alchemical Elixirs in the wild.

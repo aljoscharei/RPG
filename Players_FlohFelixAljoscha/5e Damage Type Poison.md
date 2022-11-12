@@ -1,0 +1,1 @@
+*Poison.** Venomous stings and the toxic gas of a green dragon's breath deal poison damage.

@@ -1,0 +1,4 @@
+• Bonus: +2 to Constitution  
+You have a bestial appearance, in the form of one (or a few) conspicuous traits – jakaar eyes, aboar tusks, lindworm scales on arms and neck, or something else arousing fear and disgust.
+
+Concealing the traits requires you to pass a DC 10 Charis- ma saving throw. If the save is failed, you have disadvantage on all Charisma (Deception, Performance or Persuasion) checks. However, the bestial exterior grants advantage on Charisma (Intimidation) checks. As soon as they can, those subjected to your intimidation efforts – whether or not it is successful – will report you to the Town Watch (or similar authorities) as a suspected abomination.

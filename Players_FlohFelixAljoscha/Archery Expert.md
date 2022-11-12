@@ -1,0 +1,1 @@
+At 9th level, you can use your bonus action to make a ranged weapon attack.

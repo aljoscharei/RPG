@@ -1,0 +1,89 @@
+[[202109281009 Aktuelle Projekte]]
+
+
+- [ ] Bedarfsermittlung Drogerieartikel bzw Einkauf für 2 Monate
+- [ ] Waschmittel
+- [ ] Toipap
+- [ ] Spülmittel
+- [ ] Taschentücher
+- [ ] Shampoo
+- [ ] Kerium
+- [ ] Wer hat Noten. keller?
+- [ ] Purcell lieder internetsuche
+- [ ] Heizung einstellen Wochentage
+- [ ] Kaffeemaschine.
+	- [ ] weitere recherce: läuft aus
+	- [ ] da so lange aufheizt: temperaturfühler kaputt?
+	- [ ] Reset: Zahnrad gedrückt halten, dann stecker rein
+- [ ] für bewerbung anziehen
+- [x] Anruf Gertrud Felix Feier
+- [x] paul schwimmkurs
+	- [x] dlrg
+	- [x] Sportforum Warteliste.  
+- [ ] schuhe  einsenden
+- [ ] Reise nachdenken
+- [ ] schränke bestellen
+- [x] stundenpaln machen
+- [ ] Kochplan wochen [[Essen MOC]]
+- [ ] [[Wocheneinkauf]]
+- [ ] Sabbatical über Elternzeit. informieren
+	- [ ] Flüge
+	- [ ] Bully
+	- [x] Türkische Linsensuppe mit Haloumi
+	- [x] Carbonara
+	- [x] Kartoffeln mit würstchen
+	- [x] Gemüsedürüm
+	- [x] [[201503231854 Quinoa mit Bohnen]][[201507061233 Rezept Eintopf Ribolita]]
+	- [ ] Fisch  Reis senfsauce
+	- [ ] Pancakes
+- [ ] Schränke bestellen
+	- [ ] Pax 
+	- [ ] **Platsa**
+	- [ ] regale Kinderzimmer. Halbhoch?, Flach.
+- [x] dlrg schwimmkurs 
+- [x] Steuerklassenwechsel
+	- [ ] [[aav_Antrag_Steuerklassenwechsel_23082021.pdf]]
+	- [ ] [[Lohnsteuerbescheinigung 2021 Lea und Aljoscha.pdf]]
+		- [ ] [[201701222122 Eheurkunde Heiratsurkunde]]
+- [x] Konto der Personalabteilung ändern
+- [x] putzhilfe Tiger, helpling, nachbarschaft, nebenan.de
+- [x] Kuchen für Nora
+- [ ] Einrichtung Fortbildungsportal ärztekammer  
+- [ ] amazon prime kündigen
+- [ ] Bob worldbuilder durchgehen und kündigen
+- [ ] patreon und wizard of adventure kündigen
+- [ ] ggf blaue regentonne kaufen wasserknappheit
+- [ ] Lou bei Sprehns auf die warteliste setzten
+- [ ] Termin heizung eichen vorlauftemperatur. Fragen klemptner obentraut
+- [x] Bringmeister einkauf erstellen
+- [ ] Telefonieren: 
+	- [x] Unfallversicherung Unfallmeldung [[Debeka MOC]]
+		- [ ] Tel. +49800888008222
+		- [ ] Servicenr: 7664840.9
+		- [ ] Schadem am 7.6.2022
+		- [ ] Anfrage Schadensabteilung: 0261 498 3963
+	- [ ] Anruf HNO OP Linus
+- Termin Lou
+	- Sprache
+	- Füße
+	- Schlafstörungen
+	- FSME
+	- Meningokokken [[202011171441 menigokokken b paul]]
+- Termin Paul Aust Tic
+	- meningokokken
+- Termin paul Block-Schmidt: Sprache
+- ![[201504222034 Aktivitäten mit Lea#Musik zusammen machen Purcell lieder]]
+- Erziehung:
+- [[202208311440 Aktivitäten mit Paul]]
+- [[201504222034 Aktivitäten mit Lea]]
+- [[201504222034 Aktivitäten mit Lea]]
+- [[201504222034 Aktivitäten mit Lea]]
+- [ ] wackelbrett kinder
+- [ ] trampolin
+- [ ] Fested ritual bettgehen kinder etablieren
+- Paul Brot selbst rausholen lassen, selbst schmieren
+- jeden Abend Zirkus, Sportstunde, Tanzen, Dunkelparty. Als Tiere durch die Wohnung
+- zusammen kochen
+- Floh schicken
+	- di mi fr
+	- josh plunkett

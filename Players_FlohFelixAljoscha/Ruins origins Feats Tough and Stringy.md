@@ -1,0 +1,1 @@
+When rolling hit points for a new level, if you receive less than the average (4) you can reroll the Hit Die. You must use the new value. If using the average value, use 5 on even levels and 4 on odd.

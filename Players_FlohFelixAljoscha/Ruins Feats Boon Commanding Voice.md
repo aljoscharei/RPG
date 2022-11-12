@@ -1,0 +1,2 @@
+• Bonus: +1 to Charisma  
+You have a well-tuned and loud voice, able to rise above the clamor of combat. As a bonus action, you can allow any allies within 60 feet of you that can hear you to gain advantage on Charisma saving throws until the start of your next turn. You do not gain advantage yourself.

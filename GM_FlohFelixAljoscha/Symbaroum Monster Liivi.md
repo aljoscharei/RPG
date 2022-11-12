@@ -1,0 +1,2 @@
+- Tocher von [[Symbaroum Monster Uku]]
+- ist eine mächtige Kämpferin.

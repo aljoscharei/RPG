@@ -1,0 +1,1 @@
+*Fire.** Red dragons breathe fire, and many spells conjure flames to deal fire damage.

@@ -1,0 +1,1 @@
+Wraith dust forces an incorporeal being to take physical form for the next 10 minutes. The dust must be thrown (range 5/15) at a target. While corporeal the spirit takes damage as living creatures do (it loses any resistances or immunities during this time).

@@ -1,0 +1,1 @@
+You can add your backstab damage to a ranged weapon at- tack. You must either have advantage on the attack or have an ally within 5 feet of the target and not have disadvantage on the attack.

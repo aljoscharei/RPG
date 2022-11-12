@@ -1,0 +1,1 @@
+Demonologists often wear a crown of rusty iron when tearing at the world’s fabric. These crowns give advantage on a single saving throw per long rest if the saving throw involves demonic or otherworldly entities.

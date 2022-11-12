@@ -1,0 +1,1 @@
+The smoke bomb is a ceramic vessel that emits dense alchemical smoke when crushed, causing a sphere with a 15-foot radius to become highly obscured.

@@ -1,0 +1,1 @@
+A **heavily obscured** area--such as darkness, opaque fog, or dense foliage--blocks vision entirely. A creature effectively suffers from the [[202202102106 5e Conditions Blinded]] condition when trying to see something in that area. ^e02d4d

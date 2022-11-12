@@ -1,0 +1,3 @@
+Also at 1st level, a Sapper can choose to relinquish their sword and gain a portable alchemical firetube instead. You become proficient with alchemical weapons. Untrained use is dangerous and Sappers don’t loan out such weapons easily.
+
+You become proficient with alchemist’s supplies if you were not already. You can make firetube powders using the DCs given and can make up to three powders per day of [[5e Downtime]]. Each powder requires raw supplies equal to half its market cost or one downtime day of gathering materials from the wild.

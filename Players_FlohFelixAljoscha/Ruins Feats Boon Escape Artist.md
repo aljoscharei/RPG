@@ -1,0 +1,2 @@
+• Bonus: +1 to Dexterity  
+You have loose joints and have been trained to utilize this in order to get free from bonds or squeeze through narrow passages. You can also get free from the clutches of an enemy or out of traps such as nets and snares. In all these cases, you have advantage on the escape attempt.

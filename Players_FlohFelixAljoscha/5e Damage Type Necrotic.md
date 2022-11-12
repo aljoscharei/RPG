@@ -1,0 +1,1 @@
+ **Necrotic.** Necrotic damage, dealt by certain undead and a spell such as **_chill touch_**, withers matter and even the soul.

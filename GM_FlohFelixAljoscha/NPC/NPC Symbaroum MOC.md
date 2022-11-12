@@ -1,0 +1,174 @@
+[[202201101101 NPC MOC]]
+ Name (Fett = genannt aber nicht angetroffen) Rolle Wann ins Spiel gebracht 
+ - - - - - - - - - - - - - - - - - 
+ - 20190401 13 jähriger Kellner, das wahre Talent vorher Hilfe in Taverne von Baldursruh 1.4.2019 
+ - 20181217 Alahara tot Schinder 17.12.2018 
+ - [[201810312003 Monster Aluin]] Sohn von Savola 31.10.2018 
+ - 20181231 Amralovest Feindlicher Häuptling der Fundibars Dorf übernommen hat 31.12.2018 
+ - [[Monster Angmar Söldnerführer]] chef der marodeure, Anführer von der 50 Männern von Angmars Faust einer Söldnertruppe, bei ausbleibendem Sold plündernd durch die Lande zog. Erzfeind von Rojazz 1.4.2019 
+ - Anra-Arca Elfin 04.05.2019 
+ - Arbom Crueljaws Gesprächspartner 01.02.2019 
+ - [[201808222004 Monster Argosto Händler]] Karavanenführer und Händler 22.8.2018 
+ - [[202208301535 Symbaroum Monster Ayili]] Hexe, Dunkle Mutter, Erdmutter 02.11.2018 
+ - Bahemo Lehrmeister von Bartolom und Ursprünglicher Besitzer des Sonnensteines 31.10.2018 
+ - [[201808222005 Bartolom]] tot Novize des ordo aus alberetor 22.08.2018 
+ - Baumelo Hexenjäger 17.12.2018 
+ - [[201808222000 Belun]] Tot starker barbar 22.8.2018 
+ - Borrorakk goblin der Baumelo verfolgt 17.12.2018 
+ - [[202208201317 Cornelio]] Erzmeister des Ordo Magica in Thistle Hold 31.10.2018 
+ - ![[crueljaw.jpeg|200]]
+ - [[Symbaroum MonsterCrueljaw]] Ogerschmied auf Karvosti 01.02.2019 
+ - Desna/Belda wache auf schiff 10.01.2019 
+ - Edrafin Leiter des ambrischen Zeltlagers 01.02.2019 
+ - Edran alter aus Großvater Lints Dorf 01.02.2019 
+ - [[Symbaroum Monster Erado]] ragercaptain 23.12.2018 
+ - Eran Kalfas Templer stationiert in Kastor 04.05.2019 
+ - [[201809022001 Monster Esbetha]] Angestellte und Geliebte von Vernam 2.9.2018 
+ - [[Symbaroum Monster Eufrynda]] Meisterin des Ordo Magica in Thistle Hold 17.12.2018 
+ - Fundibar Häuptling von Ayilis stamm 02.11.2018 
+ - Gabba Großtatze Goblinhäuptling 10.1.2019 
+ - Gadramon Wasserträger, helfer von Yeleta 01.02.2019 
+ - godalg alter lore-goblin pfärtner des Ordo 23.12.2018 
+ - [[201808222010 Monster Godrai]] herbstelf 22.8.2018 
+ - [[Monster Gombil]] meister des ordo, Auftraggeber 23.12.2018 
+ - Gorak tot Schatzjäger im grab vom symbarische fürsten hurian lo apak 17.12.2018 
+ - Großvater Lint Einäugiger Lindwurm 13.02.2019 2.9.2018 
+ - Helfer von Edrafin Spricht PC anwegen Wunsch Zeltplatz 01.02.2019 
+ - Hexe von Amralovest 31.12.2018 
+ - [[201809102035 Monster Hexenmädchen]] Auf der flucht vor Baumelos Schergen. Und vor Paco 10.9.2018 
+ - [[201909102101 Monster Ilantro]] Leichenbeschauer der Stadtgarde 10.9.2018 
+ - Isto Wache in Erdmoor 02.11.2018 
+ - [[Monster Jorna]] gardesergeant 17.12.2018 
+ - Junge mit Witchsight von Baumelo 17.12.2018 
+ - kaeroan Großer elf der eingang zu den halen der elfen bewacht 13.02.2019 
+ - Keri-Las Hungerwolf 22.8.2018 
+ - Kodomar Händler in Blackmoor. kauft alles. 23.12.2018 
+ - [[Symbaroum Monster Kundra]] Zigarrenrauchende Goblinvermieterin von Paco 19.05.2019 
+ - [[201808222001 Monster Lestra Hexenjägerin]] wütend da sie barbaren ins kloster bringen wolle 22.8.2018 
+ - [[201808222001 Ludo]] tot schwacher barbar 22.8.2018 
+ - Marla Novizin bei Goblinstamm geblieben 10.01.2019 
+ - ![[Marvello.jpeg|200]]
+ - [[201809022015 Monster marvello]] Einer von drei Kapitänennder Stadtgarde 2.9.2018 
+ - Melinda Jägerin des geplünderten Dorfes 1.4.2019 
+ - Mergai prophet der ersten stunde Talentscout 01.04.2019 
+ - Molnar fälschlicherweise von Mergai als Talent erkannt. In wahrheit zwar talentiert aber keine Macht zu mächtigem Theurgen. hüter von baldur grab 1.4.2019 
+ - Mother Marsh ggf alte Hexe und kein Geist. Holzmaske Mit Mimik 01.02.2019 
+ - Na-Ethikel Symbarischer Lord, kurzerhand von Rojazz getötet 04.05.2019 
+ - Njegg Gabbas Schwester und Schamanin 10.1.2019 
+ - Nobelmann feige. hat sich freigekauft 1.4.2019 
+ - Omri-An Elf 04.05.2019 
+ - [[201809102010 Monster Ordelia]] Besitzerinder Salons von Symbaroum 10.9.2018 
+ - Pärchen von Abenteurer aus Rojazz Prequel 
+ - [[pförtner des Salons von symbaroum]] 10.9.2018 
+ - plendel Novize 10.01.2019 
+ - [[Symbaroum Monster Tivos sein Handlanger Roter Backenbart]] Baumelos schergen 10.9.2018 
+ - Baumelos schergen 10.9.2018 
+ - Samara Hexe/Schweinehirtentochter, von Paco erschossen 02.11.2018 
+ - [[202208301326 Monster Sarvola]] Prediger 31.10.2018 
+ - [[201808222030 Monster Seren-Ri]] Bärenform 22.8.2018 
+ - [[Monster Sigurd]] Anführer von 4 Soldaten auf Fronturlaub im Dorf Baldursruh. Später in Lasifors Garnison 17.12.2018 und 1.4.2019 
+ - [[202208301633 Sindra die Schmiedstochter]] Schmiedstochter 02.11.2018 
+ - Strapsgundolf Kiezgröße um den Krötenplatz. Warum hat jeder vergessen 19.05.2019 
+ - Tara-Kel Elfin, älter Scout 04.05.2019 
+ - [[201808222005 Monster Teler Dieb]] Stallbursche und Sonnensteindieb 22.8.2018 
+ - [[201809022020 Monster Tervom]] behender kletterer der Stadtgarde 2.9.2018 
+ - ![[Tharaban.jpeg|200]]
+ - [[Monster Tharaban]] Oberster Richter der Barbaren 01.02.2019 
+ - ![[Tiara Teana.jpeg|200]]
+ - [[Monster Tiara Teana]] Elfin 13.02.2019 
+ - Verrückter jünger von Xanatha 10.1.2019 
+ - Varda religiöse flussschifferin 10.01.2019 
+ - Vorpal/Ogval kapitän der flussgöttin 10.01.2019 
+ - Weinende Elfin Aleia helfer von kaeroan 13.02.2019 
+ - wenender Elf Dareol helfer von kaeroan 13.02.2019 
+ - Xanatha Spinnengöttin 10.1.2019 
+ - [[Symbaroum Monster Xoras]] Hexer 02.11.2018 
+ - Yeleta Erzhexe 01.02.2019 
+ - [[Monster Stadtgardistin Zeugin]] Hat alAhara in flagranti erwischt 17.12.2018 
+ - [[Symbaroum Monster Kullinan]] Wilde Frisur 13.06.2019 
+ - [[Monster Parrak]] Freund von kundra 14.08.2019 
+ - Forrek Straßenkind 14.08.2019 
+ - [[Monster Serex Attio]] 31.07.2019 
+ - [[202201311237 Monster Lasifor Angathal Taar Spinnenlich]] 31.07.2019 
+ - [[Monster Hen loan mekele Templer]][[Hen Loan.jpeg]] 31.07.2019 
+ - [[Monster Leohan mekele Templer]] 31.07.2019 
+ - [[Monster Venhal mekele Templer]] 31.07.2019 
+ - Frau blaue robe (yagaba) [[Symbaroum NPC Yagaba]] 31.07.2019 
+ - [[Monster Onrax]] Troll 13.06.2019 
+ - Rambar 13.06.2019 
+ - Orgai Novize im Sonnentempel 14.08.2019 
+ - Armann Ogervater gangster einer der führer der barden 23.12.2019 
+ - Mirja krähengeschwister. Mit Führer der Barden 23.12.2019 
+ - Mirko krähengeschwister. Mit Führer der Barden 23.12.2019 
+ - Baragoi adeliger säufer. ehemaliger kamerad von Kundra. 23.12.2019 
+ - Anadea überforderte 17-jährige Repräsentantin des Iron pact in Thistle hold 23.12.2019 
+ - [[202208301333 Lysindra]] verbortes Mitglied des Iron pact, früher erfolgreiche schatzjägerin 23.12.2019 
+ - [[202208301324 Arawal]] nicht angetroffen, sei Mastermind hinter Brandanschlag auf Sarvola 31.10.2018 
+ - Lobaia Oberhexe von Ayilis Clan 
+ - Ambo Monsterjäger 04.01.2020 
+ - Wasserträger 04.01.2020 
+ - [[Monster Barak das Fass]] 02.02.2020 
+ - ![[Xiximanter.jpg|200]]
+ - [[Symbaroum Monster Xiximanter]] 27.03.2020 
+ - Fischhexe 08.07.2020 
+ - Menandra 14.3.2020 
+ - [[Symbaroum Monster Fischhexe]] 08.07.2020 
+ - Ambo Fallensteller 04.01.2020 
+ - [[202108161158 Monster Iasogoi]] legendärer schatzjäger in Spinnenpyramide 
+ - [[202108151453 Monster Orlandor]] Iasogois geliebter 
+ - [[202108162354 Monster Sombor]] 
+ - [[202108151419 Monster Magierlasifor]] 
+ - [[202201311214 Monster Tomoi]] 
+ - [[202108151415 Monster Agila]] 
+ - [[202108171047 Monster Balint]] 
+ - [[202108171048 Monster Kaspar]] 
+ - [[202108151412 Monster Paramon]] NPC Paramon 
+ - [[202204051140 Monster Erez]] Gegnerischer Troll bisher noch tnicht im Spiel 
+ - [[ 201808222003 Mal-Rogan]] Untoter Räuber 
+ - [[Monster Erebor Statthalter von Thistle Hold]] 
+ - [[Monster Beremo Herengol]] 
+ - [[Monster Fullangra]] 
+ - [[Monster Roff]] 
+ - [[Monster Hüon]] 
+ - [[Monster Ravn der Magier]] 
+ - [[Monster Tesch der Zeichner]] 
+ - [[Monster Ash Infizierter Zwerg]] 
+ - [[Symbaroum Monster Baumelo-Odako]] 
+- [[Symbaroum Monster Morcai Punk mit Inselfrisur seine Handlanger]]
+- [[Symbaroum Monster Tivos sein Handlanger Roter Backenbart]]
+- [[Symbaroum Monster Lymbra seine Handlangerin verrhärmte Frau]]
+- [[Symbaroum Monster Terr the Psychic]]
+- [[Aloena.jpeg|200]]
+- [[Symbaroum Monster Aloena]]
+- ![[Elmendra.jpeg|200]]
+- [[Monster Elmendra]]
+- [[Monster Vernam]]
+- [[Symbaroum Monster Godalg]]
+
+- Gods of Davokar
+	- Farthigny the fiddler in the dark (evil tom bombadil)
+	- The Moonpool (traum vom herabregnen) water elemental
+	- Junkenrotter
+	- Root troll
+	- Primal Skaal
+	- Oracle sludge
+	- Earthmother [[Faction Sovereign Oath]]
+	- Xanathar
+	- oroke [[Faction Arachs]]
+- Mother Marsh
+- [[Symbaroum Monster Deseba]]
+- [[Symbaroum Monster Pelurskitkönige]]
+- [[Isto der Wachmann von Neu Erdmoor]]
+- ![[Gandash Geist.png|200]]
+- [[Symbaroum Monster Gottkönig Gandash]]
+- ![[Erdmutter Variante 2.jpeg|200]]
+- [[Symbaroum Monster Erdmutter]]
+- ![[Razameaman.jpeg|200]]
+- [[Symbaroum Monster Razameaman der Hexenkönig]]
+- ![[Odralintos.png|200]]
+- [[Symbaroum Monster Odralintos]]
+- ![[Rabaiamon.jpeg]]
+- [[Symbaroum Monster Rabaiamon]]
+- [[Oryela.jpeg|200]]
+- [[Symbaroum Monster Oryela]]
+- [[Symbaroum Monster Bluttochter Blood-daughter]]

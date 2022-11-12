@@ -1,0 +1,1 @@
+A simple and portable canvas shelter, a tent sleeps two.

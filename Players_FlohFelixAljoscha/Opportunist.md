@@ -1,0 +1,1 @@
+When you reach 13th level, you have advantage on any opportunity attacks. If you deal damage to a creature with an opportunity attack their movement becomes zero.

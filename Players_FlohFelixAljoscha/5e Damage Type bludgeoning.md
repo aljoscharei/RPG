@@ -1,0 +1,1 @@
+ **Bludgeoning.** Blunt force attacks--hammers, falling, constriction, and the like--deal bludgeoning damage.

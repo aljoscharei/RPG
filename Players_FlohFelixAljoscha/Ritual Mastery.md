@@ -1,0 +1,1 @@
+- When you reach 17th level, you can reduce your permanent Corruption by 1 for each ritual spell that you know of 3rd level or higher

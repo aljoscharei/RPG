@@ -1,0 +1,1 @@
+If you’re in the wilderness you can always find a hiding place. You can choose to have advantage on a Dexterity (Stealth) check as part of your Hide action. Once you use this feature you must take a short or longer rest before using it again.

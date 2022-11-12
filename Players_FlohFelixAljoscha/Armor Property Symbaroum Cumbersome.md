@@ -1,0 +1,1 @@
+Cumbersome. This armor is unwieldy and you have disadvantage on all Dexterity checks while wearing it.

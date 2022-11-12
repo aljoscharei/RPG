@@ -1,0 +1,1 @@
+You have trained extensively in the arts of war. You gain a number of Melee dice (d6s) equal to your proficiency bonus. On your turn you can use a bonus action to add a Melee die to your melee attack roll or your weapon damage if you succeed with a melee attack. You regain any spent Melee dice when you take a short or longer rest.

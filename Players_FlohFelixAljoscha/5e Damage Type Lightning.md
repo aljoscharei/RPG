@@ -1,0 +1,1 @@
+**Lightning.** A **_lightning bolt_** spell and a blue dragon's breath deal lightning damage.

@@ -1,0 +1,3 @@
+- very [[Numenera]] Themed or
+- Corruption!
+- Misfortune Table im [[202101251048 Symbaroum DMG GM Guide]] z.B. p 94 the eternal contagion

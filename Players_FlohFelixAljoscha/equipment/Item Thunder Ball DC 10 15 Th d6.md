@@ -1,0 +1,1 @@
+An alchemical load that is thrown (range 30/90) at a target and detonates in a 5-foot radius with a sudden, loud flash, causing 1d12 thunder damage.

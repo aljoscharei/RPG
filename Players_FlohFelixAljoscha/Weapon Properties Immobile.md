@@ -1,0 +1,1 @@
+Immobile. Setting up this weapon or breaking it down can only be done outside of combat (several hours usually).

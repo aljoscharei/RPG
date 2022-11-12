@@ -1,0 +1,1 @@
+You don’t tire as easily as the humans and you recover faster. When you take a long rest and have some food and drink you reduce your exhaustion level by 2.

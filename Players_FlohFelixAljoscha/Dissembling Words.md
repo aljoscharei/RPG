@@ -1,0 +1,1 @@
+Spies gain proficiency in the Deception skill.

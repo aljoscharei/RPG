@@ -1,0 +1,1 @@
+Ogres usually have a little bit of their own magic about them and those that study the magical arts gain a resistance to force damage.

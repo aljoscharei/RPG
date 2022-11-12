@@ -1,0 +1,1 @@
+At 1st level, you learn the detect magic spell in addition to your chosen spells.

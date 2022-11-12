@@ -1,0 +1,1 @@
+You are often more concerned with your group’s readiness at the expense of your own. When combat begins and you are not surprised you can take disadvantage on your initiative roll in order to give advantage on initiative rolls to a number of creatures equal to your proficiency bonus.

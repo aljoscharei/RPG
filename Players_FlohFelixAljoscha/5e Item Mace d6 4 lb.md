@@ -1,0 +1,1 @@
+1d6 [[5e Damage Type bludgeoning]] | 4 lb. 

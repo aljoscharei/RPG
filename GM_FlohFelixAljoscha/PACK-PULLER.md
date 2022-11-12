@@ -1,0 +1,1 @@
+A pack-puller is responsible for managing an expeditions pack animals. A pack-puller can lead a number of animals equal to their passive Wisdom (Animal Handling) score. (This number includes the pack-puller’s mount, if any.)

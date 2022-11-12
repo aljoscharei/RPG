@@ -1,0 +1,1 @@
+If given the chance, you can prove yourself to be a member of the Sun Church and gain shelter there for yourself and your companions. Unfortunately, some of the faithful are not as open-minded as your teachers and the GM might require you to make a DC 10 Charisma (Persuasion) check in order to receive healing or other Church services.

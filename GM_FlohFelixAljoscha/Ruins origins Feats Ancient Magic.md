@@ -1,0 +1,1 @@
+At the end of a short rest, choose a number of cantrips from the Witch approach (see page 189) equal to your proficiency bo- nus. You can cast these spells without gaining any Corruption.

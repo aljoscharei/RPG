@@ -1,0 +1,1 @@
+The necromancers’ aspiration to dominate death has led to the use of hideous death masks that have been infused with power. A death mask gives advantage on one ability check per long rest for any check involving the intersections between life and death.

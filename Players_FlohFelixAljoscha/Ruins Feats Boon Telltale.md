@@ -1,0 +1,2 @@
+• Bonus: +1 to Charisma  
+You have ears and a tongue for gossip and can sniff out rumors and also pass them on to new places. You have advan- tage on all Charisma or Wisdom checks in connection to hearing, spreading or realizing the truth behind rumors.

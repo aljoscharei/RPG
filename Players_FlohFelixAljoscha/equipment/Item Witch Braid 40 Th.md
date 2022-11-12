@@ -1,0 +1,1 @@
+This braid is made from three types of hair or fur and keeps death at bay, giving advantage to death saving throws.

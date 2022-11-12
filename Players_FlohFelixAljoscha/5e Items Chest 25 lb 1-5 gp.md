@@ -1,0 +1,1 @@
+12 cubic feet/300 pounds gear

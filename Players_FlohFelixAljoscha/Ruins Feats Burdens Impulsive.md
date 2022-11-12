@@ -1,0 +1,2 @@
+• Bonus: +2 to Strength or Charisma  
+You act before thinking. This means that as soon as the player declares that the character does something, you act – and cannot have second thoughts. The only way for you to re- strain yourself is to take a point of temporary Corruption as your internal conflict allows darkness to seep in.

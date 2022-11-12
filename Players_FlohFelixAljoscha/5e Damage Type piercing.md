@@ -1,0 +1,1 @@
+ **Piercing.** Puncturing and impaling attacks, including spears and monsters' bites, deal piercing damage.

@@ -1,0 +1,1 @@
+**Force.** Force is pure magical energy focused into a damaging form. Most effects that deal force damage are spells, including **_magic missile_** and **_spiritual weapon_**.

@@ -1,0 +1,1 @@
+no negative Effect from fighting in Water

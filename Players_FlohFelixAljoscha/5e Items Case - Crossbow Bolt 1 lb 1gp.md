@@ -1,0 +1,1 @@
+This wooden case can hold up to twenty crossbow bolts.

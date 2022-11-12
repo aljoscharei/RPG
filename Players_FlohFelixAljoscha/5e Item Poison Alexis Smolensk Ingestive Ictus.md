@@ -1,0 +1,1 @@
+-   **Ictus:** causes partial paralysis and stiffening of the right arm, until it is immobilized completely for hours.

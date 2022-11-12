@@ -1,0 +1,1 @@
+A candle that emits poisonous fumes for 1 hour when lit; The poison is airborne and affects every- one within a 30-foot radius. The candle must burn for 1d4 turns before the poison is released, so the assassin can light it and leave the room before it takes effect. In all other ways it is the same as a regular poison, above.

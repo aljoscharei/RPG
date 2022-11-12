@@ -1,0 +1,16 @@
+- [ ] [[Ruins GM Index]]
+- [ ] Ruins of Symbaroum Charakterklassen: Bauen und vergleichen mit Classless
+	- [ ] [[202201061059 Ruins of symbaroum MOC]]
+	- [ ] [[Ruins-of-Symbaroum-Players-Guide.pdf]]
+	- [ ] [[201810162210 5e Player's Handbook]]
+	- [ ] [[Ruins of Symbaroum Classes]]
+	- [ ] [[5E_CharacterSheet_Fillable.pdf]]
+	- [ ] [[5e Markdown Character Sheet]]
+	- [ ] ![[Ruins of Symbaroum Sample PCs]]
+	- [ ] Combat lernen. Charaktere gegen Monster antreten lassen. 10x [[Ruins GM Index#Combat]]
+		- [ ] [[Ruins of Symbaroum Bestiary older buy copy paste from here.pdf]] for Environtment
+		- [ ] [[202012142026 Dungeon Delve]] for combat setups
+		- [ ] [[Encounters MOC]]
+		- [ ] [[fantastic lairs Sly Flourish]]
+		- [ ] [[202203202203 Faster Combat Course FC5e MOC]]
+- [ ] einen ganzen vormittag freinehmen dafür [[domain scale gaming Stronghold MOC]] 

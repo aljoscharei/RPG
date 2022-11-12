@@ -1,0 +1,2 @@
+• Bonus: +1 to your Strength modifier.  
+You are just at the edge of Medium size and have more muscle mass than most creatures your size. When determining your carrying capacity and lifting capacity you count as Large (double the amount a Medium creature can carry or lift). You also count as being Large when creatures try to grapple you.

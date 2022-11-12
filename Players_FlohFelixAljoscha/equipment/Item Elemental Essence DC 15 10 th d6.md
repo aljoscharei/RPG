@@ -1,0 +1,1 @@
+. If you apply a dose of elemental essence then either one melee weapon, four throwing weapons or all the arrows/bolts in a quiver deal an additional 1d4 ele- mental damage for 1 minute. The alchemist must choose which element to prepare: fire, cold, acid or lightning.

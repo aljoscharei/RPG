@@ -1,0 +1,1 @@
+echolote locates invisible target or complete darkness

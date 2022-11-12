@@ -1,0 +1,1 @@
+A wax candle that when lit makes living creatures (not undead or abominations) glow softly in the dark, making it harder to stay hidden (disadvantage on Dexterity (Stealth) checks and advantage on Wisdom (Perception checks) for everyone. This affects everyone within a 30-foot radius, including the one who lit the candle.  

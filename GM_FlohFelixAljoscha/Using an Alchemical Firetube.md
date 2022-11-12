@@ -1,0 +1,1 @@
+Firetubes have an area of effect. Instead of making an attack roll, creatures in the area of effect must make a Dexterity saving throw against a DC equal to 8 plus your proficiency bonus plus your Dexterity modifier. Crea- tures that succeed on the saving throw take half damage, those that fail take normal damage and are subject to any conditions until the end of their next turn.

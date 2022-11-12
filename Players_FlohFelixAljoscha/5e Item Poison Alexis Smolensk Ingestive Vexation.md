@@ -1,0 +1,1 @@
+-   **Vexation:** delivers sufficient damage to kill a 1st or 2nd [level](https://wiki.alexissmolensk.com/index.php/Experience_Level "Experience Level") character or most monsters up to 2 [hit dice](https://wiki.alexissmolensk.com/index.php/Hit_Dice "Hit Dice"). Particularly effective against common folk and vermin.

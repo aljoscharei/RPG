@@ -1,0 +1,1 @@
+-   **Somnikus:** induces sleep and helplessness, potentially causing some victims to lapse into a full coma.

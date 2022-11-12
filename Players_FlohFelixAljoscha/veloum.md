@@ -1,0 +1,1 @@
+Veloum. A brighter kind of beer, common among the clans north of Karvosti. Weaker than blackbrew but just as rich and with more flavor.

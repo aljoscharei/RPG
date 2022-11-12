@@ -1,0 +1,3 @@
+A character must take the Resting watch action for **two rest watches in a row** in order to gain the benefits of a **Long Rest**. (See the rules for [[5e Long Rest 8h]] regarding which types of interruptions are possible without disrupting the Resting action.)
+
+**Advanced Rule – Lack of Sleep**: If a character does not spend at least one full watch per day resting, they must succeed at a Constitution saving throw (DC 16 – the number of hours they slept, if any) or suffer a level of exhaustion.

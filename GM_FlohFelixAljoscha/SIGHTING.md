@@ -1,0 +1,3 @@
+During an active watch, a character can take a watch action to find an outlook – a good sighting place which will allow the character to significantly extend the distance to which they can see the surrounding wilderness. (See [[Spot Distances]] .)
+
+At the GM’s discretion, a skill check may be required to identify or reach the outlook. (For example, a Strength (Athletics) check to reach the top of an appropriately positioned tree.)

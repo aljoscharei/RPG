@@ -1,0 +1,1 @@
+At 1st level you gain proficiency with both [[5e Skills Arcana]] and [[5e Skills Religion]], representing your knowledge of transgressive magic and the proper teachings of the Church of Prios.

@@ -1,0 +1,1 @@
+ 1d8 [[5e Damage Type bludgeoning]] | 10 lb. | [[Weapon Properties 5e Two-Handed]]            

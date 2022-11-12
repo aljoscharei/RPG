@@ -1,0 +1,2 @@
+Some humans are sensitive to the ethereal echoes of Shadows and, when concentrating, can see them. If you take this feat, you can spend a bonus action and take 1d4 temporary Corruption to discern a creature’s Shadow, and judge it to be normal, blight-stricken, blight-marked or thoroughly corrupt (see page 38).
+The Gamemaster will compare your passive Insight to the target’s passive Deception. If you fail, you see the creature’s normal shadow, as it looked before suffering any corrupting influences.

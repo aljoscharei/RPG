@@ -1,0 +1,949 @@
+[[202109201232 Repetitorium Tabelle]]
+[[202110032121 Fälle Facharzt Anästhesie]]
+[[202001161143 Repetitorium Anästhesie 2017]]
+
+- DIVI Qualitätsindikatoren
+- 1 Physiologie der Atmung
+- 1.1 Anatomie – 4
+- 1.1.1 Topographie der Lunge – 4
+- 1.1.2 Muskeln der Ventilation – 4
+- 1.2 Äußere und innere Atmung – 5 Diffusion
+- 1.2.1 Ventilation u Totraumventilation – 5
+- 1.2.2 Lungenperfusion – 6
+- 1.2.3 Atemarbeit – 7 Widerstände
+- 1.2.4 Wirkungsgrad der Ventilation – 7
+- 1.3 Lungenvolumina und Lungenkapazitäten – 7 Closing Volume, Closing Capacity
+- 1.3.1 Veränderungen unter Anästhesie bzw. Analgosedierung – 10
+- 1.3.2 Messung der Atemmechanik – 10 Pleuradruck, Complicance Resistance
+- 1.4 Ventilationsstörungen (VS) – 12
+- 1.4.1 Flow-Volumen-Kurven – 12 Ventilationsstörungen Obstruktiv vs Restriktiv
+- 1.5 Berechnungen – 12 Hypoxie, Ischämie toranz der hypoxieformen
+- 1.5.1 O2-Bindungskapazität – 13 Hüfner-Zahl
+- 1.5.2 Sauerstoffgehalt (cO2) – 14 des Blutes 
+- 1.5.3 Arteriovenöse Sauerstoffgehaltsdifferenz (avDO2) – 14
+- 1.5.4 O2-Ausschöpfung (%) – 14
+- 1.5.5 O2-Partialdruck (pO2) – 14 Normwerte nach Alter
+- 1.5.6 Alveolärer Sauerstoffpartialdruck (pAO2) – 15 Pauktabelle
+- 1.5.7 Beurteilung des transpulmonalen O2-Austauschs – 15 Oxygenierungsindex, AdDO2, RL-Shunt, Resp Quot
+- 1.6 O2-Bindungskurve – 17 Links-Rechts-Verschiebung [[201709292204 Sauerstoffbindungskurve]]
+- 1.7 Apnoische Oxygenierung (AO) – 18
+- 1.7.1 Sauerstoffvorrat – 19 des gesamten Körper, RL vs FiO2 =1
+- 1.7.2 Verlauf der O2- und CO2-Partialdrücke unter Apnoe beim Erwachsenen – 19
+- 1.7.3 Intrapulmonale O2-Speicher – 19 PräOx
+- 2 Wasser-Elektrolyt- und Säure-Basen-Haushalt [[202110212249 Fall 09 Volumentherapie]]
+- 2.1 Wasserhaushalt – 22
+- 2.1.1 Verteilung der Körperflüssigkeiten – 22 Osmolalität Kolloidosmotischer Druck
+- 2.1.2 Tägliche Wasserabgabe und Flüssigkeitsbedarf – 22
+- 2.2 Flüssigkeitsersatzmittel – 23 Blutvolumina
+- 2.2.1 Kristalloide – 23 
+- 2.2.2 Kolloide (Plasmaersatzmittel, -expander) – 25
+- 2.2.3 Small Volume Resuscitation – 30
+- 2.2.4 Störungen des Wasserhaushaltes – 30 hypertone hypotone dehydrataion hyperhydratation
+- 2.3 Störungen des Elektrolythaushalts – 31
+- 2.3.1 Kalium – 31
+- 2.3.2 Kalzium – 33
+- 2.3.3 Natrium – 34
+- 2.4 Säure-Basen-Haushalt – 34
+- 2.4.1 Blutgasanalyse – 34
+- 2.4.2 Azidoseausgleich – 35
+- 2.4.3 Alkaloseausgleich – 36
+- 2.4.4 Anionenlücke – 36
+- 3 Blutgerinnung
+- 3.1 Hämostase (Gerinnung, Gerinnungshemmung und Fibrinolyse) – 38
+- 3.1.1 Vaskuläre Reaktion – 38
+- 3.1.2 Gerinnung (Koagulation) – 38 neues Zellorientiertes Gerinnungsmodell, Gerinnungsdiagnostik
+- 3.1.3 Natürliche Gerinnungshemmung – 43
+- 3.1.4 Medikamentöse Gerinnungshemmung (Antikoagulation) – 43 sämtliche Antikogulantien, indikationen und deren monitoring, Bridging, Blutung unter DOAK
+- 3.1.5 Fibrinolyse – 51 tPA, TXA
+- 3.1.6 Monitoring der Blutgerinnung – 54 Labor
+	- p56 (76) 
+		- Firbrinogen
+			- Ursachen für Verminderung
+				- Synthesestörungen
+					- Leberschaden
+				- Dilution
+				- Erhöhter Verbrauch
+					- DIC
+					- Hyperfibrinolyse
+			- Blutung durch mangel erst < 0,5g /l
+		- Faktor XIII
+			- Ursachen für Verminderung
+				- Synthesestörungen
+					- Leberschaden	
+					- Leukämie
+				- Erhöhter Verbrauch
+					- DIC
+					- Verbrennung und Polytrauma
+					- entzündliche Darmerkrankungen ![[Seitz1994.pdf]]
+		- AT III
+			- Ursachen für Verminderung
+				- Synthesestörung
+					- Leberschaden
+				- Dilution
+				- Erhöhter Verbrauch
+					- (Wundflächen, DIC)
+					- Sepsis	
+					- Dialyse
+- 3.1.7 Point-of-Care-Analyse der Gerinnung mittels Thrombelastometrie – 60 ROTEM und TEG
+- 3.1.8 Thrombozytenfunktionstests – 63
+- 3.2 Hämorrhagische Diathesen – 63
+- 3.2.1 Störungen der Blutgerinnung (Koagulopathien) – 63 DIC
+- 3.2.2 Traumainduzierte Koagulopathie (TIC) – 65 ^ab2302
+- 3.2.3 Akute perioperative Blutung – 67
+- 3.2.4 Erworbene Hemmkörperhämophilie – 70
+- 3.2.5 Von-Willebrand-Jürgens-Syndrom (vWJS) – 70
+- 3.2.6 Heparininduzierte Thrombozytopenie (HIT) – 72
+- 4 Blut und Blutprodukte
+- 4.1 Blutgruppen – 80
+- 4.1.1 AB0-System – 80
+- 4.1.2 Rhesus-Faktor – 80
+- 4.1.3 Weitere Blutgruppenantigene – 80
+- 4.2 Blutprodukte – 81 geschichte
+- 4.2.1 Stabilisatoren und Additivlösungen für Erythrozytenkonzentrate – 81
+- 4.2.2 Erythrozytenkonzentrat (EK) – 82 Leukozytendepletier, bestrahlt, gewaschen etc Transfusionstrigger
+- 4.2.3 Fresh-frozen Plasma (FFP) – 85
+- 4.2.4 Thrombozytenkonzentrat (TK) – 87
+- 4.3 Anämie – 88mFerritin, Transferrin, Transfusionswahrscheinlichkeit
+- 4.4 Patient-Blood-Management(PBM) – 91
+- 4.5 Transfusion – 92
+- 4.5.1 Indikationen zur Transfusion – 92 Zeugen Jehovas
+- 4.5.2 Maximal tolerabler Blutverlust (MTBV) – 92
+- 4.5.3 Verträglichkeitstests (Prophylaxe hämolytischer Transfusionsreaktionen) – 94 Kreuzproble Bedside, Coombs
+- 4.5.4 Auswahl von Erythrozytenkonzentraten – 95
+- 4.5.5 Nebenwirkungen und Komplikationen von Bluttransfusionen – 99 wenn kein Zwischenfall Infektiös und nichtinfektiös
+- 5 Monitoring
+- 5.1 Vorbetrachtungen – 102 DGAI, BDA
+- 5.2 Basis-/Sicherheitsmonitoring – 102
+- 5.2.1 EKG-Monitoring – 102 5k Ableitungspunkte etc
+- 5.2.2 Pulsoxymetrie – 104 Technik, Wellenlängen SpO2, paO2, variate Hämoglobine
+- 5.2.3 Blutdruckmessung – 105. Manschettengröße, NIBP, Art RR Swing Dämpfung, Zugänge
+- 5.2.4 In- und exspiratorisches Gasmonitoring – 109 FiO2, Kapno
+- 5.2.5 Messung der Körpertemperatur – 110 messorte
+- 5.2.6 Urinausscheidung (Blasenkatheter) – 112
+- 5.3 Erweitertes (hämodynamisches) Monitoring – 112
+- 5.3.1 Zentraler Venenkatheter (ZVK) und Messung des zentralen Venendrucks (ZVD) – 112
+- 5.3.2 Messung des Herzzeitvolumens (HZV) – 117 PiCCO, FloTrac PAK
+- 5.3.3 Echokardiographie – 133
+- 5.3.4 Blutgasanalyse (BGA) – 139 transcutanes CO2
+- 5.4 Neuromonitoring – 141
+- 5.4.1 Messung des intrakraniellen Drucks (ICP) – 141
+- 5.4.2 Messung der jugularvenösen O2-Sättigung (SvjO2) – 142
+- 5.4.3 Intraparenchymatöser Gewebssauerstoffpartialdruck (ptiO2) – 143 LiCOX
+- 5.4.4 Transkranielle Dopplersonographie (TCD) – 143
+- 5.4.5 Nahinfrarotspektroskopie (NIRS) – 143
+- 5.4.6 EEG-Registrierung – 144
+- 5.4.7 Evozierte Potenziale (SSEP, MEP, AEP) – 146
+- 5.5 Neuromuskuläres Monitoring – 147
+- 5.5.1 Pharmakologische Vorbetrachtungen – 147
+- 5.5.2 Relaxometrie (Nervenstimulation) – 147
+- 6 Kardiovaskulär wirksame Medikamente
+- 6.1 Katecholamine – 152 rezeptorverteilung second messengers, down-regulation, indikation,
+- 6.1.1 Natürliche Katecholamine – 153
+- 6.1.2 Künstliche Katecholamine – 157
+- 6.2 Phosphodiesterase-III-Hemmer bzw. Inodilatoren – 159
+- 6.2.1 Enoximon (Perfan) – 160
+- 6.2.2 Milrinon (Corotrop) – 160
+- 6.3 Kalzium-Sensitizer (Inoprotektoren) – 161
+- 6.3.1 Levosimendan (Simdax) – 161
+- 6.4 Kontrollierte Hypotension – 162
+- 6.4.1 Volatile Anästhetika – 162
+- 6.4.2 Blutdrucksenker – 162 Urapidin, nitro, Esmolol, Adenosin etc.
+- 7 Medikamenten- bzw. Arzneimittelinteraktionen (AMI)
+- 7.1 Grundlagen – 172 glykoprotein, CYPs etc
+- 7.2 Vermeidungsstrategie einer Arzneimittelinteraktion – 178 medication apropriateness index
+- 8 Physik für Anästhesisten
+- 8.1 Ohm-Gesetz – 180
+- 8.1.1 Variationen des Ohm-Gesetzes in der Anästhesie – 180
+- 8.2 Gasgesetze – 180
+- 8.3 Strömungen – 181
+- 8.3.1 Laminare Strömungen – 181 reynolds zahl, hagen poiseuille
+- 8.3.2 Laplace-Gleichung bzw. Young-Laplace Gleichung – 182
+- 8.3.3 Venturi-Effekt und Gesetz nach Bernoulli – 183
+- 9 Inhalationsanästhetika
+- 9.1 Pharmakologie der Inhalationsanästhetika – 188
+- 9.1.1 MAC – 188
+- 9.1.2 Spezielle Pharmakologie der Inhalationsanästhetika – 188
+- 9.2 Narkosetheorien bei Inhalationsanästhetika – 190
+- 9.3 Anforderungen an ein ideales Inhalationsanästhetikum – 191
+- 9.4 Phänomene der Inhalationsanästhetika – 191
+- 9.5 Einzelne Inhalationsanästhetika – 192
+- 9.5.1 Sevofluran – 192
+- 9.5.2 Desfluran – 194
+- 9.5.3 Isofluran – 195
+- 9.5.4 Halothan – 196
+- 9.5.5 Xenon – 197
+- 9.5.6 Stickoxydul/Lachgas – 198
+- 9.5.7 Sonstige – 199
+- 9.6 Atemkalk – 200
+- b
+- 9.8 Narkosestadien nach Guedel – 202
+- 10 Injektionsanästhetika
+- 10.1 Das ideale Injektionsanästhetikum – 206
+- 10.2 Einzelne Injektionsanästhetika – 206
+- 10.2.1 Propofol – 206
+- 10.2.2 Barbiturate – 210
+- 10.2.3 Benzodiazepine – 213
+- 10.2.4 Etomidat (Etomidat Lipuro, Hypnomidate) – 217
+- 10.2.5 Ketamin und S-Ketamin (Ketanest, Ketanest S) – 218
+- 10.2.6 Dexmedetomidin (Dexdor) – 220
+- 10.2.7 γ-Hydroxybuttersäure, kurz GHB (Somsanit) – 221
+- 10.2.8 Dehydrobenzperidol, DHB (Xomolix) – 222
+- 10.2.9 Chloralhydrat (Chloralhydrat-Rectiole) – 223
+- 10.3 Überblick über die Injektionsanästhetika – 224
+- 10.4 TIVA und TCI – 225
+- 10.4.1 TIVA (total intravenöse Anästhesie) – 225
+- 10.4.2 TCI (target controlled infusion) – 226
+- 10.4.3 Sicherheitsaspekte bei TIVA und TCI – 229
+- 11 Opioide
+- 11.1 Allgemeines – 233
+- 11.1.1 Definition – 233
+- 11.1.2 Geschichtliches über Opiate – 233
+- 11.1.3 Opioidrezeptoren – 233
+- 11.1.4 Einteilung der Opioide – 234
+- 11.1.5 Wirkmechanismus – 235
+- 11.1.6 Metabolismus – 235
+- 11.1.7 Indikationen – 236
+- 11.1.8 Kontraindikationen – 236
+- 11.1.9 Wirkungen und Nebenwirkungen – 236
+- 11.1.10 Wechselwirkungen – 238
+- 11.1.11 Peridurale und spinale Opioidgabe – 238
+- 11.1.12 Toleranz – 239
+- 11.1.13 Opioidinduzierte Hyperalgesie (OIH) – 239
+- 11.2 Einzelsubstanzen: Agonisten – 240
+- 11.2.1 Morphin (Morphin, MST, Sevredol u. a.) – 241
+- 11.2.2 Fentanyl (Fentanyl-Janssen) – 242
+- 11.2.3 Alfentanil (Rapifen) – 243
+- 11.2.4 Sufentanil (Sufenta, Sufenta epi) – 244
+- 11.2.5 Remifentanil (Ultiva) – 245
+- 11.2.6 Pethidin, Meperidin (Dolantin) – 246
+- 11.2.7 Piritramid (Dipidolor) – 247
+- 11.2.8 Tramadol (Tramal) – 248
+- 11.2.9 Oxycodon (Oxygesic, mit Naloxon: Targin) – 248
+- 11.2.10 Hydromorphon (Palladon) – 249
+- 11.2.11 Codein (Codipront) – 250
+- 11.2.12 Tilidin (Valoron) – 250
+- 11.2.13 Methadon (Polamindon) und Levo-Methadon (L-Polamindon) – 251
+- 11.3 Partialagonisten bzw. Antagonist-Agonisten – 252
+- 11.3.1 Pentazocin (Fortral) – 252
+- 11.3.2 Buprenorphin (Temgesic, Transtec) – 252
+- 11.3.3 Nalbuphin (Nubain) – 253
+- 11.4 Antagonisten – 253
+- 11.4.1 Naloxon (Narcanti) – 253
+- 11.4.2 Methylnaltrexon (Relistor) – 254
+- 11.5 Betäubungsmittelgesetz (BtMG) und Betäubungsmittelverschreibungsverordnung (BtMVV) – 255
+- 11.6 Opioide in der Schwangerschaft – 255
+- 12 Muskelrelaxanzien
+- 12.1 Allgemeines – 259
+- 12.1.1 Geschichte – 259
+- 12.1.2 Warum Muskelrelaxation bei einer Allgemeinanästhesie? – 259
+- 12.1.3 Einteilung der Muskelrelanxanzien (MR) – 259
+- 12.1.4 Wirkort der peripheren Muskelrelaxanzien – 259
+- 12.1.5 Rezeptoraufbau des postsynaptischen ACh-Rezeptors – 260
+- 12.1.6 Neuromuskuläre Blockade – 261 depolarisationsblock nichtgepolarisationsblock
+- 12.1.7 Definitionen – 261 ED 95 etc
+- 12.1.8 Allergische Reaktionen auf Muskelrelaxanzien – 262
+- 12.2 Depolarisierende Muskelrelaxanzien – 262
+- 12.2.1 Succinylcholin, Succinylbischolin, Suxamethonium (Lysthenon, Pantolax) – 262
+- 12.2.2 Succinylcholin bei Kindern – 265
+- 12.3 Nichtdepolarisierende Muskelrelaxanzien (ndMR) – 266
+- 12.3.1 Benzylisochinoline – 266
+- 12.3.2 Steroidderivate – 269
+- 12.4 Antagonisierung von Muskelrelaxanzien – 272
+- 12.4.1 Cholinesterasehemmer (Parasympathomimetika) – 272
+- 12.4.2 Steroidaler Muskelrelaxans-Enkapsulator (SMRE) – 274
+- 12.5 Versuch, die Anschlagzeit eines ndMR zu verkürzen – 275
+- 12.6 Typische und atypische Plasmacholinesterase und Dibucain-Test – 276
+- 12.7 Interaktionen zwischen Muskelrelaxanzien und ... – 276
+- 12.7.1 ... Muskelrelaxanzien – 276
+- 12.7.2 ... Inhalationsanästhetika – 277
+- 12.7.3 ... Antibiotika – 277
+	-  [[202111220152 Fall 33 VRE]] [[gelb]]
+- 12.7.4 ... induzierter Hypothermie – 277
+- 12.7.5 ... Elektrolytverschiebungen – 278
+- 12.7.6 ... anderen Medikamenten – 278
+- 12.7.7 ... Verbrennungspatienten – 278
+- 12.8 Parasympatholytika (Anticholinergika) – 278
+- 12.8.1 Atropin (Atropinsulfat) – 278
+- 12.8.2 Glykopyrronium (Robinul) – 280
+- 13 Lokalanästhetika
+- 13.1 Pharmakologie der Lokalanästhetika – 284
+- 13.1.1 Struktureller Aufbau der Lokalanästhetika – 284
+- 13.1.2 Wirkungsweise des Lokalanästhetikums – 285
+- 13.1.3 Physiologische Grundlagen – 286
+- 13.1.4 Dissoziationskonstante (pKa) eines Lokalanästhetikums – 287
+- 13.1.5 Blockade durch Lokalanästhetika – 288
+- 13.1.6 Repetitionsdosis und Toleranzentwicklung – 289
+- 13.2 Spezielle Pharmakologie der Lokalanästhetika – 289
+- 13.2.1 Unterteilung der Lokalanästhetika – 289
+- 13.2.2 Vasokonstriktorenzusatz – 290
+- 13.2.3 Abbau der Lokalanästhetika – 291
+- 13.2.4 Allgemeine Nebenwirkungen und Kontraindikationen der LA – 291
+- 13.2.5 Allergie auf Lokalanästhetika – 292
+- 13.3 Besonderheiten der einzelnen Lokalanästhetika – 292
+- 13.3.1 Injektionslokalanästhetika – 292
+- 13.3.2 Lokalanästhetika zur topischen Anwendung – 295
+- 13.4 Intoxikation mit Lokalanästhetika – 295
+- 13.4.1 Systemische Toxizität beeinflussende Faktoren – 295
+- 13.4.2 Toxizität der Einzelsubstanzen – 295
+- 13.4.3 Phasen der Intoxikation mit Lokalanästhetika – 296
+- 13.4.4 Maximaldosen der LA – 297
+- 13.4.5 Therapie der LA-Intoxikation – 297
+- 14 Narkosetheorien
+- 15 Präoperative Evaluation und Narkoserisiko
+- 15.1 Anamnese und körperliche Untersuchung – 308 Blutungsananese
+- 15.1.1 Risikoabschätzung – 310 Revised cardiac Risk Score, Goldmann, ASA, CCS Score, NYHA, Active cardiac condition, Kardiales Risikov on OPs  [[202111270505 Fall 36 Perioperative Risikoevaluation]]
+- 15.1.2 Diagnostik – 313 wann genau EKG
+- 15.2 Aufklärung/Einwilligung – 316
+- 15.2.1 Impfung und Anästhesie – 316
+- 15.3 Präoperative Dauermedikation – 317
+- 15.3.1 Weitergeben am Morgen des Operationstags – 317
+- 15.3.2 Ab- oder Umsetzen von Medikamenten – 318
+- 15.4 Medikamentöse Prämedikation – 322
+- 15.4.1 Ziele der medikamentösen Prämedikation – 322
+- 15.4.2 Medikamente zur Prämedikation – 322
+- 15.4.3 Besonderheiten bei der medikamentösen Prämedikation – 323
+- 15.4.4 Präoperative Nüchternheit – 323
+- 15.5 Spezielle Situationen oder Vorerkrankungen – 325
+- 15.5.1 Diabetes mellitus (DM) – 325 [[202110171716 Fall 02 Diabetes mellitus]]
+- 15.5.2 Erhöhte Aspirationsgefahr – 325
+- 15.5.3 Schwere allergische Diathese – 326
+- 15.5.4 Endokarditisrisiko – 326
+- 15.5.5 Phäochromozytom – 326
+- 15.5.6 Präoperatives Rauchverbot – 326
+- 15.6 Anästhesierisiko – 327
+- 16 Narkosesysteme
+- 16.1 Klassifizierung der Narkosesysteme – 330
+- 16.1.1 Historie – offene Narkosesysteme – 330
+- 16.1.2 Rückatmungssysteme und Nichtrückatmungssysteme – 330
+- 16.2 Einteilung der Rückatmungssysteme – 332
+- 16.2.1 Narkosegeräte ohne Frischgasflowkompensation (ohne Gasreservoir) – 332
+- 16.2.2 Narkosegeräte mit Frischgasflowkompensation (Gasreservoir) – 333
+- 16.2.3 Frischgaseinleitung – 335
+- 16.2.4 Applikation von Gasen und volatilen Anästhetika – 335
+- 16.2.5 Volatile Anästhetika – 336
+- 16.2.6 Sicherheitsvorschriften für Narkosegeräte – 336
+- 16.3 Niedrigflusstechniken (Low-flow, Minimal-flow) – 336
+- 16.3.1 Vorteile der Niedrigflussnarkose gegenüber der High-flow-Technik – 336
+- 16.3.2 Gasaufnahme – 337
+- 16.3.3 Praxis der Niedrigflussnarkose – 337
+- 16.3.4 Charakteristika der Niedrigflussnarkosen – 338
+- 16.3.5 Zeitkonstante – 339
+- 16.3.6 Steuerung der Niedrigflussnarkose – 340
+- 16.3.7 Monitoring von Niedrigflussnarkosen – 340
+- 16.3.8 Kontraindikationen für Niedrigflussnarkosen – 340
+- 16.3.9 Low-flow in der Kinderanästhesie – 341
+- 16.3.10 Eignung von Inhalationsanästhetika zur Niedrigflussnarkose – 341
+- 17 Atemwegsmanagement
+- 17.1 Intubation – 345
+- 17.1.1 Intubationsarten – 345
+- 17.1.2 Intubationskriterien – 345
+- 17.1.3 Sichere Intubationszeichen – 345
+- 17.1.4 Unsichere Intubationszeichen – 345
+- 17.1.5 Unterdrückung des Intubationsreizes – 345
+- 17.1.6 Tubusarten – 345
+- 17.1.7 Komplikationen der Intubation – 345
+- 17.1.8 Larynxmaske (LMA) – 346
+- 17.1.9 ProSeal-Larynxmaske (PLMA) – 348
+- 17.1.10 Supraglottische Atemhilfe i-gel – 348
+- 17.1.11 Larynxtubus (LT) – 348
+- 17.1.12 Doppellumen-Larynxtubus (LTS) – 349
+- 17.1.13 Cuffed Oropharyngeal Airway (COPA) – 349
+- 17.2 Schwierige Intubation – 350
+- 17.2.1 Definitionen – 350
+- 17.2.2 Bedeutung der Atemwegssicherung – 351
+- 17.2.3 Inzidenz der schwierigen Intubation – 352
+- 17.2.4 Allgemeine Zeichen und warnende Hinweise für eine schwierige Intubation – 352
+- 17.2.5 Klinische Screeningverfahren bezüglich einer schwierigen Intubation – 353 Arné Score
+- 17.2.6 Management bei unerwarteter schwieriger Intubation – 355
+- 17.3 Management bei Misslingen der Intubation, aber guter Ventilationsmöglichkeit – 358
+- 17.4 Management bei Misslingen von Ventilation und Intubation (cannot intubate, cannot ventilate!) – 358
+- 17.4.1 Möglichkeiten bei Erfolglosigkeit – 358
+- 17.5 Management bei erwarteter schwieriger Intubation – 360
+- 17.5.1 Sorgfältige Vorbereitung – 360
+- 17.6 Detaillierte Erläuterung bestimmter Maßnahmen – 361
+- 17.6.1 Blind-nasale Intubation – 361
+- 17.6.2 Notfallkrikothyreotomie (Koniotomie) – 361
+- 17.6.3 Bronchoskopische (Wach)-Intubation – 362
+- 17.6.4 Postoperative Umintubation – 363
+- 17.7 Bronchoskopie – 363
+- 17.7.1 Bronchoskopeinteilung – 363
+- 17.7.2 Aufbau des flexiblen Fiberendoskops – 363
+- 17.7.3 Starre Bronchoskopie (mit IPPV oder Hochfrequenzbeatmung) – 363
+- 17.7.4 Flexible, fiberoptische Bronchoskopie – 364
+- 17.7.5 Durchführung der Bronchoskopie – 364
+- 17.7.6 Gliederung der oberen und unteren Luftwege – 368
+- 17.8 Beurteilung von Behandlungsverfahren beim Atemwegsmanagement – 368
+- 18 Intraoperative Beatmung
+- 18.1 Einführung – 370 post OP ARDS
+- 18.2 Intraoperative, lungenprotektive Beatmung – 370
+- 19 Regionalanästhesie Geschichte
+- 19.1 Rückenmarknahe Regionalanästhesie, Spinal-, Periduralan- ästhesie (SPA/PDA) – 375
+- 19.1.1 Anatomie – 375
+- 19.1.2 Reihenfolge der Blockade – 376
+- 19.1.3 Ausdehnung der Blockade – 377
+- 19.1.4 Indikationen (SPA/PDA) – 377
+- 19.1.5 Operativer Eingriff und erforderliche Anästhesieausdehnung – 379
+- 19.1.6 Frühkomplikationen – 379
+- 19.1.7 Postoperative Komplikationen – 381
+- 19.1.8 Rückenmarksnahe Anästhesie und Antikoagulation – 383 DGAI tabelle
+- 19.1.9 Prämedikation – 383
+- 19.2 Spinalanästhesie (SPA) – 383
+- 19.2.1 Anatomie – 385
+- 19.2.2 Besonderheiten bei der SPA – 385
+- 19.2.3 Technik der SPA – 385 kanülengrößen
+- 19.2.4 Probleme bei der Punktion – 387
+- 19.2.5 Komplikationen – 387
+- 19.2.6 Sattelblock (tiefe Spinalanästhesie) – 387
+- 19.2.7 Spinalanästhesie zur Sectio caesarea – 387
+- 19.2.8 Spinalanästhesie bei pädiatrischen Patienten – 387
+- 19.3 Periduralanästhesie (PDA) – [[387202110251818 Fall 13 PDK]] ^PDK
+- 19.3.1 Anatomie – 388
+- 19.3.2 Besonderheiten bei der PDA – 388
+- 19.3.3 Vorteile – 388
+- 19.3.4 Technik der PDA – 388 LOR, hängender tropfen
+- 19.3.5 Besonderheiten der thorakalen PDA – 391
+- 19.3.6 Kombinierte Spinal-, Periduralanästhesie (CSE) – 392
+- 19.3.7 PDA in der Geburtshilfe – 392
+- 19.3.8 Peridurale Opioide – 392
+- 19.3.9 Clonidin (Catapresan) peridural – 393
+- 19.4 Kaudalanästhesie/Sakralblock – 393
+- 19.5 Plexus-cervicalis-Blockade – 394
+- 19.5.1 Oberflächliche Blockade – 394
+- 19.5.2 Tiefe Blockade (C2–C4) – 395
+- 19.5.3 Spezielle Komplikationen/Anmerkung – 395
+- 19.6 Übersicht periphere Nervenblockaden – 395
+- 19.6.1 Plexus-cervicobrachialis-Blockade (C4)-C5–Th1 – 395
+- 19.6.2 Interskalenäre Plexusblockade (nach Meier) – 399
+- 19.6.3 Blockade des N. suprascapularis – 401
+- 19.6.4 Supraklavikuläre Plexusblockade (Kulenkampff ) – 401
+- 19.6.5 Vertikale infraklavikuläre Plexusblockade (VIB) nach Kilka und Mehrkens – 402
+- 19.6.6 Axilläre Plexusblockade (Hirschel) – 403
+- 19.6.7 Synopsis der Plexusblockaden – 404
+- 19.6.8 Blockaden am Oberarm – Mehrstimulationstechnik (mid humeral approach nach Duprè) – 405
+- 19.6.9 Plexus lumbosacralis („3-in-1-Block“) – 405
+- 19.6.10 Blockade des N. saphenus – 406
+- 19.6.11 Blockade des N. obutatorius – 407
+- 19.6.12 Ischiadikusblockade (proximal) – 407
+- 19.6.13 Psoas-Kompartmentblock – 408
+- 19.6.14 Transversus-Abdominalis-Plane-Blockade (TAP-Block) – 409
+- 19.6.15 i.v.-Regionale (Bier-Block) – 409
+- 19.6.16 Periphere Nervenblockaden – 410 Tabelle
+- 19.6.17 Fußblock – 416
+- 20 Lagerung
+- 20.1 Einzelne Lagerungen – 418
+- 20.1.1 Rückenlage – 418
+- 20.1.2 Bauchlage/Concord – 418
+- 20.1.3 Seitenlage – 418
+- 20.1.4 Steinschnittlage – 419
+- 20.1.5 Knie-Ellenbogen-Lage – 419
+- 20.1.6 Beach-chair-Lagerung – 420
+- 21 Anästhesie in der Allgemein- und Abdominalchirurgie
+- 21.1 Vorbemerkungen/Grundsätze – 424
+- 21.2 Besonderheiten bei speziellen Eingriffen – 424
+- 21.2.1 „Große“ intraabdominelle Eingriffe – 424
+- 21.2.2 „Kleinere“ intraabdominelle Eingriffe – 425
+- 21.2.3 Laparoskopische Eingriffe (CCE, Appendektomie, Herniotomie) – 425
+- 21.2.4 Operationen an der Schilddrüse und den Nebenschilddrüsen – 425
+- 22 Anästhesie in der Gefäßchirurgie
+- 22.1 Vorbemerkungen/Grundsätze – 428
+- 22.2 Besonderheiten bei der Prämedikationsvisite – 428
+- 22.3 Karotischirurgie (Karotis-TEA) – 429
+- 22.3.1 Narkoseführung – 429
+- 22.4 Aortenchirurgie – 431
+- 22.4.1 Abdominelles Aortenaneurysma (AAA) – 431
+- 22.4.2 Thorakoabdominelles Aortenaneurysma (TAAA) und thorakales Aortenaneurysma (TAA) – 435
+- 22.4.3 AVK der Aorta – 437
+- 22.5 Periphere Gefäßchirurgie – 437
+- 22.5.1 AVK der peripheren Gefäße – 437
+- 22.5.2 Venöse Thrombektomie – 438
+- 23 Anästhesie in der Urologie
+- 23.1 Vorbemerkungen/Grundsätze – 440
+- 23.2 Besonderheiten bei speziellen Eingriffen – 440
+- 23.2.1 Transurethrale Elektroresektion der Prostata (TUR-Prostata) – 440
+- 23.2.2 Transurethrale Elektroresektion der Blase (TUR-Blase) – 440
+- 23.2.3 Ureterorenoskopie (URS) – 440
+- 23.2.4 Perkutane Nephrolitholapaxie – 441
+- 23.2.5 Tumorchirurgie (radikale Prostatektomie/Zystektomie, Neoblase, Ileumconduit, Tumornephrektomie) – 441
+- 23.2.6 Roboterassistierte laparoskopische Prostatektomie („DaVinci“) – 441
+- 23.2.7 Retroperitoneale Lymphadenektomie – 442
+- 23.2.8 Nierentransplantation (NTPL) – 442
+- 23.2.9 Extrakorporale Stoßwellenlithotripsie (ESWL) – 443
+- 23.2.10 HIFU („high intensity focused ultrasound“) – 443
+- 23.2.11 Anästhesie bei Querschnittsgelähmten – 443
+- 23.2.12 Kinderurologische Eingriffe – 443
+- 24 Anästhesie in der Gynäkologie und Geburtshilfe
+- 24.1 Physiologische Veränderungen in der Schwangerschaft – 447
+- 24.2 Anästhesie und Uterusaktivität – 448
+- 24.2.1 Inhalationsanästhetika – 448
+- 24.2.2 i.v.-Anästhetika – 448
+- 24.2.3 Lokalanästhetika – 448
+- 24.2.4 Vasopressoren – 448
+- 24.2.5 Oxytocin (Syntocinon) – 449
+- 24.2.6 Methylergometrin (Methergin) – 449
+- 24.2.7 β-Rezeptorenstimulatoren (Tokolytika) – 449
+- 24.3 Wirkung von Pharmaka auf den Feten – 450
+- 24.3.1 Barbiturate – 450
+- 24.3.2 Ketamin – 450
+- 24.3.3 Opioide – 451
+- 24.3.4 Benzodiazepine – 451
+- 24.3.5 Neuroleptika – 451
+- 24.3.6 Inhalationsanästhetika – 451
+- 24.3.7 Muskelrelaxanzien – 451
+- 24.3.8 Lokalanästhetika – 451
+- 24.4 Maternale Sterblichkeit in den Industriestaaten – 452
+- 24.4.1 Entwicklung in den letzten Jahrzehnten – 452 why mothers die
+- 24.4.2 Risikopatientinnen in der Geburtshilfe – 453
+- 24.4.3 Übergewichtige/adipöse Schwangere – 453
+- 24.5 Der normale Geburtsverlauf – 453
+- 24.5.1 Drei Phasen – 453
+- 24.5.2 Blutverlust während der Geburt – 454
+- 24.5.3 HZV – 454
+- 24.6 Sectio caesarea – 454
+- 24.6.1 Sectio in Allgemeinanästhesie – 454
+- 24.6.2 Sectio in Spinalanästhesie – 457
+- 24.6.3 Sectio in Periduralanästhesie – 460
+- 24.7 Analgesie im Kreißsaal – 460
+- 24.7.1 Intravenöse Analgesieverfahren – 460
+- 24.7.2 Inhalation von Lachgas – 460
+- 24.7.3 Rückenmarksnahe Analgesieverfahren – 461
+- 24.7.4 Methodik PDA – 462
+- 24.8 Anästhesie während der Schwangerschaft – 462
+- 24.8.1 Probleme – 462
+- 24.8.2 Anästhesiologisches Management – 463
+- 24.9 Hypertensive Schwangerschaftserkrankungen und peripartale Komplikationen – 464
+- 24.9.1 Schwangerschaftsinduzierter Hypertonus (SIH) – 464
+- 24.10 Präeklampsie – 465
+- 24.10.1 Eklampsie – 467
+- 24.10.2 HELLP-Syndrom – 467
+- 24.10.3 Anästhesiologisches Management – 467
+- 24.10.4 Fruchtwasserembolie („Amnioninfusionssyndrom“) – 468
+- 24.10.5 Uterusruptur – 468
+- 24.11 Postpartale Blutung (PPH) – 468 SOP
+- 25 Erstversorgung und Anästhesie bei Neugeborenen
+- 25.1 Erstversorgung des Neugeborenen – 476
+- 25.1.1 Umstellung zum Zeitpunkt der Geburt – 476
+- 25.1.2 Neonatale Asphyxie – 476
+- 25.1.3 Erstmaßnahmen nach der Geburt – 476
+- 25.1.4 Apgar-Index – 476
+- 25.1.5 Beurteilung von Atmung, Muskeltonus und Herzfrequenz – 477
+- 25.1.6 Reanimation des Neugeborenen – 478
+- 25.1.7 Spezielle Neugeborenenversorgung – 478
+- 25.2 Anästhesie bei Neugeborenen – 479
+- 25.2.1 Besonderheiten bei speziellen Eingriffen – 479
+- 26 Anästhesie bei Kindern [[202111250428 Fall 35 Kinderanästhesie]] [[202111021728 Fall 35 Kinderanästhesie MOC]]
+- 26.1 Anatomische und physiologische Besonderheiten – 482
+- 26.1.1 Anatomische Besonderheiten – 482
+- 26.1.2 Physiologische Besonderheiten – 482
+- 26.2 Anästhesiologisches Management – 487
+- 26.2.1 Präoperative Vorbereitung – 487
+- 26.2.2 Pharmakologische Prämedikation – 489
+- 26.2.3 Besonderheiten von Anästhetika in der Kinderanästhesie – 489
+- 26.2.4 Narkoseeinleitung – 490
+- 26.2.5 Inhalationsanästhesie – 494
+- 26.2.6 Totale intravenöse Anästhesie (TIVA) – 494
+- 26.2.7 Balancierte Anästhesie – 494
+- 26.2.8 Tubuswahl (mit/ohne Cuff ) – 494
+- 26.2.9 Anwendung von speziellen Beatmungssystemen – 496
+- 26.2.10 Gesichtsmasken nach Rendell-Baker – 497
+- 26.2.11 Gefäßzugänge (je nach Alter) – 497
+- 26.2.12 Monitoring – 497
+- 26.2.13 Auswahl an Medikamenten in der Kinderanästhesie – 499 Tabelle
+- 26.2.14 Spezielle Situationen bei Kindern – 499
+- 26.3 Regionalanästhesie bei Kindern – 503
+- 26.3.1 Lokalanästhetika im Kindesalter – 504
+- 26.3.2 Anatomische Besonderheiten des Neugeborenen und Kleinkind – 504
+- 26.3.3 Pharmakokinetische Besonderheiten des Neugeborenen und Kleinkinds – 505
+- 26.3.4 Technik der Regionalanästhesie – 505 PDA Kaudale, Peniswurzelblock etc
+- 27 Anästhesie in der Hals-Nasen- Ohren-Heilkunde
+- 27.1 Vorbemerkungen/Grundsätze – 512
+- 27.2 Besonderheiten bei speziellen Eingriffen – 512
+- 27.2.1 Ohroperation (Tympanoplastik, Stapesplastik, Cholesteatom) – 512
+- 27.2.2 „Kleine“ Ohroperation (Parazentese, Paukenröhrchen) – 512
+- 27.2.3 Adenotomie (AT), Tonsillektomie (TE) – 512
+- 27.2.4 Tonsillen-, Pharynxabszess („heiße Tonsillektomie“) – 513
+- 27.2.5 Nasenbluten (Epistaxis), Nachblutung nach AT, TE – 513
+- 27.2.6 Kieferhöhlen-, Siebbein-, Stirnhöhlenausräumung (Pansinuoperation) Nasenoperation (Septumplastik, funktionelle Rhinoplastik) – 513
+- 27.2.7 Uvulopalatopharyngoplastik (UPPP) – 513
+- 27.2.8 Parotidektomie (Glandula parotis) – 513
+- 27.2.9 Direkte Laryngoskopie, Ösophagoskopie, Panendo – 513
+- 27.2.10 Fremdkörperentfernung – 514
+- 27.2.11 Laryngektomie, Neck dissection – 514
+- 27.2.12 Laryngeale Laserchirurgie – 514
+- 27.2.13 Tracheotomie – 514
+- 27.2.14 Stimmbandchirurgie oder MLS – 514
+- 28 Anästhesie in der Mund- Kiefer-Gesichtschirurgie
+- 28.1 Vorbemerkungen/Grundsätze – 518
+- 28.2 Besonderheiten bei speziellen Eingriffen – 518
+- 28.2.1 Zahnsanierung – 518
+- 28.2.2 Zystektomie (Ober- oder Unterkiefer) – 518
+- 28.2.3 Abszess/Phlegmone im Mundboden-, Kiefer-, Wangen- oder Halsbereich – 518
+- 28.2.4 Kieferorthopädische Eingriffe (frontobasales Advancement) – 519
+- 28.2.5 Mittelgesichtsfrakturen, Kieferfrakturen – 519
+- 28.2.6 Kraniofaziale Operation (Lippen-Kiefer-Gaumenspalte, Pierre-Robin-Syndrom) – 519
+- 28.2.7 Tumoren im Kiefer-Gesichts-Bereich – 520
+- 29 Anästhesie in der Augenheilkunde
+- 29.1 Vorbemerkungen/Grundsätze – 522
+- 29.1.1 Okulokardialer Reflex – 523
+- 29.2 Besonderheiten bei speziellen Eingriffen – 523
+- 29.2.1 Katarakt, Vitrektomie – 523
+- 29.2.2 Keratoplastik (KPL) – 523
+- 29.2.3 Glaukom-Operation – 523
+- 29.2.4 Amotio-Operation, Cerclage, Plombe – 523
+- 29.2.5 Tränengangsspülung, Dakryozystorhinostomie – 523
+- 29.2.6 Perforierende Augenverletzung – 523
+- 29.2.7 Enukleation – 523
+- 29.2.8 Strabismus – 524
+- 29.2.9 Diagnostische Augenuntersuchung in Narkose – 524
+- 30 Anästhesie in der Traumatologie und Orthopädie
+- 30.1 Vorbemerkungen/Grundsätze – 526
+- 30.2 Besonderheiten bei speziellen Eingriffen – 526
+- 30.2.1 Totale Endoprothese der Hüfte (Hüft-TEP) – 526
+- 30.2.2 Knie-TEP – 527
+- 30.2.3 Schulter-TEP/ASK – 527
+- 30.2.4 Wirbelsäulenoperationen – 527
+- 30.2.5 Eingriffe im Beckenbereich – 528
+- 31 Anästhesie in der Neurochirurgie
+- 31.1 Hirndruck (ICP) und Hirndurchblutung (CBF) – 530
+- 31.1.1 Komponenten des intrakraniellen Volumens – 530
+- 31.1.2 Hirndurchblutung (CBF) und zerebraler Perfusionsdruck (CPP) – 530
+- 31.2 Neuromonitoring – 532
+- 31.3 Therapie bei erhöhtem intrakraniellem Druck – 532
+- 31.3.1 Grundsätze – 532
+- 31.3.2 Angestrebte Ziele – 532
+- 31.4 Durchführung der Anästhesie bei Kraniotomie – 535
+- 31.5 Besonderheiten bei speziellen Eingriffen – 537
+- 31.5.1 Hirntumor – 537
+- 31.5.2 Aneurysma der Hirngefäße – 537
+- 31.5.3 Hypophysentumor – 537
+- 31.5.4 Shunt-Operation – 538
+- 31.5.5 Rückenmark-/Wirbelsäulenoperation – 538
+- 31.5.6 Janetta-Operation – 539
+- 31.5.7 Sitzende Position – 539
+- 31.5.8 Schädel-Hirn-Trauma (SHT) – 540
+- 32 Anästhesie in der Thoraxchirurgie
+- 32.1 Prämedikationsvisite – 546
+- 32.1.1 Anamnese – 546
+- 32.1.2 Körperliche Untersuchung – 546
+- 32.1.3 Standarduntersuchungen – 546
+- 32.1.4 Grenzwerte der Lungenfunktion für allgemeinchirurgische Eingriffe, die auf erhöhte Morbiditäts- und Mortalitätsrisiken hinweisen – 546
+- 32.1.5 Präoperative Funktionsdiagnostik bei thoraxchirurgischen Eingriffen – 547
+- 32.1.6 Zusätzliche Untersuchungsverfahren bei Risikopatienten – 548
+- 32.1.7 Präoperative Vorbereitung – 549
+- 32.1.8 Besonderheiten bei Einleitung – 549
+- 32.2 Intraoperatives Monitoring – 549
+- 32.2.1 Doppellumenintubation – 550
+- 32.2.2 Besonderheiten der Seitlagerung – 552
+- 32.3 Ein-Lungen-Ventilation – 552
+- 32.3.1 Pathophysiologie der Ein-Lungen-Ventilation – 552
+- 32.3.2 Hypoxische pulmonale Vasokonstriktion (HPV) – 553
+- 32.3.3 Wahl des Anästhesieverfahrens – 554
+- 32.3.4 Beatmung unter Ein-Lungen-Ventilation – 555
+- 32.4 Anästhesie für spezielle Situationen – 555
+- 32.5 Postoperatives Management und Komplikationen – 556
+- 33 Anästhesie in der Kardiochirurgie
+- 33.1 Besonderheiten bei der Prämedikationsvisite – 559
+- 33.1.1 Anamnese – 559
+- 33.1.2 Körperliche Untersuchung – 559
+- 33.1.3 Aktenstudium – 559
+- 33.1.4 Medikamentöse Prämedikation – 559
+- 33.2 Narkoseführung – 560
+- 33.2.1 Monitoring, Ausstattung – 560
+- 33.2.2 Einleitung – 560
+- 33.2.3 Mögliche Narkosetechniken – 560
+- 33.2.4 Zwischen Einleitung und Hautschnitt – 561
+- 33.2.5 Fremdblutsparende Maßnahmen – 561
+- 33.3 Operationsablauf mit Herz-Lungen-Maschine (HLM) – 562
+- 33.3.1 Extrakorporale Zirkulation (EKZ), extrakorporaler Kreislauf (EKK) – 562
+- 33.3.2 Vorgehen vor EKK – 564
+- 33.3.3 Vorgehen am EKK – 564
+- 33.3.4 Vorgehen beim Beenden des EKK – 567
+- 33.3.5 Probleme und Komplikationen post EKK – 570
+- 33.4 Besonderheiten bei speziellen Eingriffen – 570
+- 33.4.1 Koronarer Bypass (MCB oder IMA, ACVB) – 570
+- 33.4.2 Herzklappenerkrankungen – 571
+- 33.4.3 Narkose bei zyanotischen Vitien – 572
+- 33.4.4 Narkose bei Herzbeuteltamponade – 572
+- 33.4.5 Narkose bei Patienten mit implantierten Herzunterstützungssystemen – 572
+- 33.4.6 Narkose zur Herztransplantation (HTPL) – 573
+- 33.4.7 Narkose bei herztransplantierten Patienten für nichtkardiochirurgische Eingriffe – 574
+- 34 Anästhesie zur Lebertransplantation
+- 34.1 Pathophysiologische Besonderheiten – 578
+- 34.2 Anästhesiologisches Management – 578
+- 34.2.1 Prämedikation, Vorbereitungen – 578
+- 34.2.2 Monitoring – 579
+- 34.2.3 Narkoseführung – 579
+- 34.3 Chirurgische Technik – 579
+- 34.3.1 Präparationsphase – 579
+- 34.3.2 Anhepatische Phase – 579
+- 34.3.3 Reperfusion – 580
+- 34.4 Anästhesiologische Besonderheiten – 580
+- 34.4.1 Transfusion – 580
+- 34.4.2 Gerinnung – 580
+- 34.4.3 Elektrolyte – 581
+- 34.4.4 Glukose – 581
+- 34.4.5 Säure-Basen-Haushalt – 582
+- 34.4.6 Niere – 582
+- 34.4.7 Körpertemperatur – 582
+- 34.4.8 O2-Verbrauch – 582
+- 34.4.9 Besonderheiten bei Kindern – 582
+- 35 Anästhesie bei geriatrischen und hochbetagten Patienten [[202203201352 hochbetagt Geriatrische Anästhesie MOC]]
+- 35.1 Physiologische Veränderungen – 586
+- 35.1.1 Physiologische Alterungsprozesse – 586
+- 35.1.2 Pharmakologische, altersbedingte Veränderungen – 587
+- 35.1.3 Anästhesiologisches Management von geriatrischen und hochbetagten Patienten – 588
+- 36 Anästhesie bei minimal- invasiver Chirurgie
+- 36.1 Auswirkungen eines Pneumoperitoneum – 592
+- 36.1.1 Besonderheiten des Kapnoperitoneums – 593
+- 36.1.2 CO2-Speicherkompartimente – 593
+- 36.1.3 Elimination des intraperitoneal insufflierten CO2 – 593
+- 36.2 Komplikationen des Pneumoperitoneums – 594
+- 37 Anästhesie bei Patienten mit implantierten Herzschrittmachern und/oder De brillatoren
+- 37.1 Herzschrittmacher – 596
+- 37.1.1 Einige Schrittmacherfunktionsmodi und deren Abkürzungen – 596
+- 37.1.2 Allgemeine SM-Probleme/Komplikationen – 596
+- 37.1.3 Möglichkeiten der intraoperativen SM-Stimulation – 597
+- 37.1.4 Anstieg der Reizschwelle von Herzschrittmachern – 597
+- 37.1.5 Anästhesie zur Anlage eines Herzschrittmachers – 597
+- 37.1.6 Anästhesie bei Patienten mit Herzschrittmacher – 598
+- 37.2 Implantierbare antitachykarde Schrittmachersysteme (Defibrillator) – 599
+- 37.2.1 Anästhesie zur Anlage eines Defibrillators – 600
+- 38 Anästhesie bei ambulanten Operationen
+- 38.1 Einführung – 604
+- 38.1.1 Auswahlkriterien zur Durchführung ambulanter Anästhesien – 604
+- 38.1.2 Ungeplante Krankenhausaufnahmen nach ambulanter Operation – 605
+- 38.2 Praktisches Vorgehen – 605
+- 38.2.1 Ausstattung des Anästhesiearbeitsplatzes – 605 tabelle
+- 38.2.2 Aufklärung – 605
+- 38.2.3 Perioperative Nüchternheit – 606
+- 38.2.4 Narkoseführung – 606 Lokale
+- 38.2.5 Postoperative Schmerztherapie im ambulanten Bereich – 608
+- 38.2.6 Postoperative Überwachung und Entlassung – 608
+- 38.2.7 Ambulante Anästhesie bei Kindern – 609
+- 39 Akute perioperative Schmerztherapie
+- 39.1 Allgemeines – 615
+- 39.1.1 Einführung – 615
+- 39.1.2 Organisationsstrukturen – 616
+- 39.1.3 Basisanalgesie – 617
+- 39.1.4 Schmerzmessung – 617
+- 39.1.5 Risiken der medikamentösen Schmerztherapie – 618
+- 39.1.6 Risikofaktoren für eine insuffiziente/schwierige Schmerztherapie – 619
+- 39.2 Medikamentöse postoperative Schmerztherapie – 619
+- 39.2.1 Medikamentenauswahl – 619
+- 39.2.2 Opioide – 619
+- 39.2.3 Nicht-Opioid-Analgetika – 620
+- 39.2.4 Formen der Medikamentenapplikation – 624
+- 39.3 Koanalgetika in der akuten postoperativen Schmerztherapie – 626
+- 39.3.1 Trizyklische Antidepressiva (TZA) und selektive Serotonin- und Noradrenalin-Aufnahmehemmer (SNRI) – 626
+- 39.3.2 Antiepileptika – 626
+- 39.3.3 Clonidin (Catapresan) – 626
+- 39.3.4 Butylscopolamin (Buscopan) – 627
+- 39.4 Therapie von Nebenwirkungen der akuten postoperativen Schmerztherapie – 627 Übelkeit, Erbrechen
+- 39.5 Lokal- und Regionalanästhesie des Erwachsenen – 628
+- 39.5.1 Vorteile regionaler Techniken – 628
+- 39.5.2 Mögliche regionalanalgetische Verfahren – 628
+- 39.6 Spezielle Schmerztherapie – 631
+- 39.6.1 Opioidgewöhnte Patienten – 631  [[202203151341 Schmerzpatienten]]
+- 39.6.2 Kinder – 632
+- 39.6.3 Geriatrische Patienten – 637
+- 39.6.4 Schwangere – 638
+- 39.7 Notfälle in der Schmerztherapie – 638
+- 39.7.1 Opoidbedingte Atemdepression – 638
+- 39.7.2 Lokalanästhetikaintoxikation – 639
+- 39.7.3 Sekundäre spinale oder intravenöse Katheter unter PCEA – 639
+- 39.7.4 Spinales, epidurales Hämatom oder Abszess – 639
+- 39.8 Sonstige Therapiemöglichkeiten bei postoperativen Schmerz – 640
+- 39.8.1 Gegenirritationsverfahren (TENS, Akupunktur) – 640
+- 39.8.2 Weitere nicht medikamentöse postoperative Therapiemaßnahmen – 640
+- 40 Anästhesie bei neuromuskulären Erkrankungen
+- 40.1 Myasthenia gravis – 644
+- 40.2 Lambert-Eaton-Syndrom (paraneoplastische Myasthenie) – 645
+- 40.3 Myotonien und Muskeldystrophien – 646
+- 40.4 Multiple Sklerose – 647
+- 40.5 Neuromuskuläre Erkrankungen und Muskelrelaxanzien – 648 tabelle
+- 41 Anästhesie bei endokrinologischen Erkrankungen
+- 41.1 Diabetes mellitus (DM) – 652
+- 41.2 Hyper- und Hypothyreose – 653
+- 41.2.1 Hyperthyreose – 653
+- 41.2.2 Hypothyreose – 654
+- 41.3 Phäochromozytom – 654
+- 41.4 Karzinoid – 655
+- 41.5 Patienten mit Glukokortikoiddauermedikation – 656
+- 41.5.1 Indikationen zur perioperativen Glukokortikoidsubstitution – 656
+- 41.5.2 Glukokortikoidsubstitution bei Akutsituationen – 656 tabelle
+- 41.5.3 Äquivalenzdosen von Kortikosteroiden – 656
+- 41.5.4 ACTH-Stimulationstest – 656
+- 41.5.5 Normale Dauertherapie bei M. Addison – 658
+- 42 Anästhesie bei chronisch obstruktiven Atemwegserkrankungen
+- 42.1 Grundlagen – 660
+- 42.2 Asthma bronchiale – 661
+- 42.3 Anästhesiologisches Management bei CAO – 663
+- 43 Anästhesie bei Niereninsuffizienz
+- 43.1 Vorbemerkungen/Grundsätze – 668
+- 43.2 Niereninsuffizienz und Anästhetika – 668
+- 43.2.1 Injektionsanästhetika – 668
+- 43.2.2 Opioide – 668
+- 43.2.3 Muskelrelaxanzien – 668
+- 43.2.4 Inhalationsanästhetika – 669
+- 43.3 Anästhesie zur Nierentransplantation (NTPL) – 669
+- 44 Anästhesie bei Leberinsuffizienz
+- 44.1 Vorbemerkungen/Grundsätze – 672
+- 44.2 Leberinsuffizienz und Anästhetika – 672
+- 44.2.1 Injektionsanästhetika – 672
+- 44.2.2 Opioide – 672
+- 44.2.3 Muskelrelaxanzien – 672
+- 44.2.4 Volatile Anästhetika – 673
+- 45 Anästhesie bei Adipositas und bariatrischer Chirurgie [[202111300435 Fall 37 Adipositas]]
+- 45.1 Klinische Relevanz der Adipositas – 677
+- 45.2 Veränderungen der Physiologie bei Adipositas – 677
+- 45.3 Anästhesiemanagement – 678
+- 44 Anästhesie bei Schlaf- Apnoe-Syndrom
+- 45 Anästhesie bei Rauchern
+- 46 Anästhesie bei (ehemaliger) Opioidabhängigkeit
+- 48.1 Anästhesie bei opiodgewöhnten Patienten – 690
+- 48.2 Besonderheiten bei ehemaliger Opioidabhängigkeit – 691
+- 49 Anästhesie bei Patienten mit maligner Hyperthermie (MH)
+- 49.1 Grundlagen – 694
+- 49.2 Auslöser der malignen Hyperthermie – 696
+- 49.3 Symptome – 697
+- 49.3.1 Frühsymptome – 697
+- 49.3.2 Spätsymptome – 698
+- 49.4 Therapie – 699
+- 49.4.1 Soforttherapie – 699
+- 49.4.2 Symptomatische Therapie – 701
+- 49.5 Differenzialdiagnosen – 701
+- 49.6 Screeningverfahren – 701
+- 49.7 Diagnose/Testung – 702
+- 49.7.1 Muskelbiopsie und Halothan-Koffein-Kontrakturtest (In-vitro- Kontrakturtest, IVKT) – 702
+- 49.7.2 Nordamerikanischer Kontraktionstest – 703
+- 49.7.3 Optionale Tests – 703
+- 49.8 Anästhesiologisches Vorgehen bei Verdacht auf maligne Hyperthermie – 704
+- 49.8.1 Voruntersuchung und Prämedikation – 704
+- 49.8.2 Narkoseführung – 705
+- 49.9 Adressen – 705
+- 50 Anästhesie bei Patienten mit Porphyrie
+- 50.1 Akuter Schub der akuten hepatischen Porphyrien – 709
+- 50.1.1 Symptomatik – 709
+- 50.1.2 Laborbefunde – 709 tabelle
+- 50.1.3 Triggerfaktoren – 709 tabelle
+- 50.2 Anästhesiologisches Management – 713
+- 50.2.1 Beurteilung und Prämedikation – 713
+- 50.2.2 Anästhesiedurchführung – 713
+- 50.2.3 Therapie eines akuten Porphyrieschubs – 714
+- 51 Anästhesie bei Patienten mit Demenz
+- 52 Anästhesie in Außenbereichen
+- 52.1 Anforderungen – 720
+- 52.2 Analgosedierung – 720
+- 52.2.1 Stadien einer Sedierung – 720
+- 52.2.2 Ziele der Analgosedierung – 721
+- 52.2.3 Patientenauswahl – 721
+- 52.2.4 Medikamentenauswahl – 721
+- 52.3 Spezielle Anforderungen einzelner Prozeduren – 721
+- 52.3.1 Radiologische Untersuchungen – 721
+- 52.3.2 Nuklearmedizinische Untersuchungen – 721
+- 52.3.3 Linearbeschleuniger/Brachytherapie – 722
+- 52.3.4 Kardiologische Untersuchungen – 722
+- 52.3.5 Endoskopie – 722
+- 53 Anaphylaktische Reaktion
+- 53.1 Pathophysiologie – 726
+- 53.2 Diagnostik – 727
+- 53.2.1 Diagnosestellung nach Klinik – 727
+- 53.2.2 Klinik – 727
+- 53.3 Symptome und Einteilung des Schweregrads – 728 tabelle
+- 53.4 Therapie – 729 tabelle
+- 53.4.1 Allgemeinmaßnahmen – 729
+- 53.4.2 Medikamentöse Therapie – 730
+- 53.4.3 Prophylaktische Maßnahmen – 731
+- 53.5 Spezielle Krankheitsbilder (mit Anaphylaxieassoziation) – 732
+- 53.5.1 Latexallergie – 732
+- 53.5.2 Mastozytose – 732
+- 53.5.3 Hühnereiallergie – 733
+- 53.5.4 Sojaallergie – 733
+- 54 Aspiration
+- 54.1 Grundlagen – 736
+- 54.1.1 Auswirkungen – 736
+- 54.2 Therapie – 736
+- 54.3 Prophylaktische Maßnahmen – 737
+- 54.3.1 Rapid-Sequence-Induction (RSI) – 738
+- 54.3.2 Ballonmagensonde (Aspisafe) – 740
+- 55 Herzrhythmusstörungen
+- 55.1 Arten von Herzrhythmusstörungen – 742
+- 55.2 Ursachen von Herzrhythmusstörungen – 742
+- 55.3 Differenzialdiagnose und Therapie – 742
+- 55.3.1 Reizleitungsstörungen – 742
+- 55.3.2 Bradykarde Rhythmusstörungen – 743
+- 55.3.3 Tachykarde Rhythmusstörungen – 744
+- 55.4 Arrhythmien – 745
+- 55.4.1 Respiratorische Sinusarrhythmien – 745
+- 55.4.2 Regellose Sinusarrhythmie – 746
+- 55.4.3 Supraventrikuläre Extrasystolie (SVES) – 746
+- 55.4.4 Vorhofflimmern, Vorhofflattern – 746
+- 55.4.5 Ventrikuläre Extrasystolie (VES) – 746
+- 56 Unbeabsichtigte perioperative Hypothermie
+- 56.1 Hypothermie – 750
+- 56.2 Maßnahmen zur Vermeidung von perioperativer Hypothermie – 752
+- 56.3 Kältezittern (Shivering) – 753
+- 57 TUR-Syndrom
+- 58 Übelkeit und Erbrechen
+- 58.1 Grundlagen – 760
+- 58.2 Beeinflussende Faktoren für Inzidenz und Ausmaß von PONV – 760
+- 58.3 Komplikationen von schwerer PONV – 761
+- 58.4 Risikoscores und prognostizierte PONV-Inzidenz – 761
+- 58.5 Prophylaxestrategie – 762
+- 58.5.1 Prophylaxestrategie bei Erwachsenen – 762
+- 58.5.2 Prophylaxestrategie bei Kindern – 762 tabelle
+- 58.6 Therapie bei PONV – 762
+- 58.6.1 Antiemetika – 763
+- 58.6.2 Therapie bei Kinetosen – 764
+- 58.6.3 Anhang: Serotoninrezeptoren – 764
+- 59 Postoperatives Delir und postoperatives kognitives Defizit (POCD)
+- 59.1 Delir und Delirmanagement – 768 CAM ICU, NU-DESK ICDSC
+- 59.1.1 Delir bei Alkoholentzugssyndrom – 773
+- 59.2 Postoperative kognitive Dysfunktion (POCD) – 775
+- 60 Intraoperative Wachzustände (Awareness)
+- 61 Lungenembolie
+- 61.1 Thrombembolie – 782
+- 61.2 Luftembolie – 785
+- 61.3 Fettembolie – 787
+- 62 Negative pressure pulmonary edema (NPPE)
+- 63 Nadelstichverletzung
+- 64 Kardiopulmonale Reanimation (CPR)
+- 64.1 Reanimationsempfehlungen für Erwachsene – 799
+- 64.1.1 Allgemeine Grundlagen der Techniken – 799
+- 64.1.2 Basic Life Support (BLS) und Verwendung des automatisierten externen Defibrillators (AED) – 799
+- 64.1.3 Advanced Life Support (ALS) – 800
+- 64.1.4 Postreanimationsphase – 804
+- 64.2 Reanimationsempfehlungen für Neugeborene und Kinder – 805
+- 64.2.1 Reanimation des unmittelbar Neugeborenen – 806
+- 64.2.2 Reanimation im Kindesalter – 807
+- 65 Schock
+- 66 Polytrauma
+- 66.1 Grundlagen – 816
+- 66.2 Allgemeine Therapierichtlinien der Primärversorgung – 816
+- 66.3 Therapie bei speziellen Verletzungen – 817
+- 66.3.1 Schädel-Hirn-Trauma (SHT) – 817
+- 66.3.2 Rückenmarktrauma – 817
+- 66.3.3 Abdominaltrauma – 817
+- 66.3.4 Thoraxtrauma – 818
+- 66.3.5 Extremitätenverletzungen – 818
+- 66.3.6 Gefäß- und Amputationsverletzungen – 819
+- 67 Anästhesie bei Verbrennungen
+- 67.1 Schätzung des Verbrennungsausmaßes – 822
+- 67.2 Phasen der Verbrennungskrankheit – 822
+- 67.2.1 Reanimations- oder Schockphase – 822
+- 67.2.2 Behandlungs- und Erholungsphase – 824
+- 67.3 Elektrounfall – 824
+- 67.4 Inhalationstrauma – 824
+- 68 Endokarditisprophylaxe
+- 68.1 Empfehlungen zur Endokarditisprophylaxe – 830
+- 68.1.1 Kardiale Erkrankungen mit dem höchsten Risiko für eine infektiöse Endokarditis (IE), für die eine Prophylaxe bei Hochrisikoprozeduren empfohlen wird – 830
+- 68.1.2 Eingriffe die einer Endokarditisprophylaxe bedürfen – 830
+- 68.1.3 Kein erhöhtes Endokarditisrisiko (keine Endokarditisprophylaxe) – 831
+- 68.1.4 Rationale Antibiotikatherapie im Rahmen der Endokarditisprophylaxe – 831
+- 69 Historie auf einen Blick
+- 70 Praktische Hinweise
+- 70.1 Organspende – 838
+- 70.1.1 Hirntoddiagnostik – 838
+- 70.1.2 Multiorganentnahme – 838
+- 70.2 Sauerstoffkonzentration bei verschiedenen Applikationsformen – 839
+- 70.3 Umrechnungstabellen für Laborwerte → Normalwerte (SI-Einheiten) – 839
+- 70.4 Umrechnungstabellen für sonstige Einheiten – 839

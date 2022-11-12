@@ -1,0 +1,103 @@
+---
+statblock: true
+name: Giff
+source:
+  - Mordenkainen's Tome of Foes
+type: humanoid
+subtype:
+size: Medium
+alignment: lawful or neutral
+hp: 60
+hit_dice: 8d8 + 24
+ac: 16
+speed: 30 ft.
+stats:
+  - 18
+  - 14
+  - 17
+  - 11
+  - 12
+  - 12
+damage_immunities:
+damage_resistances:
+damage_vulnerabilities:
+condition_immunities:
+saves:
+skillsaves:
+senses:  passive Perception 11
+languages: Common
+cr: 3
+traits:
+  - name: Headfirst Charge
+    desc: The giff can try to knock a creature over; if the giff moves at least 20 feet in a straight line that ends within 5 feet of a Large or smaller creature, that creature must succeed on a 14 Strength saving throw or take 7 (2d6) bludgeoning damage and be knocked prone.
+  - name: Firearms Knowledge
+    desc: The giff's mastery of its weapons enables it to ignore the loading property of muskets and pistols.
+actions:
+  - name: Multiattack
+    desc: The giff makes two pistol attacks.
+  - name: Longsword
+    desc: Melee Weapon Attack +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.
+  - name: Musket
+    desc: Ranged Weapon Attack +4 to hit, range 40/120 ft., one target. 8 (1d12 + 2) piercing damage.
+  - name: Pistol
+    desc: Ranged Weapon Attack +4 to hit, range 30/90 ft., one target. 7 (1d10 + 2) piercing damage.
+  - name: Fragmentation Grenade (1/Day)
+    desc: The giff throws a grenade up to 60 feet. Each creature within 20 feet of the grenade's detonation must make a 15 Dexterity saving throw, taking 17 (5d6) piercing damage on a failed save, or half as much damage on a successful one.
+bonus_actions:
+reactions:
+legendary_actions:
+spells:
+spellsNotes:
+
+---
+```statblock
+name: Giff
+source:
+  - Mordenkainen's Tome of Foes
+type: humanoid
+subtype:
+size: Medium
+alignment: lawful or neutral
+hp: 60
+hit_dice: 8d8 + 24
+ac: 16
+speed: 30 ft.
+stats:
+  - 18
+  - 14
+  - 17
+  - 11
+  - 12
+  - 12
+damage_immunities:
+damage_resistances:
+damage_vulnerabilities:
+condition_immunities:
+saves:
+skillsaves:
+senses:  passive Perception 11
+languages: Common
+cr: 3
+traits:
+  - name: Headfirst Charge
+    desc: The giff can try to knock a creature over; if the giff moves at least 20 feet in a straight line that ends within 5 feet of a Large or smaller creature, that creature must succeed on a 14 Strength saving throw or take 7 (2d6) bludgeoning damage and be knocked prone.
+  - name: Firearms Knowledge
+    desc: The giff's mastery of its weapons enables it to ignore the loading property of muskets and pistols.
+actions:
+  - name: Multiattack
+    desc: The giff makes two pistol attacks.
+  - name: Longsword
+    desc: Melee Weapon Attack +6 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands.
+  - name: Musket
+    desc: Ranged Weapon Attack +4 to hit, range 40/120 ft., one target. 8 (1d12 + 2) piercing damage.
+  - name: Pistol
+    desc: Ranged Weapon Attack +4 to hit, range 30/90 ft., one target. 7 (1d10 + 2) piercing damage.
+  - name: Fragmentation Grenade (1/Day)
+    desc: The giff throws a grenade up to 60 feet. Each creature within 20 feet of the grenade's detonation must make a 15 Dexterity saving throw, taking 17 (5d6) piercing damage on a failed save, or half as much damage on a successful one.
+bonus_actions:
+reactions:
+legendary_actions:
+spells:
+spellsNotes:
+
+```

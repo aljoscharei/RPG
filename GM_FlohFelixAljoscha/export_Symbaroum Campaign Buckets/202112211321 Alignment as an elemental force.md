@@ -1,0 +1,29 @@
+# Alignment as an elemental force
+- die Idee, dass es in der welt gut und böse gibt, ist eine zentrale Idee von [[DnD]]. 
+- ich habe ein nostalgisches Gefühl wenn ich daran denke. 
+	-  Die idee gibt es schon im Herr der Ringe, wobei Gollum die Idee etwas untergräbt.
+	- Mit fällt noch der film Legend mit tom cruise von 1985  ein.
+	- Vor allem aber denke ich an das Spielen als Teenie, die Idee von einer undefinierten aber weiten welt, in die die charaktere ziehen können, ohne einengende factions. völlige wildnis. Damit kann man toll spielen. Die Factions und Handlungsoptionen sind klar.
+	- Es macht das spielleiten [[GMing MOC]] viel viel leichter. Die Bösen sind böse weil sie böse sind. Manifestationen des Bösen können Untote erklären und Pilgerstätten von Bösen Wesen erklären
+	- Das Böse ist in [[Earthdawn]] gut durch die extradimensionalen Dämonen erklärt.
+	- vielleicht kann ich das in eine [[unbeschwert]] e Campaign einbauen im Rahmen von [[201909200215 B2 Keep on the Borderlands]]
+- Nachteil
+	- gleichzeitig ist es aber eine sehr reaktionäre idee. Wenn die bösen elementar und für immer böse sind, dann darf man sie vielleicht auch töten.
+	- gerade mit den Kindern will ich das nicht spielen. 
+	- Gibt es das Böse in der Realität? 
+- Synthese Wie kann man das Böse erklären. Wie kann man die Caverns of Chaos erklären?
+	- Erklärungsmodelle für gefährliche Regionen aus der Realität
+		- Krieg und Verrohung
+			- Goblins und Orks und "böse" Menschen sind in einer Region ständigen Krieges aufgewachsen. Vielleicht sind sie gerade durch die Verfolgung durch die Menschen ständig im Krieg und sind dadurch individuell verroht.
+		- Armut und Slums:
+			- Die Menschen drängen alle sonstigen humanoids in abgelegene Regionen, fern von natürlichen Ressourcen.
+		- Korruption
+		- Nationalismus
+	- Wie kann man die ansammlung von bestimmten fremdartigen, magischen, tierischen Monstern erklären? Aranea oder so?
+		- Ressourcen
+		- Zugang:
+			- portal ins feenreich
+			- loch in die unterwelt
+		- je nach monster
+		- symbiose mit anderem moster
+		- Themendungeons sind super aber uU schwer zu erklären

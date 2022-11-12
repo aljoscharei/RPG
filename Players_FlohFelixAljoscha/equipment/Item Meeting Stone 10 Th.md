@@ -1,0 +1,1 @@
+A stone is loaded with an invitation to a specific person, who upon receiving and touching the artifact instinctively knows where the stone’s owner is waiiting. Only a Mystic (or a character that can cast one or more spells) can activate a meeting stone.  

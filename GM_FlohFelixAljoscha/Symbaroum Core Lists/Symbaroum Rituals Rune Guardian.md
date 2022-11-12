@@ -1,0 +1,1 @@
+create NPC folloer

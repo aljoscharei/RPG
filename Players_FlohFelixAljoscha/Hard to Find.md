@@ -1,0 +1,1 @@
+You tend to avoid people, especially those associated with authority. Gain proficiency in your choice of Deception, Stealth or Survival.

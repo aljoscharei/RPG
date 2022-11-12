@@ -1,0 +1,1 @@
+1d8 [[5e Damage Type slashing]]    | 4 lb.  | [[Weapon Properties 5e Versatile]] (1d10)               

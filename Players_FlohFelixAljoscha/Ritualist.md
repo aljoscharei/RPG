@@ -1,0 +1,4 @@
+At 1st, 3rd, 6th, 9th, 13th and 17th level choose a ritual spell (one with the ritual tag) from the Theurg tradition list. [[Ruins of Symbaroum Theurg Spells]]
+The spell level must be equal to or lower than your current proficiency bonus.
+
+You gain permanent [[Ruins of Symbaroum Corruption]] (see page 37) equal to half the spell level, rounded up. If the ritual is a cantrip, you gain no permanent Corruption. You can only cast the chosen spell as a ritual – the ritual version of a spell takes 10 minutes longer to cast than normal and can only be cast at its base level. You gain no Corruption from casting one of these spells.

@@ -1,0 +1,2 @@
+• Bonus: +1 to Wisdom  
+You have always seen signs others have missed, and easily conduct rituals dealing with fate or hidden information. When you learn a divination spell as a ritual you gain one less permanent Corruption than normal, to a minimum of 1 permanent Corruption.

@@ -1,0 +1,1 @@
+You can move through friends. You can move through hostile creature’s space only if the creature is at least two sizes larger or smaller than you (creature’s space treated as difcult terrain). Moving beyond foe's reach provokes opportunity attack unless disengaging.

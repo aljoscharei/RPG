@@ -1,0 +1,2 @@
+- At 1st level, you learn the [[5e spells detect magic wc ROS ritual]] spell in addition to your chosen spells. At 3rd level you learn[[arcane_lock w]] as a bonus spell.
+- At 5th level you learn your choice of [[5e spells counterspell interrupt w not favoured]] or [[5e spells dispel magic wc not favoured]] as a bonus spell.

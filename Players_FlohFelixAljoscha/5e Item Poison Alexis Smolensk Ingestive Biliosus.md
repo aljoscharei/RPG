@@ -1,0 +1,1 @@
+-   **Biliosus:** induces nausea, vomiting, loss of strength ability and some damage.

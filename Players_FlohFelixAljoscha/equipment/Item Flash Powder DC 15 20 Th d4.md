@@ -1,0 +1,1 @@
+A finely grained powder that emits a blinding light when thrown (range 30/90). Creatures within 5 feet of the effect must make a DC 15 Constitution saving throw or become blinded until the end of their next turn.

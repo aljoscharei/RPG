@@ -1,0 +1,17 @@
+# The Enemy Within 5 - Empire In Flames
+ [[202201210938 The enemy within MOC]] 
+---
+
+
+
+![[The Enemy Within 5 - Empire In Flames.pdf]]
+
+
+---
+
+_Created at 20181223._
+_Last updated at 20181223._
+_Source URL: [](https://thetrove.net//Books/Warhammer/Fantasy/Roleplay/1st%20edition/The%20Enemy%20Within%205%20-%20Empire%20In%20Flames.pdf)._
+
+
+

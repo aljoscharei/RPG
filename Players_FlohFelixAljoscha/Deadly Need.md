@@ -1,0 +1,1 @@
+Starting at 6th level you have learned enough of the sorcerous arts that, if pressed, you can cast a spell at need. You can cast one of the spells you know as a non-ritual spell but you gain twice the normal Corruption since your understanding of the magical arts is limited.

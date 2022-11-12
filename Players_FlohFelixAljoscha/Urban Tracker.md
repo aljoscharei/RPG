@@ -1,0 +1,1 @@
+At 9th level, you can find or follow almost anyone in the maze of a city. You have advantage on Dexterity (Stealth) checks to hide in an urban environment and for Wisdom (Survival) checks to track someone in a city.

@@ -1,0 +1,1 @@
+1d6 [[5e Damage Type piercing]]    | 2 lb.  | [[Weapon Properties 5e Thrown]] (range 30/120)    

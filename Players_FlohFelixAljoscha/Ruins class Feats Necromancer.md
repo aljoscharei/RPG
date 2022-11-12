@@ -1,0 +1,4 @@
+• Prerequisite: You have taken the Sorcerer approach and attained at least 9th level in the mystic class.  
+The Spirit World is the outer realm of the world, where the dead journey towards their final rest – if they are not dis- turbed by a necromancer on the way. Necromancers can force the spirits of the outer realm to return, in order to relay their secrets or to occupy a dead body and serve the death mage as a dragoul or some other undead being. An understanding of the mechanics of death also gives the nec- romancer access to ghastly powers and rituals.
+
+You learn the rituals [[5e Symbaroum Spells Spirit walk ros ritual]], [[5e spells animate dead skeleton zombie wc]], [[5e spells Commune with spirits symbaroum 3 Q yes no]]. You gain only 3 permanent Corruption for these rituals and do not gain any Corruption when you cast them.

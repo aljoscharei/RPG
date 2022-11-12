@@ -1,0 +1,1 @@
+Mystically charged paints can help a warrior in combat. War paint adds +1 to either your Strength modifier or Dexterity modifier for the next 10 minutes, and the warrior decides which attribute to boost when the paint is applied.

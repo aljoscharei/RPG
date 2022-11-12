@@ -1,0 +1,1 @@
+[[Item Axe D8 3 lb]]                          | 20 Th       | d8 [[5e Damage Type slashing]]     | 3 lb   | -                                                                            

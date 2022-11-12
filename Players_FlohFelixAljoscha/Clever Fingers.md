@@ -1,0 +1,1 @@
+You gain proficiency with the Sleight of Hand skill.

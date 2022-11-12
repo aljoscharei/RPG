@@ -1,0 +1,2 @@
+• Bonus: +1 to Wisdom or Charisma (your choice)  
+You have been trained to quickly twist the truth, and to generalize or exaggerate when it is called for. You have advantage on both Charisma ([[5e Skills Deception]]) and Wisdom ([[5e Skills Insight]]]) checks regarding lies; hence, both for making a lie and noticing when others are lying. The lie’s veracity is usually found out quickly, so the liar must hurry if they are to take advantage of it.

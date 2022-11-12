@@ -1,0 +1,1 @@
+By 3rd level, if you are not already proficient with Acrobatics you become proficient with that skill. When a weapon attack targets you, you can use your reaction to make a Dexterity (Acrobatics) check with the attack roll result as the DC. If you succeed, you take no damage from the attack.

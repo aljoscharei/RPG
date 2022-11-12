@@ -1,0 +1,3 @@
+- Monovar arch enemies of Jezora, now cooperation with ambrians
+- [[602011011200 Session Log 24 202001042000 Diebstahl]]
+The Zareks count among the barbarians who seem most willing to accept an Ambrian presence in Davokar. Their main settlements are situated along the northern shore of Lake Volgoma, and it is said that they have developed a close partnership with Alesaro Kohinoor – a partnership which probably was established when Monovar, the chieftain of Zarek, helped the Ambrians to destroy his arch enemy, Haloban of the dead Jezora clan.

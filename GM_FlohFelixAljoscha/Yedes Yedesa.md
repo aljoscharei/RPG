@@ -1,0 +1,2 @@
+- sedentary Leonods fortress
+Compared to their northern neighbors, the Yedes actually have better reasons for being proud. Of the last ten High Chieftains six have been fostered by clan Yedesa, includ- ing the current one. The reason for this may be that the clan long ago abandoned a nomadic lifestyle, in favor of a few permanent settlements. Since the annihilation of clan Jezora, chieftain Leonod’s stone fortress is clearly the most impressive construction of the barbarian people.

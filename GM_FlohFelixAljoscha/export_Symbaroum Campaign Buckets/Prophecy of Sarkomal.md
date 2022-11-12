@@ -1,0 +1,8 @@
+The Prophesy of Sarkomal
+
+According to rumors circling both Yndaros and Thistle Hold, the Sun Church has recovered a prophecy from an old temple ruin a couple of days’ walk east of Karvosti. First Father Jeseebegai firmly denies all knowledge of such a find but that has hardly stopped the rumor mill from grinding. Quite the opposite. In a short time numerous versions of the prophecy have appeared, all reflecting the same basic theme – Ambria is supposed to gain lordship over all land once ruled by ancient Symbaroum and Queen Korinthia will ascend to the throne of the empire’s last emperors.
+
+That basic theme aside, the versions differ greatly from each other. When it is supposed to happen, how it will happen and whether or not it will be to the advantage of the Ambrian people depends on which version you choose to trust. There is really only one strophe which recurs in all versions, claimed to be translated by the Curia: “...where night and day are without meaning, where darkness shimmers and light gathers in shadows, there stands the throne that again shall carry a mistress, a regent, a peer of the divine...”. But, as previously mentioned, no one has confirmed the authenticity of that passage, nor of any other. And even if someone had, there is likely room for any number of translations and interpretations, as always when prophesies are concerned.
+
+[[Symbaroum_-_Core_Rulebook.pdf]]p24
+[[202201311239 Item Steintafeln]]

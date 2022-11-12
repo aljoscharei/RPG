@@ -1,0 +1,2 @@
+• Bonus: +1 to Wisdom  
+You have a developed sense for finding people, no matter if the traces of their presence are found on the ground, in a lair or among discovered belongings. You have advantage on Wisdom (Perception or Survival) checks when pursuing a specific individual.

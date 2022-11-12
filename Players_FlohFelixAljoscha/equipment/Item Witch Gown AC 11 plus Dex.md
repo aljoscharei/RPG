@@ -1,0 +1,1 @@
+Witch Gown. The witches of the clans bind protective spirits in carved pieces of bone and the skulls of fallen enemies, and attach them to their clothing for effective protection.

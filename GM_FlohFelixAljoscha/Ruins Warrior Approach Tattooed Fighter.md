@@ -1,0 +1,5 @@
+Many barbarian warriors have their bodies covered with tattoos, but the Tattooed Fighters of Vajvod [[Faction Witches Barbaren#^39e290]] differ in that they are tattooed by symbolists [[Ruins of Symbaroum Mystic Approach Symbolist]] – mystics with a special understanding of the power of symbols. The foremost among the tattooed fighters has the honor to serve as the guards of Clan Vajvod’s chieftain.
+There are also goblins and trolls among the Tattooed Fighters, totally unrelated to the work of Vajvod’s symbolists. Amid both trolls and goblins, these warriors comprise an elite among the elite. The Tattooed Fighters are often seen fighting alongside their ruler on the field of battle, be it down in the Underworld or in the shadowy depths of Davokar.
+
+![[Unarmored Defense]]
+![[Rune Tattoos Warrior]]

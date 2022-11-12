@@ -1,0 +1,1 @@
+24 hrs no mundance traces. retrograde or anterograde

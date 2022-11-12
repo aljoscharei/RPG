@@ -1,0 +1,1 @@
+**Slashing.** Swords, axes, and monsters' claws deal slashing damage.

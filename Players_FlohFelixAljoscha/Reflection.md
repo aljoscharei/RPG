@@ -1,0 +1,1 @@
+When you take a short rest, you can meditate on an enemy that you have fought before. This could be an individual or a specific type of foe. You have advantage on attack rolls against that enemy until you miss, after which the effect ends.

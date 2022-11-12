@@ -1,0 +1,1 @@
+Deep Impact. This weapon is built such that a precise blow can cause extraordinary damage. If you score a critical hit with this weapon you double both the damage dice and the damage modifier.

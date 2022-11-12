@@ -1,0 +1,1 @@
+While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. If you are unarmored your base speed increases by 10 feet.

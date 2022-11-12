@@ -1,0 +1,1 @@
+This well-thumbed copy compiling all the troll smith Xavaundo’s knowledge was recorded by Master Balinda of Ordo Magica and gives you proficiency with artifact crafting.

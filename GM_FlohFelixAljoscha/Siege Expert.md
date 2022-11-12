@@ -1,0 +1,2 @@
+At 3rd level, you have been trained to identify weaknesses in inanimate objects. You do double damage to such objects and structures. You also become proficient with siege weapons.
+When you reach 9th level, you can add your backstab damage to an attack on an object. You then double the total damage done, as above.

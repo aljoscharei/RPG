@@ -1,0 +1,3 @@
+Throwing Wing. These weapons are designed to return to the user if they miss their target. In the depths of Davokar, throwing wings made from hardened wood are used to hunt small game, while the ones used in combat have a knife-sharp edge of steel all around the wing.A proficient user can catch a returning wing as an object interaction
+
+[Item Throwing Wing d6 1 lb 30_90]]                 | 10 Th       | d6 [[5e Damage Type bludgeoning]] | 1 lb   | [[Weapon Properties 5e Thrown]] range (30,90), [[Weapon Properties Symbaroum Returning]]         

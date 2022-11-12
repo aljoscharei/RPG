@@ -1,0 +1,3 @@
+ [[Item Crossbow Repeating d8 20 lb 80_320]]          | 100 Th      | d8                                | 20 lb  | [[Weapon Properties 5e Ammunition]], [[Weapon Properties 5e Two-Handed]]      
+ 
+ Crossbow, repeating. This is a mechanically advanced version of the crossbow. The weapon has a push lever underneath, for quicker reloading. Only the most skilled blacksmiths are able to construct such technically ad- vanced weaponry.

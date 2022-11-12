@@ -1,0 +1,1 @@
+At 6th level, you are extensively trained on using alchemical weapons. You can now use an alchemical firetube to do backstab damage as long as all other conditions of the backstab are met.

@@ -1,0 +1,1 @@
+The spore bomb can be thrown up to 30 feet and affects all creatures within a 10-foot radius, requir- ing them to make a DC 15 Constitution saving throw. On a failure the creature has disadvantage on Constitution saving throws for 1d4 + 1 rounds.

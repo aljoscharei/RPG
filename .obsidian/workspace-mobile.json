@@ -1,0 +1,133 @@
+{
+  "main": {
+    "id": "7fa25670c0e05a97",
+    "type": "split",
+    "children": [
+      {
+        "id": "eaeec2a7f22cf6a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e01da818d7e99a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Players_FlohFelixAljoscha/spell_List/meteor_swarm 40d6 w.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c5445481225455a5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b1d8f20e9de7e0bb",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime"
+          }
+        }
+      },
+      {
+        "id": "5a7ce559473a45a1",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "worlds without number moc",
+            "matchingCase": true,
+            "explainSearch": false,
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "11401a9b8d4ebb47",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "right": {
+    "id": "69c76caf8a706b29",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e5eaa61c0f556a77",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Players_FlohFelixAljoscha/spell_List/meteor_swarm 40d6 w.md",
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "083b1d55378fbb05",
+        "type": "leaf",
+        "state": {
+          "type": "initiative-tracker-view",
+          "state": {}
+        }
+      },
+      {
+        "id": "8f4e8ba120c65915",
+        "type": "leaf",
+        "state": {
+          "type": "DICE_ROLLER_VIEW",
+          "state": {}
+        }
+      },
+      {
+        "id": "a37fc327c55d2589",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Players_FlohFelixAljoscha/spell_List/meteor_swarm 40d6 w.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "9e01da818d7e99a2",
+  "lastOpenFiles": [
+    "GM_FlohFelixAljoscha/Ruins Wizard Spells Level 9.md",
+    "Players_FlohFelixAljoscha/character/Ruins of Symbaroum Wizard Spells.md",
+    "Players_FlohFelixAljoscha/Spell Indices.md",
+    "Players_FlohFelixAljoscha/Ruins Player Index.md",
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/Symbaroum Campaign Buckets.md",
+    "GM_FlohFelixAljoscha/Ruins GM Index.md",
+    "GM_FlohFelixAljoscha/602101050800 Session Log 50 202210242100.md",
+    "GM_FlohFelixAljoscha/Symbaroum Session MOC.md",
+    "Berserker.md",
+    "GM_FlohFelixAljoscha/5e monsters by name.md"
+  ]
+}

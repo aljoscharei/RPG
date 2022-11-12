@@ -1,0 +1,2 @@
+• Bonus: +2 to Strength  
+You have a thirst for blood, easily awoken and hard to quench. The thirst appears if you take damage and means that you will not spare any enemies – not even if they surrender. Trying to spare an enemy requires an almost overpowering effort; you must succeed at a DC 20 Wisdom saving throw.

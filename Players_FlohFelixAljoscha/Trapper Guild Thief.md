@@ -1,0 +1,1 @@
+At 17th level, you can use your action during combat to deploy an alchemical or mechanical trap within 5 feet of your position. You are never threatened by the trap but treat movement within 5 feet of a trapped area as difficult terrain. See page 186 for rules on [[Ruins Traps]]

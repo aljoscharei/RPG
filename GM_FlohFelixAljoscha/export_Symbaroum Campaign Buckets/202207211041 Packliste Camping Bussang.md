@@ -1,0 +1,241 @@
+[[Reise]]
+
+- https://domaine-de-champe.fr/
+
+- nächstes mal kaufen
+bäckerkisten oder faltkisten
+campingküchentisch
+mütze für aljoscha
+kleine immer am mann haben rucksäcke für lea und aljoscha
+
+
+- [ ] Dachbox
+	- [x] isomatten 2x
+	- [x] isomatten Luftpumpe
+	- [x] schlafsack cumulus
+	- [x] schlafsack grün
+	- [x] schlafsack blau
+	- [x] schlafsack rosa
+	- [x] schlafsack schwarz
+	- [x] campingtisch
+- [ ]  Kofferraum
+	- [x] zelt
+	- [x] wassertank
+	- [x] Topf groß
+	- [x] topf mittel
+	- [x] topf klein
+	- [x] pfanne
+	- [x] Sieb
+	- [x] 2 schüsselm
+	- [x] Reibe
+	- [x] Ofen
+	- [x] Wasserkessel
+	- [x] Pariboy
+- [ ] North Face Tasche
+	- [ ] Ipad Pro
+	- [ ] Trackpad
+	- [ ] keyboard
+	- [ ] feuerzeuge
+	- [ ] 1 opinelmesser
+	- [ ] ladegeräte
+	- [ ] papier
+	- [ ] 4 klemmbretter
+	- [ ] schminke
+	- [ ] stabilo
+	- [ ] playing at the world
+	- [ ] willowby hall
+	- [ ] beyond borderlands 1 u 2
+	- [ ] stirnlampen 2x erwachsene 1 kinder
+	- [ ] kindle
+	- [ ] Zombie dice
+	- [ ] RPG- würfel
+	- [ ] Dark of hot springs island
+	- [ ] Field guide hot springs island
+- [ ] Waschschüssel
+	- [x] 4 Teller
+	- [x] 4x (Messer, Gable, Löffel, kleine löffel)
+	- [x] schäler
+	- [x] 1x opinelmeser
+	- [x] Taschenmesser
+- [ ] Essenskiste Trocken
+- [ ] Kühlbox mit essen
+- [ ] Grauer Rucksack
+	- [ ] 4 große handtücher
+	- [ ] 5 campinghandtücher
+	- [ ] Picknickdecke
+- [ ] Roter Fahrradrucksack
+	- [ ] Medikamente
+	- [ ] rei
+	- [ ] Nagelset
+	- [ ] hammer
+	- [ ] 22 Schraubenschlüssel
+	- [ ] batterien
+	- [ ] Kerium
+	- [ ] Deo
+	- [ ] oropax
+	- [ ] kordel
+	- [ ] opinel
+- [ ] Lose
+	- [ ] Dreipostecker an Verteiler
+	- [ ] Tupperose A4
+	- [ ] 2x Tupper A5
+	- [ ] 1x Tupper quadratisch groß
+	- [ ] 6 kinderbücher
+	- [ ] thermosflasche
+	- [ ] flasche lou
+	- [ ] flasche paul
+	- [ ] hackbrett holz
+
+	- [ ] 
+
+
+	- [ ] viele Campinghandtücher für Schwimmen
+	
+	- [ ] holzutersetzter
+	- [ ] Pulli
+	- [ ] 2x Schuhe
+	- [ ] Decke Paul
+	- [ ] Pocreme
+	- [ ] Feuchttücher
+	- [ ] Neopren 2x
+	- [ ] Badehose Paul
+	- [ ] Schwimmwindel Lou
+	- [ ] Hase Paul
+	- [ ] Sonnenmütze
+	- [ ] UV-Hemd
+- [ ] # Paul
+	- [x] Regenhose
+	- [x] Regenjacke
+	- [x] Gummistiefel
+	- [x] Anzug
+	- [x] 5 TShirts
+	- [x] 5 Pullis
+	- [x] 5 Hosen
+	- [ ] Milchflasche
+	- [x] socken
+	- [ ] # Lou
+	- [x] Regenhose
+	- [x] Gummistiefel
+	- [x] Lila Anzug
+	- [x] Regenjacke
+	- [ ] Milchflaschen 1x
+	- [x] 5 TShirts
+	- [x] 5 Pullis
+	- [x] 5 Hosen
+	- [x] socken
+	- [x] Windeln
+	- [x] Feuchttücher
+- [ ] # Lea
+	- [x] Sandalen
+	- [x] Sportschuhe
+	- [x] 3 T-Shirt
+	- [x] Unterhosen
+	- [x] socken
+	- [x] tabletten
+	- [x] Tolino
+	- [x] Hosen
+	- [x] BHs
+	- [x] Pullover
+	- [x] Sporthose
+	- [x] Sport BHs
+	- [ ] Buch v Claire
+	- [x] Badeanzug
+- [ ] # Aljoscha
+	- [x] 2x Kurze Hose
+	- [x] 1x Jeans
+	- [x] Schlafanzughose
+	- [x] Jogginhose
+	- [x] 5 TShirts
+	- [x] 5x Socken
+	- [x] Chucks 1x
+	- [x] Wäschebeutel
+	- [x] Badehose
+	- [x] Kurze sporthose
+
+- [ ] # Kosmetik
+	- [ ] Zahnpasta
+	- [ ] Zahnpasta Paul
+	- [ ] Nasenspray LeaAljoscha
+	- [ ] Antibiotika
+	- [ ] Nasentropfen lou
+	- [ ] Nasentropen paul
+	- [ ] Shampoo
+	- [ ] Kerium
+	- [ ] 4x Zahnbürsten
+	- [ ] Deo Aljoscha
+	- [x] Deo Lea
+	- [x] Kajal
+	- [x] Lippenstift
+	- [ ] Pinzette
+	- [ ] Nagelschere
+	- [ ] Nagelfeile
+	- [ ] Cetirizin
+	- [ ] Erste Hilfe Zeug
+	- [ ] Sonnoncreme
+	- [ ] Paracetamol 75, 125 500
+	- [ ] Ibu
+	- [ ] Rei
+	- [ ] Toipap
+- [ ] # Spielzeug Bücher
+	- [ ] 2x Hase
+	- [ ] Stifte
+	- [ ] Sandspielzeug
+- [ ] # Wasserflaschen 4x
+	- [ ] Piknikdecke
+	- [x] Regenjacke Lea
+	- [ ] Regenjacke Aljoscha
+	- [ ] IPad
+	- [ ] Ladegerät iphone 2x
+	- [ ] Ladegerät iPad Pro
+	- [ ] Thermometer
+	- [ ] Sportschuhe
+	- [ ] Chucks
+	- [x] Klositz Lou
+	- [ ] Schraubenschlüssel für Wassertank
+	- [ ] Imbusschlüssel für fahrrad laufrad
+	- [ ] Brettspiele
+	- [ ] Fernglas paul
+
+	- [ ] Papier Ringblock
+	- [ ] Ipad Pro
+	- [ ] Powerbank
+	- [ ] Kindle
+	- [ ] Rorys story cubes
+	- [ ] lenkdrache
+	- [ ] Verrücktes Labyrinth Spiel
+	- [ ] fahrzeugpapiere
+	- [ ] bogen
+	- [ ] ball
+	- [ ] wasserball
+	- [ ] bluetooth knochen
+	- [ ] Bluetooth tastatur
+	- [ ] Ofloxacin augentropfen
+	- [ ] Panotile
+	- [ ] Schwimmflügel
+	- [ ] schwimmgürtel
+	- [ ] Antigenstests
+	- [ ] Airpods aljoscha
+	- [ ] Airpods lea
+	- [ ] Stirnlampe 2x
+	- [ ] Listerine
+	- [ ] Stirnlampen kinder
+	- [ ] Eigenes Kopfkissen lea
+	- [ ] Eigenes Kopfkissen aljoscha
+	- [ ] Starthilfe batterie
+	- [ ] Pantozol
+	- [ ] Mr jack
+	- [ ] Bestimmungsbuch
+	- [ ] würfel
+	- [ ] stifte
+	- [ ] Disneyfilme runterladern
+- [ ] # Kochen
+	- [ ] Apfelreibe
+	- [ ] Zucker
+	- [ ] Haferflocken
+	- [ ] Milch
+	- [ ] Essig
+	- [ ] Öl
+	- [ ] Salz
+	- [ ] Pfeffer
+	- [ ] Zucker
+	- [ ] Sieb

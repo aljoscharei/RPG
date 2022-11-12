@@ -1,0 +1,1 @@
+Ogres are slow to speak, slow to take offense and are possessed by a deep mental placidity. You have advantage on Wisdom saving throws against enchantments and other mind-altering magics.

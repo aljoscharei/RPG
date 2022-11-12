@@ -1,0 +1,3 @@
+- Hund von der Schulterhöhe ca 1m dänische Dogge 
+- liebt Rojazz
+- gehört: einem reichen Schnösel, der in der Kneipe Waldhaus seinen Tag verbringt

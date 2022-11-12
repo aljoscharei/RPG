@@ -1,0 +1,11 @@
+- 4d6 or
+- Standard Array 15,14,13,12,10.8
+- Point Buy 27 Points
+	- 8 cost 0
+	- 9 cost 1
+	- 10 cost 2
+	- 11 cost 3
+	- 12 cost 4
+	- 13 cost 5
+	- 14 cost **7**
+	- 15 cost **9**

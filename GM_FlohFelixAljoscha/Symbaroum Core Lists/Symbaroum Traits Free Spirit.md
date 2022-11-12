@@ -1,0 +1,1 @@
+cannot gain corruption. cannot use magic

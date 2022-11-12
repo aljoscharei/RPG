@@ -1,0 +1,2 @@
+• Bonus: +1 to Intelligence  
+You are trained to organize and search for information. You gain advantage on Intelligence ([[5e Skills Investigation]]) checks when researching in archives and libraries.

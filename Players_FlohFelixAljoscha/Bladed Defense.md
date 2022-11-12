@@ -1,0 +1,1 @@
+At 13th level, when you wield two melee weapons increase your armor class by 2.

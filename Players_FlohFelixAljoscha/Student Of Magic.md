@@ -1,0 +1,1 @@
+You have much practice in the ways of magic and the danger of Corruption. Your Corruption Threshold is 1 higher than it would be otherwise.

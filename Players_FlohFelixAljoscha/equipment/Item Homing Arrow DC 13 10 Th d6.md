@@ -1,0 +1,1 @@
+The alchemist marinates an arrow in homing essences, thereby creating an arrow that flies past other combatants, i.e. it does not require a clear line of sight and ignores cover effects. However, the archer must be able to see some portion of the target and must succeed at a regular attack roll to successfully hit it.

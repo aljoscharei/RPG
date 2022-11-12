@@ -1,0 +1,2 @@
+Fressen Artefakte und machen daraus [[Symbaroum Item Arach Nektar]]. mit Diesem verwandeln sie menschen in Arachs.
+die [[202203292238 Monster Spinne Goldene Prophetin Sonne Skullbiter Queen]] ist eine besondere Amme

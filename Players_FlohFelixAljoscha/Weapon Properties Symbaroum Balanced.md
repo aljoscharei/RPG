@@ -1,0 +1,1 @@
+Balanced. The weapon is so well balanced that it is extra effective when parrying. If you wield this weapon in one hand with a weapon in the other hand increase your AC by 1.

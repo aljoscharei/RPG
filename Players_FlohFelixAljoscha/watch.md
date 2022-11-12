@@ -1,0 +1,2 @@
+When travelling, the day is diivided into watches. one watch is 4 hours long. 
+this is consisten with the alexandrian hexcrawl [[202202072058 Alexandrian Hexcrawl MOC]] and the [[202203101045 Wilderlands MOC]] -> [[202102042214 Wilderlands Legend]]

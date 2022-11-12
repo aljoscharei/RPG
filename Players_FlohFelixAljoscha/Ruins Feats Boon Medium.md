@@ -1,0 +1,1 @@
+You grew up in the presence of ghosts and have developed a connection to the realm of spirits. You have advantage on saving throws and ability checks regarding the spirits or the spirit world.

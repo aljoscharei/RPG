@@ -1,0 +1,29 @@
+{
+  "alwaysUpdateLinks": true,
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "app:go-back",
+    "app:go-forward",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:swap-line-up",
+    "editor:swap-line-down",
+    "editor:undo",
+    "editor:redo",
+    "editor:toggle-keyboard",
+    "editor:move-caret-left",
+    "editor:move-caret-right",
+    "editor:toggle-source",
+    "editor:open-search"
+  ],
+  "fileSortOrder": "byModifiedTime",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": true,
+    "margin": "0",
+    "downscalePercent": 53
+  },
+  "readableLineLength": false,
+  "promptDelete": false,
+  "livePreview": false
+}

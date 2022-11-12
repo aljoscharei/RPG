@@ -1,0 +1,1 @@
+When an expedition is trailblazing (see [[Wilderness Travel Distance#ADVANCED RULE: TRAILBLAZING]], one member of the expedition must use their watch action to blaze the trail. If hidden signs are being employed, an additional character can assist the trailblazer on their Wisdom (Stealth) check.

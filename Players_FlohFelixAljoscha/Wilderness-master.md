@@ -1,0 +1,1 @@
+You gain proficiency with the Nature and Survival skills along with the Light Crossbow and Longbow.

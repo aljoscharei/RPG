@@ -1,0 +1,1 @@
+At 9th level, you have a keen eye for value and when you find a curiosity or a Mystical treasure in a ruin you can double its value at market.

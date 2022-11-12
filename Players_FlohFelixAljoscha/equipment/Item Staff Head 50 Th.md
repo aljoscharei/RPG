@@ -1,0 +1,1 @@
+A special ornament at the top of the staff mage’s staff can provide extra focus. The staff head – often a beautiful stone encased in meteoric iron – gives advan- tage on one spell attack roll for each short or longer rest.

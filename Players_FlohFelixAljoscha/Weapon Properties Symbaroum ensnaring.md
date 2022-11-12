@@ -1,0 +1,1 @@
+Ensnaring. This weapon can wrap around limbs, temporarily pulling an enemy off balance. When you make a critical hit with one of these weapons, if the target is a creature it is knocked prone in addition to taking normal damage.

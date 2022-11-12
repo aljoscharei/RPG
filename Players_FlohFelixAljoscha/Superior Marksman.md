@@ -1,0 +1,1 @@
+At 17th level, you can shoot other missiles out of the air. When targeted by a ranged weapon attack you may use your reaction to make a ranged weapon attack roll, using the opponent’s attack roll result as your target number. On a success, the opponent’s attack fails.

@@ -1,0 +1,1 @@
+You have advantage on all attacks against targets that are Large size or bigger.

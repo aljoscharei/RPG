@@ -1,0 +1,2 @@
+• Bonus: +2 to Intelligence or Wisdom  
+You are afflicted by a sensitive mind, meaning that you can be exposed to violent cramps throughout the body when excited or stressed. If you roll a natural 1 on an ability check you become stunned for 1d4 turns. Afterwards you gain 1 level of exhaustion.

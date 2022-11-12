@@ -1,0 +1,61 @@
+- [[Wie kann man DnD Tropes im 1220 umsetzen]]
+	- https://rpg.stackexchange.com/questions/36385/is-there-a-plausible-explanation-for-a-large-number-of-armed-adventurers-in-a-fa
+	- # Magier
+		- PCs können keine magier werden, aber Zauberer können ihnen einzelne Zauber beibringen
+		- Ars Magica
+		- wie ist das bei Harn [[4301 HarnMaster Magic.pdf]]
+	- # Zusammenfassung: Freie DnD Party:
+		- ## Es ist nicht möglich, völlig kontextfrei einne Adventuring Party zu erklären, aber es gibt Nischen, in denen sie sinnvoll ist. 
+			- PCs sind Stadtbevölkerung?
+			- PCs sind Slaven
+			- PCs sind Siedler 
+				- [[de.wikipedia.org-Hochmittelalterliche Ostsiedlung.pdf]]
+			- innere Expansion, geringe Bevölkerungsdichte, wenig Agrarland in Slavischen Gebieten
+			- Krieg:
+				- Kreuzzuge gegen die Wenden https://de.wikipedia.org/wiki/Wendenkreuzzug
+			- Anarchie nach dem Krieg oder nach Verwüstung durch Drachen, Pest etc. 
+			- **Händer**
+			- **Vikinger**
+				- Consider the Vikings, who had neither a feudal system nor countries in any meaningful sense. Being attacked, whether by neighbours or by wild animals, was such a common threat that most men and some women learned to fight and acquired the equipment to do so. Those settlements that had enough of a fighting force to defend themselves successfully even at the worst of times had a surplus at the best of times, and it is wasteful (and possibly unwise) to keep armed men sitting around with nothing to do, so a few ships would be sent out _viking_
+				- The etymology and original meaning are uncertain, but in reality it included exploration, piracy, raiding foreign lands for treasure, and trading in high-value goods. Sound familiar at all? And, of course, the countries so attacked needed to develop their own defences, and to find something useful for the army to do in the off-season: some say the Vikings were responsible for the rise of the feudal system in Northern Europe. (Oman's history of the Middle Ages refers to that in his treatment of Charlemagne and his successors).
+			- **Banditen/Grabräuber**
+			- **Söldner**: https://en.wikipedia.org/wiki/Free_company
+			- **Pilger** https://www.amazon.de/Medieval-European-Pilgrimage-c-700-c-1500-Culture/dp/0333762606/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=
+			- **Lance** https://en.wikipedia.org/wiki/Lances_fournies
+				- In some eras of Medieval Europe, there was a military unit known as a **lance**. It is like a squad, but also mirrors adventuring parties really well. This is especially true if you consider some of the attributes of lances:
+					- Everyone had a role or specialization within the lance (the knight, page, crossbowmen, the dude with the bill-hook, etc.)
+					- _Basic_ lances had three men: knight, squire, non-combat squire. This number could increase to "[a half dozen men.](http://en.wikipedia.org/wiki/Lance_%28military_unit%29)" If you add in magic in the world, it would make sense to have one magic user. That would make lances be a (minimally) four-person group.
+					- Not all lances were run by nobles; sergeants could run them as well. One could imagine that peasants with basic training and the correct equipment could attempt to form a lance as well.
+					- Lances which were not bound to a noble were _free lances_, and it is where we get the modern english word "freelance" and "freelancer." It would make sense that, if there were no wars going on, you could engage in equally high-risk adventures and get treasures from mythical or abandoned places.
+					- his is even more likely when you consider the [aftermath of plagues](http://en.wikipedia.org/wiki/Black_plague#Consequences); where towns, keeps, and other places were emptied quite quickly. (This situation can become more common by the various super-deadly things running around in the typical D&D world, like rogue magic users, raiding goblins/orcs, dragons, etc.)
+				- **Adelige**
+					- The Closest 'Real World' Equivalent to DnD Adventurers is the Noble Class
+					- One of the best, and only, ways to enter the Noble class from the peasantry was to be so ridiculously puissant at combat that you were given a command - and from that tiny band of men, achieved so much so prominently and notably that you were given a higher rank, and so forth. Saving the Duke personally on the field of battle, etc, was a quicker version of this.
+					- In DnD, where individuals have the firepower of an entire battalion of cavalry, Adventuring is the fast-tracked version of that. The ambitious, the talented, the driven - those are who adventure. 'Adventure' is really a misnomer - those are who grasp the rungs of power with both hands and delve deep beneath the earth into a god-king's tomb full of the corpses of those who have tried on the 1% chance that they'll learn a new spell or find a +1 sword.
+					- That said, in any realistic setting (medieval or otherwise), everything is geared towards competitive advantage - in the case of settings of mostly humans, this means Nations. Although the idea of a Nation is less deep-set in a medieval era than one of our modern educated nuclear-equipped ones, ultimately there has to be some sort of structure to keep out the Mongols - and so any magical power (+1 swords) or powerful individuals (adventurers) would need in _some way_ to be tied to the State.
+					- And so we come back to Nobles. Where in the medieval era they were trained to be officers and heavy cavalry (good officers and heavy cavalry ruled the battlefield in those eras) and paid in land, in DnD they can literally cut a dragon in half with a sword, so they're probably paid in 'whatever they want' and are vastly more important than even the nobility were to medieval nations.
+					- Wandering Bands of Armed Men existed in medieval europe - they were called Bandits. 
+					- Or mercenaries, and there's a pretty thin line between the two. Some people leave home to become soldiers and desert, or the crops fail, or whatever, and they end up bandits. There were a lot of them all the time, they were desperate, and tended to get murdered whenever anyone's armsmen or bailiffs caught up with them.
+					- Likely though, men broken by circumstance wouldn't be the ones fighting terrifying monsters. But Adventurers could be viewed in a similar light - even, both, with low level or unknown adventurers being seen as little better than vagabonds or mercenaries, and high level ones being treated like rockstars and courted by noblemen's daughters.
+			- # "Adventurers" in the real world
+				- Real-world "adventurers" engage in:
+					-   Trade. A lot of human activity is based on the exchange of stuff for other stuff that you want more.
+					-   Exploration. Mainly to open up new opportunities for trade. Depending on the era, an explorer might be motivated by the desire to stake out their own land claims, rewards from patrons, or the fame and fortune that comes from being a celebrity.
+					-   Raiding and brigandage. This is like trade, except you're using violence and the threat of more violence to take other people's stuff.
+					-   Fighting. Kinda way down on the list, really, because it's more dangerous than trading amicably or forcing powerless people to give you stuff.
+					- Examples to look at include [Vikings](http://en.wikipedia.org/wiki/Vikings), [free-company mercenaries](http://en.wikipedia.org/wiki/Free_company), and [privateers](http://en.wikipedia.org/wiki/Privateer).
+					- The thing is, a lot of these people operate in large groups and generally try to avoid fighting. This may or may not be a good fit for the game you have in mind. For example:
+					-   Older editions of D&D generally reward weaseling out of fights and expect you to have a big gang of hirelings and retainers following you around (especially if you integrate some wargame rules).
+					-   A game like Burning Wheel, Apocalypse World, or Reign lets you abstract the big group and focus on interpersonal drama, the political power of leadership, &c.
+					-   More recent editions of D&D are geared towards small team-on-team fights, not wandering the countryside with a crew of 40 at your back.
+					- Note that, in a more historically-grounded setting, a lot of archetypal D&D parties aren't really socially-accepted "adventurers" as much as they're just bandits and graverobbers. Fundamentally, that puts them in the social class of outlaws and outcasts — they have few obligations but even fewer legal rights. Realistic vagrancy is seldom a fun or profitable occupation, though.
+				- # "Dungeons" in the real world
+					- Dungeons full of loot aren't really part of a realistic medieval setting. There are barrows with grave goods and stuff. These aren't exactly expansive complexes. Also you can try to rob relics from, you know, an active church with people in it. It's going to be kinda difficult to make either of these activities seem suitably grand and heroic, though. Probably the only real historical analog to dungeoneering is later European [Egyptomania](http://en.wikipedia.org/wiki/Egyptomania).
+					- It's easier to integrate monsters and magic because there's a much deeper storytelling tradition to draw on, with room for protagonists of all sorts of social backgrounds — questing knights, cunning peasants, desirable young nobles, outlaw heroes, magicians, witches, destined kings, &c. — whereas dungeon-delving tends to imply scalawags looking for treasure.
+					- It's also pretty easy to place the magical and monstrous in the out-of-the-way corners of the world, far from mortal eyes and mortal ken: the deep dark forests, forbidding mountains, impassable swamps. Whereas treasure-filled dungeons, being principally tombs and ruins, imply preexisting civilized stuff all over the place — in other words, it's effectively a post-apocalyptic setting (which many fantasy settings _do_). In reality, societal collapse never really happened on such a scale, even during the transition from the Roman Empire to Late Antiquity.
+				- # Do there need to be other "adventurers?"
+					- Is there a reason you _need_ there to be a whole social class of adventurers, though? I mean, were superhero stories worse when Superman was a special snowflake instead of a card-carrying member of a superhero club?
+					- It's a lot easier to fit a fantasy-game premise into a "realistic" world if you accept that the PCs are rare and extraordinary people. A single forlorn castle haunted with ghosts fits easily into almost any setting. A whole passel of them, and a special social class dedicated to plundering them — well, that requires jumping through all sorts of hoops and it's still likely to come off as nonsense when you're done.
+	- Feudalismus im westlichen europa, aber nicht im Osten, dort sich menschen frei zu gehen, wohin sie wollen
+			- [[Feudalismus in Ukraine]]
+		- Wie einschränkend war der Feudalismus

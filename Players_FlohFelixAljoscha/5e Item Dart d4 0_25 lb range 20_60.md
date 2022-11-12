@@ -1,0 +1,1 @@
+1d4 [[5e Damage Type piercing]]    | 1/4 lb. | [[Weapon Properties 5e Finesse]], [[Weapon Properties 5e Thrown]](range 20/60)                                            |

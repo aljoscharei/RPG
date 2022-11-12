@@ -1,0 +1,4 @@
+You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted.
+1d12 [[5e Damage Type piercing]]   | 6 lb.  | [[Weapon Properties 5e Reach]], [[Weapon Properties 5e Special]]               
+
+Lance. The value of this weapon should not be underesti- mated – the largest monstrosities of the Dark Lords were often slain by lances in the hands of brave knights. The weapon was also used by the Ambrian cavalry to gain dominance over the lowlands and drive barbarians, packs of predators and abominations into the forest of Davokar.

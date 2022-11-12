@@ -1,0 +1,2 @@
+• Bonus: +2 to Wisdom  
+You suffer from a chronic disease, making you weak but also giving you insight into healing and your body’s structure. Normally, your weakness does not show, but when you must make death saving throws they are at disadvantage.

@@ -1,0 +1,87 @@
+---
+statblock: true
+name: Shrieker
+source:
+  - Monster Manual
+  - Waterdeep: Dungeon of the Mad Mage
+  - Ghosts of Saltmarsh
+type: plant
+subtype:
+size: Medium
+alignment: unaligned
+hp: 13
+hit_dice: 3d8
+ac: 5
+speed: 0 ft.
+stats:
+  - 1
+  - 1
+  - 10
+  - 1
+  - 3
+  - 1
+damage_immunities:
+damage_resistances:
+damage_vulnerabilities:
+condition_immunities: blinded, deafened, frightened
+saves:
+skillsaves:
+senses: blindsight 30 ft. (blind beyond this radius), passive Perception 6
+languages:
+cr: 0
+traits:
+  - name: False Appearance
+    desc: While the shrieker remains motionless, it is indistinguishable from an ordinary fungus.
+actions:
+  - name: Shriek
+    desc: When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for 1d4 of the shrieker's turns afterward.
+bonus_actions:
+reactions:
+legendary_actions:
+spells:
+spellsNotes:
+
+---
+```statblock
+name: Shrieker
+source:
+  - Monster Manual
+  - Waterdeep: Dungeon of the Mad Mage
+  - Ghosts of Saltmarsh
+type: plant
+subtype:
+size: Medium
+alignment: unaligned
+hp: 13
+hit_dice: 3d8
+ac: 5
+speed: 0 ft.
+stats:
+  - 1
+  - 1
+  - 10
+  - 1
+  - 3
+  - 1
+damage_immunities:
+damage_resistances:
+damage_vulnerabilities:
+condition_immunities: blinded, deafened, frightened
+saves:
+skillsaves:
+senses: blindsight 30 ft. (blind beyond this radius), passive Perception 6
+languages:
+cr: 0
+traits:
+  - name: False Appearance
+    desc: While the shrieker remains motionless, it is indistinguishable from an ordinary fungus.
+actions:
+  - name: Shriek
+    desc: When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for 1d4 of the shrieker's turns afterward.
+bonus_actions:
+reactions:
+legendary_actions:
+spells:
+spellsNotes:
+
+```

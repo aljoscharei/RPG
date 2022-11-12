@@ -1,0 +1,1 @@
+1d6 [[5e Damage Type piercing]]    | 2 lb.  | [[Weapon Properties 5e Finesse]], [[Weapon Properties 5e Light]]                                    |

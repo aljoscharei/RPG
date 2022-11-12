@@ -1,0 +1,1 @@
+A quiver can hold up to 20 arrows.

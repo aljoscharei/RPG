@@ -1,0 +1,1 @@
+Ogres can withstand more hurt than most other creatures. When rolling for hit points, roll the Hit Die twice and use the higher result. If using the average result, use 6.

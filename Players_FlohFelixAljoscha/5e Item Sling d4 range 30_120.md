@@ -1,0 +1,1 @@
+1d4 [[5e Damage Type bludgeoning]] | -       | [[Weapon Properties 5e Ammunition]] (range 30/120)     

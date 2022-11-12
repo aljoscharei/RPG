@@ -1,0 +1,1 @@
+At 9th level, choose a melee weapon that you are proficient in. When wielding that weapon, you can use your bonus action to make an additional single attack roll with that weapon.

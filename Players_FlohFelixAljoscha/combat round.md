@@ -1,0 +1,1 @@
+A **[[combat round]]** represents about 6 seconds in the game world. During a round, each participant in a battle takes a **[[combat turn]]**. The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.

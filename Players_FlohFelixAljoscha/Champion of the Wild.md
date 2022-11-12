@@ -1,0 +1,1 @@
+At 17th level, you embody the power of the wilderness. Choose Strength or Constitution. Your chosen score increases by 4 and your maximum for that ability score is now 24.

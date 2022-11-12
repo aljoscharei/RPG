@@ -1,0 +1,1 @@
+You gain proficiency with the Animal Handling and Nature skills.

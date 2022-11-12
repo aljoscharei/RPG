@@ -1,0 +1,1 @@
+bite attack against foes within 20m. strong<--strong to pull target within melee range. same round use devour or Crushing embrace target must one level lower in robust

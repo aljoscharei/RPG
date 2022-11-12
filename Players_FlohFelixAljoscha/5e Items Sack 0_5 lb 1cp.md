@@ -1,0 +1,1 @@
+1 cubic foot/30 pounds of gear

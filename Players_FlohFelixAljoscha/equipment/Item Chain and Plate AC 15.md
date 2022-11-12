@@ -1,0 +1,1 @@
+Chain and Plate. A long-sleeved, knee-length set of chain- mail with plates at sensitive joint areas like shoulders, elbows, knees, etc.

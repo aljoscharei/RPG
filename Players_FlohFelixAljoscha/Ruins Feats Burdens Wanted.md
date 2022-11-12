@@ -1,0 +1,2 @@
+• Bonus: +2 to Charisma  
+You are wanted for a some kind of serious crime, either justly or falsely accused. The effect is that you risk getting recognized and hunted. Once per adventure, you must pass a DC 10 Charisma (Deception) check to avoid being identified by authorities.

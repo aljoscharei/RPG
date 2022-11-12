@@ -1,0 +1,2 @@
+• Bonus: +1 to Wisdom  
+The character has a mystical connection to all growing things and has advantage on Wisdom(Survival) checks related to challenges in the wilds, such as orienting in the woods and finding food and shelter.

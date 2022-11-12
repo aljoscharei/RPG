@@ -1,0 +1,2 @@
+Wolf Skin. For poor barbarian scouts the cheap, cumber- some wolf skin armor is a common alternative; skin that has been tanned in the most simple way and sewn togeth- er into some kind of passable protection.
+[[Armor Property Symbaroum Cumbersome]]

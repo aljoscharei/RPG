@@ -1,0 +1,1 @@
+Like your former master, you are used to bearing Corruption as you seek power. When you make a Corruption check, you have advantage on the d20 roll. Note: this is for the initial roll to determine if you gain a mark of Corruption, not the roll to determine the mark’s nature.

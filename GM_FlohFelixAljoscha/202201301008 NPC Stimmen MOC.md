@@ -1,0 +1,61 @@
+[[202108162236 Voice Acting]][[201601011537 Voices inRPG]][[202107081342 Voice Acting Stimme NPC]][[201909100432 RPG Voices]]
+
+
+Vorlesestimmen, du kannst ganz dröhnen sprechen wie kannst du das nenne?
+
+Stimme von Mannerisms trennen. 
+- Sensei Wu
+- 1 Monster Dude
+	- [[Alahara.m4a]]
+	- [[Hated Pretender Versagt.m4a]]
+	- [[Hated Pretender meine Zeit.m4a]]
+- 2 gepresst
+	- [[Stimme Orlandor.m4a]]
+	- [[Godalg hoch, mit quackender stimme.m4a]]
+	- [[Alter mann heiser c2e88 24mins.m4a]]
+- 3 Slack Jaw
+	- [[Esel Origenes aus Tyll slack jaw, tief langsam.wav]]
+	- [[Major Domus slack jaw tief.m4a]]
+- 4 Growl
+	- [[Mal-Rogan.m4a]]
+	- [[Stimme creepy growl hinten hoch.m4a]]	
+	- [[Xanatha flüstern growl hoch.m4a]]
+	- [[maximal hoch keine stimme last gasp quietschen, pressen.m4a]]
+- 5 Tief
+	- [[Marvello tief dröhnend.m4a]]
+	- [[Ia Puuh der Bär.m4a]]
+	- [[maximal tief Stimme wie knarrende Tür.m4a]]
+-6 Sanft
+	- [[Ordelia Wildfreud.m4a]]
+	- Tief Smooth [[Lord Garmadon.m4a]]
+	- [[Lestra hohe sitmme.m4a]]
+- 7 Gravel
+	- [[Tylom preacher stimmbruch gravel.m4a]]
+	- [[Stimme Dagmar Cleftjaw mittelhoch gravel, hebungen (anapäst).m4a]]
+	- [[Martin Semmelrogge.m4a]]
+	- [[Aua Aua Aua.m4a]]
+	- [[Eufrynda erklärbär intonation, heiser.m4a]]
+	- [[Trixie Finya Fledermaus.m4a]]
+- 8 Kehlig, Reedy
+	- hoch [[Etzio Hesters Mill.m4a]]
+	- tief-isch Pumat Sol [[Pumat Sol.m4a]]
+- 9 Gehetzt
+	- [[Ellen Mercy Falls stammelnd, stotternd.m4a]]
+	- [[Esbetha gehetzt, fistelnd.m4a]]
+	- [[Mannerism Nervous Cough.m4a]]
+	- [[Gombil gehetzt, mittelhoch dröhnend.m4a]]
+- Tierisch
+	- [[Schnalzen Zombies Hesters Mill.m4a]]
+- Sonstige Mannerisms
+	- [[Thomas Mercy Falls intonation betontes ausatmen.m4a]]
+	- [[Baumelo österreicher akzent.m4a]]
+	- [[Gorak schwer atmen.m4a]]
+	- [[Ilantro flüstern.m4a]]
+	- [[Kadra berliner.m4a]]
+	- [[Pysell game of Thrones hoch, stammelnd schmatzen.wav]]
+	- [[Sarvola leicht gehaucht.m4a]]
+	- [[Stimmbruch.m4a]]
+	- Namen des Gegenübers in jedem Satz nennen. Ich weiß genau wer du bist. Und ich finde dich, wenn du mir probleme bereitest.
+	- Seelefant aus Urmel: U -> O, I -> Ä Fräsche Loft!
+	-  Iasogoi? Ja Orlandor? Ping Pong Dialog
+	- Zahnlos. Lippen über die zähne ziehen.

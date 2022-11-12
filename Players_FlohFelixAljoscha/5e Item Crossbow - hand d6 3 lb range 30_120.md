@@ -1,0 +1,3 @@
+ 1d6 [[5e Damage Type piercing]]  | 3 lb.  | [[Weapon Properties 5e Ammunition]] (range 30/120), [[Weapon Properties 5e Light]], [[Weapon Properties 5e Loading]]                                       | 
+ 
+ Crossbow, hand. Among the thieves and gangs of Yn- daros, a smaller and more easily concealed version of the crossbow is used. It can be held and fired in one hand, but requires two to load and has nearly the same punch as the standard crossbow. Assassins often apply poison to the bolts, making the weapon very effective for its size.

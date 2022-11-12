@@ -1,0 +1,2 @@
+• Bonus: +1 to Charisma  
+You know how to be threatening in an effective way and can scare people into acting according to your will, if only for a short while. You have advantage on Charisma (Intimidation or Persuasion) checks pertaining to threats, interrogation and coercion. The effect is momentary; later the victim will likely retaliate against you when a chance presents itself.

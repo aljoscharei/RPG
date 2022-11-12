@@ -1,0 +1,3 @@
+At 13th level, you can prepare a special rune that you can use as a reaction. You must attune to the rune, gaining 1 point of permanent Corruption. You choose counterspell or dispel magic and can now activate that spell as a reaction. The spell functions as if cast at 3rd level. You cannot use this feature again until you take a long or extended rest.
+
+At 17th level, you can improve your special rune that you can use as a reaction for another point of permanent Cor- ruption. It now provides the benefit of counterspell or dispel magic (your choice) as if cast at 6th level. You cannot use this feature again until you take a long or extended rest.

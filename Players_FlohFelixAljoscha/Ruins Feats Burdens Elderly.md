@@ -1,0 +1,2 @@
+• Bonus: +2 to Wisdom  
+You are past your prime and have both good and bad days. If the first ability check of the day is a success, it is a good day and everything seems to be alright; if the first check of the day is a failure, it is a bad day – the gout sets in, all your joints are aching or you are out of breath even when seated. You have disadvantage on ability checks until you succeed at one, at which time this effect ends.

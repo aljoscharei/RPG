@@ -1,0 +1,2 @@
+• Bonus: +1 to Constitution  
+By carefully exposing yourself to toxins, you have built up a remarkable resilience. You have resistance to poison damage and advantage on saving throws to avoid the poi- soned condition.

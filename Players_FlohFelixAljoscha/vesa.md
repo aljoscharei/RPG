@@ -1,0 +1,1 @@
+Vesa. A mix of buttermilk and goat whey enjoyed by all barbarian clans. Fresh and very tasty, albeit an acquired taste.

@@ -1,0 +1,1 @@
+You are used to long days of physical work with little opportunity to rest. As long as you do not have any levels of exhaustion you have advantage on any saving throws to avoid gaining exhaustion.

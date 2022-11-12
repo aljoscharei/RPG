@@ -1,0 +1,1 @@
+This horribly sickening elixir was once used by mystics wanting to hide just how close they were to becoming thoroughly corrupt, making it a welcomed ad- dition to all sorcerers’ collections of mystical decoctions. Whoever manages to force down the sludge distorts their shadow for 24 hours, making it appear as if their Corrup- tion total is 2d4 points lower.

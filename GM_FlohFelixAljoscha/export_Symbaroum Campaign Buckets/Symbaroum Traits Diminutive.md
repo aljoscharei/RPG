@@ -1,0 +1,1 @@
+resolute <--discreet: enemies attack all other target preferetially

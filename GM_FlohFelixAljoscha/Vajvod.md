@@ -1,0 +1,4 @@
+- stone fortress vojvodar open karo's fen and forward base of queensn rangers symbolists. enemies of karvosti
+Southeastern Davokar, particularly the area around the stone fortress Vojvodar and the River Doudram, is the home of the Vajvods. The remote location and the relative openness of its inhabitants have made it possible for the Ambrians to gain a firm foothold in the territory, clearly demonstrated by the colony Karo’s Fen, the trade ships sailing all the way up to the source of the river and the forward base that the Queen’s Rangers have in the area.
+
+[[Ruins of Symbaroum Mystic Approach Symbolist]]

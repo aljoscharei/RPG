@@ -1,0 +1,1 @@
+1d6 [[5e Damage Type slashing]]    | 2 lb.  | [[Weapon Properties 5e Light]], [[Weapon Properties 5e Thrown]] (range 20/60)

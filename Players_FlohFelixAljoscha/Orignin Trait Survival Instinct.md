@@ -1,0 +1,1 @@
+While goblins are a loud and fractious people, they have a powerful will to survive. You can take either the Dash, Dodge or Disengage actions using your bonus action. You also gain proficiency with the Stealth and Survival skills.

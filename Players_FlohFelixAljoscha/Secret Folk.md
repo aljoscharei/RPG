@@ -1,0 +1,1 @@
+At 13th level you become an expert at hiding. If you are with- in 30 feet of an ally, each ally gains a bonus to their Dexterity (Stealth) check equal to twice your proficiency bonus.

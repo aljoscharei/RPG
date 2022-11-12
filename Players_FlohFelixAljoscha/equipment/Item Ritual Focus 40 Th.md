@@ -1,0 +1,1 @@
+A tradition-specific object which reduces the time required for all rituals belonging to the tradition. The ritual requires only an additional 5 minutes instead of 10. [See examples to the right].

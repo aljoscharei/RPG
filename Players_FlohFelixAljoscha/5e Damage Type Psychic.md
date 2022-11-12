@@ -1,0 +1,1 @@
+**Psychic.** Mental abilities such as a psionic blast deal psychic damage. Ich fände es logisch, wenn ein wesen nicht tot wäre sondern handlungsunfähig wenn die Hp durch psychic dmg auf 0 fallen  [[damage and healing#Knocking a Creature Out]]

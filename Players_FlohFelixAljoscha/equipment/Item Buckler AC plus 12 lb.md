@@ -1,0 +1,1 @@
+Buckler. This small shield is usually held directly in front of the fist and is favored by those fencers who don’t carry a parrying dagger.

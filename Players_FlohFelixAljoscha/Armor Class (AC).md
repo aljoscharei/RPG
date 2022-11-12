@@ -1,0 +1,1 @@
+Armor protects its wearer from attacks. The armor (and shield) you wear determines your base Armor Class.

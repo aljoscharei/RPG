@@ -1,0 +1,1 @@
+At 1st level, you learn the [[5e Spells bless buff attack save d4 c]] spell in addition to your chosen spells.

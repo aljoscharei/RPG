@@ -1,0 +1,1 @@
+These weapons were forged to allow a wielder to strike from a distance. Only mystics know how to use such an artifact. The attack is rolled as if in melee combat but may hit distant targets (up to 60 feet away) and requires the wielder to see the target.

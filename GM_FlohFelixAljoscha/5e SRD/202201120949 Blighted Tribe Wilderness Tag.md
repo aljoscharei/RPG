@@ -1,0 +1,4 @@
+- Leprosarium
+- the blight was once useful: Symbaroum Exaltation
+- Beast Clan [[201811221502 Thistle Hold Wrath of the Warden]]
+- Human Structure reworked for their nature: Flyers

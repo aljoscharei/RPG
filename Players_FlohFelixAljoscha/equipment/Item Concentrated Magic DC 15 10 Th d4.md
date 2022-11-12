@@ -1,0 +1,1 @@
+A dose of mystical essence, which allows a mystic to reduce the temporary Corruption gain from casting a spell by 1 point (minimum of 1 point of tem- porary Corruption). Only one can be consumed per casting and the mystic must make a DC 15 Constitution saving throw or become poisoned until the end of their next turn.

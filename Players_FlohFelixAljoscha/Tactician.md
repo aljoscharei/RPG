@@ -1,0 +1,1 @@
+Also at 1st level, you have extensively studied small-scale combat. You have advantage on initiative rolls.

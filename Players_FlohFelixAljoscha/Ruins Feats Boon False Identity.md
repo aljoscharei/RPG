@@ -1,0 +1,2 @@
+• Bonus: +1 to Charisma  
+You have a false identity, complete with clothes, equipment and papers to back it up. The identity is so well-crafted that it cannot be exposed unless the person who created it (usually a prominent member of the organization or faction to which the character belongs) discloses it – or if you do something clearly revealing.

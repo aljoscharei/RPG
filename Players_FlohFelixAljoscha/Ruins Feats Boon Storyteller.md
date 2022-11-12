@@ -1,0 +1,2 @@
+• Bonus: +1 to Charisma  
+You are a gifted storyteller and no matter if you narrate legends, religious myths or burlesque tales, you will impress the audience. You gain advantage on Charisma (Deception or Performance) checks when attempting to weave a credible story to impress your listeners, and you are skilled enough to earn an income from your performances (see Downtime, page 40).

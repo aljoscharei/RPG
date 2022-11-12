@@ -1,0 +1,4 @@
+- Prerequisite: Dexterity 13 or higher.  
+- You are an expert at stealth. You gain the following benefits:
+	- You have advantage on Dexterity (Stealth) checks as long as you are obscured from any observers.  
+	- If you are hidden, a failed attack roll does not reveal your location. 

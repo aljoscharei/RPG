@@ -1,0 +1,211 @@
+[[202202100538 5e MOC]]
+
+description:_5th_Edition_(5e)_Wizard_spell_list,_organized_by_level.
+
+#_Wizard_Spell_List
+| Spell_Level | Name                                                                                   | School        |
+| ----------- | -------------------------------------------------------------------------------------- | ------------- |
+| 0_(Cantrip| [[acid_splash]](/spellcasting/spells/acid_splash/)                                     | Conjuration   |
+| 0_(Cantrip) | [[chill_touch]](/spellcasting/spells/chill_touch/)                                     | Necromancy    |
+| 0_(Cantrip) | [[dancing_lights]](/spellcasting/spells/dancing_lights/)                               | Evocation     |
+| 0_(Cantrip) | [[fire_bolt]](/spellcasting/spells/fire_bolt/)                                         | Evocation     |
+| 0_(Cantrip) | [[light]](/spellcasting/spells/light/)                                                 | Evocation     |
+| 0_(Cantrip) | [[mage_hand]](/spellcasting/spells/mage_hand/)                                         | Conjuration   |
+| 0_(Cantrip) | [[mending]](/spellcasting/spells/mending/)                                             | Transmutation |
+| 0_(Cantrip) | [[message]](/spellcasting/spells/message/)                                             | Transmutation |
+| 0_(Cantrip) | [[minor_illusion]](/spellcasting/spells/minor_illusion/)                               | Illusion      |
+| 0_(Cantrip) | [[poison_spray]](/spellcasting/spells/poison_spray/)                                   | Conjuration   |
+| 0_(Cantrip) | [[prestidigitation]](/spellcasting/spells/prestidigitation/)                           | Transmutation |
+| 0_(Cantrip) | [[ray_of_frost]](/spellcasting/spells/ray_of_frost/)                                   | Evocation     |
+| 0_(Cantrip) | [[shocking_grasp]](/spellcasting/spells/shocking_grasp/)                               | Evocation     |
+| 0_(Cantrip) | [[true_strike]](/spellcasting/spells/true_strike/)                                     | Divination    |
+| 1           | [[alarm]](/spellcasting/spells/alarm/)                                                 | Abjuration    |
+| 1           | [[burning_hands]] conde 3d6 fire dmg                                                   | Evocation     |
+| 1           | [[charm_person]] charmed [[202202102000 5e Conditions Charmed]]                        | Enchantment   |
+| 1           | [[color_spray]] cone [[202202102106 5e Conditions Blinded]]                            | Illusion      |
+| 1           | [[comprehend_languages]] read and hear                                                 | Divination    |
+| 1           | [[detect_magic]] lame                                                                  | Divination    |
+| 1           | [[disguise_self]] as person                                                            | Illusion      |
+| 1           | [[expeditious_retreat]] [[202202101902 5e Actions in Combat Dash]]                     | Transmutation |
+| 1           | [[false_life]] buff hp                                                                 | Necromancy    |
+| 1           | [[feather_fall]] no falling dmg                                                        | Transmutation |
+| 1           | [[find_familiar]] frumkin critical role                                                | Conjuration   |
+| 1           | [[floating_disk]]lame                                                                  | Conjuration   |
+| 1           | [[fog_cloud]](/spellcasting/spells/fog_cloud/)                                         | Conjuration   |
+| 1           | [[grease]](/spellcasting/spells/grease/)                                               | Conjuration   |
+| 1           | [[hideous_laughter]]           | Enchantment   |
+| 1           | [[identify]](/spellcasting/spells/identify/)                                           | Divination    |
+| 1           | [[illusory_script]](/spellcasting/spells/illusory_script/)                             | Illusion      |
+| 1           | [[jump]] kinda lame is this in ose?                                                   | Transmutation |
+| 1           | [[longstrider]](/spellcasting/spells/longstrider/)                                     | Transmutation |
+| 1           | [[mage_armor]]The target's base AC becomes 13 + its Dexterity modifier                                      | Abjuration    |
+| 1           | [[magic_missile]] target 3 individuals                                | Evocation     |
+| 1           | [[protection_from_evil_and_good]](/spellcasting/spells/protection_from_evil_and_good/) | Abjuration    |
+| 1           | [[shield]](/spellcasting/spells/shield/)                                               | Abjuration    |
+| 1           | [[silent_image]](/spellcasting/spells/silent_image/)                                   | Illusion      |
+| 1           | [[sleep]] Narkosegasgranate     | Enchantment   |
+| 1           | [[thunderwave]] push all enemies away                                   | Evocation     |
+| 1           | [[unseen_servant]](/spellcasting/spells/unseen_servant/)                               | Conjuration   |
+| 2           | [[acid_arrow]] miss dmg                                     | Evocation     |
+| 2           | [[alter_self]]   Aquatic, appearance or weapon                                    | Transmutation |
+| 2           | [[arcane_lock]]                                     | Abjuration    |
+| 2           | [[arcanists_magic_aura]] counterspell for [[detect_magic]]                  | Illusion      |
+| 2           | [[BlindnessDeafness]]                        | Necromancy    |
+| 2           | [[blur]]                                                   | Illusion      |
+| 2           | [[continual_flame]] burns forever                             | Evocation     |
+| 2           | [[darkness]] negative light                                            | Evocation     |
+| 2           | [[darkvision]]                                      | Transmutation |
+| 2           | [[detect_thoughts]]                             | Divination    |
+| 2           | [[enlargereduce]]                             | Transmutation |
+| 2           | [[flaming_sphere]] ball of fire to ram enemies.       | Conjuration   |
+| 2           | [[gentle_repose]]                                | Necromancy    |
+| 2           | [[gust_of_wind]]                                   | Evocation     |
+| 2           | [[hold_person]] immobilize                                   | Enchantment   |
+| 2           | [[invisibility]]  why does invisibility end when attack or spellcasting?                           | Illusion      |
+| 2           | [[knock 5e]]                                                | Transmutation |
+| 2           | [[levitate]]                                          | Transmutation |
+| 2           | [[locate_object]] Wünschelrute            | Divination    |
+| 2           | [[magic_mouth]]                                   | Illusion      |
+| 2           | [[magic_weapon]] +1 sword                                   | Transmutation |
+| 2           | [[mirror_image]] defensive                                  | Illusion      |
+| 2           | [[misty_step]] teleport 30 ft                                | Conjuration   |
+| 2           | [[ray_of_enfeeblement]] poisoned, sick                 | Necromancy    |
+| 2           | [[rope_trick]] flavorful                                | Transmutation  |
+| 2           | [[scorching_ray]]                               | Evocation     |
+| 2           | [[see_invisibility]]                         | Divination    |
+| 2           | [[shatter]]                                              | Evocation     |
+| 2           | [[spider_climb]] spiderman                               | Transmutation |
+| 2           | [[suggestion]]                                      | Enchantment   |
+| 2           | [[web]]                                                     | Conjuration   |
+| 3           | [[animate_dead]]                                  | Necromancy    |
+| 3           | [[bestow_curse]]                                   | Necromancy    |
+| 3           | [[blink]] to ethereal plane                                                 | Transmutation |
+| 3           | [[clairvoyance]]  scrying                          | Divination    |
+| 3           | [[counterspell]]  as reaction to interrupt casting                                   | Abjuration    |
+| 3           | [[dispel_magic]]                          | Abjuration    |
+| 3           | [[fear]]                                             | Illusion      |
+| 3           | [[fireball]]  20ft 8d6                                | Evocation     |
+| 3           | [[fly]]  10 min access                                           | Transmutation |
+| 3           | [[gaseous_form]] access                         | Transmutation |
+| 3           | [[glyph_of_warding]]magical trap                           | Abjuration    |
+| 3           | [[haste]]    Double action                                           | Transmutation |
+| 3           | [[hypnotic_pattern]](/spellcasting/spells/hypnotic_pattern/)                           | Illusion      |
+| 3           | [[lightning_bolt]]              | Evocation     |
+| 3           | [[magic_circle]]                                | Abjuration    |
+| 3           | [[major_image]]                               | Illusion      |
+| 3           | [[nondetection]](/spellcasting/spells/nondetection/)                                   | Abjuration    |
+| 3           | [[phantom_steed]](/spellcasting/spells/phantom_steed/)                                 | Illusion      |
+| 3           | [[protection_from_energy]](/spellcasting/spells/protection_from_energy/)               | Abjuration    |
+| 3           | [[remove_curse]](/spellcasting/spells/remove_curse/)                                   | Abjuration    |
+| 3           | [[sending]](/spellcasting/spells/sending/)                                             | Evocation     |
+| 3           | [[sleet_storm]](/spellcasting/spells/sleet_storm/)                                     | Conjuration   |
+| 3           | [[slow]](/spellcasting/spells/slow/)                                                   | Transmutation |
+| 3           | [[stinking_cloud]](/spellcasting/spells/stinking_cloud/)                               | Conjuration   |
+| 3           | [[tiny_hut]](/spellcasting/spells/tiny_hut/)                                           | Evocation     |
+| 3           | [[tongues]](/spellcasting/spells/tongues/)                                             | Divination    |
+| 3           | [[vampiric_touch]](/spellcasting/spells/vampiric_touch/)                               | Necromancy    |
+| 3           | [[water_breathing]](/spellcasting/spells/water_breathing/)                             | Transmutation |
+| 4           | [[arcane_eye]](/spellcasting/spells/arcane_eye/)                                       | Divination    |
+| 4           | [[banishment]](/spellcasting/spells/banishment/)                                       | Abjuration    |
+| 4           | [[black_tentacles]](/spellcasting/spells/black_tentacles/)                             | Conjuration   |
+| 4           | [[blight]](/spellcasting/spells/blight/)                                               | Necromancy    |
+| 4           | [[confusion]](/spellcasting/spells/confusion/)                                         | Enchantment   |
+| 4           | [[conjure_minor_elementals]](/spellcasting/spells/conjure_minor_elementals/)           | Conjuration   |
+| 4           | [[control_water]](/spellcasting/spells/control_water/)                                 | Transmutation |
+| 4           | [[dimension_door]](/spellcasting/spells/dimension_door/)                               | Conjuration   |
+| 4           | [[fabricate]](/spellcasting/spells/fabricate/)                                         | Transmutation |
+| 4           | [[faithful_hound]](/spellcasting/spells/faithful_hound/)                               | Conjuration   |
+| 4           | [[fire_shield]](/spellcasting/spells/fire_shield/)                                     | Evocation     |
+| 4           | [[greater_invisibility]](/spellcasting/spells/greater_invisibility/)                   | Illusion      |
+| 4           | [[hallucinatory_terrain]](/spellcasting/spells/hallucinatory_terrain/)                 | Illusion      |
+| 4           | [[ice_storm]](/spellcasting/spells/ice_storm/)                                         | Evocation     |
+| 4           | [[locate_creature]](/spellcasting/spells/locate_creature/)                             | Divination    |
+| 4           | [[phantasmal_killer]](/spellcasting/spells/phantasmal_killer/)                         | Illusion      |
+| 4           | [[polymorph]](/spellcasting/spells/polymorph/)                                         | Transmutation |
+| 4           | [[private_sanctum]]                                                                    | Abjuration    |
+| 4           | [[resilient_sphere]](/spellcasting/spells/resilient_sphere/)                           | Evocation     |
+| 4           | [[secret_chest]](/spellcasting/spells/secret_chest/)                                   | Conjuration   |
+| 4           | [[stone_shape]](/spellcasting/spells/stone_shape/)                                     | Transmutation |
+| 4           | [[stoneskin]](/spellcasting/spells/stoneskin/)                                         | Abjuration    |
+| 4           | [[wall_of_fire]](/spellcasting/spells/wall_of_fire/)                                   | Evocation     |
+| 5           | [[animate_objects]](/spellcasting/spells/animate_objects/)                             | Transmutation |
+| 5           | [[arcane_hand]](/spellcasting/spells/arcane_hand/)                                     | Evocation     |
+| 5           | [[cloudkill]](/spellcasting/spells/cloudkill/)                                         | Conjuration   |
+| 5           | [[cone_of_cold]](/spellcasting/spells/cone_of_cold/)                                   | Evocation     |
+| 5           | [[conjure_elemental]](/spellcasting/spells/conjure_elemental/)                         | Conjuration   |
+| 5           | [[contact_other_plane]](/spellcasting/spells/contact_other_plane/)                     | Divination    |
+| 5           | [[creation]](/spellcasting/spells/creation/)                                           | Illusion      |
+| 5           | [[dominate_person]](/spellcasting/spells/dominate_person/)                             | Enchantment   |
+| 5           | [[dream]](/spellcasting/spells/dream/)                                                 | Illusion      |
+| 5           | [[geas]](/spellcasting/spells/geas/)                                                   | Enchantment   |
+| 5           | [[hold_monster]](/spellcasting/spells/hold_monster/)                                   | Enchantment   |
+| 5           | [[legend_lore]](/spellcasting/spells/legend_lore/)                                     | Divination    |
+| 5           | [[mislead]](/spellcasting/spells/mislead/)                                             | Illusion      |
+| 5           | [[modify_memory]](/spellcasting/spells/modify_memory/)                                 | Enchantment   |
+| 5           | [[passwall]](/spellcasting/spells/passwall/)                                           | Transmutation |
+| 5           | [[planar_binding]](/spellcasting/spells/planar_binding/)                               | Abjuration    |
+| 5           | [[scrying]](/spellcasting/spells/scrying/)                                             | Divination    |
+| 5           | [[seeming]](/spellcasting/spells/seeming/)                                             | Illusion      |
+| 5           | [[telekinesis]](/spellcasting/spells/telekinesis/)                                     | Transmutation |
+| 5           | [[telepathic_bond]](/spellcasting/spells/telepathic_bond/)                             | Divination    |
+| 5           | [[teleportation_circle]](/spellcasting/spells/teleportation_circle/)                   | Conjuration   |
+| 5           | [[wall_of_force]](/spellcasting/spells/wall_of_force/)                                 | Evocation     |
+| 5           | [[wall_of_stone]](/spellcasting/spells/wall_of_stone/)                                 | Evocation     |
+| 6           | [[chain_lightning]](/spellcasting/spells/chain_lightning/)                             | Evocation     |
+| 6           | [[circle_of_death]](/spellcasting/spells/circle_of_death/)                             | Necromancy    |
+| 6           | [[contingency]](/spellcasting/spells/contingency/)                                     | Evocation     |
+| 6           | [[create_undead]](/spellcasting/spells/create_undead/)                                 | Necromancy    |
+| 6           | [[disintegrate]](/spellcasting/spells/disintegrate/)                                   | Transmutation |
+| 6           | [[eyebite]](/spellcasting/spells/eyebite/)                                             | Necromancy    |
+| 6           | [[flesh_to_stone]](/spellcasting/spells/flesh_to_stone/)                               | Transmutation |
+| 6           | [[freezing_sphere]](/spellcasting/spells/freezing_sphere/)                             | Evocation     |
+| 6           | [[globe_of_invulnerability]](/spellcasting/spells/globe_of_invulnerability/)           | Abjuration    |
+| 6           | [[guards_and_wards]](/spellcasting/spells/guards_and_wards/)                           | Abjuration    |
+| 6           | [[instant_summons]](/spellcasting/spells/instant_summons/)                             | Conjuration   |
+| 6           | [[irresistible_dance]](/spellcasting/spells/irresistible_dance/)                       | Enchantment   |
+| 6           | [[magic_jar]](/spellcasting/spells/magic_jar/)                                         | Necromancy    |
+| 6           | [[mass_suggestion]](/spellcasting/spells/mass_suggestion/)                             | Enchantment   |
+| 6           | [[move_earth]](/spellcasting/spells/move_earth/)                                       | Transmutation |
+| 6           | [[programmed_illusion]](/spellcasting/spells/programmed_illusion/)                     | Illusion      |
+| 6           | [[sunbeam]](/spellcasting/spells/sunbeam/)                                             | Evocation     |
+| 6           | [[true_seeing]](/spellcasting/spells/true_seeing/)                                     | Divination    |
+| 6           | [[wall_of_ice]](/spellcasting/spells/wall_of_ice/)                                     | Evocation     |
+| 7           | [[arcane_sword]](/spellcasting/spells/arcane_sword/)                                   | Evocation     |
+| 7           | [[delayed_blast_fireball]](/spellcasting/spells/delayed_blast_fireball/)               | Evocation     |
+| 7           | [[etherealness]](/spellcasting/spells/etherealness/)                                   | Transmutation |
+| 7           | [[finger_of_death]](/spellcasting/spells/finger_of_death/)                             | Necromancy    |
+| 7           | [[forcecage]](/spellcasting/spells/forcecage/)                                         | Evocation     |
+| 7           | [[magnificent_mansion]](/spellcasting/spells/magnificent_mansion/)                     | Conjuration   |
+| 7           | [[mirage_arcane]](/spellcasting/spells/mirage_arcane/)                                 | Illusion      |
+| 7           | [[plane_shift]](/spellcasting/spells/plane_shift/)                                     | Conjuration   |
+| 7           | [[prismatic_spray]](/spellcasting/spells/prismatic_spray/)                             | Evocation     |
+| 7           | [[project_image]](/spellcasting/spells/project_image/)                                 | Illusion      |
+| 7           | [[reverse_gravity]](/spellcasting/spells/reverse_gravity/)                             | Transmutation |
+| 7           | [[sequester]](/spellcasting/spells/sequester/)                                         | Transmutation |
+| 7           | [[simulacrum]](/spellcasting/spells/simulacrum/)                                       | Illusion      |
+| 7           | [[symbol]](/spellcasting/spells/symbol/)                                               | Abjuration    |
+| 7           | [[teleport]](/spellcasting/spells/teleport/)                                           | Conjuration   |
+| 8           | [[antimagic_field]](/spellcasting/spells/antimagic_field/)                             | Abjuration    |
+| 8           | [[Antipathy/Sympathy]](/spellcasting/spells/antipathysympathy/)                        | Enchantment   |
+| 8           | [[clone]](/spellcasting/spells/clone/)                                                 | Necromancy    |
+| 8           | [[control_weather]](/spellcasting/spells/control_weather/)                             | Transmutation |
+| 8           | [[demiplane]](/spellcasting/spells/demiplane/)                                         | Conjuration   |
+| 8           | [[dominate_monster]](/spellcasting/spells/dominate_monster/)                           | Enchantment   |
+| 8           | [[feeblemind]](/spellcasting/spells/feeblemind/)                                       | Enchantment   |
+| 8           | [[incendiary_cloud]](/spellcasting/spells/incendiary_cloud/)                           | Conjuration   |
+| 8           | [[maze]](/spellcasting/spells/maze/)                                                   | Conjuration   |
+| 8           | [[mind_blank]](/spellcasting/spells/mind_blank/)                                       | Abjuration    |
+| 8           | [[power_word_stun]](/spellcasting/spells/power_word_stun/)                             | Enchantment   |
+| 8           | [[sunburst]](/spellcasting/spells/sunburst/)                                           | Evocation     |
+| 9           | [[astral_projection]](/spellcasting/spells/astral_projection/)                         | Necromancy    |
+| 9           | [[foresight]](/spellcasting/spells/foresight/)                                         | Divination    |
+| 9           | [[gate]](/spellcasting/spells/gate/)                                                   | Conjuration   |
+| 9           | [[imprisonment]](/spellcasting/spells/imprisonment/)                                   | Abjuration    |
+| 9           | [[meteor_swarm]](/spellcasting/spells/meteor_swarm/)                                   | Evocation     |
+| 9           | [[power_word_kill]](/spellcasting/spells/power_word_kill/)                             | Enchantment   |
+| 9           | [[prismatic_wall]](/spellcasting/spells/prismatic_wall/)                               | Abjuration    |
+| 9           | [[shapechange]](/spellcasting/spells/shapechange/)                                     | Transmutation |
+| 9           | [[time_stop]](/spellcasting/spells/time_stop/)                                         | Transmutation |
+| 9           | [[true_polymorph]](/spellcasting/spells/true_polymorph/)                               | Transmutation |
+| 9           | [[weird]](/spellcasting/spells/weird/)                                                 | Illusion      |
+| 9           | [[wish]](/spellcasting/spells/wish/)                                                   | Conjuration   |

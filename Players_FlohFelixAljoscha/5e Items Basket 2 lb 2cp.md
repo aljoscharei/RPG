@@ -1,0 +1,1 @@
+2 cubic feet/40 pounds of gear

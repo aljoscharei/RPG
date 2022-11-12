@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "7fa25670c0e05a97",
+    "type": "split",
+    "children": [
+      {
+        "id": "593a060426561f96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1eb43f68548b4159",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202109080644 WWN Community Tags MOC.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1e68a805dda3668f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "98b546d8615dd21c",
+    "type": "split",
+    "children": [
+      {
+        "id": "386d46b0c526e269",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e300d2a908a3716e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "27178ee969207cf5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "511cc0a47965fe58",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 294.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "45f2f42350a021b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "50079456c5b9fe86",
+        "type": "tabs",
+        "dimension": 58.56164383561643,
+        "children": [
+          {
+            "id": "f55a2641a6d46b0a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b75eeef679e903b4",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "901da32e37638631",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9293ee8c2b8c385",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "27d7cc2c46493318",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "df1dd1c491e31512",
+        "type": "tabs",
+        "dimension": 41.43835616438357,
+        "children": [
+          {
+            "id": "868647c6e9c26c98",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-creature-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "active": "1e68a805dda3668f",
+  "lastOpenFiles": [
+    "Players_FlohFelixAljoscha/5e spells sleep w.md",
+    "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
+    "GM_FlohFelixAljoscha/602101050800 Session Log 50 202210242100.md",
+    "GM_FlohFelixAljoscha/Protect the village generator.md",
+    "000 media/Maps/Davokar Pentagon Map new.png",
+    "GM_FlohFelixAljoscha/Symbaroum Session MOC.md",
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202109080644 WWN Community Tags MOC.md",
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203091144 War Theme MOC.md",
+    "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202001052047 Random Encounter Table MOC.md"
+  ]
+}

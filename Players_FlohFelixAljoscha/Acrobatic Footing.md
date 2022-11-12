@@ -1,0 +1,1 @@
+At 17th level, you are immune to the prone condition, as you’ve trained yourself to roll with any blows and then immediately regain your stance. [[5e Conditions Prone]]

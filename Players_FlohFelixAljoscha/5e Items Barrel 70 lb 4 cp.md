@@ -1,0 +1,1 @@
+40 gallons liquid, 4 cubic feet solid

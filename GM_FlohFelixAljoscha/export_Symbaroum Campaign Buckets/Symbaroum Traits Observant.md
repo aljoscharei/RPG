@@ -1,0 +1,1 @@
+360° vision. flanking does not give advantage

@@ -1,0 +1,1 @@
+collective addictional action for mystical power/turn. breaks only on 3 failed concentraition checks

@@ -1,0 +1,1 @@
+At 13th level you can use your cunning action feature to throw a [[Item Grenade 1lb 30-90 25 gp 1d10 fire dmg]] or set a [[item breaching pot]]

@@ -1,0 +1,3 @@
+[[Item Composite Bow d8 3lb 80_320]]                 | 30 Th       | d8 [[5e Damage Type piercing]]    | 3 lb   | [[Weapon Properties 5e Ammunition]],[[Weapon Properties Symbaroum deep impact]], [[Weapon Properties 5e Two-Handed]], Range (80,320)      
+
+Composite Bow. Among the wagon-riding Varaks and Saars who live on the plains west of Davokar, bow-making is a highly esteemed art form. The composite bow is made from layers of horn and sinews over a wooden core; it is shorter and not as precise as the longbow but more pow- erful. Its size makes it perfect for use while on horseback, the driver’s seat of a wagon or the narrow platform of a battle chariot.

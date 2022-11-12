@@ -1,0 +1,1 @@
+Crow Armor. Medium armor is more expensive than light, which is the reason why many warriors have picked, riv- eted and bound together a so-called “crow armor” of their own. It is cheap, but far more difficult to move around in.

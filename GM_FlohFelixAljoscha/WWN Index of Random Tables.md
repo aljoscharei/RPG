@@ -1,0 +1,206 @@
+- Geography Contrutction
+	- Significant terrain features p 121 [[202203191239 WWN p121 Significant Terrain Features]]
+	- one-roll terrain feature details 123 [[202203241052 WWN p 123 Terrain Feature Details]]
+- Nation Construction
+	-  ties with neighbor societies p 125
+	- nation themes p 127
+- Society
+	- physical appearance of members p 129
+	- values of society p 130
+	- unit of social identity p  131
+	- Example Template Society p 131
+- Government
+	- Ruling class p 133
+	- Source of leglitimacy p 133
+	- Number fo rulers p 133
+	- Servants of the ruling order p 133
+	- Forms of Rulership 134
+	- Diseases of rule 134
+	- one-roll government details 135
+- History
+	- origin p 136
+	- what became of origial inhabitants p136
+	- Historical crises p 136
+	- how was crisis overcome p 136
+	- what was great about peak 137
+	- why  did it fail at final crisi 137
+	- What became of unabsorbed survivors 137
+	- Historical events 139
+- Religion
+	- Who leads faith  140
+	- God origin 140
+	- WHy does the faith matter 140
+	- what does this faith want 141
+	- What are the clerics like 141
+	- What does this god do in society 141
+	- What is the gods portfolio 142
+	- What are faiths strictures 142
+	- one-roll temple details 143
+	- Rewards of sinister faith 144
+	- one roll malevolent cult 145 [[202203241255 WWN p145 One Roll Cult]]
+- General places of advenure 146 [[202203191259 WWN p146 Ruins and Points of Interest]]
+- Places specific to the latter earth 146
+- Communities
+	- rural villages
+		- rationale for village existence 149
+		- features of village 149
+		- ivolvement with adventurers 149
+	- Major cities
+		- rationale of cities existence 150
+		- Features of city 150
+		- Citiy involvement witih adventurers 150
+	- [[WWN Tribes and exiles]]
+		- why are they staying here 151
+		- Features of the tribe
+		- Trival ivolvement with adventurers 151
+	- Table of community Tags [[202109080644 WWN Community Tags MOC]]
+- Courts
+	- Aristocratic Courts
+		- Main Theme of Aristocratic Court 167
+		- People of the Aristocratic Courts 167
+		- Problems of the Aristocratic Courts 167
+	- Business Court
+		- Relations with their market 168
+		- People of the Business Court 168
+		- Problems of the Business Court 168
+	- Criminal Court
+		- primary mode of Crime p 169
+		- people of the crime court 169
+		- problems of the crime court 169
+	- Familial courtss
+		- relation with neighbors of familial court p 170
+		- people of the familial court 170
+		- problems of the famililal court 170
+	- Relicious courts
+		- Relations with larger faith 171
+		- People of the religious court 171
+		- Problems of the religious court 171
+	- Table of court Tags 172
+- Ruins
+	- one-roll ruin generation 187 [[202203241302 WWN p 187 One Roll Dungeon Generation]]
+	- latter earth specific ruins 188
+	- Ruins Tags 190 [[202202130655 WWN Dungeon Tags MOC]]
+- Wilderness
+	-  wilderness Encouters p 205
+		- human wilderness Encouters p 205
+		- nonhuman sapient wilderness Encouters p 205
+		- beast wilderness Encouters p 205
+		- sapient activity table p 205
+		- beast activity p 205
+	- Wilderness Tags p 206 [[202201121842 WWN Wilderness Tags MOC]]
+- Combat Challenge complications [[Encounters MOC]]
+	- [[Combat What is enemy doing]] 232
+	- [[ Combat What problems do they have]] 232
+	- [[Twists about the target or their allies]] p 232
+	- [[Whats that bestial monster doing]] 233
+	- [[Urban dwelling complications]] 233
+	- [[Wilderness lair complications]] 233
+	- [[Deep Chamber Complications]] 233
+- Exploration Challenges
+	- Types of ruins sites 238 [[202203191305 WWN p 238 Type of Ruin Site]]
+	- Inhabitants [[202203241242 WWN 239 Framework of Inhabitants]]
+		- reasons for hostility 239
+		- reasons for alliance 239
+		- why did they come here 239
+		- why did they stay here 239
+	- Types of inhabitants
+		- subterranean deep 240 [[202203241249 WWN 240 Dungeon Encounter Table]]
+		- Sorcerer-king ruin 240
+		- Modern ruin 240
+		- alien arratu 240
+		- Trackless wilderness 240 [[202203241259 WWN p 240 Wilderness Encnounter Table]]
+	- Rooms of interest
+	- Hex points of interest [[202203241226 WWN p 242 Hex points of Interest]]
+		- basic type 242
+		- Example community site p242
+		- Example court site 242
+		- Example wildernesss site 242
+	- Room layout p 243
+	- Stocking Rooms 244
+	- Room hazards 245
+	- Room enigmas 245
+	- room distractors 245
+	- Room treasure location 245
+- Wandering encounters [[202203280513 WWN p 247 Random Encounters]]
+	- d6 type of encounter 247
+	- What are they trying to do 247
+	- What mood are they in 247
+	- Example of wilderness event 247
+	- Example of dungeon event 247
+- Crime investigation
+	- Resolution scene twists 250
+	- Ivestigation scene complications 250
+	- Intro scene hooks 250
+	- Hook scene lure 251
+	- Reaction scene 251
+	- failsafe scene 251
+- one-roll social challenge targets 253
+- Reward
+	- not random Reward by patron 254
+	- not random Ways to earn reknown 255
+	- placing treasures
+		- Treasure table by site 257
+		- type of trove by owner 257
+		- type of jewelry 257
+		- type of magic items 257
+		- valuable objects or prcious goods  p 257
+		- why is the object valuable 257
+		- Income per year per hex type 259
+	- Magical armor 262
+	- Magical armor and shield abilities 263
+	- Random grimoire contents 264
+	- Exemplar (magical trinkets) value 265
+	- Calyx (=scroll) spell content 265
+	- Magical weapon origin 266
+	- Magical weapon bonus 266
+	- Magical weapon type 267
+	- Magical weapon abilities 267
+	- sentient item purpose 267
+	- d100 magical weapon ability 269
+	- Magical devices (alchemical) 273
+	- Magical elixirs form 276
+	- Magical elixirs quirks 276
+	- Types of elixir 277
+	- Magic item design flaws 93
+- Creating Monsters
+	- Monster Table 283
+	- Monstrosity Creator's intent 284
+	- Example blighes qualities 284
+	- Monster shape and appearance 285
+	- Monstrous Motivation 287
+	- Monster Powers
+		- Damage powers 289
+		- Movement Powers 289
+		- Dibiltating powers 290
+		- Augmenting powers 290
+		- Intrinsic powers 290
+	- One-roll monstrous context 293
+- NPC reaction Roll 296
+- NPC instictive action 299
+- Animal instinctive action 301
+- Background actors
+	- general actor activites 334
+	- background actor events 335
+- Major Projects difficulty 337
+- Contruction cost 341
+- Hireling Cost 342
+- soldiers cost 343
+- Ifernal iterum Tools 371
+- SUmmoned iteum creatures 373
+- alternate worlds 375
+- [[Adventure reward]] 376
+- [[How to Show Info]] 376
+- oracular adventure adjustment 377
+- [[fractal adventure seeds]] 380
+- Random NPC types 384
+- Appearance of NPC 387
+- NPC ambition 388
+- NPC friends 389
+- NPC tragedies 390
+- NPC romance 391
+
+
+---
+[[202201051124 WWN worlds without number MOC]]
+[[202203091119 Random Tables MOC]]
+[[WWN Index of Random Tables.pdf]]

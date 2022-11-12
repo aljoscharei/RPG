@@ -1,0 +1,2 @@
+11 + Dexterity modifier, 
+Blessed Robe. The priestly robes of the theurgs are blessed and protected by benevolent forces so that the Church’s finest can travel safely throughout the kingdom, and beyond.

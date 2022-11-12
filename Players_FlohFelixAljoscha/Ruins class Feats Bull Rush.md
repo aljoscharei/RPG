@@ -1,0 +1,2 @@
+• Prerequisite: Strength 13 or higher.  
+If you move 20 feet or more towards a target that is at least 20 feet away you have advantage on attack rolls (including shove checks) until the end of your turn.

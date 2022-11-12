@@ -1,0 +1,1 @@
+**Thunder.** A concussive burst of sound, such as the effect of the **_thunderwave spell_**, deals thunder damage. 

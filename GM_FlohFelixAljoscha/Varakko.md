@@ -1,0 +1,2 @@
+- wagon-trecks in the trains. Allies of ambria. Chief didramon is enemy of monovar of zarek.
+Furthest south, close to the Ambrian border, the Varaks travel the plains in their wagons. They comprise the small- est clan, which to a large extent is due to the fact that they are especially exposed to attacks from “rebellious” Saars. With the express permission of Duke Alesaro, the Varaks nowadays often keep to the Ambrian side of the border. And it is said that the duke is making efforts to end the blood feud which rages between the Varak chieftain Didramon and Monovar of Zarek.

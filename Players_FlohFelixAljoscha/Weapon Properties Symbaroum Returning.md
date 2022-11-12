@@ -1,0 +1,1 @@
+Returning. If you miss with this weapon it returns to your hand.

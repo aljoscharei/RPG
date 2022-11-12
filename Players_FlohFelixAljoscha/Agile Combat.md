@@ -1,0 +1,1 @@
+Your armor class when you wear no armor is equal to 10 plus twice your Dexterity modifier.

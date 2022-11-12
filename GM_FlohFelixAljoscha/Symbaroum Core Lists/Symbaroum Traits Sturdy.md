@@ -1,0 +1,3 @@
+1. toughness = storng *1,5
+2. 2
+3. 3

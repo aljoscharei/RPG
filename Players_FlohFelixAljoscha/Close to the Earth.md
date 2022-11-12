@@ -1,0 +1,1 @@
+You are used to being bound to nature to meet your needs. If you spend a moment considering it, you can predict the weather for the next 24 hours with great accuracy. You also know the current phase of the moon to the day and the number of days until the mext solstice or equinox.

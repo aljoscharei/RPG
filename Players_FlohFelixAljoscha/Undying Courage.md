@@ -1,0 +1,1 @@
+At 20th level you can shrug off effects that would incapacitate lesser warriors. When required to make a saving throw you can choose to pass it instead. If you do so, you cannot do so again until you take a rest of any length.

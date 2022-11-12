@@ -1,0 +1,1 @@
+At 3rd level you become very light on your feet and are accustomed to running very quickly. Your base speed increases by 10 feet.

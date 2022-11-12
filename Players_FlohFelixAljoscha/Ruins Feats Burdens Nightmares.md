@@ -1,0 +1,2 @@
+• Bonus: +2 to Constitution  
+You are haunted by nightmares each and every night, possi- bly because of something you have experienced, or for more abstruse reasons, such as an ominous omen or the conse- quence of a family curse. Each night, you must pass a DC 10 Constitution saving throw or gain a level of exhaustion.
