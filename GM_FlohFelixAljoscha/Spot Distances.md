@@ -1,3 +1,4 @@
+## Short
 **Wie weit können die PCs die Umgebung sehen.** 
 		- [[000 media/The Alexandrian » Hexcrawl – Part 5 Spot Distances.html]]
 			- Berge können von 100km entfernung gesehen werden.
@@ -10,7 +11,7 @@
 					- 100 m 36 km
 					- 500m 80 km 
 					- 1000 m 113 km
-
+## Elaboration
 
 
 This is a useful cheat sheet I created for understanding what characters can see in the wilderness. In practice, sight lines will vary quite a bit (due to hills, forest canopies, atmospheric haze, and other obstructions), but I’ve found it’s useful to have some reference points and a few rules of thumb.
@@ -27,18 +28,18 @@ This is a useful cheat sheet I created for understanding what characters can see
 
 **ELEVATION**: Distance to the horizon in miles is the square root of (feet above sea level x 1.5 feet). Add the height of tall objects to the viewer’s. Atmospheric haze will eliminate the ability to see even the largest objects more than 3-5 hexes away.
 
-| **Height** | **Horizon** |
-| --- | --- |
-| Halfling | 2 miles |
-| Human | 3 miles |
-| 10 ft. | 4 miles |
-| 25 ft. | 6 miles |
-| 50 ft. | 9 miles |
-| 100 ft. | 12 miles (1 hex) |
-| 400 ft. | 24 miles (2 hexes) |
-| 1000 ft. | 39 miles (3 hexes) |
-| 1500 ft. | 48 miles (4 hexes) |
-| 2500 ft. | 60 miles (5 hexes) |
+| **Height** | **Horizon**        |
+| ---------- | ------------------ |
+| Halfling   | 2 miles            |
+| Human      | 3 miles            |
+| 10 ft.     | 4 miles            |
+| 25 ft.     | 6 miles            |
+| 50 ft.     | 9 miles            |
+| 100 ft.    | 12 miles (1 hex)   |
+| 400 ft.    | 24 miles (2 hexes) |
+| 1000 ft.   | 39 miles (3 hexes) |
+| 1500 ft.   | 48 miles (4 hexes) |
+| 2500 ft.   | 60 miles (5 hexes) |
 
 **SIGHTING**
 
@@ -75,3 +76,4 @@ The figures here represent typical circumstances on the ground. If the PCs are k
 ---
 Reference
 [[201909200035 The Alexandrian » Hexcrawl – Part 5_ Spot Distances]]
+

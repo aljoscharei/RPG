@@ -15,6 +15,7 @@
 	10. Inhabitet Natural Feature or Cave
 	11. **NO**Massive tenement or slum tower
 	12. **NO**Ancient arcology or fragment of it
+
 - Military Site
 	1.  Grand fortress of major significance
 	2.  Remote frontier keep
@@ -28,6 +29,7 @@
 	10.  Gatehouse controlling a vital pass
 	11.  Military cache or storehouse
 	12.  Fortified waystation
+
 -  Production Site
 	1.   Illicit manufactory for illegal goods
 	2.   Sacred shrine for holy product 
@@ -41,6 +43,7 @@
 	10.   Repurposed ancient manufactory
 	11.   Fishery or salt extraction site
 	12.   **NO**Outsider goods production site
+
 -   Religious
 	1.   Lost pilgrimage destination
 	2.   Tomb of some mighty ancient 
@@ -54,6 +57,7 @@
 	10.   Holy archive or relic-fortress
 	11.   **NO**Fragment of megastructure temple
 	12.   **NO**Outsider fane to an alien god
+
 -   Cultural Site
 	1.   Ancient culture’s gathering site
 	2.   Monument complex to lost glories
@@ -67,6 +71,7 @@
 	10.   **NO**Indoctrination camp or prison
 	11.   **NO**Preserved “heritage” village-resort
 	12.   **NO**Inscrutable Outsider art structure
+
 -   Infrastructure
 	1.    Psychic or tech communications site or fire Beacons!
 	2.    Canal or aqueduct control center
@@ -80,6 +85,7 @@
 	10.    **NO**Ancient power production center
 	11.    **NO**Outsider xenoforming engine
 	12.    **NO**Reality-stabilizing Working ruin
+
 
 
 

@@ -46,7 +46,7 @@ A long time ago 305–360, there was a Vain Robber Chieftain who sought A f
 
 Whats the DC for the survival Checks?
 
-![[Tomb of Anihilation Hexcrawl Checklist#DCs for Navigation and Survival]]
+![[5e DMG 05 Adventure Environments#Wilderness Navigation]]
 
 [[Encumbrance]]
 
@@ -79,3 +79,5 @@ Goblin Tribe: Silver Fins, fever Swamp, Community Tags WWN
 ![[WWN Tribes and exiles#Roller]]
 
 ![[Random Dungeon DMG#Roller]]
+![[5e DMG 05 Adventure Environments#Roller]]
+

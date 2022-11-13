@@ -18,8 +18,6 @@ Shop: `dice: [[5e DMG 05 Adventure Environments#^shop]]`
 City Encounters: `dice: [[5e DMG 05 Adventure Environments#^cityEncounters]]`
 Trap Danger lvl: `dice: [[5e DMG 05 Adventure Environments#^trapDanger]]`
 Trap Severity: `dice: [[5e DMG 05 Adventure Environments#^trapSeverity]]`
-
-
 ## Chapter 5: Adventure Environments
 
 Many D&D adventures revolve around a dungeon setting. Dungeons in D&D include great halls and tombs, subterranean monster lairs, labyrinths riddled with death traps, natural caverns extending for miles beneath the surface of the world, and ruined castles.

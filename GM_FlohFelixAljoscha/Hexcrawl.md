@@ -47,4 +47,5 @@ https://docs.google.com/spreadsheets/d/1oCDKuBAVz2QdHpXEQEI77ddDpnuTRz7vGbA2pK3d
 
 Reference: 
 Aktuell: [[Forbidden Lands MOC]] journey rules
+![[Spot Distances#Short]]
 

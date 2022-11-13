@@ -2,6 +2,7 @@
  [[202203091119 Random Tables MOC]]
  [[202203241240 Stocking Dungeon Dressing MOC]]
  [[202201051124 WWN worlds without number MOC]]
+ [[WWN Index of Random Tables]]
 
 ## Roller
 How old is Dungeon: `dice: [[202203241302 WWN p 187 One Roll Dungeon Generation#^howOld]]`
