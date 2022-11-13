@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Players_FlohFelixAljoscha/spell_List/meteor_swarm 40d6 w.md",
+                "file": "GM_FlohFelixAljoscha/Solo RPG.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -74,7 +74,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Players_FlohFelixAljoscha/spell_List/meteor_swarm 40d6 w.md",
+            "file": "GM_FlohFelixAljoscha/Solo RPG.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Players_FlohFelixAljoscha/spell_List/meteor_swarm 40d6 w.md"
+            "file": "GM_FlohFelixAljoscha/Solo RPG.md"
           }
         }
       }
@@ -119,15 +119,15 @@
   },
   "active": "9e01da818d7e99a2",
   "lastOpenFiles": [
-    "GM_FlohFelixAljoscha/Ruins Wizard Spells Level 9.md",
-    "Players_FlohFelixAljoscha/character/Ruins of Symbaroum Wizard Spells.md",
+    "Players_FlohFelixAljoscha/spell_List/greater_restoration c.md",
+    "Players_FlohFelixAljoscha/character/Ruins of Symbaroum Theurg Spells.md",
     "Players_FlohFelixAljoscha/Spell Indices.md",
     "Players_FlohFelixAljoscha/Ruins Player Index.md",
+    "Players_FlohFelixAljoscha/spell_List/meteor_swarm 40d6 w.md",
+    "GM_FlohFelixAljoscha/Ruins Wizard Spells Level 9.md",
+    "Players_FlohFelixAljoscha/character/Ruins of Symbaroum Wizard Spells.md",
     "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/Symbaroum Campaign Buckets.md",
     "GM_FlohFelixAljoscha/Ruins GM Index.md",
-    "GM_FlohFelixAljoscha/602101050800 Session Log 50 202210242100.md",
-    "GM_FlohFelixAljoscha/Symbaroum Session MOC.md",
-    "Berserker.md",
-    "GM_FlohFelixAljoscha/5e monsters by name.md"
+    "GM_FlohFelixAljoscha/602101050800 Session Log 50 202210242100.md"
   ]
 }

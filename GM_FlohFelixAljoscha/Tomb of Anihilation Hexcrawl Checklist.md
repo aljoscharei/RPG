@@ -122,7 +122,7 @@ Viel zu schwer. Wenn das so ist, dann sind die PCs immer nur lost. Bei Rins of S
 - Bright Davokar 10
 - Wild Davokar 13
 - Dark Davokar 16
-
+![[5e DMG 05 Adventure Environments#Wilderness Navigation]]
 ## DCs bei Tomb of Anihillation
 | Environment        | Travel Speed         | Navigation DC | Survival DC | Encounter Risk |
 | ------------------ | -------------------- | ------------- | ----------- | -------------- |

@@ -104,7 +104,11 @@ Creating a location-based adventure can be broken down into a number of steps. E
 
 The Dungeon Goals table provides common goals that drive or lure adventurers into dungeons. The Wilderness Goals table provides similar inspiration for an adventure focused on outdoor exploration. The Other Goals table suggests location-based adventures that don’t fit neatly into the first two categories.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#DungeonGoals)Dungeon Goals
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#DungeonGoals)
+
+
+
+Dungeon Goals
 
 | d20 | Goal                                                                                              |
 | --- | ------------------------------------------------------------------------------------------------- |
@@ -129,7 +133,11 @@ The Dungeon Goals table provides common goals that drive or lure adventurers int
 | 19  | Hide from a threat outside the dungeon.                                                           |
 | 20  | Roll twice, ignoring results of 20.                                                               |
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#WildernessGoals)Wilderness Goals
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#WildernessGoals)
+
+
+
+Wilderness Goals
 | d20 | Goal                                                                                          |
 | --- | --------------------------------------------------------------------------------------------- |
 | 1   | Locate a dungeon or other site of interest (roll on the Dungeon Goals table to find out why). |
@@ -153,7 +161,10 @@ The Dungeon Goals table provides common goals that drive or lure adventurers int
 | 19  | Protect a wilderness site from attackers.                                                     |
 | 20  | Roll twice, ignoring results of 20.                                                           |
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#OtherGoals)Other Goals
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#OtherGoals)
+
+
+Other Goals
 
 | d12 | Goal                                                                          |
 | --- | ----------------------------------------------------------------------------- |
@@ -174,7 +185,10 @@ The Dungeon Goals table provides common goals that drive or lure adventurers int
 
 Use the Adventure Villains, Adventure Allies, and Adventure Patrons tables to help you identify these NPCs. [Chapter 4](https://www.dndbeyond.com/sources/dmg/creating-nonplayer-characters "Creating Nonplayer Characters") can help you bring these NPCs to life.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureVillains)Adventure Villains
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureVillains)
+
+
+Adventure Villains
 
 | d20   | Villain                                        |
 | ----- | ---------------------------------------------- |
@@ -194,7 +208,10 @@ Use the Adventure Villains, Adventure Allies, and Adventure Patrons tables to he
 | 19    | Humanoid under a curse                         |
 | 20    | Misguided humanoid zealot                      |
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureAllies)Adventure Allies
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureAllies)
+
+
+Adventure Allies
 
 | d12 | Ally                      |
 | --- | ------------------------- |
@@ -211,7 +228,10 @@ Use the Adventure Villains, Adventure Allies, and Adventure Patrons tables to he
 | 11  | Disguised monster         |
 | 12  | Villain posing as an ally |
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventurePatrons)Adventure Patrons
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventurePatrons)
+
+
+Adventure Patrons
 
 | d20   | Patron                        |
 | ----- | ----------------------------- |
@@ -238,7 +258,10 @@ Use the Adventure Villains, Adventure Allies, and Adventure Patrons tables to he
 
 An adventure can begin with a social interaction encounter in which the adventurers find out what they must do and why. It can start with a surprise attack, or with the adventurers coming across information by accident. The best introductions arise naturally from the goals and setting of the adventure. Let the entries in the Adventure Introduction table inspire you.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureIntroduction)Adventure Introduction
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureIntroduction)
+
+
+Adventure Introduction
 
 | d12 | Introduction                                                                                                                                     |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -259,7 +282,9 @@ An adventure can begin with a social interaction encounter in which the adventur
 
 The climactic ending of an adventure fulfills the promise of all that came before. Although the climax must hinge on the successes and failures of the characters up to that moment, the Adventure Climax table can provide suggestions to help you shape the end of your adventure.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureClimax)Adventure Climax
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureClimax)
+
+Adventure Climax
 
 | d12 | Climax                                                                                                                                                                       |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -306,7 +331,10 @@ Building on the previous example, you might decide that your [vampire](https://w
 
 If you need additional inspiration, consider a few different options for how the villain’s actions unfold over the course of the adventure.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#EventBasedVillainActions)Event-Based Villain Actions
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#EventBasedVillainActions)
+
+
+Event-Based Villain Actions
 
 | d6  | Type of Actions    |
 | --- | ------------------ |
@@ -333,7 +361,9 @@ _**Step by Step.**_ In pursuit of its goal, the villain carries out a specific s
 
 You can use the Event-Based Goals table to set the party’s goal. A goal can also suggest ways in which the adventurers become caught up in the villain’s plans, and what exactly they must do to foil those plans.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#EventBasedGoals)Event-Based Goals
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#EventBasedGoals)
+
+Event-Based Goals
 
 | d20 | Goal                                                                                      |
 | --- | ----------------------------------------------------------------------------------------- |
@@ -454,7 +484,10 @@ Another way to handle influence is to treat it like renown (see [chapter 1](http
 
 You can base an entire adventure on a framing event or use such an event to grab the players’ interest. The Framing Events table presents several ideas, or you can use it to inspire your own framing event.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#FramingEventsTable)Framing Events
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#FramingEventsTable)
+
+
+Framing Events
 
 | d100  | Event                                                                 |
 | ----- | --------------------------------------------------------------------- |
@@ -515,7 +548,10 @@ Sometimes an adventure isn’t as straightforward as it might seem.
 
 If you want to give the characters a crisis that no amount of spellcasting or swordplay can resolve, add a moral quandary to the adventure. A moral quandary is a problem of conscience for which the adventurers must make a single choice — but never a simple one.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#MoralQuandariesTable)Moral Quandaries
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#MoralQuandariesTable)
+
+
+Moral Quandaries
 
 | d20   | Quandary         |
 | ----- | ---------------- |
@@ -541,7 +577,10 @@ _**Respect Quandary.**_ Two important allies give conflicting directions or advi
 
 A twist can complicate a story and make it harder for the characters to complete their goals.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#TwistsTable)Twists
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#TwistsTable)
+
+
+Twists
 
 | d10 | Twist                                                                                                                                |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -560,7 +599,10 @@ A twist can complicate a story and make it harder for the characters to complete
 
 You can also add one or more side quests to your adventure, taking the characters off the main story path defined by location or events. Side quests are peripheral to the characters’ primary goal, but successfully completing a side quest might provide a benefit toward completing the primary goal.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#SideQuestsTable)Side Quests
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#SideQuestsTable)
+
+
+Side Quests
 
 | d8  | Side Quest                                                          |
 | --- | ------------------------------------------------------------------- |
@@ -631,7 +673,10 @@ _**Probabilities.**_ A random encounter table can be created in a number of ways
 
 The Sylvan Forest Encounters table is an example of a random encounter table that implements the ideas mentioned above. Creature names in **bold** refer to stat blocks that appear in the [Monster Manual](https://www.dndbeyond.com/sources/mm "Monster Manual").
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#SylvanForestEncounters)Sylvan Forest Encounters
+[](https://www.dndbeyond.com/sources/dmg/creating-adventures#SylvanForestEncounters)
+
+
+Sylvan Forest Encounters
 
 | d12 + d8 | Encounter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

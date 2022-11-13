@@ -1,1 +1,1 @@
-The expedition’s navigator is responsible for making navigation checks. A second navigator can assist, granting advantage to the navigation checks.
+The expedition’s navigator is responsible for making navigation checks. A second navigator can assist, granting advantage to the navigation checks. [[navigation]]

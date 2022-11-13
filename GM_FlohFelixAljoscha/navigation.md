@@ -12,8 +12,7 @@ Generally speaking, it’s trivial to follow a road, river, or other natural fea
 
 Characters trying to move in a specific direction through the wilderness must make a navigation check using their Wisdom (Survival) skill once per watch to avoid becoming **lost**. The DC of the check is primarily determined by the terrain type the expedition is moving through, although other factors may also apply. DC 12-15
 
-
-	![[Tomb of Anihilation Hexcrawl Checklist#DCs for Navigation and Survival]]
+![[Tomb of Anihilation Hexcrawl Checklist#DCs for Navigation and Survival]]
 Aditionally to becoming lost,  there may bei travel mishaps/misfortunes as in [[Symbaroum Hexcrawl MOC]] or in [[Forbidden Lands MOC]]
 **BECOMING LOST**: Characters who fail the navigation check become lost and may veer away from their intended direction of travel, as indicated by a 1d10 roll on the diagram below. When lost characters exit a hex, they will exit through the face of the hex indicated by the die roll.
 

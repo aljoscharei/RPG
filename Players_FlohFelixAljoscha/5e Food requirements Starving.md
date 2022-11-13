@@ -21,3 +21,6 @@ For people traveling through Davokar, running out of food or water is as serious
 > **Recovery**: Any exhaustion suffered from lack of food or water cannot be removed until after a full day of normal consumption.
 > 
 > **Large & Tiny Creatures**: Tiny creatures require one-quarter ration of food and water per day. Large creatures (like horses) require four rations  of food and water per day.
+
+[[5e Water requirements Dehydration]]
+[[5e DMG 05 Adventure Environments#Food and Water Needs]]

@@ -1,44 +1,47 @@
 ## Roller
-`dice: [[Random Dungeon DMG#^startingArea]]`
-`dice: [[Random Dungeon DMG#^passage]]`
-`dice: [[Random Dungeon DMG#^passagewidth]]`
-`dice: [[Random Dungeon DMG#^doortype]]`
-`dice: [[Random Dungeon DMG#^beyondDoor]]`
-`dice: [[Random Dungeon DMG#^chamber]]`
-`dice: [[Random Dungeon DMG#^ChamberExits]]`
-`dice: [[Random Dungeon DMG#^ExitLocation]]`
-`dice: [[Random Dungeon DMG#^DungeonExitType]]`
-`dice: [[Random Dungeon DMG#^DugeonStairs]]`
-`dice: [[Random Dungeon DMG#^DungeonDeathTrap]]`
-`dice: [[Random Dungeon DMG#^DungeonLair]]`
-`dice: [[Random Dungeon DMG#^DungeonMaze]]`
-`dice: [[Random Dungeon DMG#^DungeonMine]]`
-`dice: [[Random Dungeon DMG#^DungeonPlanarGate]]`
-`dice: [[Random Dungeon DMG#^DungeonStronghold]]`
-`dice: [[Random Dungeon DMG#^DungeonTemple]]`
-`dice: [[Random Dungeon DMG#^dungeonTomb]]`
-`dice: [[Random Dungeon DMG#^dungeonTreasureVault]]`
-`dice: [[Random Dungeon DMG#^generalDungeonChambers]]`
-`dice: [[Random Dungeon DMG#^currentChamberState]]`
-`dice: [[Random Dungeon DMG#^dungeonChamberContents]]`
-`dice: [[Random Dungeon DMG#^monsterMotivation]]`
-`dice: [[Random Dungeon DMG#^dungeonhazards]]`
-`dice: [[Random Dungeon DMG#^obstacles]]`
-`dice: [[Random Dungeon DMG#^traptrigger]]`
-`dice: [[Random Dungeon DMG#^trapseverity]]`
-`dice: [[Random Dungeon DMG#^trapEffects]]`
-`dice: [[Random Dungeon DMG#^trickObjects]]`
-`dice: [[Random Dungeon DMG#^tricks]]`
-`dice: [[Random Dungeon DMG#^noises]]`
-`dice: [[Random Dungeon DMG#^air]]`
-`dice: [[Random Dungeon DMG#^odors]]`
-`dice: [[Random Dungeon DMG#^generalfeatures]]`
-`dice: [[Random Dungeon DMG#^generalFurnishings]]`
-`dice: [[Random Dungeon DMG#^religiousarticles]]`
-`dice: [[Random Dungeon DMG#^magefurnishings]]`
-`dice: [[Random Dungeon DMG#^utensil]]`
-`dice: [[Random Dungeon DMG#^containerContent]]`
-`dice: [[Random Dungeon DMG#^BooksTomeScrools]]`
+[[5e DMG 05 Adventure Environments#^dungeonPurpose]]
+[[5e DMG 05 Adventure Environments#^dungeonHistory]]
+
+Starting Area: `dice: [[Random Dungeon DMG#^startingArea]]`
+Passage: `dice: [[Random Dungeon DMG#^passage]]`
+Passa width: `dice: [[Random Dungeon DMG#^passagewidth]]`
+Door Type: `dice: [[Random Dungeon DMG#^doortype]]`
+Beyond Door: `dice: [[Random Dungeon DMG#^beyondDoor]]`
+Chamber: `dice: [[Random Dungeon DMG#^chamber]]`
+Chamber Exits: `dice: [[Random Dungeon DMG#^ChamberExits]]`
+Exit Location: `dice: [[Random Dungeon DMG#^ExitLocation]]`
+Exit Type: `dice: [[Random Dungeon DMG#^DungeonExitType]]`
+Dungeon Stairs: `dice: [[Random Dungeon DMG#^DugeonStairs]]`
+Deathtrap Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonDeathTrap]]`
+Lair Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonLair]]`
+Maze Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonMaze]]`
+Mine Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonMine]]`
+Planaer Gate Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonPlanarGate]]`
+Stronghold Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonStronghold]]`
+Temple Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonTemple]]`
+Tomb Dungeon Room: `dice: [[Random Dungeon DMG#^dungeonTomb]]`
+Treasure Vault Dungeon Room: `dice: [[Random Dungeon DMG#^dungeonTreasureVault]]`
+Dungeon Chambers: `dice: [[Random Dungeon DMG#^generalDungeonChambers]]`
+Dungeon Chamber State: `dice: [[Random Dungeon DMG#^currentChamberState]]`
+Dungeon Chamber Content: `dice: [[Random Dungeon DMG#^dungeonChamberContents]]`
+Monster Motivation: `dice: [[Random Dungeon DMG#^monsterMotivation]]`
+Dungeon Hazard: `dice: [[Random Dungeon DMG#^dungeonhazards]]`
+Dungeon Obstacles: `dice: [[Random Dungeon DMG#^obstacles]]`
+Trap Trigger: `dice: [[Random Dungeon DMG#^traptrigger]]`
+Trap Severity: `dice: [[Random Dungeon DMG#^trapseverity]]`
+Trap Effects: `dice: [[Random Dungeon DMG#^trapEffects]]`
+Trick Objects: `dice: [[Random Dungeon DMG#^trickObjects]]`
+Tricks: `dice: [[Random Dungeon DMG#^tricks]]`
+Dungeon Noises: `dice: [[Random Dungeon DMG#^noises]]`
+Dungeon Air`dice: [[Random Dungeon DMG#^air]]`
+Dungeon Smells: `dice: [[Random Dungeon DMG#^odors]]`
+Dungeon General Features: `dice: [[Random Dungeon DMG#^generalfeatures]]`
+Dungeon General Furnishings: `dice: [[Random Dungeon DMG#^generalFurnishings]]`
+Dungeon Religious Articles: `dice: [[Random Dungeon DMG#^religiousarticles]]`
+Dungeon Mage Furnishings: `dice: [[Random Dungeon DMG#^magefurnishings]]`
+Dungeon Utensils: `dice: [[Random Dungeon DMG#^utensil]]`
+Dungeon Container Content: `dice: [[Random Dungeon DMG#^containerContent]]`
+Dungeon Books etc:`dice: [[Random Dungeon DMG#^BooksTomeScrools]]`
 ## Tables
 Starting Area
 

@@ -88,7 +88,95 @@ legendary_actions:
 reactions: []
 source: Monster Manual
 ---
-
+```statblock
+image: [[Lich.jpg]]
+name: Lich
+size: medium
+type: undead, monster manual
+alignment: any evil alignment
+ac: 17
+hp: 135
+hit_dice: 18d8+54
+speed: 30 ft.
+stats:
+  - 11
+  - 16
+  - 16
+  - 20
+  - 14
+  - 16
+saves:
+  - constitution: 10
+  - intelligence: 12
+  - wisdom: 9
+skillsaves:
+  - Arcana: 18
+  - History: 12
+  - Insight: 9
+  - Perception: 9
+damage_resistances: cold, lightning, necrotic
+damage_immunities: poison, bludgeoning, piercing, and slashing from nonmagical weapons
+condition_immunities: charmed, exhaustion, frightened, paralyzed, poisoned
+senses: truesight 120 ft.
+languages: Common plus up to five other languages
+cr: "21"
+spells:
+  - "The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:"
+traits:
+  - name: "Cantrips (at will)"
+    desc:  "[[5e spells mage hand remote w]]. [[5e spells prestidigitation w ROS ritual]],[[5e spells ray of frost 1d8 dmg slowed down w]]"
+  - name: "1st level (4 slots)"
+    desc: "[[5e spells detect magic wc]], [[5e spells magic missile 3 x 1d4 plus 1 dmg w not favoured]], [[5e spells lvl 1 shield plus 5 to AC reaction  w]], [[thunderwave push away w]]"
+  - name: "2nd level (3 slots)"
+    desc: "[[5e spells acid arrow w]], [[detect thoughts esp not favoured w]], [[5e spell invisibility w]], [[mirror image 3 duplicates w]]"
+  - name: "3rd level (3 slots)"
+    desc: "[[5e spells animate dead skeleton zombie wc]], [[5e spells counterspell interrupt w]], [[5e spells dispel magic wc not favoured]], [[5e spells fireball 20 ft 8d6 w]]"
+  - name: "4th level (3 slots)"
+    desc: "[[blight wither 8d8 dmg w not favoured]], [[dimension door teleport to visible w not favoured]]"
+  - name: "5th level (3 slots)"
+    desc: "[[cloudkill terrain control w]], [[scrying on creature wc not favoured]]"
+  - name: "6th level (1 slot)"
+    desc: "[[5e spells disintegrate10d6plus40 dmg w]], [[5e spells globe of invulnerability barrier vs spells w]]"
+  - name: "7th level (1 slot)"
+    desc: "[[finger_of_death 7d8plus30 dmg zombie w]], [[plane_shift 8 friends also banish wc]]"
+  - name: "8th level (1 slot)"
+    desc: "[[5e spells dominate monster mind control any cr w]], [[power word stun w not favoured]]"
+  - name: "9th level (1 slot)"
+    desc: "[[power word kill 100hp w not favoured]]"
+  - name: Legendary Resistance (3/Day)
+    desc: If the lich fails a saving throw, it can choose to succeed instead.
+  - name: Rejuvenation
+    desc: If it has a phylactery, a destroyed lich gains a new body in 1d10 days,
+      regaining all its hit points and becoming active again. The new body
+      appears within 5 feet of the phylactery.
+  - name: Turn Resistance
+    desc: The lich has advantage on saving throws against any effect that turns
+      undead.
+actions:
+  - name: Paralyzing Touch
+    desc: "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6)
+      cold damage. The target must succeed on a DC 18 Constitution saving throw
+      or be paralyzed for 1 minute. The target can repeat the saving throw at
+      the end of each of its turns, ending the effect on itself on a success."
+legendary_actions:
+  - name: Cantrip
+    desc: The lich casts a cantrip.
+  - name: Paralyzing Touch (Costs 2 Actions)
+    desc: The lich uses its Paralyzing Touch.
+  - name: Frightening Gaze (Costs 2 Actions)
+    desc: The lich fixes its gaze on one creature it can see within 10 feet of it.
+      The target must succeed on a DC 18 Wisdom saving throw against this magic
+      or become frightened for 1 minute. The frightened target can repeat the
+      saving throw at the end of each of its turns, ending the effect on itself
+      on a success. If a target's saving throw is successful or the effect ends
+      for it, the target is immune to the lich's gaze for the next 24 hours.
+  - name: Disrupt Life (Costs 3 Actions)
+    desc: Each non-undead creature within 20 feet of the lich must make a DC 18
+      Constitution saving throw against this magic, taking 21 (6d6) necrotic
+      damage on a failed save, or half as much damage on a successful one.
+reactions: []
+source: Monster Manual
+```
 ![[Lich.jpg|200]]
 name: Lich
 type: undead
@@ -281,92 +369,3 @@ The changes we've made to the lich in this article may very well increase its ch
 
 We DMs face a strong tactical disadvantage. We have but one brain and, when we're running a significant challenge in our adventures, we face four to six other brains. It's hard for us to manage running the game, facilitating the story, keeping the spotlight moving and focused, ensuring everyone's having a good time, and run a creature like a lich all at the same time. Spend time studying your boss monsters so when you run them they will bring a fun challenge to the group.
 
-```statblock
-image: [[Lich.jpg]]
-name: Lich
-size: medium
-type: undead, monster manual
-alignment: any evil alignment
-ac: 17
-hp: 135
-hit_dice: 18d8+54
-speed: 30 ft.
-stats:
-  - 11
-  - 16
-  - 16
-  - 20
-  - 14
-  - 16
-saves:
-  - constitution: 10
-  - intelligence: 12
-  - wisdom: 9
-skillsaves:
-  - Arcana: 18
-  - History: 12
-  - Insight: 9
-  - Perception: 9
-damage_resistances: cold, lightning, necrotic
-damage_immunities: poison, bludgeoning, piercing, and slashing from nonmagical weapons
-condition_immunities: charmed, exhaustion, frightened, paralyzed, poisoned
-senses: truesight 120 ft.
-languages: Common plus up to five other languages
-cr: "21"
-spells:
-  - "The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:"
-traits:
-  - name: "Cantrips (at will)"
-    desc:  "[[5e spells mage hand remote w]]. [[5e spells prestidigitation w ROS ritual]],[[5e spells ray of frost 1d8 dmg slowed down w]]"
-  - name: "1st level (4 slots)"
-    desc: "[[5e spells detect magic wc]], [[5e spells magic missile 3 x 1d4 plus 1 dmg w not favoured]], [[5e spells lvl 1 shield plus 5 to AC reaction  w]], [[thunderwave push away w]]"
-  - name: "2nd level (3 slots)"
-    desc: "[[5e spells acid arrow w]], [[detect thoughts esp not favoured w]], [[5e spell invisibility w]], [[mirror image 3 duplicates w]]"
-  - name: "3rd level (3 slots)"
-    desc: "[[5e spells animate dead skeleton zombie wc]], [[5e spells counterspell interrupt w]], [[5e spells dispel magic wc not favoured]], [[5e spells fireball 20 ft 8d6 w]]"
-  - name: "4th level (3 slots)"
-    desc: "[[blight wither 8d8 dmg w not favoured]], [[dimension door teleport to visible w not favoured]]"
-  - name: "5th level (3 slots)"
-    desc: "[[cloudkill terrain control w]], [[scrying on creature wc not favoured]]"
-  - name: "6th level (1 slot)"
-    desc: "[[5e spells disintegrate10d6plus40 dmg w]], [[5e spells globe of invulnerability barrier vs spells w]]"
-  - name: "7th level (1 slot)"
-    desc: "[[finger_of_death 7d8plus30 dmg zombie w]], [[plane_shift 8 friends also banish wc]]"
-  - name: "8th level (1 slot)"
-    desc: "[[5e spells dominate monster mind control any cr w]], [[power word stun w not favoured]]"
-  - name: "9th level (1 slot)"
-    desc: "[[power word kill 100hp w not favoured]]"
-  - name: Legendary Resistance (3/Day)
-    desc: If the lich fails a saving throw, it can choose to succeed instead.
-  - name: Rejuvenation
-    desc: If it has a phylactery, a destroyed lich gains a new body in 1d10 days,
-      regaining all its hit points and becoming active again. The new body
-      appears within 5 feet of the phylactery.
-  - name: Turn Resistance
-    desc: The lich has advantage on saving throws against any effect that turns
-      undead.
-actions:
-  - name: Paralyzing Touch
-    desc: "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6)
-      cold damage. The target must succeed on a DC 18 Constitution saving throw
-      or be paralyzed for 1 minute. The target can repeat the saving throw at
-      the end of each of its turns, ending the effect on itself on a success."
-legendary_actions:
-  - name: Cantrip
-    desc: The lich casts a cantrip.
-  - name: Paralyzing Touch (Costs 2 Actions)
-    desc: The lich uses its Paralyzing Touch.
-  - name: Frightening Gaze (Costs 2 Actions)
-    desc: The lich fixes its gaze on one creature it can see within 10 feet of it.
-      The target must succeed on a DC 18 Wisdom saving throw against this magic
-      or become frightened for 1 minute. The frightened target can repeat the
-      saving throw at the end of each of its turns, ending the effect on itself
-      on a success. If a target's saving throw is successful or the effect ends
-      for it, the target is immune to the lich's gaze for the next 24 hours.
-  - name: Disrupt Life (Costs 3 Actions)
-    desc: Each non-undead creature within 20 feet of the lich must make a DC 18
-      Constitution saving throw against this magic, taking 21 (6d6) necrotic
-      damage on a failed save, or half as much damage on a successful one.
-reactions: []
-source: Monster Manual
-```

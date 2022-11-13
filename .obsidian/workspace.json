@@ -4,65 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "593a060426561f96",
+        "id": "0de9683a5545492b",
         "type": "tabs",
         "children": [
           {
-            "id": "1eb43f68548b4159",
+            "id": "c51c6106b755a321",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202109080644 WWN Community Tags MOC.md",
+                "file": "202203241302 WWN p 187 One Roll Dungeon Generation.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "1e68a805dda3668f",
+            "id": "d6e0325c59aecbc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Symbaroum Session MOC.md",
+                "file": "202203241302 WWN p 187 One Roll Dungeon Generation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7559fb61be90dfe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5e DMG 05 Adventure Environments.md",
                 "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d5abb15e79897e98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/Symbaroum Location Karvosti.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e3fea2ccef0f99a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/Symbaroum Location Karvosti.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ab57c0bf27fab67b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/5e monsters by name.md",
-                "mode": "source",
                 "source": true
               }
             }
@@ -119,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "45f2f42350a021b3",
@@ -137,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Symbaroum Location Karvosti.md",
+                "file": "5e DMG 05 Adventure Environments.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,12 +153,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Symbaroum Location Karvosti.md"
+                "file": "5e DMG 05 Adventure Environments.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "df1dd1c491e31512",
@@ -202,20 +176,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
-  "active": "d5abb15e79897e98",
+  "active": "7559fb61be90dfe7",
   "lastOpenFiles": [
-    "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
-    "GM_FlohFelixAljoscha/heart of Darkling.md",
-    "GM_FlohFelixAljoscha/Symbaroum Location Karvosti.md",
-    "GM_FlohFelixAljoscha/5e monsters by name.md",
-    "Random Dungeon DMG.md",
-    "GM_FlohFelixAljoscha/Solo RPG.md",
-    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202109080644 WWN Community Tags MOC.md",
-    "GM_FlohFelixAljoscha/Symbaroum Monsters MOC.md",
-    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202201061059 Ruins of symbaroum MOC.md",
-    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/Symbaroum Campaign Buckets.md"
+    "GM_FlohFelixAljoscha/RPG Master Index.md",
+    "GM_FlohFelixAljoscha/202210221101 Workbench.md",
+    "202203241302 WWN p 187 One Roll Dungeon Generation.md",
+    "5e DMG 05 Adventure Environments.md",
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Griffon.md",
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/griffon.md",
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Giant Sea Horse.md",
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/giant_sea_horse.md",
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Hippogriff.md",
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/hippogriff.md"
   ]
 }

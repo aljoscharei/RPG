@@ -45,7 +45,7 @@
 - Haunted lairs p 42
 - God Generator p43
 - Lost Kingdoms p 44
-- Cult generator p 45 See WWN
+- Cult generator p 45 See WWN [[WWN Index of Random Tables]]
 - alien worlds p 46
 ### Mission Generator
 - the traitor generator p47 [[the traitor generator]]

@@ -6,3 +6,4 @@ Characters can forage during an active watch or while traveling at a slow pace. 
 
 **FOOD & WATER**
 [[5e Food requirements Starving]]
+[[5e DMG 05 Adventure Environments#Foraging]]

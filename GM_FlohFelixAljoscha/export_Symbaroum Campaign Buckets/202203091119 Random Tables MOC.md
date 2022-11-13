@@ -14,6 +14,7 @@
 
 [[Forbidden Lands Legend Generator]]
 
+
 Zsolt Excalidraw!! to shot how you link random tables and subtables
 https://www.zsolt.blog/2021/09/mind-mapping-with-excalidraw-in-obsidian.html
 -https://github.com/zsviczian/obsidian-excalidraw-plugin
@@ -43,4 +44,4 @@ webDM hexcrawl
 - [[202203241249 WWN 240 Dungeon Encounter Table]]
 - [[202203241226 WWN p 242 Hex points of Interest]]
 - [[WWN Tribes and exiles]]
-
+- [[202203241255 WWN p145 One Roll Cult]]
