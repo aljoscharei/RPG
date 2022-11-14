@@ -13,6 +13,7 @@
 - Twists: `dice: [[Twists about the target or their allies#^Twists]]`
 - Where is the encounter Happening: Random Monument
 - ![[Wilderness Exploratoin Sly Flourish#Forest Scenery]]
+- ![[202203280513 WWN p 247 Random Encounters#Roller]]
 
 
 # Random Talbe Reference

@@ -3,6 +3,7 @@
 ![[202203241302 WWN p 187 One Roll Dungeon Generation#Roller]]
 ![[5e DMG 05 Adventure Environments#Dungeon]]
 Factions: ![[202203241242 WWN 239 Framework of Inhabitants#Roller]]
+Tags: ![[202202130655 WWN Dungeon Tags MOC#Roller]]
 Starting Area: `dice: [[Random Dungeon DMG#^startingArea]]`
 Passage: `dice: [[Random Dungeon DMG#^passage]]`
 Passa width: `dice: [[Random Dungeon DMG#^passagewidth]]`

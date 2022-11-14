@@ -177,8 +177,8 @@
 		- Intrinsic powers 290
 	- One-roll monstrous context 293
 - NPC reaction Roll 296
-- NPC instictive action 299
-- Animal instinctive action 301
+- NPC instictive action 299 Monster AI
+	- Animal instinctive action 301 Monster AI! 
 - Background actors
 	- general actor activites 334
 	- background actor events 335

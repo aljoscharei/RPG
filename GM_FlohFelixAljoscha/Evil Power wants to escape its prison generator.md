@@ -109,3 +109,6 @@ Doom-touched wizards
 Alien aberrations
 Unerring constructs
 Enthralled mummies
+
+--- 
+[[202203091103 Sly flourish lazy dm companion MOC]]
