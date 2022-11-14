@@ -81,3 +81,5 @@ Goblin Tribe: Silver Fins, fever Swamp, Community Tags WWN
 ![[Random Dungeon DMG#Roller]]
 ![[5e DMG 05 Adventure Environments#Roller]]
 
+Treffe auf Stadt. Stadt ist pointcrawl. 10 sites. Roller aus Hot springs island. Urbancrawl, WWN city + dungeon layers what happened then why ruineds etc. 
+

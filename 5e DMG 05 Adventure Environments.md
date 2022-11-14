@@ -1,3 +1,9 @@
+
+## Dungeon
+Where is the Dungeon found: `dice: [[5e DMG 05 Adventure Environments#^dungeonLocation]]`
+Exotic Dugeon location: `dice: [[5e DMG 05 Adventure Environments#^exoticDungeoLocation]]`
+Dungeon Creator: `dice: [[5e DMG 05 Adventure Environments#^dugeonCreator]]`
+Dungeons History`dice: [[5e DMG 05 Adventure Environments#^dungeonHistory]]`
 ## Roller
 Monuments: `dice: [[5e DMG 05 Adventure Environments#^monument]]`
 Where is the Dungeon found: `dice: [[5e DMG 05 Adventure Environments#^dungeonLocation]]`
@@ -203,6 +209,7 @@ Except in the case of a natural cavern, a dungeon is crafted and inhabited for a
 In most cases, the original architects of a dungeon are long gone, and the question of what happened to them can help shape the dungeon’s current state.
 
 The Dungeon History table notes key events that can transform a site from its original purpose into a dungeon for adventurers to explore. Particularly old dungeons can have a history that consists of multiple events, each of which transformed the site in some way.
+
 
 
 ###### Dungeon History

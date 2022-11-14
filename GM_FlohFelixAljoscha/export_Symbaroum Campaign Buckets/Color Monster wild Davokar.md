@@ -14,7 +14,7 @@
 | [[Symbaroum Monster Wraith]]                                                                                |
 | [[Symbaroum Monster Necromage]]                                                                             |
 | [[Symbaroum Monster Cryptwalker]]                                                                           |
-| [[5e Monster basilisk redtrained to petrified poisonous bite]]                                              |
+| [[Basilisk]]                                              |
 | [[Symbaroum Monster Krazaragas der Hüter]]                                                                  |
 
 ^table

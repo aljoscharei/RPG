@@ -53,7 +53,7 @@ reactions:
 # Monsters_by_Type
 ## Abberation
 - [[5e Monster aboleth lair action]]
-- [[chuul]]
+- [[Chuul]]
 - [[cloaker]]
 - [[gibbering_mouther]]
 - [[otyugh]]
@@ -352,7 +352,7 @@ reactions:
 ## Monstrosity
 - [[5e Monster androsphinx lair action]]
 - [[5e Monster ankheg]]
-- [[5e Monster basilisk redtrained to petrified poisonous bite]]
+- [[Basilisk]]
 - [[5e Monster behir]]
 - [[bulette]]
 - [[centaur]]

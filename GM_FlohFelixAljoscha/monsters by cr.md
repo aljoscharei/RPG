@@ -338,7 +338,7 @@ reactions:
 [[Symbaroum Monster Etterherd]]
 
 ##_3
-- [[5e Monster basilisk redtrained to petrified poisonous bite]]
+- [[Basilisk]]
 - [[5e bearded devil]]
 - [[blue_dragon_wyrmling]]
 - [[doppelganger]]
@@ -377,7 +377,7 @@ reactions:
 
 ##_4
 - [[black_pudding]]
-- [[chuul]]
+- [[Chuul]]
 - [[couatl]]
 - [[elephant]]
 - [[ettin]]

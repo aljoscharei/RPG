@@ -4,7 +4,7 @@ level: 5
 school: [[abjuration spells]]
 classes: [[bard spells]]
          [[cleric spells]]
-         [[druid spells]]
+         [[druid spells]][[Ruins of Symbaroum Theurg Spells]]
 
 # Greater Restoration 
 _5th-level abjuration_ 

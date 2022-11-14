@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "da781cc080ff3622",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/5e monsters by name.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "709788d85dd0fbad",
             "type": "leaf",
             "state": {
@@ -61,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203191305 WWN p 238 Type of Ruin Site.md",
-                "mode": "source",
+                "file": "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "61898bdb9566f041",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203241242 WWN 239 Framework of Inhabitants.md",
+                "mode": "preview",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203191305 WWN p 238 Type of Ruin Site.md",
+                "file": "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203191305 WWN p 238 Type of Ruin Site.md"
+                "file": "GM_FlohFelixAljoscha/Random Dungeon DMG.md"
               }
             }
           }
@@ -204,15 +204,15 @@
   },
   "active": "1e702fc70164ed42",
   "lastOpenFiles": [
-    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203191305 WWN p 238 Type of Ruin Site.md",
-    "GM_FlohFelixAljoscha/WWN Index of Random Tables.md",
-    "GM_FlohFelixAljoscha/Solo RPG.md",
-    "GM_FlohFelixAljoscha/Spot Distances.md",
     "202203241302 WWN p 187 One Roll Dungeon Generation.md",
+    "GM_FlohFelixAljoscha/Solo RPG.md",
+    "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203241242 WWN 239 Framework of Inhabitants.md",
+    "GM_FlohFelixAljoscha/WWN Index of Random Tables.md",
+    "GM_FlohFelixAljoscha/202203241226 WWN p 242 Hex points of Interest.md",
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203191305 WWN p 238 Type of Ruin Site.md",
     "5e DMG 05 Adventure Environments.md",
-    "GM_FlohFelixAljoscha/Hexcrawl.md",
-    "GM_FlohFelixAljoscha/watch actions.md",
-    "GM_FlohFelixAljoscha/SIGHTING.md",
-    "GM_FlohFelixAljoscha/Wilderness Travel Distance.md"
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203241255 WWN p145 One Roll Cult.md",
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Basilisk.md"
   ]
 }
