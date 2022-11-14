@@ -2,13 +2,13 @@
 
 [[201811110923 Abenteuer-Ideen aus Reference MOC]] durchgehen und den Tags zuordnen
 
-- ![[202201120927 Abandoned Village Wilderness Tag]]
-- ![[202201120928 Ancient Guardians Wilderness Tag]]
-- ![[202201120929 Ancient Monument Wilderness Tag]]
-- ![[202201120930 Arratu Land Wilderness Tag]]
-- ![[202201120933 Bandit Lair   Wilderness Tag]]
-- ![[202201120933 Beast Swarm Wilderness Tag]]
-- ![[202201120949 Blighted Tribe Wilderness Tag]]
+- [[202201120927 Abandoned Village Wilderness Tag]]
+- [[202201120928 Ancient Guardians Wilderness Tag]]
+- [[202201120929 Ancient Monument Wilderness Tag]]
+- [[202201120930 Arratu Land Wilderness Tag]]
+- [[202201120933 Bandit Lair Wilderness Tag]]
+- [[202201120933 Beast Swarm Wilderness Tag]]
+- [[202201120949 Blighted Tribe Wilderness Tag]]
 - [[202201120951 Broken Infrastructure Wilderness Tag]]
 - [[202201120956 Chokepoint Wilderness Tag]]
 - [[202202120400 Collapsed Deep Wilderness Tag]]

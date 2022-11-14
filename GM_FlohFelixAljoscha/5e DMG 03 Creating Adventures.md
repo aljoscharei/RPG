@@ -1,3 +1,18 @@
+## Roller
+Dungeon Goals: `dice: [[5e DMG 03 Creating Adventures#^dngngoals]]`
+Wilderness Goals: `dice: [[5e DMG 03 Creating Adventures#^wildernessgoals]]`
+Other Location Goals: `dice: [[5e DMG 03 Creating Adventures#^otherGoals]]`
+Villains: `dice: [[5e DMG 03 Creating Adventures#^advVillains]]`
+Patrons: `dice: [[5e DMG 03 Creating Adventures#^Patrons]]`
+Allies: `dice: [[5e DMG 03 Creating Adventures#^advAllies]]`
+Adventure Hook: `dice: [[5e DMG 03 Creating Adventures#^AdvIntro]]`
+Adventures Climax: `dice: [[5e DMG 03 Creating Adventures#^climax]]`
+Villain Actions: `dice: [[5e DMG 03 Creating Adventures#^event-basedVillainActions]]`
+Event Goals: `dice: [[5e DMG 03 Creating Adventures#^event-basedGoals]]`
+Framing Events: `dice: [[5e DMG 03 Creating Adventures#^framingEvents]]`
+Complications: `dice: [[5e DMG 03 Creating Adventures#^moralQuandaries]]`
+Twists: `dice: [[5e DMG 03 Creating Adventures#^twists]]`
+Sidequestst: `dice: [[5e DMG 03 Creating Adventures#^SideQuests]]`
 ## Chapter 3: Creating Adventures
 
 Creating adventures is one of the greatest rewards of being a Dungeon Master. It’s a way to express yourself, designing fantastic locations and encounters with monsters, traps, puzzles, and conflicts. When you design an adventure, you call the shots. You do things exactly the way you want to.
@@ -8,29 +23,29 @@ Whether you’re creating your own adventures or using published adventures, you
 
 Creating an adventure involves blending scenes of exploration, social interaction, and combat into a unified whole that meets the needs of your players and your campaign. But it’s more than that. The basic elements of good storytelling should guide you throughout this process, so your players experience the adventure as a story and not a disjointed series of encounters.
 
-[![](https://media.dndbeyond.com/compendium-images/dmg/p3zgl8RSeMJYguMY/ch3splash.jpg)](https://media.dndbeyond.com/compendium-images/dmg/p3zgl8RSeMJYguMY/ch3splash.jpg)
 
-## [](https://www.dndbeyond.com/sources/dmg/creating-adventures#ElementsofaGreatAdventure)Elements of a Great Adventure
+
+## Elements of a Great Adventure
 
 The best adventures have several things in common.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#ACredibleThreat)A Credible Threat
+#### A Credible Threat
 
 An adventure needs a threat worthy of the heroes’ attention. The threat might be a single villain or monster, a villain with lackeys, an assortment of monsters, or an evil organization. Whatever their nature, the antagonists should have goals that the heroes can uncover and thwart.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#FamiliarTropeswithCleverTwists)Familiar Tropes with Clever Twists
+#### Familiar Tropes with Clever Twists
 
 It might seem stereotypical to build an adventure around dragons, orcs, and insane wizards in towers, but these are staples of fantasy storytelling. It might also seem trite to begin an adventure in a tavern, but that’s an idea that remains true to D&D. Familiar story elements are fine, as long as you and the players occasionally put a spin on them. For example, the mysterious figure who presents adventurers with a quest on behalf of the king might be the king in disguise. The crazy wizard in the tower might be a projected illusion created by a band of greedy gnome thieves to guard their loot.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#AClearFocusonthePresent)A Clear Focus on the Present
+#### A Clear Focus on the Present
 
 An adventure is about the here and now. A little bit of history might be needed to set the story in motion, and the adventurers might discover interesting lore of the past in the course of the adventure. In general, let the world’s history be evident in the present situation. Instead of dealing with what happened in the past, an adventure should focus on describing the present situation, what the bad guys are up to, and how the adventurers become involved in the story.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#HeroesWhoMatter)Heroes Who Matter
+#### Heroes Who Matter
 
 An adventure should allow the adventurers’ actions and decisions to matter. Though it might resemble a novel or a TV episode, an adventure needs to allow for more than one outcome. Otherwise, players can feel as if they’ve been railroaded — set onto a course that has only one destination, no matter how hard they try to change it. For example, if a major villain shows up before the end of the adventure, the adventure should allow for the possibility that the heroes might defeat that villain.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#SomethingforAllPlayerTypes)Something for All Player Types
+#### Something for All Player Types
 
 As outlined in the book’s introduction, players come to the gaming table with different expectations. An adventure needs to account for the different players and characters in your group, drawing them into the story as effectively as possible.
 
@@ -38,21 +53,21 @@ As a starting point, think about your adventure in terms of the three basic type
 
 An adventure you create for your home campaign doesn’t have to appeal to every abstract player type — only to the players sitting down at your own table. If you don’t have any players who like fighting above all else, then don’t feel you have to provide a maximum amount of combat to keep the adventure moving.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Surprises)Surprises
+#### Surprises
 
 Look for opportunities to surprise and delight your players. For example, the exploration of a ruined castle on a hill might lead to the discovery of a dragon’s tomb hidden underneath. A trek through the wilderness might lead to the discovery of a tower that appears only on nights of the full moon. Players remember such locations.
 
 Too many surprises can be off-putting to players, but adding the occasional twist gets players to adjust their tactics and think creatively. For example, you could spruce up a goblin lair by including goblin sappers with kegs of oil strapped to their backs. An attack on a villain’s estate might be complicated by the unexpected arrival of a special guest.
 
-When preparing for possible combat encounters, think about odd pairings of monsters, such as a [hobgoblin warlord](https://www.dndbeyond.com/monsters/17161-hobgoblin-warlord) and his pet [manticore](https://www.dndbeyond.com/monsters/16951-manticore), or [will-o’-wisps](https://www.dndbeyond.com/monsters/17060-will-o-wisp) in league with a [young black dragon](https://www.dndbeyond.com/monsters/17067-young-black-dragon). Have surprise reinforcements show up, or give the monsters unusual tactics. Throw in the occasional red herring, deception, and plot twist to keep players on their toes, but try not to go overboard. Sometimes a simple, straightforward encounter with an [orc](https://www.dndbeyond.com/monsters/16972-orc) guard is just as fun for your players.
+When preparing for possible combat encounters, think about odd pairings of monsters, such as a hobgoblin warlord and his pet manticore, or will-o’-wisps in league with a young black dragon]. Have surprise reinforcements show up, or give the monsters unusual tactics. Throw in the occasional red herring, deception, and plot twist to keep players on their toes, but try not to go overboard. Sometimes a simple, straightforward encounter with an orc guard is just as fun for your players.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#UsefulMaps)Useful Maps
+#### Useful Maps
 
 A good adventure needs thoughtfully constructed maps. Wilderness areas sprinkled with interesting landmarks and other features are better than vast expanses of unchanging terrain. Dungeons that have branching corridors and similar decision points give players the opportunity to choose which direction their characters should go. Presenting the characters with options allows the players to make choices that keep the adventure unpredictable.
 
 If drawing maps isn’t your strong suit, the Internet is a great place to look for adventure maps that have been made freely available for use, as well as floor plans of real-world buildings and images that can inspire your mapmaking. You can also use software to help put your maps together.
 
-## [](https://www.dndbeyond.com/sources/dmg/creating-adventures#PublishedAdventures)Published Adventures
+## Published Adventures
 
 Published adventures are available for purchase if you have neither the time nor the inclination to write an adventure of your own, or if you want a change of pace. A published adventure includes a pregenerated scenario with the maps, NPCs, monsters, and treasures you need to run it. An example of a published adventure appears in the _D&D Starter Set_.
 
@@ -62,17 +77,17 @@ A published adventure can’t account for every action the characters might take
 
 Published adventures also provide inspiration. You might not use an adventure as written, but it might spur ideas, or you can pull out one part of it and repurpose that part for your needs. For example, you might use a map of a temple but repopulate it with monsters of your choice, or you might use a chase sequence as a model for a pursuit scene in your campaign.
 
-## [](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureStructure)Adventure Structure
+## Adventure Structure
 
 Like every story, a typical adventure has a beginning, a middle, and an end.
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Beginning)Beginning
+### Beginning
 
 An adventure starts with a hook to get the players interested. A good adventure hook piques the interest of the players and provides a compelling reason for their characters to become involved in the adventure. Maybe the adventurers stumble onto something they’re not meant to see, monsters attack them on the road, an assassin makes an attempt on their lives, or a dragon shows up at the city gates. Adventure hooks such as these can instantly draw players into your story.
 
 The beginning of a good adventure should be exciting and focused. You want the players to go home looking forward to the next session, so give them a clear sense of where the story is headed, as well as something to look forward to.
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Middle)Middle
+### Middle
 
 The middle of an adventure is where the bulk of the story unfolds. With each new challenge, the adventurers make important choices that have a clear effect on the conclusion of the adventure.
 
@@ -82,30 +97,27 @@ At the same time the adventurers are working to thwart their adversaries, those 
 
 Remember that the characters are the heroes of the story. Never let them become mere spectators, watching as events unfold around them that they can’t influence.
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Ending)Ending
+### Ending
 
 The ending encompasses the climax — the scene or encounter in which the tension building throughout the adventure reaches its peak. A strong climax should have the players on edge, with the fate of the characters and much more hanging in the balance. The outcome, which hinges on the characters’ actions and decisions, should never be a forgone conclusion.
 
 An ending needn’t tie everything up in a neat bow. Story threads can be left hanging, waiting to be resolved in a later adventure. A little bit of unfinished business is an easy way to transition from one adventure to the next.
 
-## [](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureTypes)Adventure Types
+## Adventure Types
 
 An adventure can be location-based or event-based, as discussed in the sections that follow.
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#LocationBasedAdventures)Location-Based Adventures
+### Location-Based Adventures
 
 Adventures set in crumbling dungeons and remote wilderness locations are the cornerstone of countless campaigns. Many of the greatest D&D adventures of all time are location-based.
 
 Creating a location-based adventure can be broken down into a number of steps. Each step provides tables from which you can select the basic elements of your adventure. Alternatively, roll on the tables and see how the random results inspire you. You can mix up the order of the steps.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#1IdentifythePartysGoals)1\. Identify the Party’s Goals
+#### 1 dentify the Party’s Goals
 
-[![](https://www.dndbeyond.com/attachments/thumbnails/0/831/320/432/c3-02.png)](https://www.dndbeyond.com/attachments/0/831/c3-02.png)
+
 
 The Dungeon Goals table provides common goals that drive or lure adventurers into dungeons. The Wilderness Goals table provides similar inspiration for an adventure focused on outdoor exploration. The Other Goals table suggests location-based adventures that don’t fit neatly into the first two categories.
-
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#DungeonGoals)
-
 
 
 Dungeon Goals
@@ -132,12 +144,12 @@ Dungeon Goals
 | 18  | Parley with a villain in the dungeon.                                                             |
 | 19  | Hide from a threat outside the dungeon.                                                           |
 | 20  | Roll twice, ignoring results of 20.                                                               |
-
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#WildernessGoals)
+^dngngoals
 
 
 
 Wilderness Goals
+
 | d20 | Goal                                                                                          |
 | --- | --------------------------------------------------------------------------------------------- |
 | 1   | Locate a dungeon or other site of interest (roll on the Dungeon Goals table to find out why). |
@@ -160,8 +172,8 @@ Wilderness Goals
 | 18  | Escape the reign of a tyrant.                                                                 |
 | 19  | Protect a wilderness site from attackers.                                                     |
 | 20  | Roll twice, ignoring results of 20.                                                           |
+^wildernessgoals
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#OtherGoals)
 
 
 Other Goals
@@ -180,12 +192,11 @@ Other Goals
 | 10  | Find the source of strange occurrences in a haunted house or other location.  |
 | 11  | Interfere with the operation of a business.                                   |
 | 12  | Rescue a character, monster, or object from a natural or unnatural disaster.  |
+^otherGoals
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#2IdentifyImportantNPCs)2\. Identify Important NPCs
+#### 2 Identify Important NPCs
 
-Use the Adventure Villains, Adventure Allies, and Adventure Patrons tables to help you identify these NPCs. [Chapter 4](https://www.dndbeyond.com/sources/dmg/creating-nonplayer-characters "Creating Nonplayer Characters") can help you bring these NPCs to life.
-
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureVillains)
+Use the Adventure Villains, Adventure Allies, and Adventure Patrons tables to help you identify these NPCs. Chapter 4"Creating Nonplayer Characters") can help you bring these NPCs to life.
 
 
 Adventure Villains
@@ -207,8 +218,7 @@ Adventure Villains
 | 17–18 | Humanoid raider or ravager                     |
 | 19    | Humanoid under a curse                         |
 | 20    | Misguided humanoid zealot                      |
-
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureAllies)
+^advVillains
 
 
 Adventure Allies
@@ -227,8 +237,8 @@ Adventure Allies
 | 10  | Fey ally                  |
 | 11  | Disguised monster         |
 | 12  | Villain posing as an ally |
+^advAllies
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventurePatrons)
 
 
 Adventure Patrons
@@ -249,16 +259,17 @@ Adventure Patrons
 | 18    | Desperate commoner            |
 | 19    | Embattled merchant            |
 | 20    | Villain posing as a patron    |
+^Patrons
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#3FleshOuttheLocationDetails)3\. Flesh Out the Location Details
+#### 3  Flesh Out the Location Details
 
-[Chapter 5](https://www.dndbeyond.com/sources/dmg/adventure-environments "Adventure Environments") offers suggestions for creating and fleshing out an adventure location, including tables that can help you establish the important elements of a dungeon, wilderness area, or urban setting.
+[[5e DMG 05 Adventure Environments]] offers suggestions for creating and fleshing out an adventure location, including tables that can help you establish the important elements of a dungeon, wilderness area, or urban setting.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#4FindtheIdealIntroduction)4\. Find the Ideal Introduction
+#### 4 Find the Ideal Introduction
 
 An adventure can begin with a social interaction encounter in which the adventurers find out what they must do and why. It can start with a surprise attack, or with the adventurers coming across information by accident. The best introductions arise naturally from the goals and setting of the adventure. Let the entries in the Adventure Introduction table inspire you.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureIntroduction)
+
 
 
 Adventure Introduction
@@ -278,11 +289,13 @@ Adventure Introduction
 | 11  | One night, the characters all dream about entering the adventure location.                                                                       |
 | 12 | A ghost appears and terrorizes a village. Research reveals that it can be put to rest only by entering the adventure location. |
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#5ConsidertheIdealClimax)5\. Consider the Ideal Climax
+^AdvIntro
+
+#### 5 Consider the Ideal Climax
 
 The climactic ending of an adventure fulfills the promise of all that came before. Although the climax must hinge on the successes and failures of the characters up to that moment, the Adventure Climax table can provide suggestions to help you shape the end of your adventure.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#AdventureClimax)
+
 
 Adventure Climax
 
@@ -300,38 +313,39 @@ Adventure Climax
 | 10  | A threat more powerful than the adventurers appears, destroys the main villain, and then turns its attention on the characters.                                              |
 | 11  | The adventurers must choose whether to pursue the fleeing main villain or save an NPC they care about or a group of innocents.                                               |
 | 12  | The adventurers must discover the main villain’s secret weakness before they can hope to defeat that villain.                                                                |
+^climax
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#6PlanEncounters)6\. Plan Encounters
+#### 6 Plan Encounters
 
 After you’ve created the location and the overall story of the adventure, it’s time to plan out the encounters that make up that adventure. In a location-based adventure, most encounters are keyed to specific locations on a map. For each room or wilderness area on the adventure map, your key describes what’s in that area: its physical features, as well as any encounter that plays out there. The adventure key turns a simple sketch of numbered areas on graph paper into encounters designed to entertain and intrigue your players.
 
-See “[Creating Encounters](https://www.dndbeyond.com/sources/dmg/creating-adventures#CreatingEncounters "Creating Encounters")” later in this chapter for guidance on crafting individual encounters.
+See "Creating Encounters" later in this chapter for guidance on crafting individual encounters. [[5e DMG Ch3 Creatig Adventures Creating Encounters]]
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#EventBasedAdventures)Event-Based Adventures
+### Event-Based Adventures
 
 In an event-based adventure, the focus is on what the characters and villains do and what happens as a result. The question of where those things happen is of secondary importance.
 
 Building an event-based adventure is more work than building a location-based one, but the process can be simplified by following a number of straightforward steps. Several steps include tables from which you can choose adventure elements or roll randomly for inspiration. As with location-based adventures, you don’t necessarily have to follow these steps in order.
 
-[![](https://www.dndbeyond.com/attachments/thumbnails/0/832/230/554/c3-03.png)](https://www.dndbeyond.com/attachments/0/832/c3-03.png)
+
 
 Vampire Villain
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#1StartwithaVillain)1\. Start with a Villain
+#### 1. Start with a Villain
 
-Putting care into creating your villain will pay off later, since the villain plays such a pivotal role in advancing the story. Use the Adventure Villains table in the previous section to get started, and use the information in [chapter 4](https://www.dndbeyond.com/sources/dmg/creating-nonplayer-characters "Creating Nonplayer Characters") to help flesh out the villain.
+Putting care into creating your villain will pay off later, since the villain plays such a pivotal role in advancing the story. Use the Adventure Villains table in the previous section to get started, and use the information in Ch 4 to help flesh out the villain.
 
-For example, your villain might be an undead creature seeking to avenge a past imprisonment or injury. An interesting aspect of an undead villain is that this past injury might have occurred centuries ago, inspiring revenge against the descendants of those that harmed it. Imagine a [vampire](https://www.dndbeyond.com/monsters/17043-vampire) imprisoned by the members of a religious order of knights, and who now seeks revenge against the current members of that order.
+For example, your villain might be an undead creature seeking to avenge a past imprisonment or injury. An interesting aspect of an undead villain is that this past injury might have occurred centuries ago, inspiring revenge against the descendants of those that harmed it. Imagine a  Vampire imprisoned by the members of a religious order of knights, and who now seeks revenge against the current members of that order.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#2DeterminetheVillainsActions)2\. Determine the Villain’s Actions
+#### 2 Determine the Villain’s Actions
 
 Once you have a villain, it’s time to determine what steps the villain takes to achieve its goals. Create a timeline showing what the villain does and when, assuming no interference from the adventurers.
 
-Building on the previous example, you might decide that your [vampire](https://www.dndbeyond.com/monsters/17043-vampire) villain murders several knights. By slipping past locked doors in gaseous form, the [vampire](https://www.dndbeyond.com/monsters/17043-vampire) is able to make the deaths appear natural at first, but it soon becomes clear that a depraved killer is behind the murders.
+Building on the previous example, you might decide that your Vampire villain murders several knights. By slipping past locked doors in gaseous form, the Vampire is able to make the deaths appear natural at first, but it soon becomes clear that a depraved killer is behind the murders.
 
 If you need additional inspiration, consider a few different options for how the villain’s actions unfold over the course of the adventure.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#EventBasedVillainActions)
+
 
 
 Event-Based Villain Actions
@@ -344,6 +358,7 @@ Event-Based Villain Actions
 | 4   | One and done       |
 | 5   | Serial crimes      |
 | 6   | Step by step       |
+^event-basedVillainActions
 
 _**Big Event.**_ The villain’s plans come to fruition during a festival, an astrological event, a holy (or unholy) rite, a royal wedding, the birth of a child, or some similar fixed time. The villain’s activities up to that point are geared toward preparation for this event.
 
@@ -353,15 +368,15 @@ _**Growing Corruption.**_ As time passes, the villain’s power and influence gr
 
 _**One and Done.**_ The villain commits a single crime and then tries to avoid the consequences. Instead of an ongoing plan to commit more crimes, the villain’s goal is to lie low or flee the scene.
 
-_**Serial Crimes.**_ The villain commits crimes one after the other, but these acts are repetitive in nature, rather than escalating to greater heights of depravity. The trick to catching such a villain lies in determining the pattern underlying the crimes. Though serial killers are a common example of this type of villain, your villain could be a serial arsonist favoring a certain type of building, a magical sickness that affects spellcasters who cast a specific spell, a thief that targets a certain kind of merchant, or a [doppelganger](https://www.dndbeyond.com/monsters/16843-doppelganger) kidnapping and impersonating one noble after another.
+_**Serial Crimes.**_ The villain commits crimes one after the other, but these acts are repetitive in nature, rather than escalating to greater heights of depravity. The trick to catching such a villain lies in determining the pattern underlying the crimes. Though serial killers are a common example of this type of villain, your villain could be a serial arsonist favoring a certain type of building, a magical sickness that affects spellcasters who cast a specific spell, a thief that targets a certain kind of merchant, or a doppelganger kidnapping and impersonating one noble after another.
 
 _**Step by Step.**_ In pursuit of its goal, the villain carries out a specific set of actions in a particular sequence. A wizard might steal the items needed to create a phylactery and become a lich, or a cultist might kidnap the priests of seven good-aligned gods as a sacrifice. Alternatively, the villain could be following a trail to find the object of its revenge, killing one victim after another while moving ever closer to the real target.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#3DeterminethePartysGoals)3\. Determine the Party’s Goals
+#### 3 Determine the Party’s Goals
 
 You can use the Event-Based Goals table to set the party’s goal. A goal can also suggest ways in which the adventurers become caught up in the villain’s plans, and what exactly they must do to foil those plans.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#EventBasedGoals)
+
 
 Event-Based Goals
 
@@ -387,16 +402,18 @@ Event-Based Goals
 | 18  | Locate a stolen item.                                                                     |
 | 19  | Make sure a wedding goes off without a hitch.                                             |
 | 20  | Roll twice, ignoring results of 20.                                                       |
+^event-basedGoals
 
-For example, you roll a 10 on the table, indicating that the party’s goal is to secure aid from a ruler or council. You decide to connect that to the leadership of the order targeted by your [vampire](https://www.dndbeyond.com/monsters/17043-vampire) villain. Maybe the order’s leaders have a chest of jewels stolen from the [vampire](https://www.dndbeyond.com/monsters/17043-vampire) centuries ago, and the characters can use the chest as bait to trap the villain.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#4IdentifyImportantNPCs)4\. Identify Important NPCs
+For example, you roll a 10 on the table, indicating that the party’s goal is to secure aid from a ruler or council. You decide to connect that to the leadership of the order targeted by your Vampire villain. Maybe the order’s leaders have a chest of jewels stolen from the Vampire centuries ago, and the characters can use the chest as bait to trap the villain.
+
+#### 4 Identify Important NPCs
 
 Many event-based adventures require a well-detailed cast of NPCs. Some of these NPCs fall neatly into the categories of allies and patrons, but most are likely to be characters or creatures whose attitudes toward the adventurers remain undecided until the adventurers interact with them. (See [chapter 4](https://www.dndbeyond.com/sources/dmg/creating-nonplayer-characters "Creating Nonplayer Characters") for more information on creating NPCs.)
 
-The elements of the adventure you’ve determined so far should provide a clear idea of what supporting characters you need to create, as well as how much detail you need to generate for each one. NPCs unlikely to become involved in combat don’t need full combat statistics, for example, just as characters heavily involved in negotiation could have ideals, bonds, and flaws. If it’s helpful, roll on the Adventure Allies or Adventure Patrons tables (in the “[Location-Based Adventures](https://www.dndbeyond.com/sources/dmg/creating-adventures#LocationBasedAdventures "Location-Based Adventures")” section, earlier in this chapter).
+The elements of the adventure you’ve determined so far should provide a clear idea of what supporting characters you need to create, as well as how much detail you need to generate for each one. NPCs unlikely to become involved in combat don’t need full combat statistics, for example, just as characters heavily involved in negotiation could have ideals, bonds, and flaws. If it’s helpful, roll on the Adventure Allies or Adventure Patrons tables (in the “Location-based Adventures” section, earlier in this chapter).
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#5AnticipatetheVillainsReactions)5\. Anticipate the Villain’s Reactions
+#### 5 Anticipate the Villain’s Reactions
 
 As the adventurers pursue their goals and foil the villain’s plans, how does the villain respond? Does it lash out in violence or send dire warnings? Does it look for simple solutions to its problems or create more complicated schemes to route around interference?
 
@@ -404,25 +421,25 @@ Look over the villain’s actions that you outlined in step 2. For each event ar
 
 One way to track a villain’s reactions is by using a flowchart. This might grow out of the timeline that describes the villain’s plans, outlining how the villain gets back on track after the adventurers thwart its plans. Or the flowchart could be separate from the timeline, showing the various actions the adventurers might take and the villain’s response to those actions.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#6DetailKeyLocations)6\. Detail Key Locations
+#### 6. Detail Key Locations
 
 Since locations aren’t the focus of the adventure, they can be simpler and smaller than a dungeon complex or an expanse of wilderness. They might be specific locations in a city, or even individual rooms in locations where combat is likely to break out or significant exploration is needed, such as a throne room, a guild headquarters, a vampire’s crumbling manor, or a knights’ chapter house.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#7ChooseanIntroductionandaClimax)7\. Choose an Introduction and a Climax
+#### 7. Choose an Introduction and a Climax
 
 The Adventure Introduction table in the “Location-Based Adventures” section offers fun possibilities for hooking the characters into the events of your adventure, including dreams, hauntings, and a simple plea for help. The Adventure Climax table in that same section includes adventure endings that work just as well for event-based adventures.
 
-For example, the Adventure Introduction table helps you decide that an ally the adventurers care about needs their help. Perhaps the NPC is a knight who believes that a [vampire](https://www.dndbeyond.com/monsters/17043-vampire) is trying to kill him, or a friend or relative hoping to find the knight’s murderer. This NPC brings the vampire’s crimes to the characters’ attention.
+For example, the Adventure Introduction table helps you decide that an ally the adventurers care about needs their help. Perhaps the NPC is a knight who believes that a Vampire is trying to kill him, or a friend or relative hoping to find the knight’s murderer. This NPC brings the vampire’s crimes to the characters’ attention.
 
-Looking over the Adventure Climax table, you might decide to have the adventurers bait the [vampire](https://www.dndbeyond.com/monsters/17043-vampire) with a chest of jewels stolen from its lair. As an added twist, you decide that the vampire’s true goal is to retrieve a necklace among the jewels. The necklace is set with nine gems, and with these gems the [vampire](https://www.dndbeyond.com/monsters/17043-vampire) can open a gate to the Nine Hells. Should the [vampire](https://www.dndbeyond.com/monsters/17043-vampire) succeed, the adventurers will have a more pressing threat to deal with, as a powerful devil steps through the gate and honors some ancient pact it made with the [vampire](https://www.dndbeyond.com/monsters/17043-vampire).
+Looking over the Adventure Climax table, you might decide to have the adventurers bait the Vampire with a chest of jewels stolen from its lair. As an added twist, you decide that the vampire’s true goal is to retrieve a necklace among the jewels. The necklace is set with nine gems, and with these gems the Vampire can open a gate to the Nine Hells. Should the Vampire succeed, the adventurers will have a more pressing threat to deal with, as a powerful devil steps through the gate and honors some ancient pact it made with the Vampire.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#8PlanEncounters)8\. Plan Encounters
+#### 8. Plan Encounters
 
 After you’ve created the overall story of the adventure, it’s time to plan out the encounters on which the events of that adventure will hang. In an event-based adventure, encounters occur when the villain’s agenda intersects the path of the characters. You can’t always anticipate exactly when or where that will happen, but you can create a list of possible encounters that the adventurers might experience. This can take the form of general descriptions of the villain’s forces, details of its lieutenants and minions, as well as encounters tied to the key locations of the adventure.
 
-See “[Creating Encounters](https://www.dndbeyond.com/sources/dmg/creating-adventures#CreatingEncounters "Creating Encounters")” later in this chapter for guidance on crafting individual encounters.
+See “Creating Encounters” later in this chapter for guidance on crafting individual encounters. [[5e DMG Ch3 Creatig Adventures Creating Encounters]]
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Mysteries)Mysteries
+### Mysteries
 
 A mystery is a form of event-based adventure that usually focuses on the adventurers’ efforts to solve a crime, usually a robbery or murder. Unlike the writer of a mystery novel, a Dungeon Master can’t always predict what the characters will do in a mystery adventure.
 
@@ -430,19 +447,19 @@ A villain whose actions are “crime spree,” “one and done,” or “serial 
 
 To build a mystery adventure, follow the steps for creating any event-based adventure. Then consider three additional elements for the adventure: the victim, the suspects, and the clues.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Victim)Victim
+#### Victim
 
 Think about the victim’s relationship to the villain. Though you can create a strong scenario with no such relationship, part of what makes a mystery exciting is the discovery of the twisted connections between NPCs and how those connections led to the crime. A random killing might be just as mysterious, but it lacks that emotional connection.
 
 Also look for a connection between the victim and one or more of the adventurers. One surefire way to draw adventurers into a mystery — including making them suspects — is to make the victim someone with whom the characters are acquainted.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Suspects)Suspects
+#### Suspects
 
 Your cast of characters should include an assortment of other NPCs who didn’t commit the crime, but who had the motive, the means, or the opportunity to do so. Suspects might be obvious or could come to light during the investigation. One technique often used in detective fiction is to create a closed circle of suspects — a finite number of individuals whose circumstances make them the only possible suspects.
 
 One tip for keeping the players and the adventurers guessing as to the identity of the villain is to ensure that more than one suspect has a secret. When questioned by the adventurers, a suspect might appear nervous or attempt to lie, despite being innocent of the crime. A secret business deal, an illicit affair, a dark past, or an uncontrolled vice are flaws that make suspects more interesting than NPCs with nothing to hide.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Clues)Clues
+#### Clues
 
 Clues point to the identity of the villain. Some clues are verbal, including the statements of the suspects and witnesses that help the adventurers develop a picture of what happened. Other clues are physical, such as an unfinished message written in the victim’s blood, a piece of jewelry left behind by the villain, or a weapon found hidden in a suspect’s room.
 
@@ -450,7 +467,7 @@ A clue should connect a suspect to the crime, typically by shedding light on the
 
 It’s better to populate your adventure with too many clues than too few. If the adventurers solve the mystery too quickly, you might feel some disappointment but the players will feel a sense of accomplishment. If the mystery is too hard, though, the players will become frustrated. Since you have to account for the possibility that the adventurers will overlook some clues, use redundant clues to ensure that the players have the knowledge needed to catch the villain.
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Intrigue)Intrigue
+### Intrigue
 
 Intrigue adventures are event-based adventures that revolve around power struggles. Intrigues are common in the courts of the nobility, but power struggles can play out just as easily in merchants’ guilds, crime syndicates, and temple hierarchies.
 
@@ -462,7 +479,7 @@ Adventurers usually become embroiled in intrigue when they need a favor from a p
 
 The process of creating an intrigue adventure is similar to creating any other event-based adventure, with two main differences: how villains are handled and how the characters can gain influence.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Villains)Villains
+#### Villains
 
 Some intrigue adventures are driven by the actions of a single villain, such as a noble plotting the assassination of a monarch. However, an intrigue adventure can have multiple villains or no villain at all.
 
@@ -472,7 +489,7 @@ _**Many Villains.**_ Some intrigue adventures feature a whole cast of villains, 
 
 In step 5, you’ll need to develop each villain’s reactions to the potential setbacks they face during the adventure. However, you don’t need to put equal effort into detailing the reactions of every villain, since many will likely echo each other or cancel each other out. Whenever the adventurers foil one villain’s plans, it might let another villain’s schemes move forward, advancing the adventure whether the foiled villain reacts or not.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Influence)Influence
+#### Influence
 
 Depending on the scenario, you might want to track the party’s influence with different NPCs or factions, or even track influence separately for each character.
 
@@ -480,11 +497,11 @@ One way to handle influence is to treat it like inspiration. A character gains i
 
 Another way to handle influence is to treat it like renown (see [chapter 1](https://www.dndbeyond.com/sources/dmg/a-world-of-your-own#Renown "Renown")), allowing characters to gain renown at court and within various key factions.
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#FramingEvents)Framing Events
+### Framing Events
 
 You can base an entire adventure on a framing event or use such an event to grab the players’ interest. The Framing Events table presents several ideas, or you can use it to inspire your own framing event.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#FramingEventsTable)
+
 
 
 Framing Events
@@ -539,16 +556,17 @@ Framing Events
 | 95–96 | Violent uprising                                                      |
 | 97–98 | Wedding or wedding anniversary                                        |
 | 99–00 | Concurrence of two events (roll twice, ignoring results of 99 or 100) |
+^framingEvents
 
-## [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Complications)Complications
+## Complications
 
 Sometimes an adventure isn’t as straightforward as it might seem.
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#MoralQuandaries)Moral Quandaries
+### Moral Quandaries
 
 If you want to give the characters a crisis that no amount of spellcasting or swordplay can resolve, add a moral quandary to the adventure. A moral quandary is a problem of conscience for which the adventurers must make a single choice — but never a simple one.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#MoralQuandariesTable)
+
 
 
 Moral Quandaries
@@ -560,8 +578,7 @@ Moral Quandaries
 | 7–12  | Honor quandary   |
 | 13–16 | Rescue quandary  |
 | 17–20 | Respect quandary |
-
-[![](https://www.dndbeyond.com/attachments/thumbnails/0/833/310/532/c3-04.png)](https://www.dndbeyond.com/attachments/0/833/c3-04.png)
+^moralQuandaries
 
 _**Ally Quandary.**_ The adventurers have a better chance of achieving their goal with the help of two individuals whose expertise is all but essential. However, these two NPCs hate each other and refuse to work together even if the fate of the world hangs in the balance. The adventurers must choose the NPC that is most likely to help them accomplish their goal.
 
@@ -573,11 +590,11 @@ _**Rescue Quandary.**_ The adventurers must choose between catching or hurting t
 
 _**Respect Quandary.**_ Two important allies give conflicting directions or advice to the adventurers. Perhaps the high priest counsels the characters to negotiate peace with militaristic elves in the nearby forest, while a veteran warrior urges them to prove their strength with a decisive first strike. The adventurers can’t follow both courses, and whichever ally they choose, the other loses respect for them and might no longer aid them.
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#Twists)Twists
+### Twists
 
 A twist can complicate a story and make it harder for the characters to complete their goals.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#TwistsTable)
+
 
 
 Twists
@@ -594,12 +611,13 @@ Twists
 | 8   | Completing the goal secretly helps the villain.                                                                                      |
 | 9   | The adventurers must cooperate with a known enemy to achieve the goal.                                                               |
 | 10  | The adventurers are under magical compulsion (such as a [geas](https://www.dndbeyond.com/spells/geas) spell) to complete their goal. |
+^twists
 
-### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#SideQuests)Side Quests
+### Side Quests
 
 You can also add one or more side quests to your adventure, taking the characters off the main story path defined by location or events. Side quests are peripheral to the characters’ primary goal, but successfully completing a side quest might provide a benefit toward completing the primary goal.
 
-[](https://www.dndbeyond.com/sources/dmg/creating-adventures#SideQuestsTable)
+
 
 
 Side Quests
@@ -615,11 +633,14 @@ Side Quests
 | 7   | Discover the nature and origin of a strange phenomenon in the area. |
 | 8   | Secure the aid of a character or creature in the area.              |
 
+^SideQuests
+
+
 ## [[5e DMG Ch3 Creatig Adventures Creating Encounters]]
 
 
 
-## [](https://www.dndbeyond.com/sources/dmg/creating-adventures#RandomEncounters) Random Encounters
+## Random Encounters
 
 As characters explore a wilderness area or dungeon complex, they are bound to encounter the unexpected. Random encounters are a way to deliver the unexpected. They are usually presented in the form of a table. When a random encounter occurs, you roll a die and consult the table to determine what the party encounters.
 
@@ -636,7 +657,7 @@ Random encounters should never be tiresome to you or your players. You don’t w
 
 Not every DM likes to use random encounters. You might find that they distract from your game or are otherwise causing more trouble than you want. If random encounters don’t work for you, don’t use them.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#TriggeringRandomEncounters)Triggering Random Encounters
+####Triggering Random Encounters
 
 Because you want random encounters to build on the intended narrative of a game session, not compete with it, you should choose the placement of those encounters carefully. Think about a random encounter under any of the following circumstances:
 
@@ -645,11 +666,10 @@ Because you want random encounters to build on the intended narrative of a game 
 -   The characters are undertaking a long, uneventful journey.
 -   The characters draw attention to themselves when they should be keeping a low profile.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#CheckingforRandomEncounters)Checking for Random Encounters
+#### Checking for Random Encounters
 
 You decide when a random encounter happens, or you roll. Consider checking for a random encounter once every hour, once every 4 to 8 hours, or once during the day and once during a long rest — whatever makes the most sense based on how active the area is.
 
-[![](https://www.dndbeyond.com/attachments/thumbnails/0/837/320/464/c3-08.png)](https://www.dndbeyond.com/attachments/0/837/c3-08.png)
 
 If you roll, do so with a d20. If the result is 18 or higher, a random encounter occurs. You then roll on an appropriate random encounter table to determine what the adventurers meet, rerolling if the die result doesn’t make sense given the circumstances.
 
@@ -657,7 +677,8 @@ Random encounter tables might be provided as part of the adventure you’re runn
 
 Not every run-in with another creature counts as a random encounter. Encounter tables don’t usually include rabbits hopping through the undergrowth, harmless rats scurrying through dungeon halls, or average citizens walking through the streets of a city. Random encounter tables present obstacles and events that advance the plot, foreshadow important elements or themes of the adventure, and provide fun distractions.
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#CreatingRandomEncounterTables)Creating Random Encounter Tables
+#### Creating Random Encounter Tables
+[[202001052047 Random Encounter Table MOC]]
 
 Creating your own random encounter tables is straightforward. Determine what sort of encounters might occur in a given dungeon area, figure out the likelihood of a particular encounter occurring, then arrange the results. An “encounter” in this case could be a single monster or NPC, a group of monsters or NPCs, a random event (such as an earth tremor or a parade), or a random discovery (such as a charred corpse or a message scrawled on a wall).
 
@@ -700,7 +721,7 @@ Sylvan Forest Encounters
 | 19       | 1 [treant](https://www.dndbeyond.com/monsters/17037-treant). The treant is friendly if the party includes one or more elves or is accompanied by a visible fey creature. The treant is hostile if the characters are carrying open flames. Otherwise, it is indifferent and doesn’t announce its presence as the characters pass by.                                                                                                                                                                                                                                                                                                 |
 | 20 | 1 [unicorn](https://www.dndbeyond.com/monsters/17042-unicorn) |
 
-#### [](https://www.dndbeyond.com/sources/dmg/creating-adventures#RandomEncounterChallenge)Random Encounter Challenge
+#### Random Encounter Challenge
 
 Random encounters need not be level-appropriate challenges for the adventurers, but it’s considered bad form to slaughter a party using a random encounter, since most players consider this ending to be an unsatisfying one.
 
@@ -710,5 +731,3 @@ That said, a random encounter table usually includes hostile (though not necessa
 
 -   A single monster with a challenge rating equal to or lower than the party’s level.
 -   A group of monsters whose adjusted XP value constitutes an easy, medium, or hard challenge for the party, as determined using the encounter-building guidelines earlier in this chapter.
-
-[![](https://www.dndbeyond.com/attachments/thumbnails/0/838/420/335/c3-09.png)](https://www.dndbeyond.com/attachments/0/838/c3-09.png)

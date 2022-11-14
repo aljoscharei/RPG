@@ -7698,7 +7698,7 @@
             "offset": 1466
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Dragoul Zombie.md",
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Dragoul Zombie 2.md",
         "mtime": 1666871894000
       }
     ],
@@ -7823,7 +7823,7 @@
             "offset": 2750
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Dragon.md",
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Dragon 2.md",
         "mtime": 1666096727000
       }
     ],
@@ -7929,198 +7929,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Adult Oblex.md",
         "mtime": 1668092966443
-      }
-    ],
-    [
-      "Symbaroum Monster Symbolist",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Symbolist Witch.jpeg"
-          ]
-        ],
-        "name": "Symbaroum Monster Symbolist",
-        "alignment": "",
-        "ac": 11,
-        "hp": 13,
-        "hit_dice": "(2d8 + 4)",
-        "speed": "30 ft.",
-        "stats": [
-          14,
-          10,
-          15,
-          16,
-          11,
-          11
-        ],
-        "saves": [
-          {
-            "Int": 5
-          },
-          {
-            "Wis": 2
-          }
-        ],
-        "skillsaves": [
-          {
-            "Arcana": 5
-          },
-          {
-            "Nature": 5
-          },
-          {
-            "Perception": 2
-          }
-        ],
-        "senses": "passive Perception 12",
-        "languages": "Ambrian",
-        "equipment": "order medallion, 1d4 shillings",
-        "cr": 2,
-        "traits": [
-          {
-            "name": "Rune Tattos Symbolist 3rd lvl",
-            "desc": "At 3rd level, you can make a rune tattoo that protects from weather and wind like a full set of clothes. Also, when attacked, you can spend your reaction and gain +4 to your AC until the start of your next turn and you gain 1 point of temporary Corruption. As long as you choose to continue to gain Corruption at the start of your turn, you can continue this effect for additional rounds."
-          },
-          {
-            "name": "Corrpution Threshold",
-            "desc": "4"
-          },
-          {
-            "name": "Spellcasting",
-            "desc": "the adept’s spellcasting ability is Intelligence (spell attack +5, save DC 13) and it knows the following spells:"
-          },
-          {
-            "name": "Cantrips",
-            "desc": "[[5e spells fire_bolt 1d10 dmg w]] (0), [[5e spells light wc]] (0), [[5e spells message 120 ft w]] (1), [[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (1), [[5e spells ray of frost 1d8 dmg slowed down w]]] (1)"
-          },
-          {
-            "name": "1st-level spells",
-            "desc": "[[5e spells detect magic wc]] (1d4 + 1),[[5e spells magic missile 3 x 1d4 plus 1 w]](1d4 + 1), [[shield w]]] (1d4 + 1), [[5e spells sleep w]] (1)"
-          },
-          {
-            "name": "Rituals",
-            "desc": " [[5e spells alarm w 5e]]"
-          }
-        ],
-        "actions": [
-          {
-            "name": "Quarterstaff",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage"
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 37,
-            "col": 3,
-            "offset": 1664
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/Symbaroum Monster Symbolist.md",
-        "mtime": 1666871780009
-      }
-    ],
-    [
-      "Symbaroum Monster Tattooed Barbarian warrior",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Sovereign Oath Tattooed Fighter.jpeg"
-          ]
-        ],
-        "name": "Symbaroum Monster Tattooed Barbarian warrior",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 14,
-        "hp": 37,
-        "hit_dice": "(5d8 + 15)",
-        "speed": "40 ft.",
-        "stats": [
-          18,
-          12,
-          17,
-          10,
-          14,
-          12
-        ],
-        "saves": [
-          {
-            "Strength": 6
-          },
-          {
-            "Constitution": 5
-          }
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 6
-          },
-          {
-            "Perception": 4
-          },
-          {
-            "Survival": 4
-          }
-        ],
-        "senses": "passive Perception 14",
-        "languages": "Ambrian, Barbarian",
-        "equipment": "a wooden or metal beaker, wooden figurine (the clan’s spirit guardian), stone for sharpening the axe, 1d10 shillings",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Corruptiion threshold",
-            "desc": "5"
-          },
-          {
-            "name": "Unarmored Defense",
-            "desc": "While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. If you are unarmored your base speed increases by 10 feet."
-          },
-          {
-            "name": "Rune Tattoos 1st Level",
-            "desc": "At 1st level, the rune tattoo protects from weather and wind like a full set of clothes. When attacked, you can spend your reaction and gain +4 to your AC until the start of your next turn and you gain 1 point of temporary Corruption. As long as you choose to continue to gain Corruption at the start of your turn, you can continue this effect for additional rounds."
-          },
-          {
-            "name": "Rune Tattos 3rd level",
-            "desc": "At 3rd level, the rune tattoo adds power to your attacks. Use your bonus action to empower your weapon and gain 1 point of temporary Corruption. Add 1d6 radiant damage to each attack until the beginning of your next turn."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The village warrior makes two attacks with its double-axe."
-          },
-          {
-            "name": "Double-axe",
-            "desc": "Melee Weapon Attack: +6 to hit, reach  5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Two-handed Force",
-            "desc": "If the village warrior misses an attack, it can use its reaction to reroll the attack."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 40,
-            "col": 3,
-            "offset": 1858
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/Symbaroum Monster Tattooed Barbarian Warrior.md",
-        "mtime": 1666871833968
       }
     ],
     [
@@ -8474,11 +8282,7 @@
       "Symbaroum Monster Arch Troll",
       {
         "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
+        "image": "Wikilink To Image",
         "name": "Symbaroum Monster Arch Troll",
         "size": "huge",
         "type": "Troll",
@@ -8591,6 +8395,8 @@
             "desc": "The arch troll squeezes all opponents it has grappled."
           }
         ],
+        "bonus_actions": [],
+        "reactions": [],
         "position": {
           "start": {
             "line": 0,
@@ -8598,13 +8404,13 @@
             "offset": 0
           },
           "end": {
-            "line": 61,
+            "line": 93,
             "col": 3,
-            "offset": 3633
+            "offset": 3793
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Arch Troll.md",
-        "mtime": 1668195332072
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Arch Troll 2.md",
+        "mtime": 1666099447000
       }
     ],
     [
@@ -8679,8 +8485,8 @@
             "offset": 1440
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard.md",
-        "mtime": 1668195332072
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard 2.md",
+        "mtime": 1666787628000
       }
     ],
     [
@@ -11248,8 +11054,8 @@
             "offset": 994
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drug Peddler.md",
-        "mtime": 1668195332052
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drug Peddler 2.md",
+        "mtime": 1667402242000
       }
     ],
     [
@@ -12169,8 +11975,8 @@
             "offset": 663
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
-        "mtime": 1668195332083
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard 2.md",
+        "mtime": 1667182461000
       }
     ],
     [
@@ -14389,8 +14195,8 @@
             "offset": 1148
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession.md",
-        "mtime": 1668194392685
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession 2.md",
+        "mtime": 1666950651000
       }
     ],
     [
@@ -15519,8 +15325,8 @@
             "offset": 1230
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order.md",
-        "mtime": 1668194357370
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order 2.md",
+        "mtime": 1666869256000
       }
     ],
     [
@@ -18933,8 +18739,8 @@
             "offset": 1049
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior.md",
-        "mtime": 1668194386538
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior 2.md",
+        "mtime": 1666787738000
       }
     ],
     [
@@ -19702,8 +19508,8 @@
             "offset": 2172
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Witch - Keeper.md",
-        "mtime": 1668189529285
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Witch - Keeper 2.md",
+        "mtime": 1668189529000
       }
     ],
     [
@@ -19887,8 +19693,8 @@
             "offset": 907
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho.md",
-        "mtime": 1668193986822
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho 2.md",
+        "mtime": 1666786665000
       }
     ],
     [
@@ -21225,7 +21031,16 @@
       {
         "statblock": true,
         "name": "Adult Black Dragon",
+        "source": [
+          "Monster Manual",
+          "Hoard of the Dragon Queen",
+          "Princes of the Apocalypse",
+          "The Rise of Tiamat",
+          "Ghosts of Saltmarsh",
+          "Candlekeep Mysteries"
+        ],
         "type": "dragon",
+        "subtype": null,
         "size": "Huge",
         "alignment": "chaotic or evil",
         "hp": 195,
@@ -21322,6 +21137,7 @@
           }
         ],
         "spells": null,
+        "spellsNotes": null,
         "position": {
           "start": {
             "line": 0,
@@ -21329,168 +21145,13 @@
             "offset": 0
           },
           "end": {
-            "line": 61,
+            "line": 69,
             "col": 3,
-            "offset": 2514
+            "offset": 2659
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Adult Black Dragon.md",
-        "mtime": 1667969751178
-      }
-    ],
-    [
-      "Lich",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Lich.jpg"
-          ]
-        ],
-        "name": "Lich",
-        "size": "medium",
-        "type": "undead, monster manual",
-        "alignment": "any evil alignment",
-        "ac": 17,
-        "hp": 135,
-        "hit_dice": "18d8+54",
-        "speed": "30 ft.",
-        "stats": [
-          11,
-          16,
-          16,
-          20,
-          14,
-          16
-        ],
-        "saves": [
-          {
-            "constitution": 10
-          },
-          {
-            "intelligence": 12
-          },
-          {
-            "wisdom": 9
-          }
-        ],
-        "skillsaves": [
-          {
-            "Arcana": 18
-          },
-          {
-            "History": 12
-          },
-          {
-            "Insight": 9
-          },
-          {
-            "Perception": 9
-          }
-        ],
-        "damage_resistances": "cold, lightning, necrotic",
-        "damage_immunities": "poison, bludgeoning, piercing, and slashing from nonmagical weapons",
-        "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
-        "senses": "truesight 120 ft.",
-        "languages": "Common plus up to five other languages",
-        "cr": "21",
-        "spells": [
-          "The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:"
-        ],
-        "traits": [
-          {
-            "name": "Cantrips (at will)",
-            "desc": "[[5e spells mage hand remote w]]. [[5e spells prestidigitation w ROS ritual]],[[5e spells ray of frost 1d8 dmg slowed down w]]"
-          },
-          {
-            "name": "1st level (4 slots)",
-            "desc": "[[5e spells detect magic wc]], [[5e spells magic missile 3 x 1d4 plus 1 dmg w not favoured]], [[5e spells lvl 1 shield plus 5 to AC reaction  w]], [[thunderwave push away w]]"
-          },
-          {
-            "name": "2nd level (3 slots)",
-            "desc": "[[5e spells acid arrow w]], [[detect thoughts esp not favoured w]], [[5e spell invisibility w]], [[mirror image 3 duplicates w]]"
-          },
-          {
-            "name": "3rd level (3 slots)",
-            "desc": "[[5e spells animate dead skeleton zombie wc]], [[5e spells counterspell interrupt w]], [[5e spells dispel magic wc not favoured]], [[5e spells fireball 20 ft 8d6 w]]"
-          },
-          {
-            "name": "4th level (3 slots)",
-            "desc": "[[blight wither 8d8 dmg w not favoured]], [[dimension door teleport to visible w not favoured]]"
-          },
-          {
-            "name": "5th level (3 slots)",
-            "desc": "[[cloudkill terrain control w]], [[scrying on creature wc not favoured]]"
-          },
-          {
-            "name": "6th level (1 slot)",
-            "desc": "[[5e spells disintegrate10d6plus40 dmg w]], [[5e spells globe of invulnerability barrier vs spells w]]"
-          },
-          {
-            "name": "7th level (1 slot)",
-            "desc": "[[finger_of_death 7d8plus30 dmg zombie w]], [[plane_shift 8 friends also banish wc]]"
-          },
-          {
-            "name": "8th level (1 slot)",
-            "desc": "[[5e spells dominate monster mind control any cr w]], [[power word stun w not favoured]]"
-          },
-          {
-            "name": "9th level (1 slot)",
-            "desc": "[[power word kill 100hp w not favoured]]"
-          },
-          {
-            "name": "Legendary Resistance (3/Day)",
-            "desc": "If the lich fails a saving throw, it can choose to succeed instead."
-          },
-          {
-            "name": "Rejuvenation",
-            "desc": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
-          },
-          {
-            "name": "Turn Resistance",
-            "desc": "The lich has advantage on saving throws against any effect that turns undead."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Paralyzing Touch",
-            "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-          }
-        ],
-        "legendary_actions": [
-          {
-            "name": "Cantrip",
-            "desc": "The lich casts a cantrip."
-          },
-          {
-            "name": "Paralyzing Touch (Costs 2 Actions)",
-            "desc": "The lich uses its Paralyzing Touch."
-          },
-          {
-            "name": "Frightening Gaze (Costs 2 Actions)",
-            "desc": "The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours."
-          },
-          {
-            "name": "Disrupt Life (Costs 3 Actions)",
-            "desc": "Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one."
-          }
-        ],
-        "reactions": [],
-        "source": "Monster Manual",
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 89,
-            "col": 3,
-            "offset": 4196
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/lich lair actions.md",
-        "mtime": 1668333958694
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/5e Monster adult black dragon.md",
+        "mtime": 1667754652000
       }
     ],
     [
@@ -21923,11 +21584,7 @@
       "Symbaroum Monster Artisan",
       {
         "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
+        "image": "Wikilink To Image",
         "name": "Symbaroum Monster Artisan",
         "size": "Medium",
         "type": "human",
@@ -21965,6 +21622,9 @@
             "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage or 9 (1d10 + 4) bludgeoning damage if wielded with two hands."
           }
         ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
         "position": {
           "start": {
             "line": 0,
@@ -21972,13 +21632,13 @@
             "offset": 0
           },
           "end": {
-            "line": 24,
+            "line": 39,
             "col": 3,
-            "offset": 789
+            "offset": 893
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan CR 1.md",
-        "mtime": 1668193986818
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan CR 1 2.md",
+        "mtime": 1666115803000
       }
     ],
     [
@@ -72691,6 +72351,353 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Yuan-ti Nightmare Speaker.md",
         "mtime": 1667969751659
+      }
+    ],
+    [
+      "Symbaroum Monster Symbolist",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Symbolist Witch.jpeg"
+          ]
+        ],
+        "name": "Symbaroum Monster Symbolist",
+        "alignment": "",
+        "ac": 11,
+        "hp": 13,
+        "hit_dice": "(2d8 + 4)",
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          10,
+          15,
+          16,
+          11,
+          11
+        ],
+        "saves": [
+          {
+            "Int": 5
+          },
+          {
+            "Wis": 2
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 5
+          },
+          {
+            "Nature": 5
+          },
+          {
+            "Perception": 2
+          }
+        ],
+        "senses": "passive Perception 12",
+        "languages": "Ambrian",
+        "equipment": "order medallion, 1d4 shillings",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Rune Tattos Symbolist 3rd lvl",
+            "desc": "At 3rd level, you can make a rune tattoo that protects from weather and wind like a full set of clothes. Also, when attacked, you can spend your reaction and gain +4 to your AC until the start of your next turn and you gain 1 point of temporary Corruption. As long as you choose to continue to gain Corruption at the start of your turn, you can continue this effect for additional rounds."
+          },
+          {
+            "name": "Corrpution Threshold",
+            "desc": "4"
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "the adept’s spellcasting ability is Intelligence (spell attack +5, save DC 13) and it knows the following spells:"
+          },
+          {
+            "name": "Cantrips",
+            "desc": "[[5e spells fire_bolt 1d10 dmg w]] (0), [[5e spells light wc]] (0), [[5e spells message 120 ft w]] (1), [[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (1), [[5e spells ray of frost 1d8 dmg slowed down w]]] (1)"
+          },
+          {
+            "name": "1st-level spells",
+            "desc": "[[5e spells detect magic wc]] (1d4 + 1),[[5e spells magic missile 3 x 1d4 plus 1 w]](1d4 + 1), [[shield w]]] (1d4 + 1), [[5e spells sleep w]] (1)"
+          },
+          {
+            "name": "Rituals",
+            "desc": " [[5e spells alarm w 5e]]"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Quarterstaff",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage"
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 37,
+            "col": 3,
+            "offset": 1664
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/Symbaroum Monster Symbolist.md",
+        "mtime": 1666871780000
+      }
+    ],
+    [
+      "Lich",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Lich.jpg"
+          ]
+        ],
+        "name": "Lich",
+        "size": "medium",
+        "type": "undead, monster manual",
+        "alignment": "any evil alignment",
+        "ac": 17,
+        "hp": 135,
+        "hit_dice": "18d8+54",
+        "speed": "30 ft.",
+        "stats": [
+          11,
+          16,
+          16,
+          20,
+          14,
+          16
+        ],
+        "saves": [
+          {
+            "constitution": 10
+          },
+          {
+            "intelligence": 12
+          },
+          {
+            "wisdom": 9
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 18
+          },
+          {
+            "History": 12
+          },
+          {
+            "Insight": 9
+          },
+          {
+            "Perception": 9
+          }
+        ],
+        "damage_resistances": "cold, lightning, necrotic",
+        "damage_immunities": "poison, bludgeoning, piercing, and slashing from nonmagical weapons",
+        "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+        "senses": "truesight 120 ft.",
+        "languages": "Common plus up to five other languages",
+        "cr": "21",
+        "spells": [
+          "The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:"
+        ],
+        "traits": [
+          {
+            "name": "Cantrips (at will)",
+            "desc": "[[5e spells mage hand remote w]]. [[5e spells prestidigitation w ROS ritual]],[[5e spells ray of frost 1d8 dmg slowed down w]]"
+          },
+          {
+            "name": "1st level (4 slots)",
+            "desc": "[[5e spells detect magic wc]], [[5e spells magic missile 3 x 1d4 plus 1 dmg w not favoured]], [[5e spells lvl 1 shield plus 5 to AC reaction  w]], [[thunderwave push away w]]"
+          },
+          {
+            "name": "2nd level (3 slots)",
+            "desc": "[[5e spells acid arrow w]], [[detect thoughts esp not favoured w]], [[5e spell invisibility w]], [[mirror image 3 duplicates w]]"
+          },
+          {
+            "name": "3rd level (3 slots)",
+            "desc": "[[5e spells animate dead skeleton zombie wc]], [[5e spells counterspell interrupt w]], [[5e spells dispel magic wc not favoured]], [[5e spells fireball 20 ft 8d6 w]]"
+          },
+          {
+            "name": "4th level (3 slots)",
+            "desc": "[[blight wither 8d8 dmg w not favoured]], [[dimension door teleport to visible w not favoured]]"
+          },
+          {
+            "name": "5th level (3 slots)",
+            "desc": "[[cloudkill terrain control w]], [[scrying on creature wc not favoured]]"
+          },
+          {
+            "name": "6th level (1 slot)",
+            "desc": "[[5e spells disintegrate10d6plus40 dmg w]], [[5e spells globe of invulnerability barrier vs spells w]]"
+          },
+          {
+            "name": "7th level (1 slot)",
+            "desc": "[[finger_of_death 7d8plus30 dmg zombie w]], [[plane_shift 8 friends also banish wc]]"
+          },
+          {
+            "name": "8th level (1 slot)",
+            "desc": "[[5e spells dominate monster mind control any cr w]], [[power word stun w not favoured]]"
+          },
+          {
+            "name": "9th level (1 slot)",
+            "desc": "[[power word kill 100hp w not favoured]]"
+          },
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "desc": "If the lich fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Rejuvenation",
+            "desc": "If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery."
+          },
+          {
+            "name": "Turn Resistance",
+            "desc": "The lich has advantage on saving throws against any effect that turns undead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Paralyzing Touch",
+            "desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Cantrip",
+            "desc": "The lich casts a cantrip."
+          },
+          {
+            "name": "Paralyzing Touch (Costs 2 Actions)",
+            "desc": "The lich uses its Paralyzing Touch."
+          },
+          {
+            "name": "Frightening Gaze (Costs 2 Actions)",
+            "desc": "The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours."
+          },
+          {
+            "name": "Disrupt Life (Costs 3 Actions)",
+            "desc": "Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one."
+          }
+        ],
+        "reactions": [],
+        "source": "Monster Manual",
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 89,
+            "col": 3,
+            "offset": 4196
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/lich lair actions.md",
+        "mtime": 1668333958000
+      }
+    ],
+    [
+      "Symbaroum Monster Tattooed Barbarian warrior",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Sovereign Oath Tattooed Fighter.jpeg"
+          ]
+        ],
+        "name": "Symbaroum Monster Tattooed Barbarian warrior",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 14,
+        "hp": 37,
+        "hit_dice": "(5d8 + 15)",
+        "speed": "40 ft.",
+        "stats": [
+          18,
+          12,
+          17,
+          10,
+          14,
+          12
+        ],
+        "saves": [
+          {
+            "Strength": 6
+          },
+          {
+            "Constitution": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 6
+          },
+          {
+            "Perception": 4
+          },
+          {
+            "Survival": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Ambrian, Barbarian",
+        "equipment": "a wooden or metal beaker, wooden figurine (the clan’s spirit guardian), stone for sharpening the axe, 1d10 shillings",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Corruptiion threshold",
+            "desc": "5"
+          },
+          {
+            "name": "Unarmored Defense",
+            "desc": "While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. If you are unarmored your base speed increases by 10 feet."
+          },
+          {
+            "name": "Rune Tattoos 1st Level",
+            "desc": "At 1st level, the rune tattoo protects from weather and wind like a full set of clothes. When attacked, you can spend your reaction and gain +4 to your AC until the start of your next turn and you gain 1 point of temporary Corruption. As long as you choose to continue to gain Corruption at the start of your turn, you can continue this effect for additional rounds."
+          },
+          {
+            "name": "Rune Tattos 3rd level",
+            "desc": "At 3rd level, the rune tattoo adds power to your attacks. Use your bonus action to empower your weapon and gain 1 point of temporary Corruption. Add 1d6 radiant damage to each attack until the beginning of your next turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The village warrior makes two attacks with its double-axe."
+          },
+          {
+            "name": "Double-axe",
+            "desc": "Melee Weapon Attack: +6 to hit, reach  5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Two-handed Force",
+            "desc": "If the village warrior misses an attack, it can use its reaction to reroll the attack."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 40,
+            "col": 3,
+            "offset": 1858
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/Symbaroum Monster Tattooed Barbarian Warrior.md",
+        "mtime": 1666871833000
       }
     ]
   ],

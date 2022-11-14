@@ -1,0 +1,14 @@
+`dice: [[5e DMG 03 Creating Adventures#^dngngoals]]`
+`dice: [[5e DMG 03 Creating Adventures#^wildernessgoals]]`
+`dice: [[5e DMG 03 Creating Adventures#^otherGoals]]`
+`dice: [[5e DMG 03 Creating Adventures#^advVillains]]`
+`dice: [[5e DMG 03 Creating Adventures#^Patrons]]`
+`dice: [[5e DMG 03 Creating Adventures#^advAllies]]`
+`dice: [[5e DMG 03 Creating Adventures#^AdvIntro]]`
+`dice: [[5e DMG 03 Creating Adventures#^climax]]`
+`dice: [[5e DMG 03 Creating Adventures#^event-basedVillainActions]]`
+`dice: [[5e DMG 03 Creating Adventures#^event-basedGoals]]`
+`dice: [[5e DMG 03 Creating Adventures#^framingEvents]]`
+`dice: [[5e DMG 03 Creating Adventures#^moralQuandaries]]`
+`dice: [[5e DMG 03 Creating Adventures#^twists]]`
+`dice: [[5e DMG 03 Creating Adventures#^SideQuests]]`

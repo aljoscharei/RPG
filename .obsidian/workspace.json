@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "7559fb61be90dfe7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5e DMG 05 Adventure Environments.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "709788d85dd0fbad",
             "type": "leaf",
             "state": {
@@ -56,19 +44,67 @@
             }
           },
           {
-            "id": "61898bdb9566f041",
+            "id": "8172304c54c27906",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203241242 WWN 239 Framework of Inhabitants.md",
-                "mode": "preview",
+                "file": "GM_FlohFelixAljoscha/202202101110 5e DnD DMG Dungeon Masters Guide.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "bfc9d0cef9be00b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202109080644 WWN Community Tags MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4882bcbe2f25419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203091119 Random Tables MOC.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5b3c6a535d148010",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202201121842 WWN Wilderness Tags MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4e864210cce859a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "202202130415 Monstrous Beast Wilderness Tag.md",
+                "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -136,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
+                "file": "202202130415 Monstrous Beast Wilderness Tag.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Random Dungeon DMG.md"
+                "file": "202202130415 Monstrous Beast Wilderness Tag.md"
               }
             }
           }
@@ -202,17 +238,17 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "1e702fc70164ed42",
+  "active": "b4e864210cce859a",
   "lastOpenFiles": [
-    "202203241302 WWN p 187 One Roll Dungeon Generation.md",
-    "GM_FlohFelixAljoscha/Solo RPG.md",
-    "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
-    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203241242 WWN 239 Framework of Inhabitants.md",
-    "GM_FlohFelixAljoscha/WWN Index of Random Tables.md",
-    "GM_FlohFelixAljoscha/202203241226 WWN p 242 Hex points of Interest.md",
-    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203191305 WWN p 238 Type of Ruin Site.md",
-    "5e DMG 05 Adventure Environments.md",
-    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203241255 WWN p145 One Roll Cult.md",
-    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Basilisk.md"
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202201121842 WWN Wilderness Tags MOC.md",
+    "202202130414 Military Outpost Wilderness Tag.md",
+    "202202130413 Migration Path Wilderness Tag.md",
+    "220202130412 Magical Springs Wilderness Tag.md",
+    "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202202130412 Lost City Wilderness Tag.md",
+    "202202130411 Lost Battlefield Wilderness Tag.md",
+    "202202130410 Labyrinthine Tangle Wilderness Tag.md",
+    "202202130409 Isolated Academy Wilderness Tag.md",
+    "202202130408 Historical Survival Wilderness Tag.md",
+    "202202130407 Hermitage Wilderness Tag.md"
   ]
 }

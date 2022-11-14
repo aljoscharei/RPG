@@ -1,2 +1,0 @@
-- Bandits rule village Dungeon
-- Basic Plot of [[202012242341 The Evils of Illmire v2]]

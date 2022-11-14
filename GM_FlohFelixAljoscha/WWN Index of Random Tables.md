@@ -45,10 +45,11 @@
 		- rationale for village existence 149
 		- features of village 149
 		- ivolvement with adventurers 149
-	- Major cities
+	- Major cities 
 		- rationale of cities existence 150
 		- Features of city 150
 		- Citiy involvement witih adventurers 150
+		- City Ruins form Hot Springs island [[201909200156 The Dark of Hot Springs Island]]
 	- [[WWN Tribes and exiles]]
 		- why are they staying here 151
 		- Features of the tribe
