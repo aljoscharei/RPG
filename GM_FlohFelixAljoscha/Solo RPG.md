@@ -84,3 +84,6 @@ Goblin Tribe: Silver Fins, fever Swamp, Community Tags WWN
 Treffe auf Stadt. Stadt ist pointcrawl. 10 sites. Roller aus Hot springs island. Urbancrawl, WWN city + dungeon layers what happened then why ruineds etc. 
 
 
+![[202211151259 Solo Oracle]]
+
+![[202203091119 Random Tables MOC#The big Tables:]]

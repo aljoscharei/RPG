@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
+                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203091119 Random Tables MOC.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 2
   },
   "right": {
     "id": "69c76caf8a706b29",
@@ -74,7 +74,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
+            "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203091119 Random Tables MOC.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,24 +107,27 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "GM_FlohFelixAljoscha/Random Dungeon DMG.md"
+            "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203091119 Random Tables MOC.md"
           }
         }
       }
     ],
     "currentTab": 0
   },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
   "active": "9e01da818d7e99a2",
   "lastOpenFiles": [
+    "GM_FlohFelixAljoscha/Random Quest Hook.md",
+    "GM_FlohFelixAljoscha/Solo RPG.md",
+    "GM_FlohFelixAljoscha/Hexcrawl.md",
+    "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
     "5e DMG 05 Adventure Environments.md",
     "202203241302 WWN p 187 One Roll Dungeon Generation.md",
     "GM_FlohFelixAljoscha/Equipment hidden/Moderate Poison Candle DC 17 1 round plus 1 d6 poison damage plus 3 60 Th d6.md",
-    "GM_FlohFelixAljoscha/Solo RPG.md",
     "Players_FlohFelixAljoscha/spell_List/greater_restoration c.md",
     "Players_FlohFelixAljoscha/character/Ruins of Symbaroum Theurg Spells.md",
-    "Players_FlohFelixAljoscha/Spell Indices.md",
-    "Players_FlohFelixAljoscha/Ruins Player Index.md",
-    "Players_FlohFelixAljoscha/spell_List/meteor_swarm 40d6 w.md",
-    "GM_FlohFelixAljoscha/Ruins Wizard Spells Level 9.md"
+    "Players_FlohFelixAljoscha/Spell Indices.md"
   ]
 }

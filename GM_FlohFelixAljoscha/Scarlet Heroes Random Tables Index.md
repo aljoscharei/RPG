@@ -1,6 +1,21 @@
 ## Roller
 `dice: [[Scarlet Heroes Random Tables Index#^distancenear]]`
 `dice: [[Scarlet Heroes Random Tables Index#^distancefar]]`
+`dice: [[Scarlet Heroes Random Tables Index#^9a6a8a]]`
+#### Almost Impossible
+`dice: [[Scarlet Heroes Random Tables Index#^9a6a8a]]`
+#### Very unlikely
+`dice: [[Scarlet Heroes Random Tables Index#^f8ccaa]]`
+#### Unlikely
+`dice: [[Scarlet Heroes Random Tables Index#^9f41d6]]`
+#### Unknown
+`dice: [[Scarlet Heroes Random Tables Index#^134db1]]`
+#### Likely
+`dice: [[Scarlet Heroes Random Tables Index#^35a91e]]`
+#### Very Likely
+`dice: [[Scarlet Heroes Random Tables Index#^4cadea]]]`
+#### Almost Certain
+`dice: [[Scarlet Heroes Random Tables Index#^fb1254]]`
 ## Data
 - General Oracles p 115 [[#Oracles]]
 	- Yes or no
@@ -34,47 +49,76 @@
 - Dungeon inhabitant details
 
 ### Oracles
-#### Almost Impossible
-1-17 No
-18 No, but `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-19 Yes, but `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-20 Yes
 
-#### Very unlikely
-1-14 No
-15-16 No, But  `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-17-18 Yes, But  `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-19-20 Yes
 
-#### Unlikely
-1-10 No
-11-14 No but  `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-15-17 Yes but `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-18-20 Yes
+| dice: 1d20 | Heading                                                      |
+| ---------- | ------------------------------------------------------------ |
+| 1-17       | No                                                           |
+| 18         | No, but `dice: [[Scarlet Heroes Random Tables Index#^but]]`  |
+| 19         | Yes, but `dice: [[Scarlet Heroes Random Tables Index#^but]]` |
+| 20         | Yes                                                          |
 
-#### Unknown
-1-5 No
-6-10 No But `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-11-15 Yes But `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-16-20 Yes
+^9a6a8a
 
-#### Likely
-1-3 No
-4-6 No But `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-7-10 Yes But `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-11-20 Yes
 
-#### Very Likely
-1-2 No
-3-4 No but `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-5-6 yes but `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-7-20 yes
+| dice: 1d20 | Heading                                                       |
+| ---------- | ------------------------------------------------------------- |
+| 1-14       | No                                                            |
+| 15-16      | No, But  `dice: [[Scarlet Heroes Random Tables Index#^but]]`  |
+| 17-18      | Yes, But  `dice: [[Scarlet Heroes Random Tables Index#^but]]` |
+| 19-20      | Yes                                                           |
 
-#### Almost Certain
-1 No
-2 No but `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-3 yes but `dice: [[Scarlet Heroes Random Tables Index#^but]]`
-4-20 yes
+^f8ccaa
+
+
+| dice: 1d20 | Heading                                                     |
+| ---------- | ----------------------------------------------------------- |
+| 1-10       | No                                                          |
+| 11-14      | No but  `dice: [[Scarlet Heroes Random Tables Index#^but]]` |
+| 15-17      | Yes but `dice: [[Scarlet Heroes Random Tables Index#^but]]` |
+| 18-20      | Yes                                                         |
+
+^9f41d6
+
+
+| dice: 1d20 | Heading                                                     |
+| ---------- | ----------------------------------------------------------- |
+| 1-5        | No                                                          |
+| 6-10       | No But `dice: [[Scarlet Heroes Random Tables Index#^but]]`  |
+| 11-15      | Yes But `dice: [[Scarlet Heroes Random Tables Index#^but]]` |
+| 16-20      | Yes                                                         |
+
+^134db1
+
+
+| dice: 1d20 | Heading                                                     |
+| ---------- | ----------------------------------------------------------- |
+| 1-3        | No                                                          |
+| 4-6        | No But `dice: [[Scarlet Heroes Random Tables Index#^but]]`  |
+| 7-10       | Yes But `dice: [[Scarlet Heroes Random Tables Index#^but]]` |
+| 11-20      | Yes                                                         |
+
+^35a91e
+
+
+| dice: 1d20 | Heading                                                     |
+| ---------- | ----------------------------------------------------------- |
+| 1-2        | No                                                          |
+| 3-4        | No but `dice: [[Scarlet Heroes Random Tables Index#^but]]`  |
+| 5-6        | yes but `dice: [[Scarlet Heroes Random Tables Index#^but]]` |
+| 7-20       | yes                                                         |
+
+^4cadea
+
+
+| dice: 1d20 | Heading                                                     |
+| ---------- | ----------------------------------------------------------- |
+| 1          | No                                                          |
+| 2          | No but `dice: [[Scarlet Heroes Random Tables Index#^but]]`  |
+| 3          | yes but `dice: [[Scarlet Heroes Random Tables Index#^but]]` |
+| 4-20       | yes                                                         |
+
+^fb1254
 
 #### The But ist related To
 
@@ -106,3 +150,6 @@ Within a week’s ride
 Within a month’s journey
 Far, far away
 ^distancefar
+
+---
+[[202203091119 Random Tables MOC]]

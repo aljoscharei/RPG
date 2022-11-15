@@ -7,11 +7,9 @@
 5. Go through [[Ruins GM Index]] und DMG
 6. make a charakter sheet control panel style. iframes? google sheets, excalidraw?
 7. go through magic items [[Symbaroum Treasure MOC]], 
-8. [[Symbaroum Monsters MOC]]   [[5e monsters by name]]: yaml frontmatter mit statblock
 9. [[GM_FlohFelixAljoscha/Medieval items]] durchgehen
 10. encounter üben mit [[fantastic lairs Sly Flourish]]
 11. Random tables [[202203091119 Random Tables MOC]]
-12. Solo GM Forbidden lands or Alexandrian hexcrawl
 # Workbench
 [[202210221101 Workbench]]
 [[javascript bestiary trial]]

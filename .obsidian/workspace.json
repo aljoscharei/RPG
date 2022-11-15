@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "202211151259 Solo Oracle.md",
-                "mode": "preview",
+                "file": "GM_FlohFelixAljoscha/RPG Master Index.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -25,13 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Scarlet Heroes Random Tables Index.md",
+                "file": "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203091119 Random Tables MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e34c60c7f8e3833",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "202211152106 WWN Court Tags MOC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8a5bbd5267c7cd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/WWN Index of Random Tables.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202211151259 Solo Oracle.md",
+                "file": "GM_FlohFelixAljoscha/WWN Index of Random Tables.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "202211151259 Solo Oracle.md"
+                "file": "GM_FlohFelixAljoscha/WWN Index of Random Tables.md"
               }
             }
           }
@@ -163,20 +188,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
-  "active": "a89c294fa6fc74c2",
+  "active": "c8a5bbd5267c7cd4",
   "lastOpenFiles": [
-    "GM_FlohFelixAljoscha/Scarlet Heroes Random Tables Index.md",
-    "202211151259 Solo Oracle.md",
-    "GM_FlohFelixAljoscha/Forbidden Lands Legend Generator.md",
-    "Forbidden Lands MOC.md",
+    "202211152106 WWN Court Tags MOC.md",
     "GM_FlohFelixAljoscha/export_Symbaroum Campaign Buckets/202203091119 Random Tables MOC.md",
-    "GM_FlohFelixAljoscha/Solo RPG.md",
-    "GM_FlohFelixAljoscha/202201101101 NPC MOC.md",
-    "GM_FlohFelixAljoscha/NPC Motivation.md",
-    "GM_FlohFelixAljoscha/NPC Hook.md",
-    "GM_FlohFelixAljoscha/NPC Appearance Description.md"
+    "GM_FlohFelixAljoscha/RPG Master Index.md",
+    "Cultural Insignia Court Tag.md",
+    "Capricious Orders Court Tag.md",
+    "Cadet Branches Court Tag.md",
+    "Blandished Leadership Court Tag.md",
+    "Awkward Birth Court Tag.md",
+    "Awesome Legitimacy Court Tag.md",
+    "Ancestral Obligation Court Tag.md"
   ]
 }

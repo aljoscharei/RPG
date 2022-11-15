@@ -55,7 +55,7 @@
 		- Features of the tribe
 		- Trival ivolvement with adventurers 151
 	- Table of community Tags [[202109080644 WWN Community Tags MOC]]
-- Courts
+- Courts [[202211152106 WWN Court Tags MOC]]
 	- Aristocratic Courts
 		- Main Theme of Aristocratic Court 167
 		- People of the Aristocratic Courts 167

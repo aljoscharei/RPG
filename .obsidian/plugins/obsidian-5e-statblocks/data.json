@@ -194,591 +194,6 @@
       }
     ],
     [
-      "Symbaroum Monster Arch Troll",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Arch Troll",
-        "size": "huge",
-        "type": "Troll",
-        "alignment": null,
-        "ac": 14,
-        "hp": 229,
-        "hit_dice": "(17d12 + 119, tough)",
-        "speed": "30 ft.",
-        "stats": [
-          25,
-          15,
-          23,
-          14,
-          12,
-          15
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 13
-          },
-          {
-            "Intimidation": 8
-          },
-          {
-            "Perception": "7 Senses darkvision 60 ft"
-          },
-          "passive Perception 17"
-        ],
-        "senses": "darkvision 60 ft., passive Perception 17",
-        "languages": "Troll languages",
-        "equipment": "crude alchemical equipment, weak poison, weak antidote, jewelry and trinkets (1d10 thaler)",
-        "cr": 17,
-        "traits": [
-          {
-            "name": "Legendary Resistance (2/day)",
-            "desc": "If the troll fails a saving throw, it can choose to succeed instead."
-          },
-          {
-            "name": "Enthrall",
-            "desc": "When a creature first tries to act against the troll they must make a DC 16 Wisdom saving throw. On a failure the creature becomes charmed by the troll until the end of its turn. A creature that succeeds at the saving throw becomes immune to the effect for 24 hours."
-          },
-          {
-            "name": "Rage (6/day)",
-            "desc": "As a bonus action, the troll can enter a rage that lasts for 1 minute. While in the rage, the troll has advantage on Strength checks and saving throws. When it makes a me- lee weapon attack it adds +6 to its damage. The creature has resistance to bludgeoning, piercing and slashing damage while in the rage. The rage ends early if the creature ends its turn without having attacked a hostile creature since its last turn or taken damage since then. It can also use a bonus action to end the rage."
-          },
-          {
-            "name": "Regeneration",
-            "desc": "The arch troll recovers 12 hit points at the start of its turn, unless it has taken acid or fire damage since its last turn."
-          },
-          {
-            "name": "Tough",
-            "desc": "The arch troll has 1 extra hit point for each Hit Die it has."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The troll makes two claw attacks. Each grappled creature (see below) prevents the troll from making a claw attack."
-          },
-          {
-            "name": "Claw",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (1d12 + 7) slashing damage."
-          },
-          {
-            "name": "Grab and Squeeze",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: if the target is a Medium or smaller creature, it is grappled (escape DC 23). The troll can have a maximum of two creatures grappled. On subsequent rounds, it can use its action to do 20 (2d12 + 7) bludgeoning damage to a target."
-          },
-          {
-            "name": "Bite",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 20 (2d12 + 7) piercing damage."
-          },
-          {
-            "name": "Kick",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) bludgeoning damage."
-          }
-        ],
-        "Legendary Actions": [
-          {
-            "name": "The arch troll can take 2 legendary actions, choosing from the options below",
-            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The arch troll regains spent legendary actions at the start of its turn."
-          },
-          {
-            "name": "Biting",
-            "desc": "The arch troll makes a bite attack."
-          },
-          {
-            "name": "Stomping",
-            "desc": "The arch troll makes a kick attack."
-          },
-          {
-            "name": "Squeezing (Costs 2 Actions)",
-            "desc": "The arch troll squeezes all opponents it has grappled."
-          }
-        ],
-        "legendary_actions": [
-          {
-            "name": "The arch troll can take 2 legendary actions, choosing from the options below",
-            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The arch troll regains spent legendary actions at the start of its turn."
-          },
-          {
-            "name": "Biting",
-            "desc": "The arch troll makes a bite attack."
-          },
-          {
-            "name": "Stomping",
-            "desc": "The arch troll makes a kick attack."
-          },
-          {
-            "name": "Squeezing (Costs 2 Actions)",
-            "desc": "The arch troll squeezes all opponents it has grappled."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 61,
-            "col": 3,
-            "offset": 3633
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Arch Troll.md",
-        "mtime": 1668195332000
-      }
-    ],
-    [
-      "Symbaroum Monster Barbarian Village guard",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Village Guard.jpeg"
-          ]
-        ],
-        "name": "Symbaroum Monster Barbarian Village guard",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 13,
-        "hp": 22,
-        "hit_dice": "(4d8 + 4)",
-        "speed": "30 ft.",
-        "stats": [
-          15,
-          12,
-          13,
-          10,
-          14,
-          10
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 4
-          },
-          {
-            "Perception": 4
-          },
-          {
-            "Survival": 4
-          }
-        ],
-        "senses": "passive Perception 14",
-        "languages": "Ambrian, Barbarian",
-        "equipment": "hunting traps and fishing gear, wooden figurine (the clan’s spirit guardian), 3 throwing spears, 1d10 ortegs",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Hunter’s Instinct",
-            "desc": "The village guard can use its bonus action to mark one creature as its chosen target. Thea first time it does damage to the target, it does +2 bonus damage. It can use its reaction when the target moves to make a ranged weapon attack."
-          },
-          {
-            "name": "Trapper",
-            "desc": "The village guard can use its action to deploy a mechanical trap within 5 feet of its position. A creature that enters the area must make a DC 10 Dexterity saving throw or take 6 (1d12) bludgeoning damage. The village guard is never affected by the trap, but treats the area around the trap as difficult terrain."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Axe",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
-          },
-          {
-            "name": "Spear",
-            "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60, one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 30,
-            "col": 3,
-            "offset": 1440
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard.md",
-        "mtime": 1668195332000
-      }
-    ],
-    [
-      "Symbaroum Monster Drug Peddler",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Drug Peddler",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 13,
-        "hp": 13,
-        "hit_dice": "(3d8)",
-        "speed": "30 ft",
-        "stats": [
-          10,
-          16,
-          10,
-          17,
-          11,
-          12
-        ],
-        "skillsaves": [
-          {
-            "Alchemist’s supplies": 5
-          },
-          {
-            "Deception": 3
-          }
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Ambrian",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "equipment",
-            "desc": "[[Item Concentrated Magic DC 15 10 Th d4]], [[Item Drone Dew DC 10  20 Th d8]], [[Item Herbal Cure DC 10 10 Th d8]], [[Spore Bombs]], [[Item Waybread DC 10 5 Th 2d6]], [[Weak Poison DC 10 1 round plus 1 d6 poison damage plus 3 10 Th d6]]"
-          },
-          {
-            "name": "Distract (1/day)",
-            "desc": "the drug peddler can use its bonus action to cause a distraction, gaining advantage on its stiletto attack this turn."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Stiletto",
-            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, plus 3 (1d6) poison damage. Deep impact: on a critical hit, this weapon does a total of 9 (2d4 + 4) piercing damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 26,
-            "col": 3,
-            "offset": 994
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drug Peddler.md",
-        "mtime": 1668195332000
-      }
-    ],
-    [
-      "Symbaroum Monster Drunkard",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Drunkard",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 10,
-        "hp": 11,
-        "hit_dice": "(2d8 + 2)",
-        "speed": "30 ft.",
-        "stats": [
-          14,
-          10,
-          12,
-          10,
-          11,
-          11
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Ambrian",
-        "equipment": "1d8 ortegs",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Cheap Shots",
-            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Unarmed Strikes",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Wild Swing",
-            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 25,
-            "col": 3,
-            "offset": 663
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
-        "mtime": 1668195332000
-      }
-    ],
-    [
-      "Symbaroum Monster Lostling Possession",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Frostlight.png"
-          ]
-        ],
-        "name": "Symbaroum Monster Lostling Possession",
-        "size": "Small",
-        "type": "undead",
-        "alignment": null,
-        "ac": 18,
-        "hp": 33,
-        "hit_dice": "(6d6 + 12)",
-        "speed": "25 ft.",
-        "stats": [
-          10,
-          18,
-          14,
-          10,
-          15,
-          7
-        ],
-        "senses": "darkvision 60 ft., passive Perception 12",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 2,
-        "traits": [
-          {
-            "name": "Haunting",
-            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
-          },
-          {
-            "name": "Insubstantial",
-            "desc": "The lostling can pass through objects and creatures without issue."
-          },
-          {
-            "name": "Pack Tactics",
-            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Vitality Drain",
-            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 26,
-            "col": 3,
-            "offset": 1148
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession.md",
-        "mtime": 1668194392000
-      }
-    ],
-    [
-      "Symbaroum Monster Novice of the Order",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Novice of the Order",
-        "alignment": "",
-        "ac": 11,
-        "hp": 13,
-        "hit_dice": "(2d8 + 4)",
-        "speed": "30 ft.",
-        "stats": [
-          14,
-          10,
-          15,
-          16,
-          11,
-          11
-        ],
-        "saves": [
-          {
-            "Int": 5
-          },
-          {
-            "Wis": 2
-          }
-        ],
-        "skillsaves": [
-          {
-            "Arcana": 5
-          },
-          {
-            "Nature": 5
-          },
-          {
-            "Perception": 2
-          }
-        ],
-        "senses": "passive Perception 12",
-        "languages": "Ambrian",
-        "equipment": "order medallion, 1d4 shillings",
-        "cr": 2,
-        "traits": [
-          {
-            "name": "Corrpution Threshold",
-            "desc": "4"
-          },
-          {
-            "name": "Spellcasting",
-            "desc": "the adept’s spellcasting ability is Intelligence (spell attack +5, save DC 13) and it knows the following spells:"
-          },
-          {
-            "name": "Cantrips",
-            "desc": "[[5e spells fire_bolt 1d10 dmg w]] (0), [[5e spells light wc]] (0), [[5e spells message 120 ft w]] (1), [[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (1), [[5e spells ray of frost 1d8 dmg slowed down w]]] (1)"
-          },
-          {
-            "name": "1st-level spells",
-            "desc": "[[5e spells detect magic wc]] (1d4 + 1),[[5e spells magic missile 3 x 1d4 plus 1 w]](1d4 + 1), [[shield w]]] (1d4 + 1), [[5e spells sleep w]] (1)"
-          },
-          {
-            "name": "Rituals",
-            "desc": " [[5e spells alarm w 5e]]"
-          }
-        ],
-        "actions": [
-          {
-            "name": "Quarterstaff",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage"
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 35,
-            "col": 3,
-            "offset": 1230
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order.md",
-        "mtime": 1668194357000
-      }
-    ],
-    [
-      "Symbaroum Monster Village Barbarian warrior",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Barbarian Warrior.jpeg"
-          ]
-        ],
-        "name": "Symbaroum Monster Village Barbarian warrior",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 17,
-        "hp": 37,
-        "hit_dice": "(5d8 + 15)",
-        "speed": "30 ft.",
-        "stats": [
-          18,
-          12,
-          17,
-          10,
-          14,
-          12
-        ],
-        "saves": [
-          {
-            "Strength": 6
-          },
-          {
-            "Constitution": 5
-          }
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 6
-          },
-          {
-            "Perception": 4
-          },
-          {
-            "Survival": 4
-          }
-        ],
-        "senses": "passive Perception 14",
-        "languages": "Ambrian, Barbarian",
-        "equipment": "a wooden or metal beaker, wooden figurine (the clan’s spirit guardian), stone for sharpening the axe, 1d10 shillings",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Man-at-Arms",
-            "desc": "The village warrior’s armor class is improved by +1. It can don or doff armor in half the regular required time."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The village warrior makes two attacks with its double-axe."
-          },
-          {
-            "name": "Double-axe",
-            "desc": "Melee Weapon Attack: +6 to hit, reach  5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Two-handed Force",
-            "desc": "If the village warrior misses an attack, it can use its reaction to reroll the attack."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 34,
-            "col": 3,
-            "offset": 1049
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior.md",
-        "mtime": 1668194386000
-      }
-    ],
-    [
       "Symbaroum Monster Witch - Keeper",
       {
         "statblock": true,
@@ -888,134 +303,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Witch - Keeper.md",
         "mtime": 1668189529000
-      }
-    ],
-    [
-      "Symbaroum Monster frostlight",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster frostlight",
-        "type": "undead",
-        "alignment": null,
-        "ac": 20,
-        "hp": 45,
-        "hit_dice": "(10d4 + 20)",
-        "speed": "0 ft., fly 60 ft. (hover)",
-        "stats": [
-          10,
-          20,
-          14,
-          10,
-          15,
-          10
-        ],
-        "senses": "darkvision 120 ft., passive Perception 12",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 3,
-        "traits": [
-          {
-            "name": "Insubstantial",
-            "desc": "The frostlight can pass through objects and creatures without issue. It cannot wear or carry anything."
-          },
-          {
-            "name": "Nimble",
-            "desc": "The frostlight’s armor class is equal to 10 plus twice its Dexterity modifier."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Shock",
-            "desc": "Ranged Spell Attack: +7 to hit, range  25 ft./100 ft., one target. Hit: 14 (4d6) lightning damage."
-          }
-        ],
-        "bonus_actions": [
-          {
-            "name": "Drain",
-            "desc": "As a bonus action the frostlight can drain the life from a creature it shares a space with. The creature takes 5 (1d10) necrotic damage and 1 (oder besser d4) temporary Corruption."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 26,
-            "col": 3,
-            "offset": 907
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho.md",
-        "mtime": 1668193986000
-      }
-    ],
-    [
-      "Symbaroum Monster Artisan",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Artisan",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 13,
-        "hp": 16,
-        "hit_dice": "(3d8 + 3)",
-        "speed": "30 ft.",
-        "stats": [
-          18,
-          12,
-          12,
-          10,
-          10,
-          8
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 6
-          }
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Ambrian",
-        "equipment": "field smithy, 1d10 shillings",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Crushing Hammer",
-            "desc": "On a critical hit, the artisan can choose to destroy the opponent’s shield (if it has one) instead of doing extra damage. Magical shields are not destroyed but are damaged and cannot be used until repaired outside of combat."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Long Hammer",
-            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage or 9 (1d10 + 4) bludgeoning damage if wielded with two hands."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 24,
-            "col": 3,
-            "offset": 789
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan 2.md",
-        "mtime": 1668195332000
       }
     ],
     [
@@ -36555,104 +35842,6 @@
       }
     ],
     [
-      "Symbaroum Monster Illgobilin",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Illgobilin",
-        "size": "Small",
-        "type": "humanoid",
-        "alignment": null,
-        "ac": 13,
-        "hp": 45,
-        "hit_dice": "(7d6 + 21)",
-        "speed": "25 ft.",
-        "stats": [
-          10,
-          14,
-          17,
-          12,
-          15,
-          19
-        ],
-        "skillsaves": [
-          {
-            "Deception": 6
-          },
-          {
-            "Insight": 4
-          },
-          {
-            "Perception": 6
-          },
-          {
-            "Stealth": 4
-          },
-          {
-            "Survival": 6
-          }
-        ],
-        "senses": "darkvision 60 ft., passive Perception 16",
-        "languages": "Ambrian, Goblin",
-        "equipment": "component pouch",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Bestial",
-            "desc": "The illgoblin has disadvantage on Deception, Performance and Persuasion checks. It has advantage on Intimidation checks."
-          },
-          {
-            "name": "Gravely Cold",
-            "desc": "The illgoblin can activate this feature with a bonus action. For 1 minute, each creature that starts its turn within 120 feet of the illgoblin must pass a DC 13 Constitution saving throw or take 6 (1d6 + 3) cold damage and lose 10 feet of its movement speed until the end of its turn."
-          },
-          {
-            "name": "Innate Spellcasting",
-            "desc": "The illgoblin’s innate spellcasting ability is Charisma (+6 to hit, spell save DC 14). It can innately cast the following spells, requiring no material components."
-          },
-          {
-            "name": "At will",
-            "desc": "chill touch, [[Symbaroum Spells Spirit walk]]"
-          },
-          {
-            "name": "3/day each",
-            "desc": "[[5e spells Symbaroum Spells Black Breath]], [[darkness negative light  w]], [[sending telegram wc]]"
-          },
-          {
-            "name": "1/day",
-            "desc": "[[5e Spells magic circle keep out or in wc Kreidekreis]]"
-          },
-          {
-            "name": "Pact",
-            "desc": "see [[Illgoblin Pact Making Powers]]"
-          }
-        ],
-        "actions": [
-          {
-            "name": "Bone Dagger",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 40,
-            "col": 3,
-            "offset": 1591
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Illgoblin.md",
-        "mtime": 1668195332000
-      }
-    ],
-    [
       "Symbaroum Monster Monster Hunter",
       {
         "statblock": true,
@@ -42165,124 +41354,6 @@
           }
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Adult Blue Dracolich.md",
-        "mtime": 1667969751000
-      }
-    ],
-    [
-      "Adult Black Dragon",
-      {
-        "statblock": true,
-        "name": "Adult Black Dragon",
-        "type": "dragon",
-        "size": "Huge",
-        "alignment": "chaotic or evil",
-        "hp": 195,
-        "hit_dice": "17d12 + 85",
-        "ac": 19,
-        "speed": "40 ft., fly 80 ft., swim 40 ft.",
-        "stats": [
-          23,
-          14,
-          21,
-          14,
-          13,
-          17
-        ],
-        "damage_immunities": "acid",
-        "damage_resistances": null,
-        "damage_vulnerabilities": null,
-        "condition_immunities": null,
-        "saves": [
-          {
-            "dexterity": 7
-          },
-          {
-            "constitution": 10
-          },
-          {
-            "wisdom": 6
-          },
-          {
-            "charisma": 8
-          }
-        ],
-        "skillsaves": [
-          {
-            "perception": 11
-          },
-          {
-            "stealth": 7
-          }
-        ],
-        "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
-        "languages": "Common, Draconic",
-        "cr": 14,
-        "traits": [
-          {
-            "name": "Amphibious",
-            "desc": "The dragon can breathe air and water."
-          },
-          {
-            "name": "Legendary Resistance (3/Day)",
-            "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
-          },
-          {
-            "name": "Bite",
-            "desc": "Melee Weapon Attack +11 to hit, reach 10 ft., one target. 17 (2d10 + 6) piercing damage plus 4 (1d8) acid damage."
-          },
-          {
-            "name": "Claw",
-            "desc": "Melee Weapon Attack +11 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage."
-          },
-          {
-            "name": "Tail",
-            "desc": "Melee Weapon Attack +11 to hit, reach 15 ft., one target. 15 (2d8 + 6) bludgeoning damage."
-          },
-          {
-            "name": "Frightful Presence",
-            "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
-          },
-          {
-            "name": "Acid Breath (Recharge 5-6)",
-            "desc": "The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one."
-          }
-        ],
-        "bonus_actions": null,
-        "reactions": null,
-        "legendary_actions": [
-          {
-            "name": "Detect",
-            "desc": "The dragon makes a Wisdom (Perception) check."
-          },
-          {
-            "name": "Tail Attack",
-            "desc": "The dragon makes a tail attack."
-          },
-          {
-            "name": "Wing Attack (Costs 2 Actions)",
-            "desc": "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-          }
-        ],
-        "spells": null,
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 61,
-            "col": 3,
-            "offset": 2514
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Adult Black Dragon.md",
         "mtime": 1667969751000
       }
     ],
@@ -58542,67 +57613,6 @@
       }
     ],
     [
-      "Symbaroum Monster Glint",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Glint",
-        "size": "tiny",
-        "type": "Beast",
-        "alignment": null,
-        "ac": 20,
-        "hp": 14,
-        "hit_dice": "(4d4 + 4)",
-        "speed": "15 ft., fly 30 ft.",
-        "stats": [
-          3,
-          21,
-          13,
-          3,
-          10,
-          6
-        ],
-        "senses": "passive Perception 10",
-        "languages": "—",
-        "equipment": "—",
-        "cr": "1/2",
-        "traits": [
-          {
-            "name": "Nimble",
-            "desc": "The glint’s armor class is equal to 10 plus twice its Dexterity modifier."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Bite",
-            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
-          },
-          {
-            "name": "Infest",
-            "desc": "The glint tries to fly into the creature’s mouth and lodge itself in its throat. The creature must make a DC 15 Dexterity saving throw, becoming infested on a failure. An infested creature loses control over its actions at the end of its next turn and gains the benefits of Swift (+10 ft. to each movement type) and Sturdy (+2 Hit Dice) after a long or extended rest. see [[Glint-Carrier Template]]"
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 24,
-            "col": 3,
-            "offset": 921
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Glint Goldkäfer.md",
-        "mtime": 1668195332000
-      }
-    ],
-    [
       "Symbaroum Monster Horse, battle-trained",
       {
         "statblock": true,
@@ -67296,115 +66306,6 @@
       }
     ],
     [
-      "Symbaroum Monster World Serpent Wallower",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster World Serpent Wallower",
-        "size": "Gargantuan",
-        "type": "beast",
-        "alignment": null,
-        "ac": 17,
-        "hp": 410,
-        "hit_dice": "(20d20 + 200)",
-        "stats": [
-          28,
-          10,
-          30,
-          9,
-          14,
-          6
-        ],
-        "skillsaves": [
-          {
-            "Perception": 10
-          },
-          {
-            "Survival": 10
-          }
-        ],
-        "damage_immunities": "acid, poison, psychic; bludgeoning from nonmagical weapons",
-        "senses": "tremorsense 120 ft., passive Perception 20",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 26,
-        "traits": [
-          {
-            "name": "Legendary Resistance (3/day)",
-            "desc": "If the world serpent fails a saving throw, it can choose to succeed instead."
-          },
-          {
-            "name": "Life Sense",
-            "desc": "The world serpent has advantage on Wisdom (Perception) checks to detect living creatures."
-          },
-          {
-            "name": "Siege Monster",
-            "desc": "The world serpent deals double damage to objects and structures."
-          },
-          {
-            "name": "Tunneler",
-            "desc": "If the world serpent leaves a creature’s reach by burrowing it does not provoke an opportunity attack."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Bite",
-            "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 34 (10d4 + 9) bludgeoning damage and if the target is a Huge or smaller creature it is swallowed. If the target is swallowed, it is [[202202102106 5e Conditions Blinded]] and [[202202102010 5e Conditions Restrained]]; and it has total cover against attacks and other effects outside the world serpent. At the start of each of its turns, it takes 13 (2d12) acid damage."
-          },
-          {
-            "name": "The world serpent can swallow any number of creatures",
-            "desc": "If the world serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 30 feet of movement, exiting prone."
-          },
-          {
-            "name": "Tail Swipe",
-            "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 41 (5d12 + 9) bludgeoning damage."
-          }
-        ],
-        "legendary_actions": [
-          {
-            "name": "The world serpent can take 2 legendary actions, choos- ing from the options below",
-            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The world serpent regains spent leg- endary actions at the start of its turn."
-          },
-          {
-            "name": "Bite",
-            "desc": "The world serpent makes a bite attack."
-          },
-          {
-            "name": "Tail",
-            "desc": "The world serpent makes a tail attack."
-          },
-          {
-            "name": "Earthquake (Costs 2 Actions)",
-            "desc": "The world serpent shivers its body, sending waves through the earthfor 80 feet. Each creature must make a DC 25 Strength saving throw, taking 10 (1d20) bludgeoning damage and becoming [[5e Conditions Prone]] on a failure. On a success, the creature takes half damage. Each structure in the area takes double damage automatically."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Roll Over",
-            "desc": "When a Large or smallercreature comes within 5 feet, the world serpent can rotate its body to crush the creature between itself and the ground. The creature takes 20 (1d20 + 10) bludgeoning damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 47,
-            "col": 3,
-            "offset": 2789
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Wallower CR 26.md",
-        "mtime": 1668193986000
-      }
-    ],
-    [
       "Symbaroum Monster Bestiaal - Glint Carrier",
       {
         "statblock": true,
@@ -67658,104 +66559,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Mummy Lord.md",
         "mtime": 1667969751000
-      }
-    ],
-    [
-      "Symbaroum Monster World Serpent Tunneler",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster World Serpent Tunneler",
-        "size": "Huge",
-        "type": "beast",
-        "alignment": null,
-        "ac": 13,
-        "hp": 310,
-        "hit_dice": "(20d12 + 180)",
-        "speed": "40 ft., burrow 60 ft.",
-        "stats": [
-          25,
-          10,
-          28,
-          3,
-          12,
-          6
-        ],
-        "damage_immunities": "acid, poison, psychic; bludgeoning from nonmagical weapons",
-        "senses": "tremorsense 120 ft., passive Perception 11",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 17,
-        "traits": [
-          {
-            "name": "Legendary Resistance (2/day)",
-            "desc": "If the world serpent fails a saving throw, it can choose to succeed instead."
-          },
-          {
-            "name": "Life Sense",
-            "desc": "The world serpent has advantage on Wis- dom (Perception) checks to detect living creatures."
-          },
-          {
-            "name": "Siege Monster",
-            "desc": "The world serpent deals double damage to objects and structures."
-          },
-          {
-            "name": "Tunneler",
-            "desc": "If the world serpent leaves a creature’s reach by burrowing it does not provoke an opportunity attack."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Bite",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 22 (6d4 + 7) bludgeoning damage and if the target is a Large or smaller creature it is swal- lowed. If the target is swallowed, it is blinded and restrained; and it has total cover against attacks and other effects outside the world serpent. At the start of each of its turns, it takes 11 (2d10) acid damage. The world serpent can swallow any number of creatures. If the world serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 30 feet of movement, exiting prone."
-          },
-          {
-            "name": "Tail Swipe",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 33 (4d12 + 7) bludgeoning damage."
-          }
-        ],
-        "legendary_actions": [
-          {
-            "name": "The world serpent can take 2 legendary actions, choos- ing from the options below",
-            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The world serpent regains spent leg- endary actions at the start of its turn."
-          },
-          {
-            "name": "Bite",
-            "desc": "The world serpent makes a bite attack."
-          },
-          {
-            "name": "Tail",
-            "desc": "The world serpent makes a tail attack."
-          },
-          {
-            "name": "Earthquake (Costs 2 Actions)",
-            "desc": "The world serpent shivers its body, sending waves through the earth for 60 feet. Each creature must make a DC 21 Strength saving throw, taking 6 (1d12) bludgeoning damage and becoming prone on a failure. On a success, the creature takes half damage. Each structure in the area takes double damage automatically."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Roll Over",
-            "desc": "When a Medium or smaller creature comes within 5 feet, the world serpent can rotate its body to crush the creature between itself and the ground. The creature takes 15 (1d12 + 9) bludgeoning damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 43,
-            "col": 3,
-            "offset": 2665
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Tunneler.md",
-        "mtime": 1668194366000
       }
     ],
     [
@@ -68615,102 +67418,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Vengeful Terrain Choking Undine.md",
         "mtime": 1668194375000
-      }
-    ],
-    [
-      "Symbaroum Monster Ravenous Willow, Young Strangler",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Ravenous Willow, Young Strangler",
-        "size": "Huge",
-        "type": "plant",
-        "alignment": null,
-        "ac": 19,
-        "hp": 161,
-        "hit_dice": "(17d12 + 51)",
-        "speed": "15 ft.",
-        "stats": [
-          27,
-          10,
-          17,
-          6,
-          14,
-          12
-        ],
-        "saves": [
-          {
-            "Str": 13
-          },
-          {
-            "Con": 8
-          },
-          {
-            "Wis": 7
-          }
-        ],
-        "skillsaves": [
-          {
-            "Perception": 7
-          }
-        ],
-        "damage_resistances": "bludgeoning and piercing from nonmagical weapons",
-        "senses": "tremorsense 120 ft., passive Perception 17",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 14,
-        "traits": [
-          {
-            "name": "False Appearance",
-            "desc": "While the ravenous willow remains motionless, it is indistinguishable from a normal plant."
-          },
-          {
-            "name": "Mirage",
-            "desc": "The ravenous willow can produce an illusion to attract prey. A creature can detect the illusion by making a DC 14 Wisdom (Perception) check."
-          },
-          {
-            "name": "Root Walls (3/day)",
-            "desc": "The ravenous willow can use a bonus action to erect a root wall. Each root wall is 10 feet high, 10 feet thick and consists of 1 to 4 10- foot wide sections. Each section is AC 18, has 50 hit points and is resistant to bludgeoning and piercing from nonmagical weapons. No root wall section can be further than 60 feet from the main body of the ravenous willow."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The ravenous willow makes an attack with its vines and then with its branches."
-          },
-          {
-            "name": "Entangling Vines",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 13 (1d10 + 8) bludgeon- ing damage and, if the target is a Medium or smaller creature, it is grappled (Escape DC 18)."
-          },
-          {
-            "name": "Gnarled Branches",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 21 (2d12 + 8) bludgeoning damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Crushing Embrace",
-            "desc": "When a grappled creature attempts to escape and fails, the ravenous willow can squeeze it to do 13 (2d12) bludgeoning damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 40,
-            "col": 3,
-            "offset": 1818
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Ravenous Willow, Young Strangler CR 14.md",
-        "mtime": 1668194357000
       }
     ],
     [
@@ -72691,6 +71398,1299 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Griffon.md",
         "mtime": 1668337689000
+      }
+    ],
+    [
+      "Adult Black Dragon",
+      {
+        "statblock": true,
+        "name": "Adult Black Dragon",
+        "type": "dragon",
+        "size": "Huge",
+        "alignment": "chaotic or evil",
+        "hp": 195,
+        "hit_dice": "17d12 + 85",
+        "ac": 19,
+        "speed": "40 ft., fly 80 ft., swim 40 ft.",
+        "stats": [
+          23,
+          14,
+          21,
+          14,
+          13,
+          17
+        ],
+        "damage_immunities": "acid",
+        "damage_resistances": null,
+        "damage_vulnerabilities": null,
+        "condition_immunities": null,
+        "saves": [
+          {
+            "dexterity": 7
+          },
+          {
+            "constitution": 10
+          },
+          {
+            "wisdom": 6
+          },
+          {
+            "charisma": 8
+          }
+        ],
+        "skillsaves": [
+          {
+            "perception": 11
+          },
+          {
+            "stealth": 7
+          }
+        ],
+        "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
+        "languages": "Common, Draconic",
+        "cr": 14,
+        "traits": [
+          {
+            "name": "Amphibious",
+            "desc": "The dragon can breathe air and water."
+          },
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+          },
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack +11 to hit, reach 10 ft., one target. 17 (2d10 + 6) piercing damage plus 4 (1d8) acid damage."
+          },
+          {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack +11 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage."
+          },
+          {
+            "name": "Tail",
+            "desc": "Melee Weapon Attack +11 to hit, reach 15 ft., one target. 15 (2d8 + 6) bludgeoning damage."
+          },
+          {
+            "name": "Frightful Presence",
+            "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+          },
+          {
+            "name": "Acid Breath (Recharge 5-6)",
+            "desc": "The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one."
+          }
+        ],
+        "bonus_actions": null,
+        "reactions": null,
+        "legendary_actions": [
+          {
+            "name": "Detect",
+            "desc": "The dragon makes a Wisdom (Perception) check."
+          },
+          {
+            "name": "Tail Attack",
+            "desc": "The dragon makes a tail attack."
+          },
+          {
+            "name": "Wing Attack (Costs 2 Actions)",
+            "desc": "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+          }
+        ],
+        "spells": null,
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 61,
+            "col": 3,
+            "offset": 2514
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Adult Black Dragon.md",
+        "mtime": 1667969751000
+      }
+    ],
+    [
+      "Symbaroum Monster Lostling Possession",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Frostlight.png"
+          ]
+        ],
+        "name": "Symbaroum Monster Lostling Possession",
+        "size": "Small",
+        "type": "undead",
+        "alignment": null,
+        "ac": 18,
+        "hp": 33,
+        "hit_dice": "(6d6 + 12)",
+        "speed": "25 ft.",
+        "stats": [
+          10,
+          18,
+          14,
+          10,
+          15,
+          7
+        ],
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Haunting",
+            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
+          },
+          {
+            "name": "Insubstantial",
+            "desc": "The lostling can pass through objects and creatures without issue."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Vitality Drain",
+            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 1148
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession.md",
+        "mtime": 1668194392000
+      }
+    ],
+    [
+      "Symbaroum Monster Arch Troll",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Arch Troll",
+        "size": "huge",
+        "type": "Troll",
+        "alignment": null,
+        "ac": 14,
+        "hp": 229,
+        "hit_dice": "(17d12 + 119, tough)",
+        "speed": "30 ft.",
+        "stats": [
+          25,
+          15,
+          23,
+          14,
+          12,
+          15
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 13
+          },
+          {
+            "Intimidation": 8
+          },
+          {
+            "Perception": "7 Senses darkvision 60 ft"
+          },
+          "passive Perception 17"
+        ],
+        "senses": "darkvision 60 ft., passive Perception 17",
+        "languages": "Troll languages",
+        "equipment": "crude alchemical equipment, weak poison, weak antidote, jewelry and trinkets (1d10 thaler)",
+        "cr": 17,
+        "traits": [
+          {
+            "name": "Legendary Resistance (2/day)",
+            "desc": "If the troll fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Enthrall",
+            "desc": "When a creature first tries to act against the troll they must make a DC 16 Wisdom saving throw. On a failure the creature becomes charmed by the troll until the end of its turn. A creature that succeeds at the saving throw becomes immune to the effect for 24 hours."
+          },
+          {
+            "name": "Rage (6/day)",
+            "desc": "As a bonus action, the troll can enter a rage that lasts for 1 minute. While in the rage, the troll has advantage on Strength checks and saving throws. When it makes a me- lee weapon attack it adds +6 to its damage. The creature has resistance to bludgeoning, piercing and slashing damage while in the rage. The rage ends early if the creature ends its turn without having attacked a hostile creature since its last turn or taken damage since then. It can also use a bonus action to end the rage."
+          },
+          {
+            "name": "Regeneration",
+            "desc": "The arch troll recovers 12 hit points at the start of its turn, unless it has taken acid or fire damage since its last turn."
+          },
+          {
+            "name": "Tough",
+            "desc": "The arch troll has 1 extra hit point for each Hit Die it has."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The troll makes two claw attacks. Each grappled creature (see below) prevents the troll from making a claw attack."
+          },
+          {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (1d12 + 7) slashing damage."
+          },
+          {
+            "name": "Grab and Squeeze",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: if the target is a Medium or smaller creature, it is grappled (escape DC 23). The troll can have a maximum of two creatures grappled. On subsequent rounds, it can use its action to do 20 (2d12 + 7) bludgeoning damage to a target."
+          },
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 20 (2d12 + 7) piercing damage."
+          },
+          {
+            "name": "Kick",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) bludgeoning damage."
+          }
+        ],
+        "Legendary Actions": [
+          {
+            "name": "The arch troll can take 2 legendary actions, choosing from the options below",
+            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The arch troll regains spent legendary actions at the start of its turn."
+          },
+          {
+            "name": "Biting",
+            "desc": "The arch troll makes a bite attack."
+          },
+          {
+            "name": "Stomping",
+            "desc": "The arch troll makes a kick attack."
+          },
+          {
+            "name": "Squeezing (Costs 2 Actions)",
+            "desc": "The arch troll squeezes all opponents it has grappled."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "The arch troll can take 2 legendary actions, choosing from the options below",
+            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The arch troll regains spent legendary actions at the start of its turn."
+          },
+          {
+            "name": "Biting",
+            "desc": "The arch troll makes a bite attack."
+          },
+          {
+            "name": "Stomping",
+            "desc": "The arch troll makes a kick attack."
+          },
+          {
+            "name": "Squeezing (Costs 2 Actions)",
+            "desc": "The arch troll squeezes all opponents it has grappled."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 61,
+            "col": 3,
+            "offset": 3633
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Arch Troll.md",
+        "mtime": 1668195332000
+      }
+    ],
+    [
+      "Symbaroum Monster Illgobilin",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Illgobilin",
+        "size": "Small",
+        "type": "humanoid",
+        "alignment": null,
+        "ac": 13,
+        "hp": 45,
+        "hit_dice": "(7d6 + 21)",
+        "speed": "25 ft.",
+        "stats": [
+          10,
+          14,
+          17,
+          12,
+          15,
+          19
+        ],
+        "skillsaves": [
+          {
+            "Deception": 6
+          },
+          {
+            "Insight": 4
+          },
+          {
+            "Perception": 6
+          },
+          {
+            "Stealth": 4
+          },
+          {
+            "Survival": 6
+          }
+        ],
+        "senses": "darkvision 60 ft., passive Perception 16",
+        "languages": "Ambrian, Goblin",
+        "equipment": "component pouch",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Bestial",
+            "desc": "The illgoblin has disadvantage on Deception, Performance and Persuasion checks. It has advantage on Intimidation checks."
+          },
+          {
+            "name": "Gravely Cold",
+            "desc": "The illgoblin can activate this feature with a bonus action. For 1 minute, each creature that starts its turn within 120 feet of the illgoblin must pass a DC 13 Constitution saving throw or take 6 (1d6 + 3) cold damage and lose 10 feet of its movement speed until the end of its turn."
+          },
+          {
+            "name": "Innate Spellcasting",
+            "desc": "The illgoblin’s innate spellcasting ability is Charisma (+6 to hit, spell save DC 14). It can innately cast the following spells, requiring no material components."
+          },
+          {
+            "name": "At will",
+            "desc": "chill touch, [[Symbaroum Spells Spirit walk]]"
+          },
+          {
+            "name": "3/day each",
+            "desc": "[[5e spells Symbaroum Spells Black Breath]], [[darkness negative light  w]], [[sending telegram wc]]"
+          },
+          {
+            "name": "1/day",
+            "desc": "[[5e Spells magic circle keep out or in wc Kreidekreis]]"
+          },
+          {
+            "name": "Pact",
+            "desc": "see [[Illgoblin Pact Making Powers]]"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bone Dagger",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 40,
+            "col": 3,
+            "offset": 1591
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Illgobilin.md",
+        "mtime": 1668194378000
+      }
+    ],
+    [
+      "Symbaroum Monster Novice of the Order",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Novice of the Order",
+        "alignment": "",
+        "ac": 11,
+        "hp": 13,
+        "hit_dice": "(2d8 + 4)",
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          10,
+          15,
+          16,
+          11,
+          11
+        ],
+        "saves": [
+          {
+            "Int": 5
+          },
+          {
+            "Wis": 2
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 5
+          },
+          {
+            "Nature": 5
+          },
+          {
+            "Perception": 2
+          }
+        ],
+        "senses": "passive Perception 12",
+        "languages": "Ambrian",
+        "equipment": "order medallion, 1d4 shillings",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Corrpution Threshold",
+            "desc": "4"
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "the adept’s spellcasting ability is Intelligence (spell attack +5, save DC 13) and it knows the following spells:"
+          },
+          {
+            "name": "Cantrips",
+            "desc": "[[5e spells fire_bolt 1d10 dmg w]] (0), [[5e spells light wc]] (0), [[5e spells message 120 ft w]] (1), [[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (1), [[5e spells ray of frost 1d8 dmg slowed down w]]] (1)"
+          },
+          {
+            "name": "1st-level spells",
+            "desc": "[[5e spells detect magic wc]] (1d4 + 1),[[5e spells magic missile 3 x 1d4 plus 1 w]](1d4 + 1), [[shield w]]] (1d4 + 1), [[5e spells sleep w]] (1)"
+          },
+          {
+            "name": "Rituals",
+            "desc": " [[5e spells alarm w 5e]]"
+          }
+        ],
+        "actions": [
+          {
+            "name": "Quarterstaff",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage"
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 35,
+            "col": 3,
+            "offset": 1230
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order 2.md",
+        "mtime": 1666869256000
+      }
+    ],
+    [
+      "Symbaroum Monster Village Barbarian warrior",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Barbarian Warrior.jpeg"
+          ]
+        ],
+        "name": "Symbaroum Monster Village Barbarian warrior",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 17,
+        "hp": 37,
+        "hit_dice": "(5d8 + 15)",
+        "speed": "30 ft.",
+        "stats": [
+          18,
+          12,
+          17,
+          10,
+          14,
+          12
+        ],
+        "saves": [
+          {
+            "Strength": 6
+          },
+          {
+            "Constitution": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 6
+          },
+          {
+            "Perception": 4
+          },
+          {
+            "Survival": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Ambrian, Barbarian",
+        "equipment": "a wooden or metal beaker, wooden figurine (the clan’s spirit guardian), stone for sharpening the axe, 1d10 shillings",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Man-at-Arms",
+            "desc": "The village warrior’s armor class is improved by +1. It can don or doff armor in half the regular required time."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The village warrior makes two attacks with its double-axe."
+          },
+          {
+            "name": "Double-axe",
+            "desc": "Melee Weapon Attack: +6 to hit, reach  5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Two-handed Force",
+            "desc": "If the village warrior misses an attack, it can use its reaction to reroll the attack."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 34,
+            "col": 3,
+            "offset": 1049
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior.md",
+        "mtime": 1668194386000
+      }
+    ],
+    [
+      "Symbaroum Monster Drunkard",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Drunkard",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 10,
+        "hp": 11,
+        "hit_dice": "(2d8 + 2)",
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          10,
+          12,
+          10,
+          11,
+          11
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Ambrian",
+        "equipment": "1d8 ortegs",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Cheap Shots",
+            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Unarmed Strikes",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Wild Swing",
+            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 25,
+            "col": 3,
+            "offset": 663
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
+        "mtime": 1668195332000
+      }
+    ],
+    [
+      "Symbaroum Monster Barbarian Village guard",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Village Guard.jpeg"
+          ]
+        ],
+        "name": "Symbaroum Monster Barbarian Village guard",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 13,
+        "hp": 22,
+        "hit_dice": "(4d8 + 4)",
+        "speed": "30 ft.",
+        "stats": [
+          15,
+          12,
+          13,
+          10,
+          14,
+          10
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 4
+          },
+          {
+            "Perception": 4
+          },
+          {
+            "Survival": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Ambrian, Barbarian",
+        "equipment": "hunting traps and fishing gear, wooden figurine (the clan’s spirit guardian), 3 throwing spears, 1d10 ortegs",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Hunter’s Instinct",
+            "desc": "The village guard can use its bonus action to mark one creature as its chosen target. Thea first time it does damage to the target, it does +2 bonus damage. It can use its reaction when the target moves to make a ranged weapon attack."
+          },
+          {
+            "name": "Trapper",
+            "desc": "The village guard can use its action to deploy a mechanical trap within 5 feet of its position. A creature that enters the area must make a DC 10 Dexterity saving throw or take 6 (1d12) bludgeoning damage. The village guard is never affected by the trap, but treats the area around the trap as difficult terrain."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Axe",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+          },
+          {
+            "name": "Spear",
+            "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60, one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 30,
+            "col": 3,
+            "offset": 1440
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard.md",
+        "mtime": 1668195332000
+      }
+    ],
+    [
+      "Symbaroum Monster Drug Peddler",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Drug Peddler",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 13,
+        "hp": 13,
+        "hit_dice": "(3d8)",
+        "speed": "30 ft",
+        "stats": [
+          10,
+          16,
+          10,
+          17,
+          11,
+          12
+        ],
+        "skillsaves": [
+          {
+            "Alchemist’s supplies": 5
+          },
+          {
+            "Deception": 3
+          }
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Ambrian",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "equipment",
+            "desc": "[[Item Concentrated Magic DC 15 10 Th d4]], [[Item Drone Dew DC 10  20 Th d8]], [[Item Herbal Cure DC 10 10 Th d8]], [[Spore Bombs]], [[Item Waybread DC 10 5 Th 2d6]], [[Weak Poison DC 10 1 round plus 1 d6 poison damage plus 3 10 Th d6]]"
+          },
+          {
+            "name": "Distract (1/day)",
+            "desc": "the drug peddler can use its bonus action to cause a distraction, gaining advantage on its stiletto attack this turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Stiletto",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, plus 3 (1d6) poison damage. Deep impact: on a critical hit, this weapon does a total of 9 (2d4 + 4) piercing damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 994
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drug Peddler 2.md",
+        "mtime": 1667402242000
+      }
+    ],
+    [
+      "Symbaroum Monster frostlight",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster frostlight",
+        "type": "undead",
+        "alignment": null,
+        "ac": 20,
+        "hp": 45,
+        "hit_dice": "(10d4 + 20)",
+        "speed": "0 ft., fly 60 ft. (hover)",
+        "stats": [
+          10,
+          20,
+          14,
+          10,
+          15,
+          10
+        ],
+        "senses": "darkvision 120 ft., passive Perception 12",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 3,
+        "traits": [
+          {
+            "name": "Insubstantial",
+            "desc": "The frostlight can pass through objects and creatures without issue. It cannot wear or carry anything."
+          },
+          {
+            "name": "Nimble",
+            "desc": "The frostlight’s armor class is equal to 10 plus twice its Dexterity modifier."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Shock",
+            "desc": "Ranged Spell Attack: +7 to hit, range  25 ft./100 ft., one target. Hit: 14 (4d6) lightning damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Drain",
+            "desc": "As a bonus action the frostlight can drain the life from a creature it shares a space with. The creature takes 5 (1d10) necrotic damage and 1 (oder besser d4) temporary Corruption."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 907
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho 2.md",
+        "mtime": 1666786665000
+      }
+    ],
+    [
+      "Symbaroum Monster Ravenous Willow, Young Strangler",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Ravenous Willow, Young Strangler",
+        "size": "Huge",
+        "type": "plant",
+        "alignment": null,
+        "ac": 19,
+        "hp": 161,
+        "hit_dice": "(17d12 + 51)",
+        "speed": "15 ft.",
+        "stats": [
+          27,
+          10,
+          17,
+          6,
+          14,
+          12
+        ],
+        "saves": [
+          {
+            "Str": 13
+          },
+          {
+            "Con": 8
+          },
+          {
+            "Wis": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "Perception": 7
+          }
+        ],
+        "damage_resistances": "bludgeoning and piercing from nonmagical weapons",
+        "senses": "tremorsense 120 ft., passive Perception 17",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 14,
+        "traits": [
+          {
+            "name": "False Appearance",
+            "desc": "While the ravenous willow remains motionless, it is indistinguishable from a normal plant."
+          },
+          {
+            "name": "Mirage",
+            "desc": "The ravenous willow can produce an illusion to attract prey. A creature can detect the illusion by making a DC 14 Wisdom (Perception) check."
+          },
+          {
+            "name": "Root Walls (3/day)",
+            "desc": "The ravenous willow can use a bonus action to erect a root wall. Each root wall is 10 feet high, 10 feet thick and consists of 1 to 4 10- foot wide sections. Each section is AC 18, has 50 hit points and is resistant to bludgeoning and piercing from nonmagical weapons. No root wall section can be further than 60 feet from the main body of the ravenous willow."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The ravenous willow makes an attack with its vines and then with its branches."
+          },
+          {
+            "name": "Entangling Vines",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 13 (1d10 + 8) bludgeon- ing damage and, if the target is a Medium or smaller creature, it is grappled (Escape DC 18)."
+          },
+          {
+            "name": "Gnarled Branches",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 21 (2d12 + 8) bludgeoning damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Crushing Embrace",
+            "desc": "When a grappled creature attempts to escape and fails, the ravenous willow can squeeze it to do 13 (2d12) bludgeoning damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 40,
+            "col": 3,
+            "offset": 1818
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Ravenous Willow, Young Strangler CR 14.md",
+        "mtime": 1668194357000
+      }
+    ],
+    [
+      "Symbaroum Monster World Serpent Wallower",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster World Serpent Wallower",
+        "size": "Gargantuan",
+        "type": "beast",
+        "alignment": null,
+        "ac": 17,
+        "hp": 410,
+        "hit_dice": "(20d20 + 200)",
+        "stats": [
+          28,
+          10,
+          30,
+          9,
+          14,
+          6
+        ],
+        "skillsaves": [
+          {
+            "Perception": 10
+          },
+          {
+            "Survival": 10
+          }
+        ],
+        "damage_immunities": "acid, poison, psychic; bludgeoning from nonmagical weapons",
+        "senses": "tremorsense 120 ft., passive Perception 20",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 26,
+        "traits": [
+          {
+            "name": "Legendary Resistance (3/day)",
+            "desc": "If the world serpent fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Life Sense",
+            "desc": "The world serpent has advantage on Wisdom (Perception) checks to detect living creatures."
+          },
+          {
+            "name": "Siege Monster",
+            "desc": "The world serpent deals double damage to objects and structures."
+          },
+          {
+            "name": "Tunneler",
+            "desc": "If the world serpent leaves a creature’s reach by burrowing it does not provoke an opportunity attack."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 34 (10d4 + 9) bludgeoning damage and if the target is a Huge or smaller creature it is swallowed. If the target is swallowed, it is [[202202102106 5e Conditions Blinded]] and [[202202102010 5e Conditions Restrained]]; and it has total cover against attacks and other effects outside the world serpent. At the start of each of its turns, it takes 13 (2d12) acid damage."
+          },
+          {
+            "name": "The world serpent can swallow any number of creatures",
+            "desc": "If the world serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 30 feet of movement, exiting prone."
+          },
+          {
+            "name": "Tail Swipe",
+            "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 41 (5d12 + 9) bludgeoning damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "The world serpent can take 2 legendary actions, choos- ing from the options below",
+            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The world serpent regains spent leg- endary actions at the start of its turn."
+          },
+          {
+            "name": "Bite",
+            "desc": "The world serpent makes a bite attack."
+          },
+          {
+            "name": "Tail",
+            "desc": "The world serpent makes a tail attack."
+          },
+          {
+            "name": "Earthquake (Costs 2 Actions)",
+            "desc": "The world serpent shivers its body, sending waves through the earthfor 80 feet. Each creature must make a DC 25 Strength saving throw, taking 10 (1d20) bludgeoning damage and becoming [[5e Conditions Prone]] on a failure. On a success, the creature takes half damage. Each structure in the area takes double damage automatically."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Roll Over",
+            "desc": "When a Large or smallercreature comes within 5 feet, the world serpent can rotate its body to crush the creature between itself and the ground. The creature takes 20 (1d20 + 10) bludgeoning damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 47,
+            "col": 3,
+            "offset": 2789
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Wallower CR 26.md",
+        "mtime": 1668193986000
+      }
+    ],
+    [
+      "Symbaroum Monster Glint",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Glint",
+        "size": "tiny",
+        "type": "Beast",
+        "alignment": null,
+        "ac": 20,
+        "hp": 14,
+        "hit_dice": "(4d4 + 4)",
+        "speed": "15 ft., fly 30 ft.",
+        "stats": [
+          3,
+          21,
+          13,
+          3,
+          10,
+          6
+        ],
+        "senses": "passive Perception 10",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Nimble",
+            "desc": "The glint’s armor class is equal to 10 plus twice its Dexterity modifier."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+          },
+          {
+            "name": "Infest",
+            "desc": "The glint tries to fly into the creature’s mouth and lodge itself in its throat. The creature must make a DC 15 Dexterity saving throw, becoming infested on a failure. An infested creature loses control over its actions at the end of its next turn and gains the benefits of Swift (+10 ft. to each movement type) and Sturdy (+2 Hit Dice) after a long or extended rest. see [[Glint-Carrier Template]]"
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 24,
+            "col": 3,
+            "offset": 919
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Glint.md",
+        "mtime": 1668195332000
+      }
+    ],
+    [
+      "Symbaroum Monster World Serpent Tunneler",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster World Serpent Tunneler",
+        "size": "Huge",
+        "type": "beast",
+        "alignment": null,
+        "ac": 13,
+        "hp": 310,
+        "hit_dice": "(20d12 + 180)",
+        "speed": "40 ft., burrow 60 ft.",
+        "stats": [
+          25,
+          10,
+          28,
+          3,
+          12,
+          6
+        ],
+        "damage_immunities": "acid, poison, psychic; bludgeoning from nonmagical weapons",
+        "senses": "tremorsense 120 ft., passive Perception 11",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 17,
+        "traits": [
+          {
+            "name": "Legendary Resistance (2/day)",
+            "desc": "If the world serpent fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Life Sense",
+            "desc": "The world serpent has advantage on Wis- dom (Perception) checks to detect living creatures."
+          },
+          {
+            "name": "Siege Monster",
+            "desc": "The world serpent deals double damage to objects and structures."
+          },
+          {
+            "name": "Tunneler",
+            "desc": "If the world serpent leaves a creature’s reach by burrowing it does not provoke an opportunity attack."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 22 (6d4 + 7) bludgeoning damage and if the target is a Large or smaller creature it is swal- lowed. If the target is swallowed, it is blinded and restrained; and it has total cover against attacks and other effects outside the world serpent. At the start of each of its turns, it takes 11 (2d10) acid damage. The world serpent can swallow any number of creatures. If the world serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 30 feet of movement, exiting prone."
+          },
+          {
+            "name": "Tail Swipe",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 33 (4d12 + 7) bludgeoning damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "The world serpent can take 2 legendary actions, choos- ing from the options below",
+            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The world serpent regains spent leg- endary actions at the start of its turn."
+          },
+          {
+            "name": "Bite",
+            "desc": "The world serpent makes a bite attack."
+          },
+          {
+            "name": "Tail",
+            "desc": "The world serpent makes a tail attack."
+          },
+          {
+            "name": "Earthquake (Costs 2 Actions)",
+            "desc": "The world serpent shivers its body, sending waves through the earth for 60 feet. Each creature must make a DC 21 Strength saving throw, taking 6 (1d12) bludgeoning damage and becoming prone on a failure. On a success, the creature takes half damage. Each structure in the area takes double damage automatically."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Roll Over",
+            "desc": "When a Medium or smaller creature comes within 5 feet, the world serpent can rotate its body to crush the creature between itself and the ground. The creature takes 15 (1d12 + 9) bludgeoning damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 43,
+            "col": 3,
+            "offset": 2665
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Tunneler.md",
+        "mtime": 1668194366000
+      }
+    ],
+    [
+      "Symbaroum Monster Artisan",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Artisan",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 13,
+        "hp": 16,
+        "hit_dice": "(3d8 + 3)",
+        "speed": "30 ft.",
+        "stats": [
+          18,
+          12,
+          12,
+          10,
+          10,
+          8
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 6
+          }
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Ambrian",
+        "equipment": "field smithy, 1d10 shillings",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Crushing Hammer",
+            "desc": "On a critical hit, the artisan can choose to destroy the opponent’s shield (if it has one) instead of doing extra damage. Magical shields are not destroyed but are damaged and cannot be used until repaired outside of combat."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Long Hammer",
+            "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage or 9 (1d10 + 4) bludgeoning damage if wielded with two hands."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 24,
+            "col": 3,
+            "offset": 789
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan CR 1.md",
+        "mtime": 1668193986000
       }
     ]
   ],
