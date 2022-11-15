@@ -1,14 +1,19 @@
-`dice: [[5e DMG 03 Creating Adventures#^dngngoals]]`
-`dice: [[5e DMG 03 Creating Adventures#^wildernessgoals]]`
-`dice: [[5e DMG 03 Creating Adventures#^otherGoals]]`
-`dice: [[5e DMG 03 Creating Adventures#^advVillains]]`
-`dice: [[5e DMG 03 Creating Adventures#^Patrons]]`
-`dice: [[5e DMG 03 Creating Adventures#^advAllies]]`
-`dice: [[5e DMG 03 Creating Adventures#^AdvIntro]]`
-`dice: [[5e DMG 03 Creating Adventures#^climax]]`
-`dice: [[5e DMG 03 Creating Adventures#^event-basedVillainActions]]`
-`dice: [[5e DMG 03 Creating Adventures#^event-basedGoals]]`
-`dice: [[5e DMG 03 Creating Adventures#^framingEvents]]`
-`dice: [[5e DMG 03 Creating Adventures#^moralQuandaries]]`
-`dice: [[5e DMG 03 Creating Adventures#^twists]]`
-`dice: [[5e DMG 03 Creating Adventures#^SideQuests]]`
+Roller
+##### Oracle
+`dice: [[201811200023 Ironsworn MOC#^OracleAction]]`
+`dice: [[201811200023 Ironsworn MOC#^OracleTheme]]`
+##### Location
+`dice: [[201811200023 Ironsworn MOC#^IronlandRegion]]`
+`dice: [[201811200023 Ironsworn MOC#^Location]]`
+`dice: [[201811200023 Ironsworn MOC#^CoastalWaterLocation]]`
+`dice: [[201811200023 Ironsworn MOC#^LocationDescriptor]]`
+`dice: [[201811200023 Ironsworn MOC#^SettlementProblem]]`
+##### NPC
+`dice: [[201811200023 Ironsworn MOC#^NPCRole]]`
+`dice: [[201811200023 Ironsworn MOC#^NPCGoal]]`
+`dice: [[201811200023 Ironsworn MOC#^NPCDescriptor]]`
+##### Combat Magic
+`dice: [[201811200023 Ironsworn MOC#^CombatActions]]`
+`dice: [[201811200023 Ironsworn MOC#^MysticBacklash]]`
+##### Plot
+`dice: [[201811200023 Ironsworn MOC#^PlotTwists]]`

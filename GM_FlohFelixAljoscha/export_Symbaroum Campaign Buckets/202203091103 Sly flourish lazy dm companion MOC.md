@@ -38,7 +38,7 @@
 	- [[Settlement Generator]]
 	- with Settlement Events. 
 	- cf. [[201811072354 lazy dm workbook Sly Flourish MOC#^RndmTownEvent]]
-- Wilderness Generator p 38 See WWN [[Wilderness Exploratoin Sly Flourish]]
+- Wilderness Generator p 38 See WWN [[Wilderness Exploration]]
 - Underground exploration p 39 [[Underground exploration]]
 - Faerie p 40
 - [[202203091144 War Theme MOC]] p 41 Johnn Four nennt sowas Story overlays

@@ -1,3 +1,7 @@
+
+##### Roller
+`dice: [[Whats that bestial monster doing#^MonsterActivity]]`
+##### Tables
 | Heading                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------- |
 | It’s fighting with another of its kind over a mate                                                                          |

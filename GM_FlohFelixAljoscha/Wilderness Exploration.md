@@ -1,23 +1,20 @@
 ## Roller
-### Forest Scenery
-Wilderness Dungeon Name:
-`dice: [[Wilderness Dungeon#^wildernessDngnPrefix]]` `dice: [[Wilderness Dungeon#^wildernessDngnSuffix]]`
-Trophy Impfessions `dice: [[Trophy Impressions#^trophyImpressions]]`
-Forest Type `dice: [[Types of Forests#^types]]`
-smells `dice: [[Forest smells sounds#^smellsound]]`
-Odd Plant
-`dice: [[Odd Plant#^oddPrefix]]` `dice: [[Odd Plant#^oddSuffix]]`
-Paths: `dice: [[Wilderness Exploratoin Sly Flourish#^WildernessPaths]]`
-Sly Flourish Landsmarks `dice: [[Wilderness Exploratoin Sly Flourish#^Landmarks]]`
-Odd Animal : `dice: [[Odd Animal#^oddanimal]]` Wounds:  `dice: [[Odd Animal#^wounds]]`
-Forest Map `dice: [[Forest Map Legend#^map]]`
-Forest Dressing `dice: [[Forest Map Legend#^dressing]]`
-Forest Legend: `dice: [[Forest Map Legend#^legendPrefix]]` `dice: [[Forest Map Legend#^legendSuffix]]`
-Forest Quests: `dice: [[Wilderness Exploratoin Sly Flourish#^quests]]`
-Forest Monsters: `dice: [[Wilderness Exploratoin Sly Flourish#^monsters]]`
-Forest Marvels: `dice: [[Wilderness Exploratoin Sly Flourish#^woundrous]]`
+Wilderness Dungeon Name: ![[Wilderness Dungeon#Roller]]
+Trophy Impressions: ![[Trophy Impressions#Roller]]
+Forest Type ![[Types of Forests#Roller]]
+smells  ![[Forest smells sounds#Roller]]
+Odd Plant ![[Odd Plant#Roller]]
+Paths: `dice: [[Wilderness Exploration#^WildernessPaths]]`
+Sly Flourish Landsmarks `dice: [[Wilderness Exploration#^Landmarks]]`
+Odd Animal : ![[Odd Animal#Roller]]
+Forest Map ![[Forest Map Legend#Roller]]
+Forest Quests: `dice: [[Wilderness Exploration#^quests]]`
+Forest Monsters: `dice: [[Wilderness Exploration#^monsters]]`
+Forest Marvels: `dice: [[Wilderness Exploration#^woundrous]]`
 ![[202201121842 WWN Wilderness Tags MOC#Roller:]]
-
+![[5e DMG 05 Adventure Environments#Wilderness Exploration]]
+![[201811200023 Ironsworn MOC#Delve Sites]]
+![[201811200023 Ironsworn MOC#Location]]
 ## Tables
 ### Wilderness Quests
 Restore a defiled grove  

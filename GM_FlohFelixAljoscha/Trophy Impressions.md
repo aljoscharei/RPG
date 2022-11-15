@@ -1,5 +1,6 @@
+###### Roller
 `dice: [[Trophy Impressions#^trophyImpressions]]`
-
+##### Table
 Small undulating loam hills.
 Large wide sinkholes, now overgrown.
 A bog full of twitching bloated corpses

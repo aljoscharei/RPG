@@ -1,5 +1,6 @@
 ## Roller
 `dice: [[NPC Motivation#^motivations]]`
+![[201811200023 Ironsworn MOC#NPC Goal]]
 ## table
 | Hireling Motivation                                           |
 | ------------------------------------------------------------- |

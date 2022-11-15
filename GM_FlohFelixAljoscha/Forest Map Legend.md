@@ -1,9 +1,8 @@
+###### Roller
 Forest Map `dice: [[Forest Map Legend#^map]]`
 Forest Dressing `dice: [[Forest Map Legend#^dressing]]`
 Forest Legend: `dice: [[Forest Map Legend#^legendPrefix]]` `dice: [[Forest Map Legend#^legendSuffix]]`
-
-
-
+##### Table:
 Area with destruction
 Area with heavy, almost impassable undergrowth
 Area with unusual trees (see Table 4-72)

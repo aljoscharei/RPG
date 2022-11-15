@@ -1,5 +1,6 @@
+###### Roller
 `dice: [[Types of Forests#^types]]`
-
+#### Table
 Faintly glowing coniferous forest
 Solemn ragged pale birch trees.
 Dark gnarled trees, hard as iron.

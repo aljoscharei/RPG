@@ -24,6 +24,7 @@ Temple Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonTemple]]`
 Tomb Dungeon Room: `dice: [[Random Dungeon DMG#^dungeonTomb]]`
 Treasure Vault Dungeon Room: `dice: [[Random Dungeon DMG#^dungeonTreasureVault]]`
 Dungeon Chambers: `dice: [[Random Dungeon DMG#^generalDungeonChambers]]`
+![[202211151046 WWN Room Theme#Roller]]
 Dungeon Chamber State: `dice: [[Random Dungeon DMG#^currentChamberState]]`
 Dungeon Chamber Content: `dice: [[Random Dungeon DMG#^dungeonChamberContents]]`
 Monster Motivation: `dice: [[Random Dungeon DMG#^monsterMotivation]]`
@@ -77,6 +78,7 @@ Starting Area
 | 13–14 | Continue straight 20 ft., then the passage turns right and continues 10 ft.          |
 | 15–19 | Chamber (roll on the Chamber table                                                   |
 | 20    | Stairs\* (roll on the Stairs table                                                   |
+
 ^passage
 
 
@@ -93,6 +95,7 @@ Passage Width
 | 18      | 40 ft., with double row of pillars                                                |
 | 19      | 40 ft. wide, 20 ft. high                                                          |
 | 20      | 40 ft. wide, 20 ft. high, gallery 10 ft. above floor allows access to level above |
+
 ^passagewidth
 
 
@@ -109,6 +112,7 @@ Passage Width
 | 18    | Portcullis, locked in place   |
 | 19    | Secret door                   |
 | 20    | Secret door, barred or locked |
+
 ^doortype
 
 
@@ -122,6 +126,7 @@ Beyond a Door
 | 9–18 | Chamber (roll on the [Chamber table](https://www.dndbeyond.com/sources/dmg/appendix-a-random-dungeons#StartingArea#Chamber "Chamber table"))  |
 | 19   | Stairs (roll on the [Stairs table](https://www.dndbeyond.com/sources/dmg/appendix-a-random-dungeons#StartingArea#StairsTable "Stairs table")) |
 | 20   | False door with trap                                                                                                                          |
+
 ^beyondDoor
 
 
@@ -166,6 +171,7 @@ Chamber Exits
 | 18    | 3              | 4             |
 | 19    | 4              | 5             |
 | 20    | 4              | 6             |
+
 ^ChamberExits
 
 
@@ -178,6 +184,7 @@ Exit Location
 | 8–12  | Wall left of entrance  |
 | 13–17 | Wall right of entrance |
 | 18–20 | Same wall as entrance  |
+
 ^ExitLocation
 
 
@@ -188,6 +195,7 @@ Exit Type
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1–10  | Door (roll on the [Door Type table](https://www.dndbeyond.com/sources/dmg/appendix-a-random-dungeons#StartingArea#DoorType "Door Type table")) |
 | 11–20 | Corridor, 10 ft. long                                                                                                                          |
+
 ^DungeonExitType
 
 
@@ -212,6 +220,7 @@ Stairs
 | 18  | Chimney up two levels to a passage 20 ft. long               |
 | 19  | Shaft (with or without elevator) down one level to a chamber |
 | 20 | Shaft (with or without elevator) up one level to a chamber and down one level to a chamber |
+
 ^DugeonStairs
 
 
@@ -226,6 +235,7 @@ Dungeon: Death Trap
 | 12–14 | Room containing a puzzle that must be solved to bypass a trap or monster                                             |
 | 15–19 | Trap designed to kill or capture creatures                                                                           |
 | 20    | Observation room, allowing guards or spectators to observe creatures moving through the dungeon                      |
+
 ^DungeonDeathTrap
 
 
@@ -253,6 +263,7 @@ Dungeon: Lair
 | 18    | Trophy room or museum                                                   |
 | 19    | Latrine or bath                                                         |
 | 20    | Workshop for the construction of weapons, armor, tools, and other goods |
+
 ^DungeonLair
 
 
@@ -270,6 +281,7 @@ Dungeon: Maze
 | 15–18 | Trap to confound or kill those sent into the maze                                                    |
 | 19    | Well that provides drinking water                                                                    |
 | 20    | Workshop where doors, torch sconces, and other furnishings are repaired and maintained               |
+
 ^DungeonMaze
 
 
@@ -290,6 +302,7 @@ Dungeon: Mine
 | 17    | Smithy for repairing damaged tools                                           |
 | 18–19 | Storage for tools and other equipment                                        |
 | 20    | Strong room or vault used to store ore for transport to the surface          |
+
 ^DungeonMine
 
 
@@ -326,6 +339,7 @@ Dungeon: Planar Gate
 | 94    | Torture chamber, for questioning creatures that pass through the portal or that attempt to clandestinely use it                |
 | 95–98 | Latrine or bath                                                                                                                |
 | 99–00 | Workshop for constructing tools and gear needed to study the portal                                                            |
+
 ^DungeonPlanarGate
 
 
@@ -364,6 +378,7 @@ Dungeon: Stronghold
 | 94–96 | Waiting room where lesser guests are held before receiving an audience                                           |
 | 97–98 | Latrine or bath                                                                                                  |
 | 99–00 | Crypt belonging to the stronghold’s master or someone else of importance                                         |
+
 ^DungeonStronghold
 
 
@@ -401,6 +416,7 @@ Dungeon: Temple or Shrine
 | 90    | Latrine or bath                                                                                                                           |
 | 91–94 | Well for drinking water, defendable in the case of attack or siege                                                                        |
 | 95–00 | Workshop for repairing or creating weapons, religious items, and tools                                                                    |
+
 ^DungeonTemple
 
 
@@ -421,6 +437,7 @@ Dungeon: Tomb
 | 16–17 | Storage, stocked with tools for maintaining the tomb and preparing the dead for burial                   |
 | 18    | Tomb where the wealthiest and most important folk are interred, protected by secret doors and traps      |
 | 19–20 | Workshop for embalming the dead                                                                          |
+
 ^dungeonTomb
 
 
@@ -442,6 +459,7 @@ Dungeon: Treasure Vault
 | 14–15 | Strong room or vault, for guarding the treasure hidden in the dungeon, accessible only by locked or secret door |
 | 16    | Torture chamber for extracting information from captured intruders                                              |
 | 17–20 | Trap or other trick designed to kill or capture creatures that enter the dungeon                                |
+
 ^dungeonTreasureVault
 
 
@@ -510,6 +528,7 @@ General Dungeon Chambers
 | 97    | Nursery or schoolroom     |
 | 98    | Well                      |
 | 99–00 | Workshop                  |
+
 ^generalDungeonChambers
 
 
@@ -528,6 +547,7 @@ Current Chamber State
 | 17–18 | Converted to some other use (roll on the General Dungeon Chambers table) |
 | 19    | Stripped bare                                                            |
 | 20    | Pristine and in original state                                           |
+
 ^currentChamberState
 
 
@@ -550,6 +570,7 @@ Dungeon Chamber Contents
 | 81–88 | Empty room                                                                                                                                                                                            |
 | 89–94 | Empty room with dungeon hazard (see “[Random Dungeon Hazards](https://www.dndbeyond.com/sources/dmg/appendix-a-random-dungeons#StartingArea#RandomDungeonHazards "Random Dungeon Hazards")”)          |
 | 95–00 | Empty room with treasure                                                                                                                                                                              |
+
 ^dungeonChamberContents
 
 
@@ -566,6 +587,7 @@ Monster Motivation
 | 14–15 | Recover from a battle       |
 | 16–17 | Avoid danger                |
 | 18–20 | Seek wealth                 |
+
 ^monsterMotivation
 
 
@@ -580,6 +602,7 @@ Dungeon Hazards
 | 11–15 | Spiderwebs    |
 | 16–17 | Violet fungus |
 | 18–20 | Yellow mold   |
+
 ^dungeonhazards
 
 
@@ -600,6 +623,7 @@ Obstacles
 | 18    | [Reverse gravity](https://www.dndbeyond.com/spells/reverse-gravity) effect causes creatures to fall toward the ceiling                     |
 | 19    | [Wall of fire](https://www.dndbeyond.com/spells/wall-of-fire) blocks passage                                                               |
 | 20    | [Wall of force](https://www.dndbeyond.com/spells/wall-of-force) blocks passage                                                             |
+
 ^obstacles
 
 
@@ -614,6 +638,7 @@ Trap Trigger
 | 4   | Opened (door, treasure chest)    |
 | 5   | Looked at (mural, arcane symbol) |
 | 6   | Moved (cart, stone block)        |
+
 ^traptrigger
 
 
@@ -626,6 +651,7 @@ Trap Damage Severity
 | 1–2 | Setback         |
 | 3–5 | Dangerous       |
 | 6   | Deadly          |
+
 ^trapseverity
 
 
@@ -665,6 +691,7 @@ Trap Effects
 | 92–94 | Stone block smashes across hallway                                                                                                                                                                                                                              |
 | 95–97 | [Symbol](https://www.dndbeyond.com/spells/symbol)                                                                                                                                                                                                               |
 | 98–00 | Walls slide together                                                                                                                                                                                                                                            |
+
 ^trapEffects
 
 
@@ -694,6 +721,7 @@ Trick Objects
 | 18  | Suit of armor                   |
 | 19  | Tapestry or rug                 |
 | 20  | Target dummy                    |
+
 ^trickObjects
 
 
@@ -734,6 +762,7 @@ Tricks
 | 91–93 | Talks (normal speech, nonsense, poetry and rhymes, singing, spellcasting, or screaming)        |
 | 94–97 | Teleports characters to another place                                                          |
 | 98–00 | Swaps two or more characters’ minds                                                            |
+
 ^tricks
 
 
@@ -798,6 +827,7 @@ Noises
 | 97    | Whining                  |
 | 98    | Whispering               |
 | 99–00 | Whistling                |
+
 ^noises
 
 
@@ -817,6 +847,7 @@ Air
 | 94–96 | Smoky or steamy                    |
 | 97–98 | Clear, with smoke covering ceiling |
 | 99–00 | Clear and windy                    |
+
 ^air
 
 
@@ -1197,6 +1228,7 @@ Utensils and Personal Items
 | 95–96 | Wig                              |
 | 97–98 | Wool                             |
 | 99–00 | Yarn                             |
+
 ^utensil
 
 
@@ -1231,6 +1263,7 @@ Container Contents
 | 93–94 | Stalks                          |
 | 95–97 | Strands                         |
 | 98–00 | Strips                          |
+
 ^containerContent
 
 

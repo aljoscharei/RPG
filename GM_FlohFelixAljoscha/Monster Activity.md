@@ -1,3 +1,7 @@
+##### Roller
+`dice: [[Monster Activity#^NormalActivity]]`
+`dice: [[Monster Activity#^ReactionTable]]` 
+##### Tables
 | dice: 1d6 | Heading                                       |
 | --------- | --------------------------------------------- |
 | 1         | Travelling                                    |

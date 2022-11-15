@@ -1,5 +1,6 @@
+###### Roller
 `dice: [[Forest smells sounds#^smellsound]]`
-
+##### Table
 SMELL: The smell of rotting cheese chokes your senses
 SOUND: Thousands of skittering legs move about unseen.
 SMELL: Freshly cut grass burns itself deep into your nostrils.

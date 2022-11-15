@@ -1,3 +1,6 @@
+##### Roller
+`dice: [[Twists about the target or their allies#^Twists]]`
+##### Table
 | They have a useful magical power uncommon to their kind                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------- |
 | The group is divided into parties or factions that cooperate poorly with each other                                           |

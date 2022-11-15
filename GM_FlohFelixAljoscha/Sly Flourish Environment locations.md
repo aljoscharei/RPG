@@ -43,7 +43,7 @@ Shifting sinkhole
 Black megalith
 Abandoned city
 
-# Forest [[Wilderness Exploratoin Sly Flourish]]
+# Forest [[Wilderness Exploration]]
 
 
 # Mountain

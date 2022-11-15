@@ -1,6 +1,6 @@
-`dice: [[Odd Plant#^oddPrefix]]`
-`dice: [[Odd Plant#^oddSuffix]]`
-
+###### Roller
+`dice: [[Odd Plant#^oddPrefix]]` `dice: [[Odd Plant#^oddSuffix]]`
+#### Table
 Berries
 Berries
 Berries

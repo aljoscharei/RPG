@@ -1,3 +1,6 @@
+##### Roller
+`dice: [[Combat What is enemy doing#^MonsterActivity]]`
+##### Table
 | Combat what is the monster doing                                                   |
 | ---------------------------------------------------------------------------------- |
 | They’re absorbed in eating a meal                                                  |

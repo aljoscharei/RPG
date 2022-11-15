@@ -13,6 +13,7 @@ Framing Events: `dice: [[5e DMG 03 Creating Adventures#^framingEvents]]`
 Complications: `dice: [[5e DMG 03 Creating Adventures#^moralQuandaries]]`
 Twists: `dice: [[5e DMG 03 Creating Adventures#^twists]]`
 Sidequestst: `dice: [[5e DMG 03 Creating Adventures#^SideQuests]]`
+![[201811200023 Ironsworn MOC#Plot]]
 ## Chapter 3: Creating Adventures
 
 Creating adventures is one of the greatest rewards of being a Dungeon Master. It’s a way to express yourself, designing fantastic locations and encounters with monsters, traps, puzzles, and conflicts. When you design an adventure, you call the shots. You do things exactly the way you want to.
@@ -218,6 +219,7 @@ Adventure Villains
 | 17–18 | Humanoid raider or ravager                     |
 | 19    | Humanoid under a curse                         |
 | 20    | Misguided humanoid zealot                      |
+
 ^advVillains
 
 
@@ -237,6 +239,7 @@ Adventure Allies
 | 10  | Fey ally                  |
 | 11  | Disguised monster         |
 | 12  | Villain posing as an ally |
+
 ^advAllies
 
 
@@ -259,6 +262,7 @@ Adventure Patrons
 | 18    | Desperate commoner            |
 | 19    | Embattled merchant            |
 | 20    | Villain posing as a patron    |
+
 ^Patrons
 
 #### 3  Flesh Out the Location Details

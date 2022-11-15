@@ -1,3 +1,7 @@
+###### Roller
+What's odd about the animal: [[Odd Animal#^oddanimal]]
+Wounds: [[Odd Animal#^wounds]]
+##### Table
 Albino
 Covered in moss, grass, or bark
 Dead, possibly mutilated (see Table XXX)

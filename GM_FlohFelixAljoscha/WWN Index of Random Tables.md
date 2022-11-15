@@ -41,15 +41,15 @@
 - General places of advenure 146 [[202203191259 WWN p146 Ruins and Points of Interest]]
 - Places specific to the latter earth 146
 - Communities
-	- rural villages
+	- rural villages [[202211151020 WWN Rural Village]]
 		- rationale for village existence 149
 		- features of village 149
 		- ivolvement with adventurers 149
-	- Major cities 
+	- Major cities  [[202211151030 WWN Major Cities]]
 		- rationale of cities existence 150
 		- Features of city 150
 		- Citiy involvement witih adventurers 150
-		- City Ruins form Hot Springs island [[201909200156 The Dark of Hot Springs Island]]
+		- City Ruins form Hot Springs island [[202211151042 Hot Springs City Ruins]]
 	- [[WWN Tribes and exiles]]
 		- why are they staying here 151
 		- Features of the tribe
@@ -110,7 +110,7 @@
 		- Modern ruin 240
 		- alien arratu 240
 		- Trackless wilderness 240 [[202203241259 WWN p 240 Wilderness Encnounter Table]]
-	- Rooms of interest
+	- Rooms of interest [[202211151046 WWN Room Theme]]
 	- Hex points of interest [[202203241226 WWN p 242 Hex points of Interest]]
 		- basic type 242
 		- Example community site p242

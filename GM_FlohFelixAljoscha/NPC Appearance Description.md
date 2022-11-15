@@ -1,6 +1,7 @@
 ## Roller
 `dice: [[NPC Appearance Description#^short]]`
 `dice: [[NPC Appearance Description#^long]]`
+![[201811200023 Ironsworn MOC#NPC Description]]
 ## tables
 - Short List
 | Wild hair                   |

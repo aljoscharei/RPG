@@ -1,7 +1,9 @@
-# Seed
+## Seed
 A long time ago `dice: [[Forbidden Lands Legend Generator#^howLong]]`, there was a `dice: [[Forbidden Lands Legend Generator#^adj]]` `dice: [[Forbidden Lands Legend Generator#^who]]` who sought `dice: [[Forbidden Lands Legend Generator#^goal]]` because of `dice: [[Forbidden Lands Legend Generator#^why]]`,  and travelled to `dice: [[Forbidden Lands Legend Generator#^place]]`  located `dice: [[Forbidden Lands Legend Generator#^howfar]]` in a/some`dice:  [[Forbidden Lands Legend Generator#^site]]` in the direction of `dice: [[Forbidden Lands Legend Generator#^direction]]`. AS THE LEGEND GOES, IT IS SAID THAT HE/SHE... `dice: [[Forbidden Lands Legend Generator#^action]]` ... AND THAT AT THE LOCATION THERE IS/ARE..  
 `dice: [[Forbidden Lands Legend Generator#^treasuare]]` but also `dice: [[Forbidden Lands Legend Generator#^monsteradj]]` `dice: [[Forbidden Lands Legend Generator#^monsters]]`.
-
+## Where is the thing
+`dice: [[Forbidden Lands Legend Generator#^howfar]]`
+`dice: [[Forbidden Lands Legend Generator#^direction]]`
 # List
 300–1,100 5–
 1,100+

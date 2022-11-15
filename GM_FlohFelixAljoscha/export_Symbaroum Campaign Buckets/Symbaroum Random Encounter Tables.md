@@ -2,21 +2,19 @@
 - Bright Monster 1 `dice: [[Symbaroum Random Encounter Tables#^encounterBright]]`
 - Monster Interaction `dice: [[Symbaroum Random Encounter Tables#^MonsterInteraction]]`
 - Brtight Monster 2 `dice: [[Symbaroum Random Encounter Tables#^encounterBright]]`
-- What's the Monster Doing `dice: [[Monster Activity#^NormalActivity]]`
-- Beasts: `dice: [[Whats that bestial monster doing#^MonsterActivity]]`
-- Sapient doning right now: `dice: [[Combat What is enemy doing#^MonsterActivity]]`
-- Sapients Problems: `dice: [[Combat What problems do they have#^WhatProbs]]`
-- Reaction `dice: [[Monster Activity#^ReactionTable]]`
+- What's the Monster Doing ![[Monster Activity#Roller]]
+- Beasts:  ![[Whats that bestial monster doing#Roller]]
+- Sapient doning right now:  ![[Combat What is enemy doing#Roller]]
+- Sapients Problems:  ![[Combat What problems do they have#Roller]]
 - Wild Monster 1  `dice: [[Symbaroum Random Encounter Tables#^encounterWild]]`
 - Monster Interaction `dice: [[Symbaroum Random Encounter Tables#^MonsterInteraction]]`
 - Wild Monster 2 `dice: [[Symbaroum Random Encounter Tables#^encounterWild]]`
-- Twists: `dice: [[Twists about the target or their allies#^Twists]]`
+- Twists:  ![[Twists about the target or their allies#Roller]]
+- Monster AI: ![[201811200023 Ironsworn MOC#Combat Magic]]
 - Where is the encounter Happening: Random Monument
-- ![[Wilderness Exploratoin Sly Flourish#Forest Scenery]]
+- ![[Wilderness Exploration#Roller]]
 - ![[202203280513 WWN p 247 Random Encounters#Roller]]
-
-
-# Random Talbe Reference
+# Random Table Reference
 -  [[common beast bright Davokar]]
 -  [[Color Monster bright Davokar]]
 -  [[Cultural being bright Davokar]]

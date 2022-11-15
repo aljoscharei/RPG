@@ -1,3 +1,6 @@
+##### Roller
+`dice: [[Combat What problems do they have#^WhatProbs]]`
+##### Table
 | Heading                                                                     |
 | --------------------------------------------------------------------------- |
 | They’re arguing over the fair division of some recently-gained spoils       |
