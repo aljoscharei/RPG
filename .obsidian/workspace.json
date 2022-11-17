@@ -6,6 +6,7 @@
       {
         "id": "0951dc893049fc3d",
         "type": "tabs",
+        "dimension": 29.654654654654657,
         "children": [
           {
             "id": "0a5be6c3fc7ceb08",
@@ -20,36 +21,12 @@
             }
           },
           {
-            "id": "c2a872a942e3cc2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/undead theme MOC.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "46b7c2f033571d51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203241249 WWN 240 Dungeon Encounter Table.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "17470c3e8cd8d35b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202009021431 Filling in the Blanks.md",
+                "file": "GM_FlohFelixAljoscha/fantastic lairs Sly Flourish.md",
                 "mode": "source",
                 "source": true
               }
@@ -62,13 +39,32 @@
               "type": "markdown",
               "state": {
                 "file": "GM_FlohFelixAljoscha/Fill.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
+      },
+      {
+        "id": "dacdb501530e446d",
+        "type": "tabs",
+        "dimension": 70.34534534534535,
+        "children": [
+          {
+            "id": "9318e8e031671c3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/Fill.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,17 +200,17 @@
     "width": 382.5,
     "collapsed": true
   },
-  "active": "796af3d263e01b91",
+  "active": "9318e8e031671c3b",
   "lastOpenFiles": [
-    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202009021431 Filling in the Blanks.md",
-    "GM_FlohFelixAljoscha/Fill.md",
+    "GM_FlohFelixAljoscha/fantastic lairs Sly Flourish.md",
+    "GM_FlohFelixAljoscha/RPG Master Index.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203241249 WWN 240 Dungeon Encounter Table.md",
-    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203241255 WWN p145 One Roll Cult.md",
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202009021431 Filling in the Blanks.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Brainstorming MOC.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/undead theme MOC.md",
+    "GM_FlohFelixAljoscha/Fill.md",
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203241255 WWN p145 One Roll Cult.md",
     "GM_FlohFelixAljoscha/Untitled.md",
-    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203091119 Random Tables MOC.md",
-    "GM_FlohFelixAljoscha/5e DMG 05 Adventure Environments.md",
-    "GM_FlohFelixAljoscha/Solo RPG.md"
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203091119 Random Tables MOC.md"
   ]
 }

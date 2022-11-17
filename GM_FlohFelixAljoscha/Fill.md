@@ -22,7 +22,7 @@
 | 2         | Soil                                                                                                                                                                                                                                              |
 | 3         | Terrain                                                                                                                                                                                                                                           |
 | 4         | Caves. The cave has `dice: [[Fill#^CaveEntrances]]`.One Entrance is `dice: [[Fill#^TypeCaveEntrance]]`. There are `dice: [[Fill#^NumberChambers]]`. Is the water in the cave? `dice: [[Fill#^caveWater]]`                                         |
-| 5         | Rock                                                                                                                                                                                                                                              |
+| 5         | Rock 'dice: [[Fill#^typeRocks]]'                                                                                                                                                                                                                                              |
 | 6         | Water                                                                                                                                                                                                                                             |
 ^GeologicFeature
 
@@ -166,12 +166,14 @@ The terrain is unusually rocky. This manifests itself in three different ways:
 
 | d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1-35   | A  number  of  smaller  rocks  (roll  `dice: 1d6`-1  to indicate the average diameter, in feet), with a  density  of  `dice: 3d10`  per  `dice: 1d20`×100  sq.  ft.  A result of 0 indicates the rocks are, on average, smaller than a foot in diameter.`dice: [[Fill#^AreaRocks]]`                                                                                                                                                                                                   |
-| 36-70  | a  smaller  number  of  larger  rocks,  with  an average diameter of 3d6 feet and a density of 1d4 per 1d20×100 feet. `dice: [[Fill#^AreaRocks]]`                                                                                                                                                                                                                                                                                                             |
-| 71-100 | an  outcropping  of  rock.  If  the  outcropping occupies  a  single  subhex  there  is  only  one; if  multiple  subhexes  there  is  a  chance  each subhex will have (1-3) a single outcropping, (4-5) 1d4 outcroppings (depending on overall  size),  or  (6)  the  outcroppings  join together  to  form  one  massive  outcropping that covers the entire area.  To determine the size of the outcropping roll below: `dice: [[Fill#^OutcroppingSize]]` |
+| 1-35   | A  number  of  smaller  rocks  (roll  `dice: 1d6`-1  to indicate the average diameter, in feet), with a  density  of  `dice: 3d10`  per  `dice: 1d20`×100  sq.  ft.  A result of 0 indicates the rocks are, on average, smaller than a foot in diameter.`dice: [[Fill#^AreaRocks]]` `dice: [[Fill#^rocksUnusual]]`                                                                                                                                                                                                  |
+| 36-70  | a  smaller  number  of  larger  rocks,  with  an average diameter of 3d6 feet and a density of 1d4 per 1d20×100 feet. `dice: [[Fill#^AreaRocks]]` `dice: [[Fill#^OriginRocks]]` `dice: [[Fill#^rocksUnusual]]`                                                                                                                                                                                                                                                                                                            |
+| 71-100 | an  outcropping  of  rock.  If  the  outcropping occupies  a  single  subhex  there  is  only  one; if  multiple  subhexes  there  is  a  chance  each subhex will have (1-3) a single outcropping, (4-5) 1d4 outcroppings (depending on overall  size),  or  (6)  the  outcroppings  join together  to  form  one  massive  outcropping that covers the entire area.  To determine the size of the outcropping roll below: `dice: [[Fill#^OutcroppingSize]]`, `dice: [[Fill#^OutcroppingArea]]` |
 ^typeRocks
 
+
 size of Outcropping
+
 13-table-3.md
 
 | d100   | Result                                                  |
@@ -185,29 +187,34 @@ size of Outcropping
 Area of Outcopping
 13-table-6.md
 
-| d100   | Result         |
-|:-------|:---------------|
-| 1-60   | 1 subhex       |
-| 61-89  | `dice: 1d4+1` subhexes |
-| 90-96  | `dice: 3d8` subhexes   |
-| 97-99  | 1 hex          |
-| 100    | `dice: 1d4+1` hexes    |
+| d100  | Result                 |
+|:----- |:---------------------- |
+| 1-60  | 1 subhex               |
+| 61-89 | `dice: 1d4+1` subhexes |
+| 90-96 | `dice: 3d8` subhexes   |
+| 97-99 | 1 hex                  |
+| 100   | `dice: 1d4+1` hexes    |
 ^OutcroppingArea
 
 If the rocks are not an outcropping they will cover an area of . . .
 14-table-1.md
 
-| d100   | Result                  |
-|:-------|:------------------------|
-| 1-30   | `dice: 1d4`x100 square feet     |
-| 31-50  | `dice: 2d6`x500 square feet     |
-| 51-65  | `dice: 3d8`x1,000 square feet   |
-| 66-80  | `dice: 4d10`x10,000 square feet |
-| 81-90  | `dice: 1d4` subhexes            |
-| 91-95  | `dice: 3d6` subhexes            |
-| 96-99  | `dice: 4d8` subhexes            |
-| 100    | `dice: 1d4` hexes               |
+
+
+| d100  | Result                          |
+|:----- |:------------------------------- |
+| 1-30  | `dice: 1d4`x100 square feet     |
+| 31-50 | `dice: 2d6`x500 square feet     |
+| 51-65 | `dice: 3d8`x1,000 square feet   |
+| 66-80 | `dice: 4d10`x10,000 square feet |
+| 81-90 | `dice: 1d4` subhexes            |
+| 91-95 | `dice: 3d6` subhexes            |
+| 96-99 | `dice: 4d8` subhexes            |
+| 100   | `dice: 1d4` hexes               |
 ^AreaRocks
+
+
+
 The rocks will be . .
 14-table-2.md
 
@@ -222,38 +229,72 @@ The rocks will be . .
 The Referee can refer to the Resources section on p. 37 to determine the type of rock.
 
 There’s an additional 1 in 6 chance of something unusual about the rocks . . .
-(1-3) The rocks have been written on. The writing is 
-	1. 1-2 carved into the stone, 
-	2. 3-4 written on the surface with some substance, 
-	3. 5 patterned in lichen or moss, or 
-	4. 6 appears organically in the surface of the rock itself. 
-- Further, the writing will either be on a single stone (1-3), 1d20+1 stones (4-5) or all of the stones (6) 
+
+| dice: 1d36 | result                                                           |
+| ---------- | ---------------------------------------------------------------- |
+| 1-3        | The rocks have been written on. The writing is `dice: [[Fill#^writingRockHow]]`, Further, the writing will be on `dice: [[Fill#^WritingRockAmount]]`,`dice: [[Fill#^writingContent]]`                  |
+| 4-5        | The rocks are arranged in a specific pattern. The pattern can    |
+| 6          | The Rocks are Magical. Refer to the section on Magical Features. |
+| 7-36       | There is nothing unusual about the rocks                                                                 |
+^rocksUnusual
+
+
+
+| dice: 1d6 | result                                                 |
+| --------- | ------------------------------------------------------ |
+| 1-2       | carved into the stone,                                 |
+| 3-4       | written on the surface with some substance,            |
+| 5         | patterned in lichen or moss, or                        |
+| 6         | appears organically in the surface of the rock itself. |
+^writingRockHow
+
+
+
+| dice: 1d6 | result            |
+| --------- | ----------------- |
+| 1-3       | one single stone  |
+| 4-5       | 1d20+1 stones     |
+| 6         | all of the stones |
+^WritingRockAmount
+
 The writing 
-1.  Is meaningless, obscene or pornographic graffiti.
-2.  Contains the formula to a spell (1-4) or magical item (5-6). It takes 1d8 weeks plus one day per additional stone containing the writing to decipher and understand what is scribed upon it.
-3.  A prophecy, concerning events that are yet to come (1-4) or have already passed (5-6). There’s a 1-2 in 6 chance the prophecy is wrong.
-4.  A map. On a 1-2 it’s a treasure map (roll on the Scrolls treasure table, treating all non treasure map results as a reroll), 3-4 it’s a map of the surrounding area, 5 it’s a map to an undiscovered/unknown area (1-2 in 6 chance of being in another plane or dimension), or 6 a map of a random location.
-5.  There’s a small crevice in the rock, and if the adventurers write a question on a slip of paper (1-2 in 6 chance that the question must be asked in a specific language, (3-4) written in the asker’s blood, or (5-6) accompanied by a gift), slip it into the crevice, and return the next day the writing will reform itself as an answer to the question posed (treat as 1-3 augury, 4-5 divination, or 6 commune, all as if cast by a cleric of level 6+1d8).
-6.  The writing is 1 a record of historical events (see Monuments, p. 17), 2 a warning about dangers (1-4 current, 5-6 past and no longer relevant) in the area, 3 a personal missive directed to one of the adventurers (1-3 chance of being accurate, from a dead relative or friend. There’s a 1-2 chance it will contain advice about upcoming events, otherwise it will just be the friend or relative saying hello), 4 a single letter per stone (see above to determine the number of stones with writing on them), arranged in a random fashion (the letters, when sorted, spell out 1-2 a dirty word, 3-4 the name of an ancient king or magician, 5 the name of an ally of the party who means to betray them, or 6 the true name of a demon or fairy that can be used to bind said creature), 5 assembly directions (if the stones are arranged according to the directions written upon them they will create 1-2 a sculpture, 3-4 a crude dwelling, 5 a portal that functions as a gate to another world, or 6 a circle 1d20+10 feet in diameter, inside which the adventurers may camp without fear of wandering monsters. In the last two instances the effects last for 1 1d4 uses (camping 8 hours counts as a “use”), 2 1d4 hours, 3 3d4 hours, 4 1d4 days, 5 1d4 weeks, 6 permanently) or 6 something else of the Referee’s choosing.
+| dice: 1d6 | result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Is meaningless, obscene or pornographic graffiti.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 2         | Contains the formula to a spell (1-4) or magical item (5-6). It takes 1d8 weeks plus one day per additional stone containing the writing to decipher and understand what is scribed upon it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 3         | A prophecy, concerning events that are yet to come (1-4) or have already passed (5-6). There’s a 1-2 in 6 chance the prophecy is wrong.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 4         | A map. On a 1-2 it’s a treasure map (roll on the Scrolls treasure table, treating all non treasure map results as a reroll), 3-4 it’s a map of the surrounding area, 5 it’s a map to an undiscovered/unknown area (1-2 in 6 chance of being in another plane or dimension), or 6 a map of a random location.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 5         | There’s a small crevice in the rock, and if the adventurers write a question on a slip of paper (1-2 in 6 chance that the question must be asked in a specific language, (3-4) written in the asker’s blood, or (5-6) accompanied by a gift), slip it into the crevice, and return the next day the writing will reform itself as an answer to the question posed (treat as 1-3 augury, 4-5 divination, or 6 commune, all as if cast by a cleric of level 6+1d8).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 6         | The writing is 1 a record of historical events (see Monuments, p. 17), 2 a warning about dangers (1-4 current, 5-6 past and no longer relevant) in the area, 3 a personal missive directed to one of the adventurers (1-3 chance of being accurate, from a dead relative or friend. There’s a 1-2 chance it will contain advice about upcoming events, otherwise it will just be the friend or relative saying hello), 4 a single letter per stone (see above to determine the number of stones with writing on them), arranged in a random fashion (the letters, when sorted, spell out 1-2 a dirty word, 3-4 the name of an ancient king or magician, 5 the name of an ally of the party who means to betray them, or 6 the true name of a demon or fairy that can be used to bind said creature), 5 assembly directions (if the stones are arranged according to the directions written upon them they will create 1-2 a sculpture, 3-4 a crude dwelling, 5 a portal that functions as a gate to another world, or 6 a circle 1d20+10 feet in diameter, inside which the adventurers may camp without fear of wandering monsters. In the last two instances the effects last for 1 1d4 uses (camping 8 hours counts as a “use”), 2 1d4 hours, 3 3d4 hours, 4 1d4 days, 5 1d4 weeks, 6 permanently) or 6 something else of the Referee’s choosing. |
+^writingContent
+
 4-5) The rocks are arranged in a specific pattern. The pattern can
-- 1-4 only be discerned from above or 
-- 5-6 is obvious from ground level. The pattern will be one of the following . . .
-	- The pattern is of a random shape or arrangement, determined by the whim of of a mad artist, whimsical deity or capricious spirit.
-	- The pattern is mundane in nature, forming a shape or image with little to no significance except to its executor.
-	- There is power within the pattern, but it is not clear what it is. It takes 1d8 days of study to determine what the pattern does. The pattern is 
-		- 1 a ward against something (roll on the Scrolls table to determine what it wards against), 
-		- 2 functions as a gate (
-			- 1-3 to another place in this world, 
-			- 4-5 to a place in another world or dimension, or 
-			- 6 to another time), 
-		- 3 functions to alter the surrounding weather (
-			- 1-2 by moderating, 
-			- 3-4 by intensifying, or 
-			- 5-6 by attracting a certain phenomenon), 
-		- 4 it acts as a prison, containing a powerful creature or creatures (with a combined HD total of 10d10)
-		- 5 acts as a focus for ley line energy (see the section on Magic, p. 66, as well as Hex 13.22 for more information on ley lines. There’s a 1-3 in 6 chance the ley line it once focused has since shifted position), or 
-		- 6 is an artifact designed to cast a permanent spell over a larger area.
-(6) The Rocks are Magical. Refer to the section on Magical Features.
+
+
+
+| dice: 1d6 | result                        | 
+| --------- | ----------------------------- |
+| 1-4       | only be discerned from above  |
+| 5-6       | is obvious from ground level. |
+^patternPerspective
+
+The pattern will be one of the following . . .
+
+| dice: 1d108 | result                                                                                                                                                                                                                           |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 73-108      | The pattern is of a random shape or arrangement, determined by the whim of of a mad artist, whimsical deity or capricious spirit.                                                                                                |
+| 37-72       | The pattern is mundane in nature, forming a shape or image with little to no significance except to its executor.                                                                                                                |
+| 1-6         | There is power within the pattern, but it is not clear what it is. It takes 1d8 days of study to determine what the pattern does. It is a ward against something (roll on the Scrolls table to determine what it wards against), |
+| 7-9         | functions as a gate to another place in this world,                                                                                                                                                                              |
+| 10-11       | functions as a gate to a place in another world or dimension, or                                                                                                                                                                 |
+| 12          | functions as a gate to another time                                                                                                                                                                                              |
+| 13-14       | functions to alter the surrounding weather by moderating,                                                                                                                                                                        |
+| 15-16       | functions to alter the surrounding weather by intensifying, or                                                                                                                                                                   |
+| 17-18       | functions to alter the surrounding weatherby attracting a certain phenomenon)                                                                                                                                                    |
+| 19-24       | it acts as a prison, containing a powerful creature or creatures (with a combined HD total of 10d10)                                                                                                                             |
+| 25-30       | acts as a focus for ley line energy (see the section on Magic, p. 66, as well as Hex 13.22 for more information on ley lines. There’s a 1-3 in 6 chance the ley line it once focused has since shifted position)                 |
+| 31-36       | is an artifact designed to cast a permanent spell over a larger area.                                                                                                                                                            |
+
 
 ##### Soil
 15-table-1.md
