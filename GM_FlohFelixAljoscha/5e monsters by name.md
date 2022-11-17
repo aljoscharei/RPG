@@ -2,6 +2,7 @@
 [[Symbaroum Monsters MOC]]
 [[Ruins of Symbaroum Bestiary new but Gibberish.pdf]]
 [[Monster by Job]]
+[[202211152356 WWN Monster AI#Roller]]
 description:_All_monsters_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document),_organized_by_name
 
 
@@ -1010,8 +1011,8 @@ Human readable Monsters
 - [[couatl]]
 - [[5e Monster crab]]
 - [[crocodile]]
-- [[cult fanatic]]
-- [[cultist]]
+- [[Cult Fanatic]]
+- [[Cultist]]
 
 ## D
 - [[Monsters (D) - Monster Manual - Sources - D&D Beyond.html]]

@@ -1,6 +1,6 @@
 ###### Roller
-What's odd about the animal: [[Odd Animal#^oddanimal]]
-Wounds: [[Odd Animal#^wounds]]
+What's odd about the animal: `dice: [[Odd Animal#^oddanimal]]`
+Wounds: `dice: [[Odd Animal#^wounds]]`
 ##### Table
 Albino
 Covered in moss, grass, or bark

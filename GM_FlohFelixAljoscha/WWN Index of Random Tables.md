@@ -49,13 +49,13 @@
 		- rationale of cities existence 150
 		- Features of city 150
 		- Citiy involvement witih adventurers 150
-		- City Ruins form Hot Springs island [[202211151042 Hot Springs City Ruins]]
+		- City Ruins form Hot Springs island [[202211151042 Hot Springs City Ruins]] [[Urbancrawl Citycrawl MOC]]
 	- [[WWN Tribes and exiles]]
 		- why are they staying here 151
 		- Features of the tribe
-		- Trival ivolvement with adventurers 151
+		- Tribal ivolvement with adventurers 151
 	- Table of community Tags [[202109080644 WWN Community Tags MOC]]
-- Courts [[202211152106 WWN Court Tags MOC]]
+- Courts 
 	- Aristocratic Courts
 		- Main Theme of Aristocratic Court 167
 		- People of the Aristocratic Courts 167
@@ -76,13 +76,13 @@
 		- Relations with larger faith 171
 		- People of the religious court 171
 		- Problems of the religious court 171
-	- Table of court Tags 172
+	- Table of court Tags 172 [[202211152106 WWN Court Tags MOC]]
 - Ruins
 	- one-roll ruin generation 187 [[202203241302 WWN p 187 One Roll Dungeon Generation]]
 	- latter earth specific ruins 188
 	- Ruins Tags 190 [[202202130655 WWN Dungeon Tags MOC]]
-- Wilderness
-	-  wilderness Encouters p 205
+- Wilderness 
+	-  [[WWN Wilderness Encouters]] p 205
 		- human wilderness Encouters p 205
 		- nonhuman sapient wilderness Encouters p 205
 		- beast wilderness Encouters p 205
@@ -117,7 +117,7 @@
 		- Example court site 242
 		- Example wildernesss site 242
 	- Room layout p 243
-	- Stocking Rooms 244
+	- Stocking Rooms 244 [[WWN Stocking Rooms]]
 	- Room hazards 245
 	- Room enigmas 245
 	- room distractors 245
@@ -128,7 +128,7 @@
 	- What mood are they in 247
 	- Example of wilderness event 247
 	- Example of dungeon event 247
-- Crime investigation
+- Crime investigation [[202206130913 Detektivabenteuer Mysteries]]
 	- Resolution scene twists 250
 	- Ivestigation scene complications 250
 	- Intro scene hooks 250
@@ -176,8 +176,8 @@
 		- Augmenting powers 290
 		- Intrinsic powers 290
 	- One-roll monstrous context 293
-- NPC reaction Roll 296
-- NPC instictive action 299 Monster AI
+- NPC reaction Roll 296 is the usual reactio roll
+- NPC instictive action 299 [[202211152356 WWN Monster AI]] 
 	- Animal instinctive action 301 Monster AI! 
 - Background actors
 	- general actor activites 334
@@ -187,11 +187,11 @@
 - Hireling Cost 342
 - soldiers cost 343
 - Ifernal iterum Tools 371
-- SUmmoned iteum creatures 373
+- Summoned iteum creatures 373
 - alternate worlds 375
 - [[Adventure reward]] 376
 - [[How to Show Info]] 376
-- oracular adventure adjustment 377
+- [[oracular adventure adjustment]] 377
 - [[fractal adventure seeds]] 380
 - Random NPC types 384
 - Appearance of NPC 387

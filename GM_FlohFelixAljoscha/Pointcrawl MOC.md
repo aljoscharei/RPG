@@ -80,3 +80,10 @@ Thunderous gap
 Lost mines
 Road of despair
 Path of bones
+
+
+
+Das ziel ist im pointcrawl oder im dungeon am anfang aber verschlossen so dass man weitere points braucht um den schlüssel zu finden. Dann muss an der verschlossenen tür ein hinweis auf den schlüssel zu finden sein.
+- spuren eines stoneshape zaubers, leiche des abenteurers der reinwollte, tagebuch dass wand of stoneshape gefunden, federn und harpyshit als hinweis auf den mörder (der den wand nun hat.
+- mundane: sichere tür verschlossesn. Schlüssel haben offensichtlich die wärter (Gefängnis, Ausstellung/Museum, Zoo, Ranger wenn der verschlossene ort ein rangerunterschlupf ist)
+- A caster did a warding spell. The spell has a powersource which has to be destroyed

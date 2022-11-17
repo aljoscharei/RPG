@@ -1,0 +1,5 @@
+[[Ruins of Symbaroum Sorcerer Spells]]
+[[Ruins of Symbaroum Wizard Spells]]
+[[Ruins of Symbaroum Theurg Spells]]
+[[Ruins of Symbaroum Witch Spells]]
+[[Ruins of Symbaroum Troll Singer Spells]]

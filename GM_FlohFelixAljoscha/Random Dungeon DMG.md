@@ -24,6 +24,7 @@ Temple Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonTemple]]`
 Tomb Dungeon Room: `dice: [[Random Dungeon DMG#^dungeonTomb]]`
 Treasure Vault Dungeon Room: `dice: [[Random Dungeon DMG#^dungeonTreasureVault]]`
 Dungeon Chambers: `dice: [[Random Dungeon DMG#^generalDungeonChambers]]`
+![[WWN Stocking Rooms#Roller]]
 ![[202211151046 WWN Room Theme#Roller]]
 Dungeon Chamber State: `dice: [[Random Dungeon DMG#^currentChamberState]]`
 Dungeon Chamber Content: `dice: [[Random Dungeon DMG#^dungeonChamberContents]]`

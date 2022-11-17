@@ -15,6 +15,8 @@ Forest Marvels: `dice: [[Wilderness Exploration#^woundrous]]`
 ![[5e DMG 05 Adventure Environments#Wilderness Exploration]]
 ![[201811200023 Ironsworn MOC#Delve Sites]]
 ![[201811200023 Ironsworn MOC#Location]]
+![[202203191259 WWN p146 Ruins and Points of Interest#Roller]]
+![[202203241226 WWN p 242 Hex points of Interest#Roller]]
 ## Tables
 ### Wilderness Quests
 Restore a defiled grove  

@@ -42,8 +42,8 @@ creatures:
 [[Symbaroum PC Rojazz]] x s
 [[Symbaroum PC Paco]]
 [[5e Mystic Sorcerer]] x x s x
-[[cult fanatic]]
-[[cultist]]
+[[Cult Fanatic]]
+[[Cultist]]
 [[giant centipede]]
 [[Child of 1000 legs]]
 

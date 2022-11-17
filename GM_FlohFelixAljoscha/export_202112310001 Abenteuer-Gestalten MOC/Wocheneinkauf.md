@@ -1,0 +1,116 @@
+[[Essen MOC]]
+![[202004111445 Wochenplan Essen]]
+Essen diese Woche:
+- Kartoffelgratin mit Sala und Grillwürstchen
+- beef Stroganoff mit Pseudofleisch und reis
+- Hamburger mit Hackfleisch
+- kartoffeln mit Quark
+- Grüne Bohne mit tomaen mit quinoa
+- Rote LInsensuppe
+Wocheneinkauf
+-Obst Gemüse
+	- Kartoffeln
+	- Äpfel 2,5 kg oder 15 stck
+	- Sellerieknolle halbe für Suppen
+	- Zwiebeln
+	- 2x Kopfsalat
+	- Feldsalat
+	- 2x Pflaumentomaten
+	- 1kg Saisonobst: Pflaumen/Pfirsich/Orangen/Mandarinen
+	- 3 Gurken
+	- 2 Paprika
+	- 1 Zucchini
+	- 1x grüne Bohnen
+	- ggf unbehandelte Zitrone
+- Brot
+	- 1 x Toast
+	- Hamburger buns
+	- 1 kg weizenmehl 550
+	- Brot
+- Milch
+	- 2x Vanillejoghurt
+	- 2 joghurt
+	- 4 l milch
+	- 1 Butter/Margarine
+	- Quark
+	- Hüttenkäse
+	- 3 mozzarella
+	- Alter Gouda
+	- Sahne 200 ml
+	- Hafermilch
+	- Hefe
+- Fleisch und Veggi
+	- 2x Rostbratwürstchen
+	- 2 Wiener Würstchen
+	- vegetarisches Hack
+	- vegetarische Leberwurst
+	- Tofu natur
+	- 3x Hähnchenbrustbraten
+	- 3x Salami
+	- 2x Bio Lachs Tiefkühl
+- Trocken und Dosen
+	- 1kg Fussili oder Farfalle
+	- remoulade
+	- Nüsse
+	- Basmati reis
+	- weiße Bohnen getrocknet
+	- 2 x Dosentomaten nur wenn es Bio Mutti oder Oro die parma bio gibt
+	- 2x Pesto Basilico
+	- Quinoa
+	- Apfelmus
+- Tesafilm
+- Papier
+- Drogerie: 
+	- Spüli
+```
+Essen diese Woche:
+Essen diese Woche:
+- kartoffeln ei spinat
+Wocheneinkauf
+-Obst Gemüse
+	- Kartoffeln
+	- Äpfel 2,5 kg oder 15 stck
+	- Sellerieknolle halbe für Suppen
+	- Zwiebeln
+	- 2x Kopfsalat
+	- 2x Pflaumentomaten
+	- 1kg Saisonobst: Pflaumen/Pfirsich/Orangen/Mandarinen
+	- 3 Gurken
+- Brot
+	- 1 x Toast
+	- Brot
+- Milch
+	- 2x Vanillejoghurt
+	- 2 joghurt
+	- 4 l milch
+	- 1 Butter/Margarine
+	- Quark
+	- Hüttenkäse
+	- 3 mozzarella
+	- Alter Gouda
+	- Sahne 200 ml
+	- Hafermilch
+	- Hefe
+- Fleisch und Veggi
+	- 2x Rostbratwürstchen
+	- 2 Wiener Würstchen
+	- vegetarisches Hack
+	- vegetarische Leberwurst
+	- Tofu natur
+	- 3x Hähnchenbrustbraten
+	- 3x Salami
+	- 2x Bio Lachs Tiefkühl
+- Trocken und Dosen
+	- 1kg Fussili oder Farfalle
+	- Nüsse
+	- Basmati reis
+	- weiße Bohnen getrocknet
+	- 2 x Dosentomaten nur wenn es Bio Mutti oder Oro die parma bio gibt
+	- 2x Pesto Basilico
+	- Quinoa
+	- Apfelmus
+- Tesafilm
+- Papier
+- Drogerie: 
+	- Spüli
+ ```

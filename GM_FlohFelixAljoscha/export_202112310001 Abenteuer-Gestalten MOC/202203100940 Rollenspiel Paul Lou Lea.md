@@ -1,0 +1,52 @@
+ - [[The Dungeon Game.pdf]]
+	- alle monster haben nur 1 hp
+	- boss monster haben 2 oder mehr
+	- [[Five-Room-Dungeon MOC]]
+	- Session 1
+		- schiffsdock boss room
+		- ein gang mit höhenunterschied und bogenschütze schatz Secret Entrance to final
+		- ein gang mit wildem tier schatz Hazardous entrance to final encounter (gauntel room) fighting up staircase Room 3 setback
+		- Entrance guardian Room 1
+		- Thinky room archers posted ready to strine Room 
+		- Wizard
+			- Beast form scout and battle
+			- Lightning 
+			- levitate
+		- Rope
+		- Diadem ->Maske
+	- Session 2
+		- Encounters
+			- Insel in Flussmitte mit Zollstation [[Hex_13.39_The_Domain_of_Deepwater.pdf]]
+			- Zollschleuse. Soldaten des fiesen Königs greifen Freunde an. Karbeliumpfeile. Gleichzeitig wehr um die Gezeiten auszugleichen 5 m Tidenhub
+			- Kemperbad mit Aufzügen x Viridistan 2521 Leaford, 2621 Caer Cadwen
+			- Encounters auf River life
+			- Vampir vielleicht gewollt, schiff wurde angegriffen
+			- Angriff von Krokodilmenschen und Krokodilen auf Dorf Y'dell schwimmendes Dorf auf Ausbuchtung des Flusses Leander. Wollen in Frieden mit Elfen leben deshalb außerhalb von Speerwurf von Wald. Stege und Hausboote. Krokodilmenschen leben in den Prismatic Grottoes von [[202012242341 The Evils of Illmire v2]] 
+			- Y'dell/Seeheim
+				- Y'dell holt kritalle vom Grund des Sees wie korallen [[202105130134 Viridistan#^YDellSeeheim]]
+				- die Krokodilmenschen sind kürzlich hier eingezogen weil sie die kristalle für die beschwörung das erwecken des Wasserdrachen brauchen, der tief in den grotten lebt. [[202012250013.21 Prismatic Grottoes of the Fishmen]] [[000 media/   000 Goodreader Documents/The Evils of Illmire Set/Prismatic Grottoes of the Fishmen.jpg]]
+					- vielleicht: [[Mr-Kr-Gr_bookmarked_v2.pdf]] [[A Thousand thousand islands MOC]]
+				- Krokodlimenshen warem früher ein Reiterstamm aus [[202105130134 Viridistan#^ErbaAlba]]. Ihre Pferde kennen den Weg zu den Göttern [[202105130134 Viridistan#^ShimmertreeVale]]
+				- Einige mutige haben das Versteck eines Zauberers hinter Wasserfall [[202105130134 Viridistan#^ViridistanLich]] gefunden und dachten es sei verlassen. Der Zauberer hat den ganzen Stamm in Krokos verwandelt
+				- Lebten in [[202105130134 Viridistan#^MissinMemoryMarshes]] bis sie Shedus in 1527 [[202105130134 Viridistan#^SheduLair]] fanden, die Ihnen den Ort und des steinernen Herzens des Zauberers nannten.
+				- Sie können sich befreien durch das Herz aus Stein des Lich. 
+				- Sie verjagen alle anderen, weil sie Angst haben, dass sie auch das Geheimnis kennen und das Herz für sich selbst benötigen.
+			- Elfen
+			-  Stadt Leaford [[201903311522 city-of-golotha]] x Kemperbad in 2520
+			- Caer Caldwen [[201903311412 Evael Pesino]] Ulfshfen, Stadt der Elfen, vielleicht gab es eine fortschrittliche Elfenzivilistation bevor die Elfen waldelfen wurden. vielleicht düsteres getan deshalb rückkehr zur natur.
+			- eher nicht  [[201907121034 5702-Thay-City_AljoschaBeyer]]
+		- karte 
+			- [[202105130134 Viridistan]] x [[202201210938 The enemy within MOC]] Reich x Viridistan ist Rethem [[201905040713.1 Kingdom_of_Rethem]], Sprache Ungarisch
+				- Drachen 0220 gold, 5027 schwarz
+			- Leander
+				- Fluss Thard [[201905142116.1 5911-Thard-River_AljoschaBeyer]].
+				- [[201812232308 The Enemy Within 3 - Death On The Reik]] river life on the empire
+			- [[202201091027 harnmaster MOC]] 
+		- Start in 2218  Smale
+		- Brief von Xanathar dem Necromanten und Banditenchef, dass die die gefährliche Ladung an das schiff gebracht haben. und dass es in der Stadt für verwüstung sorgen wird
+		- Heiltränke sind adrenalin. machen abhängig und man braucht immer mehr bis man irgendwann. oder morphin
+- namen 
+	- [[202201210938 The enemy within MOC]]
+	- [[aventurien.JPG]]
+	- [[splittermond.JPG]]
+- 202206161333: [[202206121003 The incandescent grottoes]]
