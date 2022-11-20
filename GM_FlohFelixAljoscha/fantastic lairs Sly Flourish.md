@@ -61,7 +61,7 @@ creatures:
  - 1: Variol
  - 1: wererat
  - 2: spy
- - 1: swar of rats
+ - 1: swarm of rats
  - 1: otyugh
 ```
 [[Symbaroum PC Rojazz]]

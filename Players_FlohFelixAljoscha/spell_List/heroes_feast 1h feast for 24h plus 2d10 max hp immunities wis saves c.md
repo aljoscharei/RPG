@@ -3,7 +3,7 @@ name: Heroes' Feast
 level: 6
 school: [[conjuration spells]]
 classes: [[cleric spells]]
-         [[druid spells]]
+         [[druid spells]][[Ruins of Symbaroum Theurg Spells]]
 
 # Heroes' Feast 
 _6th-level conjuration_ 

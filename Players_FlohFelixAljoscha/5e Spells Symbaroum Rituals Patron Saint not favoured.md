@@ -1,5 +1,5 @@
 NPC, gets XP
-
+[[Ruins of Symbaroum Theurg Spells]]
 
 # 5e
 

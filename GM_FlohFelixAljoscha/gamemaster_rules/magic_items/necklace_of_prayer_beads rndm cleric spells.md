@@ -12,7 +12,7 @@ Six types of magic beads exist. The GM decides the type of each bead on the neck
 |-------|-------------------|-----------------------------------------------------------|
 | 1-6   | Blessing          | **_[[5e Spells bless buff attack save d4 c]]_**                                               |
 | 7-12  | Curing            | **_[[5e spells cure wounds d8 touch c]]**_ (2nd level) or **_lesser restoration_** |
-| 13-16 | Favor             | **_[[greater_restoration c]]_**                                 |
+| 13-16 | Favor             | **_[[greater restoration c not favoured]]_**                                 |
 | 17-18 | Smiting           | **_[[branding_smite extra 2d6 paladin]]_**                                      |
 | 19    | Summons           | **_[[planar_ally wants payment c]]_**                                         |
 | 20    | Wind walking      | **_[[wind_walk gaseous d]]_**                                           |

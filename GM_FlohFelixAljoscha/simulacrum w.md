@@ -21,7 +21,7 @@ compare
 [[clone permanent homunculus w not favoured]]
 [[Ceremony create Goroth]]
 [[GM_FlohFelixAljoscha/Symbaroum Monsters/Symbaroum Monster Flaming Servant]]
-[[5e Spells Symbaroum Rituals Patron Saint]]
+[[5e Spells Symbaroum Rituals Patron Saint not favoured]]
 
 
 

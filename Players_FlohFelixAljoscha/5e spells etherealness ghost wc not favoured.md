@@ -8,6 +8,7 @@ classes: [[bard spells]]
          [[sorcerer_spells]]
          [[warlock_spells]]
          [[Players_FlohFelixAljoscha/Spell Indices/wizard spells]]
+         [[7th level witch spells]]
 
 # Etherealness 
 _7th-level transmutation_ 
@@ -45,3 +46,4 @@ This spell has no effect if you cast it while you are in the Yonderworld.
 At Higher Levels. When you cast this spell at 8th level or higher, you can target up to three willing creatures (in- cluding you) for each level above 7th. The creatures must be within 10 feet of you when you cast the spell.
 
 [[5e Symbaroum Spells Spirit walk ros ritual]] 
+[[202202121703 Access Spell]]

@@ -44,7 +44,7 @@ lesser restoration,
 [[freedom_of_movement no restrained difficult terrain c]]  
 5th level (2 slots): 
 [[flame strike]]
-[[greater_restoration c]]  
+[[greater restoration c not favoured]]  
 6th level (1 slot):
 [[heroes_feast 1h feast for 24h plus 2d10 max hp immunities wis saves c]]
 

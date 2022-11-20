@@ -18,3 +18,5 @@ _1st-level transmutation_
 You touch a creature. The creature's jump distance is tripled until the spell ends. 
 [[5e Long Jump]]
 [[5e High Jump]]
+
+[[202202121703 Access Spell]]

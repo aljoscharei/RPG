@@ -2,7 +2,7 @@
 name: Commune
 level: 5
 school: [[divination spells]]
-classes: [[cleric spells]]
+classes: [[cleric spells]],[[Ruins of Symbaroum Theurg Spells]]
 
 # Commune 
 _5th-level divination (ritual)_ 

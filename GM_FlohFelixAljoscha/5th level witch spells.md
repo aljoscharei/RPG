@@ -3,5 +3,6 @@
 [[5e spells hold monster paralyzed w not favoured]] #favoured 
 [[scrying on creature wc not favoured]] #favoured 
 [[telepathic bond intranet w ros ritual]] #ritual 
+[[5e spells insect plague 4d10 dmg c]]
 [[5e spells Symbaroum Rituals Turn weather]]
 [[5e spells geas wc]]

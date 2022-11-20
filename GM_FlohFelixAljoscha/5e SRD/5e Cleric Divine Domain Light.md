@@ -30,7 +30,7 @@ Spells
 
 9th
 
-[[5e spells flame_strike AOE 8d6 dmg c]]
+[[5e spells flame_strike AOE 8d6 dmg c not favoured]]
 [[scrying on creature wc not favoured]]
 
 

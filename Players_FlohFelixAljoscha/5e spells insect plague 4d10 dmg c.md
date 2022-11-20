@@ -5,6 +5,7 @@ school: [[conjuration spells]]
 classes: [[cleric spells]]
          [[druid spells]]
          [[sorcerer_spells]]
+         [[Ruins of Symbaroum Sorcerer Spells]][[5th level witch spells]]
 
 # Insect Plague 
 _5th-level conjuration_ 

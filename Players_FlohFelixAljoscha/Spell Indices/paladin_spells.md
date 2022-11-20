@@ -31,10 +31,10 @@ description:_5th_Edition_(5e)_Paladin_spell_list,_organized_by_level.
 |3|[[5e spells dispel magic wc not favoured]]|Abjuration
 |3|[[5e Spells magic circle keep out or in wc Kreidekreis]]|Abjuration
 |3|[[remove_curse wc not favoured]]|Abjuration
-|3|[[revivify after death within last minute c]]|Necromancy
+|3|[[revivify after death within last minute c not favoured]]|Necromancy
 |4|[[5e Spells banishment to another plane wc not favoured]]|Abjuration
-|4|[[death_ward get out of jail c]]|Abjuration
+|4|[[death_ward get out of jail not favoured]]|Abjuration
 |4|[[locate creature 1000 ft wc]]|Divination
-|5|[[5e spells dispel evil and good disadv attack debuff c]]|Abjuration
+|5|[[5e spells dispel evil and good disadv attack debuff c not favoured]]|Abjuration
 |5|[[5e spells geas wc]]|Enchantment
 |5|[[raise_dead 10 days c]]|Necromancy

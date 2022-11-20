@@ -3,6 +3,7 @@ name: Divine Word
 level: 7
 school: evocation
 classes: cleric
+[[Ruins of Symbaroum Theurg Spells]]
 
 # Divine Word 
 _7th-level evocation_ 

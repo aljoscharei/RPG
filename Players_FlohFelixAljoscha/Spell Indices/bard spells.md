@@ -85,10 +85,10 @@ description:_5th_Edition_(5e)_Bard_spell_list,_organized_by_level.
 |5|[[5e Spells Symbaroum dominate person mind control w]]|Enchantment
 |5|[[dream w]]|Illusion
 |5|[[5e spells geas wc]]|Enchantment
-|5|[[greater_restoration c]]|Abjuration
+|5|[[greater restoration c not favoured]]|Abjuration
 |5|[[5e spells hold monster paralyzed w not favoured]]|Enchantment
 |5|[[legend_lore wc]]|Divination
-|5|[[5e Spells mass cure wounds 6 x 3d8 c]]|Evocation
+|5|[[5e Spells mass cure wounds 6 x 3d8 c not favoured]]|Evocation
 |5|[[mislead illusory duplicate w not favoured]]|Illusion
 |5|[[5e spells modify memory w]]|Enchantment
 |5|[[5e spells planar binding celestial elemental fey fiend wc not favoured]]|Abjuration

@@ -24,4 +24,4 @@ compare
 [[simulacrum w]] not in Ruins of Symbaroum
 [[project image of self hologram w]]
 [[GM_FlohFelixAljoscha/Symbaroum Monsters/Symbaroum Monster Flaming Servant]]
-[[5e Spells Symbaroum Rituals Patron Saint]]
+[[5e Spells Symbaroum Rituals Patron Saint not favoured]]

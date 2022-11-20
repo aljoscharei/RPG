@@ -18,3 +18,4 @@ You become part of the spirit world for up to 10 minutes. You are invisible to c
 
 [[5e spells etherealness ghost wc not favoured]]
 [[202207181249 Ruins of Symbaroum Gamemasters Guide]]spirit world
+[[202202121703 Access Spell]]

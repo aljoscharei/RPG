@@ -30,3 +30,4 @@ This spell creates a passage through wooden, plaster, or stone walls, but not th
 
 
 [[OSE Pass-Wall]]
+[[202202121703 Access Spell]]

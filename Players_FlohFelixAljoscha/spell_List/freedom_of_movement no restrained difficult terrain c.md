@@ -6,6 +6,8 @@ classes: [[bard spells]]
          [[cleric spells]]
          [[druid spells]]
          [[ranger_spells]]
+         [[Ruins of Symbaroum Theurg Spells]]
+         [[Ruins of Symbaroum Troll Singer Spells]]
 
 # Freedom of Movement 
 _4th-level abjuration_ 

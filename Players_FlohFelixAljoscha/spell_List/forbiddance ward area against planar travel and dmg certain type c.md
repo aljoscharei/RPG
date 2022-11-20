@@ -2,7 +2,7 @@
 name: Forbiddance
 level: 6
 school: [[abjuration spells]]
-classes: [[cleric spells]]
+classes: [[cleric spells]][[Ruins of Symbaroum Theurg Spells]]
 
 # Forbiddance 
 _6th-level abjuration (ritual)_ 

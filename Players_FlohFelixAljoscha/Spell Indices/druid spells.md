@@ -57,7 +57,7 @@ description:_5th_Edition_(5e)_Druid_spell_list,_organized_by_level.
 | 3           | [[sleet storm Terrain control w]]                                          | Conjuration   |
 | 3           | [[speak_with_plants d]]                                                    | Transmutation |
 | 3           | [[water breathing access w ros ritual]]                                    | Transmutation |
-| 3           | [[water_walk c]]                                                           | Transmutation |
+| 3           | [[water walk c ros ritual]]                                                           | Transmutation |
 | 3           | [[wind_wall arrows flyers and 3d8 d]]                                      | Evocation     |
 | 4           | [[blight wither w]]                                                        | Necromancy    |
 | 4           | [[5e spells lvl 4 enchantment confusion Rndm behaviour not favoured w]]    | Enchantment   |
@@ -80,9 +80,9 @@ description:_5th_Edition_(5e)_Druid_spell_list,_organized_by_level.
 | 5           | [[conjure_elemental cr 5 w]]                                               | Conjuration   |
 | 5           | [[contagion inflict disease c]]                                            | Necromancy    |
 | 5           | [[5e spells geas wc]]                                                      | Enchantment   |
-| 5           | [[greater_restoration c]]                                                  | Abjuration    |
+| 5           | [[greater restoration c not favoured]]                                                  | Abjuration    |
 | 5           | [[5e spells insect plague 4d10 dmg c]]                                     | Conjuration   |
-| 5           | [[5e Spells mass cure wounds 6 x 3d8 c]]                                   | Evocation     |
+| 5           | [[5e Spells mass cure wounds 6 x 3d8 c not favoured]]                                   | Evocation     |
 | 5           | [[5e spells planar binding celestial elemental fey fiend wc not favoured]] | Abjuration    |
 | 5           | [[reincarnate 10d dead new body d]]                                        | Transmutation |
 | 5           | [[scrying on creature wc not favoured]]                                    | Divination    |
@@ -90,7 +90,7 @@ description:_5th_Edition_(5e)_Druid_spell_list,_organized_by_level.
 | 5           | [[wall of stone permanent w]]                                              | Evocation     |
 | 6           | [[conjure_fey cr 6 d]]                                                     | Conjuration   |
 | 6           | [[find the path know direct route c]]                                      | Divination    |
-| 6           | [[heal 70 hp and conditions c]]                                            | Evocation     |
+| 6           | [[heal 70 hp and conditions c not favoured]]                                            | Evocation     |
 | 6           | [[heroes_feast 1h feast for 24h plus 2d10 max hp immunities wis saves c]]  | Conjuration   |
 | 6           | [[move earth slowly not stone w]]                                          | Transmutation |
 | 6           | [[sunbeam 6d8 w]]                                                          | Evocation     |

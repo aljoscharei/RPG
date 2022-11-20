@@ -116,7 +116,7 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - [[darkness negative light  w]]
 - [[darkvision w]]
 - [[daylight c]]
-- [[death_ward get out of jail c]]
+- [[death_ward get out of jail not favoured]]
 - [[5e spells delayed blast fireball accumulating grenade w not favoured]]
 - [[demiplane private w not favoured]]
 - Destructive Wave
@@ -127,10 +127,10 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - [[dimension door teleport to visible w]]
 - [[5e spells disguise self   w]]
 - [[5e spells disintegrate10d6plus40 dmg w]]
-- [[5e spells dispel evil and good disadv attack debuff c]]
+- [[5e spells dispel evil and good disadv attack debuff c not favoured]]
 - [[5e spells dispel magic wc not favoured]]
 - Dissonant Whispers
-- [[divination one sentence next 7 days c]]
+- [[divination one sentence next 7 days c ros ritual]]
 - [[divine_favor d4 extra  paladin]]
 - [[divine_word 30 ft range deafened or killed based on currentn hp c]]
 - [[5e spellls dominate beast w]]
@@ -173,7 +173,7 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - [[fire storm aoe 7d10 dmg c]]
 - [[5e spells lvl 3 evocation fireball 20 ft 8d6 Ruins not favoured w]]
 - [[flame_blade 3d6 dmg d]]
-- [[5e spells flame_strike AOE 8d6 dmg c]]
+- [[5e spells flame_strike AOE 8d6 dmg c not favoured]]
 - [[5e spells flaming sphere w]]
 - [[flesh to stone w not favoured]]
 - [[floating disk w ROS ritual]] SRD only
@@ -199,7 +199,7 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - Grasping Vine
 - [[grease w]]
 - [[greater invisibility also fighting w]]
-- [[greater_restoration c]]
+- [[greater restoration c not favoured]]
 - [[guardian_of_faith dealing dmg c]]
 - [[guards and wards w]]
 - [[5e spells guidance buff d4 ability check c]]
@@ -212,7 +212,7 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - [[hallucinatory_terrain no touch w]]
 - [[harm 14d6 disease c]]
 - [[haste double action w]]
-- [[heal 70 hp and conditions c]]
+- [[heal 70 hp and conditions c not favoured]]
 - [[5e spells healing word d4 60 ft range c not favoured]]
 - [[5e spells heat metal 2d8 dmg d]]
 - [[5e spells hellish rebuke after caster takes dmg attacker 2d10]]
@@ -222,7 +222,7 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - [[hideous_laughter w]] SRD only
 - [[5e spells hold monster paralyzed w not favoured]]
 - [[hold person paralyzed wc not favoured]]
-- [[5e Spells lvl 8 abjuraton holy aura light disadv fiend undead ruins theurg c]]
+- [[holy aura light disadv fiend undead ruins theurg c]]
 - Hunger of Hadar
 - [[Hunter's_Mark]]
 - [[hypnotic pattern mass charm vantablack w]]
@@ -269,8 +269,8 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - [[5e spells magic weapon plus one w]]
 - [[magnificent mansion w]]
 - [[5e spells major image incl sound smell w]]
-- [[5e Spells mass cure wounds 6 x 3d8 c]]
-- [[5e spells mass heal 700 hp within 30 ft c]]
+- [[5e Spells mass cure wounds 6 x 3d8 c not favoured]]
+- [[5e spells mass heal 700 hp within 30 ft c not favoured]]
 - [[5e Spells mass healing word six creat d4 c not favoured]]
 - [[5e Spells mass suggestion 12 creat w not favoured]]
 - [[maze trap w]]
@@ -343,7 +343,7 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - [[5e spells resistance buff d4 saving throw c]]
 - [[resurrection max 100 y dead c]]
 - [[reverse gravity 100 ft w]]
-- [[revivify after death within last minute c]]
+- [[revivify after death within last minute c not favoured]]
 - [[rope_trick hideout w]]
 
 ##_S
@@ -425,7 +425,7 @@ description:_All_spells_from_the_5th_Edition_(5e)_SRD_(System_Reference_Document
 - [[wall_of_thorns]]
 - [[warding bond plus 1 AC saves resistance 60 ft caster also takes dmg c]]
 - [[water breathing access w ros ritual]]
-- [[water_walk c]]
+- [[water walk c ros ritual]]
 - [[5e spells web w]]
 - [[weird aoe phantasmal killer 4d10 psych dmg underpowered w]]
 - [[wind_walk gaseous d]]

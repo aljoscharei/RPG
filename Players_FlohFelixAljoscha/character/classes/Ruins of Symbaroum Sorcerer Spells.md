@@ -7,8 +7,6 @@
 Was ist typisch für sorcerer: planar travel, summoning, mind control, cold, travelling into davokar without help maybe?
 
 
-
-
 # cantrips
 [[5e spells acid splash 1d6 dmg  w]]
 [[5e spells chill touch 1d8 dmg and prevents regeneration only if bodies in ground w]]
@@ -33,7 +31,7 @@ Aljoscha added [[5e spells inflict wounds touch 3d10 c]]
 [[5e spells expeditious retreat dash w]]
 [[5e spells false life buff hp w not favoured]] cannot be favoured 
 [[5e spells fog cloud w]]
-[[5e spell jump w]]
+[[5e spell jump w]] movement
 [[mage armor AC 13 w]]
 1 aus Sorcerersliste entfernen [[5e spells magic missile 3 x 1d4 plus 1 dmg w not favoured]] cannot be favoured 
 [[5e spells lvl 1 shield plus 5 to AC reaction  w]]
@@ -51,13 +49,13 @@ Aljoscha added [[5e spells inflict wounds touch 3d10 c]]
 [[5e spells Symbaroum Rituals exchange shadow]] can be cast as ritual 
 [[hold person paralyzed wc not favoured]] cannot be favoured 
 [[5e spell invisibility w]]
-[[knock 5e w]]
+[[knock 5e w]] movement
 [[5e spells lvl 2 levitate gently ruins sorcerer wizard w not favoured]] cannot be favoured 
 [[mirror image 3 duplicates w]]
 [[misty_step teleport 30ft w not favoured]] cannot be favoured 
 [[see_invisibility w]]
 [[5e spells shatter dmg and demolish w]]
-[[spider climb access w]]
+[[spider climb access w]] movement
 [[suggestion mind control w not favoured]] cannot be favoured 
 [[5e spells web w]]
 
@@ -79,7 +77,7 @@ Aljoscha added [[5e spells inflict wounds touch 3d10 c]]
 [[stinking cloud Terrain control w]]
 [[5e Spells vampiric touch only healing w not favoured]]
 [[water breathing access w ros ritual]] can be cast as ritual 
-[[water_walk c]] can be cast as ritual 
+[[water walk c ros ritual]] can be cast as ritual 
 [[5e spells lvl 3 necromancy bestow curse ruins sorcerer witch not favoured wc]]
 
 ---

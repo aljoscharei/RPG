@@ -1,15 +1,14 @@
 # Du darfst erst dann etwas zur vault hinzufügen, wenn du alle seiten gelesen hast!
 ## To Do
 
-2. NPCs und Random encounter tables fertig machen. 
-3. go through spells above level 3 [[Ruins of Symbaroum Theurg Spells]]
+3. go through spells above level 3 [[Ruins of Symbaroum Sorcerer Spells]]
 4. Go through the rest of [[Ruins Player Index]]
 5. Go through [[Ruins GM Index]] und DMG
 6. make a charakter sheet control panel style. iframes? google sheets, excalidraw?
 7. go through magic items [[Symbaroum Treasure MOC]], 
 9. [[GM_FlohFelixAljoscha/Medieval items]] durchgehen
 10. encounter üben mit [[fantastic lairs Sly Flourish]]
-11. Random tables [[202203091119 Random Tables MOC]]
+11. Random tables [[202203091119 Random Tables MOC]] [[Fill]]
 # Workbench
 [[202210221101 Workbench]]
 

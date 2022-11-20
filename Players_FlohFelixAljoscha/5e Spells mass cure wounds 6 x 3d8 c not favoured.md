@@ -4,7 +4,7 @@ level: 5
 school: [[evocation spells]]
 classes: [[bard spells]]
          [[cleric spells]]
-         [[druid spells]]
+         [[druid spells]][[Ruins of Symbaroum Theurg Spells]]
 
 # Mass Cure Wounds 
 _5th-level evocation_ 

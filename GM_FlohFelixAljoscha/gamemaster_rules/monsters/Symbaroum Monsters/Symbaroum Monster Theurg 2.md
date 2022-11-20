@@ -113,7 +113,7 @@ Cantrips: [[5e spells fire_bolt 1d10 dmg w]] (0), [[5e spells guidance buff d4 a
 
 2nd-level spells: [[5e spells hold person paralyzed wc]] (1d4 + 2), [[5e Spells spiritual weapon d8 20 ft c]] (2)
 
-3rd-level spells: [[5e spells dispel magic wc]] (1d4 + 3), [[revivify after death within last minute c]] (1d4 + 3)
+3rd-level spells: [[5e spells dispel magic wc]] (1d4 + 3), [[revivify after death within last minute c not favoured]] (1d4 + 3)
 
 Rituals: [[5e spells Symbaroum Rituals Holy Smoke ROS ritual]],[[5e spells Symbaroum Rituals Purging Fire]]
 

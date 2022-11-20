@@ -3,7 +3,7 @@
 | dice: 1d20 | Result                                                                    |
 | ---------- | ------------------------------------------------------------------------- |
 | 1-4        | Geologic Feature `dice: [[Fill#^GeologicFeature]]` |
-| 5-8        | Structure                                                                 |
+| 5-8        | Structure `dice: [[Fill#^StructuresMaster]]`                                                                |
 | 9-12       | Resource                                                                  |
 | 13         | Hazard                                                                    |
 | 14         | Sign                                                                      |
@@ -19,10 +19,10 @@
 | dice: 1d6 | Result                                                                                                                                                                                                                                            |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1         | Change in Elevation. `dice: [[Fill#^hiLow]]` of `dice: [[Fill#^ElevationYards]]` `dice: [[Fill#^ElevationType]]`. The Area is `dice: [[Fill#^ElevationArea]]`. The Terrain is `dice: [[Fill#^elevationTerrain]]` comparing to surrounding Terrain |
-| 2         | Soil                                                                                                                                                                                                                                              |
+| 2         | Soil `dice: [[Fill#^SoilApprearance]]` The soil is `dice: [[Fill#^SoilFecundity]]`, `dice: [[Fill#^SoilReasonFecundity]]`                                                                                                                                                                                                                                            |
 | 3         | Terrain                                                                                                                                                                                                                                           |
 | 4         | Caves. The cave has `dice: [[Fill#^CaveEntrances]]`.One Entrance is `dice: [[Fill#^TypeCaveEntrance]]`. There are `dice: [[Fill#^NumberChambers]]`. Is the water in the cave? `dice: [[Fill#^caveWater]]`                                         |
-| 5         | Rock 'dice: [[Fill#^typeRocks]]'                                                                                                                                                                                                                                              |
+| 5         | Rock `dice: [[Fill#^typeRocks]]`                                                                                                                                                                                                                                              |
 | 6         | Water                                                                                                                                                                                                                                             |
 ^GeologicFeature
 
@@ -31,14 +31,14 @@ Caves, obviously, are located below the ground and so are not always visible. Us
 
 12-table-3.md
 
-| d100   | Result               |
-|:-------|:---------------------|
-| 1-10   | no surface entrances |
-| 11-50  | 1 entrance           |
-| 51-75  | 2 entrances          |
-| 76-90  | 3 entrances          |
-| 91-99  | `dice: 1d4+2` entrances      |
-| 100    | `dice: 2d4+2` entrances      |
+| d100  | Result                  |
+|:----- |:----------------------- |
+| 1-10  | no surface entrances    |
+| 11-50 | 1 entrance              |
+| 51-75 | 2 entrances             |
+| 76-90 | 3 entrances             |
+| 91-99 | `dice: 1d4+2` entrances |
+| 100   | `dice: 2d4+2` entrances |
 ^CaveEntrances
 
 12-table-4.md
@@ -230,12 +230,12 @@ The Referee can refer to the Resources section on p. 37 to determine the type of
 
 There’s an additional 1 in 6 chance of something unusual about the rocks . . .
 
-| dice: 1d36 | result                                                           |
-| ---------- | ---------------------------------------------------------------- |
-| 1-3        | The rocks have been written on. The writing is `dice: [[Fill#^writingRockHow]]`, Further, the writing will be on `dice: [[Fill#^WritingRockAmount]]`,`dice: [[Fill#^writingContent]]`                  |
-| 4-5        | The rocks are arranged in a specific pattern. The pattern can    |
-| 6          | The Rocks are Magical. Refer to the section on Magical Features. |
-| 7-36       | There is nothing unusual about the rocks                                                                 |
+| dice: 1d36 | result                                                                                                                                                                                |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3        | The rocks have been written on. The writing is `dice: [[Fill#^writingRockHow]]`, Further, the writing will be on `dice: [[Fill#^WritingRockAmount]]`,`dice: [[Fill#^writingContent]]` |
+| 4-5        | The rocks are arranged in a specific pattern. The pattern can `dice: [[Fill#^patternPerspective]]` , `dice: [[Fill#^patternFunction]]`                                                |
+| 6          | The Rocks are Magical. Refer to the section on Magical Features.                                                                                                                      |
+| 7-36       | There is nothing unusual about the rocks                                                                                                                                              |
 ^rocksUnusual
 
 
@@ -271,22 +271,20 @@ The writing
 4-5) The rocks are arranged in a specific pattern. The pattern can
 
 
-
 | dice: 1d6 | result                        | 
 | --------- | ----------------------------- |
 | 1-4       | only be discerned from above  |
 | 5-6       | is obvious from ground level. |
 ^patternPerspective
 
-The pattern will be one of the following . . .
+The pattern will be one of the following 
+
 
 | dice: 1d108 | result                                                                                                                                                                                                                           |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 73-108      | The pattern is of a random shape or arrangement, determined by the whim of of a mad artist, whimsical deity or capricious spirit.                                                                                                |
-| 37-72       | The pattern is mundane in nature, forming a shape or image with little to no significance except to its executor.                                                                                                                |
 | 1-6         | There is power within the pattern, but it is not clear what it is. It takes 1d8 days of study to determine what the pattern does. It is a ward against something (roll on the Scrolls table to determine what it wards against), |
-| 7-9         | functions as a gate to another place in this world,                                                                                                                                                                              |
-| 10-11       | functions as a gate to a place in another world or dimension, or                                                                                                                                                                 |
+| 7-9         | There is power within the pattern, but it is not clear what it is. It takes 1d8 days of study to determine what the pattern does. functions as a gate to another place in this world,                                                                                                                                                                              |
+| 10-11       | There is power within the pattern, but it is not clear what it is. It takes 1d8 days of study to determine what the pattern does. functions as a gate to a place in another world or dimension, or                                                                                                                                                                 |
 | 12          | functions as a gate to another time                                                                                                                                                                                              |
 | 13-14       | functions to alter the surrounding weather by moderating,                                                                                                                                                                        |
 | 15-16       | functions to alter the surrounding weather by intensifying, or                                                                                                                                                                   |
@@ -294,9 +292,38 @@ The pattern will be one of the following . . .
 | 19-24       | it acts as a prison, containing a powerful creature or creatures (with a combined HD total of 10d10)                                                                                                                             |
 | 25-30       | acts as a focus for ley line energy (see the section on Magic, p. 66, as well as Hex 13.22 for more information on ley lines. There’s a 1-3 in 6 chance the ley line it once focused has since shifted position)                 |
 | 31-36       | is an artifact designed to cast a permanent spell over a larger area.                                                                                                                                                            |
-
+| 37-72       | The pattern is mundane in nature, forming a shape or image with little to no significance except to its executor.                                                                                                                |
+| 73-108      | The pattern is of a random shape or arrangement, determined by the whim of of a mad artist, whimsical deity or capricious spirit.                                                                                                |
+^patternFunction
 
 ##### Soil
+The soil here differs from the surrounding soil. Roll below to determine the exact nature of the change.
+
+Appearance (1d6) . . .
+
+On a roll of
+
+| dice: 1d36 | Result                                                                                                                           |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1-12       | the soil superficially resembles the surrounding soil,                                                                           |
+| 13-30      | it has a different appearance (color, texture, etc.).                                                                            |
+| 31-36      | There’s a further 1 in 6 chance that if the soil has a different appearance it will be unusual or unnatural in color or texture. |
+^SoilApprearance
+
+
+Fecundity (1d6) . . .
+
+The soil is 
+
+| dice: 1d6 | result                                                                                                                                                                                                               |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | as productive as the surrounding soil,                                                                                                                                                                               |
+| 3-4       | more productive, More productive soil is characterized by riotous plant life; the grass is greener and more lush, the trees quiver with energy and fruits and vegetables grown here will produce their maximum yield |
+| 5-6       | less productive. .  Less productive soil is barren or almost bare, with whatever plants do survive being unusually hardy, stunted and sick-looking. Seeds do not take, regardless of how much the farmer tends       |
+^SoilFecundity
+
+If a third or more of the subhexes in this hex are more productive, increase the land value of the overall hex by 1 (refer to p. 23 of Domain Building for a discussion of land value).
+
 15-table-1.md
 
 | d6   | Result                                                                                                                                                                                                                                                        |
@@ -304,79 +331,258 @@ The pattern will be one of the following . . .
 | 1-3  | The soil has the special quality due to a mineral, nutrient or other naturally occurring feature.                                                                                                                                                             |
 | 4-5  | The soil is different because of artificial means (perhaps it is terraced or fertilized or has been poisoned  by  an  enemy).  If  this  is  the  case, further  labor  can  altered  it  from  its  current state at a cost of 1,000 gp per subhex affected. |
 | 6    | The soil is as it is as the result of a curse or beneficial  spell.  It  is  possible  to  remove  the curse or spell.                                                                                                                                        |
+^SoilReasonFecundity
+
+
+
+#### Structures
+This section covers all sorts of structures that can be found in the wilderness, from simple lean-to shelters to elaborate mansions and free-holds, from abandoned shepherd huts to ruined castles and keeps.
+
+Unless otherwise stated,
+structures in Civilized areas have a 1-5 in 6 chance of being used for their intended purposes, 
+those in Borderlands have a 1-3 in 6 chance, and t
+hose in Wilderness areas have a 1-2 in 6 chance. F
+or a discussion of the differences between Civilized, Borderlands, and Wilderness hexes refer to p. 15 of the supplement Domain Building.
+
+Structures used for their intended purpose will not be abandoned, or lairs for monsters, or otherwise unusable.
+
+If structures are abandoned or no longer in use they can potentially be used either to house lairs of monsters that have already been rolled for (see Lairs, above) *or* they can be used to introduce a new lair. It is up to the Referee to decide how they want to populate structures within a hex.
+
+17-table-2.md
+
+| d10 | Result                                                                                                                                                                                                                                                                                                                                      |
+|:--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Burial Grounds. Its Size is `dice: [[Fill#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Fill#^HowBuried]]`. How long  have they been dead: `dice: [[Fill#^howlongDead]]`. The dead are: `dice: [[Fill#^deadAncestry]]`, `dice: [[Fill#^buriedceremony]]`  `dice: [[Fill#^buriedTemple]]`. |
+| 2   | Monuments                                                                                                                                                                                                                                                                                                                                   |
+| 3-5 | Dwellings                                                                                                                                                                                                                                                                                                                                   |
+| 6   | Fortificaton                                                                                                                                                                                                                                                                                                                                |
+| 7-8 | Infrastructure                                                                                                                                                                                                                                                                                                                              |
+| 9   | Barriers                                                                                                                                                                                                                                                                                                                                    |
+| 10  | Dungeons                                                                                                                                                                                                                                                                                                                                    |
+^StructuresMaster
+
+
+
+##### Burial Ground
+Structures in this category range from simple wooden or stone grave markers to large mausoleums and sprawling necropolises. Roll below to determine what is found.
+
+
+There’s a 1-3 in 6 chance the dead have been buried as part of a religious ceremony (see Unhallowed Ground, below). This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is marked or they were ritually exposed. The chance is decreased by 1 in Wilderness hexes, and again if the dead weren’t buried, were buried in unmarked graves, or were killed as a punishment.
+
+In Civilized hexes there’s a 1-3 in 6 chance the burial ground is part of a temple or sacred ground, and a further 1-3 in 6 chance that one or more priests or guardians stand vigil over the dead. In Borderlands these chances are reduced to 1-2 in 6 and 1-2 in 8, respectively, and in Wilderness hexes they are reduced further to 1 in 8 and 1 in 12, respectively.
+
+As a general rule of thumb each body occupies between 1d20+15 sq. ft. for purposes of determining the size of the burial grounds. Add modifiers as needed, and only roll once to determine the average size, then apply that to all the bodies within. For instance, bodies interred in a mausoleum take up less space than, say, bodies left to rot after a battle.
+
+In Civilized hexes there’s a1-3 in 6 chance the burial ground is part of a temple or sacred ground, and a further 1-3 in 6 chance that one or more priests or guardians stand vigil over the dead. In Borderlands these chances are reduced to 1-2 in 6 and 1-2 in 8, respectively, and in Wilderness hexes they are reduced further to 1 in 8 and 1 in 12, respectively.
+
+
+As a general rule of thumb each body occupies between 1d20+15 sq. ft. for purposes of determining the size of the burial grounds. Add modifiers as needed, and only roll once to determine the average size, then apply that to all the bodies within. For instance, bodies interred in a mausoleum take up less space than, say, bodies left to rot after a battle.
+
+
 
 
 17-table-1.md
 
-| d100   | Result       |
-|:-------|:-------------|
-| 1-30   | Single Grace |
-| 31-60  | 1d4+1 dead   |
-| 61-75  | 3d4 dead     |
-| 76-85  | 4d6 dead     |
-| 86-96  | 5d10 dead    |
-| 96-97  | 6d20 dead    |
-| 98     | 7d100 dead   |
-| 99     | 10d100       |
-| 100    | 100d100 dead |
+| dice: d100 | Result               |
+|:---------- |:-------------------- |
+| 1-30       | Single Grave         |
+| 31-60      | `dice: 1d4+1` dead   |
+| 61-75      | `dice: 3d4` dead     |
+| 76-85      | `dice: 4d6` dead     |
+| 86-96      | `dice: 5d10` dead    |
+| 96-97      | `dice: 6d20` dead    |
+| 98         | `dice: 7d100` dead   |
+| 99         | `dice: 10d100`       |
+| 100        | `dice: 100d100` dead |
+^BurialGroundSize
 
-
-17-table-2.md
-
-| d100   | Result         |
-|:-------|:---------------|
-| 1      | Burial Grounds |
-| 2      | Monuments      |
-| 3-5    | Dwellings      |
-| 6      | Fortificaton   |
-| 7-8    | Infrastructure |
-| 9      | Barriers       |
-| 10     | Dungeons       |
-
-
-18-table-1.md
-
-| d100                | Result                                    |
-|:--------------------|:------------------------------------------|
-| 1-50                | Human (or whatever the dominant race is.) |
-| 51-75               | Demi-human (elf, dwarf, gnome, etc.)      |
-| 76-90               | Humanoid                                  |
-| 91-95               | Monster                                   |
-| 96-100 Mix of races |                                           |
-
+How are the dead buried?
 
 18-table-2.md
 
-| d100   | Result                                                                                           |
-|:-------|:-------------------------------------------------------------------------------------------------|
-| 1-25   | They’re not.  The dead are left exposed to the elements as they fell.                            |
-| 36-30  | Buried in a mass grave                                                                           |
-| 31-60  | Wooden markers                                                                                   |
-| 61-75  | Stone tombstones                                                                                 |
-| 76-80  | Mausoleums or crypts                                                                             |
-| 81-86  | Barrows or burial mounds                                                                         |
-| 87-90  | Ritually exposed to the elements                                                                 |
-| 91-95  | As punishment (gibbets, crucifixion, gallows, etc.)                                              |
-| 96-99  | In unmarked graves.                                                                              |
-| 100    | Unique or magically (turned to stone or trees, frozen in blocks of ice, embedded in amber, etc.) |
+| d100  | Result                                                                                                        |
+|:----- |:------------------------------------------------------------------------------------------------------------- |
+| 1-25  | They’re not Buried.  The dead are left exposed to the elements as they fell. `dice: [[Fill#^diedofviolence]]` |
+| 36-30 | Buried in a mass grave                                                                                        |
+| 31-60 | Wooden markers The markers `dice: [[Fill#^graveWriting]]`                                                     |
+| 61-75 | Stone tombstones. The stones `dice: [[Fill#^graveWriting]]`                                                   |
+| 76-80 | Mausoleums or crypts. Is there writing?  `dice: [[Fill#^graveWriting]]`                                       |
+| 81-86 | Barrows or burial mounds                                                                                      |
+| 87-90 | Ritually exposed to the elements                                                                              |
+| 91-95 | As punishment (gibbets, crucifixion, gallows, etc.)                                                           |
+| 96-99 | In unmarked graves.                                                                                           |
+| 100   | Unique or magically (turned to stone or trees, frozen in blocks of ice, embedded in amber, etc.)              |
+^HowBuried
 
+`dice: [[Fill#^buriedceremony]]`
+
+Have the dead been buried with a ceremony?
+
+| result |                                                               |
+| ------ | ------------------------------------------------------------- |
+| 1-3    | the dead have been buried as part of a religious ceremony     |
+| 4-6    | the dead have not been buried as part of a religious ceremony |
+
+^buriedceremony
+
+
+This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is marked or they were ritually exposed. The chance is decreased by 1 in Wilderness hexes, and again if the dead weren’t buried, were buried in unmarked graves, or were killed as a punishment.
+
+| dice: 1d4 | result                                                                                                                                                                                                           |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | the burial ground is not part of a temple or sacred ground. The ground is `dice: [[Fill#^unhallowedNoTemple]]` This chance increases by 1 for every 50 bodies interred in the area, up to a maximum of 1-5 in 6. |
+| 3         | the burial ground is part of a temple or sacred ground `dice: [[Fill#^unhallowedTemple]]`                                                                                                                        |
+| 4         | the burial ground is part of a temple or sacred ground and one or more priests or guardians stand vigil over the dead. `dice: [[Fill#^unhallowedTemple]]`                                                        |
+^buriedTemple
+
+| dice: 1d6 | result                                                                                                                                                                            |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-5       | hallowed                                                                                                                                                                          |
+| 6         | unhallowed. The forces of Chaos and undeath rule supreme in unhallowed ground. An unhallowed burial site will have qualities from the below table. `dice: [[Fill#^1-3qualities]]` |
+
+^unhallowedTemple
+
+| dice: 1d6 | result                                                                                                                                                                           |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-4       | hallowed                                                                                                                                                                         |
+| 5-6       | unhallowed The forces of Chaos and undeath rule supreme in unhallowed ground. An unhallowed burial site will have qualities from the below table. `dice: [[Fill#^1-3qualities]]` |
+
+^unhallowedNoTemple
+
+
+| dice: 1d6 | result                                                                                                            |
+| --------- | ----------------------------------------------------------------------------------------------------------------- |
+| 1-3       | `dice: [[Fill#^unhallowedQualities]]`                                                                             |
+| 4-5       | 1:`dice: [[Fill#^unhallowedQualities]]` 2: `dice: [[Fill#^unhallowedQualities]]`  If duplicates are rolled the effects stack unless otherwise noted.                                      |
+| 6         | 1: `dice: [[Fill#^unhallowedQualities]]` 2: `dice: [[Fill#^unhallowedQualities]]` 3: `dice: [[Fill#^unhallowedQualities]]`  If duplicates are rolled the effects stack unless otherwise noted. |
+^1-3qualities
+
+| unhallowed qualities                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The dead walk. Those that die within unhallowed ground for every night their body remains within the borders.  `dice: [[Fill#^deadRise]]`                                                                                                                                                                                                                                                                                                                                                                                                     |
+| The dead resist. `dice: [[Fill#^deadresist]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| The dead persist. Undead that are created within the unhallowed ground (whether “naturally” or due to spells such as animate dead) do so with 1d10 hit points per HD rather than 1d8. There’s a further 1-2 in 6 chance that one of the following occurs `dice: [[Fill#^deadPersistTable]]`                                                                                                                                                                                                                                                   |
+| The dead protest. Both clerical and natural healing is stifled within the unhallowed ground. Natural healing does not occur, and magical healing is minimized (roll twice, taking the lower result).                                                                                                                                                                                                                                                                                                                                          |
+| The evil permeates. The entire unhallowed area radiates evil. Spells that detect evil or alignment do not function due to the aura of Chaos that suffuses the space, and spells or items that ward or rely on the identification of alignment also do not function. Lawful-aligned creatures are uneasy in this place, taking a –1 penalty to surprise rolls, and having difficulty sleeping. Each night they try to sleep in the area they make a Save v. Spells; failure indicates they do not sleep soundly enough to regain hp or spells. |
+| The dead hunger. If an undead creature rolls a 19 or 20, their blows automatically inflict maximum damage. There’s an additional 1-2 in 6 chance that saving throws made by non-Chaotic creatures within the unhallowed ground are done with disadvantage (rolling twice and taking the worse result).                                                                                                                                                                                                                                        |
+| The dead corrupt. Magical items that remain within the unhallowed ground for more than 1 week have a 1-2 in 6 chance of being corrupted by the Chaotic energies. Corrupted items will be cursed in a manner left up to the Referee.                                                                                                                                                                                                                                                                                                           |
+| The dead speak. A soft susurrus of damned voices fills the unhallowed ground. Non-Chaotic creatures suffer a –1 penalty to initiative and surprise and must Save v. Spells each time they enter the ground or be affected as per `dice: [[Fill#^blightConfusea]]`                                                                                                                                                                                                                                                                             |
+
+^unhallowedQualities
+
+
+
+| dice: 1d6 | result                              |
+| --------- | ----------------------------------- |
+| 1-4       | the blight spell (reverse of bless) |
+| 5-6       | confusion spell                         |
+
+^blightConfusea
+
+
+| dice: 1d36 | result                 |
+| ---------- | ---------------------- |
+| 1-30       | dead don't rise        |
+| 31-33      | dead rise as skeletons |
+| 34-35      | dead rise as zombies   |
+| 36         | dead rise as ghouls    |
+^deadRise
+
+
+| dice: 1d4 | result                                                                                                                                                                                            |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Undead regenerate 1 hp per round while within the unhallowed area.                                                                                                                                |
+| 2         | The first time an undead creature is reduced to 0 hp they instead remain at 1 hp.                                                                                                                 |
+| 3         | An undead creature destroyed within an unhallowed area will reform over a period of  `dice: [[Fill#^deadReform]]` unless their remains are burned, blessed by a cleric, or removed from the area. |
+| 4         | Undead created within the area have an AC that is `dice: [[Fill#^deadAC]]` better than normal.                                                                                                    |
+
+^deadPersistTable
+
+
+| dice: 1d6 | result |
+| --------- | ------ |
+| 1-3       | 1      |
+| 4-5       | 2      |
+| 6         | 3      |
+^deadAC
+
+| dice: 1d6 |                                                             |
+| --------- | ----------------------------------------------------------- |
+| 1-3       | Undead within unhallowed ground are treated as having +1 HD |
+| 4-5       | Undead within unhallowed ground are treated as having +2 HD |
+| 6         | Undead within unhallowed ground are treated as having +3 HD |
+^deadresist
+
+| dice: 1d6 | result              |
+| --------- | ------------------- |
+| 1         | `dice: 1d6` rounds  |
+| 2-3       | `dice: 1d6` minutes |
+| 4-5       | `dice: 1d6` hours   |
+| 6         | `dice: 1d6` days    |
+^deadReform
+
+
+
+
+
+
+| dice: 1d2 | Died of violence                                                                                                                                                                             |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | they died of violence from a creature that appears on the wandering monster table for the hex. A careful examination of the bodies may give a clue as to what threat waits to be discovered. |
+| 2         | they died without violence                                                                                                                                                                                             |
+^diedofviolence
+
+ Graves with permanent markers
+| dice: 1d20 | result                                                            |
+| ---------- | ----------------------------------------------------------------- |
+| 1-10       | have no writing                                                        |
+| 11-12      | have some sort of writing describing  who is buried,              |
+| 13-14      | have some sort of writing describing when they were born and died |
+| 15         | have some sort of writing describing how they died,               |
+| 16         | some other fact about them,                                       |
+| 17         | two of the previous                                               | 
+| 18         | three of the previous, or                                         |
+| 19-20      | the writing is illegible.                                         |
+^graveWriting
+
+
+
+
+How long  have they been dead.?
 
 18-table-3.md
 
-| d100   | Result        |
-|:-------|:--------------|
-| 1-5    | 1d4 days      |
-| 6-10   | 1d4 weeks     |
-| 11-20  | 1d12 months   |
-| 21-30  | 1d10 years    |
-| 31-40  | 2d20 years    |
-| 41-50  | 5d20 years    |
-| 51-75  | 10d20 years   |
-| 76-99  | 10d100 years  |
-| 100    | 1d4 millennia |
+| dice: d200 | Result                                                                                                                          |
+|:---------- |:------------------------------------------------------------------------------------------------------------------------------- |
+| 1-5        | `dice: 1d4` days                                                                                                                |
+| 6-10       | `dice: 1d4` weeks                                                                                                               |
+| 11-20      | `dice: 1d12` months                                                                                                             |
+| 21-30      | `dice: 1d10` years                                                                                                              |
+| 31-40      | `dice: 2d20` years                                                                                                              |
+| 41-50      | `dice: 5d20` years                                                                                                              |
+| 51-75      | `dice: 10d20` years                                                                                                             |
+| 76-99      | `dice: 10d100` years                                                                                                            |
+| 100        | `dice: 1d4` millennia                                                                                                           |
+| 101-200    | the dead in the graveyard span a considerable length of time. If this is the case roll twice, above, to determine the time span |
+^howlongDead
 
+
+The dead will be . . .
+
+| d100   | Result                                    |
+|:------ |:----------------------------------------- |
+| 1-50   | Human (or whatever the dominant race is.) |
+| 51-75  | Demi-human (elf, dwarf, gnome, etc.)      |
+| 76-90  | Humanoid                                  |
+| 91-95  | Monster                                   |
+| 96-100 | Mix of races                              |
+^deadAncestry
+
+
+##### Monuments:
 
 20-table-1.md
+Statues will depict: 
 
 | d100   | Result                            |
 |:-------|:----------------------------------|

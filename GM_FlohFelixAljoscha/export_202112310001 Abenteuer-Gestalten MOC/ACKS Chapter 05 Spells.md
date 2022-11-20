@@ -647,7 +647,7 @@ This spell causes a thin, green ray to spring from the caster's pointing finger.
 A creature that makes a successful save versus Death is unaffected. The ray can target only one creature per casting; if that target saves, the spell is wasted.
 
 
-#### Dispel Evil [[5e spells dispel evil and good disadv attack debuff c]]
+#### Dispel Evil [[5e spells dispel evil and good disadv attack debuff c not favoured]]
 
 
 #### Dispel Magic [[5e spells dispel magic wc]]
@@ -728,7 +728,7 @@ This spell permits the caster to detect a variety of traps, both mechanical and 
 
 
 
-#### Flame Strike [[5e spells flame_strike AOE 8d6 dmg c]]
+#### Flame Strike [[5e spells flame_strike AOE 8d6 dmg c not favoured]]
 
 #### Flesh to Stone*
 

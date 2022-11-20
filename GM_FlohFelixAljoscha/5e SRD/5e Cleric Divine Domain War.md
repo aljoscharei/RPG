@@ -10,7 +10,7 @@ Spells
 3rd 	[[5e spells magic weapon plus one w]], [[5e Spells spiritual weapon d8 20 ft  summoned lightbringer c]]
 5th 	[[crusaders mantle buff 30 ft friends d4 radiant]],[[spirit_guardians c]]
 7th 	[[freedom_of_movement no restrained difficult terrain c]], [[stoneskin dmg resistance w]]
-9th 	[[5e spells flame_strike AOE 8d6 dmg c]],[[5e spells hold monster paralyzed w not favoured]]
+9th 	[[5e spells flame_strike AOE 8d6 dmg c not favoured]],[[5e spells hold monster paralyzed w not favoured]]
 
 # Bonus Proficiencies
 At 1st level, you gain proficiency with martial weapons and heavy armor.

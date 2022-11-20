@@ -4,6 +4,7 @@ level: 3
 school: [[necromancy spells]]
 classes: [[cleric spells]]
          [[paladin_spells]]
+         
 
 # Revivify 
 _3rd-level necromancy_ 

@@ -7,9 +7,9 @@ The Life domain focuses on the vibrant positive energy, one of the fundamental f
 |--------------|----------------------------------------|
 | 1st          | [[5e Spells bless buff attack save d4 c]], [[5e spells cure wounds d8 touch c]]                   |
 | 3rd          | [[lesser restoration disease condition c]], [[5e Spells spiritual weapon d8 20 ft  summoned lightbringer c]] |
-| 5th          | [[beacon of hope adv death save max hp healing c]], [[revivify after death within last minute c]]             |
-| 7th          | [[death_ward get out of jail c]], [[guardian_of_faith dealing dmg c]]      |
-| 9th          | [[5e Spells mass cure wounds 6 x 3d8 c]], [[raise_dead 10 days c]]         |
+| 5th          | [[beacon of hope adv death save max hp healing c]], [[revivify after death within last minute c not favoured]]             |
+| 7th          | [[death_ward get out of jail not favoured]], [[guardian_of_faith dealing dmg c]]      |
+| 9th          | [[5e Spells mass cure wounds 6 x 3d8 c not favoured]], [[raise_dead 10 days c]]         |
 
 #### Bonus Proficiency 
 When you choose this domain at 1st level, you gain proficiency with heavy armor. 

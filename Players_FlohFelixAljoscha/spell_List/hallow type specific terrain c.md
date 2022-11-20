@@ -2,7 +2,7 @@
 name: Hallow
 level: 5
 school: [[evocation spells]]
-classes: [[cleric spells]]
+classes: [[cleric spells]][[Ruins of Symbaroum Theurg Spells]]
 
 # Hallow 
 _5th-level evocation_ 

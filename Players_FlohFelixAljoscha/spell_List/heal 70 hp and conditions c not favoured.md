@@ -3,7 +3,7 @@ name: Heal
 level: 6
 school: [[evocation spells]]
 classes: [[cleric spells]]
-         [[druid spells]]
+         [[druid spells]][[Ruins of Symbaroum Theurg Spells]]
 
 # Heal 
 _6th-level evocation_ 

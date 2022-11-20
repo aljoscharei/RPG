@@ -23,3 +23,6 @@ You touch a stone object of Medium size or smaller or a section of stone no more
 
 https://www.reddit.com/r/Pathfinder_RPG/comments/7zq7f4/what_are_your_favorite_uses_of_stone_shape/
 Works well to make ladderlike handholds in a wall. Can give you enough stone to kneel behind for cover in a ranged fight. You can use it to make a very thin but continuous rock cover for a pit trap. Dam a small stream. Make a door unopenable by pinching the bottom with a stone floor. Make basic tools such as hammers, knives, and axes (obsidian counts as stone). Quickly make containers (bottle/bowl/vase/barrel). The spell can technically facet a gemstone without losing mass to the grinding process. It could also move all of the impurities in a gem to one edge that you could then grind off with regular lapidary tools.
+
+
+[[202202121703 Access Spell]]

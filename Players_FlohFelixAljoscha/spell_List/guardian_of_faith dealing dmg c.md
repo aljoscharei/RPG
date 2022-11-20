@@ -2,7 +2,7 @@
 name: Guardian of Faith
 level: 4
 school: [[conjuration spells]]
-classes: [[cleric spells]]
+classes: [[cleric spells]][[Ruins of Symbaroum Theurg Spells]]
 
 # Guardian of Faith 
 _4th-level conjuration_ 

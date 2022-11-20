@@ -2,7 +2,7 @@
 name: Flame Strike
 level: 5
 school: [[evocation spells]]
-classes: [[cleric spells]]
+classes: [[cleric spells]][[Ruins of Symbaroum Theurg Spells]]
 
 # Flame Strike 
 _5th-level evocation_ 

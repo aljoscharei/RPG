@@ -6,7 +6,11 @@ level: 3
 school: [[transmutation spells]]
 classes: [[sorcerer_spells]]
          [[warlock_spells]]
-         [[Players_FlohFelixAljoscha/Spell Indices/wizard spells]][[Ruins of Symbaroum Sorcerer Spells]][[Ruins of Symbaroum Witch Spells]][[Ruins of Symbaroum Wizard Spells]] [[Ruins of Symbaroum Troll Singer Spells]]
+         [[Players_FlohFelixAljoscha/Spell Indices/wizard spells]]
+         [[Ruins of Symbaroum Sorcerer Spells]
+		 [[Ruins of Symbaroum Witch Spells]]
+		 [[Ruins of Symbaroum Wizard Spells]]
+		 [[Ruins of Symbaroum Troll Singer Spells]]
 
 # Gaseous Form and
 _3rd-level transmutation_ 

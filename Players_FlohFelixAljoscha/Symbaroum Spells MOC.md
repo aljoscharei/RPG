@@ -9,17 +9,17 @@
 - [[Symbaroum Spells Curse]]  -> [[5e spells lvl 3 necromancy bestow curse ruins sorcerer witch not favoured wc]]
 - [[Symbaroum Spells Entangling vines]] -> [[5e spell lvl 1 conjuration entangle  d]], [[5e spells spike growth terrain 2d4 dmg Ruins Witch d]]
 - [[Symbaroum Spells Flame wall]]-> [[5e spells wall of fire dmg outside w]]
-- [[Symbaroum Spells Holy Aura]]  -> [[5e Spells lvl 8 abjuraton holy aura light disadv fiend undead ruins theurg c]]
+- [[Symbaroum Spells Holy Aura]]  -> [[holy aura light disadv fiend undead ruins theurg c]]
 - [[5e spells Illusory Correction]] 
 - [[5e spells Inherit wound]] 
 - [[5e spells lvl 3 conjuration Larvae boil d4-d6-d8-d10-d12 dmg ruins sorcerer witch]]
-- [[Symbaroum Spells lay on hands]] -> [[5e spells cure wounds d8 touch c]], [[5e spells healing word d4 60 ft range c not favoured]],  [[heal 70 hp and conditions c]]
+- [[Symbaroum Spells lay on hands]] -> [[5e spells cure wounds d8 touch c]], [[5e spells healing word d4 60 ft range c not favoured]],  [[heal 70 hp and conditions c not favoured]]
 - [[Symbaroum Spells levitate]] [[5e spells lvl 2 levitate gently ruins sorcerer wizard w not favoured]]
 - [[Symbaroum Spells Maltranformation]] -> [[polymorph into creature w]]
 - [[Symbaroum Spells Mind-throw]] -> [[5e spells lvl 5 telekinesis mind throw manipulate w]]
 - --
 - [[Symbaroum Spells Nature's Embrace]] -> [[meld_into_stone c]], [[sanctuary no attacks on target c]]
-- [[Symbaroum Spells Prios' Burning glass]] -> [[5e spells flame_strike AOE 8d6 dmg c]]
+- [[Symbaroum Spells Prios' Burning glass]] -> [[5e spells flame_strike AOE 8d6 dmg c not favoured]]
 - [[Symbaroum Spells Reventant Strike]] -> [[5e spells animate dead skeleton zombie wc]],  [[5e Spells create undead ghoul wc]]
 - [[Symbaroum Spells Shapeshift]] -> [[polymorph into creature w]], [[animal shapes all within 30 ft into cr4 d]], [[FlohFelixAljoscha_Players/5e SRD/docs/character/classes/druid#Wild Shape]]
 - [[Symbaroum Spells storm arrow]] -> [[5e spells magic missile 3 x 1d4 plus 1 dmg w not favoured]]
@@ -49,7 +49,7 @@
 - [[Symbaroum Rituals Natures lullaby]] -> [[calm emotions suppress charmed frightened hostile c]], or [[5e spells charm person w not favoured]], [[5e Spells animal_friendship beasts d]] NO EQUIVALENT
 - [[Symbaroum Rituals Necromancy]] -> [[speak with dead c not favoured]]
 - [[Symbaroum Rituals Oracle]] -> [[legend_lore wc]], [[commune 3 Q yes no c]]
-- [[5e Spells Symbaroum Rituals Patron Saint]]
+- [[5e Spells Symbaroum Rituals Patron Saint not favoured]]
 - [[Symbaroum Rituals Possess]] -> [[5e Spells Symbaroum dominate person mind control w]]
 - [[5e spells Symbaroum Rituals Purging Fire]]
 - [[Symbaroum Rituals Quick Growth]]-> [[plant growth terrain fluff d]]
@@ -104,11 +104,11 @@
 - [[Symbaroum Spells Excorcize]] -> [[5e Spells banishment to another plane wc not favoured]] 
 - [[5e spells Symbaroum Spells Fire Soul ros ritual]]
 - [[Symbaroum Spells Heroic Hymn]] -> [[5e Spells enhance ability advantage plus on ability Checks c]]
-- [[5e spells Symbaroum Spells Lifegiver]] CLERIC SPELLS
+- [[5e spells Symbaroum Spells Lifegiver reduce temp corr ros ritual]] CLERIC SPELLS
 - [[Symbaroum Spells Mirroring]]  -> [[mirror image 3 duplicates w]]
 - [[Symbaroum Spells Protective Runes]] CLERIC SPELLS [[shield of faith plus 2 AC c]]
 - [[Symbaroum Spells Psychic thrust]] -> buff spells
-- [[5e spells Symbaroum Spells Purgatory]] NO EQUIVALENT
+- [[5e spells Symbaroum Spells Purgatory ros ritual]] NO EQUIVALENT
 - [[Symbaroum Spells Retribution]] -> [[5e spells hellish rebuke after caster takes dmg attacker 2d10]]
 - [[Symbaroum Spells Sphere]] -> [[sanctuary no attacks on target c]]
 - [[5e Symbaroum Spells Spirit walk ros ritual]]

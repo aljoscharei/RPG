@@ -4,6 +4,7 @@ level: 5
 school: [[abjuration spells]]
 classes: [[cleric spells]]
          [[paladin_spells]]
+         [[Ruins of Symbaroum Theurg Spells]]
 
 # Dispel Evil and Good 
 _5th-level abjuration_ 

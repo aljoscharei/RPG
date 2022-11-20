@@ -59,30 +59,30 @@ description:_5th_Edition_(5e)_Cleric_spell_list,_organized_by_level.
 |3|[[meld_into_stone c]]|Transmutation
 |3|[[protection_from_energy fire acid etc wc]]|Abjuration
 **|3|[[remove_curse wc not favoured]]|Abjuration**
-|3|[[revivify after death within last minute c]]|Necromancy
+|3|[[revivify after death within last minute c not favoured]]|Necromancy
 |3|[[sending telegram wc]]|Evocation
 |3|[[speak with dead c not favoured]]|Necromancy
 |3|[[spirit_guardians c]]|Conjuration
 |3|[[tongues wc]]|Divination
-|3|[[water_walk c]]|Transmutation
+|3|[[water walk c ros ritual]]|Transmutation
 |4|[[5e Spells banishment to another plane wc not favoured]]|Abjuration
 |4|[[control water raise part flood wc]]|Transmutation
-|4|[[death_ward get out of jail c]]|Abjuration
-|4|[[divination one sentence next 7 days c]]|Divination
+|4|[[death_ward get out of jail not favoured]]|Abjuration
+|4|[[divination one sentence next 7 days c ros ritual]]|Divination
 |4|[[freedom_of_movement no restrained difficult terrain c]]|Abjuration
 |4|[[guardian_of_faith dealing dmg c]]|Conjuration
 |4|[[locate creature 1000 ft wc]]|Divination
 |4|[[stone shape 5 ft deep wc]]|Transmutation
 |5|[[commune 3 Q yes no c]]|Divination
 |5|[[contagion inflict disease c]]|Necromancy
-|5|[[5e spells dispel evil and good disadv attack debuff c]]|Abjuration
-|5|[[5e spells flame_strike AOE 8d6 dmg c]]|Evocation
+|5|[[5e spells dispel evil and good disadv attack debuff c not favoured]]|Abjuration
+|5|[[5e spells flame_strike AOE 8d6 dmg c not favoured]]|Evocation
 |5|[[5e spells geas wc]]|Enchantment
-**|5|[[greater_restoration c]]|Abjuration**
+**|5|[[greater restoration c not favoured]]|Abjuration**
 |5|[[hallow type specific terrain c]]|Evocation
 |5|[[5e spells insect plague 4d10 dmg c]]|Conjuration
 |5|[[legend_lore wc]]|Divination
-**|5|[[5e Spells mass cure wounds 6 x 3d8 c]]|Evocation**
+**|5|[[5e Spells mass cure wounds 6 x 3d8 c not favoured]]|Evocation**
 |5|[[5e spells planar binding celestial elemental fey fiend wc not favoured]]|Abjuration
 |5|[[raise_dead 10 days c]]|Necromancy
 |5|[[scrying on creature wc not favoured]]|Divination
@@ -91,7 +91,7 @@ description:_5th_Edition_(5e)_Cleric_spell_list,_organized_by_level.
 |6|[[find the path know direct route c]]|Divination
 |6|[[forbiddance ward area against planar travel and dmg certain type c]]|Abjuration
 |6|[[harm 14d6 disease c]]|Necromancy
-**|6|[[heal 70 hp and conditions c]]|Evocation**
+**|6|[[heal 70 hp and conditions c not favoured]]|Evocation**
 |6|[[heroes_feast 1h feast for 24h plus 2d10 max hp immunities wis saves c]]|Conjuration
 |6|[[planar_ally wants payment c]]|Conjuration
 |6|[[true seeing illusions wc]]|Divination
@@ -107,8 +107,8 @@ description:_5th_Edition_(5e)_Cleric_spell_list,_organized_by_level.
 |8|[[antimagic field wc]]|Abjuration
 |8|[[control_weather wc]]|Transmutation
 |8|[[earthquake terrain collapse structure fissures c]]|Evocation
-|8|[[5e Spells lvl 8 abjuraton holy aura light disadv fiend undead ruins theurg c]]|Abjuration
+|8|[[holy aura light disadv fiend undead ruins theurg c]]|Abjuration
 |9|[[astral_projection wc]]|Necromancy
 |9|[[gate planar travel wc not favoured]]|Conjuration
-**|9|[[5e spells mass heal 700 hp within 30 ft c]]|Evocation**
+**|9|[[5e spells mass heal 700 hp within 30 ft c not favoured]]|Evocation**
 |9|[[true_resurrection max 200 y dead even if no body left c]]|Necromancy

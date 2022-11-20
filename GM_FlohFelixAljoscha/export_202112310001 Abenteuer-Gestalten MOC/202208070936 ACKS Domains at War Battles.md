@@ -667,7 +667,7 @@ This spell creates a high winds effect (as per control weather) in the caster’
 
 
 
-## Dispel Evil:  [[5e spells dispel evil and good disadv attack debuff c]]
+## Dispel Evil:  [[5e spells dispel evil and good disadv attack debuff c not favoured]]
 
 
 ## Dispel Magic:  
@@ -682,7 +682,7 @@ This spell affects any one unit within 6 hexes of the caster. If the caster make
 
 
 ## Flame Strike: 
-[[5e spells flame_strike AOE 8d6 dmg c]]
+[[5e spells flame_strike AOE 8d6 dmg c not favoured]]
 
 ## Fireball: 
 [[5e spells lvl 3 evocation fireball 20 ft 8d6 Ruins not favoured w]]

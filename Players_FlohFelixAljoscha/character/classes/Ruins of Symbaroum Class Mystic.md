@@ -89,11 +89,11 @@ You know **two** 1st level spells from the spell list belonging to your mystical
 
 
 
-[[Ruins of Symbaroum Mystic Approach Wizard]]
-[[Ruins of Symbaroum Mystic Approach Witch]]
+[[Ruins of Symbaroum Mystic Approach Wizard]] [[Ruins of Symbaroum Wizard Spells]]
+[[Ruins of Symbaroum Mystic Approach Witch]] [[Ruins of Symbaroum Witch Spells]]
 [[Ruins of Symbaroum Mystic Approach Self-taught Mystic]]
-[[Ruins of Symbaroum Mystic Approach Sorcerer]]
-[[Ruins of Symbaroum Mystic Approach Theurg]]
+[[Ruins of Symbaroum Mystic Approach Sorcerer]] [[Ruins of Symbaroum Sorcerer Spells]]
+[[Ruins of Symbaroum Mystic Approach Theurg]] [[Ruins of Symbaroum Theurg Spells]]
 
 not yet available:
 not in Game [[Ruins of Symbaroum Mystic Approach Artifact Crafter]]

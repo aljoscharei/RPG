@@ -69,54 +69,16 @@ Theme: Buff, heal, fire, light, weather
 [[protection_from_energy fire acid etc wc]]
 [[5e spells Symbaroum Rituals Purging Fire]] #ritual 
 [[remove_curse wc not favoured]] cannot be favoured 
-not in game at all[[revivify after death within last minute c]] cannot be favoured 
 [[sending telegram wc]]
 [[spirit_guardians c]]
-[[water_walk c]]
-
----
-4 
-[[death_ward get out of jail c]] cannot be favoured 
-[[divination one sentence next 7 days c]] #ritual  
-[[freedom_of_movement no restrained difficult terrain c]]
-[[guardian_of_faith dealing dmg c]]
-[[5e spells Symbaroum Spells Lifegiver]] #ritual 
+[[water walk c ros ritual]]
 
 
-5
-[[commune 3 Q yes no c]]
-[[5e spells dispel evil and good disadv attack debuff c]] cannot be favoured 
-[[5e spells Symbaroum Rituals Exorcism]] #ritual 
-[[5e spells flame_strike AOE 8d6 dmg c]] cannot be favoured 
-[[greater_restoration c]] cannot be favoured 
-[[hallow type specific terrain c]]
-[[5e spells insect plague 4d10 dmg c]]
-[[5e Spells mass cure wounds 6 x 3d8 c]] cannot be favoured 
-[[5e spells Symbaroum Spells Purgatory]] #ritual 
+[[Ruins Theurg spells Level 4]]
+[[Ruins Theurg Spells Level 5]]
+[[Ruins Theurg Spells Level 6]]
 
 
-6
-[[5e spells Symbaroum Rituals Atonement]] #ritual 
-[[blade barrier terrain control 6d10 dmg c]]
-[[forbiddance ward area against planar travel and dmg certain type c]]
-[[heal 70 hp and conditions c]] cannot be favoured 
-[[heroes_feast 1h feast for 24h plus 2d10 max hp immunities wis saves c]] 
-[[5e Spells Symbaroum Rituals Patron Saint]] cannot be favoured 
- [[sunbeam 6d8 w]]
-
-7
-[[divine_word 30 ft range deafened or killed based on currentn hp c]]
-[[fire storm aoe 7d10 dmg c]]
-
-
-
-
-8
-[[antimagic field wc]]
-[[earthquake terrain collapse structure fissures c]]
-[[5e Spells lvl 8 abjuraton holy aura light disadv fiend undead ruins theurg c]]
- [[sunburst 12d6 w]]
-
-
-9
-[[5e spells mass heal 700 hp within 30 ft c]] cannot be favoured 
+[[Ruins Theurg Spells Level 7]]
+[[Ruins Theurg Spells Level 8]]
+[[Ruins Theurg Spells Level 9]]

@@ -52,6 +52,6 @@ Undead are affected by this spell and its reverse in opposite fashion; they are 
 
 This spell works exactly like cure light wounds, save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, cause serious wounds, also works exactly like cause light wounds, except that it inflicts 2d6 + caster level in damage.
 
-[[5e Spells mass cure wounds 6 x 3d8 c]]
+[[5e Spells mass cure wounds 6 x 3d8 c not favoured]]
 
 [[Symbaroum Spells lay on hands]]

@@ -23,7 +23,7 @@ An **Orb of Dragonkind** has the following random properties:
 * 1 major detrimental property 
 
 ### Spells. 
-The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: **_[[5e spells cure wounds d8 touch c]]_** (5th-level version, 3 charges), **_[[daylight c]]_** (1 charge), **_[[death_ward get out of jail c]]_** (2 charges), or **_[[scrying on creature wc not favoured]]_** (3 charges).
+The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: **_[[5e spells cure wounds d8 touch c]]_** (5th-level version, 3 charges), **_[[daylight c]]_** (1 charge), **_[[death_ward get out of jail not favoured]]_** (2 charges), or **_[[scrying on creature wc not favoured]]_** (3 charges).
 
 You can also use an action to cast the **_[[5e spells detect magic wc ROS ritual]]_** spell from the orb without using any charges.
 

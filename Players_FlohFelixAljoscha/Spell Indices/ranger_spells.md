@@ -34,7 +34,7 @@ description:_5th_Edition_(5e)_Ranger_spell_list,_organized_by_level.
 |3|[[protection_from_energy fire acid etc wc]]|Abjuration
 |3|[[speak_with_plants d]]|Transmutation
 |3|[[water breathing access w ros ritual]]|Transmutation
-|3|[[water_walk c]]|Transmutation
+|3|[[water walk c ros ritual]]|Transmutation
 |3|[[wind_wall arrows flyers and 3d8 d]]|Evocation
 |4|[[conjure_woodland_beings fey cr2 d]]|Conjuration
 |4|[[freedom_of_movement no restrained difficult terrain c]]|Abjuration

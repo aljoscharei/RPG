@@ -81,7 +81,7 @@ Level 1
 |3|[[stinking cloud Terrain control w]]|Conjuration
 |3|[[tongues wc]]|Divination
 |3|[[water breathing access w ros ritual]]|Transmutation
-|3|[[water_walk c]]|Transmutation
+|3|[[water walk c ros ritual]]|Transmutation
 |4|[[5e Spells banishment to another plane wc not favoured]]|Abjuration
 |4|[[blight wither w]]|Necromancy
 |4|[[5e spells lvl 4 enchantment confusion Rndm behaviour not favoured w]]|Enchantment
