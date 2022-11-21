@@ -353,7 +353,7 @@ If structures are abandoned or no longer in use they can potentially be used eit
 | d10 | Result                                                                                                                                                                                                                                                                                                                                      |
 |:--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Burial Grounds. Its Size is `dice: [[Fill#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Fill#^HowBuried]]`. How long  have they been dead: `dice: [[Fill#^howlongDead]]`. The dead are: `dice: [[Fill#^deadAncestry]]`, `dice: [[Fill#^buriedceremony]]`  `dice: [[Fill#^buriedTemple]]`. |
-| 2   | Monuments                                                                                                                                                                                                                                                                                                                                   |
+| 2   | Monuments to `dice: [[Fill#^MonumenttoWhom]]` `dice: [[Fill#^monumentShape]]`, `dice: [[Fill#^MonumentSize]]`, `dice: [[Fill#^monumentHollow]]`, `dice: [[Fill#^monumentAge]]`, `dice: [[Fill#^monumentMaterial]]` , `dice: [[Fill#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                             |
 | 3-5 | Dwellings                                                                                                                                                                                                                                                                                                                                   |
 | 6   | Fortificaton                                                                                                                                                                                                                                                                                                                                |
 | 7-8 | Infrastructure                                                                                                                                                                                                                                                                                                                              |
@@ -580,18 +580,9 @@ The dead will be . . .
 
 
 ##### Monuments:
+The civilizations of the past leave behind great works whose function is to memorialize great heroes and rulers, portentous events and defining battles, while current rulers do the same to make their glory known to their subjects. Monuments can also be alien or inscrutable in nature, of uncertain purpose or provenance, or even simple structures erected by the common folk to commemorate certain events.
 
-20-table-1.md
-Statues will depict: 
-
-| d100   | Result                            |
-|:-------|:----------------------------------|
-| 1-40   | Humans                            |
-| 41-75  | Demi-humans                       |
-| 76-90  | Humanoids                         |
-| 91-98  | Other Races (dragon, giant, etc.) |
-| 99-100 | Abstract concepts                 |
-
+Monuments fall into several different categories. . .
 
 20-table-2.md
 
@@ -603,19 +594,116 @@ Statues will depict:
 | 76-85  | Built to honor a concept (such as Law or Chaos)                                                                  |
 | 86-95  | Built to honor a religion or deity. Refer to the section on shrines on p. 34                                     |
 | 96-100 | Built  to  house  an  object  or  person  (such as  an  artifact  or  relic,  or  an  emperor’s burial chambers) |
+^MonumenttoWhom
 
+Monuments built to honor the dead typically do not have any dead interred within them, but occasionally will contain relics or memento mori in some capacity.
+
+The monument will take the shape of . . .
 
 20-table-3.md
 
-| d100   | Result                                                             |
-|:------ |:------------------------------------------------------------------ |
-| 1-25   | A statue (1-4) or multiple statues (5-6)                           |
-| 26-50  | An obelisk (1-3) or column (4-6)                                   |
-| 51-75  | Megalith                                                           |
-| 76-85  | Arch (1-3), building (4-5) or freeform structure (6)               |
-| 86-90  | Pyramid  (1-2),  terraced  pyramid  (3-4)  or earthen mounds (5-6) |
-| 91-95  | Fountain or Water feature (refer to p. 28)                         |
-| 96-100 | Magical or Unique material/form                                    |
+| d600    | Result                                                                                                                              |
+|:------- |:----------------------------------------------------------------------------------------------------------------------------------- |
+| 1-100   | A statue (1-4). It is a `dice: [[Fill#^petrified]]`, `dice: [[Fill#^defaced]]` `dice: [[Fill#^StatuesDepict]]`,                                                       |
+| 101-150 | multiple statues (5-6). It is a `dice: [[Fill#^petrified]]`, `dice: [[Fill#^defaced]]`                                              |
+| 151-225 | An obelisk (1-3) Obelisks are rectangular columns with a pyramidal cap                                                              |
+| 226-275 | column singular columns are typically round                                                                                         |
+| 276-300 | regular columns found in clusters of `dice: 1d8+1`.                                                                                 |
+| 301-450 | Megalith                                                                                                                            |
+| 451-480 | Arch (1-3),                                                                                                                         |
+| 481-500 | building (4-5) or                                                                                                                   |
+| 501-510 | freeform structure (6)                                                                                                              |
+| 511-520 | Pyramid  (1-2),                                                                                                                     |
+| 521-530 | terraced  pyramid  (3-4)  or                                                                                                        |
+| 531-540 | earthen mounds `dice: [[Fill#^earthenMound]]`                                                                                       |
+| 541-570 | Fountain or Water feature Fountains or similar water features are occasionally built as memorials, especially by cultures for which |
+| 571-600 | Magical or Unique material/form. Size: ``                                                                                                     |
+^monumentShape
+
+Obelisks are rectangular columns with a pyramidal cap, while columns are typically round. There’s a 1-2 in 6 chance that regular columns are found in clusters of 1d8+1.
+
+Megaliths are large stones erected as monuments or ritual foci. They are either single stones, called menhirs, potentially arranged in a pattern with other menhirs, or arranged to form a structure (such as Stonehenge) or even rudimentary shelter.
+
+Arches, buildings, and other abstract structures are designed as larger memorial complexes. Think of l’Arc de Triomph in Paris, or the Vietnam Memorial Wall in Washington DC.
+
+Pyramids, stepped pyramids, and earthen mounds are all similar in appearance but built using different techniques and levels of technology. Earthen mounds will be 
+
+
+
+| dice: 1d6 | result                        |
+| --------- | ----------------------------- |
+| 1-2       | roughly pyramidal in shape,   |
+| 3-4       | another geometric shape       |
+| 5-6       | an abstract or symbolic form. |
+^earthenMound
+
+
+| dice: d300 | result                            |
+| ---------- | --------------------------------- |
+| 1          | Petrified person with petrified Treasure |
+| 2-3        | Petrified person without Treasure        |
+| 4-300      | normal statue                     |
+^petrified
+
+| dice: 1d12 | result                                               |
+| ---------- | ---------------------------------------------------- |
+| 1          | statue’s features will have been erased by time      |
+| 2          | statue’s features will have been erased by vandalism |
+| 3-12       | features intact                                                     |
+^defaced
+
+This chance increases by 1 in Borderlands hexes or 2 in Wilderness hexes.
+
+There’s a 1 in 100 chance that statues discovered in an area are in fact the petrified remains of once-living beings, turned to stone either by monsters such as basilisks, curses, or stray magical effects. If this is the case there’s a 1-2 in 6 chance that level appropriate treasure can be found on the statue if it were un-petrified.
+
+
+20-table-1.md
+Statues will depict: 
+
+| d100   | Result                            |
+|:-------|:----------------------------------|
+| 1-40   | Humans                            |
+| 41-75  | Demi-humans                       |
+| 76-90  | Humanoids                         |
+| 91-98  | Other Races (dragon, giant, etc.) |
+| 99-100 | Abstract concepts                 |
+^StatuesDepict
+
+
+The last category is all-encompassing. Perhaps the memorial is a permanent illusion that constantly replays the final moments of a decisive battle, or a field of magical energy that causes those within it to experience a specific emotion. Memorials could also be abstract works of art like the chalk figures of England, or the Nazca lines of Peru.
+
+21-table-3.md
+
+| d100   | Result                                                                                                                                                                                                                                                                       |
+|:-------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1      | Small. probably erected by a race of Micronians or perhaps awakened animals.                                                                                                                                                                                                 |
+| 2-60   | Medium. sized or scaled for Men (statues will be approximately human height, buildings and other structures scaled for human habitation).                                                                                                                                    |
+| 61-90  | Large. sized for ogres and such. Statues will be approximately 8-10’ tall, obelisks around 20-35 feet. There is a 1-2 in 6 chance that the monuments are actually designed by a large race; the other 66% of the time they’re built by human-sized creatures with big ideas. |
+| 91-99  | Giant-sized.  Statues  will  be  approximately 11-20’ tall,  obelisks  and  columns  around 36-50 feet. There is a 1 in 6 chance that the monuments are actually designed by a large race;  the  rest  of  the  time  they’re  built  by human-sized folks with big ideas.   |
+| 100    | Enormous.  These  monuments  are  so  large they boggle the mind and are either built by creatures larger than the largest giants (1 in 6 chance) or by large kingdoms and empires (such as the Pyramids at Giza).                                                           |
+^MonumentSize
+
+There’s a 1 in 6 chance 
+
+| dice: 1d6 |                                                                                                                                                                                                        |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1         | the monuments have internal space (if appropriate). Monuments with internal spaces will contain `dice: 1d4` chambers, with size obviously being a limiting factor.  `dice: [[Fill#^MonumentEntrance]]` |
+| 2-6       | monument is solid                                                                                                                                                                                      |
+^monumentHollow
+
+
+| dice: 1d4 |                                             |
+| --------- | ------------------------------------------- |
+| 1         | the entrance is visible on a roll of 1-2,   |
+| 2         | visible but locked on a roll of 3-4,        |
+| 3         | concealed but unlocked on a roll of 5-6, or |
+| 4         | concealed and locked on a roll of 7-8.      |
+^MonumentEntrance
+
+
+
+
+If a monument contains internal space use the Dungeon Stocking Table on p. 225 of OSE core to determine what can be found within. Roll 1d12 to determine the “level” of the dungeon for purposes of stocking with monsters and treasure (p. 225 of OSE core gives the amount of treasure to be found):
 
 
 21-table-1.md
@@ -632,6 +720,9 @@ Statues will depict:
 | 11    | Level 8  |
 | 12    | Level 9* |
 
+* Roll for each treasure category twice, taking the lower of the two results. Ex. A treasure is to be found within, equivalent to that found on a level three dungeon. The Referee rolls 1d100 twice for each category listed (sp, gp, gems, jewelry, magic item), taking the lower result of each pair.
+
+Monuments will be of the following age . . .
 
 21-table-2.md
 
@@ -641,18 +732,9 @@ Statues will depict:
 | 11-50  | 10d10 years   |
 | 51-95  | 10d100 years  |
 | 96-100 | 10d1000 years |
+^monumentAge
 
-
-21-table-3.md
-
-| d100   | Result                                                                                                                                                                                                                                                                       |
-|:-------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1      | Small. probably erected by a race of Micronians or perhaps awakened animals.                                                                                                                                                                                                 |
-| 2-60   | Medium. sized or scaled for Men (statues will be approximately human height, buildings and other structures scaled for human habitation).                                                                                                                                    |
-| 61-90  | Large. sized for ogres and such. Statues will be approximately 8-10’ tall, obelisks around 20-35 feet. There is a 1-2 in 6 chance that the monuments are actually designed by a large race; the other 66% of the time they’re built by human-sized creatures with big ideas. |
-| 91-99  | Giant-sized.  Statues  will  be  approximately 11-20’ tall,  obelisks  and  columns  around 36-50 feet. There is a 1 in 6 chance that the monuments are actually designed by a large race;  the  rest  of  the  time  they’re  built  by human-sized folks with big ideas.   |
-| 100    | Enormous.  These  monuments  are  so  large they boggle the mind and are either built by creatures larger than the largest giants (1 in 6 chance) or by large kingdoms and empires (such as the Pyramids at Giza).                                                           |
-
+They will be constructed of . . .
 
 21-table-4.md
 
@@ -662,7 +744,32 @@ Statues will depict:
 | 21-45  | Metal            |
 | 46-95  | Stone            |
 | 96-100 | Exotic Materials |
+^monumentMaterial
 
+There is a 1-3 in 6 chance that the monument is engraved with writing. If so, there’s a 1-2 in 6 chance that time and the elements have obscured most, if not all, of the writing, and a further 1-2 in 6 chance the language is dead and no longer known to Man.
+
+
+
+There’s a further 1 in 20 chance that the monument possesses a special quality:
+
+| dice: 1d20 | result                                   | 
+| ---------- | ---------------------------------------- |
+| 1          | `dice: [[Fill#^monumentSpecialQuality]]` |
+| 2-20       | no special quality                       |
+^isSpecialQuality
+
+| dice: 1d6 |                                                                                                                                                                                                                                   |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | The monument provides a clue to a mystery or points the way to something relevant: a buried treasure, a dungeon, an imprisoned efreet, etc.                                                                                       |
+| 2         | The monument radiates magical energy and is the focal point of a randomly determined spell. The only way to end the spell’s effect is to destroy the monument.                                                                    |
+| 3         | The monument is actually a device designed to capture ley line energy. There’s a 1-2 in 6 chance that the ley line has since shifted and energy is no longer being stored.                                                        |
+| 4         | The monument serves as a prison for some powerful being.                                                                                                                                                                          |
+| 5         | f touched or manipulated in a specific way the monument will provide a boon (1-3) or a bane (4-6). In the case of a boon there’s a 1-2 in 6 chance that a sacrifice (of blood, coin, magic, etc.) is required for it to function. |
+| 6         | The monument is a portal to another plane. There’s a 1-2 in 6 chance it functions without effort, otherwise some ritual or spell is required for it to function.                                                                  |
+^monumentSpecialQuality
+
+
+---
 
 22-table-1.md
 

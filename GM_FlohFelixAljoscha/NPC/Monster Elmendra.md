@@ -14,8 +14,8 @@
 	- [[602010151200 Session Log 23 201912232000 Abtauchen Gang Lysindra#^9cc32c]]
 - [[201808222010 Monster Godrai]] bitte PC nochmal, nach Elmendra zu suchen  [[602008151200 Session Log 16 201905042000 Senktal Ayili Hexe General#^f4d6aa]]
 - [[602011081200 Session Log 25 202001242000 Angmar bis Grey Wade Crossing#^41ca08]]
-	- Wo beginnen auf der Suche nach Elmendra? Karvosti um mit [[Symbaroum MonsterCrueljaw]] zu sprechen.
-- war bei [[Symbaroum MonsterCrueljaw]] und hat ihm den [[Item Hexenhammer]] gegeben. Crueljaw hat den Hammer den Sonnenpriesater übergeben.
+	- Wo beginnen auf der Suche nach Elmendra? Karvosti um mit [[Symbaroum Monster Crueljaw]] zu sprechen.
+- war bei [[Symbaroum Monster Crueljaw]] und hat ihm den [[Item Hexenhammer]] gegeben. Crueljaw hat den Hammer den Sonnenpriesater übergeben.
 - Eher in Ambria
 
 

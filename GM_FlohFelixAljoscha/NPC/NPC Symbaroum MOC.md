@@ -17,7 +17,7 @@
  - Borrorakk goblin der Baumelo verfolgt 17.12.2018 
  - [[202208201317 Cornelio]] Erzmeister des Ordo Magica in Thistle Hold 31.10.2018 
  - ![[crueljaw.jpeg|200]]
- - [[Symbaroum MonsterCrueljaw]] Ogerschmied auf Karvosti 01.02.2019 
+ - [[Symbaroum Monster Crueljaw]] Ogerschmied auf Karvosti 01.02.2019 
  - Desna/Belda wache auf schiff 10.01.2019 
  - [[Symbaroum Monster Edrafin]] Leiter des ambrischen Zeltlagers 01.02.2019 
  - Edran alter aus Großvater Lints Dorf 01.02.2019 

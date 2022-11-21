@@ -4,95 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "0951dc893049fc3d",
+        "id": "4b229fbc3fc32635",
         "type": "tabs",
         "children": [
           {
-            "id": "0a5be6c3fc7ceb08",
+            "id": "da387970d7d7c8a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Brainstorming MOC.md",
+                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Encounters MOC.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "46b7c2f033571d51",
+            "id": "42f220d06d2ae1d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Players_FlohFelixAljoscha/character/Ruins of Symbaroum Theurg Spells.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a51f4d59cba2f906",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Players_FlohFelixAljoscha/character/Ruins of Symbaroum Wizard Spells.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3a9e3bab5362754d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f9ba095e45764067",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Players_FlohFelixAljoscha/character/classes/Ruins of Symbaroum Class Mystic.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b1d24b1096da0f78",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Players_FlohFelixAljoscha/spell_List/passwall 20 ft deep w.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b46c49e7d927b243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202202121703 Access Spell.md",
+                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,11 +79,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 294.5,
+    "collapsed": true
   },
   "right": {
     "id": "45f2f42350a021b3",
@@ -160,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "202202121703 Access Spell.md",
+                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -201,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "202202121703 Access Spell.md"
+                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md"
               }
             }
           }
@@ -224,19 +165,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 382.5,
+    "collapsed": true
   },
-  "active": "b46c49e7d927b243",
+  "active": "42f220d06d2ae1d2",
   "lastOpenFiles": [
-    "Players_FlohFelixAljoscha/5e Symbaroum Spells Spirit walk ros ritual.md",
-    "Players_FlohFelixAljoscha/5e spells etherealness ghost wc not favoured.md",
+    "GM_FlohFelixAljoscha/Symbaroum Session MOC.md",
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Encounters MOC.md",
+    "GM_FlohFelixAljoscha/Sovereign Oath Hanging.md",
+    "GM_FlohFelixAljoscha/602101050800 Session Log 50 202210242100.md",
+    "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
+    "GM_FlohFelixAljoscha/NPC/Symbaroum Monster Crueljaw.md",
     "202202121703 Access Spell.md",
-    "Players_FlohFelixAljoscha/spell_List/gaseous form access w.md",
-    "Players_FlohFelixAljoscha/5e spells fly 10 mins w not favoured.md",
-    "Players_FlohFelixAljoscha/spell_List/water walk c ros ritual.md",
-    "Players_FlohFelixAljoscha/spell_List/stone shape 5 ft deep wc.md",
     "Players_FlohFelixAljoscha/spell_List/passwall 20 ft deep w.md",
-    "Players_FlohFelixAljoscha/character/classes/Ruins of Symbaroum Sorcerer Spells.md",
-    "Players_FlohFelixAljoscha/spell_List/5e spell jump w.md"
+    "Players_FlohFelixAljoscha/character/classes/Ruins of Symbaroum Class Mystic.md",
+    "Players_FlohFelixAljoscha/character/Ruins of Symbaroum Wizard Spells.md"
   ]
 }
