@@ -354,13 +354,14 @@ If structures are abandoned or no longer in use they can potentially be used eit
 |:--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Burial Grounds. Its Size is `dice: [[Fill#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Fill#^HowBuried]]`. How long  have they been dead: `dice: [[Fill#^howlongDead]]`. The dead are: `dice: [[Fill#^deadAncestry]]`, `dice: [[Fill#^buriedceremony]]`  `dice: [[Fill#^buriedTemple]]`. |
 | 2   | Monuments to `dice: [[Fill#^MonumenttoWhom]]` `dice: [[Fill#^monumentShape]]`, `dice: [[Fill#^MonumentSize]]`, `dice: [[Fill#^monumentHollow]]`, `dice: [[Fill#^monumentAge]]`, `dice: [[Fill#^monumentMaterial]]` , `dice: [[Fill#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                             |
-| 3-5 | Dwellings                                                                                                                                                                                                                                                                                                                                   |
-| 6   | Fortificaton                                                                                                                                                                                                                                                                                                                                |
+| 3-5 | Dwellings `dice: [[Fill#^dwellingInhabitants]]`, age `dice: [[Fill#^monumentAge]]`, condition `dice: [[Fill#^dwellingCondition]]`, The dwelling is made of . . . `dice: [[Fill#^dwellingMaterials]]` , its size is:  `dice: [[Fill#^dwellingSize]]`                                                                                                                                                                                                                                                                                                                              |
+| 6   | Fortificaton.                                                                                                                                                                                                                                                                                                                                |
 | 7-8 | Infrastructure                                                                                                                                                                                                                                                                                                                              |
 | 9   | Barriers                                                                                                                                                                                                                                                                                                                                    |
 | 10  | Dungeons                                                                                                                                                                                                                                                                                                                                    |
 ^StructuresMaster
 
+---
 
 
 ##### Burial Ground
@@ -726,12 +727,12 @@ Monuments will be of the following age . . .
 
 21-table-2.md
 
-| d100   | Result        |
-|:-------|:--------------|
-| 1-10   | 1d10 years    |
-| 11-50  | 10d10 years   |
-| 51-95  | 10d100 years  |
-| 96-100 | 10d1000 years |
+| d100   | Result                |
+|:------ |:--------------------- |
+| 1-10   | `dice: 1d10` years    |
+| 11-50  | `dice: 10d10` years   |
+| 51-95  | `dice: 10d100` years  |
+| 96-100 | `dice: 10d1000` years |
 ^monumentAge
 
 They will be constructed of . . .
@@ -771,6 +772,12 @@ There’s a further 1 in 20 chance that the monument possesses a special quality
 
 ---
 
+##### Dwellings
+
+The wilderness is filled with hovels, huts and houses erected by various peoples, either inhabited by the original builder, a recent arrival or completely abandoned.
+
+The dwellings are . . .
+
 22-table-1.md
 
 | d100   | Result                                                                                                                                                                                                                                   |
@@ -778,17 +785,14 @@ There’s a further 1 in 20 chance that the monument possesses a special quality
 | 1-25   | Inhabited by monsters. Roll on the wandering encounter  table  appropriate  for  the  area  to determine exactly what lives within.                                                                                                      |
 | 26-60  | Uninhabited. If it is uninhabited there is a 1-2 in 6 chance of there being valuables within the house, with the following treasure type (1-A, 2-B, 3-C, 4-D, 5-E, 6-F). There is an additional 1-3 in 6 chance the treasure is trapped. |
 | 61-100 | Inhabited  by the  original  builders (or the descendants/same race as the original builders).                                                                                                                                           |
+^dwellingInhabitants
 
 
 22-table-2.md
 
-| d100   | Result        |
-|:-------|:--------------|
-| 1-10   | 1d10 years    |
-| 11-60  | 10d10 years   |
-| 61-99  | 10d100 years  |
-| 100    | 10d1000 years |
+[[Fill#^monumentAge]]
 
+The dwelling is in what condition? Subtract 1 from the roll for every 100 years of age, with a maximum modifier of –15:
 
 22-table-3.md
 
@@ -798,7 +802,10 @@ There’s a further 1 in 20 chance that the monument possesses a special quality
 | 16-50  | In need of some repair.      |
 | 51-85  | In relatively decent shape.  |
 | 86-100 | Immaculately maintained.     |
+^dwellingCondition
 
+
+The dwelling is made of . . .
 
 22-table-4.md
 
@@ -807,45 +814,61 @@ There’s a further 1 in 20 chance that the monument possesses a special quality
 | 1-25   | Materials  found  locally  and  appropriate  for the surroundings.                     |
 | 26-60  | Materials imported from afar.                                                          |
 | 61-100 | Unique materials or those created by magic: a palace of glass, or amber, for instance. |
+^dwellingMaterials
 
-
-23-table-1.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 96-98  | Very Large. The dwelling has 1d12+5 rooms and  is  roughly  the  size  of  a  manor  house. There’s  a  1-3 in  6  chance that there  are 1d2+1  outbuildings  surrounding  the  main house,  with  2d4  rooms  divided  amongst them. There’s a 1-3 in 6 chance the buildings are  surrounded  by  walls  or  other  defensive fortifications,  and  an  additional  1-2 in  8 chance the building is actually a keep, with a primarily defensive function. |
-| 99-100 | Palatial. The dwelling has 2d20+5 rooms and is roughly the size of a castle. There’s a 1-4 in 8 chance that it actually is a castle. There’s an additional 1-3 in 6 chance that there are 2d4 outbuildings, with 4d4 rooms between them. If the structure is not a castle or keep there’s a 1-3 in 6 chance the buildings are surrounded by walls or similar fortifications.                                                                                 |
-
-
-23-table-2.md
-
-| d100   | Result        |
-|:-------|:--------------|
-| 1-10   | 1d10 years    |
-| 11-60  | 10d10 years   |
-| 61-99  | 10d100 years  |
-| 100    | 10d1000 years |
-
-
-23-table-3.md
-
-| d100   | Result                       |
-|:-------|:-----------------------------|
-| 1-15   | Crumbling and falling apart. |
-| 16-50  | In need of some repair.      |
-| 51-85  | In relatively decent shape.  |
-| 86-100 | Immaculately maintained.     |
+The materials used in the construction of a dwelling will be largely dependent upon the size and resident. For instance, most buildings in a forested hex might be log cabins with thatched roofs, inhabited by independent freeholders, while a retired adventurer might live in a wood-framed house with a cedar shake roof, and a noble’s manor may be stone with a slate roof. Most dwellings on a prairie may be sod, with larger/wealthier houses being wood, or perhaps brick or adobe.
 
 
 23-table-4.md
 
 | d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |:-------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-10   | Tiny.  A  single-room  hut,  hovel  or  house. There’s  a  1-2  in  6  chance  the  dwelling  was designed to be temporary (such as a lean-to, hide tent, yurt, etc.). It’s been built to provide shelter, with no extraneous rooms.                                                                                                                                                                                                                                                                                                            |
-| 11-30  | Small.  The dwelling has 1d3 rooms, potentially  with  a  sleeping  space  separate from the living space. There’s a 1 in 6 chance the  dwelling is  surrounded  by  a  wall  or similar fortification.                                                                                                                                                                                                                                                                                                                                         |
-| 31-75  | Medium.  The  dwelling  has  1d4+1  rooms and  is  generally  what  we  would  consider to  be  a  “house”  with  dedicated  rooms  for different purposes. There’s a 1-2 in 6 chance the  dwelling is  surrounded  by  a  wall  or similar fortification. There’s a 1 in 8 chance the dwelling is actually a fortified keep.                                                                                                                                                                                                                   |
-| 76-95  | Large.  The  dwelling  has  1d6+4  rooms  and would  be  consistent  with  a large freehold supporting  several  families.  If  there  are  more than 6 rooms there’s a 1-2 in 6 chance the rooms are  actually  divided  between  1d2+1  buildings, forming a compound. If all the rooms are in one building, there’s a 1-2 in 6 chance the dwelling is surrounded by a wall, or if in multiple buildings there’s a 1-3 in 6 chance of the same. There’s a 1 in 8 chance the building is actually a keep, with a primarily defensive function. |
+| 1-10   | Tiny.  A  single-room  hut,  hovel  or  house. There’s  `dice: 1d6<3`  chance  the  dwelling  was designed to be temporary (such as a lean-to, hide tent, yurt, etc.). It’s been built to provide shelter, with no extraneous rooms.                                                                                                                                                                                                                                                                                                            |
+| 11-30  | Small.  The dwelling has `dice: 1d3` rooms, potentially  with  a  sleeping  space  separate from the living space. There’s `dice: 1d6<2` chance the  dwelling is  surrounded  by  a  wall  or similar fortification.                                                                                                                                                                                                                                                                                                                                         |
+| 31-75  | Medium.  The  dwelling  has  `dice: 1d4+1`  rooms and  is  generally  what  we  would  consider to  be  a  “house”  with  dedicated  rooms  for different purposes. There’s `dice: 1d6<3` chance the  dwelling is  surrounded  by  a  wall  or similar fortification. There’s `dice: 1d8<2` chance the dwelling is actually a fortified keep.                                                                                                                                                                                                                   |
+| 76-95  | Large.  The  dwelling  has  `dice: 1d6+4`  rooms  and would  be  consistent  with  a large freehold supporting  several  families.  If  there  are  more than 6 rooms there’s `dice: 1d6<3` chance the rooms are  actually  divided  between  `dice: 1d2+1`  buildings, forming a compound. If all the rooms are in one building, there’s `dice: 1d6<3` chance the dwelling is surrounded by a wall, or if in multiple buildings there’s `dice: 1d6<4` chance of the same. There’s `dice: 1d8<2` chance the building is actually a keep, with a primarily defensive function. |
+| 96-98  | Very Large. The dwelling has `dice: 1d12+5` rooms and  is  roughly  the  size  of  a  manor  house. There’s  a  `dice: 1d6<4`  chance that there  are `dice: 1d2+1`  outbuildings  surrounding  the  main house,  with  2d4  rooms  divided  amongst them. There’s a `dice: 1d8<4`chance the buildings are  surrounded  by  walls  or  other  defensive fortifications,  and  an  additional  `dice: 1d8<3` chance the building is actually a keep, with a primarily defensive function. |
+| 99-100 | Palatial. The dwelling has `dice: 2d20+5` rooms and is roughly the size of a castle. There’s `dice: 1d8<5` chance that it actually is a castle. There’s an additional `dice: 1d6<4` chance that there are `dice:2d4` outbuildings, with `dice: 4d4` rooms between them. If the structure is not a castle or keep there’s `dice: 1d6<4` chance the buildings are surrounded by walls or similar fortifications.                                                                                 |
+^dwellingSize
 
+##### Fortifications
+
+Just as there are dwellings scattered throughout the wilds there are also countless structures erected primarily for strategic purposes. These structures differ from dwellings in that their primary purpose is to provide a fortified position for the builders, as opposed to living quarters. When possible such structures will be located in areas that provide a wide field of vision of the surroundings.
+
+The age of the fortification will be . . .
+
+[[Fill#^monumentAge]]
+
+It will be in the following condition. Subtract 1 from the roll for every 100 years in age, with a maximum modifier of –15:
+
+[[Fill#^dwellingCondition]]
+
+The fortifications will be built out of the following . . .
+
+
+24-table-2.md
+
+| d100   | Result                                                                                                                                                                      |
+|:-------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1-40   | Earth.  Typically  these  will  be  the  simplest kinds of fortifications: earthen berms behind which troops can hide, trenches dug into the earth lined with spikes, etc.  |
+| 41-70  | Wood.  The  fortifications  will  be  primarily constructed  of  wood  and  will  be  either  a palisade, a hastily erected wall, a fort framed from massive logs, etc.     |
+| 71-90  | Stone. These  could  be  a  stone  wall  snaking across  the  terrain,  a  granite  redoubt  carved into  living  rock  or  a  keep  perched  atop  a lonely tor.           |
+| 91-98  | Exotic Material. The defensive structure will be built out of some sort of exotic material, that  may  or  may  not  have  been  created  or crafted through mundane means. |
+| 99-100 | Magical Material. The defensive structure is clearly magical in nature: a wall of flame, or corpses, or a castle made from ice.                                             |
+^fortificationMaterial
+
+24-table-3.md
+
+| d100   | Result    |
+|:-------|:----------|
+| 1-20   | Wall.     |
+| 21-40  | Hillfort. |
+| 41-55  | Berm.     |
+| 56-75  | Trench.   |
+| 76-85  | Tower.    |
+| 86-95  | Keep.     |
+| 96-100 | Castle.   |
+^fortificationType
 
 24-table-1.md
 
@@ -861,28 +884,7 @@ There’s a further 1 in 20 chance that the monument possesses a special quality
 | 100    | 100+ miles long. See above                                                                                                                                                                                                                          |
 
 
-24-table-2.md
 
-| d100   | Result                                                                                                                                                                      |
-|:-------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-40   | Earth.  Typically  these  will  be  the  simplest kinds of fortifications: earthen berms behind which troops can hide, trenches dug into the earth lined with spikes, etc.  |
-| 41-70  | Wood.  The  fortifications  will  be  primarily constructed  of  wood  and  will  be  either  a palisade, a hastily erected wall, a fort framed from massive logs, etc.     |
-| 71-90  | Stone. These  could  be  a  stone  wall  snaking across  the  terrain,  a  granite  redoubt  carved into  living  rock  or  a  keep  perched  atop  a lonely tor.           |
-| 91-98  | Exotic Material. The defensive structure will be built out of some sort of exotic material, that  may  or  may  not  have  been  created  or crafted through mundane means. |
-| 99-100 | Magical Material. The defensive structure is clearly magical in nature: a wall of flame, or corpses, or a castle made from ice.                                             |
-
-
-24-table-3.md
-
-| d100   | Result    |
-|:-------|:----------|
-| 1-20   | Wall.     |
-| 21-40  | Hillfort. |
-| 41-55  | Berm.     |
-| 56-75  | Trench.   |
-| 76-85  | Tower.    |
-| 86-95  | Keep.     |
-| 96-100 | Castle.   |
 
 
 25-table-1.md

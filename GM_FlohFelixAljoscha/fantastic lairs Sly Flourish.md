@@ -11,8 +11,6 @@
 name: Caves of the Cockatrice
 creatures:
  - 1: Rojazz
- - 1: Paco
- - 1: Variol
  - 1: Fey-touched Cockatrice
  - 2: Cockatrice Hatchling
 ```
