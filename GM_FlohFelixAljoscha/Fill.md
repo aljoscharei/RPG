@@ -1967,10 +1967,10 @@ The commercial infrastructure’s age will be . . .
 | 100    | 10d1000 years |
 
 
-##### Camps. 
+###### Camps. 
 Camps are either (1-3) occupied by (1-5) travelers or (6) squatters, or are (4-6) currently empty. Camps are maintained by either the local domain ruler, merchant guild, or military to provide designated areas for military or mercantile caravans to rest while traveling. They usually are found on flat, raised ground, marked in some fashion. Camps have a 1-4 in 6 chance of having low defensive walls surrounding the perimeter (1d4+2 feet tall). There is also a 1-2 chance someone has been nice enough to keep a stock of dry firewood. 1 in 6 camps have semi-permanent, crude shelters for animals or Man, and 1-4 in 6 of them will have a nearby source of water in the form of a (1-2) stream, (3-4) spring, (5) fountain, or (6) well.
 
-##### Farm. 
+###### Farm. 
 A farm will be the following size . . .
 
 33-table-2.md
@@ -1997,7 +1997,7 @@ Farms that are larger than 50 acres may be large enough to have supplies availab
 
 Refer to the section on Resources for more information on crop type.
 
-##### Ferry. 
+###### Ferry. 
 Reroll if this result comes up when it is not appropriate. Ferries are used to cross rivers when bridges are not available. The ferry will be (1-3) operated by the user, (4-5) operated by a dedicated ferryman, or (6) operated by some other means.
 
 Those operated by the user usually consist of a raft or flat-bottomed boat that runs on a rope strung across the river. The boat is pulled or poled across and can be pulled back by travelers as needed. These self-service ferries have a 1 in 6 chance of either (1-4) being out of service due to neglect or vandalism, or (5-6) operated by bandits or brigands looking to prey upon travelers. Increase this chance by 1 in Wilderness hexes.
@@ -2021,7 +2021,7 @@ Ferries operated by other means could be poled by constructs, powered by spells,
 
 Depending on the weather or season a ferry may not be operable. Heavy rains or melting snow cover may render the river too dangerous to cross, and obviously a frozen river does not need a ferry, provided the ice is thick enough to walk across.
 
-##### Ford. 
+###### Ford. 
 Simply a shallow part of a river or large stream, fords allow for travelers to cross in relative safety, albeit while getting wet. There’s a 1-2 in 6 chance that the crossing is dangerous during certain times of the year, or after heavy rain. In these cases those crossing must succeed on a Save v. Death to avoid being swept off their feet. If the travelers are mounted while crossing their mounts make the save, but with a +2 bonus to the roll.
 
 If a ford is frequently used there’s a 1 in 20 chance it is watched by brigands or monsters who use the distraction of crossing to attack. This chance is reduced to 1 in 100 in Civilized hexes.
@@ -2042,14 +2042,14 @@ A ford will be . . .
 
 Fords that are deeper than five feet are typically only crossed by mounted travelers, and are used simply because the wider, shallower part of the river is slower moving than other areas.
 
-##### Hunting Lodge. 
+###### Hunting Lodge. 
 Hunting lodges are maintained for three distinct reasons: (1-3) by trappers and hunters to use as a base of operations, (4-5) by nobles that maintain the house for use during sport hunting, or (6) by name-level ranger-type characters that use it as a base of operations in Wilderness hexes.
 
 Hunting lodges consist of 1d4 buildings, typically, either of (1-3) wood, (4-5) stone, or (6) other material.
 
 Because they are often forced to rely on their own supplies for long periods of time there’s a 1-2 in 6 chance that a hunting lodge has a Market Class of 1.
 
-##### Inn. 
+###### Inn
 Found mostly along heavily trafficked trade routes where there is not enough population to support a community, but enough travel to support a business, roadside inns in Borderland or Wilderness hexes are most often fortified complexes with walls that enclose the main inn and outbuildings. Roadside inns have 1d8 features in Borderland hexes and 2d6 in Wilderness hexes (roll 1d00 to determine the features), listed below. Unless otherwise indicated results are cumulative.
 
 
@@ -2070,21 +2070,21 @@ Found mostly along heavily trafficked trade routes where there is not enough pop
 | 78-79  | Threat.  A  hidden  threat  lurks  in  the  inn. One  or  more  of  the  staff  may  be  disguised monsters, or the food may have spoiled and will poison the guests, or a fire may break out at  night.  If  this  result  comes  up  more  than once increase the threat level appropriately. |
 | 80-100 | Wall.  The inn is  surrounded  by  a (1-3) wood,  (4-5)  brick,  or  (6)  stone  wall  that is  approximately  eight feet tall.  For  each additional result add another defensive feature (arrow slits, moat, tower, etc.).                                                                    |
 
-##### Lighthouse/signal towers.
+###### Lighthouse/signal towers.
 Tall buildings with a light atop to (1-4) guide travelers or (5-6) send messages. The towers will be 3d6×10 feet high and manned by 1d4 staff with a 1-4 in 6 chance of having 2d4 mercenary guards.
 
 Signal towers are typically maintained by (1-5) domain rulers or (6) other organizations. They will be spaced out at increments of three miles plus 1.5 for every ten feet in height of the tower. The fire is (1-4) only lit in times of danger or (5-6) lit to send coded messages.
 
 Lighthouses are kept continually lit at night or cloudy days to warn nearby ships of dangers in the vicinity.
 
-##### Logging Camp.
+###### Logging Camp.
 When found in wooded areas such a camp is dedicated to cutting timber; when found in non-wooded areas the workers harvest sod, peat, or similar material. An ocean-side camp may harvest kelp or something similar.
 
 The camp will (1-3) ship harvested material via river, (4- 5) sell it for use nearby, or (6) ship it via land. Refer to the Resource section on p. 37 to determine the value/size of nearby resources. There will be 1d6 individuals dedicated to harvesting the material for every subhex of resource. Camps will be (1-5) semi-permanent dwellings or (6) permanent structures. There will be 1d2 structures for ever ten workers. There’s a 1-4 in 6 chance of having a blacksmith employed for every twenty workers, a 1-5 in 6 chance of having 2d4 mercenary guards for ever ten workers, and a 1 in 6 chance of having a 1st-level cleric present for every twenty workers.
 
 Camps with more than 100 workers have an equivalent Market Class of (1-4) 1 or (5-6) 2. There’s a 1-2 in 6 chance that a logging camp has a lumber mill (see below) as part of the camp. This chance is increased by 1 in Wilderness hexes.
 
-##### Military Garrison/Supply House. 
+###### Military Garrison/Supply House. 
 Large domains often maintain barracks or garrisons on their borders to project their power into Borderlands or Wilderness areas outside of the domain proper. These are to be treated as keeps, housing a military garrison of the appropriate size based upon the size of the keep.
 
 Garrisons will also contain a surplus of supplies for the forces to use should they be under attack or need to march to war. Each garrison will have a supply of dried rations, weapons, and ammunition that can be drawn from to supply troops.
@@ -2093,7 +2093,7 @@ There’s a 1 in 8 chance that a garrison is treated as being a Market Class of 
 
 Additionally, there’s a 1 in 10 chance that there will be 1 spy per twenty-five troops. These spies will be from (1-3) the domain ruler, keeping an eye on corruption, (4) an outside domain, (5) a local thieves’/brigands’ guild, or (6) an evil cult, enemy, or polymorphed/disguised monster.
 
-##### Mill. 
+###### Mill. 
 Mills will be (1-3) powered by moving water, (4-5) powered by manual labor (animals, slaves, etc.), or (6) powered by another source, likely magical.
 
 Mills will process (1-3) grain, (4-5) timber, or (6) other material. Grain mills will only be found in Wilderness hexes on a roll of 1-2 in 6 as they overwhelmingly tend to be in more densely populated areas where they can serve the needs of a larger community of farmers.
@@ -2106,7 +2106,7 @@ Water-powered lumber mills use blades driven by running water, while manually po
 
 A typical lumber mill has 2d20 employees, plus draft horses to help move materials around. The workers will typically live adjacent to the mill, and there will be 1d2 support staff on hand for every five workers. This support staff includes laborers (1-5 in 6 chance per 5 workers), blacksmiths (1-3 in 6 chance per 5 workers), animal handlers (1-2 in 6 chance per 5 workers), etc.
 
-##### Mine. 
+###### Mine. 
 Mines are (1-3) dug, (4-5) sluice, or (6) strip mines. A mine will be (1-3) a solo operation, run by a single individual or family, (4-5) a larger operation owned as a mercantile venture, or (6) owned by a nearby ruler, noble, or landowner.
 
 Dug mines are created by digging shafts into the ground that follow veins of minerals. They can descend deep into the earth, and require physical bracing and reinforcement. The deeper a dug mine goes the more labor is needed to efficiently extract materials, and the more dangerous it becomes.
@@ -2121,7 +2121,7 @@ Mines will be visited every 1d4 weeks by supply caravans that bring supplies to 
 
 Refer to the section on Resources on p. 37 for more information.
 
-##### Monastery. 
+###### Monastery. 
 Many monastic orders are headquartered in remote areas. They (1-3) are primarily religious, (4-5) primarily martial, or (6) primarily esoteric (specializing in magical research).
 
 They will be (1-2) Lawful, (3-4) Neutral, or (5-6) Chaotic. Monasteries should be treated as the domains of name-level characters: strongholds founded by clerics (from the core rules) or assassins (p. 8, Advanced Fantasy). Use the rules in those books to determine the number of leveled characters present, and assume they have support staff equal to mining camps.
@@ -2130,24 +2130,24 @@ Monasteries are also constructed as keeps and strongholds, usually (1-4) of ston
 
 Otherwise, monasteries are built along the lines of dungeons.
 
-##### Orchard.
+###### Orchard.
 Similar to farms, but instead of planting seasonal crops the farmers tend orchards of (1-3) fruit trees, (4-5) nut trees, or (6) grape vines. Because of the higher density and perennial nature of their crop subtract 10 from the roll when determining the size of the orchard.
 
 Orchards have a 1-4 in 6 chance of being surrounded by a low wall, and a 1-2 in 6 chance of being patrolled by 1d4 guards for every ten acres. These guards are the equivalent of (1-4) light foot or (5-6) heavy foot.
 
-##### Other.
+###### Other.
 Use this category for features that are not included in any of the others.
 
-##### Quarry.
+###### Quarry.
 Quarries are similar to mines, except they are usually (1-5) of the strip mine variety, and only very rarely (6) dug mines. Refer to the section on Resources, below.
 
-##### Ranch.
+###### Ranch.
 In all other respects similar to farms, but ranches primarily raise livestock. Ranches have a 1-2 in 6 chance of being surrounded by wooden fences with a primary purpose of keeping animals in rather than protecting the property from external threats.
 
 Add 10 to the roll when determining the ranch size. If the result is 101 or above the ranch is 1d4 subhexes.
 
 
-##### Shrine. 
+###### Shrine. 
 Unlike temples, that are staffed by priests of a deity, shrines are smaller structures dedicated to a deity. There are typically no full-time attendants of a shrine, although there may be a part-time caretaker that occasionally visits the shrine to look after the place.
 
 The shrine will be dedicated to a (1-2) Lawful, (3-4) Neutral, or (5-6) Chaotic deity. There’s a 1-3 in 6 chance there’s a semi-permanent caretaker that visits every (1- 3) 1d4 weeks, (4-5) 1d8 days, or (6) 1d4 months.
@@ -2162,7 +2162,7 @@ Boons impose the following: (1) the subject gains a bonus of 1d4 to a specific r
 
 Note that boons and banes that specifically call out “the next roll” do not permanently grant the modifier, but will expire once that next roll is made, regardless of how long it takes to make that roll.
 
-##### Temple.
+###### Temple.
 Temples are larger than shrines, with a permanent contingent of worshipers. Temples have the same proportions of alignments as shrines. Like monasteries, temples should be treated as name-level strongholds run by clerics or paladins. Use the rules in the OSE rulebooks to determine the number of followers.
 
 There will be support staff in the temple equal to 3d4×10% of the followers. The support staff may be generally followers of the deity, but are considered to be 0-level NPCs.
