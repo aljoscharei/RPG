@@ -1,3 +1,9 @@
+## Current position:
+[[#Infrastructure]]
+[[#Structures]]
+[[#Water]]
+
+## Master Table
 1.1 Feature Type `dice: [[Fill#^FeatureNoLairs]]`
 
 | dice: 1d20 | Result                                                                    |
@@ -14,7 +20,7 @@
 | 19         | Water                                                                     |
 ^FeatureNoLairs
 
-#### Geologic
+### Geologic
 
 | dice: 1d6 | Result                                                                                                                                                                                                                                            |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -26,7 +32,7 @@
 | 6         | Water                                                                                                                                                                                                                                             |
 ^GeologicFeature
 
-##### Caves
+#### Caves
 Caves, obviously, are located below the ground and so are not always visible. Use the following rules to determine what the cave looks like. Note that any hex that has caves present gains the “Hazard (Sinkhole)” feature on a roll of 1 in 6 in the subhex containing the cave and the six subhexes around it. In addition, the vast majority of the time a cave system will be inhabited by a monster of some kind, even if it is not normally open to the surface world. There is a 1 in 20 chance per cave that it is totally uninhabited, with a further 1-3 in 6 chance that the cave is uninhabited for a specific reason (the air within is poisonous, the rock emits strong radiation, difficult to reach, etc.).
 
 12-table-3.md
@@ -296,7 +302,7 @@ The pattern will be one of the following
 | 73-108      | The pattern is of a random shape or arrangement, determined by the whim of of a mad artist, whimsical deity or capricious spirit.                                                                                                |
 ^patternFunction
 
-##### Soil
+#### Soil
 The soil here differs from the surrounding soil. Roll below to determine the exact nature of the change.
 
 Appearance (1d6) . . .
@@ -335,7 +341,7 @@ If a third or more of the subhexes in this hex are more productive, increase the
 
 
 
-#### Structures
+### Structures
 This section covers all sorts of structures that can be found in the wilderness, from simple lean-to shelters to elaborate mansions and free-holds, from abandoned shepherd huts to ruined castles and keeps.
 
 Unless otherwise stated,
@@ -355,8 +361,8 @@ If structures are abandoned or no longer in use they can potentially be used eit
 | 1   | Burial Grounds. Its Size is `dice: [[Fill#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Fill#^HowBuried]]`. How long  have they been dead: `dice: [[Fill#^howlongDead]]`. The dead are: `dice: [[Fill#^deadAncestry]]`, `dice: [[Fill#^buriedceremony]]`  `dice: [[Fill#^buriedTemple]]`. |
 | 2   | Monuments to `dice: [[Fill#^MonumenttoWhom]]` `dice: [[Fill#^monumentShape]]`, `dice: [[Fill#^MonumentSize]]`, `dice: [[Fill#^monumentHollow]]`, `dice: [[Fill#^monumentAge]]`, `dice: [[Fill#^monumentMaterial]]` , `dice: [[Fill#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                             |
 | 3-5 | Dwellings `dice: [[Fill#^dwellingInhabitants]]`, age `dice: [[Fill#^monumentAge]]`, condition `dice: [[Fill#^dwellingCondition]]`, The dwelling is made of . . . `dice: [[Fill#^dwellingMaterials]]` , its size is:  `dice: [[Fill#^dwellingSize]]`                                                                                                                                                                                                                                                                                                                              |
-| 6   | Fortificaton.                                                                                                                                                                                                                                                                                                                                |
-| 7-8 | Infrastructure                                                                                                                                                                                                                                                                                                                              |
+| 6   | Fortificaton. A `dice: [[Fill#^fortificationType]]` made of `dice: [[Fill#^fortificationMaterial]]`. It is `dice: [[Fill#^dwellingCondition]]` its age is `dice: [[Fill#^monumentAge]]`.                                                                                                                                                                                                                                                                                                                        |
+| 7-8 | Infrastructure `dice: [[Fill#^InfrastructureType]]`,                                                                                                                                                                                                                                                                                                                             |
 | 9   | Barriers                                                                                                                                                                                                                                                                                                                                    |
 | 10  | Dungeons                                                                                                                                                                                                                                                                                                                                    |
 ^StructuresMaster
@@ -364,7 +370,7 @@ If structures are abandoned or no longer in use they can potentially be used eit
 ---
 
 
-##### Burial Ground
+#### Burial Ground
 Structures in this category range from simple wooden or stone grave markers to large mausoleums and sprawling necropolises. Roll below to determine what is found.
 
 
@@ -580,7 +586,7 @@ The dead will be . . .
 ^deadAncestry
 
 
-##### Monuments:
+#### Monuments:
 The civilizations of the past leave behind great works whose function is to memorialize great heroes and rulers, portentous events and defining battles, while current rulers do the same to make their glory known to their subjects. Monuments can also be alien or inscrutable in nature, of uncertain purpose or provenance, or even simple structures erected by the common folk to commemorate certain events.
 
 Monuments fall into several different categories. . .
@@ -772,7 +778,7 @@ There’s a further 1 in 20 chance that the monument possesses a special quality
 
 ---
 
-##### Dwellings
+#### Dwellings
 
 The wilderness is filled with hovels, huts and houses erected by various peoples, either inhabited by the original builder, a recent arrival or completely abandoned.
 
@@ -831,7 +837,21 @@ The materials used in the construction of a dwelling will be largely dependent u
 | 99-100 | Palatial. The dwelling has `dice: 2d20+5` rooms and is roughly the size of a castle. There’s `dice: 1d8<5` chance that it actually is a castle. There’s an additional `dice: 1d6<4` chance that there are `dice:2d4` outbuildings, with `dice: 4d4` rooms between them. If the structure is not a castle or keep there’s `dice: 1d6<4` chance the buildings are surrounded by walls or similar fortifications.                                                                                 |
 ^dwellingSize
 
-##### Fortifications
+#### Fortifications
+
+24-table-3.md
+
+| d100   | Result                                                                                                                                                                                                                   |
+|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-20   | Wall. `dice: [[Fill#^wallstraight]]`, `dice: [[Fill#^walllength]]`, `dice: [[Fill#^wallheight]]`, made of `dice: [[Fill#^wallmaterial]]`. A wall has  `dice: 1d12<2`   magical property (refer to the section on Magic). |
+| 21-40  | Hillfort. `dice: [[Fill#^Hillfortsize]]`                                                                                                                                                                                                               |
+| 41-55  | Berm. `dice: [[Fill#^bermage]]`, length `dice: [[Fill#^walllength]]`, `dice: [[Fill#^bermshape]]` , `dice: [[Fill#^bermheight]]`, `dice: [[Fill#^bermstructures]]`                                                                                                                                                                                                                 |
+| 56-75  | Trench.`dice: [[Fill#^bermage]]`, length `dice: [[Fill#^walllength]]`, `dice: [[Fill#^bermshape]]` , `dice: [[Fill#^bermheight]]`, `dice: [[Fill#^bermstructures]]`, `dice: [[Fill#^trenchhazard]]`                                                                                                                                                                                                                  |
+| 76-85  | Tower. It is `dice: [[Fill#^dwellingCondition]]` its age is `dice: [[Fill#^monumentAge]]`, `dice: [[Fill#^TowerMaterial]]`                                                                                                                                                                                                                  |
+| 86-95  | Keep. It is `dice: [[Fill#^dwellingCondition]]` its age is `dice: [[Fill#^monumentAge]]` `dice: [[Fill#^TowerMaterial]]`                                                                                                                                                                                                                  |
+| 96-100 | Castle. It is `dice: [[Fill#^dwellingCondition]]` its age is `dice: [[Fill#^monumentAge]]` `dice: [[Fill#^TowerMaterial]]`                                                                                                                                                                                                                |
+^fortificationType
+
 
 Just as there are dwellings scattered throughout the wilds there are also countless structures erected primarily for strategic purposes. These structures differ from dwellings in that their primary purpose is to provide a fortified position for the builders, as opposed to living quarters. When possible such structures will be located in areas that provide a wide field of vision of the surroundings.
 
@@ -857,79 +877,136 @@ The fortifications will be built out of the following . . .
 | 99-100 | Magical Material. The defensive structure is clearly magical in nature: a wall of flame, or corpses, or a castle made from ice.                                             |
 ^fortificationMaterial
 
-24-table-3.md
 
-| d100   | Result    |
-|:-------|:----------|
-| 1-20   | Wall.     |
-| 21-40  | Hillfort. |
-| 41-55  | Berm.     |
-| 56-75  | Trench.   |
-| 76-85  | Tower.    |
-| 86-95  | Keep.     |
-| 96-100 | Castle.   |
-^fortificationType
+##### Walls
+This section covers boundary walls as opposed to walls that would encircle a keep or settlement. A boundary wall demarcates the border between two territories, perhaps that no longer even exist, or was erected to serve as a defensive bulwark during a battle or conflict, then left to remain standing.
+
+Assume that a wall begins in the subhex in which it is rolled for, running north (1), northeast (2), east (3), southeast (4), south (5), southwest (6), west (7), or northwest (8). 
+
+It will be 
+
+
+| dice: 1d6 | result              |
+| --------- | ------------------- |
+| 1-3       | relatively straight |
+| 4-5       | curved              |
+| 6         | sharply angled      |
+^wallstraight
+
+How long is the wall?
 
 24-table-1.md
 
-| d100   | Result                                                                                                                                                                                                                                              |
-|:-------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-10   | 2d20 feet.                                                                                                                                                                                                                                          |
-| 11-25  | 8d20 feet. Walls of this length have a 1-2 in 6 chance of having a gate or opening along the length.                                                                                                                                                |
-| 26-65  | 8d100 feet. Walls of this length have a 1-3 in 6  chance  of  having  a  gate  or  opening  every 1d4×100 feet. If the wall is taller than 10’ there is a 1-2 in 6 chance there is a tower or other defensive structure located every 1d6×100 feet. |
-| 66-75  | 8d100×10 feet. See above.                                                                                                                                                                                                                           |
-| 76-85  | 1d6 miles. See above.                                                                                                                                                                                                                               |
-| 86-96  | 3d4 miles. See above.                                                                                                                                                                                                                               |
-| 97-99  | 5d20 miles. See above.                                                                                                                                                                                                                              |
-| 100    | 100+ miles long. See above                                                                                                                                                                                                                          |
+| dice: d100 | Result                                                                                                                                                                                                                                                   |
+|:---------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-10       | `dice: 2d20` feet.                                                                                                                                                                                                                                       |
+| 11-25      | `dice: 8d20` feet. Walls of this length have `dice: 1d6<3` gate or opening along the length. Berms  this  long  have `dice: 1d6<4` single break somewhere along the line to allow passage.                                                               |
+| 26-65      | `dice: 8d100` feet. Walls/Berms of this length have a `dice: 1d6<4`   a  gate  or  opening  every `dice: 1d4`×100 feet. If the wall is taller than 10’  there is `dice: 1d6<2` tower or other defensive structure located every `dice: 1d6`×100 feet.    |
+| 66-75      | `dice: 8d100`×10 feet. Walls/Berms of this length have a `dice: 1d6<4`   a  gate  or  opening  every `dice: 1d4`×100 feet. If the wall is taller than 10’  there is `dice: 1d6<2` tower or other defensive structure located every `dice: 1d6`×100 feet. |
+| 76-85      | `dice: 1d6` miles. Walls/Berms of this length have a `dice: 1d6<4`   a  gate  or  opening  every `dice: 1d4`×100 feet. If the wall is taller than 10’  there is `dice: 1d6<2` tower or other defensive structure located every `dice: 1d6`×100 feet.     |
+| 86-96      | `dice: 3d4` miles. Walls/Berms of this length have a `dice: 1d6<4`   a  gate  or  opening  every `dice: 1d4`×100 feet. If the wall is taller than 10’  there is `dice: 1d6<2` tower or other defensive structure located every `dice: 1d6`×100 feet.     |
+| 97-99      | `dice: 5d20` miles. Walls/Berms of this length have a `dice: 1d6<4`   a  gate  or  opening  every `dice: 1d4`×100 feet. If the wall is taller than 10’  there is `dice: 1d6<2` tower or other defensive structure located every `dice: 1d6`×100 feet.    |
+| 100        | 100+ miles long. Walls/Berms of this length have a `dice: 1d6<4`   a  gate  or  opening  every `dice: 1d4`×100 feet. If the wall is taller than 10’  there is `dice: 1d6<2` tower or other defensive structure located every `dice: 1d6`×100 feet.       |
+^walllength
+
+The wall will be
+
+
+| dice: 1d216 | result                        |
+| ----------- | ----------------------------- |
+| 1-72        | `dice: 1d4` feet tall (1-2),  |
+| 73-144      | `dice: 2d4` feet tall (3-4),  |
+| 144-180     | `dice: 3d4` feet tall (5), or |
+| 181-204     | `dice: 4d6` feet tall (6).    |
+| 205-212     | `dice: 5d20` feet tall        |
+| 213-216     | `dice: 5d100` feet tall       |
+^wallheight
 
 
 
 
+Walls are built of 
+| dice: 1d12 | result                 |
+| ---------- | ---------------------- |
+| 1-4        | wood,                  |
+| 5-7        | stone,                 |
+| 8-10       | brick,                 |
+| 11         | an exotic material, or |
+| 12         | magic.                 |
+^wallmaterial
+
+##### Hillforts
+Using the very contours of the land as a defensive feature hillforts tend to be somewhat primitive in nature. Typically, a hill is contoured, with dirt removed to level sections being used to created earthen walls behind which defenders may shelter. Wood and stone can be incorporated into the fort as well, but most times the primary material used is packed dirt.
+
+Most of the time hillforts will be used purely as defensive structures, but over time these will often begin to attract houses and settlements to the relatively safety of the fortifications. If they remain, these hillforts will occasionally be built into larger communities, defended by more sophisticated walls and keeps.
 
 25-table-1.md
 
 | d100   | Result                                                                                                                                                                                                                                                                                                            |
 |:-------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-20   | Encompasses  1d10×1,000  sq.  ft.  Has  one “terrace”  with  ramparts  1d6+4  feet  tall  and one entrance.                                                                                                                                                                                                       |
-| 21-60  | Encompasses  1d100×1,000  sq.  ft.  Has  one terrace with ramparts 1d6+6 feet tall and one entrance.                                                                                                                                                                                                              |
-| 61-90  | Encompasses  1d10×10,000  sq.  ft.  Has  one terrace  if  under  90,000  sq.  ft.,  two  terraces if over that. The ramparts will be 1d6+6 feet tall, with 1d2 entrances per terrace.                                                                                                                             |
-| 91-99  | Encompasses 1d100×10,000 sq. ft.  Has 1d2+1  terraces,  with  ramparts  1d8+7  feet tall, and 1d3 entrances per terrace.                                                                                                                                                                                          |
-| 100    | Encompasses 3d100×10,000 sq. ft.  Has 1d3+1  terraces,  with  ramparts  1d8+7  feet tall, and 1d4 entrances per terrace. Hillforts encompassing more than 2,000,000 sq. ft. are largely useless as defensive structures and are instead used  for more pedestrian purposes, such as the containment of livestock. |
+| 1-20   | Encompasses  `dice: 1d10`×1,000  sq.  ft.  Has  one “terrace”  with  ramparts  `dice: 1d6+4`  feet  tall  and one entrance.                                                                                                                                                                                                       |
+| 21-60  | Encompasses  `dice: 1d100`×1,000  sq.  ft.  Has  one terrace with ramparts `dice: 1d6+6` feet tall and one entrance.                                                                                                                                                                                                              |
+| 61-90  | Encompasses  `dice: 1d10`×10,000  sq.  ft.  Has  one terrace  if  under  90,000  sq.  ft.,  two  terraces if over that. The ramparts will be `dice: 1d6+6` feet tall, with `dice: 1d2` entrances per terrace.                                                                                                                             |
+| 91-99  | Encompasses `dice: 1d100`×10,000 sq. ft.  Has `dice: 1d2+1`  terraces,  with  ramparts  `dice: 1d8+7`  feet tall, and `dice: 1d3` entrances per terrace.                                                                                                                                                                                          |
+| 100    | Encompasses `dice: 3d100`×10,000 sq. ft.  Has `dice: 1d3+1`  terraces,  with  ramparts  `dice: 1d8+7`  feet tall, and `dice: 1d4` entrances per terrace. Hillforts encompassing more than 2,000,000 sq. ft. are largely useless as defensive structures and are instead used  for more pedestrian purposes, such as the containment of livestock. |
+^Hillfortsize
 
+##### Berm
 
-25-table-2.md
+Dirt has been dug and piled into a raised fortification, typically as a short-term protective measure. The trench created by the excavation is typically on the outside of the berm, facing the threat, and can be filled with water, or sharpened stakes, or magically summoned oozes, etc.
 
-| d100   | Result                                                                                                                                                                                                                                                       |
-|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-10   | 2d20 feet                                                                                                                                                                                                                                                    |
-| 11-45  | 8d20  feet.  Berms  this  long  have  a  1-3  in  6 chance of having a single break somewhere along the line to allow passage.                                                                                                                               |
-| 46-65  | 8d100 feet long. Berms this long have a 1-3 in 6 chance of having a gate or opening every 1d4×100  feet.  If  the  berm  is  taller  than  10’ there  is  a  1  in  6  chance  there  is  a  tower  or other defensive structure located every 1d6×100 feet. |
-| 66-75  | 8d100×10 feet. See above.                                                                                                                                                                                                                                    |
-| 76-85  | 1d6 miles. See above.                                                                                                                                                                                                                                        |
-| 86-96  | 3d4 miles. See above.                                                                                                                                                                                                                                        |
-| 97-99  | 5d20 miles. See above.                                                                                                                                                                                                                                       |
-| 100    | 100+ miles long. See above.                                                                                                                                                                                                                                  |
-
-
-25-table-3.md
-
-| d100   | Result            |
-|:-------|:------------------|
-| 1-25   | 1d4+4 feet tall   |
-| 26-86  | 1d6+8 feet tall   |
-| 87-99  | 1d12+12 feet tall |
-| 100    | 1d20+20 feet tall |
-
+It will be . .
 
 25-table-4.md
 
-| d100   | Result          |
-|:-------|:----------------|
-| 1-10   | 1d10 months old |
-| 11-60  | 1d10 years old  |
-| 61-99  | 10d10 years     |
-| 100    | 10d100 years    |
+| dice: d100  | Result                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|:----- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-10  | 1d10 months old for a berm that is fewer than ten years old `diece: 1d6<4` chance it is currently being used;                                                                                                                                                                                                                                                                                                                    |
+| 11-60 | 1d10 years old. For a berm that is fewer than ten years old `diece: 1d6<4` chance it is currently being used; Berms that are older than two years, and either not in use or not being well-maintained, will likely be discovered in the process of being taken back over by nature; plants will have begun to reclaim the earthen slopes, trenches get filled in by leaves and decaying  vegetable matter, water, and so forth |
+| 61-99 | 10d10 years. For a berm that is older than ten years old `diece: 1d6<2` chance it is currently being used; Berms that are older than two years, and either not in use or not being well-maintained, will likely be discovered in the process of being taken back over by nature; plants will have begun to reclaim the earthen slopes, trenches get filled in by leaves and decaying  vegetable matter, water, and so forth    |
+| 100   | 10d100 years. For a berm that is older than ten years old `diece: 1d6<2` chance it is currently being used; Berms that are older than two years, and either not in use or not being well-maintained, will likely be discovered in the process of being taken back over by nature; plants will have begun to reclaim the earthen slopes, trenches get filled in by leaves and decaying  vegetable matter, water, and so forth   |
+^bermage
+
+For a berm that is fewer than ten years old there’s a 1-3 in 6 chance that it is currently being used; those older have only a 1 in 6 chance of being in use. As a general rule, older berms have a tendency to be converted over time to actual walls and more defensive permanent structures.
+
+Berms that are older than two years, and either not in use or not being well-maintained, will likely be discovered in the process of being taken back over by nature; plants will have begun to reclaim the earthen slopes, trenches get filled in by leaves and decaying  vegetable matter, water, and so forth. For trenches that are currently being used for defensive purposes refer to the next section, below.
+
+The berm will be 
+
+
+| dice: 1d8 | result                      |
+| --------- | --------------------------- |
+| 1-3       | a straight line,            |
+| 4-5)      | a curve that is unclosed,   |
+| 6-7       | a fully enclosed circle, or |
+| 8         | another enclosed shape.     |
+^bermshape
+
+It will be this long . . .
+
+[[Fill#^walllength]]
+
+25-table-3.md
+
+
+| dice: d100   | Result            |
+|:-------|:------------------|
+| 1-25   | `dice: 1d4+4` feet tall   |
+| 26-86  | `dice: 1d6+8` feet tall   |
+| 87-99  | `dice: 1d12+12` feet tall |
+| 100    | `dice: 1d20+20` feet tall |
+^bermheight
+
+Berms are typically as wide at the base as they are tall, sloped more severely on the outside, with a gentler slope on the inside to allow defenders easier access to the top. Berms that are currently being used have a 1 in 6 chance per 8 feet in height of having 
+
+
+| dice: 1d36 | result                                                                                                   |
+| ---------- | -------------------------------------------------------------------------------------------------------- |
+| 1-30       | no structures                                                                                            |
+| 31-33      | internal structures that allow defenders to reach the top. These structures will be fashioned from earth |
+| 34-35      | internal structures that allow defenders to reach the top. These structures will be wood                 |
+| 6          | internal structures that allow defenders to reach the top. These structures will be stone.               |
+^bermstructures
 
 
 26-table-1.md
@@ -941,25 +1018,28 @@ The fortifications will be built out of the following . . .
 | 61-99  | 10d100 years  |
 | 100    | 10d1000 years |
 
+##### Trenches
+The opposite of berms, trenches are dug into the ground to provide protection to forces or an obstacle to advancing enemies. Use the tables above to determine length and depth. Use the chances given above for gates or openings to determine whether a trench has some means of crossing, such as a bridge. Trenches by themselves have a 
 
-26-table-2.md
+| dice: 1d18 | result                                                                                             |
+| ---------- | -------------------------------------------------------------------------------------------- |
+| 1-12       | Trench does not contain any hazard in 6 chance of  some sort:                                |
+| 13         | containing a hazard of spikes of sharpened wood or iron,                                     |
+| 14         | covered and disguised to look like the ground,                                               |
+| 15         | containing a hazard of oil or other flammable materials,                                     |
+| 16         | containing a hazard of creatures such as giant centipedes, oozes, jellies, etc.              |
+| 17         | containing a hazard of undead or animated creatures tasked with attacking those entering, or |
+| 18         | containing a hazard of cached boulders or logs primed to roll down the slope.                |
+^trenchhazard
 
-| d100   | Result                       |
-|:-------|:-----------------------------|
-| 1-15   | Crumbling and falling apart. |
-| 16-50  | In need of some repair.      |
-| 51-85  | In relatively decent shape.  |
-| 86-100 | Immaculately maintained.     |
+If the trenches are more than a year old or abandoned there’s a 1-3 in 6 chance any hazards have been rendered useless by age and the elements. Abandoned trenches also have a 1-2 in 6 chance of being filled with water.
 
 
-26-table-3.md
+##### Tower/Keep/Castle
 
-| d20   | Result     |
-|:------|:-----------|
-| 1-8   | Roads      |
-| 9-15  | Water      |
-| 16-20 | Commercial |
-
+[[fill#^monumentAge]]
+Subtract 1 from the roll for every 100 years in age, with a maximum modifier of –10:
+[[Fill#^dwellingCondition]]
 
 26-table-4.md
 
@@ -968,29 +1048,173 @@ The fortifications will be built out of the following . . .
 | 1-30   | Wood.  The  structures  are  made  of  worked wood,  limiting  their  size  to  no  more  than four stories tall (approximately 50 feet high). |
 | 31-80  | Stone. Built primarily of stone, these structures have a size limited to eight stories (approximately 100 feet high).                          |
 | 81-100 | Exotic.  Built  from  exotic  materials  or  with the aid of magic, towers may be carved from living trees, or glass.                          |
+^TowerMaterial
 
+Towers are typically used as fortified residences or smaller garrisons to secure small areas. However, towers are quick and easy to build and are often implemented as a first “wave” of civilization designed to provide a quick and dirty fortified garrison. Towers have a base value of 1d12×5000 gp.
+
+Keeps are larger, designed to control larger territories, and provide housing and shelter for the settlers. Keeps have a base value of 3d6×10,000 gp.
+
+Castles are larger still, the last stage in the evolution of defensive structures. Towers are built to quickly pacify the wilderness, and as civilization spreads they get expanded into keeps, which in turn are added onto and become sprawling castles. Castles have a base value of 2d6×100,000 gp, and often house hundreds of residents.
+
+The chance that a structure is uninhabited decreases based upon its size; towers are the most likely to be found uninhabited and castles the least likely. The beginning of this section gives chances that a structure is used for its intended purpose; add 1 to the roll for castles and subtract 1 for towers.
+
+Ex. Structures in Borderlands hexes have a 1-3 in 6 chance of being used for their intended purpose. Towers, therefore, have a 1-2 in 6 chance, keeps a 1-3, and castles a 1-4 chance.
+
+#### Infrastructure
+
+26-table-3.md
+
+| dice: d20 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-8       | Roads `dice: [[Fill#^roadType]]`, There’s `dice: 1d6<5` chance the road follows a nearby terrain feature. If not, roll 1d6 and use the diagram on p., Road Start `dice: [[Fill#^RoadStartEnd]]`, Road End `dice: [[Fill#^RoadStartEnd]]`, The road is . . . `dice: [[Fill^RoadSize]]`. The Road goes on in the `dice: [[Fill#^direction]]` for `dice: [[Fill#^roadlength]]`,The Road goes on in the `dice: [[Fill#^direction]]` for `dice: [[Fill#^roadlength]]`, The road has `dice: [[Fill#^roadmarkers]]`, see [[#Roadcommerce]]  |
+| 9-15      | Water. A `dice: [[Fill#^WaterStructureType]]`, dice: `[[Fill#^monumentAge]]`,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 
+| 16-20     | Commercial                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+^InfrastructureType
+
+
+##### Road
 
 26-table-5.md
 
-| d100                                   | Result                                                                                                                         |
-|:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
-| 1-30                                   | Dirt.  Dirt  roads  do  not  grant  the  bonus  to movement  (see  p.  111,  OSE  core)  during rain, or for 1d3–1 days after. |
-| 31-60                                  | Paved with dry laid stones (1-3) or bricks (4-6).                                                                              |
-| 61-90                                  | Wood (logs laid side by side), a “plank road”.                                                                                 |
-| 91-98                                  | Artificial (such as Roman concrete roads).                                                                                     |
-| 99-100 Magical or unusual (see below). |                                                                                                                                |
+| d100   | Result                                                                                                                         |
+|:------ |:------------------------------------------------------------------------------------------------------------------------------ |
+| 1-30   | Dirt.  Dirt  roads  do  not  grant  the  bonus  to movement  (see  p.  111,  OSE  core)  during rain, or for 1d3–1 days after. |
+| 31-60  | Paved with dry laid stones (1-3) or bricks (4-6).                                                                              |
+| 61-90  | Wood (logs laid side by side), a “plank road”.                                                                                 |
+| 91-98  | Artificial (such as Roman concrete roads).                                                                                     |
+| 99-100 | Magical or unusual (see below). `dice: 1d6<2` `dice: [[Fill#^roadunusual]]` `dice: [[Fill#^roadunique]]`                                                   |
+^roadType
 
+
+| dice: 1d6 | result                                                                                |
+| --------- | ------------------------------------------------------------------------------- |
+| 1-2       | the unusual aspect of the road can be found the entire length of the road, on a |
+| 3-4       | it is found for `dice: 1d8`×10% of the length, and on a                         |
+| 5-6       | it occurs only in a single randomly determined location.                        |
+^roadunusual
 
 27-table-1.md
 
-| d10 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|:--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1-3 | Unique material. The road is built of an unusual material. The road is made from (1) one of the materials above, but unique or rare to the region, (2) iron, (3) bone, (4) graves, (5) glass, (6) high-tech material like plastic or concrete, (7) ceramics, (8) living material, (9-10) other.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 4-6 | Unique construction. The road is built in an unusual manner. It is (1) elevated, (2) sunken, (3) covered, (4) hidden, (5) goes underground for a portion, (6) other.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| 7   | Magical (benign). The road is enchanted in a manner that is beneficial to those traveling on it. It (1) is safer than normal. Wandering monster chances are reduced by 1d2 while on the road, (2) those on the road are under the effects of a permanent protection from evil spell, (3) food does not spoil or go bad while on the road, (4) travelers on the road move faster than normal: if granted, the normal 50% bonus to movement is increased to 75%, or if not granted travelers have a 25% bonus, (5) travelers on the road do not incur exhaustion for forced marching, (6) healing is increased: roll twice for all healing spells and effects and take the better of two results, (7) all travelers on the road are able to understand any spoken language, or (8) other.                                                                                                                                                                                                                                                                                                                |
-| 8   | Magical (malign). The road is enchanted in a manner that is dangerous to those traveling on it. (1) It is more dangerous than normal: those traveling on the road have their chances of wandering monsters increased by 1d2, (2) normal rations spoil after a day on the road and iron rations after 1d4 days, (3) movement is slowed: if a speed bonus would normally be granted for maintained roads it is lost, and if not movement is 50% slower, (4) turning undead is less potent: if attempting to turn undead within 50’ of the road roll twice, taking the lower result, (5) sleep within 50’ of the road is fitful, and does not count as rest for purposes of memorizing spells or avoiding exhaustion, (6) healing magics are minimized: roll twice when determining damage healed, taking the lower of the two results, (7) creatures slain on the road are either (1-2 incapable of being raised or brought back to life, short of a wish spell, or 3-6 raised as undead within 1d8 days of their death; they will be 1-2 skeletons, 3-4 zombies, 5 wights, or 6 wraiths), or (8) other. |
-| 9-10  | Magical  (neutral).  The  road  possesses  an enchantment that is neither directly beneficial nor malignant. It is (1) a pathway to another place  (1-4)  or  plane  of  existence  (5-6),  (2) can  only  be  traveled  on  by  those  who  know the  proper  words  (1-3)  or  carry  the  correct charms  (4-6),  (3)  the  road  is  lit  by  floating magical  lights:  there’s  a  1-2  in  6  chance  the lights  only  illuminate  when  living  creatures are within 30’, otherwise they stay lit, (4) the road is intelligent, inhabited by an animating spirit;  it  is  1-2  Lawful,  3-6  Neutral,  or  7-8 Chaotic; the road has an Intelligence of 3d6, and there’s a 1-2 in 6 chance it has properties similar to an intelligent sword (see p. 272 OSE core), (5) the road only appears under certain conditions or at certain times of the year (refer to the Magic Chapter on p. 66),  or (6) other. |
+| d10  | Result                                                                                                                                                |
+|:---- |:----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3  | Unique material. The road is built of an unusual material. The road is made from `dice: [[Fill#^roadmaterialunusual]]`                                |
+| 4-6  | Unique construction. The road is built in an unusual manner. It is `dice: [[Fill#^roadconstructionunusual]]`                                          |
+| 7    | Magical (benign). The road is enchanted in a manner that is beneficial to those traveling on it. It `dice: [[Fill#^roadmagicbenign]]`                  |
+| 8    | Magical (malign). The road is enchanted in a manner that is dangerous to those traveling on it. `dice: [[Fill#^roadmagicmalign]]`                     |
+| 9-10 | Magical  (neutral).  The  road  possesses  an enchantment that is neither directly beneficial nor malignant. It is `dice: [[Fill#^roadmagicneutral]]` |
+^roadunique
 
+
+| dice: 1d10 |                                                               |
+| ---------- | ------------------------------------------------------------- |
+| 1          | one of the materials above, but unique or rare to the region, |
+| 2          | iron,                                                         |
+| 3          | bone,                                                         |
+| 4          | graves,                                                       |
+| 5          | glass,                                                        |
+| 6          | high-tech material like plastic or concrete,                  |
+| 7          | ceramics,                                                     |
+| 8          | living material,                                              |
+| 9-10       | other.                                                        |
+^roadmaterialunusual
+
+| dice: 1d6 | result                          |
+| --------- | ------------------------------- |
+| 1         | elevated,                       |
+| 2         | sunken,                         |
+| 3         | covered,                        |
+| 4         | hidden,                         |
+| 5         | goes underground for a portion, |
+| 6         | other.                          |
+^roadconstructionunusual
+
+| dice. 1d8 |                                                                                                                                                                |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | is safer than normal. Wandering monster chances are reduced by 1d2 while on the road,                                                                          |
+| 2         | those on the road are under the effects of a permanent protection from evil spell,                                                                             |
+| 3         | food does not spoil or go bad while on the road,                                                                                                               |
+| 4         | travelers on the road move faster than normal: if granted, the normal 50% bonus to movement is increased to 75%, or if not granted travelers have a 25% bonus, |
+| 5         | travelers on the road do not incur exhaustion for forced marching,                                                                                             |
+| 6         | healing is increased: roll twice for all healing spells and effects and take the better of two results,                                                        |
+| 7         | all travelers on the road are able to understand any spoken language, or                                                                                       |
+| 8         | other.                                                                                                                                                         |
+^roadmagicbenign
+
+| dice: 1d8 |                                                                                                                                    |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | It is more dangerous than normal: those traveling on the road have their chances of wandering monsters increased by 1d2,           |
+| 2         | normal rations spoil after a day on the road and iron rations after 1d4 days,                                                      |
+| 3         | movement is slowed: if a speed bonus would normally be granted for maintained roads it is lost, and if not movement is 50% slower, |
+| 4         | turning undead is less potent: if attempting to turn undead within 50’ of the road roll twice, taking the lower result,            |
+| 5         | sleep within 50’ of the road is fitful, and does not count as rest for purposes of memorizing spells or avoiding exhaustion,       |
+| 6         | healing magics are minimized: roll twice when determining damage healed, taking the lower of the two results,                      |
+| 7         | creatures slain on the road are either , `dice: [[Fill#^roadslain]]`                                                                |
+| 8         | other.                                                                                                                             |
+^roadmagicmalign
+
+
+| dice: |                                                                                                                                                                                                                                                       |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | a pathway to , `dice: [[Fill#^roadpathway]]`                                                                                                                                                                                                          |
+| 2     | can  only  be  traveled  on  by  those  who  `dice: [[Fill#^roadAccess]]`                                                                                                                                                                             |
+| 3     | the  road  is  lit  by  floating magical  lights:  there’s  `dice: 1d6<3` chance  the lights  only  illuminate  when  living  creatures are within 30’, otherwise they stay lit,                                                                      |
+| 4     | the road is intelligent, inhabited by an animating spirit;  it  is  `dice: [[Fill^alignment]]`; the road has an Intelligence of `dice: 3d6`, and there’s  `dice: 1d6<3` chance it has properties similar to an intelligent sword see p. 272 OSE core, |
+| 5     | the road only appears under certain conditions or at certain times of the year refer to the Magic Chapter on p. 66,  or                                                                                                                               |
+| 6     | other.                                                                                                                                                                                                                                                |
+^roadmagicneutral
+
+| dice. 1d6 | result                      |
+| --------- | --------------------------- |
+| 1-4       | another place  (1-4)  or    |
+| 5-6       | plane  of  existence  (5-6) |
+^roadpathway
+
+| dice: 1d6 |                                       |
+| --------- | ------------------------------------- |
+| 1-3       | know the  proper  words  (1-3)         |
+| 4-6       | or  carry  the  correct charms  (4-6) |
+^roadAccess
+
+| dice: 1d8 | result       |
+| --------- | ------------ |
+| 1-2       | Lawful,      |
+| 3-6       | Neutral,  or |
+| 7-8       | Chaotic      |
+^alignment
+
+
+| dice: 1d6 |                                                                                              |
+| --------- | -------------------------------------------------------------------------------------------- |
+| 1-2       | incapable of being raised or brought back to life, short of a wish spell, or                 |
+| 3-6       | raised as undead within 1d8 days of their death; they will be `dice: [[Fill#^TypePCUndead]]` |
+^roadslain
+
+| dice: 1d6 | result     |
+| --------- | ---------- |
+| 1-2       | skeletons, |
+| 3-4       | zombies,   |
+| 5         | wights, or |
+| 6         | wraiths    |
+^TypePCUndead
+
+Magical enchantments can 
+
+| dice: 1d6 |                                                                                         |
+| --------- | --------------------------------------------------------------------------------------- |
+| 1         | be dispelled by conducting a ritual that needs to be researched,                        |
+| 2         | be dispelled by a casting of dispel magic by a caster of level `dice: 1d6+8` or higher, |
+| 3         | be dispelled by a casting of remove curse by a caster of at least level 1d6+8,          |
+| 4         | be dispelled, but only for `dice:1d12` months by one of the above methods, or           |
+| 5-6       | not be dispelled by anything short of divine intervention.                              |
+^roaddispel
+
+Magical effects that stretch for more than one mile: `dice: 1d6<4` will require multiple attempts to dispel on a roll of 
+
+There’s `dice: 1d6<5` chance the road follows a nearby terrain feature. If not, roll 1d6 and use the diagram on p.
+
+The road starts or stops in this hex? `dice: 1d6<3`. Otherwise, it is assumed the road passes through the hex.
+
+The road leads to (roll twice, once for each end. If the road terminates in the current hex assume it leads to the most appropriate feature) . . .
 
 27-table-2.md
 
@@ -1003,16 +1227,43 @@ The fortifications will be built out of the following . . .
 | 36-55  | Another road |
 | 56-60  | Water        |
 | 61-100 | Settlement   |
+^RoadStartEnd
+
+##### Roadcommerce
+In Borderland hexes the road has  `dice: 1d6<5` chance of being used regularly for commerce and travel. This chance is increased by one in Civilized hexes and decreased by 1 in Wilderness hexes, or domains with an alignment of Chaotic. Roads that are not used regularly have fallen into disrepair and do not grant the 50% bonus to overland movement (see p. 111, OSE core).
+If a road connects two settlements, add the highest Market Class to the following roll for the size of the road. Refer to p. 16 of Domain Building for information on Market Classes.
+
+#####
+
+The road is . . .
+
+28-table-3.md
+
+| d100   | Result                                                                                                                                                                                                                                                                                            |
+|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1-30   | Little  more  than  a  game  trail.  Carts  and wagons  cannot  use it in  difficult terrain, regardless  of  the  condition  of  the  road  (see p.  49,  OSE  core).  Individuals  must  travel in  single  file  whether  mounted  or  on  foot. Subtract 10 from the roll for length of road. |
+| 31-50  | Wider trail. Carts and wagons cannot use it in difficult terrain regardless of the condition of  the  road.  Individuals  can  travel  in  two ranks when on foot. Subtract 5 from the roll for length of road.                                                                                   |
+| 51-65  | Lane.  Carts  can  use  it  in  difficult  terrain, wagons  cannot.  Individuals  can travel in three ranks on foot or two mounted.                                                                                                                                                               |
+| 66-81  | Wider  lane.  Carts  and  wagons  can  use  it in difficult terrain, individuals can travel in four ranks on foot or two mounted.                                                                                                                                                                 |
+| 82-92  | Road. Wide enough for two wagons to pass. +5 to the roll for length of road.                                                                                                                                                                                                                      |
+| 93-97  | Wide  Road.  Wide  enough  for  four  wagons to pass. +10 to the roll for length of road.                                                                                                                                                                                                         |
+| 98-00  | Grand Road. Six  or  more  wagons  can  pass each other. +15 to the roll for length of road.                                                                                                                                                                                                      |
+^roadsize
 
 
-27-table-3.md
+Add +5 to the above roll in Civilized domains, and an additional +5 if the domain is Lawful or advanced (either magically or technologically).
 
-| d10   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|:------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-3   | Unique material. The road is built of an unusual material.  The  road  is  made  from  (1)  one  of the  materials  above,  but  unique  or  rare  to  the region, (2) iron, (3) bone, (4) graves, (5) glass, (6)  high-tech  material  like  plastic  or  concrete, (7) ceramics, (8) living material, (9-10) other.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 4-6   | Unique  construction.  The  road  is  built  in an  unusual  manner.  It  is  (1)  elevated,  (2) sunken,  (3)  covered,  (4)  hidden,  (5)  goes underground for a portion, (6) other.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 7     | Magical (benign). The road is enchanted in a manner that is beneficial to those traveling on it. It (1) is safer than normal. Wandering monster chances are reduced by 1d2 while on the road, (2) those on the road are under the effects of a permanent  protection  from  evil  spell,  (3)  food does not spoil or go bad while on the road, (4) travelers on the road move faster than normal: if granted, the normal 50% bonus to movement is increased to 75%, or if not granted travelers have a 25% bonus, (5) travelers on the road do not  incur  exhaustion  for  forced  marching,  (6) healing  is  increased:  roll  twice  for  all  healing spells  and  effects  and  take  the  better  of  two results, (7) all travelers on the road are able to understand any spoken language, or (8) other.                                                                                                                                                                                                                                                                                                           |
-| 8     | Magical (malign). The road is enchanted in a manner that is dangerous to those traveling on it. (1) It is more dangerous than normal: those traveling on the road have their chances of wandering monsters increased by 1d2, (2) normal rations spoil after a day on the road and iron rations after 1d4 days, (3) movement is slowed: if a speed bonus would normally be granted for maintained roads it is lost, and if not movement is 50% slower, (4) turning undead is  less  potent:  if  attempting  to  turn  undead within  50’  of  the  road  roll  twice,  taking  the lower result, (5) sleep within 50’ of the road is fitful, and does not count as rest for purposes of memorizing spells or avoiding exhaustion, (6) healing magics are minimized: roll twice when determining damage healed, taking the lower  of  the  two  results,  (7)  creatures  slain on the road are either (1-2 incapable of being raised or brought back to life, short of a wish spell, or 3-6 raised as undead within 1d8 days of their death; they will be 1-2 skeletons, 3-4 zombies, 5 wights, or 6 wraiths), or (8) other. |
+There’s a base 1-2 in 6 chance the road has 
+
+| dice: 1d18 | result                                                                                                                           |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1-12       | no markers                                                                                                                       |
+| 13-15      | markers that indicate communities that lie along the road,                                                                       |
+| 16- 17     | distance markers that divide the road into equal increments, or                                                                  |
+| 18         | both markers that indicate communities that lie along the road and distance markers that divide the road into equal increments . |
+^roadmarkers
+
+When rolling to determine the length of the road you will roll either once (if the road terminates in the chosen hex) or twice (if the road passes through the hex). If rolling once take the result and double it. If rolling twice add the two numbers together to get the total length of the road. When rolling twice designate which roll is for which length of road exiting the hex.
 
 
 28-table-1.md
@@ -1028,7 +1279,26 @@ The fortifications will be built out of the following . . .
 | 86-97  | Road is 2d100 miles long    |
 | 98-99  | Road is 5d100 miles long    |
 | 100    | Road is 10d100 miles long   |
+^roadlength
 
+Roads that cross a river have a base 1-2 in 6 chance of crossing at a bridge. Subtract 1 from the chance in Wilderness hexes, add 1 in Civilized hexes, and add 1 if the road is a lane or 2 if it is a road (see above). Refer to p. 26 to determine the type of bridge.
+
+
+North
+North East
+East 
+South-East
+South
+South-West
+West
+North-West
+^direction
+
+##### Water
+
+Features in this category include man-made means of controlling or accessing water. This includes aqueducts and wells, canals, irrigation ditches, man-made lakes and ponds, etc.
+
+The water feature’s age is . . .
 
 28-table-2.md
 
@@ -1038,31 +1308,34 @@ The fortifications will be built out of the following . . .
 | 11-60  | 10d10 years   |
 | 61-99  | 10d100 years  |
 | 100    | 10d1000 years |
+^WaterstructureAge
 
 
-28-table-3.md
+There’s a 1-3 in 6 chance that a water feature is currently in use. This chance decreases by 1 in Wilderness hexes and/or if the feature is over 500 years old and increases by 1 if in Civilized hexes and/or it is less than one hundred years old (for a total range of modifiers of –2 to +2).
 
-| d100   | Result                                                                                                                                                                                                                                                                                            |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-30   | Little  more  than  a  game  trail.  Carts  and wagons  cannot  use it in  difficult terrain, regardless  of  the  condition  of  the  road  (see p.  49,  OSE  core).  Individuals  must  travel in  single  file  whether  mounted  or  on  foot. Subtract 10 from the roll for length of road. |
-| 31-50  | Wider trail. Carts and wagons cannot use it in difficult terrain regardless of the condition of  the  road.  Individuals  can  travel  in  two ranks when on foot. Subtract 5 from the roll for length of road.                                                                                   |
-| 51-65  | Lane.  Carts  can  use  it  in  difficult  terrain, wagons  cannot.  Individuals  can travel in three ranks on foot or two mounted.                                                                                                                                                               |
-| 66-81  | Wider  lane.  Carts  and  wagons  can  use  it in difficult terrain, individuals can travel in four ranks on foot or two mounted.                                                                                                                                                                 |
-| 82-92  | Road. Wide enough for two wagons to pass. +5 to the roll for length of road.                                                                                                                                                                                                                      |
-| 93-97  | Wide  Road.  Wide  enough  for  four  wagons to pass. +10 to the roll for length of road.                                                                                                                                                                                                         |
-| 98-00  | Grand Road. Six  or  more  wagons  can  pass each other. +15 to the roll for length of road.                                                                                                                                                                                                      |
+A feature that is not currently in use will typically have fallen into disrepair or could potentially serve as a lair for dangerous creatures that prevent its use.
 
+The feature is . . .
 
 29-table-1.md
 
-| d100   | Result   |
-|:-------|:---------|
-| 01-05  | Aqueduct |
-| 06-40  | Bridge   |
-| 41-45  | Canal    |
-| 46-55  | Fountain |
-| 56-65  | Pond     |
-| 66-00  | Well     |
+| d100  | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|:----- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01-05 | Aqueduct, `dice: [[Fill#^Aqueductheight]]`, `dice: [[Fill#^Aqueductlength]]`, `dice: [[Fill#^Aqueductmaterial]]` There’s  `dice: 1d6<5` chance the aqueduct supports will be of the same material as the channel itself. If not, roll again to determine what the supports are made of. It will be `dice: [[Fill#^aqueductopen]]`, supported by  pillars]]`,                                                                                                                                                                                                                                                                                                                                                                                  |
+| 06-40 | Bridge There’s `dice: 1d20` chance that the waterway has dried up or moved location, and `dice: 1d20` chance that the road that once ran over the bridge no longer exists, or perhaps never did.Length `dice: [[Fill#^bridgelength]]`, width `dice: [[Fill#^bridgewidth]]`material `dice: [[Fill#^bridgematerial]]`, There’s a `dice: 1d6<5` chance the bridge is in use and safe to cross. This is increased by 1 in Civilized hexes, and reduced by 1 in Wilderness hexes. Bridges that are not safe to cross are either `dice: [[Fill#^bridgeUnsafe]]`                                                                                                                                                                                     |
+| 41-45 | Canal. Purpose: `dice: [[Fill#^CanalPurpose]]`, There is `dice: 1d6<5` chance that a canal is being used for its intended purpose. This chance is increased by 1 in Civilized hexes and reduced by 1 in Wilderness hexes. Canals that are not being used have a 1 in 6 chance of being permanently empty. length `dice: [[Fill#^Canallength]]`, width `dice: [[Fill#^Canalwidth]]`, depth: `dice: [[Fill#^Canalwidth]]`. It is `dice: [[Fill#^Constantlyfilled]]`                                                                                                                                                                                                                                                                             |
+| 46-55 | Fountain. Made of `dice: [[Fill#^fountainMaterial]]`, `dice: [[Fill#^FountainStatue]]`, `dice: [[Fill#^FountainwaterMagical]]` , `dice: [[Fill#^FountainDispel]]`, `dice: [[Fill#^fountainShape]]`. It is `dice: 1d20` feet in diameter, and there’s  `dice: 1d6<2` chance it is flush with the ground.  There’s `dice: 1d6<3` chance a fountain is no longer working, and if that’s the case there’s `dice: 1d6<2` further chance it is empty. There’s `dice: 1d6<2` chance a fountain has the potential to contain a monster, treasure, or trap. If this is the case roll on the Dungeon Stocking Table found on p. 225 of the OSE core rules. If something is present assume the fountain has a “dungeon level” equivalent to `dice: 1d6`. |
+| 56-65 | Pond                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 66-00 | Well Wells are drilled or dug into the earth to provide access to water or potentially other liquids.  `dice: [[Fill#^WellotherWater]]`, `dice: [[Fill#^WellDugBy]]`, `dice: [[Fill#^welllinedwith]]`, `dice: [[Fill#^WellWidth]]`, `dice: [[Fill#^Welldepth]]`,  `dice: [[Fill#^wellStructureMaterial]]`, Water is brought to the surface by means of a `dice: [[Fill#^WellMechanics]]` ,  The well is `dice: [[Fill#^WellOk]]`, Magical? `dice: [[Fill#^FountainwaterMagical]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 
+^WaterStructureType
+
+
+
+###### Aqueduct
+
+Specifically, raised, artificial channels, pipes, or troughs that carry water from one location to another, often over great distances.
+
+An aqueduct will average . . .
 
 
 29-table-2.md
@@ -1073,27 +1346,7 @@ The fortifications will be built out of the following . . .
 | 11-50  | 4d8 feet tall  |
 | 51-90  | 5d10 feet tall |
 | 91-100 | 6d20 feet tall |
-
-
-29-table-3.md
-
-| d100   | Result      |
-|:-------|:------------|
-| 1-10   | 3d6 feet    |
-| 11-40  | 4d10 feet   |
-| 41-75  | 5d20 feet   |
-| 76-99  | 10d100 feet |
-| 100    | 1d4 miles   |
-
-
-29-table-4.md
-
-| d100   | Result         |
-|:-------|:---------------|
-| 1-30   | 3d4 feet wide. |
-| 31-90  | 5d6 feet wide. |
-| 91-100 | 6d8 feet wide. |
-
+^Aqueductheight
 
 29-table-5.md
 
@@ -1105,7 +1358,12 @@ The fortifications will be built out of the following . . .
 | 51-75  | 3d6 miles long                                                               |
 | 76-99  | 5d20 miles long                                                              |
 | 100    | 10d100 miles long                                                            |
+^Aqueductlength
 
+
+It will be `dice: 1d12` feet wide.
+
+The aqueduct will be built using . . .
 
 29-table-6.md
 
@@ -1117,44 +1375,279 @@ The fortifications will be built out of the following . . .
 | 66-90  | Stone.                                                                    |
 | 91-99  | Metal. Lead, most likely.                                                 |
 | 100    | Exotic Materials. Hollow bones, blown glass, magically shaped stone, etc. |
+^Aqueductmaterial
+
+
+There’s  `dice: 1d6<5` chance the aqueduct supports will be of the same material as the channel itself. If not, roll again to determine what the supports are made of.
+
+It will be
+
+| dice: 1d6 |                                 |
+| --------- | ------------------------------- |
+| 1-4       | open to the sky or              |
+| 5-6       | enclosed, and it will either be |
+^aqueductopen
+
+supported by 
+
+| dice: 1d6 |                               |
+| --------- | ----------------------------- |
+| 1-5       | columns or pillars (1-5) or a |
+| 6         | solid wall (6). there’s a chance that `dice: [[Fill#^aqueductwall]]` will be incorporated into the design..              |
+^aqueductpillars
+
+If it is solid wall there’s a chance that 
+
+| dice: 1d6 |                            |
+| --------- | -------------------------- |
+| 1-3       | gates,                     |
+| 4         | defensive features,        |
+| 5         | secret rooms refer to the section on [[#Monuments:]]  to determine if there is anything inside.           |
+| 6         | nothing, it is just solid, |
+^aqueductwall
+
+
+
+###### Bridge
+
+Bridges typically cross rivers or waterways. There’s `dice 1d20` chance that the waterway has dried up or moved location, and `dice 1d20` chance that the road that once ran over the bridge no longer exists, or perhaps never did.
+
+
+
+Bridges have an overall length of . . .
+
+
+
+29-table-3.md
+
+| dice: d100 | Result             |
+|:---------- |:------------------ |
+| 1-10       | `dice: 3d6` feet    |
+| 11-40      | `dice: 4d10` feet   |
+| 41-75      | `dice: 5d20` feet   |
+| 76-99      | `dice: 10d100` feet |
+| 100        | `dice: 1d4` miles   |
+^bridgelength
+
+
+
+
+
+29-table-4.md
+
+| dice: d100 | Result               |
+|:---------- |:-------------------- |
+| 1-30       | `dice: 3d4` feet wide. |
+| 31-90      | `dice: 5d6` feet wide.       |
+| 91-100     | `dice: 6d8` feet wide.       |
+^bridgewidth
+
+
+
+`dice: [[Fill#^bridgewidth]]`
+
+The bridge will be made out of . . .
 
 
 29-table-7.md
 
-| d100   | Result                                                                     |
-|:-------|:---------------------------------------------------------------------------|
-| 1-10   | Vines or ropes.                                                            |
-| 11-30  | Wood. There’s a 1 in 20 chance that the bridge is movable or a drawbridge. |
-| 31-60  | Brick. Laid and mortared bricks, potentially plastered.                    |
-| 61-90  | Stone.                                                                     |
-| 91-94  | Naturally occurring, carved from the landscape by the elements.            |
-| 95-97  | Metal. Iron or steel.                                                      |
-| 98-99  | Exotic Materials. Hollow bones, blown glass, magically shaped stone, etc.  |
-| 100    | Magical.                                                                   |
+| d100  | Result                                                                                                                                                              |
+|:----- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-10  | Vines or ropes.                                                                                                                                                     |
+| 11-30 | Wood. There’s `dice: 1d20<2` chance that the bridge is movable or a drawbridge.                                                                                     |
+| 31-60 | Brick. Laid and mortared bricks, potentially plastered.                                                                                                             |
+| 61-90 | Stone.                                                                                                                                                              |
+| 91-94 | Naturally occurring, carved from the landscape by the elements.                                                                                                     |
+| 95-97 | Metal. Iron or steel.                                                                                                                                               |
+| 98-99 | Exotic Materials. Hollow bones, blown glass, magically shaped stone, etc.                                                                                           |
+| 100   | Magical. `dice: [[Fill#^bridgemagicalmaster]]`. Avoiding or undoing magical effects imparted by crossing a bridge can be achieved by `dice: [[Fill#^BridgeDispel]]` |
+^bridgematerial
+
+If the result is Magical roll again to determine the material the bridge is made from (if not a magical substance) after rolling below to determine the nature of the enchantment. Bridges are inherently transitive in nature, taking one from one side to another. The magical nature is 
+
+
+| dice: 1d6 |  results                                                                                                                                                      |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-2       | in the bridge’s structure. It is `dice: [[Fill#^bridgeMagicalStructure]]`                                                                              |
+| 3-4       | affects those who use the bridge. Crossing the bridge:  `dice: [[Fill#^bridgemagicalCrossing]]`                                                        |
+| 5-6       | can only be accessed by those who know the proper words or rituals. If a specific trigger is needed it will be: `dice: [[Fill#^bridgeMagicalTrigger]]` |
+^bridgemagicalmaster
+
+
+
+If the magical nature is in the bridge it is 
+
+
+| dice: 1d6 |                                                     |
+| --------- | --------------------------------------------------- |
+| 1         | invisible,                                          |
+| 2         | made of bound wind, flame, water, or other element, |
+| 3         | physics-defying,                                    |
+| 4         | made of living material,                            |
+| 5         | not fastened to anything, or moving,                |
+| 6         | other.                                              |
+^bridgeMagicalStructure
+
+
+
+| dice: 1d6 | result                                                                                                     |
+| --------- | ---------------------------------------------------------------------------------------------------- |
+| 1         | `dice: [[Fill#^bridgeSpellAges]]`                                                                    |
+| 2         | `dice: [[Fill#^bridgeSpellHeal]]`                                                                    |
+| 3         | transports the traveler to another plane of existence,                                               |
+| 4         | transports the traveler to another place in the same plane,                                          |
+| 5         | reverses the traveler’s alignment if they fail a Save v. Spells (Neutral characters are unaffected), |
+| 6         | other.                                                                                               |
+^bridgemagicalCrossing
+
+| dice: 1d6 |                            |
+| --------- | -------------------------- |
+| 1-3       | those who cross the bridge age  `dice: 1d12` years,   |
+| 4-6       | those who cross the bridge de-age `dice: 1d12` years, |
+^bridgeSpellAges
+
+
+| dice: 1d6 |       |
+| --------- | ----- |
+| 1-3       | heals those who cross it for 1d12 points of damage |
+| 4- 6      | harms those who cross it for 1d12 points of damage |
+^bridgeSpellHeal
+
+
+
+
+
+
+| dice: 1d8 |                                                                                 |
+| --------- | ------------------------------------------------------------------------------- |
+| 1         | a specific word or ritual to be spoken before crossing,                         |
+| 2         | a specific physical ritual such as closing one’s eyes, walking backwards, etc., |
+| 3         | crossing at a specific time,                                                    |
+| 4         | a specific object carried with the traveler,                                    |
+| 5         | the traveler must be accompanied by a specific individual,                      |
+| 6         | a specific payment `dice: [[Fill#^BridgemagicPayment]]`                         |
+| 7         | a specific guardian must be defeated, or                                        |
+| 8         | other.                                                                          |
+^bridgeMagicalTrigger
+
+
+| dice: 1d6 |             |
+| --------- | ----------- |
+| 1-2       | monetary,   |
+| 3-4       | object,     |
+| 5         | service, or |
+| 6         | quality),   |
+^BridgemagicPayment
+
+
+ 
+
+| dice: 1d6 | result                                                                                      |
+| --------- | ------------------------------------------------------------------------------------------- |
+| 1         | nothing short of a wish spell or deific intervention,                                       |
+| 2         | a remove curse cast by a spellcaster of level `dice: 1d6+8` or greater,                     |
+| 3         | a dispel magic cast by a spellcaster of at least level `dice: 1d6+8`,                       |
+| 4         | a quest or specific action one undertakes,                                                  |
+| 5         | walking backwards across the bridge in the opposite direction it was originally crossed, or |
+| 6         | other.                                                                                      |
+^BridgeDispel
+
+There’s a `dice: 1d6<5` chance the bridge is in use and safe to cross. This is increased by 1 in Civilized hexes, and reduced by 1 in Wilderness hexes. Bridges that are not safe to cross are either `dice: [[Fill#^bridgeUnsafe]]`
+
+| dice: 1d6 | result                |
+| --------- | --------------------- |
+| 1-4       | structurally unsound  |
+| 5-6       | inhabited by monsters |
+^bridgeUnsafe
+
+
+###### Canal
+
+Artificial waterways that channel water for irrigation, drainage, or transportation, canals will be 
+
+| dice: 1d6 |                                                                                       |
+| --------- | ------------------------------------------------------------------------------------- |
+| 1-3       | constantly filled with water. It is `dice: [[Fill#^CanalReasonConstantlyFilled]]`     |
+| 4-6       | only filled when in use or only usable when filled.  `dice: [[Fill#^CanalHowFilled]]` |
+^Constantlyfilled
+
+Canals that are not always filled will either be 
+
+| dice: 1d6 |                                                                           |
+| --------- | ------------------------------------------------------------------------- |
+| 1-2       | manually filled  `dice: [[Fill#^CanalManuallyFilled]]`                    |
+| 3-6       | filled naturally. Canals that are naturally filled either                 |
+| 1-3       | rely on rain, filling for `dice: 1d4` inches per day of rainfall or       |
+| 4-6       | rely on seasonal weather (such as glacial melt, or the rainy season, etc. |
+^CanalHowFilled
+
+| dice: 1d6 |                                                                  |
+| --------- | ---------------------------------------------------------------- |
+| 1-4       | connected to a nearby source of water such as a lake or river or |
+| 5-6       | filled through magical or other means.                           |
+^CanalReasonConstantlyFilled
+
+| dice: 1d6 |               |     |
+| --------- | ------------- | --- |
+| 1-4       | mechanical or |     |
+| 5-6       | magical means | or  |
+^CanalManuallyFilled
+
+
+Canals 
+
+| dice: 1d6 |                                                     |
+| --------- | --------------------------------------------------- |
+| 1-3       | provide water to dry areas,                         |
+| 4-5       | remove water from wet areas, or                     |
+| 6         | are used for the transportation of goods or people. |
+^CanalPurpose
+
+Canals that are always filled will be 
+
+
+
+A canal will be . . .
 
 
 30-table-1.md
 
 | d100   | Result              |
 |:-------|:--------------------|
-| 1-5    | 10d20 feet long     |
-| 6-30   | 10d100 feet long    |
-| 31-50  | 1d4 miles long      |
-| 51-75  | 1d12 miles long     |
-| 76-97  | 5d20 feet wide/deep |
-| 98-100 | 10d100 miles long   |
+| 1-5    | `dice: 10d20` feet long     |
+| 6-30   | `dice: 10d100` feet long    |
+| 31-50  | `dice: 1d4` miles long      |
+| 51-75  | `dice: 1d12` miles long     |
+| 76-97  | `dice: 5d20` feet wide/deep |
+| 98-100 | `dice: 10d100` miles long   |
+^Canallength
 
+
+It is (roll separately for width/depth) . . .
 
 30-table-2.md
 
 | d100   | Result              |
 |:-------|:--------------------|
-| 1-10   | 1d4 feet wide/deep  |
-| 11-35  | 2d6 feet wide/deep  |
-| 36-65  | 3d8 feet wide/deep  |
-| 66-90  | 4d10 feet wide/deep |
-| 91-100 | 5d12 feet wide/deep |
+| 1-10   | `dice: 1d4` feet wide/deep  |
+| 11-35  | `dice: 2d6` feet wide/deep  |
+| 36-65  | `dice: 3d8` feet wide/deep  |
+| 66-90  | `dice: 4d10` feet wide/deep |
+| 91-100 | `dice: 5d12` feet wide/deep |
+^Canalwidth
 
+
+There is `dice: 1d6<5` chance that a canal is being used for its intended purpose. This chance is increased by 1 in Civilized hexes and reduced by 1 in Wilderness hexes. Canals that are not being used have a 1 in 6 chance of being permanently empty. 
+
+
+
+###### Fountain
+
+A fountain serves both decorative and functional purposes. In both cases, they are most often created using naturally occurring underground springs where there is enough water pressure to bring the water above ground level.
+
+Fountains are artificially created by using impermeable substances to fashion bowl-shaped depressions, which are often surrounded by a low border and can also include statuary mounted inside from which the water emerges.
+
+The fountain will be made from . . .
 
 31-table-1.md
 
@@ -1165,50 +1658,272 @@ The fortifications will be built out of the following . . .
 | 41-95  | Stone. (1-4) fitted and mortared stone or (5-6) carved from stone.                                             |
 | 96-99  | Exotic Material. Bone, petrified wood, living trees, etc.                                                      |
 | 100    | Magical.  The fountain is fashioned from magical materials such as never-melting ice, an enormous flower, etc. |
+^fountainMaterial
 
+Fountains have a
+
+1-4 in 6 chance of incorporating statuary into the design. 
+
+
+| dice: 1d6 |                                                            |
+| --------- | ---------------------------------------------------------- |
+| 1-4       | There are Statues `dice: [[Fill#^FountainMagicalStatues]]` |
+| 5-6       |                                                            |
+^FountainStatue
+
+| dice: 1d12 |                                                                     |
+| ---------- | ------------------------------------------------------------------- |
+| 1          | the statuary is magical `dice: [[Fill#^FountainTypemagicalStatue]]` |
+| 2-12       |                                                                     |
+^FountainMagicalStatues
+
+
+There’s a 1 in 12 chance that the statuary is magical. It 
+
+| dice: 1d6 |                                                                                                                         |                       |      |
+| --------- | ----------------------------------------------------------------------------------------------------------------------- | --------------------- | ---- |
+| 1         | is a guardian that attacks those who attempt to drink without a proper offering (use stats of a crystal living statue), |                       |      |
+| 2         | will offer cryptic advice to those who drink from it,                                                                   |                       |      |
+| 3         | will stare wordlessly at those who approach but do no harm,                                                             |                       |      |
+| 4         | moves, but only when no one is looking,                                                                                 |                       |      |
+| 5         | assumes the form of the first person who drinks from it and seeks to replace them                                       | treat as doppelganger | , or |
+| 6         | other.                                                                                                                  |                       |      |
+^FountainTypemagicalStatue
+
+
+
+
+
+| dice: 1d20 |                                                     |
+| ---------- | --------------------------------------------------- |
+| 1          | The water within the fountain/well possesses a magical dweomer. `dice: [[Fill#^FountainDweomer]]`, `dice: [[Fill#^FountainwaterPlace]]`, `dice: [[Fill#^FountainWaterTime]]` |
+| 2-20       |                                                     |
+^FountainwaterMagical
+
+
+| dice: 1d12 |                                                                            |
+| ---------- | -------------------------------------------------------------------------- |
+| 1          | This magic lasts for long once removed from the source. Those drinking from the water |
+| 2-12       | magic only short duration                                                  |
+^FountainwaterPlace
+
+
+
+
+| dice: 1d6 |                                                                                                                          |
+| --------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 1         | `dice: [[Fill#^fountainhealharm]]`                                                                                       |
+| 2         | `dice: [[Fill#^fountainsaveDie]]`                                                                                        |
+| 3         | `dice: [[Fill#^FountainBuff]`                                                                                            |
+| 4         | `dice: [[Fill#^fountainBonus]]`                                                                                          |
+| 5         | are brought back to life if submerged in the pool, provided they have not been dead for more than `dice: 1d12` hours, or |
+| 6         | other.                                                                                                                   |
+^FountainDweomer
+
+| dice: 1d6 |                         |
+| --------- | ----------------------- |
+| 1-3       | are healed for `dice: 1d6+1` hp |
+| 4-6       | or harmed for `dice: 1d6+1` hp  |
+^fountainhealharm
+
+
+| dice: 1d6 |                               |
+| --------- | ----------------------------- |
+| 1-3       | are cured of all damage       |
+| 4-6       | or must Save v. Poison or die |
+^fountainsaveDie
+
+
+| dice: 1d6 |                                                   |
+| --------- | ------------------------------------------------- |
+| 1-3       | increase                                          |
+| 4-6       | or decrease a random ability score by 1d4 points, |
+^FountainBuff
+
+
+
+| dice: 1d6 |                                      |
+| --------- | ------------------------------------ |
+| 1-3       | gain a +1d4 bonus to their next roll |
+| 4-6       | or subtract the same                 |
+^fountainBonus
+
+| dice: 1d6 |                                                        |
+| --------- | ------------------------------------------------------ |
+| 1-4       | The effect of magical water is  permanent or           |
+| 5-6       | The effect of magical water lasts for `dice: 1d8` day. |
+^FountainWaterTime
+
+Effects can only be removed by
+
+| dice: 1d6 |                                                                    |
+| --------- | ------------------------------------------------------------------ |
+| 1         | a wish or divine intervention,                                     |
+| 2         | a remove curse cast by a spellcaster of level 1d6+8 or greater,    |
+| 3         | a dispel magic cast by a spellcaster of at least level 1d6+8,      |
+| 4         | accepting a geas from the spirit that resides within the fountain, |
+| 5         | making the appropriate offering to the fountain, or                |
+| 6         | other.                                                             |
+^FountainDispel
+
+ 
+
+| dice: 1d6 |                                                             |
+| --------- | ----------------------------------------------------------- |
+| 1-3       | The fountain is round,                                      |
+| 4-5       | The fountain is rectangular, or                             |
+| 6         | The fountain is not round or rectangular but another shape. |
+^fountainShape
+
+It is `dice: 1d20` feet in diameter, and there’s  `dice: 1d6<2` chance it is flush with the ground.  There’s `dice: 1d6<3` chance a fountain is no longer working, and if that’s the case there’s `dice: 1d6<2` further chance it is empty. There’s `dice: 1d6<2` chance a fountain has the potential to contain a monster, treasure, or trap. If this is the case roll on the Dungeon Stocking Table found on p. 225 of the OSE core rules. If something is present assume the fountain has a “dungeon level” equivalent to `dice: 1d6`.
+
+###### Pond
+
+This category assumes the pond is an artificial feature created by an intelligent race damming a river, stream, or other source of water to create a still body of water that can be used for some|purpose. Refer to p. 63 for more information on ponds.
+
+###### Well
+
+Wells are drilled or dug into the earth to provide access to water or potentially other liquids.  `dice: [[Fill#^WellotherWater]]`
+
+
+| dice: 1d100 |                                                                                             |     |
+| ----------- | ------------------------------------------------------------------------------------------- | --- |
+| 1           | well has been dug to extract something other than water, `dice: [[Fill#^wellnotWaterWhat]]` |     |
+| 2-100       |                                                                                             |     |
+^WellotherWater
+
+
+
+| dice: 1d6 |                |                                                                         |
+| ----------- | ---------------------------------------------------------------------------------------- |
+| 1-2         | oil or similar,                                                                          |
+| 3-4         | an appropriate fantasy liquid, perhaps magma, or rockmilk (from Mieville’s The Scar|, or |
+| 5-6         | magical energy.                                                                          |
+^wellnotWaterWhat
+
+
+
+Wells are usually 
+
+| dice: 1d20 |                                                                                                        |
+| ---------- | ------------------------------------------------------------------------------------------------------ |
+| 1-19       | dug by hand,Wells that are dug by hand tend to be fairly wide and not too deep.                                                                                            |
+| 20         | dug by other means (magic, or controlled burrowing animals, or technology| can be any width and depth. |
+^WellDugBy
+
+and lined with 
+
+| dice: d6 |                                |
+| -------- | ------------------------------ |
+| 1        | lined with  wood,              |
+| 2-3      | lined with  brick,             |
+| 4-5      | lined with  stone              | 
+| 6        | lined with  another substance. |
+^welllinedwith
+
+
+A well will be . . .
 
 31-table-2.md
 
-| d100   | Result        |
+| dice: d100   | Result        |
 |:-------|:--------------|
-| 1-15   | 1d4 feet wide |
-| 16-50  | 2d4 feet wide |
-| 51-85  | 3d4 feet wide |
-| 86-100 | 4d4 feet wide |
-
+| 1-15   | `dice: 1d4` feet wide |
+| 16-50  | `dice: 2d4` feet wide |
+| 51-85  | `dice: 3d4` feet wide |
+| 86-100 | `dice: 4d4` feet wide |
+^WellWidth
 
 32-table-1.md
 
-| d100   | Result           |
+| dice: 100   | Result           |
 |:-------|:-----------------|
-| 1-15   | 2d10 feet deep   |
-| 16-50  | 5d12 feet deep   |
-| 51-85  | 10d20 feet deep  |
-| 86-99  | 20d100 feet deep |
-| 100    | 1d4 miles deep   |
+| 1-15   | `dice: 2d10` feet deep   |
+| 16-50  | `dice: 5d12` feet deep   |
+| 51-85  | `dice: 10d20` feet deep  |
+| 86-99  | `dice: 20d100` feet deep |
+| 100    | `dice: 1d4` miles deep   |
+^Welldepth
 
+Above-ground wells are typically surrounded by a structure that rises above the surface for three or four feet, often with a roof or overhead covering to prevent contamination by the elements. This structure will be built of . . .
 
 32-table-2.md
 
-| d100   | Result          |
+| dice: d100   | Result          |
 |:-------|:----------------|
 | 1-20   | Wood            |
 | 21-60  | Brick           |
 | 61-90  | Stone           |
 | 91-98  | Metal           |
 | 99-100 | Exotic material |
+^wellStructureMaterial
+
 
 
 32-table-3.md
 
-| d100   | Result                                |
-|:-------|:--------------------------------------|
-| 1-10   | Dipper that is reached into the well. |
-| 11-60  | Bucket on a rope.                     |
-| 61-70  | Mechanical screw.                     |
-| 71-85  | Mechanical pump and bladder.          |
-| 86-99  | Wind turbine.                         |
-| 100    | Magical means.                        |
+| dice: d100 | Result                                                                                         |
+|:---------- |:---------------------------------------------------------------------------------------------- |
+| 1-10       | Dipper that is reached into the well.                                                          |
+| 11-60      | Bucket on a rope.                                                                              |
+| 61-70      | Mechanical screw. `dice: [[Fill#^MechanicalScrew]]`                                                                             |
+| 71-85      | Mechanical pump and bladder A pump and bladder is similar to an old-fashioned farm-style pump. |
+| 86-99      | Wind turbine. wind turbines resemble those in Western movies.                                  |
+| 100        | Magical means. `dice: [[Fill#^WellMagical]]`                                                                                |
+^WellMechanics
+
+If the well is deeper than 5 feet add 10 to the above roll.
+
+
+
+Mechanical screws could be like an Archimedean screw or a mean| of raising and lowering buckets via pulley. Such devices are 
+
+| dice: 1d6 |                                                                                |
+| --------- | ------------------------------------------------------------------------------ |
+| 1-3       | powered by an outside force such as a wheel turned by oxen, undead, or slaves, |
+| 4-5       | powered by the user, or                                                        |
+| 6         | powered by magical means.                                                      |
+^MechanicalScrew
+
+
+Water can also be forced to the surface by magical means, 
+
+| dice: 1d6 |                                             |
+| --------- | ------------------------------------------- |
+| 1-2       | by a specific spell,                        |
+| 3-4       | by a creature bound to perform t|e task, or |
+| 5-6       | by a permanent magical item.                |
+^WellMagical
+
+
+
+| dice: 1d20 |                              |
+| ---------- | ---------------------------- |
+| 1          | `dice: [[Fill#^WellFouled]]` |
+| 2-20       |                              |
+^WellOk
+
+| dice: 1d6 |                                                                                                      |
+| --------- | ---------------------------------------------------------------------------------------------------- |
+| 1-5       | dry and no longer a source of water or                                                               |
+| 6         | fouled and no longer potable. Those drinking from a fouled well must `dice: [[Fill#^WellPoisonous]]` |
+^WellFouled
+
+
+
+
+| dice: 1d6 |                                                                                                          |
+| --------- | -------------------------------------------------------------------------------------------------------- |
+| 1-3       | Save v. Poison or suffer the effects of giant centipede poison that lasts for `dice: 1d4` days p. 147, OSE core, |
+| 4-5       | Save v. Poison or suffer `dice: 1d12` points of damage, or                                                       |
+| 6         | Save v. Poison or die in `dice: 1d6` hours.                                                                      |
+^WellPoisonous
+
+Each well has a 1 in 20 chance of possessing an unusual quality. Roll on the fountain magical dweomer table.
+
+##### Commercial Infrastructure
+
+This section includes those enterprises and businesses typically found outside of an urban settlement. It does not include businesses that are typically found inside cities, although the Referee is certainly welcome to include such infrastructure in the wilderness should it make sense.
 
 
 32-table-4.md
@@ -1234,6 +1949,13 @@ The fortifications will be built out of the following . . .
 | 86-95  | Shrine                         |
 | 96-100 | Temple                         |
 
+There’s a 1 in 6 chance in Wilderness hexes that the infrastructure is (1-4) abandoned and potentially used as a lair for monsters or (5-6) under attack or threat.
+
+Features in this category will be inhabited by (1-4) Men, (5-6) demi-humans, (7) humanoids, (8) other races, who may *appear* differently than they truly are (doppelgangers, polymorphed dragons, etc.).
+
+The commercial infrastructure’s age will be . . .
+
+
 
 33-table-1.md
 
@@ -1244,6 +1966,12 @@ The fortifications will be built out of the following . . .
 | 61-99  | 10d100 years  |
 | 100    | 10d1000 years |
 
+
+##### Camps. 
+Camps are either (1-3) occupied by (1-5) travelers or (6) squatters, or are (4-6) currently empty. Camps are maintained by either the local domain ruler, merchant guild, or military to provide designated areas for military or mercantile caravans to rest while traveling. They usually are found on flat, raised ground, marked in some fashion. Camps have a 1-4 in 6 chance of having low defensive walls surrounding the perimeter (1d4+2 feet tall). There is also a 1-2 chance someone has been nice enough to keep a stock of dry firewood. 1 in 6 camps have semi-permanent, crude shelters for animals or Man, and 1-4 in 6 of them will have a nearby source of water in the form of a (1-2) stream, (3-4) spring, (5) fountain, or (6) well.
+
+##### Farm. 
+A farm will be the following size . . .
 
 33-table-2.md
 
@@ -1257,6 +1985,26 @@ The fortifications will be built out of the following . . .
 | 91-95  | 5d12 acres          |
 | 96-100 | 6d20 acres          |
 
+If the farm is found in a forested, swamp, jungle, or mountain hex subtract 10 from the roll.
+
+All farms, in addition to growing crops, will keep a variety of animals. Chickens for eggs, pigs to forage and eat scraps, horses, mules, or oxen to work the fields, etc. The primary focus of the farmer is on growing crops, though. Most farms grow a variety of plants, instead of one single crop, and they will typically be working from early spring through late fall planting, harvesting, and preparing food for storage. Surplus crops are (1-4) taken to the nearest market to sell or (5-6) tithed to the domain ruler (if in an existing domain).
+
+The smallest farms consist of a single family living in one or two buildings. The larger a farm gets the more hands are needed to run it, and the more infrastructure is needed to support the operation. Large farms will typically consist of 1d2 buildings for every ten acres under cultivation. These buildings include: houses for the farmers (typically a main house for the owners, plus smaller outbuildings that the workers live in), smithies/workshops to repair equipment, barns to house livestock, smokehouses to cure meat, root cellars to preserve harvested food, granaries or silos to store grain, etc.
+
+Large farms, especially those encountered in Wilderness hexes, function as small settlements, are often protected by walls, and often serve as waystations or inns for travelers to rest in, whether they sleep in a barn or there is a dedicated building for use by travelers.
+
+Farms that are larger than 50 acres may be large enough to have supplies available for sale. Such farms have a 1-4 in 6 chance of being a market with a Class of 1. Farms that are over 100 acres will be a market of Class (1-4) 1 or (5-6) 2.
+
+Refer to the section on Resources for more information on crop type.
+
+##### Ferry. 
+Reroll if this result comes up when it is not appropriate. Ferries are used to cross rivers when bridges are not available. The ferry will be (1-3) operated by the user, (4-5) operated by a dedicated ferryman, or (6) operated by some other means.
+
+Those operated by the user usually consist of a raft or flat-bottomed boat that runs on a rope strung across the river. The boat is pulled or poled across and can be pulled back by travelers as needed. These self-service ferries have a 1 in 6 chance of either (1-4) being out of service due to neglect or vandalism, or (5-6) operated by bandits or brigands looking to prey upon travelers. Increase this chance by 1 in Wilderness hexes.
+
+If the ferry is operated by a ferryman they, and potentially their family, live nearby, and they live off the income generated by transporting travelers. Fees for transport will be . . .
+
+
 
 33-table-3.md
 
@@ -1267,6 +2015,22 @@ The fortifications will be built out of the following . . .
 | 76-99  | 1d8 gp                     |
 | 100    | Something other than money |
 
+In Wilderness hexes add 10 to the roll. Ferry boats will be capable of transporting (1-3) 2d4, (4-5) 3d6, or (6) 3d8 individuals at a time, or half that number of mounts, so it may take multiple trips. Ferrymen have a 1 in 20 chance of proving unscrupulous, either (1-3) working with brigands, (4-5) stranding half the party on either side and insisting on more payment, or (6) being some sort of monster in disguise.
+
+Ferries operated by other means could be poled by constructs, powered by spells, or other exotic devices.
+
+Depending on the weather or season a ferry may not be operable. Heavy rains or melting snow cover may render the river too dangerous to cross, and obviously a frozen river does not need a ferry, provided the ice is thick enough to walk across.
+
+##### Ford. 
+Simply a shallow part of a river or large stream, fords allow for travelers to cross in relative safety, albeit while getting wet. There’s a 1-2 in 6 chance that the crossing is dangerous during certain times of the year, or after heavy rain. In these cases those crossing must succeed on a Save v. Death to avoid being swept off their feet. If the travelers are mounted while crossing their mounts make the save, but with a +2 bonus to the roll.
+
+If a ford is frequently used there’s a 1 in 20 chance it is watched by brigands or monsters who use the distraction of crossing to attack. This chance is reduced to 1 in 100 in Civilized hexes.
+
+Fords are (1-4) naturally occurring shallow spots in a river or (5-6) man-made. Because they are shallower they are also wider, which may be important to know if travelers are trying to cross swiftly. Assume that a ford is roughly twice as wide as other parts of the river.
+
+A ford will be . . .
+
+
 
 34-table-1.md
 
@@ -1275,6 +2039,18 @@ The fortifications will be built out of the following . . .
 | 1-50   | 1d4 feet deep  |
 | 51-90  | 2d4 feet deep  |
 | 91-100 | 3d4 feet deep. |
+
+Fords that are deeper than five feet are typically only crossed by mounted travelers, and are used simply because the wider, shallower part of the river is slower moving than other areas.
+
+##### Hunting Lodge. 
+Hunting lodges are maintained for three distinct reasons: (1-3) by trappers and hunters to use as a base of operations, (4-5) by nobles that maintain the house for use during sport hunting, or (6) by name-level ranger-type characters that use it as a base of operations in Wilderness hexes.
+
+Hunting lodges consist of 1d4 buildings, typically, either of (1-3) wood, (4-5) stone, or (6) other material.
+
+Because they are often forced to rely on their own supplies for long periods of time there’s a 1-2 in 6 chance that a hunting lodge has a Market Class of 1.
+
+##### Inn. 
+Found mostly along heavily trafficked trade routes where there is not enough population to support a community, but enough travel to support a business, roadside inns in Borderland or Wilderness hexes are most often fortified complexes with walls that enclose the main inn and outbuildings. Roadside inns have 1d8 features in Borderland hexes and 2d6 in Wilderness hexes (roll 1d00 to determine the features), listed below. Unless otherwise indicated results are cumulative.
 
 
 34-table-2.md
@@ -1288,18 +2064,115 @@ The fortifications will be built out of the following . . .
 | 39     | Magical  item.  There  is  one  magical  item available for sale or trade (in exchange for a service). This will be (1-4) a potion or scroll, or (5-6) a permanent item.                                                                                                                                                                                                      |
 | 40-49  | Market. The inn serves as the urban center for nearby residents and has a Market Class of 1. Each time this result comes up add 1 to the Market Class.                                                                                                                                                                                                                        |
 | 50-57  | Smithy.  The  smithy  will  be  run  by  a  (1-5)  blacksmith  or  (6)  armorer.  If  this  result comes  up  more than  once assume the additional workers are assistants.                                                                                                                                                                                                   |
-
-
-35-table-1.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                          |
-|:-------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 58-59  | Spy. One of the workers at the inn is a spy, sponsored by (1-2) the nearby domain ruler, (3-4)  a  foreign  domain  ruler,  (5)  a  band  of brigands, or (6) other.                                                                                                                            |
 | 60-72  | Stables. The inn maintains enclosed stables and stablehands that care for the mounts of travelers. There’s a 1-3 in 6 chance there will be  1d4  randomly  determined  mounts  for sale, and a 1 in 6 chance there is a (1-4) cart or (5-6) wagon for sale.                                     |
 | 73-77  | Temple.  The  inn  maintains  a  small  temple that is overseen by a (1-3) 1st-level cleric, (4-5) 2nd-level cleric, or (6) 3rd-level cleric. If this  result  occurs  more  than  once  increase the level of the cleric by 1.                                                                 |
 | 78-79  | Threat.  A  hidden  threat  lurks  in  the  inn. One  or  more  of  the  staff  may  be  disguised monsters, or the food may have spoiled and will poison the guests, or a fire may break out at  night.  If  this  result  comes  up  more  than once increase the threat level appropriately. |
 | 80-100 | Wall.  The inn is  surrounded  by  a (1-3) wood,  (4-5)  brick,  or  (6)  stone  wall  that is  approximately  eight feet tall.  For  each additional result add another defensive feature (arrow slits, moat, tower, etc.).                                                                    |
 
+##### Lighthouse/signal towers.
+Tall buildings with a light atop to (1-4) guide travelers or (5-6) send messages. The towers will be 3d6×10 feet high and manned by 1d4 staff with a 1-4 in 6 chance of having 2d4 mercenary guards.
+
+Signal towers are typically maintained by (1-5) domain rulers or (6) other organizations. They will be spaced out at increments of three miles plus 1.5 for every ten feet in height of the tower. The fire is (1-4) only lit in times of danger or (5-6) lit to send coded messages.
+
+Lighthouses are kept continually lit at night or cloudy days to warn nearby ships of dangers in the vicinity.
+
+##### Logging Camp.
+When found in wooded areas such a camp is dedicated to cutting timber; when found in non-wooded areas the workers harvest sod, peat, or similar material. An ocean-side camp may harvest kelp or something similar.
+
+The camp will (1-3) ship harvested material via river, (4- 5) sell it for use nearby, or (6) ship it via land. Refer to the Resource section on p. 37 to determine the value/size of nearby resources. There will be 1d6 individuals dedicated to harvesting the material for every subhex of resource. Camps will be (1-5) semi-permanent dwellings or (6) permanent structures. There will be 1d2 structures for ever ten workers. There’s a 1-4 in 6 chance of having a blacksmith employed for every twenty workers, a 1-5 in 6 chance of having 2d4 mercenary guards for ever ten workers, and a 1 in 6 chance of having a 1st-level cleric present for every twenty workers.
+
+Camps with more than 100 workers have an equivalent Market Class of (1-4) 1 or (5-6) 2. There’s a 1-2 in 6 chance that a logging camp has a lumber mill (see below) as part of the camp. This chance is increased by 1 in Wilderness hexes.
+
+##### Military Garrison/Supply House. 
+Large domains often maintain barracks or garrisons on their borders to project their power into Borderlands or Wilderness areas outside of the domain proper. These are to be treated as keeps, housing a military garrison of the appropriate size based upon the size of the keep.
+
+Garrisons will also contain a surplus of supplies for the forces to use should they be under attack or need to march to war. Each garrison will have a supply of dried rations, weapons, and ammunition that can be drawn from to supply troops.
+
+There’s a 1 in 8 chance that a garrison is treated as being a Market Class of (1-4) 1 or (5-6) 2. There’s an additional 1-2 in 6 chance per twenty troops of having a cleric of level (1- 3) 1, (4-5) 2, or (6) 3. There’s a 1 in 6 chance per twenty-five troops of there being a magic-user of similar level.
+
+Additionally, there’s a 1 in 10 chance that there will be 1 spy per twenty-five troops. These spies will be from (1-3) the domain ruler, keeping an eye on corruption, (4) an outside domain, (5) a local thieves’/brigands’ guild, or (6) an evil cult, enemy, or polymorphed/disguised monster.
+
+##### Mill. 
+Mills will be (1-3) powered by moving water, (4-5) powered by manual labor (animals, slaves, etc.), or (6) powered by another source, likely magical.
+
+Mills will process (1-3) grain, (4-5) timber, or (6) other material. Grain mills will only be found in Wilderness hexes on a roll of 1-2 in 6 as they overwhelmingly tend to be in more densely populated areas where they can serve the needs of a larger community of farmers.
+
+Grain mills tend to be small operations, attached to dwellings where the miller and their family live.
+
+Lumber mills, on the other hand, are often found in Borderlands or Wilderness hexes as it is easier to mill nearby timber and then ship it for use in new construction, rather than import the raw material. These are larger operations, requiring intensive labor to process felled trees.
+
+Water-powered lumber mills use blades driven by running water, while manually powered mills utilize teams of workers using pitsaws, or even splitting logs down into lumber.
+
+A typical lumber mill has 2d20 employees, plus draft horses to help move materials around. The workers will typically live adjacent to the mill, and there will be 1d2 support staff on hand for every five workers. This support staff includes laborers (1-5 in 6 chance per 5 workers), blacksmiths (1-3 in 6 chance per 5 workers), animal handlers (1-2 in 6 chance per 5 workers), etc.
+
+##### Mine. 
+Mines are (1-3) dug, (4-5) sluice, or (6) strip mines. A mine will be (1-3) a solo operation, run by a single individual or family, (4-5) a larger operation owned as a mercantile venture, or (6) owned by a nearby ruler, noble, or landowner.
+
+Dug mines are created by digging shafts into the ground that follow veins of minerals. They can descend deep into the earth, and require physical bracing and reinforcement. The deeper a dug mine goes the more labor is needed to efficiently extract materials, and the more dangerous it becomes.
+
+Sluice mines rely on exposing surface minerals with running water, either by blasting surface dirt with pressurized water or by panning to separate heavier minerals.
+
+Strip mines also require digging, but instead of digging narrow tunnels that follow the path of mineral veins they rely on removing large amounts of earth to exposed seams of valuable minerals.
+
+Sluice mines have 1d8 workers, dug mines 1d100, and strip mines 5d100. Temporary settlements spring up around the mine, with workers living in tents or semi- permanent shelters. Mining camps attract support staff. Mines that are run by consortia or domains will have 1d6–1 guards for every ten miners. There will also be blacksmiths (1-3 in 6 chance per ten miners), animal handlers (1-2 in 6 chance per 25 miners), cooks (1-3 in 6 chance per ten miners), a rudimentary tavern (1-4 in 6 chance per fifty miners), etc.
+
+Mines will be visited every 1d4 weeks by supply caravans that bring supplies to the miners then return to settlements with ore. There’s a 1-2 in 6 chance per fifty workers that a mining camp has a smelter to process ore before shipping it away.
+
+Refer to the section on Resources on p. 37 for more information.
+
+##### Monastery. 
+Many monastic orders are headquartered in remote areas. They (1-3) are primarily religious, (4-5) primarily martial, or (6) primarily esoteric (specializing in magical research).
+
+They will be (1-2) Lawful, (3-4) Neutral, or (5-6) Chaotic. Monasteries should be treated as the domains of name-level characters: strongholds founded by clerics (from the core rules) or assassins (p. 8, Advanced Fantasy). Use the rules in those books to determine the number of leveled characters present, and assume they have support staff equal to mining camps.
+
+Monasteries are also constructed as keeps and strongholds, usually (1-4) of stone or brick, but occasionally (5-6) of wood or other materials.
+
+Otherwise, monasteries are built along the lines of dungeons.
+
+##### Orchard.
+Similar to farms, but instead of planting seasonal crops the farmers tend orchards of (1-3) fruit trees, (4-5) nut trees, or (6) grape vines. Because of the higher density and perennial nature of their crop subtract 10 from the roll when determining the size of the orchard.
+
+Orchards have a 1-4 in 6 chance of being surrounded by a low wall, and a 1-2 in 6 chance of being patrolled by 1d4 guards for every ten acres. These guards are the equivalent of (1-4) light foot or (5-6) heavy foot.
+
+##### Other.
+Use this category for features that are not included in any of the others.
+
+##### Quarry.
+Quarries are similar to mines, except they are usually (1-5) of the strip mine variety, and only very rarely (6) dug mines. Refer to the section on Resources, below.
+
+##### Ranch.
+In all other respects similar to farms, but ranches primarily raise livestock. Ranches have a 1-2 in 6 chance of being surrounded by wooden fences with a primary purpose of keeping animals in rather than protecting the property from external threats.
+
+Add 10 to the roll when determining the ranch size. If the result is 101 or above the ranch is 1d4 subhexes.
+
+
+##### Shrine. 
+Unlike temples, that are staffed by priests of a deity, shrines are smaller structures dedicated to a deity. There are typically no full-time attendants of a shrine, although there may be a part-time caretaker that occasionally visits the shrine to look after the place.
+
+The shrine will be dedicated to a (1-2) Lawful, (3-4) Neutral, or (5-6) Chaotic deity. There’s a 1-3 in 6 chance there’s a semi-permanent caretaker that visits every (1- 3) 1d4 weeks, (4-5) 1d8 days, or (6) 1d4 months.
+
+The shrine will be (1-3) a statue, object, or natural feature, (4-5) a single room or rudimentary shelter, (6) a building with 1d4+1 rooms.
+
+There’s a 1 in 6 chance the shrine possesses divine properties that will take effect (1) whenever someone of a certain alignment enters, (2) whenever something is left or taken, (3) upon everyone who enters, (4) if a specific action is taken within the shrine, or (5-6) other. These effects usually take the form of a bane or a boon; banes occur when, for instance, a Chaotic creature enters the grounds of a Lawful shrine.
+
+Banes will impose the following: (1) the offending creature suffers a penalty of 1d4 to a specific roll, (2) the offending creature automatically rolls the lowest possible result on their next roll, (3) the offending creature must Save v. Spells or have their alignment change to its opposite, (4) the offending creature must Save v. Polymorph or be turned into another form (stone, or ooze, or animal, etc.), (5) the offending creature is targeted by the geas spell, or (6) other. Banes last for (1- 3) 1d8 days, (4-5) 1d4 weeks, or (6) permanently. They can be removed by (1) a remove curse cast by a cleric of level (1d6+8) or higher, (2) a dispel magic cast by a spellcaster of at least level (1d6+8), (3) a wish or similar magic, (4) divine intervention, (5) undoing whatever action triggered the bane, or (6) other.
+
+Boons impose the following: (1) the subject gains a bonus of 1d4 to a specific roll, (2) the subject automatically succeeds on their next roll, (3) the subject gains a bonus 1d6 hit points, (4) the subject has one random ability score improved by 1, (5) the subject gains a bonus ability congruent with the god’s portfolio, or (6) other.
+
+Note that boons and banes that specifically call out “the next roll” do not permanently grant the modifier, but will expire once that next roll is made, regardless of how long it takes to make that roll.
+
+##### Temple.
+Temples are larger than shrines, with a permanent contingent of worshipers. Temples have the same proportions of alignments as shrines. Like monasteries, temples should be treated as name-level strongholds run by clerics or paladins. Use the rules in the OSE rulebooks to determine the number of followers.
+
+There will be support staff in the temple equal to 3d4×10% of the followers. The support staff may be generally followers of the deity, but are considered to be 0-level NPCs.
+
+Temples can be (1-3) a single large structure divided in 3d6 rooms, (4-5) an enclosed campus containing 2d6 outbuildings, or (6) a military-style keep.
+
+Every temple contains a shrine that has a 1-2 in 6 chance of having divine properties similar to other shrines, above.
+
+
+#### Barriers
 
 37-table-1.md
 
@@ -1382,6 +2255,7 @@ The fortifications will be built out of the following . . .
 | 89-94  | Humanoids                                        |
 | 95-00  | Other (lycanthropes, a specific alignment, etc.) |
 
+### Resources
 
 40-table-1.md
 
