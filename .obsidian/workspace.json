@@ -4,29 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7c600409790a349c",
+        "id": "8af2ab2b1cd1a2d8",
         "type": "tabs",
         "children": [
           {
-            "id": "6a224c2ab1ea1576",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "f699e045258dd118",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "890afc25325dbe98",
+            "id": "7d96580675a02e06",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -98,7 +80,6 @@
       {
         "id": "50079456c5b9fe86",
         "type": "tabs",
-        "dimension": 58.56164383561643,
         "children": [
           {
             "id": "f55a2641a6d46b0a",
@@ -118,22 +99,6 @@
             }
           },
           {
-            "id": "b75eeef679e903b4",
-            "type": "leaf",
-            "state": {
-              "type": "initiative-tracker-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "901da32e37638631",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
-              "state": {}
-            }
-          },
-          {
             "id": "b9293ee8c2b8c385",
             "type": "leaf",
             "state": {
@@ -150,30 +115,31 @@
                 "file": "GM_FlohFelixAljoscha/Fill.md"
               }
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "df1dd1c491e31512",
-        "type": "tabs",
-        "dimension": 41.43835616438357,
-        "children": [
+          },
           {
-            "id": "868647c6e9c26c98",
+            "id": "228ac4d916026427",
             "type": "leaf",
             "state": {
-              "type": "initiative-tracker-creature-view",
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          },
+          {
+            "id": "4d636c49d8418ea2",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 200
   },
-  "active": "6a224c2ab1ea1576",
+  "active": "7d96580675a02e06",
   "lastOpenFiles": [
     "GM_FlohFelixAljoscha/Fill.md",
     "GM_FlohFelixAljoscha/Forbidden Lands Legend Generator.md",

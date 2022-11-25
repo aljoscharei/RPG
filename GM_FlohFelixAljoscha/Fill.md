@@ -1,7 +1,8 @@
 ## Current position:
 [[#Infrastructure]]
 [[#Structures]]
-[[#Water]]
+[[#Resources]]
+
 
 ## Master Table
 1.1 Feature Type `dice: [[Fill#^FeatureNoLairs]]`
@@ -10,13 +11,13 @@
 | ---------- | ------------------------------------------------------------------------- |
 | 1-4        | Geologic Feature `dice: [[Fill#^GeologicFeature]]` |
 | 5-8        | Structure `dice: [[Fill#^StructuresMaster]]`                                                                |
-| 9-12       | Resource                                                                  |
-| 13         | Hazard                                                                    |
+| 9-12       | Resource [[#Resources]]                                                                 |
+| 13         | Hazard [[#Hazard]]                                                                   |
 | 14         | Sign                                                                      |
 | 15         | Dungeon                                                                   |
 | 18         | Settlement                                                                |
 | 20         | Magic                                                                     |
-| 16-17      | Terrain                                                                   |
+| 16-17      | Terrain `dice: [[Fill#^TerrainType]]`                                                                  |
 | 19         | Water                                                                     |
 ^FeatureNoLairs
 
@@ -356,15 +357,15 @@ If structures are abandoned or no longer in use they can potentially be used eit
 
 17-table-2.md
 
-| d10 | Result                                                                                                                                                                                                                                                                                                                                      |
-|:--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Burial Grounds. Its Size is `dice: [[Fill#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Fill#^HowBuried]]`. How long  have they been dead: `dice: [[Fill#^howlongDead]]`. The dead are: `dice: [[Fill#^deadAncestry]]`, `dice: [[Fill#^buriedceremony]]`  `dice: [[Fill#^buriedTemple]]`. |
-| 2   | Monuments to `dice: [[Fill#^MonumenttoWhom]]` `dice: [[Fill#^monumentShape]]`, `dice: [[Fill#^MonumentSize]]`, `dice: [[Fill#^monumentHollow]]`, `dice: [[Fill#^monumentAge]]`, `dice: [[Fill#^monumentMaterial]]` , `dice: [[Fill#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                             |
-| 3-5 | Dwellings `dice: [[Fill#^dwellingInhabitants]]`, age `dice: [[Fill#^monumentAge]]`, condition `dice: [[Fill#^dwellingCondition]]`, The dwelling is made of . . . `dice: [[Fill#^dwellingMaterials]]` , its size is:  `dice: [[Fill#^dwellingSize]]`                                                                                                                                                                                                                                                                                                                              |
-| 6   | Fortificaton. A `dice: [[Fill#^fortificationType]]` made of `dice: [[Fill#^fortificationMaterial]]`. It is `dice: [[Fill#^dwellingCondition]]` its age is `dice: [[Fill#^monumentAge]]`.                                                                                                                                                                                                                                                                                                                        |
-| 7-8 | Infrastructure `dice: [[Fill#^InfrastructureType]]`,                                                                                                                                                                                                                                                                                                                             |
-| 9   | Barriers                                                                                                                                                                                                                                                                                                                                    |
-| 10  | Dungeons                                                                                                                                                                                                                                                                                                                                    |
+| d10 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|:--- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Burial Grounds. Its Size is `dice: [[Fill#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Fill#^HowBuried]]`. How long  have they been dead: `dice: [[Fill#^howlongDead]]`. The dead are: `dice: [[Fill#^deadAncestry]]`, `dice: [[Fill#^buriedceremony]]`  `dice: [[Fill#^buriedTemple]]`.                                                                                                                                                                                                                                                                                                                                                   |
+| 2   | Monuments to `dice: [[Fill#^MonumenttoWhom]]` `dice: [[Fill#^monumentShape]]`, `dice: [[Fill#^MonumentSize]]`, `dice: [[Fill#^monumentHollow]]`, `dice: [[Fill#^monumentAge]]`, `dice: [[Fill#^monumentMaterial]]` , `dice: [[Fill#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 3-5 | Dwellings `dice: [[Fill#^dwellingInhabitants]]`, age `dice: [[Fill#^monumentAge]]`, condition `dice: [[Fill#^dwellingCondition]]`, The dwelling is made of . . . `dice: [[Fill#^dwellingMaterials]]` , its size is:  `dice: [[Fill#^dwellingSize]]`                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 6   | Fortificaton. A `dice: [[Fill#^fortificationType]]` made of `dice: [[Fill#^fortificationMaterial]]`. It is `dice: [[Fill#^dwellingCondition]]` its age is `dice: [[Fill#^monumentAge]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 7-8 | Infrastructure `dice: [[Fill#^InfrastructureType]]`,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 9   | Barriers `dice: [[Fill#^barriertype]]`, Barriers, if the adventurers insist on continuing on their path, will slow progress by `dice: [[Fill#^BarrierIntensity]]`, Each barrier affects a “zone”, or a certain area. The smallest area a zone can affect is a single subhex. Roll below to determine the size of the zone `dice: [[Fill#^BarrierZone]]`. Barriers can be overcome or avoided through spells, clever thinking, or simple brute force or ignorance. Labor can be used to clear a forest of hampering underbrush or to build a bridge across a ravine, as a permanent solution. Powerful magics may be needed to permanently eliminate other barriers, both magical and mundane. |
+| 10  | Dungeons                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 ^StructuresMaster
 
 ---
@@ -1050,11 +1051,11 @@ Subtract 1 from the roll for every 100 years in age, with a maximum modifier of 
 | 81-100 | Exotic.  Built  from  exotic  materials  or  with the aid of magic, towers may be carved from living trees, or glass.                          |
 ^TowerMaterial
 
-Towers are typically used as fortified residences or smaller garrisons to secure small areas. However, towers are quick and easy to build and are often implemented as a first “wave” of civilization designed to provide a quick and dirty fortified garrison. Towers have a base value of 1d12×5000 gp.
+Towers are typically used as fortified residences or smaller garrisons to secure small areas. However, towers are quick and easy to build and are often implemented as a first “wave” of civilization designed to provide a quick and dirty fortified garrison. Towers have a base value of `dice: 1d12 * 5000` gp.
 
-Keeps are larger, designed to control larger territories, and provide housing and shelter for the settlers. Keeps have a base value of 3d6×10,000 gp.
+Keeps are larger, designed to control larger territories, and provide housing and shelter for the settlers. Keeps have a base value of `dice: 3d6 * 10000` gp.
 
-Castles are larger still, the last stage in the evolution of defensive structures. Towers are built to quickly pacify the wilderness, and as civilization spreads they get expanded into keeps, which in turn are added onto and become sprawling castles. Castles have a base value of 2d6×100,000 gp, and often house hundreds of residents.
+Castles are larger still, the last stage in the evolution of defensive structures. Towers are built to quickly pacify the wilderness, and as civilization spreads they get expanded into keeps, which in turn are added onto and become sprawling castles. Castles have a base value of `dice: 2d6 * 100000` gp, and often house hundreds of residents.
 
 The chance that a structure is uninhabited decreases based upon its size; towers are the most likely to be found uninhabited and castles the least likely. The beginning of this section gives chances that a structure is used for its intended purpose; add 1 to the roll for castles and subtract 1 for towers.
 
@@ -1068,7 +1069,7 @@ Ex. Structures in Borderlands hexes have a 1-3 in 6 chance of being used for the
 |:--------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1-8       | Roads `dice: [[Fill#^roadType]]`, There’s `dice: 1d6<5` chance the road follows a nearby terrain feature. If not, roll 1d6 and use the diagram on p., Road Start `dice: [[Fill#^RoadStartEnd]]`, Road End `dice: [[Fill#^RoadStartEnd]]`, The road is . . . `dice: [[Fill^RoadSize]]`. The Road goes on in the `dice: [[Fill#^direction]]` for `dice: [[Fill#^roadlength]]`,The Road goes on in the `dice: [[Fill#^direction]]` for `dice: [[Fill#^roadlength]]`, The road has `dice: [[Fill#^roadmarkers]]`, see [[#Roadcommerce]]  |
 | 9-15      | Water. A `dice: [[Fill#^WaterStructureType]]`, dice: `[[Fill#^monumentAge]]`,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 
-| 16-20     | Commercial                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 16-20     | Commercial `dice: [[Fill#^CommercialType]]`, `dice: [[Fill#^CommercialAbandoned]]`, Inhabited by `dice: [[Fill#^commercialinhabitants]]`, Age: `dice: [[Fill#^monumentAge]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 ^InfrastructureType
 
 
@@ -1342,22 +1343,22 @@ An aqueduct will average . . .
 
 | d100   | Result         |
 |:-------|:---------------|
-| 1-10   | 3d6 feet tall  |
-| 11-50  | 4d8 feet tall  |
-| 51-90  | 5d10 feet tall |
-| 91-100 | 6d20 feet tall |
+| 1-10   | `dice: 3d6` feet tall  |
+| 11-50  | `dice: 4d8` feet tall  |
+| 51-90  | `dice: 5d10` feet tall |
+| 91-100 | `dice: 6d20` feet tall |
 ^Aqueductheight
 
 29-table-5.md
 
 | d100   | Result                                                                       |
 |:-------|:-----------------------------------------------------------------------------|
-| 1      | 5d20 feet long (perhaps this is all that remains of a once elaborate system) |
-| 2-5    | 10d100 feet long                                                             |
-| 6-50   | 1d4 miles long                                                               |
-| 51-75  | 3d6 miles long                                                               |
-| 76-99  | 5d20 miles long                                                              |
-| 100    | 10d100 miles long                                                            |
+| 1      | `dice: 5d20` feet long (perhaps this is all that remains of a once elaborate system) |
+| 2-5    | `dice: 10d100` feet long                                                             |
+| 6-50   | `dice: 1d4` miles long                                                               |
+| 51-75  | `dice: 3d6` miles long                                                               |
+| 76-99  | `dice: 5d20` miles long                                                              |
+| 100    | `dice: 10d100` miles long                                                            |
 ^Aqueductlength
 
 
@@ -1919,7 +1920,7 @@ Water can also be forced to the surface by magical means,
 | 6         | Save v. Poison or die in `dice: 1d6` hours.                                                                      |
 ^WellPoisonous
 
-Each well has a 1 in 20 chance of possessing an unusual quality. Roll on the fountain magical dweomer table.
+Each well has a 1 in 20 chance of possessing an unusual quality. Roll on the fountain magical dweomer table.  [[Fill#^FountainwaterMagical]]
 
 ##### Commercial Infrastructure
 
@@ -1928,30 +1929,45 @@ This section includes those enterprises and businesses typically found outside o
 
 32-table-4.md
 
-| d100   | Result                         |
-|:-------|:-------------------------------|
-| 1-5    | Camp                           |
-| 6-15   | Farm                           |
-| 16-17  | Ferry                          |
-| 18-20  | Ford                           |
-| 21-25  | Hunting Lodge                  |
-| 26-30  | Inn                            |
-| 31     | Lighthouse                     |
-| 32-35  | Logging Camp                   |
-| 36-38  | Military Garrison/Supply House |
-| 39-48  | Mill                           |
-| 49-55  | Mine                           |
-| 56     | Monastery                      |
-| 57-65  | Orchard                        |
-| 66-70  | Other                          |
-| 71-75  | Quarry                         |
-| 76-85  | Ranch                          |
-| 86-95  | Shrine                         |
-| 96-100 | Temple                         |
+| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-5    | Camp `dice: [[Fill#^CampOccupied]]`,Camps have a `dice: 1d6<5` chance of having low defensive walls surrounding the perimeter (`dice: 1d4+2` feet tall).  There is also `dice: 1d6<3` chance someone has been nice enough to keep a stock of dry firewood.  `dice: 1d6<2` camps have semi-permanent, crude shelters for animals or Man. `dice: [[Fill#^campwatersource]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 6-15   | Farm Size: `dice: [[Fill#^FarmSize]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 16-17  | Ferry `dice: [[Fill#^ferryoperator]]`, `dice: [[Fill#^ferryfee]]`, `dice: [[Fill#^Ferrycapacity]]` ,`dice: [[Fill#^dishonestferryman]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 18-20  | Ford There’s `dice: 1d6<3` chance that the crossing is dangerous during certain times of the year, or after heavy rain, Fords are `dice: [[Fill#^fordmanmade]]`, Depth: `dice: [[Fill#^forddepth]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 21-25  | Hunting Lodge `dice: [[Fill#^LodgeOwner]]`Hunting lodges consist of `dice: 1d4` buildings, typically, either of `dice: [[Fill#^LodgeMaterial]]` ,Because they are often forced to rely on their own supplies for long periods of time there’s `dice: 1d6<3` chance that a hunting lodge has a Market Class of 1.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 26-30  | Inn `dice: 1d8[[Fill#^innFeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 31     | Lighthouse.Tall buildings with a light atop to  `dice: [[Fill#^Signatower]]`. The towers will be `dice: 3d6*10` feet high and manned by `dice: 1d4` staff with a `dice: 1d6<=4` chance of having `dice: 2d4` mercenary guards.  The fire is `dice: [[Fill#^WhenOn]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 32-35  | Logging Camp. When found in wooded areas such a camp is dedicated to cutting timber; when found in non-wooded areas the workers harvest sod, peat, or similar material. An ocean-side camp may harvest kelp or something similar. The camp will `dice: [[Fill#^LoggingConnections]]`, Refer to the Resource section on p. 37 to determine the value/size of nearby resources. There will be `dice: 1d6` individuals dedicated to harvesting the material for every subhex of resource. Camps will be `dice: [[Fill#^LoggingPermanent]]`, There will be `dice: 1d2` structures for ever ten workers. There’s `dice: 1d6<=4` chance of having a blacksmith employed for every twenty workers, `dice: 1d6<=5` chance of having `dice: 2d4` mercenary guards for ever ten workers, and`dice: 1d6<=1` chance of having a 1st-level cleric present for every twenty workers. Camps with more than 100 workers have an equivalent Market Class of `dice: [[Fill#^LoggingMarket]]`                       |
+| 36-38  | Military Garrison/Supply House. There’s `dice: 1d8<=1` chance that a garrison is treated as being a Market Class of `dice: [[Fill#^garrisonMarket]]` `dice: 1d6<=2` chance per twenty troops of having a cleric of level `dice: [[Fill#^GarrisonCleric]]` There’s `dice: 1d6<=1` chance per twenty-five troops of there being a magic-user of similar level. Additionally, there’s a `dice: 1d10<=1` chance that there will be 1 spy per twenty-five troops. These spies will be from  `dice: [[Fill#^garrisonSpy]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 39-48  | Mill Will be `dice: [[Fill#^MillPower]]` Mills will process `dice: [[Fill#^MillMaterial]]`Water-powered lumber mills use blades driven by running water, while manually powered mills utilize teams of workers using pitsaws, or even splitting logs down into lumber. A typical lumber mill has `dice: 2d20` employees, plus draft horses to help move materials around. The workers will typically live adjacent to the mill, and there will be `dice: 1d2` support staff on hand for every five workers. This support staff includes laborers (`dice: 1d6>=5` chance per 5 workers), blacksmiths (`dice: 1d6>=3` chance per 5 workers), animal handlers (`dice: 1d6>=2` chance per 5 workers), etc.                                                                                                                                                                                                                                                                                           |
+| 49-55  | Mine `dice: [[Fill#^MineType]]`A mine will be `dice: [[Fill#^MineOperator]]` Temporary settlements spring up around the mine, with workers living in tents or semi- permanent shelters. Mining camps attract support staff. Mines that are run by consortia or domains will have `dice: 1d6–1` guards for every ten miners. There will also be blacksmiths (1-3 in 6 chance per ten miners), animal handlers (`dice: 1d6>=2` chance per 25 miners), cooks (`dice: 1d6>=3` chance per ten miners), a rudimentary tavern (`dice: 1d6>=4` chance per fifty miners), etc. Mines will be visited every `dice: 1d4` weeks by supply caravans that bring supplies to the miners then return to settlements with ore. There’s `dice: 1d6>=2` chance per fifty workers that a mining camp has a smelter to process ore before shipping it away.                                                                                                                                                           |
+| 56     | Monastery. Many monastic orders are headquartered in remote areas. They `dice: [[Fill#^MonasteryType]]` and will be `dice: [[Fill#^MonasteryAlignment]]`, Monasteries should be treated as the domains of name-level characters: strongholds founded by clerics (from the core rules) or assassins (p. 8, Advanced Fantasy). Use the rules in those books to determine the number of leveled characters present, and assume they have support staff equal to mining camps. Monasteries are also constructed as keeps and strongholds, usually `dice: [[Fill#^MonasteryMaterial]]`                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 57-65  | Orchard. Similar to farms, [[#Farm.]] but instead of planting seasonal crops the farmers tend orchards of `dice: [[Fill#^orchardType]]`, Because of the higher density and perennial nature of their crop subtract 10 from the roll when determining the size of the orchard. Orchards have  `dice: 1d6>=4` chance of being surrounded by a low wall, and `dice: 1d6>=2` chance of being patrolled by 1d4 guards for every ten acres. These guards are the equivalent of `dice: [[Fill#^OrcharGuards]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 66-70  | Other. Get creative                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 71-75  | Quarry `dice: [[Fill#^QuarryType]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 76-85  | Ranch In all other respects similar to farms, [[#Farm.]] but ranches primarily raise livestock. Ranches have `dice: 1d6>=2` chance of being surrounded by wooden fences with a primary purpose of keeping animals in rather than protecting the property from external threats. Add 10 to the roll when determining the ranch size. If the result is 101 or above the ranch is 1d4 subhexes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 86-95  | Shrine. Unlike temples, that are staffed by priests of a deity, shrines are smaller structures dedicated to a deity. There are typically no full-time attendants of a shrine, although there may be a part-time caretaker that occasionally visits the shrine to look after the place. The shrine will be dedicated to a `dice: [[Fill#^MonasteryAlignment]]` Diety. There’s `dice: 1d6>=3` chance there’s a semi-permanent caretaker that visits every  `dice: [[Fill#^ShrineAttendant]]`. It will be `dice: [[Fill#^ShrineSize]]` There’s `dice: 1d6>=3` chance the shrine possesses divine properties that will take effect `dice: [[Fill#^ShrineTrigger]]`, These effects usually take the form of a bane or a boon; banes occur when, for instance, a Chaotic creature enters the grounds of a Lawful shrine. Banes will impose the following: `dice: [[Fill#^ShrineBane]]`. Banes last for `dice: [[Fill#^ShrineBaneDuration]]` `dice: [[Fill#^BaneDispel]]`, `dice: [[Fill#^ShrineBoon]]` |
+| 96-100 | Temple. Temples are larger than shrines, with a permanent contingent of worshipers. Temples have the same proportions of alignments as shrines. Like monasteries, temples should be treated as name-level strongholds run by clerics or paladins. Use the rules in the OSE rulebooks to determine the number of followers. There will be support staff in the temple equal to `dice: 3d4*10`% of the followers. The support staff may be generally followers of the deity, but are considered to be 0-level NPCs. `dice: [[Fill#^TempleArchitecture]]`. Every temple contains a shrine that has `dice: 1d6>=2` chance of having divine properties similar to other shrines, above.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+^CommercialType
 
 There’s a 1 in 6 chance in Wilderness hexes that the infrastructure is (1-4) abandoned and potentially used as a lair for monsters or (5-6) under attack or threat.
+| dice: 1d36 |                                                      |
+| ---------- | ---------------------------------------------------- |
+| 1-30       | Infrastructure is used as purpose                    |
+| 31-34      | abandoned and potentially used as a lair for monster |
+| 35-36      | under attack or threat.                                                     |
+^CommercialAbandoned
 
-Features in this category will be inhabited by (1-4) Men, (5-6) demi-humans, (7) humanoids, (8) other races, who may *appear* differently than they truly are (doppelgangers, polymorphed dragons, etc.).
+Features in this category will be inhabited by 
+
+| dice: 1d8 |                                                                                                           |     |
+| --------- | --------------------------------------------------------------------------------------------------------- | --- |
+| 1-4       | Men,                                                                                                      |     |
+| 5-6       | demi-humans,                                                                                              |     |
+| 7         | humanoids,                                                                                                |     |
+| 8         | other races, who may *appear* differently than they truly are (doppelgangers, polymorphed dragons, etc.). |     |
+^commercialinhabitants
 
 The commercial infrastructure’s age will be . . .
 
@@ -1966,9 +1982,35 @@ The commercial infrastructure’s age will be . . .
 | 61-99  | 10d100 years  |
 | 100    | 10d1000 years |
 
+[[Fill#^monumentAge]]
 
 ###### Camps. 
-Camps are either (1-3) occupied by (1-5) travelers or (6) squatters, or are (4-6) currently empty. Camps are maintained by either the local domain ruler, merchant guild, or military to provide designated areas for military or mercantile caravans to rest while traveling. They usually are found on flat, raised ground, marked in some fashion. Camps have a 1-4 in 6 chance of having low defensive walls surrounding the perimeter (1d4+2 feet tall). There is also a 1-2 chance someone has been nice enough to keep a stock of dry firewood. 1 in 6 camps have semi-permanent, crude shelters for animals or Man, and 1-4 in 6 of them will have a nearby source of water in the form of a (1-2) stream, (3-4) spring, (5) fountain, or (6) well.
+Camps are either 
+
+| dice: 1d12 |                        |
+| ---------- | ---------------------- |
+| 1-5        | occupied by  travelers |
+| 6          | occupied by squatters  |
+| 7-12       | currently empty.       |
+^CampOccupied
+
+
+Camps are maintained by either the local domain ruler, merchant guild, or military to provide designated areas for military or mercantile caravans to rest while traveling. They usually are found on flat, raised ground, marked in some fashion. 
+Camps have a
+`dice: 1d6<5` chance of having low defensive walls surrounding the perimeter (`dice: 1d4+2` feet tall). 
+There is also `dice: 1d6<3` chance someone has been nice enough to keep a stock of dry firewood. 
+`dice: 1d6<2` camps have semi-permanent, crude shelters for animals or Man, and 
+
+1-4 in 6 of them will have a nearby source of water in the form of a
+
+| dice: 1d18 |                        |
+| ---------- | ---------------------- |
+| 1-4        | stream,                |
+| 5-8        | spring,                |
+| 9-10       | fountain, or           |
+| 11-12      | well.                  |
+| 13-18      | nearby source of water |
+^campwatersource
 
 ###### Farm. 
 A farm will be the following size . . .
@@ -1978,29 +2020,68 @@ A farm will be the following size . . .
 | d100   | Result              |
 |:-------|:--------------------|
 | 1-10   | Smaller than 1 acre |
-| 11-20  | 1d4 acres           |
-| 21-50  | 2d6 acres           |
-| 51-75  | 3d8 acres           |
-| 76-90  | 4d10 acres          |
-| 91-95  | 5d12 acres          |
-| 96-100 | 6d20 acres          |
+| 11-20  | `dice: 1d4` acres           |
+| 21-50  | `dice: 2d6` acres           |
+| 51-75  | `dice: 3d8` acres           |
+| 76-90  | `dice: 4d10` acres          |
+| 91-95  | `dice: 5d12` acres `dice: 1d6<5` chance of being a market with a Class of 1.          |
+| 96-100 | `dice: 6d20` acres `dice: 1d6<5` chance of being a market with a Class of 1. Farms that are over 100 acres will be a market of Class `dice: [[Fill#^Farmmarketclass]]`.        |
+^FarmSize
+
 
 If the farm is found in a forested, swamp, jungle, or mountain hex subtract 10 from the roll.
 
-All farms, in addition to growing crops, will keep a variety of animals. Chickens for eggs, pigs to forage and eat scraps, horses, mules, or oxen to work the fields, etc. The primary focus of the farmer is on growing crops, though. Most farms grow a variety of plants, instead of one single crop, and they will typically be working from early spring through late fall planting, harvesting, and preparing food for storage. Surplus crops are (1-4) taken to the nearest market to sell or (5-6) tithed to the domain ruler (if in an existing domain).
+All farms, in addition to growing crops, will keep a variety of animals. Chickens for eggs, pigs to forage and eat scraps, horses, mules, or oxen to work the fields, etc. The primary focus of the farmer is on growing crops, though. Most farms grow a variety of plants, instead of one single crop, and they will typically be working from early spring through late fall planting, harvesting, and preparing food for storage. 
+
+Surplus crops are 
+
+| dice: 1d6 |                                                        |
+| --------- | ------------------------------------------------------ |
+| 1-4       | taken to the nearest market to sell or                 |
+| 5-6       | tithed to the domain ruler (if in an existing domain). |
+^Surplus
 
 The smallest farms consist of a single family living in one or two buildings. The larger a farm gets the more hands are needed to run it, and the more infrastructure is needed to support the operation. Large farms will typically consist of 1d2 buildings for every ten acres under cultivation. These buildings include: houses for the farmers (typically a main house for the owners, plus smaller outbuildings that the workers live in), smithies/workshops to repair equipment, barns to house livestock, smokehouses to cure meat, root cellars to preserve harvested food, granaries or silos to store grain, etc.
 
 Large farms, especially those encountered in Wilderness hexes, function as small settlements, are often protected by walls, and often serve as waystations or inns for travelers to rest in, whether they sleep in a barn or there is a dedicated building for use by travelers.
 
-Farms that are larger than 50 acres may be large enough to have supplies available for sale. Such farms have a 1-4 in 6 chance of being a market with a Class of 1. Farms that are over 100 acres will be a market of Class (1-4) 1 or (5-6) 2.
+Farms that are larger than 50 acres may be large enough to have supplies available for sale. Such farms have a 
+
+
+Farms that are over 100 acres will be a market of Class `dice: [[Fill#^Farmmarketclass]]`.
+
+| dice: 1d6 |                    |
+| --------- | ------------------ |
+| 1-4       | market of Class 1  |
+| 5-6       | market of Class 2. |
+^Farmmarketclass
 
 Refer to the section on Resources for more information on crop type.
 
 ###### Ferry. 
-Reroll if this result comes up when it is not appropriate. Ferries are used to cross rivers when bridges are not available. The ferry will be (1-3) operated by the user, (4-5) operated by a dedicated ferryman, or (6) operated by some other means.
+Reroll if this result comes up when it is not appropriate. Ferries are used to cross rivers when bridges are not available. 
 
-Those operated by the user usually consist of a raft or flat-bottomed boat that runs on a rope strung across the river. The boat is pulled or poled across and can be pulled back by travelers as needed. These self-service ferries have a 1 in 6 chance of either (1-4) being out of service due to neglect or vandalism, or (5-6) operated by bandits or brigands looking to prey upon travelers. Increase this chance by 1 in Wilderness hexes.
+The ferry will be
+
+| dice: 1d6 |                                                                                                                                         |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | operated by the user, `dice: [[Fill#^ferryselfservice]]`                                                                                |
+| 4-5       | operated by a dedicated ferryman, or                                                                                                    |
+| 6         | operated by some other means. Ferries operated by other means could be poled by constructs, powered by spells, or other exotic devices. |
+^ferryoperator
+
+Those operated by the user usually consist of a raft or flat-bottomed boat that runs on a rope strung across the river. The boat is pulled or poled across and can be pulled back by travelers as needed. These self-service ferries have a 
+
+
+
+| dice: 1d18 |                                                                 |
+| ---------- | --------------------------------------------------------------- |
+| 1-12       |                                                                 |
+| 13-16      | being out of service due to neglect or vandalism, or            |
+| 17-18      | operated by bandits or brigands looking to prey upon travelers. |
+^ferryselfservice
+
+Increase this chance by 1 in Wilderness hexes.
 
 If the ferry is operated by a ferryman they, and potentially their family, live nearby, and they live off the income generated by transporting travelers. Fees for transport will be . . .
 
@@ -2014,19 +2095,56 @@ If the ferry is operated by a ferryman they, and potentially their family, live 
 | 26-75  | 1d8 sp                     |
 | 76-99  | 1d8 gp                     |
 | 100    | Something other than money |
+^ferryfee
 
-In Wilderness hexes add 10 to the roll. Ferry boats will be capable of transporting (1-3) 2d4, (4-5) 3d6, or (6) 3d8 individuals at a time, or half that number of mounts, so it may take multiple trips. Ferrymen have a 1 in 20 chance of proving unscrupulous, either (1-3) working with brigands, (4-5) stranding half the party on either side and insisting on more payment, or (6) being some sort of monster in disguise.
+In Wilderness hexes add 10 to the roll. 
+
+Ferry boats will be capable of transporting 
+
+
+| dice: 1d6 |                                                                  |
+| --------- | ---------------------------------------------------------------- |
+| 1-3       | `dice: 2d4` individuals at a time, or half that number of mounts |
+| 4-5       | `dice: 3d6` individuals at a time, or half that number of mounts |
+| 6         | `dice: 3d8` individuals at a time, or half that number of mounts |
+capacity
+
+
+individuals at a time, or half that number of mounts, so it may take multiple trips. 
+
+Ferrymen have a 
+1 in 20 chance of proving unscrupulous, either 
+
+
+
+| dice: 1d120 |                                                                        |     |     |
+| ----------- | ---------------------------------------------------------------------- | --- | --- |
+| 1-114       | ferryman honest                                                        |     |     |
+| 115-117     | ferryman working with brigands,                                        |     |     |
+| 118-119     | ferryman stranding half the party on either side and insisting on more payment, |     |     |
+| 120         | ferryman is some sort of monster in disguise.                                |     |     |
+^dishonestferryman
 
 Ferries operated by other means could be poled by constructs, powered by spells, or other exotic devices.
 
 Depending on the weather or season a ferry may not be operable. Heavy rains or melting snow cover may render the river too dangerous to cross, and obviously a frozen river does not need a ferry, provided the ice is thick enough to walk across.
 
 ###### Ford. 
-Simply a shallow part of a river or large stream, fords allow for travelers to cross in relative safety, albeit while getting wet. There’s a 1-2 in 6 chance that the crossing is dangerous during certain times of the year, or after heavy rain. In these cases those crossing must succeed on a Save v. Death to avoid being swept off their feet. If the travelers are mounted while crossing their mounts make the save, but with a +2 bonus to the roll.
+Simply a shallow part of a river or large stream, fords allow for travelers to cross in relative safety, albeit while getting wet. 
 
-If a ford is frequently used there’s a 1 in 20 chance it is watched by brigands or monsters who use the distraction of crossing to attack. This chance is reduced to 1 in 100 in Civilized hexes.
+There’s `dice: 1d6<3` chance that the crossing is dangerous during certain times of the year, or after heavy rain. In these cases those crossing must succeed on a Save v. Death to avoid being swept off their feet. If the travelers are mounted while crossing their mounts make the save, but with a +2 bonus to the roll.
 
-Fords are (1-4) naturally occurring shallow spots in a river or (5-6) man-made. Because they are shallower they are also wider, which may be important to know if travelers are trying to cross swiftly. Assume that a ford is roughly twice as wide as other parts of the river.
+If a ford is frequently used there’s `dice: 1d20<2` chance it is watched by brigands or monsters who use the distraction of crossing to attack. This chance is reduced to 1 in 100 in Civilized hexes.
+
+Fords are 
+
+| dice: 1d6 |                                                 |
+| --------- | ----------------------------------------------- |
+| 1-4       | naturally occurring shallow spots in a river or |
+| 5-6       | man-made.                                       |
+^fordmanmade
+
+Because they are shallower they are also wider, which may be important to know if travelers are trying to cross swiftly. Assume that a ford is roughly twice as wide as other parts of the river.
 
 A ford will be . . .
 
@@ -2034,257 +2152,808 @@ A ford will be . . .
 
 34-table-1.md
 
-| d100   | Result         |
-|:-------|:---------------|
-| 1-50   | 1d4 feet deep  |
-| 51-90  | 2d4 feet deep  |
-| 91-100 | 3d4 feet deep. |
+| d100   | Result                                                                                             |
+|:------ |:-------------------------------------------------------------------------------------------------- |
+| 1-50   | `dice: 1d4` feet deep                                                                                      |
+| 51-90  | `dice: 2d4` feet deep Fords that are deeper than five feet are typically only crossed by mounted travelers |
+| 91-100 | `dice: 3d4` feet deep Fords that are deeper than five feet are typically only crossed by mounted travelers |
+^forddepth
 
 Fords that are deeper than five feet are typically only crossed by mounted travelers, and are used simply because the wider, shallower part of the river is slower moving than other areas.
 
 ###### Hunting Lodge. 
-Hunting lodges are maintained for three distinct reasons: (1-3) by trappers and hunters to use as a base of operations, (4-5) by nobles that maintain the house for use during sport hunting, or (6) by name-level ranger-type characters that use it as a base of operations in Wilderness hexes.
+Hunting lodges are maintained for three distinct reasons: 
 
-Hunting lodges consist of 1d4 buildings, typically, either of (1-3) wood, (4-5) stone, or (6) other material.
+| dice: 1d6 |                                                                                               |
+| --------- | --------------------------------------------------------------------------------------------- |
+| 1-3       | maintained by trappers and hunters to use as a base of operations,                                       |
+| 4-5       | maintained by nobles that maintain the house for use during sport hunting, or                            |
+| 6         | maintained by name-level ranger-type characters that use it as a base of operations in Wilderness hexes. |
+^LodgeOwner
 
-Because they are often forced to rely on their own supplies for long periods of time there’s a 1-2 in 6 chance that a hunting lodge has a Market Class of 1.
+Hunting lodges consist of `dice: 1d4` buildings, typically of `dice: [[Fill#^LodgeMaterial]]`
+
+| dice: 1d6 |                 |
+| --------- | --------------- |
+| 1-3       | wood,           |
+| 4-5       | stone, or       |
+| 6         | other material. |
+^LodgeMaterial
+
+Because they are often forced to rely on their own supplies for long periods of time there’s `dice: 1d6<3` chance that a hunting lodge has a Market Class of 1.
 
 ###### Inn
 Found mostly along heavily trafficked trade routes where there is not enough population to support a community, but enough travel to support a business, roadside inns in Borderland or Wilderness hexes are most often fortified complexes with walls that enclose the main inn and outbuildings. Roadside inns have 1d8 features in Borderland hexes and 2d6 in Wilderness hexes (roll 1d00 to determine the features), listed below. Unless otherwise indicated results are cumulative.
 
+`dice: 1d8[[Fill#^innFeature]]`
 
 34-table-2.md
 
 | d100   | Result                                                                                                                                                                                                                                                                                                                                                                        |
 |:-------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-31   | Guards. 1d6+1 guards are in the employ of the  inn.  Treat  as  (1-3)  footmen,  light,  (4-5)  footmen,  heavy,  (6-7)  crossbowmen,  or (8) 1st-level fighters. Every 4 guards will be overseen by a sergeant one level higher. Ex. Five  crossbowmen  will  be  overseen  by  a  1st-level fighter, while four 1st-level fighters will be overseen by a 2nd-level fighter. |
+| 1-31   | Guards. `dice: 1d6+1` guards are in the employ of the  inn.  Treat  as `dice [[Fill#^InnGuards]]`. Every 4 guards will be overseen by a sergeant one level higher. Ex. Five  crossbowmen  will  be  overseen  by  a  1st-level fighter, while four 1st-level fighters will be overseen by a 2nd-level fighter. |
 | 32-33  | Guild  Hideout.  The  inn  is  in  fact  a  cover for the local thieves’  guild.  Most  of the employees will knowingly work for or be in the employ of the guild. Refer to the Guide to Thieves’ Guilds for more information.                                                                                                                                                |
-| 34-36  | Hirelings. Potential employees can be found at  the  inn.  There  will  be  either  (1-4)  1d4 mercenaries or (5-6) 1d2 potential retainers available  for  hire  at  any  given  time.  If  this result comes up more than once increase the number of potential hirelings by 1.                                                                                             |
-| 37-38  | Magic-user.  The  inn  has  a  magic-user  on staff.  While  primarily employed  by the innkeeper  the  magic-user  can  be  hired  to cast  spells  for  the  PCs. The  magic-user  will be (1-3) 1st level, (4-5) 2nd level, or (6) 3rd level.  If  this  result  comes  up  twice  increase the NPC’s level by 1.                                                          |
-| 39     | Magical  item.  There  is  one  magical  item available for sale or trade (in exchange for a service). This will be (1-4) a potion or scroll, or (5-6) a permanent item.                                                                                                                                                                                                      |
+| 34-36  | Hirelings. Potential employees can be found at  the  inn.  There  will  be  either `dice: [[Fill#^InnHirelings]]`  available  for  hire  at  any  given  time.  If  this result comes up more than once increase the number of potential hirelings by 1.                                                                                             |
+| 37-38  | Magic-user.  The  inn  has  a  magic-user  on staff.  While  primarily employed  by the innkeeper  the  magic-user  can  be  hired  to cast  spells  for  the  PCs. The  magic-user  will be `dice: [[Fill#^InnCaster]]`If  this  result  comes  up  twice  increase the NPC’s level by 1.                                                          |
+| 39     | Magical  item.  There  is  one  magical  item available for sale or trade (in exchange for a service). This will be `dice: [[Fill#^InnItem]]`                                                                                                                                                                                                      |
 | 40-49  | Market. The inn serves as the urban center for nearby residents and has a Market Class of 1. Each time this result comes up add 1 to the Market Class.                                                                                                                                                                                                                        |
-| 50-57  | Smithy.  The  smithy  will  be  run  by  a  (1-5)  blacksmith  or  (6)  armorer.  If  this  result comes  up  more than  once assume the additional workers are assistants.                                                                                                                                                                                                   |
-| 58-59  | Spy. One of the workers at the inn is a spy, sponsored by (1-2) the nearby domain ruler, (3-4)  a  foreign  domain  ruler,  (5)  a  band  of brigands, or (6) other.                                                                                                                            |
-| 60-72  | Stables. The inn maintains enclosed stables and stablehands that care for the mounts of travelers. There’s a 1-3 in 6 chance there will be  1d4  randomly  determined  mounts  for sale, and a 1 in 6 chance there is a (1-4) cart or (5-6) wagon for sale.                                     |
-| 73-77  | Temple.  The  inn  maintains  a  small  temple that is overseen by a (1-3) 1st-level cleric, (4-5) 2nd-level cleric, or (6) 3rd-level cleric. If this  result  occurs  more  than  once  increase the level of the cleric by 1.                                                                 |
+| 50-57  | Smithy.  The  smithy  will  be  run  by  a `dice: [[Fill#^InnSmith]]` .  If  this  result comes  up  more than  once assume the additional workers are assistants.                                                                                                                                                                                                   |
+| 58-59  | Spy. One of the workers at the inn is a spy, sponsored by `dice: [[Fill#^InnSpy]]`                                                                                                                            |
+| 60-72  | Stables. The inn maintains enclosed stables and stablehands that care for the mounts of travelers. There’s `dice: 1d6<4` chance there will be  `dice: 1d4`  randomly  determined  mounts  for sale, and `dice: [[Fill#^InnWagon]]` for sale.                                     |
+| 73-77  | Temple.  The  inn  maintains  a  small  temple that is overseen by a `dice: [[Fill#^InnTemple]]` If this  result  occurs  more  than  once  increase the level of the cleric by 1.                                                                 |
 | 78-79  | Threat.  A  hidden  threat  lurks  in  the  inn. One  or  more  of  the  staff  may  be  disguised monsters, or the food may have spoiled and will poison the guests, or a fire may break out at  night.  If  this  result  comes  up  more  than once increase the threat level appropriately. |
-| 80-100 | Wall.  The inn is  surrounded  by  a (1-3) wood,  (4-5)  brick,  or  (6)  stone  wall  that is  approximately  eight feet tall.  For  each additional result add another defensive feature (arrow slits, moat, tower, etc.).                                                                    |
+| 80-100 | Wall.  The inn is  surrounded  by  a `dice: [[Fill#^InnWall]]` wall  that is  approximately  eight feet tall.  For  each additional result add another defensive feature (arrow slits, moat, tower, etc.).                                                                    |
+^innFeature
+
+
+| dice: 1d6 |                    |
+| --------- | ------------------ |
+| 1-3       | footmen,  light,   |
+| 4-5       | footmen,  heavy,   |
+| 6-7       | crossbowmen,  or   |
+| 8         | 1st-level fighters |
+^InnGuards
+
+
+| dice: 1d6 |                                 |
+| --------- | ------------------------------- |
+| 1-4       | `dice: 1d4` mercenaries or      |
+| 5-6       | `dice: 1d2` potential retainers |
+^InnHirelings
+
+| dice: 1d6 |            |
+| --------- | ---------- |
+| 1-3       | 1st level, |
+| 4-5       | 2nd level, |
+| 6         | 3rd level. |
+^InnCaster
+
+
+
+| dice: 1d6 |                        |
+| --------- | ---------------------- |
+| 1-4       | a potion or scroll, or |
+| 5-6       | a permanent item       |
+^InnItem
+
+| dice: 1d6 |            |
+| --------- | ---------- |
+| 1-5       | blacksmith |
+| 6         | armorer    |
+^InnSmith
+
+| dice: 1d6 |                            |
+| --------- | -------------------------- |
+| 1-2       | the nearby domain ruler,   |
+| 3-4       | a  foreign  domain  ruler, |
+| 5         | a  band  of brigands, or   |
+| 6         | other.                     |
+^InnSpy
+
+
+| dice: 1d18 |              |
+| ---------- | ------------ |
+| 1-12       | nothing more |
+| 16-17      | cart         |
+| 18         | wagon        |
+^InnWagon
+
+| dice: 1d6 |                      |
+| --------- | -------------------- |
+| 1-3       | 1st-level cleric,    |
+| 4-5       | 2nd-level cleric,|
+| 6         | 3rd-level cleric.    |
+^InnTemple
+
+
+| dice: 1d6 |            |
+| --------- | ---------- |
+| 1-3       | wood,      |
+| 4-5       | brick,  or |
+| 6         | stone      |
+^InnWall
+
 
 ###### Lighthouse/signal towers.
-Tall buildings with a light atop to (1-4) guide travelers or (5-6) send messages. The towers will be 3d6×10 feet high and manned by 1d4 staff with a 1-4 in 6 chance of having 2d4 mercenary guards.
+Tall buildings with a light atop to 
 
-Signal towers are typically maintained by (1-5) domain rulers or (6) other organizations. They will be spaced out at increments of three miles plus 1.5 for every ten feet in height of the tower. The fire is (1-4) only lit in times of danger or (5-6) lit to send coded messages.
+| dice: 1d6 |                                                                                                                                                                                                      |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-4       | guide travelers Lighthouses are kept continually lit at night or cloudy days to warn nearby ships of dangers in the vicinity.                                                                     |
+| 5-6       | send messages. Signal towers are typically maintained by `dice: [[Fill#^TowerMaintainer]]`, They will be spaced out at increments of three miles plus 1.5 for every ten feet in height of the tower. |
+^Signatower
+
+The towers will be `dice: 3d6*10` feet high and manned by `dice: 1d4` staff with a `dice: 1d6<=4` chance of having `dice: 2d4` mercenary guards. 
+
+Signal towers are typically maintained by 
+
+| dice: 1d6 |                      |
+| --------- | -------------------- |
+| 1-5       | domain rulers or     |
+| 6         | other organizations. |
+^TowerMaintainer
+
+They will be spaced out at increments of three miles plus 1.5 for every ten feet in height of the tower. The fire is 
+
+| dice: 1d6 |                                |
+| --------- | ------------------------------ |
+| 1-4       | only lit in times of danger or |
+| 5-6       | lit to send coded messages.    |
+^WhenOn
+
 
 Lighthouses are kept continually lit at night or cloudy days to warn nearby ships of dangers in the vicinity.
 
 ###### Logging Camp.
-When found in wooded areas such a camp is dedicated to cutting timber; when found in non-wooded areas the workers harvest sod, peat, or similar material. An ocean-side camp may harvest kelp or something similar.
+When found in wooded areas such a camp is dedicated to cutting timber; when found in non-wooded areas the workers harvest sod, peat, or similar material. An ocean-side camp may harvest kelp or something similar. The camp will 
 
-The camp will (1-3) ship harvested material via river, (4- 5) sell it for use nearby, or (6) ship it via land. Refer to the Resource section on p. 37 to determine the value/size of nearby resources. There will be 1d6 individuals dedicated to harvesting the material for every subhex of resource. Camps will be (1-5) semi-permanent dwellings or (6) permanent structures. There will be 1d2 structures for ever ten workers. There’s a 1-4 in 6 chance of having a blacksmith employed for every twenty workers, a 1-5 in 6 chance of having 2d4 mercenary guards for ever ten workers, and a 1 in 6 chance of having a 1st-level cleric present for every twenty workers.
 
-Camps with more than 100 workers have an equivalent Market Class of (1-4) 1 or (5-6) 2. There’s a 1-2 in 6 chance that a logging camp has a lumber mill (see below) as part of the camp. This chance is increased by 1 in Wilderness hexes.
+| dice: 1d6 |                                    |
+| --------- | ---------------------------------- |
+| 1-3       | ship harvested material via river, |
+| 4- 5      | sell it for use nearby, or         |
+| 6         | ship it via land.                  |
+^LoggingConnections
+
+Refer to the Resource section on p. 37 to determine the value/size of nearby resources. There will be `dice: 1d6` individuals dedicated to harvesting the material for every subhex of resource. Camps will be 
+
+| dice: 1d6 |                             |
+| --------- | --------------------------- |
+| 1-5       | semi-permanent dwellings or |
+| 6         | permanent structures.       |
+^LoggingPermanent
+
+There will be `dice: 1d2` structures for ever ten workers. There’s `dice: 1d6<=4` chance of having a blacksmith employed for every twenty workers, `dice: 1d6<=5` chance of having `dice: 2d4` mercenary guards for ever ten workers, and`dice: 1d6<=1` chance of having a 1st-level cleric present for every twenty workers. Camps with more than 100 workers have an equivalent Market Class of 
+
+
+| dice: 1d6 |      |
+| --------- | ---- |
+| 1-4       | 1 or |
+| 5-6       | 2.   |
+^LoggingMarket
+
+There’s `dice: 1d6<=2` chance that a logging camp has a lumber mill (see below) as part of the camp. This chance is increased by 1 in Wilderness hexes.
 
 ###### Military Garrison/Supply House. 
-Large domains often maintain barracks or garrisons on their borders to project their power into Borderlands or Wilderness areas outside of the domain proper. These are to be treated as keeps, housing a military garrison of the appropriate size based upon the size of the keep.
+Large domains often maintain barracks or garrisons on their borders to project their power into Borderlands or Wilderness areas outside of the domain proper. These are to be treated as keeps, housing a military garrison of the appropriate size based upon the size of the keep. [[#Tower/Keep/Castle]]
 
 Garrisons will also contain a surplus of supplies for the forces to use should they be under attack or need to march to war. Each garrison will have a supply of dried rations, weapons, and ammunition that can be drawn from to supply troops.
 
-There’s a 1 in 8 chance that a garrison is treated as being a Market Class of (1-4) 1 or (5-6) 2. There’s an additional 1-2 in 6 chance per twenty troops of having a cleric of level (1- 3) 1, (4-5) 2, or (6) 3. There’s a 1 in 6 chance per twenty-five troops of there being a magic-user of similar level.
+There’s `dice: 1d8<=1` chance that a garrison is treated as being a Market Class of
 
-Additionally, there’s a 1 in 10 chance that there will be 1 spy per twenty-five troops. These spies will be from (1-3) the domain ruler, keeping an eye on corruption, (4) an outside domain, (5) a local thieves’/brigands’ guild, or (6) an evil cult, enemy, or polymorphed/disguised monster.
+| dice: 1d6 |                    |
+| --------- | ------------------ |
+| 1-4       | Market Class of 1  |
+| 5-6       | Market Class of 2. |
+^garrisonMarket
+
+There’s an additional 
+
+
+`dice: 1d6<=2` chance per twenty troops of having a cleric of level 
+
+| dice: 1d6 |       |
+| --------- | ----- |
+| 1- 3      | 1,    |
+| 4-5       | 2, or |
+| 6         | 3.    |
+^GarrisonCleric
+
+There’s `dice: 1d6<=1` chance per twenty-five troops of there being a magic-user of similar level. Additionally, there’s a `dice: 1d10<=1` chance that there will be 1 spy per twenty-five troops. These spies will be from 
+
+| dice: 1d6 |                                                        |
+| --------- | ------------------------------------------------------ |
+| 1-3       | the domain ruler, keeping an eye on corruption,        |
+| 4         | an outside domain,                                     |
+| 5         | a local thieves’/brigands’ guild, or                   |
+| 6         | an evil cult, enemy, or polymorphed/disguised monster. |
+^garrisonSpy
+
 
 ###### Mill. 
-Mills will be (1-3) powered by moving water, (4-5) powered by manual labor (animals, slaves, etc.), or (6) powered by another source, likely magical.
+Mills will be 
 
-Mills will process (1-3) grain, (4-5) timber, or (6) other material. Grain mills will only be found in Wilderness hexes on a roll of 1-2 in 6 as they overwhelmingly tend to be in more densely populated areas where they can serve the needs of a larger community of farmers.
+| dice: 1d6 |                                            |                       |      |
+| --------- | ------------------------------------------ | --------------------- | ---- |
+| 1-3       | powered by moving water,                   |                       |      |
+| 4-5       | powered by manual labor                    | animals, slaves, etc. | , or |
+| 6         | powered by another source, likely magical. |                       |      |
+^MillPower
 
-Grain mills tend to be small operations, attached to dwellings where the miller and their family live.
+Mills will process 
 
-Lumber mills, on the other hand, are often found in Borderlands or Wilderness hexes as it is easier to mill nearby timber and then ship it for use in new construction, rather than import the raw material. These are larger operations, requiring intensive labor to process felled trees.
+| dice: 1d6 |                                                                                                                                                                                                                                                                                                                           |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | grain, Grain mills will only be found in Wilderness hexes on a roll of 1-2 in 6 as they overwhelmingly tend to be in more densely populated areas where they can serve the needs of a larger community of farmers. Grain mills tend to be small operations, attached to dwellings where the miller and their family live. |
+| 4-5       | timber, or Lumber mills, on the other hand, are often found in Borderlands or Wilderness hexes as it is easier to mill nearby timber and then ship it for use in new construction, rather than import the raw material. These are larger operations, requiring intensive labor to process felled trees.                   |
+| 6         | other material.                                                                                                                                                                                                                                                                                                           |
+^MillMaterial
 
-Water-powered lumber mills use blades driven by running water, while manually powered mills utilize teams of workers using pitsaws, or even splitting logs down into lumber.
 
-A typical lumber mill has 2d20 employees, plus draft horses to help move materials around. The workers will typically live adjacent to the mill, and there will be 1d2 support staff on hand for every five workers. This support staff includes laborers (1-5 in 6 chance per 5 workers), blacksmiths (1-3 in 6 chance per 5 workers), animal handlers (1-2 in 6 chance per 5 workers), etc.
+Water-powered lumber mills use blades driven by running water, while manually powered mills utilize teams of workers using pitsaws, or even splitting logs down into lumber. A typical lumber mill has `dice: 2d20` employees, plus draft horses to help move materials around. The workers will typically live adjacent to the mill, and there will be `dice: 1d2` support staff on hand for every five workers. This support staff includes laborers (`dice: 1d6>=5` chance per 5 workers), blacksmiths (`dice: 1d6>=3` chance per 5 workers), animal handlers (`dice: 1d6>=2` chance per 5 workers), etc.
 
 ###### Mine. 
-Mines are (1-3) dug, (4-5) sluice, or (6) strip mines. A mine will be (1-3) a solo operation, run by a single individual or family, (4-5) a larger operation owned as a mercantile venture, or (6) owned by a nearby ruler, noble, or landowner.
+Mines are 
 
-Dug mines are created by digging shafts into the ground that follow veins of minerals. They can descend deep into the earth, and require physical bracing and reinforcement. The deeper a dug mine goes the more labor is needed to efficiently extract materials, and the more dangerous it becomes.
 
-Sluice mines rely on exposing surface minerals with running water, either by blasting surface dirt with pressurized water or by panning to separate heavier minerals.
 
-Strip mines also require digging, but instead of digging narrow tunnels that follow the path of mineral veins they rely on removing large amounts of earth to exposed seams of valuable minerals.
+| dice: 1d6 |                                                                                                                                                                                                                                                                                                                                                       |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | dug mines. Dug mines are created by digging shafts into the ground that follow veins of minerals. They can descend deep into the earth, and require physical bracing and reinforcement. The deeper a dug mine goes the more labor is needed to efficiently extract materials, and the more dangerous it becomes. dug mines have `dice: 1d100` workers |
+| 4-5       | sluice. Sluice mines rely on exposing surface minerals with running water, either by blasting surface dirt with pressurized water or by panning to separate heavier minerals. Sluice mines have `dice: 1d8` workers                                                                                                                                   |
+| 6         | strip mines. Strip mines also require digging, but instead of digging narrow tunnels that follow the path of mineral veins they rely on removing large amounts of earth to exposed seams of valuable minerals. strip mines `dice: 5d100`workers                                                                                                       |
+^MineType
 
-Sluice mines have 1d8 workers, dug mines 1d100, and strip mines 5d100. Temporary settlements spring up around the mine, with workers living in tents or semi- permanent shelters. Mining camps attract support staff. Mines that are run by consortia or domains will have 1d6–1 guards for every ten miners. There will also be blacksmiths (1-3 in 6 chance per ten miners), animal handlers (1-2 in 6 chance per 25 miners), cooks (1-3 in 6 chance per ten miners), a rudimentary tavern (1-4 in 6 chance per fifty miners), etc.
+A mine will be 
 
-Mines will be visited every 1d4 weeks by supply caravans that bring supplies to the miners then return to settlements with ore. There’s a 1-2 in 6 chance per fifty workers that a mining camp has a smelter to process ore before shipping it away.
+| dice:1d6 |                                                         |
+| -------- | ------------------------------------------------------- |
+| 1-3      | a solo operation, run by a single individual or family, |
+| 4-5      | a larger operation owned as a mercantile venture, or    |
+| 6        | owned by a nearby ruler, noble, or landowner.           |
+^MineOperator
+
+
+
+
+
+
+Sluice mines have `dice: 1d8` workers, dug mines have `dice: 1d100` workers, and strip mines `dice: 5d100`workers. Temporary settlements spring up around the mine, with workers living in tents or semi- permanent shelters. Mining camps attract support staff. Mines that are run by consortia or domains will have `dice: 1d6–1` guards for every ten miners. There will also be blacksmiths (1-3 in 6 chance per ten miners), animal handlers (`dice: 1d6>=2` chance per 25 miners), cooks (`dice: 1d6>=3` chance per ten miners), a rudimentary tavern (`dice: 1d6>=4` chance per fifty miners), etc.
+
+Mines will be visited every `dice: 1d4` weeks by supply caravans that bring supplies to the miners then return to settlements with ore. There’s `dice: 1d6>=2` chance per fifty workers that a mining camp has a smelter to process ore before shipping it away.
 
 Refer to the section on Resources on p. 37 for more information.
 
 ###### Monastery. 
-Many monastic orders are headquartered in remote areas. They (1-3) are primarily religious, (4-5) primarily martial, or (6) primarily esoteric (specializing in magical research).
+Many monastic orders are headquartered in remote areas. They 
 
-They will be (1-2) Lawful, (3-4) Neutral, or (5-6) Chaotic. Monasteries should be treated as the domains of name-level characters: strongholds founded by clerics (from the core rules) or assassins (p. 8, Advanced Fantasy). Use the rules in those books to determine the number of leveled characters present, and assume they have support staff equal to mining camps.
+| dice: 1d6 |                                                      |     |
+| --------- | ---------------------------------------------------- | --- |
+| 1-3       | are primarily religious,                             |     |
+| 4-5       | are primarily martial, or                                |     |
+| 6         | are primarily esoteric (specializing in magical research | .   |
+^MonasteryType
 
-Monasteries are also constructed as keeps and strongholds, usually (1-4) of stone or brick, but occasionally (5-6) of wood or other materials.
+They will be 
+
+| dice:1d6 |             |
+| -------- | ----------- |
+| 1-2      | Lawful,     |
+| 3-4      | Neutral, or |
+| 5-6      | Chaotic.    |
+^MonasteryAlignment
+
+Monasteries should be treated as the domains of name-level characters: strongholds founded by clerics (from the core rules) or assassins (p. 8, Advanced Fantasy). Use the rules in those books to determine the number of leveled characters present, and assume they have support staff equal to mining camps. Monasteries are also constructed as keeps and strongholds, usually 
+
+
+| dice:1d6 |                                     |
+| -------- | ----------------------------------- |
+| 1-4      | of stone or brick, but occasionally |
+| 5-6      | of wood or other materials.         |
+^MonasteryMaterial
 
 Otherwise, monasteries are built along the lines of dungeons.
 
 ###### Orchard.
-Similar to farms, but instead of planting seasonal crops the farmers tend orchards of (1-3) fruit trees, (4-5) nut trees, or (6) grape vines. Because of the higher density and perennial nature of their crop subtract 10 from the roll when determining the size of the orchard.
+Similar to farms, [[#Farm.]] but instead of planting seasonal crops the farmers tend orchards of 
 
-Orchards have a 1-4 in 6 chance of being surrounded by a low wall, and a 1-2 in 6 chance of being patrolled by 1d4 guards for every ten acres. These guards are the equivalent of (1-4) light foot or (5-6) heavy foot.
+| dice:1d6 |               |
+| -------- | ------------- |
+| 1-3      | fruit trees,  |
+| 4-5      | nut trees, or |
+| 6        | grape vines.  |
+^orchardType
+
+Because of the higher density and perennial nature of their crop subtract 10 from the roll when determining the size of the orchard. Orchards have  `dice: 1d6>=4` chance of being surrounded by a low wall, and `dice: 1d6>=2` chance of being patrolled by 1d4 guards for every ten acres. These guards are the equivalent of 
+
+
+| dice:1d6 |               |
+| -------- | ------------- |
+| 1-4      | light foot or |
+| 5-6      | heavy foot.   |
+^OrcharGuards
 
 ###### Other.
 Use this category for features that are not included in any of the others.
 
 ###### Quarry.
-Quarries are similar to mines, except they are usually (1-5) of the strip mine variety, and only very rarely (6) dug mines. Refer to the section on Resources, below.
+Quarries are similar to mines, except they are usually 
+
+| dice: 1d6 |                                                 |
+| --------- | ----------------------------------------------- |
+| 1-5       | of the strip mine variety, and only very rarely |
+| 6         | dug mines.                                      |
+^QuarryType
+
+Refer to the section on Resources, below.
 
 ###### Ranch.
-In all other respects similar to farms, but ranches primarily raise livestock. Ranches have a 1-2 in 6 chance of being surrounded by wooden fences with a primary purpose of keeping animals in rather than protecting the property from external threats.
-
-Add 10 to the roll when determining the ranch size. If the result is 101 or above the ranch is 1d4 subhexes.
+In all other respects similar to farms, [[#Farm.]] but ranches primarily raise livestock. Ranches have `dice: 1d6>=2` chance of being surrounded by wooden fences with a primary purpose of keeping animals in rather than protecting the property from external threats. Add 10 to the roll when determining the ranch size. If the result is 101 or above the ranch is 1d4 subhexes.
 
 
 ###### Shrine. 
-Unlike temples, that are staffed by priests of a deity, shrines are smaller structures dedicated to a deity. There are typically no full-time attendants of a shrine, although there may be a part-time caretaker that occasionally visits the shrine to look after the place.
+Unlike temples, that are staffed by priests of a deity, shrines are smaller structures dedicated to a deity. There are typically no full-time attendants of a shrine, although there may be a part-time caretaker that occasionally visits the shrine to look after the place. The shrine will be dedicated to a [[Fill#^MonasteryAlignment]] Diety.
 
-The shrine will be dedicated to a (1-2) Lawful, (3-4) Neutral, or (5-6) Chaotic deity. There’s a 1-3 in 6 chance there’s a semi-permanent caretaker that visits every (1- 3) 1d4 weeks, (4-5) 1d8 days, or (6) 1d4 months.
 
-The shrine will be (1-3) a statue, object, or natural feature, (4-5) a single room or rudimentary shelter, (6) a building with 1d4+1 rooms.
+There’s `dice: 1d6>=3` chance there’s a semi-permanent caretaker that visits every 
 
-There’s a 1 in 6 chance the shrine possesses divine properties that will take effect (1) whenever someone of a certain alignment enters, (2) whenever something is left or taken, (3) upon everyone who enters, (4) if a specific action is taken within the shrine, or (5-6) other. These effects usually take the form of a bane or a boon; banes occur when, for instance, a Chaotic creature enters the grounds of a Lawful shrine.
 
-Banes will impose the following: (1) the offending creature suffers a penalty of 1d4 to a specific roll, (2) the offending creature automatically rolls the lowest possible result on their next roll, (3) the offending creature must Save v. Spells or have their alignment change to its opposite, (4) the offending creature must Save v. Polymorph or be turned into another form (stone, or ooze, or animal, etc.), (5) the offending creature is targeted by the geas spell, or (6) other. Banes last for (1- 3) 1d8 days, (4-5) 1d4 weeks, or (6) permanently. They can be removed by (1) a remove curse cast by a cleric of level (1d6+8) or higher, (2) a dispel magic cast by a spellcaster of at least level (1d6+8), (3) a wish or similar magic, (4) divine intervention, (5) undoing whatever action triggered the bane, or (6) other.
+| dice:1d6 |                      |
+| -------- | -------------------- |
+| 1- 3     | `dice: 1d4` weeks,   |
+| 4-5      | `dice: 1d8` days, or |
+| 6        | `dice: 1d4` months.  |
+^ShrineAttendant
 
-Boons impose the following: (1) the subject gains a bonus of 1d4 to a specific roll, (2) the subject automatically succeeds on their next roll, (3) the subject gains a bonus 1d6 hit points, (4) the subject has one random ability score improved by 1, (5) the subject gains a bonus ability congruent with the god’s portfolio, or (6) other.
+The shrine will be 
+
+
+| dice:1d6 |                                       |
+| -------- | ------------------------------------- |
+| 1-3      | a statue, object, or natural feature, |
+| 4-5      | a single room or rudimentary shelter, |
+| 6        | a building with `dice: 1d4+1` rooms.  |
+^ShrineSize
+
+
+There’s `dice: 1d6>=3` chance the shrine possesses divine properties that will take effect 
+
+
+| dice:1d6 |                                                     |
+| -------- | --------------------------------------------------- |
+| 1        | whenever someone of a certain alignment enters,     |
+| 2        | whenever something is left or taken,                |
+| 3        | upon everyone who enters,                           |
+| 4        | if a specific action is taken within the shrine, or |
+| 5-6      | other.                                              |
+^ShrineTrigger
+
+
+These effects usually take the form of a bane or a boon; banes occur when, for instance, a Chaotic creature enters the grounds of a Lawful shrine. Banes will impose the following: 
+
+
+| dice:1d6 |                                                                                            |                                 |     |
+| -------- | ------------------------------------------------------------------------------------------ | ------------------------------- | --- |
+| 1        | the offending creature suffers a penalty of `dice: 1d4` to a specific roll,                |                                 |     |
+| 2        | the offending creature automatically rolls the lowest possible result on their next roll,  |                                 |     |
+| 3        | the offending creature must Save v. Spells or have their alignment change to its opposite, |                                 |     |
+| 4        | the offending creature must Save v. Polymorph or be turned into another form               | stone, or ooze, or animal, etc. | ,   |
+| 5        | the offending creature is targeted by the geas spell, or                                   |                                 |     |
+| 6        | other.                                                                                     |                                 |     |
+^ShrineBane
+
+Banes last for 
+
+
+| dice:1d6 |                       |
+| -------- | --------------------- |
+| 1- 3     | `dice: 1d8` days,     |
+| 4-5      | `dice: 1d4` weeks, or |
+| 6        | permanently.          |
+^ShrineBaneDuration
+
+They can be removed by 
+
+| dice:1d6 |                                                                     |
+| -------- | ------------------------------------------------------------------- |
+| 1        | a remove curse cast by a cleric of level `dice: 1d6+8` or higher,   |
+| 2        | a dispel magic cast by a spellcaster of at least level`dice: 1d6+8` |
+| 3        | a wish or similar magic,                                            |
+| 4        | divine intervention,                                                |
+| 5        | undoing whatever action triggered the bane, or                      |
+| 6        | other.                                                              |
+^BaneDispel
+
+
+
+Boons impose the following: 
+
+| dice:1d6 |                                                                          |
+| -------- | ------------------------------------------------------------------------ |
+| 1        | the subject gains a bonus of `dice: 1d4` to a specific roll,             |
+| 2        | the subject automatically succeeds on their next roll,                   |
+| 3        | the subject gains a bonus `dice: 1d6` hit points,                        |
+| 4        | the subject has one random ability score improved by 1,                  |
+| 5        | the subject gains a bonus ability congruent with the god’s portfolio, or |
+| 6        | other.                                                                   |
+^ShrineBoon
 
 Note that boons and banes that specifically call out “the next roll” do not permanently grant the modifier, but will expire once that next roll is made, regardless of how long it takes to make that roll.
 
+
 ###### Temple.
-Temples are larger than shrines, with a permanent contingent of worshipers. Temples have the same proportions of alignments as shrines. Like monasteries, temples should be treated as name-level strongholds run by clerics or paladins. Use the rules in the OSE rulebooks to determine the number of followers.
+Temples are larger than shrines, with a permanent contingent of worshipers. Temples have the same proportions of alignments as shrines. Like monasteries, temples should be treated as name-level strongholds run by clerics or paladins. Use the rules in the OSE rulebooks to determine the number of followers. There will be support staff in the temple equal to `dice: 3d4*10`% of the followers. The support staff may be generally followers of the deity, but are considered to be 0-level NPCs.
 
-There will be support staff in the temple equal to 3d4×10% of the followers. The support staff may be generally followers of the deity, but are considered to be 0-level NPCs.
+Temples can be 
 
-Temples can be (1-3) a single large structure divided in 3d6 rooms, (4-5) an enclosed campus containing 2d6 outbuildings, or (6) a military-style keep.
 
-Every temple contains a shrine that has a 1-2 in 6 chance of having divine properties similar to other shrines, above.
+| dice:1d6 |                                                            |
+| -------- | ---------------------------------------------------------- |
+| 1-3      | a single large structure divided in `dice: 3d6` rooms,     |
+| 4-5      | an enclosed campus containing `dice: 2d6` outbuildings, or |
+| 6        | a military-style keep.                                     |
+^TempleArchitecture
+
+
+Every temple contains a shrine that has `dice: 1d6>=2` chance of having divine properties similar to other shrines, above.
 
 
 #### Barriers
+Barriers are structures and features, both natural and man-made, that somehow block or impede progress. Barriers are either 
+
+| dice: 1d6 |                                                                         |
+| --------- | ----------------------------------------------------------------------- |
+| 1-3       | natural. Natural barriers include `dice: [[Fill#^NaturalBarriers]]`     |
+| 4-5       | man-made barriers include `dice: [[Fill#^ManMadeBarriers]]`             |
+| 6         | magical. Magical barriers include `dice: [[Fill#^MagicalBarriersType]]` |
+^barriertype
+
+The purpose of this section is to provide obstacles that slow the adventurers’ progress.
+
+When a barrier is rolled determine what the nature of the barrier is (man-made, natural, etc.), pick a barrier that works best with the hex, and refer to the appropriate section in this book. Barriers, if the adventurers insist on continuing on their path, will slow progress by . . .
+
 
 37-table-1.md
 
-| d100   | Result   |
-|:-------|:---------|
-| 1-50   | 25%      |
-| 51-75  | 50%      |
-| 76-95  | 75%      |
-| 96-100 | 100%     |
+| dice: 1d100 | Result                                                                                                                                                                                       |
+|:----------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-50        | 25%                                                                                                                                                                                          |
+| 51-75       | 50%                                                                                                                                                                                          |
+| 76-95       | 75%                                                                                                                                                                                          |
+| 96-100      | 100% Barriers that slow progress by 100% create zones (see below) that cannot be explored until the barrier is overcome. Otherwise, assume the zone can be explored, but at the slower rate. |
+^BarrierIntensity
 
-
-38-table-1.md
-
-| d100         | Result                               |
-|:-------------|:-------------------------------------|
-| 1-20         | Force fields                         |
-| 21-40        | Illusory images/terrain              |
-| 41-60        | Magical walls (of fire, stone, etc.) |
-| 61-80        | Zones of repulsion                   |
-| 81-100 Other |                                      |
+Barriers that slow progress by 100% create zones (see below) that cannot be explored until the barrier is overcome. Otherwise, assume the zone can be explored, but at the slower rate. Each barrier affects a “zone”, or a certain area. The smallest area a zone can affect is a single subhex. Roll below to determine the size of the zone . . .
 
 
 38-table-2.md
 
-| d100   | Result       |
-|:-------|:-------------|
-| 1-40   | 1 subhex     |
-| 41-70  | 1d4 subhexes |
-| 71-85  | 3d4 subhexes |
-| 86-95  | 4d6 subhexes |
-| 96-100 | 1d4 hexes    |
-
-
-38-table-3.md
-
-| d8   | Result                               |
-|:-----|:-------------------------------------|
-| 1-3  | 1d6 points of damage (no save)       |
-| 4-5  | 2d6 points of damage (no save)       |
-| 6-7  | 3d6 points of damage (no save)       |
-| 8    | Save vs. spells or be disintegrated. |
-
+| dice: 1d100 | Result               |
+|:----------- |:-------------------- |
+| 1-40        | 1 subhex             |
+| 41-70       | `dice: 1d4` subhexes |
+| 71-85       | `dice: 3d4` subhexes |
+| 86-95       | `dice: 4d6` subhexes |
+| 96-100      | `dice: 1d4` hexes    |
+^BarrierZone
 
 38-table-4.md
 
-| d100         | Result               |
-|:-------------|:---------------------|
-| 1-15         | Boggy/marshy terrain |
-| 16-30        | Canyons              |
-| 31-45        | Cliffs               |
-| 46-60        | Impenetrable foliage |
-| 61-75        | Rivers               |
-| 76-100 Other |                      |
+Natural barriers include . . .
+
+| dice: 1d100 | Result               |
+|:----------- |:-------------------- |
+| 1-15        | Boggy/marshy terrain |
+| 16-30       | Canyons              |
+| 31-45       | Cliffs               |
+| 46-60       | Impenetrable foliage |
+| 61-75       | Rivers               |
+| 76-100      | Other                |
+^NaturalBarriers
+
+
+Natural barriers can be treated either as a terrain type that slows movement (and potentially renders certain types of transportation, such as wagons or boats, unusable) or as a hazard (see p. 45)
+
+Man-made barriers include . . .
 
 
 38-table-5.md
 
-| d100          | Result                   |
-|:--------------|:-------------------------|
-| 1-40          | Traps. Refer to p.       |
-| 41-60         | Trenches. Refer to p. 22 |
-| 61-80         | Walls. Refer to p. 21    |
-| 81-100 Other. |                          |
+| dice: 1d100 | Result                   |
+|:----------- |:------------------------ |
+| 1-40        | Traps. Refer to p.       |
+| 41-60       | Trenches. Refer to p. 22 |
+| 61-80       | Walls. Refer to p. 21    |
+| 81-100      | Other.                   |
+^ManMadeBarriers
 
+Man-made barriers can be overcome in the normal fashion.
+
+
+Magical barriers include . . .
+
+38-table-1.md
+
+| dice: 1d100 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:----------- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-20        | Force fields. A force field is an `dice: [[Fill#^forcefieldVisible]]` thin magical barrier that is the result of a `dice: [[Fill#^ForcefieldOrigin]]` It cannot be breached by physical means, and there’s `dice: 1d6 <=4` chance it is impervious to magical effects, including those that do not create physical results (such as charm person).  There’s a further `dice: 1d6 <=1` chance that touching the force field inflicts injury upon the one touching it, as follows `dice: [[Fill#^ForcefieldDMGAmount]]`, `dice: [[Fill#^ForcefieldDMGType]]` damage. When rolling to determine the size of a force field [[#^BarrierZone]] , subtract 20 from the roll. On a result of less than 1, the force field occupies `dice: 1d10*1000` sq. ft. Force fields will `dice: [[Fill#^ForcefieldBypass]]`. If targeted by a spell such as dispel magic treat the force field as being of a spell level equal to `dice: 1d6+4`. There’s an additional `dice: 1d6<=1` chance that a force field completely surrounds (above and below ground) an area; otherwise it simply rises to a height of `dice: 1d100` feet. |
+| 21-40       | Illusory images/terrain. Illusory images or terrain should be treated as spells such as hallucinatory terrain, massmorph, or other illusion spells. Allow those passing through the illusion to roll `dice: 4d6` and compare the result to their Intelligence score. If the result is equal to or less than their score they are able to determine that there is an illusion. Illusions are the result of `dice: [[Fill#^IllusionOrigin]]`. Treat the illusion as if it were a spell of level `dice: 1d8+1`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 41-60       | Magical walls (of fire, stone, etc.). Magical walls are just that: barriers created by such spells as wall of stone, wall of fire, etc., or potentially other spells such as acid fog, cloudkill, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 61-80       | Zones of repulsion. Zones of repulsion are invisible barriers that are otherwise treated as force fields, except they can be crossed. Once inside, an affected individual must make a saving throw against spells for every turn spent inside or be compelled to leave by the fastest means possible. Zones of repulsion have only a `dice: 1d6 <=1` chance of affecting *all* creatures that enter. Otherwise, roll below to determine what manner of creatures are affected: `dice: [[Fill#^RepulsionTarget]]`. There’s a further `dice: 1d6<=1` chance that a specific creature type is affected by the barrier (goblins, rather than all humanoids).                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 81-100      | Other                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+^MagicalBarriersType
+
+1-20. A force field is an 
+
+| dice: 1d6 |           |
+| --------- | --------- |
+| 1-2       | invisible |
+| 3-6       | visible,  |
+^forcefieldVisible
+
+
+
+| dice: 1d6 |                      |
+| --------- | -------------------- |
+| 1-2       | spell,               |
+| 3-5       | magical artifact, or |
+| 6         | other phenomenon.    |
+^ForcefieldOrigin
+
+It cannot be breached by physical means, and there’s `dice: 1d6 <=4` chance it is impervious to magical effects, including those that do not create physical results (such as charm person).  There’s a further `dice: 1d6 <=1` chance that touching the force field inflicts injury upon the one touching it, as follows: 
+
+38-table-3.md
+
+| dice: 1d8 | Result                                 |
+|:--------- |:-------------------------------------- |
+| 1-3       | `dice: 1d6` points of damage (no save) |
+| 4-5       | `dice: 2d6` points of damage (no save) |
+| 6-7       | `dice: 3d6` points of damage (no save) |
+| 8         | Save vs. spells or be disintegrated.   |
+^ForcefieldDMGAmount
+
+
+Damage will be 
+
+| dice: 1d6 |                            |
+| --------- | -------------------------- |
+| 1-3       | electrical,                |
+| 4-5       | force, or                  |
+| 6         | some other type of energy. |
+^ForcefieldDMGType
+
+When rolling to determine the size of a force field [[#^BarrierZone]] , subtract 20 from the roll. On a result of less than 1, the force field occupies `dice: 1d10*1000` sq. ft. Force fields will 
+
+| dice: 1d6 |                                                                                                 |
+| --------- | ----------------------------------------------------------------------------------------------- |
+| 1-3       | have a means of temporarily disabling them accessible to the adventurers,                       |
+| 4-5       | have a means of bypassing them such as via specifically made magical items or unique spells, or |
+| 6         | have no means of bypassing short of brute magical force.                                        |
+^ForcefieldBypass
+
+If targeted by a spell such as dispel magic treat the force field as being of a spell level equal to `dice: 1d6+4`. There’s an additional `dice: 1d6<=1` chance that a force field completely surrounds (above and below ground) an area; otherwise it simply rises to a height of `dice: 1d100` feet.
+
+
+21-40. Illusory images or terrain should be treated as spells such as hallucinatory terrain, massmorph, or other illusion spells. Allow those passing through the illusion to roll `dice: 4d6` and compare the result to their Intelligence score. If the result is equal to or less than their score they are able to determine that there is an illusion. Illusions are the result of 
+
+
+| dice: 1d6 |                                                              |
+| --------- | ------------------------------------------------------------ |
+| 1-2       | a spell,                                                     |
+| 3-4       | a device or item,                                            |
+| 5         | the influence of a powerful individual/planar connection, or |
+| 6         | something else.                                              |
+^IllusionOrigin
+
+Treat the illusion as if it were a spell of level `dice: 1d8+1`.
+
+41-60. Magical walls are just that: barriers created by such spells as wall of stone, wall of fire, etc., or potentially other spells such as acid fog, cloudkill, etc.
+
+61-80. Zones of repulsion are invisible barriers that are otherwise treated as force fields, except they can be crossed. Once inside, an affected individual must make a saving throw against spells for every turn spent inside or be compelled to leave by the fastest means possible. Zones of repulsion have only a `dice: 1d6 <=1` chance of affecting *all* creatures that enter. Otherwise, roll below to determine what manner of creatures are affected:
 
 39-table-1.md
 
-| d100   | Result                                           |
-|:-------|:-------------------------------------------------|
-| 1-20   | Living creatures                                 |
-| 21-40  | Unliving creatures                               |
-| 41-46  | Undead                                           |
-| 47-52  | Constructs                                       |
-| 53-58  | Dragons                                          |
-| 59-64  | Animals                                          |
-| 65-70  | Elementals                                       |
-| 71-76  | Fey                                              |
-| 77-82  | Demons (1-3)/Angels (4-6)                        |
-| 83-88  | Humans                                           |
-| 89-94  | Humanoids                                        |
-| 95-00  | Other (lycanthropes, a specific alignment, etc.) |
+| dice: 1d100 | Result                                           |
+|:----------- |:------------------------------------------------ |
+| 1-20        | Living creatures                                 |
+| 21-40       | Unliving creatures                               |
+| 41-46       | Undead                                           |
+| 47-52       | Constructs                                       |
+| 53-58       | Dragons                                          |
+| 59-64       | Animals                                          |
+| 65-70       | Elementals                                       |
+| 71-76       | Fey                                              |
+| 77-82       | Demons (1-3)/Angels (4-6)                        |
+| 83-88       | Humans                                           |
+| 89-94       | Humanoids                                        |
+| 95-00       | Other (lycanthropes, a specific alignment, etc.) |
+^RepulsionTarget
+
+There’s a further `dice: 1d6<=1` chance that a specific creature type is affected by the barrier (goblins, rather than all humanoids).
+
+Barriers can be overcome or avoided through spells, clever thinking, or simple brute force or ignorance. Labor can be used to clear a forest of hampering underbrush or to build a bridge across a ravine, as a permanent solution. Powerful magics may be needed to permanently eliminate other barriers, both magical and mundane.
 
 ### Resources
 
+Whether abandoned mines, stands of valuable timber, patches of herbs or vast herds of animals, resources are anything that can be sold or used by the adventurers in their travels, usually in mercantile pursuits. Note that this section includes only resources that are immediately obvious – veins of precious metals unexposed to the air, mushrooms buried deep in forbidden dungeons and so forth are not included in this section.
+
+This section makes use of the rules for generating additional resources found in the Domain Building book (starting on p. 26), as well as the Trade Goods tables on p. 38 of that supplement. When a resource result comes up use those rules to determine what general category the resource falls into and how valuable it is.
+
+This section provides some additional rules for determining the exact type of resource that is present. The rules from Domain Building presume that resources have the same relative value based upon category. This is obviously not true if the size of the resource is the same: gold is far more valuable (typically) than copper, if found in the same quantity. The obvious remedy is to assume that the volume of the resource is different, even though it may take the same amount of time to extract it. This is something that will have to be abstracted by the Referee.
+
+With each resource found there’s a 1 in 20 chance that it is exceptional, worth (1-3) 25% more, (4-5) 50% more, (6-7) 75% more, or (8) 100% more than the base value. This added value will be due to either exceptional purity, appearance, or other intrinsic property. It is up to the Referee to determine what the reason for the increased value is. Perhaps a vein of granite is more durable than normal, and structures built using it have more structural hit points. Or a vein of marble may have an unusual coloration, sought after by master sculptors.
+
+
+
+
 40-table-1.md
 
-| d20   | Result                  |
-|:------|:------------------------|
-| 1-3   | Animal, game            |
-| 4-6   | Animal, livestock       |
-| 7-8   | Mineral, quarried       |
-| 9-10  | Mineral, mined          |
-| 11-15 | Vegetable, agricultural |
-| 16-20 | Vegetable, industrial   |
+| d20   | Result                                               |
+|:----- |:---------------------------------------------------- |
+| 1-3   | Animal, game [[#Animal, Game]]                       |
+| 4-6   | Animal, livestock [[#Animal, livestock]]             |
+| 7-8   | Mineral, quarried [[#Mineral Quarried]]              |
+| 9-10  | Mineral, mined [[#Ore, mined]]                       |
+| 11-15 | Vegetable, agricultural [[#Vegetable, agricultural]] |
+| 16-20 | Vegetable, industrial [[#Vegetabel, industrial]]     |
+
+#### Animal, Game
+These are naturally occurring, wild animal resources that can be used for meat, fur, hides, or other similar products. They could also represent wild animals such as horses that are captured to be trained as mounts.
+
+This section is divided into broad terrain and climate types. It seeks to provide a basic selection of typical animals to use, and not provide a thorough list of all the potential animals that can be found.
+
 
 MULTIPLE
 41-table-1.md
 
-|   Unnamed: 0 | Forest                                        | Jungle        | Fresh Water   | Salt Water   | Hills     | Plains    | Desert Badlands   | Mountain   | Swamp     |
-|-------------:|:----------------------------------------------|:--------------|:--------------|:-------------|:----------|:----------|:------------------|:-----------|:----------|
-|            1 | Deer                                          | Monkey        | Beaver        | Crab         | Deer      | Deer      | Goat              | Goat       | Deer      |
-|            2 | Elk                                           | Water buffalo | Otter         | Eel          | Hare      | Zebra     | Hare              | Hare       | Beaver    |
-|            3 | Squirrel                                      | Capybara      | Crocodile     | Mussel       | Boar      | Rhino     | Sheep             | Bear       | Otter     |
-|            4 | Rabbit                                        | Pig           | Clams         | Dolphin      | Bear      | Giraffe   | Bison             | Bobcat     | Alligator |
-|            5 | Boar                                          | Cougar        | Trout         | Whale        | Fox       | Hare      | Auroch            | Fox        | Snake     |
-|            6 | Bear                                          | Elephant      | Bass          | Sea lion     | Wolf      | Bison     | Camel             | Wolf       | Turtle    |
-|            7 | Fox                                           | Snake         | Gar           | Sharks       | Groundhog | Fox       | Fox               | Squirrel   | Frog      |
-|            8 | Wolf                                          | Hippo         | Eel           | Octopus      | Sheep     | Groundhog | Wolf              | Elk        | Crayfish  |
-|            9 | Quail                                         | Parrot        | Goose         | Tuna         | Quail     | Grouse    | Pheasant          | Turkey     | Duck      |
-|           10 | Turkey                                        | Toucan        | Duck          | Gull         | Pheasant  | Quail     | Grouse            | Quail      | Clams     |
-|           11 | Other, by terrain                             |               |               |              |           |           |                   |            |           |
-|           12 | Magical creature, add +1d10x10% to base price |               |               |              |           |           |                   |            |           |
+| dice: 1d12 | Forest                                        |
+| ---------- |:--------------------------------------------- |
+| 1          | Deer                                          |
+| 2          | Elk                                           |
+| 3          | Squirrel                                      |
+| 4          | Rabbit                                        |
+| 5          | Boar                                          |
+| 6          | Bear                                          |
+| 7          | Fox                                           |
+| 8          | Wolf                                          |
+| 9          | Quail                                         |
+| 10         | Turkey                                        |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+
+
+| dice: 1d12 | Swamp                                         |
+| ---------- |:--------------------------------------------- |
+| 1          | Deer                                          |
+| 2          | Beaver                                        |
+| 3          | Otter                                         |
+| 4          | Alligator                                     |
+| 5          | Snake                                         |
+| 6          | Turtle                                        |
+| 7          | Frog                                          |
+| 8          | Crayfish                                      |
+| 9          | Duck                                          |
+| 10         | Clams                                         |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+
+
+| Unnamed: 0 | Mountain                                      |
+| ---------- |:--------------------------------------------- |
+| 1          | Goat                                          |
+| 2          | Hare                                          |
+| 3          | Bear                                          |
+| 4          | Bobcat                                        |
+| 5          | Fox                                           |
+| 6          | Wolf                                          |
+| 7          | Squirrel                                      |
+| 8          | Elk                                           |
+| 9          | Turkey                                        |
+| 10         | Quail                                         |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+| Unnamed: 0 | Desert Badlands                               |
+| ---------- |:--------------------------------------------- |
+| 1          | Goat                                          |
+| 2          | Hare                                          |
+| 3          | Sheep                                         |
+| 4          | Bison                                         |
+| 5          | Auroch                                        |
+| 6          | Camel                                         |
+| 7          | Fox                                           |
+| 8          | Wolf                                          |
+| 9          | Pheasant                                      |
+| 10         | Grouse                                        |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+| Unnamed: 0 | Plains                                        |
+| ---------- |:--------------------------------------------- |
+| 1          | Deer                                          |
+| 2          | Zebra                                         |
+| 3          | Rhino                                         |
+| 4          | Giraffe                                       |
+| 5          | Hare                                          |
+| 6          | Bison                                         |
+| 7          | Fox                                           |
+| 8          | Groundhog                                     |
+| 9          | Grouse                                        |
+| 10         | Quail                                         |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+
+| Unnamed: 0 | Hills                                         |
+| ---------- |:--------------------------------------------- |
+| 1          | Deer                                          |
+| 2          | Hare                                          |
+| 3          | Boar                                          |
+| 4          | Bear                                          |
+| 5          | Fox                                           |
+| 6          | Wolf                                          |
+| 7          | Groundhog                                     |
+| 8          | Sheep                                         |
+| 9          | Quail                                         |
+| 10         | Pheasant                                      |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+| Unnamed: 0 | Salt Water                                    |
+| ---------- |:--------------------------------------------- |
+| 1          | Crab                                          |
+| 2          | Eel                                           |
+| 3          | Mussel                                        |
+| 4          | Dolphin                                       |
+| 5          | Whale                                         |
+| 6          | Sea lion                                      |
+| 7          | Sharks                                        |
+| 8          | Octopus                                       |
+| 9          | Tuna                                          |
+| 10         | Gull                                          |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+
+| Unnamed: 0 | Fresh Water                                   |
+| ---------- |:--------------------------------------------- |
+| 1          | Beaver                                        |
+| 2          | Otter                                         |
+| 3          | Crocodile                                     |
+| 4          | Clams                                         |
+| 5          | Trout                                         |
+| 6          | Bass                                          |
+| 7          | Gar                                           |
+| 8          | Eel                                           |
+| 9          | Goose                                         |
+| 10         | Duck                                          |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+
+| Unnamed: 0 | Jungle                                        |
+| ---------- |:--------------------------------------------- |
+| 1          | Monkey                                        |
+| 2          | Water buffalo                                 |
+| 3          | Capybara                                      |
+| 4          | Pig                                           |
+| 5          | Cougar                                        |
+| 6          | Elephant                                      |
+| 7          | Snake                                         |
+| 8          | Hippo                                         |
+| 9          | Parrot                                        |
+| 10         | Toucan                                        |
+| 11         | Other, by terrain                             |
+| 12         | Magical creature, add +1d10x10% to base price |
+
+#### Animal, livestock
+
+Livestock are domestic animals that are raised for meat, furs, or work. These can be represented as actual existing animal stock (which implies there is something *in* the hex raising and caring for them), or the potential for such resources to exist; grasslands that are ideal for cattle or sheep, for instance.
+
+Livestock animals include . . .
+
 
 
 41-table-2.md
@@ -2308,14 +2977,13 @@ MULTIPLE
 | 95-99  | Turkey                                                  |
 | 100    | Magical creature (worth 10d10×10% more than base value) |
 
+#### Mineral Quarried
 
-42-table-1.md
+There’s a base 1-3 in 6 chance that a resource of this type has previously been discovered and has been partially quarried or mined when it is encountered. This chance is decreased by 1 in Wilderness hexes and increased by 1 in Civilized hexes.  This does not affect the value of the resource, but obviously makes it more apparent and immediately accessible.
 
-| Unnamed: 0        | Load     | Enc/load   | Base Price   |
-|:------------------|:---------|:-----------|:-------------|
-| Quarried Minerals | 1 box    | 10,000 cn  | 150 gp       |
-| Stone             | 1 pallet | 5,000 cn   | 1,000 gp     |
+If the resource has previously been discovered there’s a base 1-3 in 6 chance it is currently being worked. This chance is increased by 1 for Civilized hexes and decreased by 1 for Wilderness hexes.
 
+If the resource has not been discovered the vein will be found . . .
 
 42-table-2.md
 
@@ -2327,6 +2995,12 @@ MULTIPLE
 | 61-80  | 2d8×20 feet underground  |
 | 81-100 | 3d10×50 feet underground |
 
+
+The further a resource is underground the more difficult it is to find, and the more labor it takes to expose it. Strip mining or quarrying costs 400 gp per 20,000 cubic feet of earth removed. However, the surface opening needs to be the same diameter as the depth. A 10’ depth requires a perimeter of 10’×10’ (1,000 cubic feet of excavated material). A 30’ depth requires a perimeter of 30’×30’ (27,000 cubic feet).
+
+Mining tunnels cost 500 gp per ten feet of depth. This assumestunnels10’×10’,reinforcedasneededtoprevent collapses. Mining tunnels deeper than 100 feet cost 750 gp per 10’ of depth.
+
+Following are some types of stone that can be quarried.
 
 42-table-3.md
 
@@ -2348,20 +3022,34 @@ MULTIPLE
 | 99-00  | Special (magical) |
 
 
-43-table-1.md
+Quarried minerals, once extracted, do not have to be smelted or processed to use, although some of them certainly can be (sand, for instance, can be heated and turned into glass). They do not need to be chemically refined or altered in order to be useful, however.
 
-| Substance   | Multiplier   |
-|:------------|:-------------|
-| Copper      | x2           |
-| Iron        | x2.5         |
-| Lead        | x1.1         |
-| Mica        | x1.5         |
-| Natron      | x1.5         |
-| Pyrite      | x1.2         |
-| Silver      | x1.5         |
-| Sulfur      | x2           |
-| Tin         | x2.25        |
-| Zinc        | x2.25        |
+Minerals are not part of the Trade Good table (p. 38 of Domain Building), so they have been added here:
+
+Added Trade Goods
+
+42-table-1.md
+
+| Unnamed: 0        | Load     | Enc/load   | Base Price   |
+|:------------------|:---------|:-----------|:-------------|
+| Quarried Minerals | 1 box    | 10,000 cn  | 150 gp       |
+| Stone             | 1 pallet | 5,000 cn   | 1,000 gp     |
+
+###### Quarried Minerals (common). 
+
+These include common materials that are quarried for alchemical usage (such as gypsum) or for base building materials: Chalk, Clay, Gabbro, Gypsum, Sand, Slate.
+
+###### Stone (rare). Coal, Coquina, Granite, Limestone, Marble*, Sandstone.
+
+*marble has a base price of 1,500 gp per load.
+
+#### Ore, mined
+
+Valuable minerals are less likely to be visible than quarried rocks. Use the same table, above, to determine the depth at which the resource is found, adding 5 to the roll for metal and 10 for gemstones.
+
+Mined minerals have the same chances as quarried stone to be exceptional. Mined ore will contain either (1-4) minerals or (5-6) gemstones (putting aside the fact that gemstones are, in fact, minerals).
+
+Following are some examples of mined minerals.
 
 
 43-table-2.md
@@ -2390,6 +3078,32 @@ MULTIPLE
 | 99-100 | Special (magical). Mithril, adamantium, other magical minerals.    |
 
 
+
+Mined minerals must be smelted. Depending on the mineral and how far it must travel to its destination it can either be smelted at the mine or shipped back to civilization and then smelted.
+
+Smelters cost 5,000 gp to build. Once complete, a smelter can process a total of 50 gp worth of ore per day. A smelter requires a minimum crew of four workers (one trained worker making 50 gp per month and three laborers making three gp a month) and costs 2 gp per day in raw materials per day of operation. Optionally, smelters designed to purify rare or magical metals may be more expensive to build and/or run than normal smelters.
+
+The starting weight of mined ore is extrapolated from the finished weight of refined ore found on p. 38 of the Domain Building supplement. There are two types of refined ore: common and precious. Refer to the following tables to determine the weight multipliers for each material (note that these are abstracted figures meant to provide general guidelines, and do not hew directly to real-world examples).
+
+
+43-table-1.md
+
+| Substance   | Multiplier   |
+|:------------|:-------------|
+| Copper      | x2           |
+| Iron        | x2.5         |
+| Lead        | x1.1         |
+| Mica        | x1.5         |
+| Natron      | x1.5         |
+| Pyrite      | x1.2         |
+| Silver      | x1.5         |
+| Sulfur      | x2           |
+| Tin         | x2.25        |
+| Zinc        | x2.25        |
+
+Ex. Copper, with a multiplier of 2, requires 100 cn of raw ore to yield 50 cn of refined material. Lead, with a multiplier of 1.1, requires 55 cn to yield the same amount
+
+Precious Ore. Base value of 1.5 gp/1 cn
 43-table-3.md
 
 | Substance   | Multiplier   |
@@ -2401,6 +3115,15 @@ MULTIPLE
 | Nickel      | x3           |
 | Oil         | x1.1*        |
 | Platinum    | x1.1         |
+
+
+Alchemical metals. These have a base value of 1d6 gp per cn and a multiplier of ×1d6
+
+Special/magical metals. These have a base value of 2d6 per cn and a multiplier of ×1d8
+
+Ex. Gold, with a multiplier of 1.25, requires 1.25 cn of raw material to yield 1 cn of pure gold.
+
+Gems require no smelting and are most often mined in the same fashion as metal. They are found in the rough, however, and require work to cut and polish.
 
 
 44-table-1.md
@@ -2431,19 +3154,46 @@ MULTIPLE
 | 100    | Magical  (includes  stones  that  can be used to craft magical items) |
 
 
-45-table-1.md
+Wholesale gemstone prices can be found on p. 38 of Domain Building, as follows:
 
-| d100   | Result          |
-|:-------|:----------------|
-| 72-75  | Pepper          |
-| 76-79  | Peas            |
-| 80-83  | Potato          |
-| 84-87  | Spinach         |
-| 88-91  | Squash          |
-| 92-95  | Turnip          |
-| 96-99  | Yam             |
-| 100    | Magical/Special |
+-   􏰀  Semi-precious stones cost a base of 2 gp per cn of weight.
+    
+-   􏰀  Precious stones cost a base of 60 gp per cn of weight.
+    
+    These are abstracted numbers. They can be modified based upon the stone, if desired, with the following modifiers:
 
+Semi-precious stones
+    
+    􏰀 Agate, quartz, turquoise ×.5  
+    􏰀 Jacinth, jasper, onyx ×1  
+    􏰀 Amber, amethyst, coral, garnet, jade ×1.5
+    
+    Ex. An agate mine yields uncut stones that are worth 1 gp per cn of weight. A jade mine yields uncut jade worth 3 gp per cn
+
+Precious stones
+
+􏰀 Aquamarine, pearl, topaz ×.5 􏰀 Carbuncle, opal ×.1  
+􏰀 Emerald, ruby, sapphire ×1.5 􏰀 Diamond ×2
+
+􏰀 Magical, unique ×5
+
+Ex. An aquamarine mine yields uncut stones worth 30 gp per cn. A diamond mine yields uncut stones worth 120 gp per cn.
+
+
+#### Vegetable, agricultural
+
+Plant resources used for food. This can be food that exists naturally in the area or crops that are currently being grown by sentient creatures. This, of course, suggests that there is someone currently growing the plants, although it is certainly possible to find abandoned agricultural operations: orchards abandoned and growing wild, or gardens left untended to go to seed, etc.
+
+Agricultural resources are divided into two categories: cultivated and wild. Cultivated plants are tended and harvested on a regular basis; wild plants grow wild, as the name implies, without caretaking, but may certainly be harvested on a regular basis by those living nearby (both humanoids and animals).
+
+There’s a 1-3 in 6 chance that the resource will be wild; otherwise it will be cultivated. This chance increases by 1 in Wilderness hexes and decreases by 1 in Civilized hexes. There’s a further 1 in 6 chance that cultivated resources have been abandoned in the past 1d12 years. This chance increases by 1 in Wilderness hexes.
+
+
+Cultivated
+
+The following plants are those commonly cultivated by Man. Roll 1d10 to determine what kind of cultivated plant is being grown.
+
+1-4. Grain. Staple crops for many societies, grains are typically cultivated in large amounts, requiring large fields, open spaces, and plenty of labor to harvest. Some grains grow better in different climates; rye is typically a cold weather crop, rice prefers wet climates, etc.
 
 45-table-2.md
 
@@ -2459,6 +3209,44 @@ MULTIPLE
 | 78-88  | Sorghum                                        |
 | 89-99  | Wheat                                          |
 | 100    | Magical/Special.  Add  1d8×10%  to base price. |
+
+
+5-7. Vegetables. Vegetables are typically grown in smaller quantities than grains and used mostly as supplemental crops rather than primary meal sources. This list is not inclusive of all vegetables.
+
+45-table-1.md
+
+45-table-4.md
+
+| d100  | Result          |
+|:----- |:--------------- |
+| 1-4   | Artichokes      |
+| 5-8   | Asparagus       |
+| 9-12  | Bamboo          |
+| 13-16 | Beans           |
+| 17-20 | Beets           |
+| 21-24 | Broccoli        |
+| 25-28 | Cabbage         |
+| 29-32 | Carrots         |
+| 33-36 | Cassava         |
+| 37-40 | Cucumber        |
+| 41-44 | Edamame         |
+| 45-48 | Eggplant        |
+| 49-52 | Garlic          |
+| 53-56 | Gourd           |
+| 57-60 | Lettuce         |
+| 61-64 | Onions          |
+| 65-71 | Other           |
+| 72-75 | Pepper          |
+| 76-79 | Peas            |
+| 80-83 | Potato          |
+| 84-87 | Spinach         |
+| 88-91 | Squash          |
+| 92-95 | Turnip          |
+| 96-99 | Yam             |
+| 100   | Magical/Special |
+
+
+8-9. Fruit. The below are a list of some more common fruits, as well as the general category of fruit they belong to.
 
 
 45-table-3.md
@@ -2489,139 +3277,145 @@ MULTIPLE
 | 96-99  | Watermelon (melon)                                     |
 | 100    | Magical/Special.  Add  1d8×10%  to overall base price. |
 
+Nuts/Spices/Other. The most rare, and most valuable, category of agricultural vegetables. Spices use the spice category on the Rare Trade Goods table, nuts and other vegetables have their base value increased by 2d6×10%.
 
-45-table-4.md
+46-table-2.md
 
-| d100   | Result     |
-|:-------|:-----------|
-| 1-4    | Artichokes |
-| 5-8    | Asparagus  |
-| 9-12   | Bamboo     |
-| 13-16  | Beans      |
-| 17-20  | Beets      |
-| 21-24  | Broccoli   |
-| 25-28  | Cabbage    |
-| 29-32  | Carrots    |
-| 33-36  | Cassava    |
-| 37-40  | Cucumber   |
-| 41-44  | Edamame    |
-| 45-48  | Eggplant   |
-| 49-52  | Garlic     |
-| 53-56  | Gourd      |
-| 57-60  | Lettuce    |
-| 61-64  | Onions     |
-| 65-71  | Other      |
+| d100  | Result                                         |
+|:----- |:---------------------------------------------- |
+| 1-4   | Almond                                         |
+| 5     | Cardamom                                       |
+| 6-9   | Cashew                                         |
+| 10-13 | Chestnut                                       |
+| 14    | Cacao bean                                     |
+| 15    | Clove                                          |
+| 16    | Coconut                                        |
+| 17    | Coffee                                         |
+| 18-20 | Dill                                           |
+| 21-24 | Hazelnut                                       |
+| 25    | Paprika                                        |
+| 26-29 | Pecan                                          |
+| 30-31 | Peppercorns                                    |
+| 32-33 | Marijuana                                      |
+| 3436  | Mint                                           |
+| 37-39 | Mushroom, oyster                               |
+| 40-41 | Mushroom, shitake                              |
+| 42    | Mushroom, psilocybin                           |
+| 43-44 | Nutmeg                                         |
+| 45-61 | Other                                          |
+| 62-65 | Peanut                                         |
+| 66-69 | Pecan                                          |
+| 70-72 | Pine-nut                                       |
+| 73-75 | Pistachio                                      |
+| 76-77 | Poppy                                          |
+| 78-81 | Oregano                                        |
+| 82-84 | Rosemary                                       |
+| 85    | Saffron                                        |
+| 86-89 | Thyme                                          |
+| 90-92 | Tobacco                                        |
+| 93-94 | Turmeric                                       |
+| 95    | Vanilla                                        |
+| 96-99 | Walnut                                         |
+| 100   | Magical/Special.  Add  2d6×10%  to base price. |
+
+
+Wild
+
+The following plants can be found growing wild and have agricultural, alchemical, or medicinal uses. Use the Spice row on the Rare Trade Goods table.
+
+
 
 
 46-table-1.md
 
-| d100          | Result                                      |
-|:--------------|:--------------------------------------------|
-| 1-4           | Aloe vera                                   |
-| 5-8           | Angelica                                    |
-| 9-12          | Arnica                                      |
-| 13-16         | Belladonna                                  |
-| 17-20         | Burdock                                     |
-| 21-24         | Cohosh                                      |
-| 25-28         | Comfrey                                     |
-| 29-32         | Coneflower                                  |
-| 33-36         | Dandelion                                   |
-| 37-40         | Foxglove                                    |
-| 41-44         | Ginseng                                     |
-| 45-48         | Hawthorn                                    |
-| 49-52         | Horsetail                                   |
-| 53-56         | Marshmallow                                 |
-| 57-60         | Mushrooms                                   |
-| 61-64         | Neem                                        |
-| 65-68         | Nettles                                     |
-| 69-78         | Other                                       |
-| 79-82         | Rosehips                                    |
-| 83-86         | Seaweed                                     |
-| 87-91         | Snakeroot                                   |
-| 92-95 Thistle |                                             |
-| 96-99         | Wolfsbane                                   |
-| 100           | Magic/Special.  Add  1d8×10% to base price. |
+| d100  | Result                                      |
+|:----- |:------------------------------------------- |
+| 1-4   | Aloe vera                                   |
+| 5-8   | Angelica                                    |
+| 9-12  | Arnica                                      |
+| 13-16 | Belladonna                                  |
+| 17-20 | Burdock                                     |
+| 21-24 | Cohosh                                      |
+| 25-28 | Comfrey                                     |
+| 29-32 | Coneflower                                  |
+| 33-36 | Dandelion                                   |
+| 37-40 | Foxglove                                    |
+| 41-44 | Ginseng                                     |
+| 45-48 | Hawthorn                                    |
+| 49-52 | Horsetail                                   |
+| 53-56 | Marshmallow                                 |
+| 57-60 | Mushrooms                                   |
+| 61-64 | Neem                                        |
+| 65-68 | Nettles                                     |
+| 69-78 | Other                                       |
+| 79-82 | Rosehips                                    |
+| 83-86 | Seaweed                                     |
+| 87-91 | Snakeroot                                   |
+| 92-95 | Thistle                                     | 
+| 96-99 | Wolfsbane                                   |
+| 100   | Magic/Special.  Add  1d8×10% to base price. |
 
+#### Vegetabel, industrial
+Plant resources that are used for building, construction, etc., as well as other uses such as fibers for ropes and clothing. These are divided into three basic categories: (1-3) Basic, (4-5) Structural, (6) Luxury.
 
-46-table-2.md
-
-| d100        | Result                                         |
-|:------------|:-----------------------------------------------|
-| 1-4         | Almond                                         |
-| 5           | Cardamom                                       |
-| 6-9         | Cashew                                         |
-| 10-13       | Chestnut                                       |
-| 14          | Cacao bean                                     |
-| 15          | Clove                                          |
-| 16          | Coconut                                        |
-| 17          | Coffee                                         |
-| 18-20       | Dill                                           |
-| 21-24       | Hazelnut                                       |
-| 25          | Paprika                                        |
-| 26-29       | Pecan                                          |
-| 30-31       | Peppercorns                                    |
-| 32-33       | Marijuana                                      |
-| 3436        | Mint                                           |
-| 37-39       | Mushroom, oyster                               |
-| 40-41       | Mushroom, shitake                              |
-| 42          | Mushroom, psilocybin                           |
-| 43-44       | Nutmeg                                         |
-| 45-61       | Other                                          |
-| 62-65       | Peanut                                         |
-| 66-69       | Pecan                                          |
-| 70-72       | Pine-nut                                       |
-| 73-75       | Pistachio                                      |
-| 76-77       | Poppy                                          |
-| 78-81       | Oregano                                        |
-| 82-84       | Rosemary                                       |
-| 85          | Saffron                                        |
-| 86-89 Thyme |                                                |
-| 90-92       | Tobacco                                        |
-| 93-94       | Turmeric                                       |
-| 95          | Vanilla                                        |
-| 96-99       | Walnut                                         |
-| 100         | Magical/Special.  Add  2d6×10%  to base price. |
+Basic. This category includes all vegetable goods for textiles, paper, and basic construction work; firewood, scaffolding, lath, etc.
 
 
 46-table-3.md
 
-| d100   | Result     |
-|:-------|:-----------|
-| 1-5    | Bamboo     |
-| 6-10   | Birch-bark |
-| 11-15  | Cotton     |
-| 16-20  | Flax       |
+| d100  | Result                                                                                                                                  |
+|:----- |:--------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-5   | Bamboo                                                                                                                                  |
+| 6-10  | Birch-bark                                                                                                                              |
+| 11-15 | Cotton                                                                                                                                  |
+| 16-20 | Flax                                                                                                                                    |
+| 21-25 | Grasses (for basketry or similar)                                                                                                       |
+| 26-30 | Hemp                                                                                                                                    |
+| 31-35 | Jute                                                                                                                                    |
+| 36-40 | Other                                                                                                                                   |
+| 41-45 | Palm                                                                                                                                    |
+| 46-50 | Papyrus                                                                                                                                 |
+| 51-55 | Seaweed (reroll if not appropriate)                                                                                                     |
+| 56-60 | Sisal                                                                                                                                   |
+| 61-65 | Straw                                                                                                                                   |
+| 66-99 | Wood  (roll  on  the  (1-4)  Structural or (5-6) Luxury table below, but use the  Wood,  Common  row  on  the Common Trade Goods table) |
+| 100   | Magical/Special. Add 5d10×10% to base price.                                                                                            |
+
+Structural. Includes trees and plants used for construction, from buildings to other structures, carts, wagons, boats, etc. Use the Wood, Common row on the Common Trade Goods table but with a base cost of 250 gp.
 
 
-47-table-1.md
+47-table-4.md
 
-| d100   | Result                                            |
-|:-------|:--------------------------------------------------|
-| 84-87  | Spruce                                            |
-| 88-91  | Sycamore                                          |
-| 92-95  | Yellow-wood                                       |
-| 96-99  | Yew                                               |
-| 100    | Magical/Special.  Add  1d8×10%  to the base cost. |
+| d100  | Result                                            |
+|:----- |:------------------------------------------------- |
+| 1-4   | Ash                                               |
+| 5-8   | Alder                                             |
+| 9-12  | Birch                                             |
+| 13-16 | Cedar                                             |
+| 17-20 | Cherry                                            |
+| 21-24 | Chestnut                                          |
+| 25-28 | Cottonwood                                        |
+| 29-32 | Eucalyptus                                        |
+| 33-36 | Fir                                               |
+| 37-40 | Ginkgo                                            |
+| 41-44 | Hickory                                           |
+| 45-48 | Larch                                             |
+| 49-52 | Maple                                             |
+| 53-56 | Oak                                               |
+| 57-67 | Other                                             |
+| 68-71 | Pine, yellow                                      |
+| 72-75 | Poplar                                            |
+| 76-79 | Purpleheart                                       |
+| 80-83 | Redwood                                           |
+| 84-87 | Spruce                                            |
+| 88-91 | Sycamore                                          |
+| 92-95 | Yellow-wood                                       |
+| 96-99 | Yew                                               |
+| 100   | Magical/Special.  Add  1d8×10%  to the base cost. |
 
 
-47-table-2.md
+100. Luxury. Rare or exotic trees used for furniture, high- end woodworking, lavish details in royal dwellings, etc.
 
-| d100   | Result                                                                                                                                  |
-|:-------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| 21-25  | Grasses (for basketry or similar)                                                                                                       |
-| 26-30  | Hemp                                                                                                                                    |
-| 31-35  | Jute                                                                                                                                    |
-| 36-40  | Other                                                                                                                                   |
-| 41-45  | Palm                                                                                                                                    |
-| 46-50  | Papyrus                                                                                                                                 |
-| 51-55  | Seaweed (reroll if not appropriate)                                                                                                     |
-| 56-60  | Sisal                                                                                                                                   |
-| 61-65  | Straw                                                                                                                                   |
-| 66-99  | Wood  (roll  on  the  (1-4)  Structural or (5-6) Luxury table below, but use the  Wood,  Common  row  on  the Common Trade Goods table) |
-| 100    | Magical/Special. Add 5d10×10% to base price.                                                                                            |
-
-
-47-table-3.md
 
 | d100   | Result                                                                                                                          |
 |:-------|:--------------------------------------------------------------------------------------------------------------------------------|
@@ -2648,30 +3442,7 @@ MULTIPLE
 | 96-99  | Walnut                                                                                                                          |
 | 100    | Magical/Special.  Add  1d8×10%  to the overall base cost.                                                                       |
 
-
-47-table-4.md
-
-| d100   | Result       |
-|:-------|:-------------|
-| 1-4    | Ash          |
-| 5-8    | Alder        |
-| 9-12   | Birch        |
-| 13-16  | Cedar        |
-| 17-20  | Cherry       |
-| 21-24  | Chestnut     |
-| 25-28  | Cottonwood   |
-| 29-32  | Eucalyptus   |
-| 33-36  | Fir          |
-| 37-40  | Ginkgo       |
-| 41-44  | Hickory      |
-| 45-48  | Larch        |
-| 49-52  | Maple        |
-| 53-56  | Oak          |
-| 57-67  | Other        |
-| 68-71  | Pine, yellow |
-| 72-75  | Poplar       |
-| 76-79  | Purpleheart  |
-| 80-83  | Redwood      |
+### Hazard
 
 
 51-table-1.md
@@ -2774,6 +3545,7 @@ MULTIPLE
 | 86-95  | 7d20     |
 | 96-100 | 8d100    |
 
+### Terrain
 
 58-table-1.md
 
@@ -2808,17 +3580,93 @@ MULTIPLE
 MULTIPLE
 60-table-1.md
 
-| 1d6   | 1                 | 2          | 3               | 4        | 5                           | 6                   |
-|:------|:------------------|:-----------|:----------------|:---------|:----------------------------|:--------------------|
-| 1d8   | Forest            | Flat       | Arid            | Wetlands | Mountains                   | Hills               |
-| 1     | Light, Coniferous | Prairie    | Desert, Cold    | Bog      | Muntains, Small-Barren      | Hills, Grasslands   |
-| 2     | Heavy, Coniferous | Grazing    | Desert, Hot     | Marsh    | Mountains, Small-Forested   | Hills, Barren       |
-| 3     | Light, Deciduous  | Farmland   | Desert, Coastal | Swamp    | Mountains, Tall-Barren      | Hills, Forested     |
-| 4     | Heavy, Deciduous  | Shrublands | Desert, Rocky   | Jungle   | Mountains, Tall-Forested    | Hills, Shrub        |
-| 5     | Light, Mixed      | Savanna    | Badlands        | River    | Mountains, Tall-Snow Capped | Hills, Jungle       |
-| 6     | Heavy Mixed       | Flats      | Steppes         | Moor     | Volcano                     | Hills, Transitional |
-| 7     | Rainforest        | Tundra     | Flats           | Fungal   | Plateau                     | Hills, Lone         |
-| 8     | Other             | Other      | Other           | Other    | Other                       | Other               |
+| dice: 1d5 |                                    |
+| --------- | ---------------------------------- |
+| 1         | `dice: [[Fill#^TerrainForest]]`    |
+| 2         | `dice: [[Fill#^TerrainHills]]`     |
+| 3         | `dice: [[Fill#^TerrainMountains]]` |
+| 4         | `dice: [[Fill#^TerrainWetlands]]`  |
+| 5         | `dice: [[Fill#^TerrainArid]]`      |
+| 6         | `dice: [[Fill#^TerrainFlat]]`      |
+^TerrainType
+
+
+| 1d8 | Forest            |
+| --- | ----------------- |
+| 1   | Light, Coniferous |
+| 2   | Heavy, Coniferous |
+| 3   | Light, Deciduous  |
+| 4   | Heavy, Deciduous  |
+| 5   | Light, Mixed      |
+| 6   | Heavy Mixed       |
+| 7   | Rainforest        |
+| 8   | Other             |
+^TerrainForest
+
+
+| 1d8 | Hills               |
+| --- | ------------------- |
+| 1   | Hills, Grasslands   |
+| 2   | Hills, Barren       |
+| 3   | Hills, Forested     |
+| 4   | Hills, Shrub        |
+| 5   | Hills, Jungle       |
+| 6   | Hills, Transitional |
+| 7   | Hills, Lone         |
+| 8   | Other               |
+^TerrainHills
+
+
+| 1d8 | Mountains                   |
+| --- | --------------------------- |
+| 1   | Muntains, Small-Barren      |
+| 2   | Mountains, Small-Forested   |
+| 3   | Mountains, Tall-Barren      |
+| 4   | Mountains, Tall-Forested    |
+| 5   | Mountains, Tall-Snow Capped |
+| 6   | Volcano                     |
+| 7   | Plateau                     |
+| 8   | Other                       |
+^TerrainMountains
+
+
+| 1d8 | Wetlands |
+| --- | -------- |
+| 1   | Bog      |
+| 2   | Marsh    |
+| 3   | Swamp    |
+| 4   | Jungle   |
+| 5   | River    |
+| 6   | Moor     |
+| 7   | Fungal   |
+| 8   | Other    |
+^TerrainWetlands
+
+
+| 1d8 | Arid            |
+| --- | --------------- |
+| 1   | Desert, Cold    |
+| 2   | Desert, Hot     |
+| 3   | Desert, Coastal |
+| 4   | Desert, Rocky   |
+| 5   | Badlands        |
+| 6   | Steppes         |
+| 7   | Flats           |
+| 8   | Other           |
+^TerrainArid
+
+
+| 1d8 | Flat       |
+| --- | ---------- |
+| 1   | Prairie    |
+| 2   | Grazing    |
+| 3   | Farmland   |
+| 4   | Shrublands |
+| 5   | Savanna    |
+| 6   | Flats      |
+| 7   | Tundra     |
+| 8   | Other      |
+^TerrainFlat
 
 
 62-table-1.md

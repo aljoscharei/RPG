@@ -194,74 +194,6 @@
       }
     ],
     [
-      "Symbaroum Monster Drug Peddler",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Drug Peddler",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 13,
-        "hp": 13,
-        "hit_dice": "(3d8)",
-        "speed": "30 ft",
-        "stats": [
-          10,
-          16,
-          10,
-          17,
-          11,
-          12
-        ],
-        "skillsaves": [
-          {
-            "Alchemist’s supplies": 5
-          },
-          {
-            "Deception": 3
-          }
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Ambrian",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "equipment",
-            "desc": "[[Item Concentrated Magic DC 15 10 Th d4]], [[Item Drone Dew DC 10  20 Th d8]], [[Item Herbal Cure DC 10 10 Th d8]], [[Spore Bombs]], [[Item Waybread DC 10 5 Th 2d6]], [[Weak Poison DC 10 1 round plus 1 d6 poison damage plus 3 10 Th d6]]"
-          },
-          {
-            "name": "Distract (1/day)",
-            "desc": "the drug peddler can use its bonus action to cause a distraction, gaining advantage on its stiletto attack this turn."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Stiletto",
-            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, plus 3 (1d6) poison damage. Deep impact: on a critical hit, this weapon does a total of 9 (2d4 + 4) piercing damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 26,
-            "col": 3,
-            "offset": 994
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drug Peddler 2.md",
-        "mtime": 1667402242000
-      }
-    ],
-    [
       "Symbaroum Monster Symbolist",
       {
         "statblock": true,
@@ -732,143 +664,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Arach Poisoner.md",
         "mtime": 1668195332057
-      }
-    ],
-    [
-      "Symbaroum Monster Arch Troll",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Arch Troll",
-        "size": "huge",
-        "type": "Troll",
-        "alignment": null,
-        "ac": 14,
-        "hp": 229,
-        "hit_dice": "(17d12 + 119, tough)",
-        "speed": "30 ft.",
-        "stats": [
-          25,
-          15,
-          23,
-          14,
-          12,
-          15
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 13
-          },
-          {
-            "Intimidation": 8
-          },
-          {
-            "Perception": "7 Senses darkvision 60 ft"
-          },
-          "passive Perception 17"
-        ],
-        "senses": "darkvision 60 ft., passive Perception 17",
-        "languages": "Troll languages",
-        "equipment": "crude alchemical equipment, weak poison, weak antidote, jewelry and trinkets (1d10 thaler)",
-        "cr": 17,
-        "traits": [
-          {
-            "name": "Legendary Resistance (2/day)",
-            "desc": "If the troll fails a saving throw, it can choose to succeed instead."
-          },
-          {
-            "name": "Enthrall",
-            "desc": "When a creature first tries to act against the troll they must make a DC 16 Wisdom saving throw. On a failure the creature becomes charmed by the troll until the end of its turn. A creature that succeeds at the saving throw becomes immune to the effect for 24 hours."
-          },
-          {
-            "name": "Rage (6/day)",
-            "desc": "As a bonus action, the troll can enter a rage that lasts for 1 minute. While in the rage, the troll has advantage on Strength checks and saving throws. When it makes a me- lee weapon attack it adds +6 to its damage. The creature has resistance to bludgeoning, piercing and slashing damage while in the rage. The rage ends early if the creature ends its turn without having attacked a hostile creature since its last turn or taken damage since then. It can also use a bonus action to end the rage."
-          },
-          {
-            "name": "Regeneration",
-            "desc": "The arch troll recovers 12 hit points at the start of its turn, unless it has taken acid or fire damage since its last turn."
-          },
-          {
-            "name": "Tough",
-            "desc": "The arch troll has 1 extra hit point for each Hit Die it has."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The troll makes two claw attacks. Each grappled creature (see below) prevents the troll from making a claw attack."
-          },
-          {
-            "name": "Claw",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (1d12 + 7) slashing damage."
-          },
-          {
-            "name": "Grab and Squeeze",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: if the target is a Medium or smaller creature, it is grappled (escape DC 23). The troll can have a maximum of two creatures grappled. On subsequent rounds, it can use its action to do 20 (2d12 + 7) bludgeoning damage to a target."
-          },
-          {
-            "name": "Bite",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 20 (2d12 + 7) piercing damage."
-          },
-          {
-            "name": "Kick",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) bludgeoning damage."
-          }
-        ],
-        "Legendary Actions": [
-          {
-            "name": "The arch troll can take 2 legendary actions, choosing from the options below",
-            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The arch troll regains spent legendary actions at the start of its turn."
-          },
-          {
-            "name": "Biting",
-            "desc": "The arch troll makes a bite attack."
-          },
-          {
-            "name": "Stomping",
-            "desc": "The arch troll makes a kick attack."
-          },
-          {
-            "name": "Squeezing (Costs 2 Actions)",
-            "desc": "The arch troll squeezes all opponents it has grappled."
-          }
-        ],
-        "legendary_actions": [
-          {
-            "name": "The arch troll can take 2 legendary actions, choosing from the options below",
-            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The arch troll regains spent legendary actions at the start of its turn."
-          },
-          {
-            "name": "Biting",
-            "desc": "The arch troll makes a bite attack."
-          },
-          {
-            "name": "Stomping",
-            "desc": "The arch troll makes a kick attack."
-          },
-          {
-            "name": "Squeezing (Costs 2 Actions)",
-            "desc": "The arch troll squeezes all opponents it has grappled."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 61,
-            "col": 3,
-            "offset": 3633
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Arch Troll.md",
-        "mtime": 1668195332072
       }
     ],
     [
@@ -3436,69 +3231,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drilling Leech.md",
         "mtime": 1668195332065
-      }
-    ],
-    [
-      "Symbaroum Monster Drunkard",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Drunkard",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 10,
-        "hp": 11,
-        "hit_dice": "(2d8 + 2)",
-        "speed": "30 ft.",
-        "stats": [
-          14,
-          10,
-          12,
-          10,
-          11,
-          11
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Ambrian",
-        "equipment": "1d8 ortegs",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Cheap Shots",
-            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Unarmed Strikes",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Wild Swing",
-            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 25,
-            "col": 3,
-            "offset": 663
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard 2.md",
-        "mtime": 1667182461000
       }
     ],
     [
@@ -6512,71 +6244,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lord or Lady.md",
         "mtime": 1668195332084
-      }
-    ],
-    [
-      "Symbaroum Monster Lostling Possession",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Frostlight.png"
-          ]
-        ],
-        "name": "Symbaroum Monster Lostling Possession",
-        "size": "Small",
-        "type": "undead",
-        "alignment": null,
-        "ac": 18,
-        "hp": 33,
-        "hit_dice": "(6d6 + 12)",
-        "speed": "25 ft.",
-        "stats": [
-          10,
-          18,
-          14,
-          10,
-          15,
-          7
-        ],
-        "senses": "darkvision 60 ft., passive Perception 12",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 2,
-        "traits": [
-          {
-            "name": "Haunting",
-            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
-          },
-          {
-            "name": "Insubstantial",
-            "desc": "The lostling can pass through objects and creatures without issue."
-          },
-          {
-            "name": "Pack Tactics",
-            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Vitality Drain",
-            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 26,
-            "col": 3,
-            "offset": 1148
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession 2.md",
-        "mtime": 1666950651000
       }
     ],
     [
@@ -71622,6 +71289,362 @@
       }
     ],
     [
+      "Symbaroum Monster Drug Peddler",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Drug Peddler",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 13,
+        "hp": 13,
+        "hit_dice": "(3d8)",
+        "speed": "30 ft",
+        "stats": [
+          10,
+          16,
+          10,
+          17,
+          11,
+          12
+        ],
+        "skillsaves": [
+          {
+            "Alchemist’s supplies": 5
+          },
+          {
+            "Deception": 3
+          }
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Ambrian",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "equipment",
+            "desc": "[[Item Concentrated Magic DC 15 10 Th d4]], [[Item Drone Dew DC 10  20 Th d8]], [[Item Herbal Cure DC 10 10 Th d8]], [[Spore Bombs]], [[Item Waybread DC 10 5 Th 2d6]], [[Weak Poison DC 10 1 round plus 1 d6 poison damage plus 3 10 Th d6]]"
+          },
+          {
+            "name": "Distract (1/day)",
+            "desc": "the drug peddler can use its bonus action to cause a distraction, gaining advantage on its stiletto attack this turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Stiletto",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, plus 3 (1d6) poison damage. Deep impact: on a critical hit, this weapon does a total of 9 (2d4 + 4) piercing damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 994
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drug Peddler.md",
+        "mtime": 1668195332052
+      }
+    ],
+    [
+      "Symbaroum Monster Lostling Possession",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Frostlight.png"
+          ]
+        ],
+        "name": "Symbaroum Monster Lostling Possession",
+        "size": "Small",
+        "type": "undead",
+        "alignment": null,
+        "ac": 18,
+        "hp": 33,
+        "hit_dice": "(6d6 + 12)",
+        "speed": "25 ft.",
+        "stats": [
+          10,
+          18,
+          14,
+          10,
+          15,
+          7
+        ],
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Haunting",
+            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
+          },
+          {
+            "name": "Insubstantial",
+            "desc": "The lostling can pass through objects and creatures without issue."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Vitality Drain",
+            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 1148
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession.md",
+        "mtime": 1668194392685
+      }
+    ],
+    [
+      "Symbaroum Monster Village Barbarian warrior",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Barbarian Warrior.jpeg"
+          ]
+        ],
+        "name": "Symbaroum Monster Village Barbarian warrior",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 17,
+        "hp": 37,
+        "hit_dice": "(5d8 + 15)",
+        "speed": "30 ft.",
+        "stats": [
+          18,
+          12,
+          17,
+          10,
+          14,
+          12
+        ],
+        "saves": [
+          {
+            "Strength": 6
+          },
+          {
+            "Constitution": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 6
+          },
+          {
+            "Perception": 4
+          },
+          {
+            "Survival": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Ambrian, Barbarian",
+        "equipment": "a wooden or metal beaker, wooden figurine (the clan’s spirit guardian), stone for sharpening the axe, 1d10 shillings",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Man-at-Arms",
+            "desc": "The village warrior’s armor class is improved by +1. It can don or doff armor in half the regular required time."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The village warrior makes two attacks with its double-axe."
+          },
+          {
+            "name": "Double-axe",
+            "desc": "Melee Weapon Attack: +6 to hit, reach  5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Two-handed Force",
+            "desc": "If the village warrior misses an attack, it can use its reaction to reroll the attack."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 34,
+            "col": 3,
+            "offset": 1049
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior 2.md",
+        "mtime": 1666787738000
+      }
+    ],
+    [
+      "Symbaroum Monster Arch Troll",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Arch Troll",
+        "size": "huge",
+        "type": "Troll",
+        "alignment": null,
+        "ac": 14,
+        "hp": 229,
+        "hit_dice": "(17d12 + 119, tough)",
+        "speed": "30 ft.",
+        "stats": [
+          25,
+          15,
+          23,
+          14,
+          12,
+          15
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 13
+          },
+          {
+            "Intimidation": 8
+          },
+          {
+            "Perception": "7 Senses darkvision 60 ft"
+          },
+          "passive Perception 17"
+        ],
+        "senses": "darkvision 60 ft., passive Perception 17",
+        "languages": "Troll languages",
+        "equipment": "crude alchemical equipment, weak poison, weak antidote, jewelry and trinkets (1d10 thaler)",
+        "cr": 17,
+        "traits": [
+          {
+            "name": "Legendary Resistance (2/day)",
+            "desc": "If the troll fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Enthrall",
+            "desc": "When a creature first tries to act against the troll they must make a DC 16 Wisdom saving throw. On a failure the creature becomes charmed by the troll until the end of its turn. A creature that succeeds at the saving throw becomes immune to the effect for 24 hours."
+          },
+          {
+            "name": "Rage (6/day)",
+            "desc": "As a bonus action, the troll can enter a rage that lasts for 1 minute. While in the rage, the troll has advantage on Strength checks and saving throws. When it makes a me- lee weapon attack it adds +6 to its damage. The creature has resistance to bludgeoning, piercing and slashing damage while in the rage. The rage ends early if the creature ends its turn without having attacked a hostile creature since its last turn or taken damage since then. It can also use a bonus action to end the rage."
+          },
+          {
+            "name": "Regeneration",
+            "desc": "The arch troll recovers 12 hit points at the start of its turn, unless it has taken acid or fire damage since its last turn."
+          },
+          {
+            "name": "Tough",
+            "desc": "The arch troll has 1 extra hit point for each Hit Die it has."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The troll makes two claw attacks. Each grappled creature (see below) prevents the troll from making a claw attack."
+          },
+          {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (1d12 + 7) slashing damage."
+          },
+          {
+            "name": "Grab and Squeeze",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: if the target is a Medium or smaller creature, it is grappled (escape DC 23). The troll can have a maximum of two creatures grappled. On subsequent rounds, it can use its action to do 20 (2d12 + 7) bludgeoning damage to a target."
+          },
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 20 (2d12 + 7) piercing damage."
+          },
+          {
+            "name": "Kick",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) bludgeoning damage."
+          }
+        ],
+        "Legendary Actions": [
+          {
+            "name": "The arch troll can take 2 legendary actions, choosing from the options below",
+            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The arch troll regains spent legendary actions at the start of its turn."
+          },
+          {
+            "name": "Biting",
+            "desc": "The arch troll makes a bite attack."
+          },
+          {
+            "name": "Stomping",
+            "desc": "The arch troll makes a kick attack."
+          },
+          {
+            "name": "Squeezing (Costs 2 Actions)",
+            "desc": "The arch troll squeezes all opponents it has grappled."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "The arch troll can take 2 legendary actions, choosing from the options below",
+            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The arch troll regains spent legendary actions at the start of its turn."
+          },
+          {
+            "name": "Biting",
+            "desc": "The arch troll makes a bite attack."
+          },
+          {
+            "name": "Stomping",
+            "desc": "The arch troll makes a kick attack."
+          },
+          {
+            "name": "Squeezing (Costs 2 Actions)",
+            "desc": "The arch troll squeezes all opponents it has grappled."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 61,
+            "col": 3,
+            "offset": 3633
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Arch Troll.md",
+        "mtime": 1668195332072
+      }
+    ],
+    [
       "Symbaroum Monster Artisan",
       {
         "statblock": true,
@@ -71757,6 +71780,69 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard 2.md",
         "mtime": 1666787628000
+      }
+    ],
+    [
+      "Symbaroum Monster Drunkard",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Drunkard",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 10,
+        "hp": 11,
+        "hit_dice": "(2d8 + 2)",
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          10,
+          12,
+          10,
+          11,
+          11
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Ambrian",
+        "equipment": "1d8 ortegs",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Cheap Shots",
+            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Unarmed Strikes",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Wild Swing",
+            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 25,
+            "col": 3,
+            "offset": 663
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard 2.md",
+        "mtime": 1667182461000
       }
     ],
     [
@@ -72102,92 +72188,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Ravenous Willow, Young Strangler.md",
         "mtime": 1668193986822
-      }
-    ],
-    [
-      "Symbaroum Monster Village Barbarian warrior",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Barbarian Warrior.jpeg"
-          ]
-        ],
-        "name": "Symbaroum Monster Village Barbarian warrior",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 17,
-        "hp": 37,
-        "hit_dice": "(5d8 + 15)",
-        "speed": "30 ft.",
-        "stats": [
-          18,
-          12,
-          17,
-          10,
-          14,
-          12
-        ],
-        "saves": [
-          {
-            "Strength": 6
-          },
-          {
-            "Constitution": 5
-          }
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 6
-          },
-          {
-            "Perception": 4
-          },
-          {
-            "Survival": 4
-          }
-        ],
-        "senses": "passive Perception 14",
-        "languages": "Ambrian, Barbarian",
-        "equipment": "a wooden or metal beaker, wooden figurine (the clan’s spirit guardian), stone for sharpening the axe, 1d10 shillings",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Man-at-Arms",
-            "desc": "The village warrior’s armor class is improved by +1. It can don or doff armor in half the regular required time."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The village warrior makes two attacks with its double-axe."
-          },
-          {
-            "name": "Double-axe",
-            "desc": "Melee Weapon Attack: +6 to hit, reach  5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Two-handed Force",
-            "desc": "If the village warrior misses an attack, it can use its reaction to reroll the attack."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 34,
-            "col": 3,
-            "offset": 1049
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior.md",
-        "mtime": 1668194386538
       }
     ],
     [
@@ -72702,8 +72702,8 @@
   "showAdvanced": false,
   "version": {
     "major": 2,
-    "minor": 21,
-    "patch": 8
+    "minor": 23,
+    "patch": 0
   },
   "paths": [
     "/"
