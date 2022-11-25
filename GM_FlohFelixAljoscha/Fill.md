@@ -11,7 +11,7 @@
 | ---------- | ------------------------------------------------------------------------- |
 | 1-4        | Geologic Feature `dice: [[Fill#^GeologicFeature]]` |
 | 5-8        | Structure `dice: [[Fill#^StructuresMaster]]`                                                                |
-| 9-12       | Resource [[#Resources]]                                                                 |
+| 9-12       | Resource [[#Resources]]. `dice: [[Fill#^ResourceMaster]]` .This resource `dice: [[Fill#^exceptionalResource]]`.                                                                  |
 | 13         | Hazard [[#Hazard]]                                                                   |
 | 14         | Sign                                                                      |
 | 15         | Dungeon                                                                   |
@@ -2781,26 +2781,58 @@ This section makes use of the rules for generating additional resources found in
 
 This section provides some additional rules for determining the exact type of resource that is present. The rules from Domain Building presume that resources have the same relative value based upon category. This is obviously not true if the size of the resource is the same: gold is far more valuable (typically) than copper, if found in the same quantity. The obvious remedy is to assume that the volume of the resource is different, even though it may take the same amount of time to extract it. This is something that will have to be abstracted by the Referee.
 
-With each resource found there’s a 1 in 20 chance that it is exceptional, worth (1-3) 25% more, (4-5) 50% more, (6-7) 75% more, or (8) 100% more than the base value. This added value will be due to either exceptional purity, appearance, or other intrinsic property. It is up to the Referee to determine what the reason for the increased value is. Perhaps a vein of granite is more durable than normal, and structures built using it have more structural hit points. Or a vein of marble may have an unusual coloration, sought after by master sculptors.
+
+
+| dice: 1d20 |                                                             |
+| ---------- | ----------------------------------------------------------- |
+| 1          | is normal.                                                  |
+| 2-20       | it is exceptional, worth `dice: [[Fill#^exceptionalWorth]]` |
+^exceptionalResource
+
+ 
+| dice: 1d8 |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | 25% more than the base value. This added value will be due to either exceptional purity, appearance, or other intrinsic property. It is up to the Referee to determine what the reason for the increased value is. Perhaps a vein of granite is more durable than normal, and structures built using it have more structural hit points. Or a vein of marble may have an unusual coloration, sought after by master sculptors.  |
+| 4-5       | 50% more than the base value. This added value will be due to either exceptional purity, appearance, or other intrinsic property. It is up to the Referee to determine what the reason for the increased value is. Perhaps a vein of granite is more durable than normal, and structures built using it have more structural hit points. Or a vein of marble may have an unusual coloration, sought after by master sculptors.  |
+| 6-7       | 75% more than the base value. This added value will be due to either exceptional purity, appearance, or other intrinsic property. It is up to the Referee to determine what the reason for the increased value is. Perhaps a vein of granite is more durable than normal, and structures built using it have more structural hit points. Or a vein of marble may have an unusual coloration, sought after by master sculptors.  |
+| 8         | 100% more than the base value. This added value will be due to either exceptional purity, appearance, or other intrinsic property. It is up to the Referee to determine what the reason for the increased value is. Perhaps a vein of granite is more durable than normal, and structures built using it have more structural hit points. Or a vein of marble may have an unusual coloration, sought after by master sculptors. |
+^exceptionalWorth
+
 
 
 
 
 40-table-1.md
 
-| d20   | Result                                               |
-|:----- |:---------------------------------------------------- |
-| 1-3   | Animal, game [[#Animal, Game]]                       |
-| 4-6   | Animal, livestock [[#Animal, livestock]]             |
-| 7-8   | Mineral, quarried [[#Mineral Quarried]]              |
-| 9-10  | Mineral, mined [[#Ore, mined]]                       |
-| 11-15 | Vegetable, agricultural [[#Vegetable, agricultural]] |
-| 16-20 | Vegetable, industrial [[#Vegetabel, industrial]]     |
+| d20   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|:----- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3   | Animal, game [[#Animal, Game]] `dice: [[Fill#^TerrainType]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 4-6   | Animal, livestock [[#Animal, livestock]] `dice: [[Fill#^ResourceLivestock]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 7-8   | Mineral, quarried [[#Mineral Quarried]] `dice: [[Fill#^QuarriedStones]]`, There’s  `dice: 1d6 <=3` chance that a resource of this type has previously been discovered and has been partially quarried or mined when it is encountered. This chance is decreased by 1 in Wilderness hexes and increased by 1 in Civilized hexes.  This does not affect the value of the resource, but obviously makes it more apparent and immediately accessible. If the resource has previously been discovered there’s `dice: 1d6 <=3` chance it is currently being worked. This chance is increased by 1 for Civilized hexes and decreased by 1 for Wilderness hexes. If the resource has not been discovered the vein will be found `dice: [[Fill#^MineralHowDeep]]`. No further Processing necessary. |
+| 9-10  | Mineral, mined [[#Ore, mined]] Must be smelted. `dice: [[Fill#^MinedMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 11-15 | Vegetable, agricultural [[#Vegetable, agricultural]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 16-20 | Vegetable, industrial [[#Vegetabel, industrial]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+^ResourceMaster
 
 #### Animal, Game
 These are naturally occurring, wild animal resources that can be used for meat, fur, hides, or other similar products. They could also represent wild animals such as horses that are captured to be trained as mounts.
 
 This section is divided into broad terrain and climate types. It seeks to provide a basic selection of typical animals to use, and not provide a thorough list of all the potential animals that can be found.
+
+`dice: [[Fill#^TerrainType]]`
+
+Forest: `dice: [[Fill#^ResourceGameForest]]`
+Swamp: `dice: [[Fill#^ResourceGameSwamp]]`
+Mountain: `dice: [[Fill#^ResourceGameMountain]]`
+Desert: `dice: [[Fill#^ResourceGameDesert]]`
+Plains: `dice: [[Fill#^ResourceGamePlains]]`
+Hills: `dice: [[Fill#^ResourceGameHills]]`
+
+Saltwater: `dice: [[Fill#^ResourceGameSaltWater]]`
+Fresh water: `dice: [[Fill#^ResourceGameFreshWater]]`
+Jungle: `dice: [[Fill#^ResourceGameJungle]]`
+
+
 
 
 MULTIPLE
@@ -2819,8 +2851,8 @@ MULTIPLE
 | 9          | Quail                                         |
 | 10         | Turkey                                        |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
-
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGameForest
 
 
 | dice: 1d12 | Swamp                                         |
@@ -2836,8 +2868,8 @@ MULTIPLE
 | 9          | Duck                                          |
 | 10         | Clams                                         |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
-
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGameSwamp
 
 
 | Unnamed: 0 | Mountain                                      |
@@ -2853,7 +2885,9 @@ MULTIPLE
 | 9          | Turkey                                        |
 | 10         | Quail                                         |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGameMountain
+
 
 | Unnamed: 0 | Desert Badlands                               |
 | ---------- |:--------------------------------------------- |
@@ -2868,7 +2902,9 @@ MULTIPLE
 | 9          | Pheasant                                      |
 | 10         | Grouse                                        |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGameDesert
+
 
 | Unnamed: 0 | Plains                                        |
 | ---------- |:--------------------------------------------- |
@@ -2883,7 +2919,8 @@ MULTIPLE
 | 9          | Grouse                                        |
 | 10         | Quail                                         |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGamePlains
 
 
 | Unnamed: 0 | Hills                                         |
@@ -2899,7 +2936,9 @@ MULTIPLE
 | 9          | Quail                                         |
 | 10         | Pheasant                                      |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGameHills
+
 
 | Unnamed: 0 | Salt Water                                    |
 | ---------- |:--------------------------------------------- |
@@ -2914,7 +2953,9 @@ MULTIPLE
 | 9          | Tuna                                          |
 | 10         | Gull                                          |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGameSaltWater
+
 
 
 | Unnamed: 0 | Fresh Water                                   |
@@ -2930,7 +2971,9 @@ MULTIPLE
 | 9          | Goose                                         |
 | 10         | Duck                                          |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGameFreshWater
+
 
 
 | Unnamed: 0 | Jungle                                        |
@@ -2946,11 +2989,14 @@ MULTIPLE
 | 9          | Parrot                                        |
 | 10         | Toucan                                        |
 | 11         | Other, by terrain                             |
-| 12         | Magical creature, add +1d10x10% to base price |
+| 12         | Magical creature, add +`dice: 1d10*10`% to base price |
+^ResourceGameJungle
+
+
 
 #### Animal, livestock
 
-Livestock are domestic animals that are raised for meat, furs, or work. These can be represented as actual existing animal stock (which implies there is something *in* the hex raising and caring for them), or the potential for such resources to exist; grasslands that are ideal for cattle or sheep, for instance.
+Livestock are domestic animals that are raised for meat, furs, or work. These can be represented as actual existing animal stock which implies there is something *in* the hex raising and caring for them, or the potential for such resources to exist; grasslands that are ideal for cattle or sheep, for instance.
 
 Livestock animals include . . .
 
@@ -2958,47 +3004,46 @@ Livestock animals include . . .
 
 41-table-2.md
 
-| d100   | Result                                                  |
-|:-------|:--------------------------------------------------------|
-| 1-7    | Camel                                                   |
-| 8-14   | Chicken                                                 |
-| 15-21  | Cow                                                     |
-| 22-28  | Dog                                                     |
-| 29-35  | Goat                                                    |
-| 36-42  | Horse                                                   |
-| 43-49  | Llama                                                   |
-| 50-56  | Mink                                                    |
-| 57-64  | Other                                                   |
-| 65-72  | Oxen                                                    |
-| 73-79  | Pig                                                     |
-| 50-86  | Reindeer                                                |
-| 87-93  | Sheep                                                   |
-| 94     | Silkworm (worth  3d6×10%  more than base value)         |
-| 95-99  | Turkey                                                  |
-| 100    | Magical creature (worth 10d10×10% more than base value) |
+| dice: 1d100 | Result                                                  |
+|:----------- |:------------------------------------------------------- |
+| 1-7         | Camel                                                   |
+| 8-14        | Chicken                                                 |
+| 15-21       | Cow                                                     |
+| 22-28       | Dog                                                     |
+| 29-35       | Goat                                                    |
+| 36-42       | Horse                                                   |
+| 43-49       | Llama                                                   |
+| 50-56       | Mink                                                    |
+| 57-64       | Other                                                   |
+| 65-72       | Oxen                                                    |
+| 73-79       | Pig                                                     |
+| 50-86       | Reindeer                                                |
+| 87-93       | Sheep                                                   |
+| 94          | Silkworm (worth  3d6×10%  more than base value)         |
+| 95-99       | Turkey                                                  |
+| 100         | Magical creature (worth 10d10×10% more than base value) |
+^ResourceLivestock
+
 
 #### Mineral Quarried
 
-There’s a base 1-3 in 6 chance that a resource of this type has previously been discovered and has been partially quarried or mined when it is encountered. This chance is decreased by 1 in Wilderness hexes and increased by 1 in Civilized hexes.  This does not affect the value of the resource, but obviously makes it more apparent and immediately accessible.
-
-If the resource has previously been discovered there’s a base 1-3 in 6 chance it is currently being worked. This chance is increased by 1 for Civilized hexes and decreased by 1 for Wilderness hexes.
-
-If the resource has not been discovered the vein will be found . . .
+There’s  `dice: 1d6 <=3` chance that a resource of this type has previously been discovered and has been partially quarried or mined when it is encountered. This chance is decreased by 1 in Wilderness hexes and increased by 1 in Civilized hexes.  This does not affect the value of the resource, but obviously makes it more apparent and immediately accessible. If the resource has previously been discovered there’s `dice: 1d6 <=3` chance it is currently being worked. This chance is increased by 1 for Civilized hexes and decreased by 1 for Wilderness hexes.
+If the resource has not been discovered the vein will be found `dice: [[Fill#^MineralHowDeep]]`
 
 42-table-2.md
 
 | d100   | Result                   |
 |:-------|:-------------------------|
 | 1-20   | Above ground and visible |
-| 21-40  | 1d4×5 feet underground   |
-| 41-60  | 1d4×10 feet undergound   |
-| 61-80  | 2d8×20 feet underground  |
-| 81-100 | 3d10×50 feet underground |
-
+| 21-40  | `dice: 1d4*5` feet underground   |
+| 41-60  | `dice: 1d4*10` feet undergound   |
+| 61-80  | `dice: 2d8*20` feet underground  |
+| 81-100 | `dice: 3d10*50` feet underground |
+^MineralHowDeep
 
 The further a resource is underground the more difficult it is to find, and the more labor it takes to expose it. Strip mining or quarrying costs 400 gp per 20,000 cubic feet of earth removed. However, the surface opening needs to be the same diameter as the depth. A 10’ depth requires a perimeter of 10’×10’ (1,000 cubic feet of excavated material). A 30’ depth requires a perimeter of 30’×30’ (27,000 cubic feet).
 
-Mining tunnels cost 500 gp per ten feet of depth. This assumestunnels10’×10’,reinforcedasneededtoprevent collapses. Mining tunnels deeper than 100 feet cost 750 gp per 10’ of depth.
+Mining tunnels cost 500 gp per ten feet of depth. This assumestunnels10’×10’,r einforced as needed to prevent collapses. Mining tunnels deeper than 100 feet cost 750 gp per 10’ of depth.
 
 Following are some types of stone that can be quarried.
 
@@ -3020,7 +3065,7 @@ Following are some types of stone that can be quarried.
 | 85-91  | Sand              |
 | 92-98  | Slate             |
 | 99-00  | Special (magical) |
-
+^QuarriedStones
 
 Quarried minerals, once extracted, do not have to be smelted or processed to use, although some of them certainly can be (sand, for instance, can be heated and turned into glass). They do not need to be chemically refined or altered in order to be useful, however.
 
@@ -3047,36 +3092,49 @@ These include common materials that are quarried for alchemical usage (such as g
 
 Valuable minerals are less likely to be visible than quarried rocks. Use the same table, above, to determine the depth at which the resource is found, adding 5 to the roll for metal and 10 for gemstones.
 
-Mined minerals have the same chances as quarried stone to be exceptional. Mined ore will contain either (1-4) minerals or (5-6) gemstones (putting aside the fact that gemstones are, in fact, minerals).
+Mined minerals have the same chances as quarried stone to be exceptional. 
+
+Mined ore will contain either 
+
+| dice: 1d6 |                                  |
+| --------- | -------------------------------- |
+| 1-4       | minerals `dice: [[Fill#^Ore]]`   |
+| 5-6       | gemstones `dice: [[Fill#^gems]]` |
+^MinedMaster
+
+
+
+
+(putting aside the fact that gemstones are, in fact, minerals). 
 
 Following are some examples of mined minerals.
 
 
 43-table-2.md
 
-| d100   | Result                                                             |
-|:-------|:-------------------------------------------------------------------|
-| 1-4    | Antimony                                                           |
-| 5-8    | Arsenic                                                            |
-| 9-14   | Copper                                                             |
-| 15-18  | Gold                                                               |
-| 19-25  | Iron                                                               |
-| 26-30  | Lead                                                               |
-| 31-34  | Mercury                                                            |
-| 35-40  | Mica                                                               |
-| 41-46  | Natron                                                             |
-| 47-50  | Nickel                                                             |
-| 51-54  | Oil                                                                |
-| 55-60  | Other                                                              |
-| 61-64  | Platinum                                                           |
-| 65-70  | Pyrite                                                             |
-| 71-75  | Silver                                                             |
-| 76-82  | Sulfur                                                             |
-| 83-89  | Tin                                                                |
-| 90-95  | Zinc                                                               |
-| 96-98  | Special (alchemical). Minerals sought after for use by alchemists. |
-| 99-100 | Special (magical). Mithril, adamantium, other magical minerals.    |
-
+| dice: 1d100 | Result                                                             |
+|:----------- |:------------------------------------------------------------------ |
+| 1-4         | Antimony                                                           |
+| 5-8         | Arsenic                                                            |
+| 9-14        | Copper                                                             |
+| 15-18       | Gold                                                               |
+| 19-25       | Iron                                                               |
+| 26-30       | Lead                                                               |
+| 31-34       | Mercury                                                            |
+| 35-40       | Mica                                                               |
+| 41-46       | Natron                                                             |
+| 47-50       | Nickel                                                             |
+| 51-54       | Oil                                                                |
+| 55-60       | Other                                                              |
+| 61-64       | Platinum                                                           |
+| 65-70       | Pyrite                                                             |
+| 71-75       | Silver                                                             |
+| 76-82       | Sulfur                                                             |
+| 83-89       | Tin                                                                |
+| 90-95       | Zinc                                                               |
+| 96-98       | Special (alchemical). Minerals sought after for use by alchemists. |
+| 99-100      | Special (magical). Mithril, adamantium, other magical minerals.    |
+^Ore
 
 
 Mined minerals must be smelted. Depending on the mineral and how far it must travel to its destination it can either be smelted at the mine or shipped back to civilization and then smelted.
@@ -3085,7 +3143,7 @@ Smelters cost 5,000 gp to build. Once complete, a smelter can process a total of
 
 The starting weight of mined ore is extrapolated from the finished weight of refined ore found on p. 38 of the Domain Building supplement. There are two types of refined ore: common and precious. Refer to the following tables to determine the weight multipliers for each material (note that these are abstracted figures meant to provide general guidelines, and do not hew directly to real-world examples).
 
-
+Common Ore. Base value of 1 gp/50 cn
 43-table-1.md
 
 | Substance   | Multiplier   |
@@ -3100,6 +3158,7 @@ The starting weight of mined ore is extrapolated from the finished weight of ref
 | Sulfur      | x2           |
 | Tin         | x2.25        |
 | Zinc        | x2.25        |
+
 
 Ex. Copper, with a multiplier of 2, requires 100 cn of raw ore to yield 50 cn of refined material. Lead, with a multiplier of 1.1, requires 55 cn to yield the same amount
 
@@ -3128,31 +3187,31 @@ Gems require no smelting and are most often mined in the same fashion as metal. 
 
 44-table-1.md
 
-| d100   | Result                                                                |
-|:-------|:----------------------------------------------------------------------|
-| 1-8    | Agate                                                                 |
-| 9-14   | Amber                                                                 |
-| 15-20  | Amethyst                                                              |
-| 21-24  | Aquamarine                                                            |
-| 25-27  | Carbuncle                                                             |
-| 29-32  | Coral (roll again if not appropriate for location)                    |
-| 33     | Diamond                                                               |
-| 34-35  | Emerald                                                               |
-| 36-41  | Garnet                                                                |
-| 42-45  | Jacinth                                                               |
-| 46-51  | Jade                                                                  |
-| 52-58  | Jasper                                                                |
-| 59-65  | Onyx                                                                  |
-| 66-68  | Opal                                                                  |
-| 69-70  | Other                                                                 |
-| 71-74  | Pearl (roll again if not appropriate)                                 |
-| 75-82  | Quartz                                                                |
-| 83-84  | Ruby                                                                  |
-| 85-86  | Sapphire                                                              |
-| 87-91  | Topaz                                                                 |
-| 92-99  | Turquoise                                                             |
-| 100    | Magical  (includes  stones  that  can be used to craft magical items) |
-
+| dice: 1d100 | Result                                                                |
+|:----------- |:--------------------------------------------------------------------- |
+| 1-8         | Agate                                                                 |
+| 9-14        | Amber                                                                 |
+| 15-20       | Amethyst                                                              |
+| 21-24       | Aquamarine                                                            |
+| 25-27       | Carbuncle                                                             |
+| 29-32       | Coral (roll again if not appropriate for location)                    |
+| 33          | Diamond                                                               |
+| 34-35       | Emerald                                                               |
+| 36-41       | Garnet                                                                |
+| 42-45       | Jacinth                                                               |
+| 46-51       | Jade                                                                  |
+| 52-58       | Jasper                                                                |
+| 59-65       | Onyx                                                                  |
+| 66-68       | Opal                                                                  |
+| 69-70       | Other                                                                 |
+| 71-74       | Pearl (roll again if not appropriate)                                 |
+| 75-82       | Quartz                                                                |
+| 83-84       | Ruby                                                                  |
+| 85-86       | Sapphire                                                              |
+| 87-91       | Topaz                                                                 |
+| 92-99       | Turquoise                                                             |
+| 100         | Magical  (includes  stones  that  can be used to craft magical items) |
+^gems
 
 Wholesale gemstone prices can be found on p. 38 of Domain Building, as follows:
 
@@ -3580,14 +3639,17 @@ Structural. Includes trees and plants used for construction, from buildings to o
 MULTIPLE
 60-table-1.md
 
+`dice: [[Fill#^TerrainType]]`
+
+
 | dice: 1d5 |                                    |
 | --------- | ---------------------------------- |
-| 1         | `dice: [[Fill#^TerrainForest]]`    |
-| 2         | `dice: [[Fill#^TerrainHills]]`     |
-| 3         | `dice: [[Fill#^TerrainMountains]]` |
-| 4         | `dice: [[Fill#^TerrainWetlands]]`  |
-| 5         | `dice: [[Fill#^TerrainArid]]`      |
-| 6         | `dice: [[Fill#^TerrainFlat]]`      |
+| 1         | `dice: [[Fill#^TerrainForest]]` Game Animal Forest: `dice: [[Fill#^ResourceGameForest]]`   |
+| 2         | `dice: [[Fill#^TerrainHills]]` Game Animal  Hills: `dice: [[Fill#^ResourceGameHills]]`    |
+| 3         | `dice: [[Fill#^TerrainMountains]]` Game Animals Mountains: `dice: [[Fill#^ResourceGameMountain]]`|
+| 4         | `dice: [[Fill#^TerrainWetlands]]` Game Animal Swamp: `dice: [[Fill#^ResourceGameSwamp]]`  |
+| 5         | `dice: [[Fill#^TerrainArid]]` Game Animal Desert: `dice: [[Fill#^ResourceGameDesert]]`     |
+| 6         | `dice: [[Fill#^TerrainFlat]]`  Game Animal Plains: `dice: [[Fill#^ResourceGamePlains]]`    |
 ^TerrainType
 
 
