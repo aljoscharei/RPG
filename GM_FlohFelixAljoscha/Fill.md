@@ -4,6 +4,42 @@
 [[#Resources]]
 
 
+
+
+7-table-1.md
+
+| d20   | Result     |
+|:------|:-----------|
+| 1-4   | Geologic   |
+| 5-8   | Structure  |
+| 9-12  | Resource   |
+| 13    | Hazard     |
+| 14    | Sign       |
+| 15    | Dungeon    |
+| 16-17 | Terrain    |
+| 18    | Settlement |
+| 19    | Water      |
+| 20    | Magic      |
+
+
+7-table-2.md
+
+| d20   | Result                   |
+|:------|:-------------------------|
+| 1-3   | Geologic                 |
+| 4-6   | Structure                |
+| 7-9   | Resource                 |
+| 10-12 | Lair                     |
+| 13    | Hazard (1-3), Sign (4-6) |
+| 14    | Dungeon                  |
+| 15    | Terrain                  |
+| 16    | Settlement               |
+| 17    | Water                    |
+| 18    | Magic                    |
+| 19-20 | No Feature               |
+
+
+
 ## Master Table
 1.1 Feature Type `dice: [[Fill#^FeatureNoLairs]]`
 
@@ -2804,14 +2840,14 @@ This section provides some additional rules for determining the exact type of re
 
 40-table-1.md
 
-| d20   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|:----- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-3   | Animal, game [[#Animal, Game]] `dice: [[Fill#^TerrainType]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| 4-6   | Animal, livestock [[#Animal, livestock]] `dice: [[Fill#^ResourceLivestock]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| d20   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|:----- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-3   | Animal, game [[#Animal, Game]] `dice: [[Fill#^TerrainType]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 4-6   | Animal, livestock [[#Animal, livestock]] `dice: [[Fill#^ResourceLivestock]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | 7-8   | Mineral, quarried [[#Mineral Quarried]] `dice: [[Fill#^QuarriedStones]]`, There’s  `dice: 1d6 <=3` chance that a resource of this type has previously been discovered and has been partially quarried or mined when it is encountered. This chance is decreased by 1 in Wilderness hexes and increased by 1 in Civilized hexes.  This does not affect the value of the resource, but obviously makes it more apparent and immediately accessible. If the resource has previously been discovered there’s `dice: 1d6 <=3` chance it is currently being worked. This chance is increased by 1 for Civilized hexes and decreased by 1 for Wilderness hexes. If the resource has not been discovered the vein will be found `dice: [[Fill#^MineralHowDeep]]`. No further Processing necessary. |
-| 9-10  | Mineral, mined [[#Ore, mined]] Must be smelted. `dice: [[Fill#^MinedMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 11-15 | Vegetable, agricultural [[#Vegetable, agricultural]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| 16-20 | Vegetable, industrial [[#Vegetabel, industrial]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 9-10  | Mineral, mined [[#Ore, mined]] Must be smelted. `dice: [[Fill#^MinedMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 11-15 | Vegetable, agricultural [[#Vegetable, agricultural]], `dice: [[Fill#^Agriculturemaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 16-20 | Vegetable, industrial [[#Vegetabel, industrial]] `dice: [[Fill#^industVegMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 ^ResourceMaster
 
 #### Animal, Game
@@ -3103,8 +3139,6 @@ Mined ore will contain either
 ^MinedMaster
 
 
-
-
 (putting aside the fact that gemstones are, in fact, minerals). 
 
 Following are some examples of mined minerals.
@@ -3215,26 +3249,25 @@ Gems require no smelting and are most often mined in the same fashion as metal. 
 
 Wholesale gemstone prices can be found on p. 38 of Domain Building, as follows:
 
--   􏰀  Semi-precious stones cost a base of 2 gp per cn of weight.
+-  Semi-precious stones cost a base of 2 gp per cn of weight.
+-   Precious stones cost a base of 60 gp per cn of weight.
     
--   􏰀  Precious stones cost a base of 60 gp per cn of weight.
-    
-    These are abstracted numbers. They can be modified based upon the stone, if desired, with the following modifiers:
+These are abstracted numbers. They can be modified based upon the stone, if desired, with the following modifiers:
 
 Semi-precious stones
     
-    􏰀 Agate, quartz, turquoise ×.5  
-    􏰀 Jacinth, jasper, onyx ×1  
-    􏰀 Amber, amethyst, coral, garnet, jade ×1.5
-    
-    Ex. An agate mine yields uncut stones that are worth 1 gp per cn of weight. A jade mine yields uncut jade worth 3 gp per cn
+- Agate, quartz, turquoise ×.5  
+- Jacinth, jasper, onyx ×1  
+- Amber, amethyst, coral, garnet, jade ×1.5
+Ex. An agate mine yields uncut stones that are worth 1 gp per cn of weight. A jade mine yields uncut jade worth 3 gp per cn
 
 Precious stones
 
-􏰀 Aquamarine, pearl, topaz ×.5 􏰀 Carbuncle, opal ×.1  
-􏰀 Emerald, ruby, sapphire ×1.5 􏰀 Diamond ×2
-
-􏰀 Magical, unique ×5
+- Aquamarine, pearl, topaz ×.5
+- Carbuncle, opal ×.1  
+- Emerald, ruby, sapphire ×1.5 
+- Diamond ×2
+- Magical, unique ×5
 
 Ex. An aquamarine mine yields uncut stones worth 30 gp per cn. A diamond mine yields uncut stones worth 120 gp per cn.
 
@@ -3245,18 +3278,33 @@ Plant resources used for food. This can be food that exists naturally in the are
 
 Agricultural resources are divided into two categories: cultivated and wild. Cultivated plants are tended and harvested on a regular basis; wild plants grow wild, as the name implies, without caretaking, but may certainly be harvested on a regular basis by those living nearby (both humanoids and animals).
 
-There’s a 1-3 in 6 chance that the resource will be wild; otherwise it will be cultivated. This chance increases by 1 in Wilderness hexes and decreases by 1 in Civilized hexes. There’s a further 1 in 6 chance that cultivated resources have been abandoned in the past 1d12 years. This chance increases by 1 in Wilderness hexes.
+There’s `dice 1d6<=3` chance that the resource will be wild; otherwise it will be cultivated. This chance increases by 1 in Wilderness hexes and decreases by 1 in Civilized hexes. There’s a further `dice 1d6<=1` chance that cultivated resources have been abandoned in the past `dice:1d12` years. This chance increases by 1 in Wilderness hexes.
 
+
+
+| dice: 1d2 |                                          |
+| --------- | ---------------------------------------- |
+| 1         | `dice: [[Fill#^AgriculturalCultivated]]` |
+| 2         | `dice [[Fill#^WildPlants]]`              |
+^Agriculturemaster
 
 Cultivated
 
-The following plants are those commonly cultivated by Man. Roll 1d10 to determine what kind of cultivated plant is being grown.
+The following plants are those commonly cultivated by Man. Roll 1d10 to determine what kind of cultivated plant is being grown. `dice: [[Fill#^Agriculturemaster]]`
+
+| dice: 1d10 |                             |
+| ---------- | --------------------------- |
+| 1-4        | `dice [[Fill#^Grains]]`     |
+| 5-7        | `dice [[Fill#^Vegetables]]` |
+| 8-9        | `dice [[Fill#^Fruit]]`      |
+| 10         | `dice [[Fill#^Nuts]]`       |
+^AgriculturalCultivated
 
 1-4. Grain. Staple crops for many societies, grains are typically cultivated in large amounts, requiring large fields, open spaces, and plenty of labor to harvest. Some grains grow better in different climates; rye is typically a cold weather crop, rice prefers wet climates, etc.
 
 45-table-2.md
 
-| d100   | Result                                         |
+| dice: d100   | Result                                         |
 |:-------|:-----------------------------------------------|
 | 1-11   | Barley                                         |
 | 12-22  | Maize                                          |
@@ -3268,7 +3316,7 @@ The following plants are those commonly cultivated by Man. Roll 1d10 to determin
 | 78-88  | Sorghum                                        |
 | 89-99  | Wheat                                          |
 | 100    | Magical/Special.  Add  1d8×10%  to base price. |
-
+^Grains
 
 5-7. Vegetables. Vegetables are typically grown in smaller quantities than grains and used mostly as supplemental crops rather than primary meal sources. This list is not inclusive of all vegetables.
 
@@ -3276,276 +3324,485 @@ The following plants are those commonly cultivated by Man. Roll 1d10 to determin
 
 45-table-4.md
 
-| d100  | Result          |
-|:----- |:--------------- |
-| 1-4   | Artichokes      |
-| 5-8   | Asparagus       |
-| 9-12  | Bamboo          |
-| 13-16 | Beans           |
-| 17-20 | Beets           |
-| 21-24 | Broccoli        |
-| 25-28 | Cabbage         |
-| 29-32 | Carrots         |
-| 33-36 | Cassava         |
-| 37-40 | Cucumber        |
-| 41-44 | Edamame         |
-| 45-48 | Eggplant        |
-| 49-52 | Garlic          |
-| 53-56 | Gourd           |
-| 57-60 | Lettuce         |
-| 61-64 | Onions          |
-| 65-71 | Other           |
-| 72-75 | Pepper          |
-| 76-79 | Peas            |
-| 80-83 | Potato          |
-| 84-87 | Spinach         |
-| 88-91 | Squash          |
-| 92-95 | Turnip          |
-| 96-99 | Yam             |
-| 100   | Magical/Special |
-
+| dice: d100 | Result          |
+|:---------- |:--------------- |
+| 1-4        | Artichokes      |
+| 5-8        | Asparagus       |
+| 9-12       | Bamboo          |
+| 13-16      | Beans           |
+| 17-20      | Beets           |
+| 21-24      | Broccoli        |
+| 25-28      | Cabbage         |
+| 29-32      | Carrots         |
+| 33-36      | Cassava         |
+| 37-40      | Cucumber        |
+| 41-44      | Edamame         |
+| 45-48      | Eggplant        |
+| 49-52      | Garlic          |
+| 53-56      | Gourd           |
+| 57-60      | Lettuce         |
+| 61-64      | Onions          |
+| 65-71      | Other           |
+| 72-75      | Pepper          |
+| 76-79      | Peas            |
+| 80-83      | Potato          |
+| 84-87      | Spinach         |
+| 88-91      | Squash          |
+| 92-95      | Turnip          |
+| 96-99      | Yam             |
+| 100        | Magical/Special |
+^Vegetables
 
 8-9. Fruit. The below are a list of some more common fruits, as well as the general category of fruit they belong to.
 
 
 45-table-3.md
 
-| d100   | Result                                                 |
-|:-------|:-------------------------------------------------------|
-| 1-4    | Apples                                                 |
-| 5-8    | Apricots (stone fruit)                                 |
-| 9-12   | Avocados                                               |
-| 13-16  | Bananas (exotic)                                       |
-| 17-20  | Blueberries (berry)                                    |
-| 21-24  | Cherry (stone fruit)                                   |
-| 25-28  | Grape                                                  |
-| 29-32  | Grapefruit (citrus)                                    |
-| 33-36  | Kiwi (berry)                                           |
-| 37-40  | Lime (citrus)                                          |
-| 41-44  | Mandarin (citrus)                                      |
-| 45-48  | Mango (exotic)                                         |
-| 49-52  | Nectarine (stone fruit)                                |
-| 53-56  | Orange (citrus)                                        |
-| 57-71  | Other                                                  |
-| 72-75  | Passionfruit (berry)                                   |
-| 76-79  | Peach (stone fruit)                                    |
-| 80-83  | Pear                                                   |
-| 84-87  | Plum (stone fruit)                                     |
-| 88-91  | Strawberries (berry)                                   |
-| 92-95  | Tomato                                                 |
-| 96-99  | Watermelon (melon)                                     |
-| 100    | Magical/Special.  Add  1d8×10%  to overall base price. |
+| dice: d100 | Result                                                 |
+|:---------- |:------------------------------------------------------ |
+| 1-4        | Apples                                                 |
+| 5-8        | Apricots (stone fruit)                                 |
+| 9-12       | Avocados                                               |
+| 13-16      | Bananas (exotic)                                       |
+| 17-20      | Blueberries (berry)                                    |
+| 21-24      | Cherry (stone fruit)                                   |
+| 25-28      | Grape                                                  |
+| 29-32      | Grapefruit (citrus)                                    |
+| 33-36      | Kiwi (berry)                                           |
+| 37-40      | Lime (citrus)                                          |
+| 41-44      | Mandarin (citrus)                                      |
+| 45-48      | Mango (exotic)                                         |
+| 49-52      | Nectarine (stone fruit)                                |
+| 53-56      | Orange (citrus)                                        |
+| 57-71      | Other                                                  |
+| 72-75      | Passionfruit (berry)                                   |
+| 76-79      | Peach (stone fruit)                                    |
+| 80-83      | Pear                                                   |
+| 84-87      | Plum (stone fruit)                                     |
+| 88-91      | Strawberries (berry)                                   |
+| 92-95      | Tomato                                                 |
+| 96-99      | Watermelon (melon)                                     |
+| 100        | Magical/Special.  Add  1d8×10%  to overall base price. |
+^Fruit
 
-Nuts/Spices/Other. The most rare, and most valuable, category of agricultural vegetables. Spices use the spice category on the Rare Trade Goods table, nuts and other vegetables have their base value increased by 2d6×10%.
+
+10 Nuts/Spices/Other. The most rare, and most valuable, category of agricultural vegetables. Spices use the spice category on the Rare Trade Goods table, nuts and other vegetables have their base value increased by 2d6×10%.
 
 46-table-2.md
 
-| d100  | Result                                         |
-|:----- |:---------------------------------------------- |
-| 1-4   | Almond                                         |
-| 5     | Cardamom                                       |
-| 6-9   | Cashew                                         |
-| 10-13 | Chestnut                                       |
-| 14    | Cacao bean                                     |
-| 15    | Clove                                          |
-| 16    | Coconut                                        |
-| 17    | Coffee                                         |
-| 18-20 | Dill                                           |
-| 21-24 | Hazelnut                                       |
-| 25    | Paprika                                        |
-| 26-29 | Pecan                                          |
-| 30-31 | Peppercorns                                    |
-| 32-33 | Marijuana                                      |
-| 3436  | Mint                                           |
-| 37-39 | Mushroom, oyster                               |
-| 40-41 | Mushroom, shitake                              |
-| 42    | Mushroom, psilocybin                           |
-| 43-44 | Nutmeg                                         |
-| 45-61 | Other                                          |
-| 62-65 | Peanut                                         |
-| 66-69 | Pecan                                          |
-| 70-72 | Pine-nut                                       |
-| 73-75 | Pistachio                                      |
-| 76-77 | Poppy                                          |
-| 78-81 | Oregano                                        |
-| 82-84 | Rosemary                                       |
-| 85    | Saffron                                        |
-| 86-89 | Thyme                                          |
-| 90-92 | Tobacco                                        |
-| 93-94 | Turmeric                                       |
-| 95    | Vanilla                                        |
-| 96-99 | Walnut                                         |
-| 100   | Magical/Special.  Add  2d6×10%  to base price. |
-
+| dice: d100 | Result                                         |
+|:---------- |:---------------------------------------------- |
+| 1-4        | Almond                                         |
+| 5          | Cardamom                                       |
+| 6-9        | Cashew                                         |
+| 10-13      | Chestnut                                       |
+| 14         | Cacao bean                                     |
+| 15         | Clove                                          |
+| 16         | Coconut                                        |
+| 17         | Coffee                                         |
+| 18-20      | Dill                                           |
+| 21-24      | Hazelnut                                       |
+| 25         | Paprika                                        |
+| 26-29      | Pecan                                          |
+| 30-31      | Peppercorns                                    |
+| 32-33      | Marijuana                                      |
+| 3436       | Mint                                           |
+| 37-39      | Mushroom, oyster                               |
+| 40-41      | Mushroom, shitake                              |
+| 42         | Mushroom, psilocybin                           |
+| 43-44      | Nutmeg                                         |
+| 45-61      | Other                                          |
+| 62-65      | Peanut                                         |
+| 66-69      | Pecan                                          |
+| 70-72      | Pine-nut                                       |
+| 73-75      | Pistachio                                      |
+| 76-77      | Poppy                                          |
+| 78-81      | Oregano                                        |
+| 82-84      | Rosemary                                       |
+| 85         | Saffron                                        |
+| 86-89      | Thyme                                          |
+| 90-92      | Tobacco                                        |
+| 93-94      | Turmeric                                       |
+| 95         | Vanilla                                        |
+| 96-99      | Walnut                                         |
+| 100        | Magical/Special.  Add  2d6×10%  to base price. |
+^Nuts
 
 Wild
 
 The following plants can be found growing wild and have agricultural, alchemical, or medicinal uses. Use the Spice row on the Rare Trade Goods table.
 
 
-
-
 46-table-1.md
 
-| d100  | Result                                      |
-|:----- |:------------------------------------------- |
-| 1-4   | Aloe vera                                   |
-| 5-8   | Angelica                                    |
-| 9-12  | Arnica                                      |
-| 13-16 | Belladonna                                  |
-| 17-20 | Burdock                                     |
-| 21-24 | Cohosh                                      |
-| 25-28 | Comfrey                                     |
-| 29-32 | Coneflower                                  |
-| 33-36 | Dandelion                                   |
-| 37-40 | Foxglove                                    |
-| 41-44 | Ginseng                                     |
-| 45-48 | Hawthorn                                    |
-| 49-52 | Horsetail                                   |
-| 53-56 | Marshmallow                                 |
-| 57-60 | Mushrooms                                   |
-| 61-64 | Neem                                        |
-| 65-68 | Nettles                                     |
-| 69-78 | Other                                       |
-| 79-82 | Rosehips                                    |
-| 83-86 | Seaweed                                     |
-| 87-91 | Snakeroot                                   |
-| 92-95 | Thistle                                     | 
-| 96-99 | Wolfsbane                                   |
-| 100   | Magic/Special.  Add  1d8×10% to base price. |
+| dice: d100 | Result                                      |
+|:---------- |:------------------------------------------- |
+| 1-4        | Aloe vera                                   |
+| 5-8        | Angelica                                    |
+| 9-12       | Arnica                                      |
+| 13-16      | Belladonna                                  |
+| 17-20      | Burdock                                     |
+| 21-24      | Cohosh                                      |
+| 25-28      | Comfrey                                     |
+| 29-32      | Coneflower                                  |
+| 33-36      | Dandelion                                   |
+| 37-40      | Foxglove                                    |
+| 41-44      | Ginseng                                     |
+| 45-48      | Hawthorn                                    |
+| 49-52      | Horsetail                                   |
+| 53-56      | Marshmallow                                 |
+| 57-60      | Mushrooms                                   |
+| 61-64      | Neem                                        |
+| 65-68      | Nettles                                     |
+| 69-78      | Other                                       |
+| 79-82      | Rosehips                                    |
+| 83-86      | Seaweed                                     |
+| 87-91      | Snakeroot                                   |
+| 92-95      | Thistle                                     |
+| 96-99      | Wolfsbane                                   |
+| 100        | Magic/Special.  Add  1d8×10% to base price. |
+^WildPlants
+
 
 #### Vegetabel, industrial
-Plant resources that are used for building, construction, etc., as well as other uses such as fibers for ropes and clothing. These are divided into three basic categories: (1-3) Basic, (4-5) Structural, (6) Luxury.
+Plant resources that are used for building, construction, etc., as well as other uses such as fibers for ropes and clothing. These are divided into three basic categories: 
+
+| dice: 1d6 |                                                             |
+| --------- | ----------------------------------------------------------- |
+| 1-3       | Basic `dice: [[Fill#^industrialVegetablesBasic]]`           |
+| 4-5       | Structural `dice: [[Fill#^industrialVegetablesStructural]]` |
+| 6         | Luxury `dice: [[Fill#^industrialVegetablesLuxury]]`         |
+^industVegMaster
 
 Basic. This category includes all vegetable goods for textiles, paper, and basic construction work; firewood, scaffolding, lath, etc.
 
 
 46-table-3.md
 
-| d100  | Result                                                                                                                                  |
-|:----- |:--------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-5   | Bamboo                                                                                                                                  |
-| 6-10  | Birch-bark                                                                                                                              |
-| 11-15 | Cotton                                                                                                                                  |
-| 16-20 | Flax                                                                                                                                    |
-| 21-25 | Grasses (for basketry or similar)                                                                                                       |
-| 26-30 | Hemp                                                                                                                                    |
-| 31-35 | Jute                                                                                                                                    |
-| 36-40 | Other                                                                                                                                   |
-| 41-45 | Palm                                                                                                                                    |
-| 46-50 | Papyrus                                                                                                                                 |
-| 51-55 | Seaweed (reroll if not appropriate)                                                                                                     |
-| 56-60 | Sisal                                                                                                                                   |
-| 61-65 | Straw                                                                                                                                   |
-| 66-99 | Wood  (roll  on  the  (1-4)  Structural or (5-6) Luxury table below, but use the  Wood,  Common  row  on  the Common Trade Goods table) |
-| 100   | Magical/Special. Add 5d10×10% to base price.                                                                                            |
+| dice: d100 | Result                                                                                                                                  |                          |
+|:---------- |:--------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| 1-5        | Bamboo                                                                                                                                  |                          |
+| 6-10       | Birch-bark                                                                                                                              |                          |
+| 11-15      | Cotton                                                                                                                                  |                          |
+| 16-20      | Flax                                                                                                                                    |                          |
+| 21-25      | Grasses                                                                                                                                 | for basketry or similar) |
+| 26-30      | Hemp                                                                                                                                    |                          |
+| 31-35      | Jute                                                                                                                                    |                          |
+| 36-40      | Other                                                                                                                                   |                          |
+| 41-45      | Palm                                                                                                                                    |                          |
+| 46-50      | Papyrus                                                                                                                                 |                          |
+| 51-55      | Seaweed (reroll if not appropriate)                                                                                                     |                          |
+| 56-60      | Sisal                                                                                                                                   |                          |
+| 61-65      | Straw                                                                                                                                   |                          |
+| 66-99      | Wood  (roll  on  the  (1-4)  Structural or (5-6) Luxury table below, but use the  Wood,  Common  row  on  the Common Trade Goods table) |                          |
+| 100        | Magical/Special. Add 5d10×10% to base price.                                                                                            |                          |
+^industrialVegetablesBasic
+
 
 Structural. Includes trees and plants used for construction, from buildings to other structures, carts, wagons, boats, etc. Use the Wood, Common row on the Common Trade Goods table but with a base cost of 250 gp.
 
 
 47-table-4.md
 
-| d100  | Result                                            |
-|:----- |:------------------------------------------------- |
-| 1-4   | Ash                                               |
-| 5-8   | Alder                                             |
-| 9-12  | Birch                                             |
-| 13-16 | Cedar                                             |
-| 17-20 | Cherry                                            |
-| 21-24 | Chestnut                                          |
-| 25-28 | Cottonwood                                        |
-| 29-32 | Eucalyptus                                        |
-| 33-36 | Fir                                               |
-| 37-40 | Ginkgo                                            |
-| 41-44 | Hickory                                           |
-| 45-48 | Larch                                             |
-| 49-52 | Maple                                             |
-| 53-56 | Oak                                               |
-| 57-67 | Other                                             |
-| 68-71 | Pine, yellow                                      |
-| 72-75 | Poplar                                            |
-| 76-79 | Purpleheart                                       |
-| 80-83 | Redwood                                           |
-| 84-87 | Spruce                                            |
-| 88-91 | Sycamore                                          |
-| 92-95 | Yellow-wood                                       |
-| 96-99 | Yew                                               |
-| 100   | Magical/Special.  Add  1d8×10%  to the base cost. |
-
+| dice: d100 | Result                                            |
+|:---------- |:------------------------------------------------- |
+| 1-4        | Ash                                               |
+| 5-8        | Alder                                             |
+| 9-12       | Birch                                             |
+| 13-16      | Cedar                                             |
+| 17-20      | Cherry                                            |
+| 21-24      | Chestnut                                          |
+| 25-28      | Cottonwood                                        |
+| 29-32      | Eucalyptus                                        |
+| 33-36      | Fir                                               |
+| 37-40      | Ginkgo                                            |
+| 41-44      | Hickory                                           |
+| 45-48      | Larch                                             |
+| 49-52      | Maple                                             |
+| 53-56      | Oak                                               |
+| 57-67      | Other                                             |
+| 68-71      | Pine, yellow                                      |
+| 72-75      | Poplar                                            |
+| 76-79      | Purpleheart                                       |
+| 80-83      | Redwood                                           |
+| 84-87      | Spruce                                            |
+| 88-91      | Sycamore                                          |
+| 92-95      | Yellow-wood                                       |
+| 96-99      | Yew                                               |
+| 100        | Magical/Special.  Add  1d8×10%  to the base cost. |
+^industrialVegetablesStructural
 
 100. Luxury. Rare or exotic trees used for furniture, high- end woodworking, lavish details in royal dwellings, etc.
 
 
-| d100   | Result                                                                                                                          |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------|
-| 1-4    | Bubinga                                                                                                                         |
-| 5-8    | Camphor                                                                                                                         |
-| 9-12   | Claro Walnut                                                                                                                    |
-| 13-16  | Cocobolo                                                                                                                        |
-| 17-20  | Ebony                                                                                                                           |
-| 21-24  | Elm                                                                                                                             |
-| 25-28  | Holly                                                                                                                           |
-| 29-32  | Hornbeam                                                                                                                        |
-| 33-36  | Koa                                                                                                                             |
-| 37-40  | Laurel                                                                                                                          |
-| 41-44  | Madrone                                                                                                                         |
-| 45-48  | Mahogany                                                                                                                        |
-| 49-52  | Mango                                                                                                                           |
-| 53-56  | Olive                                                                                                                           |
-| 57-68  | Other                                                                                                                           |
-| 69-79  | Other  Wood  Species.  Roll  on  the structural  table for  a  wood.  This represents  an  exemplary  specimen of that species. |
-| 80-83  | Rosewood                                                                                                                        |
-| 84-87  | Sandalwood                                                                                                                      |
-| 88-91  | Tamo Ash                                                                                                                        |
-| 92-95  | Teak                                                                                                                            |
-| 96-99  | Walnut                                                                                                                          |
-| 100    | Magical/Special.  Add  1d8×10%  to the overall base cost.                                                                       |
+| dice: d100 | Result                                                                                                                          |
+|:---------- |:------------------------------------------------------------------------------------------------------------------------------- |
+| 1-4        | Bubinga                                                                                                                         |
+| 5-8        | Camphor                                                                                                                         |
+| 9-12       | Claro Walnut                                                                                                                    |
+| 13-16      | Cocobolo                                                                                                                        |
+| 17-20      | Ebony                                                                                                                           |
+| 21-24      | Elm                                                                                                                             |
+| 25-28      | Holly                                                                                                                           |
+| 29-32      | Hornbeam                                                                                                                        |
+| 33-36      | Koa                                                                                                                             |
+| 37-40      | Laurel                                                                                                                          |
+| 41-44      | Madrone                                                                                                                         |
+| 45-48      | Mahogany                                                                                                                        |
+| 49-52      | Mango                                                                                                                           |
+| 53-56      | Olive                                                                                                                           |
+| 57-68      | Other                                                                                                                           |
+| 69-79      | Other  Wood  Species.  Roll  on  the structural  table for  a  wood.  This represents  an  exemplary  specimen of that species. |
+| 80-83      | Rosewood                                                                                                                        |
+| 84-87      | Sandalwood                                                                                                                      |
+| 88-91      | Tamo Ash                                                                                                                        |
+| 92-95      | Teak                                                                                                                            |
+| 96-99      | Walnut                                                                                                                          |
+| 100        | Magical/Special.  Add  1d8×10%  to the overall base cost.                                                                       |
+^industrialVegetablesLuxury
 
 ### Hazard
+Hazards range from quicksand and slippery slopes to carnivorous plants and unstable magical zones. They are either constant threats, such as a patch of quicksand, or events that are triggered once the party enters a specific subhex, such as a sinkhole that opens up under them, or a wildfire that starts burning. If it could be either constant or triggered roll 1d6. On a result of 1-2 the hazard is constant, 3-6 it is triggered when the adventurers enter the area.
+
+Roll 1d10 to determine what the hazard is . . . 
+
+
+| dice: 1d10 |                      |
+| ---------- | -------------------- |
+| 1-3        | . Geological         |
+| 4-6        | . Plant-based        |
+| 7-9        | . Weather/climate    |
+| 10         | . Magical or Unusual |
+^HazardMaster
+
+
+The hazard can be found in . . .  
+
+| dice: 1d100 |                          |
+| ----------- | ------------------------ |
+| 1-50        | 1 subhex               |
+| 51-75       | `dice: 1d4+1` subhexes |
+| 76-85       | `dice: 3d6` subhexes   |
+| 86-95.      | `dice: 3d10` subhexes    |
+| 96-100      | `dice: 1d4` hexes      |
+
+|If the hazard is Weather/Climate add 10 to the roll.
+
+
+#### Geologic
+
+Geologic hazards are terrain-based. They can be spotted
+
+as per secret doors. Dwarves, druids, and other nature- based classes have the same chances of spotting these hazards as elves.
+
+1-20. Concealed holes. These are smaller holes that largely pose a danger to mounts; oftentimes animal holes concealed in undergrowth. When passing through a hex with this hazard all travelers (or their mounts) must Save v. Wands. Those failing suffer twisted ankles, reducing movement by 1⁄2 for 1d4 days. There’s a 1-2 in 6 chance that horses or similar are lamed permanently unless magically healed.
+
+If the party is accompanied by an experienced scout, ranger, or native to the region there’s a 1-2 in 6 chance of avoiding this hazard altogether, and even if they don’t travelers gain a +2 bonus to saves during this time.
+
+21-40. Falling objects. Travelers in these hexes run the risk of injury from falling objects, likely branches from overhead trees or rocks. All passing through the hex must Save v. Wands or suffer (1-3) 1d6–1 points of damage, (4-5) 2d4 points of damage, or (6) 2d8 points of damage.
+
+If the party is accompanied by an experienced scout, ranger, or native to the region they gain a +2 bonus to this save.
+
+41-60. Quicksand. The ground is saturated here, creating areas of quicksand. There are (1-3) a single pool of quicksand, (4-5) a few pools of quicksand, (6) many pools of quicksand. A single pool of quicksand is a single hazard that must be dealt with once and reduces the party’s movement by 25%. A few pools are two hazards that are dealt with separately, reducing the party’s movement by 50%. Many pools of quicksand are three hazards, each dealt with individually, and the party’s movement rate is cut by 75% while in this area.
+
+When traveling through an area with quicksand all party members must make Saves v. Death to avoid falling into the quicksand. This hazard is typically not dangerous unless all of the members fall in or people or animals begin to panic. Make a morale check for each NPC and animal that falls into the quicksand. Those that fail the morale check begin to thrash around, dying in 3d6 rounds unless help is available. Assume it takes one person per stuck individual or three people per stuck mount 2d6 rounds to rescue a sinking individual, or double the time and people needed if they are panicking.
+
+Predators can often be found stalking the perimeter of quicksand pits. When a party enters a hex with quicksand make an additional wandering monster check as follows to determine if there is a monster lurking to take advantage of trapped adventurers: 1 in 6 chance if a single pool, 2 in 6 if several, or 4 in 6 if multiple pools.
+
+61-80. Landslide. Loose soil or snow moves quickly downhill, traveling for (1-3) 5d100 feet, (4-5) 10d100 feet, or (6) 10d100 yards. For every 250 feet that a landslide passes over someone they must make a Save v. Death. Failure indicates they take 2d6 points of damage, or half that on a successful save.
+
+Landslides have a width of (1-2) 5d20, (3-4) 10d20, (5) 5d100, or (6)15d100 feet.
+
+Individuals caught in a landslide have 1d8 rounds to react before it hits them. If there is solid shelter available (a wall, perhaps) that can be used they gain a +2 bonus to their saving throws.
+
+Landslides last for 3d6 rounds. At the end of the landslide each member caught in it must make a final Save v. Death. Failure indicates they are buried a number of feet below the surface equal to the amount by which they failed the saving throw. Treat buried individuals as if they were drowning. A success indicates they manage to remain on the surface.
+
+Ex. A character is caught in a landslide and they fail their final Save by 6, meaning they are buried 6 feet under the surface.
+
+81-98. Sinkhole. A large hole opens up underneath the adventurers, threatening to swallow them. It has a diameter of (1-3) 3d10 feet, (4-5) 4d12 feet, or (6)
+
+5d20 feet and will be (1-3) 3d6, (4-5) 4d8, or (6) 5d10 feet deep. There’s a 1-4 in 6 chance it leads to a cave or dungeon complex.
+
+For every five feet in diameter, 1d2 individuals run the risk of falling into the sinkhole. Each character caught in the sinkhole must Save v. Death to avoid tumbling in. Failure indicates they take falling damage equal to the depth of the fall, with a 1-4 in 6 chance they take an additional 1d8 points of damage from falling earth and debris.
+
+99-100. Unusual. These hazards are rare or unusual. If they occur in a location without the necessary terrain features (a volcano appearing in a location without mountains, for instance), the Referee has the option of either rerolling the result for a more appropriate one, or placing the hazard as generated and assuming it is simply an unusual location.
+
+1-50. Geyser. There will be (1-3) one geyser, (4-5) 2d4, or (6) 3d8 spread throughout the subhex, with an additional 1 in 6 chance this feature occurs over 1d20 subhexes.
+
+Geysers are pools of extremely hot (1-4) water or (5-6) mud. There’s only a 1 in 6 chance the pool will be cool enough (relatively) that individuals can enter it without suffering damage; otherwise someone not resistant to fire will suffer 1d6 points of damage for every round they’re within the pool.
+
+Geysers erupt every (1) 1d6 hours, (2-3) 1d8 days, (4-5) 1d4 weeks, (6) 1d4 months. If this is generated as a hazard, assume they erupt upon the adventurers first entering the subhex, with subsequent eruptions occurring on a regular basis thereafter.
+
+Boiling water (or mud) is spread over a radius of (1- 3) 1d20 yards, (4-5) 5d20 yards, or (6) 10d100 yards (reduce ranges for mud eruptions by half), inflicting (1- 3) 1d6, (4-5) 2d6, or (6) 3d6 points of damage. If it is a mud eruption, increase the damage by 1d6. A Save v. Breath reduces the damage by half.
+
+A geyser will erupt for (1-3) 1d6 rounds, (4-5) 1d10 minutes, or (6)1d8 hours.
+
+51-90. Other. Up to the Referee to determine.
+
+91-100. Volcano. A volcano erupts, sending ash and poisonous gas high into the air. The effects of a volcano depend on how close the adventurers are to it. A volcanic eruption will affect a radius of (1) 1d20 subhexes, (2-3) 1d4 hexes, (4-6) 5d20 hexes, (7-11) 10d100 hexes, or (12) an entire continent.
+
+The effects of a volcano include lava, gas, and ash, and are as follows:
+
+Lava affects a relatively small area surrounding the volcano, equal to a few hundred feet for small eruptions and no more than a subhex for the largest of eruptions. Creatures within the range of lava suffer 3d6 points of damage per round, taking half damage if they save against breath weapons. Lava remains a threat for (1- 3) 1d4 rounds, (4-5) 1d10 minutes, or (6) 1d12 hours. Moving out of range is enough the avoid the risk of damage from lava.
+
+Gas affects an area equal to roughly 1/20th of the overall radius of the volcano’s effects, to a maximum range of four hexes from the point of eruption. Creatures within the area of effect take 1 point of suffocation damage for every minute they remain within the effect. Creatures that do not need to breathe are immune to this effect.
+
+Ash is the most widespread hazard, falling within the entire range of the eruption, and divided into zones. Close range is within 1/4 of the overall radius, Medium with 1/4-3/4 of the overall radius, and Long from 3/4 to the outer limit.
+
+Ex. A volcano has a range of 4 subhexes. Those within 1 subhex of the volcano are within close range, those within 2-3 subhexes within medium range, and those in the 4th hex are at long range.
+
+At long range everyone (and everythingthing) is coated in a thin layer of ash that falls for (1-3) 1d10 minutes, (4-5) 1d12 hours, or (6)1d6 days.
+
+At medium range it falls for the same amount of time, but for (1-3) 1d10 rounds, (4-5) 1d10 minutes, or (6) 1d6 hours all breathing creatures suffer a –2 penalty to all 1d20 rolls. After this initial period ash continues to fall for the length of time determined above.
+
+At short range the above applies, but additionally all creatures within range suffer 1d6 points of damage from hot ash.
+
+#### Flora and fauna
+
+These hazards are from living creatures. Animals and magical plants are spotted as per the surprise rules; inanimate plants are spotted as per secret doors. Druids and other nature-based classes have the same chances of spotting these hazards as elves.
+
+1-30. Animals. There are normal animals that present a hazard in this hex. These include:
+
+􏰀 Rabid animals.  
+􏰀 Poisonous snakes, spiders, etc.  
+􏰀 Disturbed bees, hornets, wasps, etc.
+􏰀 Territorial animals defending their territory.
+􏰀 Stampede/panicked animals.
+
+For rabid or poisonous animals roll a single attack against a randomly determined target in the party. If the attack hits, and the target fails a Save against Poison, the target is diseased or poisoned, dying in 1d4 days (diseased) or 1d100 rounds (poisoned) unless cared for.
+
+Disturbed bees and territorial animals take 1d4 hours to resolve, during which time no travel is possible. There’s a 1 in 20 chance that a randomly determined individual takes enough damage to potentially pose a health danger. If this occurs, randomly determine the target. They take 1d6–1 points of damage.
+
+There’s a 1-3 in 6 chance the insects are of the smaller, more annoying mosquito/gnat/midge variety. In this case there’s a 1-2 in 6 chance the insects carry a disease (see below). Even if they don’t, the insects prove annoying. Increase the chance of being surprised while moving through the area by 1. Additionally, if the adventurers are sleeping outside without some form of insect-proof shelter or magical aid there’s a 1-3 in 6 chance per night that the insects are simply too annoying for those sleeping to get the needed rest. This chance is reduced to 1-2 in 6 if the adventurers build a fire.
+
+If the result is for stampede, either (1-3) the adventurers’ mounts and/or pack animals will stampede, or (4-6) the adventurers will be caught in a stampede of a herd of animals native to the region.
+
+If the adventurers’ mounts run the risk of being stampeded make a single morale check for each type of animal (if the mounts consist of war horses, riding horses, and pack mules three morale checks would be made). Those groups that fail the morale check begin to stampede. Those mounts with riders take 1d6 minutes to bring under control (or 1d4 rounds if the rider is an
+
+experienced horseman). Treat those mounts without riders as wilderness chases (p. 116, OSE core) lasting a day at minimum (more if the adventurers insist on tracking down lost animals).
+
+Those on foot are treated as being in the middle of an animal stampede (see below).
+
+If the party is caught in a stampeding herd each mount or individual must make a Save v. Death or suffer 1d6 points of damage. Mounts and NPCs must also make morale checks to avoid being spooked (treat as if targeted by the cause fear spell).
+
+31-60. Poisonous plants (edible). If non-woodswise adventurers attempt to forage for food in these hexes they inadvertently pick poisonous plants instead of harmless varieties. Those that partake of the food must Save v. Poison. Those failing (1-3) become sick as per giant centipede venom, but lasting 4d6 hours, (4-5) take 1d6 points of damage, or (6) die in 1d20 rounds.
+
+61-90. Dangerous plants (contact). While passing through this hex the adventurers come into contact with poisonous or dangerous non-magical plants. Roll below to determine which . . .
+
+1. Contact rash. Annoying but not deadly, each adventurer must Save v. Poison to avoid breaking out in rashes. For 1d6 days those afflicted suffer a –2 penalty to attack rolls and skill checks (if applicable) due to annoyance.
+
+2. Contact Poison. Those touching the plant must Save v. Poison. Those failing suffer (1-2) 1d6 points of damage (3-4) 2d6 points of damage, (5) 3d6 points of damage, (5) death. There’s a 1 in 6 chance the save is made with a (1-3) +1d4 bonus or (4-6) –1d4 penalty.
+
+3. Airborne. As contact rash or contact poison, but airborne with a range of (1-2) 20’, (3-4) 45’, (5) 90’, (6) 120’ or greater.
+
+4. Thorns. Those not wearing metal armor passing through this hex must Save v. Wands or suffer 1d2 points of damage. Passage through this area takes 25% longer.
+
+91-100. Magical plants. A dangerous type of magical plant (including oozes) can be found in this subhex. Some of the threats included below won’t be found in the OSE core book, and the source is noted when appropriate. Some of the below creatures may need to be revamped for the wilderness. Otherwise, these are just treated like a normal encounter.
 
 
 51-table-1.md
 
-| d100   | Result                                                            |
-|:-------|:------------------------------------------------------------------|
-| 1-4    | Amber Creeping Vine (OSRIC, p. 269)                               |
-| 5-8    | Assassin Vine (S&W Monster Book, p. 6)                            |
-| 9-12   | Black Pudding                                                     |
-| 13-16  | Brown Mold (OSRIC, p. 297)                                        |
-| 17-20  | Falshantog-Yoth “The  Hungering  Vines” (S&W Monster Book, p. 32) |
-| 21-24  | Fungal Creeper (S&W Monster Book, p. 34)                          |
-| 25-28  | Gas Spore (LL AEC, p.126)                                         |
-| 29-32  | Gelatinous Cube                                                   |
-| 33-36  | Grey Ooze                                                         |
-| 37-40  | Green Slime                                                       |
-| 41-44  | Ochre Jelly                                                       |
-| 45-64  | Other                                                             |
-| 65-68  | Shambling Mound (LL AEC, p. 136)                                  |
-| 69-72  | Spiderweed (S&W Monster Book, p. 92)                              |
-| 73-76  | Strangleweed (LL AEC, p. 138)                                     |
-| 77-80  | Stunjelly (OSRIC, p. 316)                                         |
-| 81-84  | Trapper (OSRIC, p. 317)                                           |
-| 85-88  | Vampire Tree (S&W Monster Book, p. 103)                           |
-| 89-92  | Violet Fungi (LL AEC, p. 126)                                     |
-| 93-96  | Yellow Mold                                                       |
-| 97-100 | Ygg “Gallows Tree” (S&W Monster Book, p. 109)                     |
+| dice: d100 | Result                                                            |
+|:---------- |:----------------------------------------------------------------- |
+| 1-4        | Amber Creeping Vine (OSRIC, p. 269)                               |
+| 5-8        | Assassin Vine (S&W Monster Book, p. 6)                            |
+| 9-12       | Black Pudding                                                     |
+| 13-16      | Brown Mold (OSRIC, p. 297)                                        |
+| 17-20      | Falshantog-Yoth “The  Hungering  Vines” (S&W Monster Book, p. 32) |
+| 21-24      | Fungal Creeper (S&W Monster Book, p. 34)                          |
+| 25-28      | Gas Spore (LL AEC, p.126)                                         |
+| 29-32      | Gelatinous Cube                                                   |
+| 33-36      | Grey Ooze                                                         |
+| 37-40      | Green Slime                                                       |
+| 41-44      | Ochre Jelly                                                       |
+| 45-64      | Other                                                             |
+| 65-68      | Shambling Mound (LL AEC, p. 136)                                  |
+| 69-72      | Spiderweed (S&W Monster Book, p. 92)                              |
+| 73-76      | Strangleweed (LL AEC, p. 138)                                     |
+| 77-80      | Stunjelly (OSRIC, p. 316)                                         |
+| 81-84      | Trapper (OSRIC, p. 317)                                           |
+| 85-88      | Vampire Tree (S&W Monster Book, p. 103)                           |
+| 89-92      | Violet Fungi (LL AEC, p. 126)                                     |
+| 93-96      | Yellow Mold                                                       |
+| 97-100     | Ygg “Gallows Tree” (S&W Monster Book, p. 109)                     |
+^MagicalPlants
 
+
+#### Weather/climate
+
+These hazards are weather-based, quick hazards that typically affect larger areas than geologic or flora/fauna- based ones. Hurricanes don’t count, for instance, since they are typically slow-moving, gradual hazards. This section will refer to the rules presented in the Random Weather Generation supplement.
+
+1-12. Wildfire. The adventurers will have roughly 1d100 minutes of advance notice of a wildfire (double this if one or more of their party is flying). Wildfires move at a rate of (1) 10’ per round, (2) 20’ per round, (3-4) 30’ per round, (5) 40’ per round, or (6) 50’ per round.
+
+Wildfires present two distinct dangers: fire/heat and smoke inhalation. Individuals that are actually within the flames of a wildfire must Save v. Death for every round they are exposed, taking 1d6 points of damage on a failed save and half that on a successful save. Immunity to normal fires is enough to reduce the damage to 0, but it doesn’t prevent smoke inhalation.
+
+The smoke from a wildfire obscures vision by (1-3) 50%, (4-5) 75%, or (6) 100% within a range of half the size of the fire (thus, the smoke from a wildfire that is two subhexes large will obscure vision to a range or one subhex around the fire). All travelers within the smoke cloud must Save v. Poison for every turn they are within the cloud. Failure indicates they take 1d4 points of damage from smoke inhalation. Taking precautions, such as soaking a rag in water and putting it over one’s mouth and nose, grants a +2 bonus to the save but does not mitigate obscured vision. Those that fail a save are unable to cast spells for one turn after the failed save.
+
+13-24. Lightning strike. A thunderstorm brings lightning to the area. The storm lasts for 1d12 turns, and for each turn there’s a 1 in 100 chance that a random member of the party is struck by lightning. Targets hit by lightning must Save v. Wands, taking 6d6 points of damage on a failed save and half on a successful save. Targets wearing metal armor save with a –2 penalty.
+
+Thunderstorms come on quickly, giving the adventurers only 2d20 minutes to find shelter.
+
+25-36. Tornado. A tornado rips through the area, knocking over small trees, sending debris flying, and damaging buildings. Tornadoes travel at (1) 10’ per round, (2) 20’ per round, (3) 30’ per round, (4) 40’ per round, (5) 50’ per round, or (6) 60’ per round. All of those within (1-3) 30’, (4-5) 45’, or (6) 60’ must Save v. Death for every round they’re within the radius, taking 1d6 points of damage from flying debris on a failed save and half on a successful save. Creatures smaller than a Man (excluding dwarves) must roll less than or equal to their Strength on (1-2) 3d6, (3-5) 4d6, or (6) 5d6 or be flung a number of feet equal to the radius of the effect plus 2d20 feet, taking 1d6 points of damage for every ten feet they are thrown.
+
+The adventurers have 1d20 minutes warning of a tornado. If they take shelter in a low-lying area (such as a ditch) they gain a +2 bonus to saves and roll twice for any Strength checks, taking the better of two results. If this result occurs in an inappropriate area (such as a mountainous region) reroll if desired.
+
+37-48. Flash flooding. Mostly dangerous if the adventurers are in a low-lying area, flash floods come on suddenly, up to 1d10 hours after a heavy rain. Those caught in flash floods only have 2d20 rounds to get to safety, due to how quickly they arrive. If not able to get to safety all within the flood must Save v. Wands twice; the first is to maintain footing, the second to avoid taking damage. If the first save is failed the second is made with a –2 penalty. Those caught in a flash flood take 2d8 points of damage if the second save is failed and half that on a successful save. Additionally, all those who loose their footing must roll less than or equal to their Strength on 4d6 or be swept 5d100 feet downstream, taking 1d6 points of damage for every 50 feet.
+
+Characters wearing metal armor make their saves with a –2 penalty (cumulative with the penalty from a failed first save).
+
+49-55. Earthquake. An earthquake rocks the area. It is (1-3) mild, (4-5) moderate, or (6) severe. Everyone in the area affected must roll equal to or less than their Dexterity on 2d6 (for mild), 3d6 (for moderate), or 4d6 (for severe). Those that fail are knocked prone, taking 1d4–1 points of damage from the fall. Objects also have a chance of falling; there’s a 1-2 (for mild), 1-3 (for moderate), or 1-4 (for severe) in 6 chance that loose objects – including lanterns or torches – are knocked over, potentially starting fires.
+
+Earthquakes occur without warning.
+
+56-72. High Winds. High winds blow through the area, lasting for (1-3) 1d6 turns, (4-5) 1d6 hours, or (6) 2d20 hours. High winds impose a penalty of (1-3) –1, (4-5) –3, or (6) –5 to missile attack rolls, and increase the chance of surprise by 1.
+
+Torches, candles, and regular lanterns have a 1-3 in 6 chance of being extinguished by the high winds. There’s an additional 1-2 in 6 chance the high winds bring a change in weather (see below).
+
+In desert or arid climates there’s a 1-4 in 6 chance dust or sand is whipped up in the wind. For every (1-3) hour, (4-5) turn, or (6) minute the adventurers are exposed to the storm they must Save v. Death or take 1d2 points of damage from the scouring winds/asphyxiation.
+
+73-88. Weather change. The weather changes quickly. Roll again for a new weather result. Weather changes are accompanied by (1-2) high winds, (3-4) thunderstorms, (5-6) both, or (7-10) neither.
+
+89-100. Unusual weather (roll automatically for unusual weather, using the table in Random Weather Generation).
+
+#### Magical or Unusual  
+1-20. Ambush. A threat that lairs nearby (use the methods
+
+for determining Signs, below) has set an ambush to take the adventurers by surprise. The adventurers are surprised on a roll of (1-3) 1-3 in 6, (4-5) 1-4 in 6, or (6) 1-5 in 6, unless otherwise noted in the monster’s description.
+
+21. Chaos Storm. An artifact of the magical energy that permeates the world of Absalom, Chaos storms are rare events that have the potential to change the very landscape of the world itself. In Nadirs (when the forces of Chaos are ascendant) Chaos storms are more prevalent, occurring on a roll of 21 and 55-60.
+
+When a Chaos storm occurs, roll to determine what it alters:
 
 53-table-1.md
 
-| d12   | Result   |
-|:------|:---------|
-| 1-2   | Geologic |
-| 3-4   | Resource |
-| 5-6   | Terrain  |
-| 7-8   | Water    |
-| 9-12  | Magic    |
+| dice: d12 | Result   |
+|:--------- |:-------- |
+| 1-2       | Geologic |
+| 3-4       | Resource |
+| 5-6       | Terrain  |
+| 7-8       | Water    |
+| 9-12      | Magic    |
+
+
+If the result is Geologic, Terrain, or Water roll to determine what the feature is. This feature is instantly introduced into the area affected. If the result is Resource a randomly determined resource (see p. 37) is either (1- 3) introduced or (4-6) removed from the area.
+
+If the result is Magic roll in the Magic section and apply the result to the area.
+
+The onset of a Chaos storm causes headaches and goosebumps in all those within the affected area roughly 1d6 turns before the storm strikes. The only way to avoid being affected by the storm, while remaining in this area, is to take shelter in some form of magic-negating spell, such as an anti-magic shell or similar.
+
+22-50. Disease. A disease is present in the area, usually carried by insects or in the water. All travelers passing through this hex have to make a Save against Poison to avoid the disease. Failure indicates the individual contracts the disease.
+
+The disease can be selected from another source (OSRIC describes some options on p. 131), drawn from the examples in monster entries (such as the disease that giant rats carry), or they can be designed as follows.
+
+Diseases are either (1-5) normal or (6) magical. Normal diseases can be cured through non-magical means, while magical diseases can only be healed by magic.
+
+Diseases cause . . .
 
 
 53-table-2.md
 
-| d100                       | Result                                                                                                                                                                                                                                                     |
-|:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| dice: d100                 | Result                                                                                                                                                                                                                                                     |
+|:-------------------------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1-20                       | Hit point loss. The disease causes (1-3) 1 hp loss  per  interval,  (4-5)  1d4  hp  per  interval, (6) 1d8 hp per interval.                                                                                                                                |
 | 21-40                      | Ability score loss. The disease causes a loss of (1-3) 1 point per interval, (4-5) 1d2 points per  interval,  or  (6)  1d4  points  per  interval. Determine the  score  affected  at  random, although the same disease affects all victims the same way. |
 | 41-45                      | Ability loss. (such as the ability to cast spells) Use discretion here. There’s a 1-5 in 6 chance a disease with this effect is magical.                                                                                                                   |
@@ -3556,39 +3813,100 @@ Structural. Includes trees and plants used for construction, from buildings to o
 | 99-100 Three of the above. |                                                                                                                                                                                                                                                            |
 
 
+The disease has an onset of 1d6 days and lasts for (1-3) 1d12 days, (4-5) 1d4 weeks, or (6) is permanent. The effect is either (1-4) cumulative per time period (day or week) or (5-6) occurs only once but lasts for the duration. An example of a cumulative effect would be a disease that causes a decrease of the sufferer’s Dexterity by 1 for every day they are afflicted.
+
+51-54. Gas Pockets. Gasses vent or gather in the location, posing a danger to travelers. There’s a 1-3 in 6 chance that the presence of the gas has a tangible manifestation that can potentially be noticed, such as dead animals or plants, discoloration, strange smell, etc.
+
+There’s a 1-3 in 6 chance the gas is not permanent but is instead released every (1-3) 1d20 rounds, (4-5) 1d20 turns, (6) 1d20 hours. Roll again to determine how long the cloud remains before dispersing.
+
+Gas pockets cause . . .
+
 54-table-1.md
 
-| d10   | Result                                                                                                                                                                                                                                                                                                                                                   |
-|:------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-2   | Asphyxiation.  There  is  no  oxygen  present in the cloud.  Those  within  will  die  of asphyxiation  within  a  number  of  rounds equal to their Constitution score.                                                                                                                                                                                 |
-| 3-4   | Fire. The gas is extremely flammable. There’s a 1-2 in 6 chance per round that an open flame is present that it bursts like a fireball, doing (1-3)  3d6  points  of  damage,  (4-5)  6d6  points  of damage, or (6) 9d6 points of damage to everyone within  range  unless  they  succeed  on  a  Save  v. Breath (in which case half damage is taken). |
-| 5-6   | Nausea. All within the gas cloud must Save v.  Poison  or  be  affected  with  a  nausea  like that caused by centipede poison, but lasting only 1d4 turns after leaving the cloud.                                                                                                                                                                      |
-| 7-8   | Has an effect other than those listed.                                                                                                                                                                                                                                                                                                                   |
-| 9-10  | Sleep.  All  within  the  cloud  must  Save  v. Poison or fall asleep for (1-3) 1d10 turns, (4-5) 1d12 hours, or (6) until removed from the cloud of gas.                                                                                                                                                                                                |
+| dice: d10 | Result                                                                                                                                                                                                                                                                                                                                                   |
+|:--------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | Asphyxiation.  There  is  no  oxygen  present in the cloud.  Those  within  will  die  of asphyxiation  within  a  number  of  rounds equal to their Constitution score.                                                                                                                                                                                 |
+| 3-4       | Fire. The gas is extremely flammable. There’s a 1-2 in 6 chance per round that an open flame is present that it bursts like a fireball, doing (1-3)  3d6  points  of  damage,  (4-5)  6d6  points  of damage, or (6) 9d6 points of damage to everyone within  range  unless  they  succeed  on  a  Save  v. Breath (in which case half damage is taken). |
+| 5-6       | Nausea. All within the gas cloud must Save v.  Poison  or  be  affected  with  a  nausea  like that caused by centipede poison, but lasting only 1d4 turns after leaving the cloud.                                                                                                                                                                      |
+| 7-8       | Has an effect other than those listed.                                                                                                                                                                                                                                                                                                                   |
+| 9-10      | Sleep.  All  within  the  cloud  must  Save  v. Poison or fall asleep for (1-3) 1d10 turns, (4-5) 1d12 hours, or (6) until removed from the cloud of gas.                                                                                                                                                                                                |
 
+The cloud of gas has a radius of (1-3) 3d20 feet, (4-5) 10d10 feet, or (6) 10d100 feet.
+
+55-75. Other. Up to the Referee’s discretion.
+
+76-99. Trap. Someone, or something, has set a trap. This could be a trap meant to catch an animal, intruders, or specifically tailored to harm the adventurers. Use the general guidelines for designing and placing traps in a dungeon.
+
+100. Magical. Refer to Section 11 and tailor a magical effect as a hazard.
+
+
+
+
+
+
+
+### Sign
+
+
+Potential encounters in adjacent hexes will often leave signs of their presence (note that this covers both monsters and other inhabitants, including Men). When this result is rolled determine which monster has left the sign using Figure 3, below. On a roll of (1-4) the sign has been left by a resident of the present, or primary hex, on a (5-7) by a resident of a secondary hex, and on an (8) by a resident of a tertiary hex (if there is no resident in the tertiary hexes that ranges that far it will be from the secondary ring instead).
+
+If the sign is from the secondary ring roll 1d6, with 1 equaling “a”, 2 equaling “b”, etc. If in the tertiary ring roll 1d12, with 1 equaling “a”, 2 equaling “b”, etc. Refer to p. 8 of Hexcrawl Basics to determine the range of various monsters.
+
+It is up to the Referee to determine the nature of the sign, but it should be a non-dangerous (i.e. it won’t hurt the PCs) clue to what type of threat may lurk nearby. The clue may be relatively obvious, or subtle, but the PCs should be able to easily discover it.
+
+There’s a 1 in 20 chance that a sign will have been left by a transient creature – i.e. one that has passed through and moved on.
+
+Careful examination will reveal that signs are . . .
 
 55-table-1.md
 
-| d10   | Result        |
-|:------|:--------------|
-| 1-2   | 1d4 turns old |
-| 3-4   | 1d4 hours old |
-| 5-6   | 3d8 hours old |
-| 7-8   | 1d4 days old  |
-| 9-10  | 1d8 days old  |
+| dice: d10 | Result        |
+|:--------- |:------------- |
+| 1-2       | 1d4 turns old |
+| 3-4       | 1d4 hours old |
+| 5-6       | 3d8 hours old |
+| 7-8       | 1d4 days old  |
+| 9-10      | 1d8 days old  |
+
+The easiest way to determine which monster left the sign, besides just picking one, is to roll on the wandering monster table. See p. for more information about setting up wandering monster tables.
+
+
+#### Dungeons
+
+Dungeons are, in this context, structures containing two or more rooms with more than one type of monster lairing within, that must be explored in order to eliminate threats/gain treasure.
+
+Dungeons can either be open or closed. The inhabitants of open dungeons are free to leave, to hunt, trade, explore, etc. They are living communities that can potentially change over time, especially if the adventurers only partially clear them out. Closed dungeons are sealed off somehow, whether by seals, traps, magic, etc. They typically are closed ecosystems, with inhabitants either living off what can be produced within the dungeon (or brought from deeper within the earth), or not needing sustenance (undead or constructs).
+
+For purposes of populating hexes this book assumes a difference between monster lairs and dungeons. The number and population of monster lairs are determined separately from the inhabitants of dungeons.
+
+There are multiple other resources, including the OSE core, that can be used to design and populate a dungeon. However, the following are general guidelines that can be used to generate a dungeon’s basic framework.
+
+
+The rules below use the following assumptions:
+
+􏰀Most dungeons will be populated with lower- level threats.
+
+􏰀 Most dungeons will be small, with only 2-10 rooms. The entry level of the dungeon will contain monsters
+
+and challenges appropriate to a . . .
 
 
 56-table-1.md
 
-| d10   | Result                       |
-|:------|:-----------------------------|
-| 1-40  | 1st-level dungeon            |
-| 41-69 | 2nd-level dungeon            |
-| 70-83 | 3rd-level dungeon            |
-| 84-93 | 4th-5th-level dungeon        |
-| 94-97 | 6th-7th-level dungeon        |
-| 98-99 | 8th-9th-level dungeon        |
-| 100   | 10th-level or higher dungeon |
+| dice: d10 | Result                       |
+|:--------- |:---------------------------- |
+| 1-40      | 1st-level dungeon            |
+| 41-69     | 2nd-level dungeon            |
+| 70-83     | 3rd-level dungeon            |
+| 84-93     | 4th-5th-level dungeon        |
+| 94-97     | 6th-7th-level dungeon        |
+| 98-99     | 8th-9th-level dungeon        |
+| 100       | 10th-level or higher dungeon |
+
+
+In Wilderness hexes the Referee may choose to add +10 to the above roll. When appropriate the “level” of a dungeon will be referred to as the Challenge Rating. Therefore, a dungeon with a CR of 3 is appropriate for a party with an average level of 3.
+
+The dungeon is going to contain the following number of chambers . . .
 
 
 57-table-1.md
@@ -3604,7 +3922,39 @@ Structural. Includes trees and plants used for construction, from buildings to o
 | 86-95  | 7d20     |
 | 96-100 | 8d100    |
 
+In Wilderness hexes the Referee may choose to add 5 to
+
+the above roll.  
+These chambers are the total number of rooms within
+
+a dungeon, divided amongst the different levels in some fashion.
+
+For every ten rooms in a dungeon there’s a 5% chance there is another level, with the remaining rooms in the dungeon occupying the lower levels. This chance should be rolled consecutively for each set of ten rooms.
+
+Ex. While creating a dungeon the roll to determine the number of chambers is 78, which means there are 6d10 rooms in the dungeon. The result of that roll is a 31. The first level contains a minimum of 10 rooms, after which we roll 1d100 for every 10 additional rooms. We get a 4 on the second roll, which means that the first level contains 10 rooms before entering the second level. The second floor will contain at least 10 rooms (out of the remaining 21), and at this point we keep adding rooms ten at a time and rolling 1d100. We don’t hit our 1-5% chance, so the dungeon consists of two levels; the first has 10 rooms and the second has 21.
+
+Every level in a dungeon has a 1 in 6 chance of being linked to a sub-level. Sub-levels are sort of “bonus” floors. One of the defining features of sub-levels is that they have limited access; usually only from one floor and, in many cases, the entrance to the sub-level is hidden, trapped or otherwise inaccessible. When determining the number of rooms a sub-level contains roll 3d20 and compare the result to the table above. These rooms are considered additional to the number of rooms in the dungeon, and are not counted when determining when to roll for additional levels.
+
+The dungeon will have one entrance, with a 1-2 in 6 chance of an additional entrance for every fifteen rooms it possesses. Therefore, a dungeon with thirty rooms has a minimum of one entrance and a maximum of three entrances.
+
+
+
 ### Terrain
+This result indicates the terrain for a given area (single sub-hex, random number of subhexes, or the entire hex) will be different from the pre-determined terrain.
+
+Some common terrain types are listed below, grouped into like categories.
+
+Terrain Variances
+
+01-50 Within one degree. The basic terrain type remains the same with a slight change. For instance, farmland, grazing land, grasslands, shrublands and savannas are all flat, relatively treeless terrains that are within one degree of one another. Likewise, a hill could be barren, grassy, or forested and still be within one degree of the basic “hill” type.
+
+51-85 Within two degrees. An area of a grasslands hex could be hilly, or an area of a hilly hex could be mountainous, but a mountain still wouldn’t be found in the middle of a flat plain.
+
+86-95 Unusual. This is an unusual feature that is non- magical in nature but rarely seen. Roll on the table on the following page to determine the actual feature. If the existing terrain doesn’t fit with the feature, roll again.
+
+
+The area the terrain change encompasses is determined as follows . . .
+
 
 58-table-1.md
 
@@ -3617,6 +3967,24 @@ Structural. Includes trees and plants used for construction, from buildings to o
 | 86-95  | 1 hex          |
 | 96-98  | 1d6 hexes      |
 | 99-100 | 2d6 hexes      |
+
+
+
+
+
+The specific area affected by the changed terrain can be chosen by the Referee or determined randomly, as follows. Roll as normal to determine which hex or subhex is the starting hex for the changed terrain, then roll below to determine which adjacent hexes, if any, are also changed, assuming that more than one hex or subhex is included in the altered area. Refer to the sample map on p. 57 for assigning numbers to the hex faces.
+
+1-50. Roll 1d6 and determine which face is the adjacent hex. Continue to do this until there are no more hexes left to place.
+
+51-90. Fill in the starting hex. Roll 1d6 to determine the adjacent hex, then continue to fill in the hexes in a (1-2) counterclockwise, (3-4) clockwise, (5) northerly, or (6) southerly direction.
+
+91-100. Fill in the starting hex. Roll 1d6 to determine the adjacent hex. Continue in a straight line, rolling a 1d6 each time. When the result comes up a 1, stop and refer back to the original hex, rolling 1d6 again to choose an adjacent hex and repeating the process.
+
+
+Terrain Feature Example. Subhex 0406 has a terrain change. The first 1d100 result is a 10, which means the change is within one degree of difference. If we assume the majority of the hex is light forest, let’s call this terrain change heavy forest. Rolling again, the result is a 31; so 1d4+1 subhexes are affected. Rolling 1d4, we determine that 3 subhexes are affected.
+
+Rolling 1d100, the result indicates we will use the first method for allocating the changed terrain among subhexes. Beginning at subhex 0406 the first 1d6 roll is a 2, indicating that subhex 0505 is the next affected subhex, and the result after that is a 4, meaning that subhex 0506 is the third to be affected.
+
 
 
 59-table-1.md
@@ -3731,6 +4099,26 @@ MULTIPLE
 ^TerrainFlat
 
 
+
+### Settlements
+This category is used to outline the settlements that exist in a hex. It is up to the Referee how to place these urban centers. This section may be used only to place settlements in Borderlands and/or Wilderness hexes, or it could be used to place all of the settlements in the campaign world. Note that this section uses the rules for urban centers described in the free book Domain Building.
+
+Regardless, some care must be taken when placing settlements. They should be placed in appropriate locations: if there is a river or body of water in a hex, the settlement should be near the body of water, for instance. If random rolls indicate that more than one settlement exists in a single 6-mile hex the decision must be made to explain why that is, or whether the multiple settlements would be better served combined into a single center.
+
+Likewise, when a settlement is placed on the map some
+
+thought should go into the infrastructure needed to support the settlement. The larger the settlement, the more infrastructure – farms and ranches, roads, keeps, etc. – is needed to support it. Is the settlement part of another domain, or is it an independent domain itself?
+
+An assumption is made that in Civilized domains there is a settlement in each hex. These common settlements typically range in size from Market Classes 1 to 3; they’re small, relatively inconsequential villages and hamlets that exist mostly as background noise unless they are needed to serve a particular purpose – as the setting for an adventure, or perhaps an important NPC lives there.
+
+As the percentages are determined now, each hex has a 1 in 20 chance per feature of having a settlement in it. Depending on how densely populated the campaign world is the Referee may want to reduce the chances of a settlement in Borderlands or Wilderness hexes. It is suggested that when the Settlement result is rolled in these hexes that an additional 1d6 is rolled. In Borderland hexes if the result is a 1-5 there is a settlement present. If the result is a 6 there is no settlement, and the feature result is re-rolled. In Wilderness hexes, if the result is a 1-3 there is a settlement, and if the result is 4-6 there is no settlement, the result rolled again.
+
+The presence of a settlement has the potential to change a hex designation. The larger the settlement, the less likely it is to be found in Wilderness or Borderland hexes. One solution would be to modify the map to add a new domain. Another would be to assume the settlement is unable to project the power needed to pacify the surrounding territory. Perhaps it is an ancient city in decline, fallen into decadence and infighting, or perhaps it simply doesn’t have the resources needed to tame the surrounding lands.
+
+Additionally, settlements in Wilderness hexes have a 1 in 6 chance of being abandoned by their original residents. Those in Borderland hexes have a 1 in 10 chance of being abandoned.
+
+When first determining the size of a settlement roll 1d6. On a result of 1-3 roll on Table 1. On a result of 4-5 roll on Table 2. On a result of 6 roll on Table 3.
+
 62-table-1.md
 
 | Table 3                | Unnamed: 1      |
@@ -3742,16 +4130,6 @@ MULTIPLE
 | 66-86                  | Class 8 Market  |
 | 86-98                  | Class 9 Market. |
 | 99-100 Class 10 Market |                 |
-
-
-62-table-2.md
-
-| d100         | Result      |
-|:-------------|:------------|
-| 1-50         | Humans      |
-| 51-75        | Demi-Humans |
-| 76-90        | Humanoids   |
-| 91-100 Other |             |
 
 
 62-table-3.md
@@ -3779,6 +4157,41 @@ MULTIPLE
 | 100       | Class 7 Market |
 
 
+The settlement will primarily be composed of . . .
+
+
+62-table-2.md
+
+| d100   | Result      |
+|:------ |:----------- |
+| 1-50   | Humans      |
+| 51-75  | Demi-Humans |
+| 76-90  | Humanoids   |
+| 91-100 | Other       |
+
+
+The above proportions can be changed based upon the abundance or scarcity of different races in the Referee’s campaign.
+
+The exact composition of the settlement is left up to the Referee’s discretion.
+
+### Water
+
+Water will be one of the most common features in most hexes, except for dry or arid regions. If this category is rolled in the following terrain types: Desert, Badlands, Broken Lands, Arid Plains or Arid Hills, roll 1d6. On a result of 1-2 (1-4 in Desert) there is no water, but rather evidence of previous water; dusty lakebeds, dry canyons where rivers used to run, etc. In addition, results should be adjusted downwards to reflect the terrain type: creeks, ponds and lakes are much less common in certain arid climates and will almost always be either springs/oases or bodies of water than are only present during certain parts of the year (the rainy season, summer when higher elevation snows melt, or during the occasional rainstorm).
+
+There are two broad types of water features that will be found within a hex: (1-3) Flowing and (4-6) Still bodies. Flowing water includes things like creeks, rivers and streams, while still bodies are springs, ponds, lakes, etc. In most cases still bodies will be fed by one or more flowing bodies of water, but not in all. An underground spring might feed a small pond with no outlet, the rate of water evaporation keeping up with the speed at which water is added.
+
+Most land that is relatively habitable (outside of those listed above) will have multiple sources of water within a single hex. It is outside the scope of this supplement to
+
+place all of the small creeks, springs, brooks, and ponds that will be found in 32 square miles (or however large your hexes are). Most sources of water, therefore, are handwaved; streams and brooks easily forded, springs marked on the map but otherwise ignored, etc. It can easily be assumed that in most areas there will be plenty of water sources that can be used to fill waterskins and slake the thirst of mounts and adventurers.
+
+The thrust of this section, therefore, is to identify water sources of note within a hex.
+
+#### Flowing Water
+
+As a general rule of thumb you can step across a brook, jump across a creek, wade across a stream and swim across a river. Some other basic rules apply: water will typically flow towards a larger body of water, and downhill, with smaller courses of water generally joining up to form larger bodies of water.
+
+The water feature will be a . . .
+
 63-table-1.md
 
 | d100   | Result   |
@@ -3788,6 +4201,9 @@ MULTIPLE
 | 61-85  | Stream   |
 | 86-100 | River    |
 
+A moving body of water will typically be no deeper than one quarter its width. A brook that is a foot wide will be, on average, three inches deep, while a river that is 100 feet wide will be no more than 25 feet deep in the middle. The wider a river is the shallower it will be proportionally, unlike the smaller bodies of water, and narrow rivers have a tendency to be deeper than wider rivers.
+
+Brooks are 1d3 feet wide, creeks 1d4+1, and streams 3d4 feet in width. Rivers can be . . .
 
 64-table-1.md
 
@@ -3798,6 +4214,35 @@ MULTIPLE
 | 76-90  | 10d100 feet wide  |
 | 91-100 | 10d100 yards wide |
 
+Streams that are wider than 9 feet are typically only navigable via canoe or extremely small watercraft. Rivers that range from 10-30 feet wide are only navigable by canoes or other small, shallow draft craft. Most rivers can be plied by flat bottom craft or rafts; those deeper than fifteen feet or so can be sailed by boats with keels. As a general rule, boats can sail on waters with a minimum depth of four times the boat’s draft without worrying about grounding.
+
+Brooks are: (1-2) 10d100 feet, (3-4) 1d4 miles, or (5-6) 1d8 miles long before: (1-2) disappearing (water dries up or goes underground) or (3-6) merging with: (1-3) another moving source of water or (4-6) a still body.
+
+Creeks are (1-2) 1d4 miles, (3-4) 2d4 miles, or (5-6) 3d4 miles long before: (1) disappearing (water dries up or goes underground) or (2-6) merging with: (1-3) another moving source of water or (4-6) still body.
+
+Streams are (1-2) 1d8 miles, (3-4) 2d8 miles, or (5- 6) 3d8 miles long before merging with: (1-3) another moving source of water or (4-6) still body.
+
+Rivers are (1) 1d8 miles long, (2) 2d10 miles long, (3) 3d20 miles long, (4) 5d20 miles long, (5) 5d100 miles long, or (6) 10d100 miles long. They will merge with (1-3) another moving body of water or (4-6) a still body of water.
+
+As a general rule moving bodies of water will be freshwater, although there’s a 1 in 6 chance there’s something unusual about the waterway: It is (1- 3) extremely alkaline or acidic, causing nausea as described on p., above, (4-5) brackish (a mixture of salt and freshwater), or (6) has a unique property (refer to the magic section).
+
+While to some degree the direction of flow of a watercourse will be determined by the geography, the Referee can also randomly determine the direction of flow using the rules presented in the Roads section on p.23
+
+1-5 in 6 bodies of moving water have a special feature, drawn from the list below. Note that these features are usually (1-5 in 6) only found in specific sections of the waterway (i.e. where they are generated), but there is a chance that these traits are exhibited over the entire length.
+
+Note that the term “river” is used below to describe any moving body of water, regardless of size. Roll once per river to determine a defining feature.
+
+1-10. Deltas. The river widens and gets shallower as it meets a larger body of water, whether (1-4) another stream or (5-6) a still body. It gets 2d4 times wider and the same proportion shallower.
+
+There’s a 1 in 6 chance the delta becomes a bayou, a much wider (10d20 times), marshy piece of land that filters the water from the river into the larger body. Bayous are swamps, difficult to navigate on foot, but teeming with wildlife, thick foliage, and plentiful insects.
+
+11-20. Dry bed. The source of water has either (1-3) dried up or (4-6) moved elsewhere, leaving a dried riverbed behind as evidence it once existed. If it has dried up there’s a 1 in 6 chance that the source of the water is actually being blocked by something – perhaps a beaver dam, or something more nefarious.
+
+If the source is not being blocked there’s a 1-2 in 6 chance – increased to 1-3 in 6 for arid climates – that the source of the water is seasonal or weather dependent; it either flows only (1-3) after winter when snow melts, for 1d8 months afterwards, (4-5) during a local rainy season, or (6) after heavy rains.
+
+Depending on how long ago the river vanished the bed will be in varying states of overgrowth; the longer ago it occurred the more likely the bed will be difficult to spot, and is in the process of being filled in through erosion.
+
+The river will have disappeared . . .
 
 64-table-2.md
 
@@ -3810,6 +4255,18 @@ MULTIPLE
 | 91-100 | 10d100 years prior |
 
 
+21-35. Fishing. This section of the river is exceptional for fishing. (1-4) Double or (5-6) treble the chance for “hunting” as described on p. 110 of OSE core. If successful, enough fish (or other appropriate food, like clams, crawfish, etc.) can be caught in a day to feed (1-3) 2d6, (4-5) 3d8, or (6) 4d10 individuals. If using the resource rules from Domain Building increase the “Animal, game” resource of this hex by 1d6×.1
+
+36-45. Islands. The stream or river is wide enough to have an island. It will be (1-4) singular or (5-6) 1d4 islands within the given area. An island is typically no wider than one half the width of the river itself, and (1-3) as long as it is wide or (4-6) 2d4 times as long as it is wide.
+
+The island may certainly be inhabited, either by intelligent creatures or animals. There’s a 1 in 6 chance the terrain type on the island differs from that around the river.
+
+46. Magic. There’s some magical quality about the river. Refer to the Chapter on Magic to determine what it is.
+
+47-57. Pool. The river widens and slows down here, creating a relatively large, slow-moving pool of water that is 2d4 times wider than the average width of the river. The depth will (1-2) get shallower, (3-4) get deeper, or (5-6) not change.
+
+58-60. Rapids. The river picks up speed as it runs downhill, creating turbulence in the water. The rapids are . . .
+
 65-table-1.md
 
 | d100   | Result           |
@@ -3820,6 +4277,31 @@ MULTIPLE
 | 76-100 | 1d8 miles long   |
 
 
+
+They are dangerous to navigate. When entering rapids by boat, an attack roll is made as follows:
+
+Roll to attack when the boat first enters the rapids, every mile thereafter, and when it leaves the rapids.
+
+The attack roll is made as a (1-3) 3 HD monster, (4-5) 5 HD monster, or (6) 8 HD monster.
+
+Each successful “attack” does 2d6 points of damage to the boat. Failed attacks still do 1 point of damage, unless a natural 1 is rolled, in which case the boat suffers no damage.
+
+Ex. The adventurers’ canoe enters a stretch of rapids that is 1⁄4 mile long. An attack roll is made twice; once when they enter and once when they leave. If the rapids were two miles long, four attack rolls would be made.
+
+Skilled outdoorspeople steering the craft can raise the boat’s AC by 1d6 (depending on the Referee’s judgment.
+
+Each time an attack is made those within must Save v. Petrification with a +2 bonus. Failure indicates the individual falls overboard. Adventurers that fall overboard suffer 1d4 points of damage from the buffeting water and have their chance of drowning increased by 25%.
+
+If the river is used by civilized races there is a 1-4 in 6 chance that some means of passage around the rapids has been established, whether it be a portage, canal, or something else.
+
+61-65. Rocks. There are a number of large rocks in this section of river, reducing its effective depth by (1-3) 25%, (4-5) 50%, or (6) 75%.
+
+66-70. Swamp/marsh/bog. The land surrounding the watercourse is saturated, creating a marsh or swamp. It covers (1-3) 1 subhex, (4-5) 1d4 subhexes, (6-7) 2d6 subhexes, (8) 3d8 subhexes, (9) 1 full hex, or (10) 1d4 hexes. Roll 1d4 if the body of water is a brook or smaller, 1d6 if a creek, 1d8 if a stream, and 1d10 if a river.
+
+71-90. Tributaries. The river either (1-3) joins with another source of water of equal or greater size or (4-6) is joined by another source of water of equal or lesser size. Add the width of the two together to get the new width.
+
+91-95. Waterfalls. Due to an abrupt change in elevation the river plunges steeply downhill. The waterfall is . . .
+
 66-table-1.md
 
 | d100   | Result           |
@@ -3829,6 +4311,32 @@ MULTIPLE
 | 76-90  | 3d100 feet high  |
 | 91-99  | 10d100 feet high |
 | 100    | 20d100 feet high |
+
+Waterfalls often (1-4 in 6) form a pool of water at their base.
+
+96. Whirlpools. The water swirls around, dragging objects on the surface underwater. Those that have the potential to be caught in a whirlpool must Save v. Petrification. Failure indicates they are caught and suffer a double normal chance of drowning.
+
+97-100. Roll twice, rerolling if a result is not appropriate. 10.2. Still Water
+
+#### Still Water
+
+Even though large bodies of water such as seas and oceans are anything but still, they are still classified in this category, which is largely defined as bodies of water bordered by land.
+
+Roll below to determine the size of the body of water. If the Referee has already placed large bodies of water and coastlines, the range in parenthesis can be used to ignore the larger bodies of water.
+
+Springs, ponds, and lakes will be freshwater unless fed by sources that are otherwise. Bays, sounds, and fjords are (1-3) brackish, (4-5) freshwater, or (6) saltwater. Gulfs, seas, and oceans have a 1 in 20 chance of being freshwater.
+
+1-30 (1-45). Spring. Water wells up from the ground here. The spring will often (1-4 in 6 chance) feed a brook; otherwise it will seep back into the ground or evaporate.
+
+The spring is 3d6 feet in diameter and 1d4 feet deep.
+
+31-50 (46-80). Pond. Larger than a spring, ponds will be (1-2) 5d20 feet in diameter, (3-4) 10d20 feet in diameter, (5) 5d100 feet in diameter, or (6) 10d100 feet in diameter.
+
+They average 1d8 feet in depth.
+
+Ponds have a 1 in 6 chance of being spring-fed, and a further 1 in 6 chance of having no outlet; the amount of water in the pond stays stable due to evaporation and/or ground seepage. Otherwise, there will typically be 1d2 brooks (1-3) or creeks (4-6) feeding into and leaving the pond.
+
+51-75 (81-100). Lake. Larger than ponds, lakes are usually fed by multiple sources of water. They will be . . .
 
 
 66-table-2.md
@@ -3845,6 +4353,20 @@ MULTIPLE
 ^232946
 
 
+The lake will be (1-2) deeper than normal by a factor of 1d4+1, (3-4) shallower than normal by a factor of 1d4+1, or (5-8) the indicated depth.
+
+For every size category above the lake will be fed by a combination of moving water sources. As a general rule, each size category will have a single river or large stream feeding it, and multiple streams, creeks, and brooks.
+
+76-80. Bay. Bays are concave stretches of coastline, primarily bordering oceans and seas, but potentially large lakes as well. They tend to be calmer and more protected from wind and waves than the more exposed coast, so typically will be used as prime settlement sites.
+
+Typically, each hex that lines a bay has a 1-3 in 6 chance of a settlement. This chance is increased by 1d2 in Civilized areas and decreased by 1d2 in Wilderness hexes.
+
+A bay will typically have at least one river feeding into it. If settlements are present they will be found by a river on a roll of 1-5 in 6, as rivers offer a source of freshwater and the potential for easy trade with the interior.
+
+A bay will have a mouth that is . . .
+
+
+
 66-table-3.md
 
 | d100   | Result                                                                  |
@@ -3857,6 +4379,20 @@ MULTIPLE
 | 86-100 | 5d20 miles wide                                                         |
 
 
+Bays tend to be around 10d20 feet deep.
+
+There’s a 1 in 8 chance that a bay has a restricted entrance or dangerous waters at the mouth. These are due to (1- 2) rocks near the surface, (3-4) sandbars, or (5-6) coral reefs. If so, the bay will be (1-3) navigable only by trained pilots, (4-5) navigable only by craft with minimal draft, (6-7) both of the above, or (8) non-navigable. Bays that cannot be entered still have the same chances of supporting settlements, the inhabitants of which will still be able to ply the interior waters.
+
+81-85. Sound. A sound is a wide ocean or sea inlet or a narrow section of ocean/sea between two pieces of land. They tend to be wider and longer than bays and are either (1-3) open on both ends or (4-6) closed on one end.
+
+They are deeper than bays, averaging 20d20 feet deep. Numerous rivers, inlets, and bays feed into a sound.
+
+86-90. Fjord. Narrow inlets into the coastline, typically bordered by steep terrain. They will be longer than they are wide, and often relatively deep.
+
+Fjords are (roll separately for width/length/depth) . . .
+
+
+
 67-table-1.md
 
 | d100   | Result                                                |
@@ -3865,6 +4401,11 @@ MULTIPLE
 | 11-50  | 10d100  yards  wide/2d6  miles long/10d20 feet deep   |
 | 51-90  | 1d4 miles wide/3d8 miles long/5d100 feet deep         |
 | 91-100 | 1d6+1  miles  wide/4d10  miles  long/10d100 feet deep |
+
+
+91-95. Gulf. Gulfs are similar to bays, but typically larger and deeper, although they often have a more enclosed mouth. Gulfs are typically fed by multiple rivers.
+
+The mouth of a gulf will be . . .
 
 
 67-table-2.md
@@ -3879,15 +4420,7 @@ MULTIPLE
 | 96-100 | 6d100 miles wide |
 
 
-67-table-3.md
-
-| d100   | Result              |
-|:-------|:--------------------|
-| 1-10   | 1d4 weeks prior.    |
-| 11-20  | 1d12 months prior.  |
-| 21-80  | 1d10 years prior.   |
-| 81-90  | 2d100 years prior.  |
-| 91-100 | 10d100 years prior. |
+They have an internal diameter and depth of (roll for each) . . .
 
 
 67-table-4.md
@@ -3900,17 +4433,92 @@ MULTIPLE
 | 91-100 | 10d100 miles/20d100 feet |
 
 
-69-table-1.md
+96-99. Sea. Seas are shallower and smaller than oceans. 1 in 10 are inland seas. Seas are too large to cover in any depth in this supplement and should be placed thoughtfully.
 
-| Table 11.2 – Magical Effects   | Unnamed: 1              |
-|:-------------------------------|:------------------------|
-| d100                           | Result                  |
-| 1-15                           | Climate                 |
-| 16-30                          | Flora and Fauna         |
-| 31-55                          | Other                   |
-| 56-70                          | Ley Lines               |
-| 71-85                          | Resonance or Dissonance |
-| 86-100                         | Space and Time          |
+100. Ocean. The largest bodies of water. Oceans are huge,
+
+and deep, averaging 12,000 feet deep. Oceans are too large to cover in this supplement and should be placed thoughtfully.
+
+There is a 1-5 in 6 chance any body of water has an unusual feature, drawn from the list below. The size of these features is, unless otherwise stated, determined by the size of the body of water. As a general rule, if the body of water is one hex or smaller the feature will occupy 1d20 subhexes. If it is between one and four hexes it will occupy (1-3) 2d10 subhexes, (4-5) 3d20 subhexes, or (6) 1d4 hexes. Any larger than that and the feature will occupy (1-2) 1d6 hexes, (3) 2d8 hexes, (4) 3d10 hexes (5) 4d20 hexes, or (6) the entire body of water. Alternatively, the Referee can roll for each subhex or hex, with each having a 1 in 6 chance of possessing one of the following features.
+
+1. Dry. The body of water is dry. The source of water has either (1-3) dried up or (4-6) moved elsewhere, leaving a dried water-bed behind as evidence it once existed. If it has dried up there’s a 1 in 6 chance that the source of the water is actually being blocked by something – perhaps a beaver dam, or something more nefarious. If the body of water was brackish or salt-water it is likely there will be a significant amount of salt left behind.
+
+If the source is not being blocked there’s a 1-2 in 6 chance – increased to 1-3 in 6 for arid climates – that the source of the water is seasonal or weather dependent; it either flows only (1-3) after winter when snow melts, for 1d8 months afterwards, (4-5) during a local rainy season, or (6) after heavy rains.
+
+Depending on how long ago the body of water vanished the bed will be in varying states of overgrowth; the longer ago it occurred the more likely the bed will be difficult to spot, and is in the process of being filled in through erosion.
+
+The water-bed will have disappeared . . .
+
+67-table-3.md
+
+| d100   | Result              |
+|:-------|:--------------------|
+| 1-10   | 1d4 weeks prior.    |
+| 11-20  | 1d12 months prior.  |
+| 21-80  | 1d10 years prior.   |
+| 81-90  | 2d100 years prior.  |
+| 91-100 | 10d100 years prior. |
+
+
+
+2-20. Fishing. The body of water is exceptional for fishing. (1-4) Double or (5-6) treble the chance for “hunting” as described on p. 110 of OSE core. If successful, enough fish (or other appropriate food, like clams, crawfish, etc.) can be caught in a day to feed (1-3) 2d6, (4-5) 3d8, or (6) 4d10 individuals. If using the resource rules from Domain Building increase the “Animal, game” resource of this hex by 1d6×.1.
+
+If the body of water occupies more than one hex this feature will occupy (1) one hex, (2) 1d4 hexes, (3-5) 1d8 hexes, (6) 1d20 hexes. If the result is for a number of hexes larger than the body of water occupies add .1 to the resource value to each viable hex.
+
+21-25. Hot Springs. The water is heated by geothermal means and is often (1-4 in 6) accompanied by a strong smell of sulfur. It will rarely (1 in 6) be unbearable hot, inflicting (1-3) 1, (4-5) 1d4, or (6) 1d6 points of damage for every round someone not immune to fire damage is within. If it is hot enough to inflict damage there’s a 1-2 in 6 chance it is actually a geyser (see Hazards, p 45.).
+
+26-55. Island. The body of water has (1-2) a single island, (3-5) 1d20 islands, or (6) 1d100 islands. Obviously, an ocean can have thousands of islands of varying sizes, so common sense is suggested when rolling this result.
+
+These islands will vary in size, with the overall size dependent upon the size of the body of water.
+
+56-57. Magic. Refer to the section on Magic to determine an appropriate magical effect.
+
+58-65. Reef/Shoal. Refer to the section on bays, above, for more information. If the proper sailing conditions are not met roll an attack every time a ship enters a hex with a reef. The reef attacks as a (1-3) 3 HD monster, (4-5) 5 HD monster, or (6) 10 HD monster. An attack is made each time the boat enters and leaves the hex, and on a successful attack the boat suffers (1-3) 2d6, (4-5) 3d6, or (6) 4d8 points of hull damage.
+
+66-70. Sandbar. As above, but instead of inflicting damage the boat is grounded. There’s a 1-3 in 6 chance that when the tide rises the boat will float free.
+
+71-80. Swamp/Marsh/Bog. The land surrounding the body of water is saturated, created a marsh or swamp. It covers (1-3) 1 subhex, (4-5) 1d4 subhexes), (6-7) 2d6 subhexes, (8) 3d8 subhexes, (9) 1 full hex, or (10) 1d4 hexes. Roll 1d4 if the water is a pond or smaller, 1d6 if a lake, 1d8 if a bay or similar, and 1d10 if a sea or ocean.
+
+81-87. Trench. A portion of the body of water is (1-3) ×2, (4-5) ×3, or (6) ×1d4+3 times deeper than normal. It is a (1-3) trench longer than it is wide or (4-6) a hole, and occupies an area proportional to the size of the body of water. A trench in a pond may only be ten feet in diameter, while one in an ocean may stretch for multiple hexes.
+
+At great depths water behaves strangely, and there’s a 1-3 in 6 chance that there’s something magical about the trench. Refer to the section on Magic to expand upon this.
+
+88-93. Treacherous Currents. The currents in this section of the body of water run counter to prevailing currents. They reduce ship movement by (1-3) 25%, (4-5) 50%, or
+
+(6) 75% while a ship remains in the area. There’s a 1 in 6 chance the currents are strong enough that the ship, barring exceptional piloting or magical assistance, cannot escape the currents and must travel in the indicated direction. If the currents pull towards land, or a shoal, there’s a chance the ship will run aground (see above).
+
+94-96. Unusual Pocket. Something is odd in this area of the body of water. Perhaps it is a pocket of freshwater in an otherwise salt-water sea, or perhaps the water is warmer or colder than the rest. It may be a dead zone, where there is no oxygen and no living things (although there may be undead!).
+
+97. Whirlpool. The water swirls around, dragging objects on the surface underwater. Those that have the potential to be caught in a whirlpool must Save v. Petrification. Failure indicates they are caught and suffer a double normal chance of drowning.
+
+Unlike whirlpools in rivers, these have the possibility of sinking ships. A whirlpool can affect ships with a length up to (1) 25’, (2) 45’, (3) 60’, (4) 75’, (5’) 90’, or (6) 120’ or longer.
+
+98-99. Roll twice.
+
+100. Roll three times.
+
+Water Feature Example. There’s a water feature in subhex 0507. The result of the first d6 roll is a 3, meaning it is a flowing body of water. Rolling further, the results are:
+
+-   􏰀  Brook, 2 ft. wide
+    
+-   􏰀  5 miles long
+    
+-   􏰀  Eventually flows into a still body of water
+    
+-   􏰀  Excellent fishing, providing twice the fish for foraging purposes. Since it is a small brook, unlikely to have large fish, it seems appropriate to say that there are large numbers of crayfish that live in the brook.
+    
+    􏰀Again, rolling 1d6 to determine the direction, the brook runs to the southeast.
+
+
+### Magic
+Magical features are broken into several categories, but they all share several broad traits:
+
+Unless otherwise stated magical features cannot be dispelled by anything short of a wish or divine intervention.
+
+Unless otherwise stated, the effects of a magical feature always occur. A zone where spells have their range increased by 25% *always* increases their range by 25%.
+
+The magic affects . . .
+
 
 
 69-table-2.md
@@ -3926,60 +4534,36 @@ MULTIPLE
 | 99-100 | 2d6 hexes      |
 
 
-7-table-1.md
-
-| d20   | Result     |
-|:------|:-----------|
-| 1-4   | Geologic   |
-| 5-8   | Structure  |
-| 9-12  | Resource   |
-| 13    | Hazard     |
-| 14    | Sign       |
-| 15    | Dungeon    |
-| 16-17 | Terrain    |
-| 18    | Settlement |
-| 19    | Water      |
-| 20    | Magic      |
+There’s a 1-2 in 6 chance that, when subjects of a magical effect leave the affected area, the effect ends. This applies to effects such as curses, but also more permanent effects, like the sentience of animals, which may find themselves reverting to their normal intelligence should they leave the magical area.
 
 
-7-table-2.md
+69-table-1.md
 
-| d20   | Result                   |
-|:------|:-------------------------|
-| 1-3   | Geologic                 |
-| 4-6   | Structure                |
-| 7-9   | Resource                 |
-| 10-12 | Lair                     |
-| 13    | Hazard (1-3), Sign (4-6) |
-| 14    | Dungeon                  |
-| 15    | Terrain                  |
-| 16    | Settlement               |
-| 17    | Water                    |
-| 18    | Magic                    |
-| 19-20 | No Feature               |
+| Table 11.2 – Magical Effects   | Unnamed: 1              |
+|:-------------------------------|:------------------------|
+| d100                           | Result                  |
+| 1-15                           | Climate                 |
+| 16-30                          | Flora and Fauna         |
+| 31-55                          | Other                   |
+| 56-70                          | Ley Lines               |
+| 71-85                          | Resonance or Dissonance |
+| 86-100                         | Space and Time          |
 
+#### 11.1. Climate
 
-70-table-1.md
+The local climate has been magically influenced. It is . . .
 
-| d100   | Result          |
-|:-------|:----------------|
-| 41-60  | Grasses/Flowers |
-| 61-80  | Shrubs          |
-| 81-100 | Trees           |
+1-40. Colder/Hotter than normal. The air temperature is (1-4) noticeably different than the surrounding region or (5-6) extremely different from the region. Assume that if it is noticeably different the range is no more that 10 degrees Fahrenheit. If it is extremely different the range will be 1d8×10 degrees Fahrenheit. This may be a valley continually shrouded in snow, for instance.
 
+41-80. Drier/Wetter than normal. The area is much drier or wetter than normal. There’s a 1 in 6 chance that it either rains continuously or never rains.
 
-70-table-2.md
+81-100. Other. Something else is going on. Perhaps the region is shrouded in a perpetual fog, or continuously buffeted by high winds.
 
-| d100         | Result                            |
-|:-------------|:----------------------------------|
-| 1-16         | (1-3) Beneficial or (4-6) Baneful |
-| 17-32 Mobile |                                   |
-| 33-48        | Sentient                          |
-| 49-64        | Unusual Size                      |
-| 65-82        | Unusual Form                      |
-| 81-92        | Unusual Features                  |
-| 97-99        | Roll Twice                        |
-| 100          | Roll Thrice                       |
+Climate effects have a 1 in 6 chance of being created by some sort of physical artifact that can potentially be destroyed, moved, or otherwise altered.
+
+#### 11.2. Flora and Fauna
+
+The life in this affected area is magically altered in some way. It affects the . . .
 
 
 70-table-3.md
@@ -3993,32 +4577,97 @@ MULTIPLE
 | 99-100 All three of the above |                  |
 
 
+##### 11.2.1. Flora
+
+This feature affects . . .
+
+
 70-table-4.md
 
-| d100                  | Result                                                                                        |
-|:----------------------|:----------------------------------------------------------------------------------------------|
-| 1-10                  | All of the plant-life in the area                                                             |
-| 11-40                 | A specific species of plant-life                                                              |
-| 41-70                 | A small number of particular plants within  the  area:  (1-3)  1d20,  (4-5) 5d20, (6) 10d100. |
-| 71-100 A single plant |                                                                                               |
+| d100   | Result                                                                                        |
+|:------ |:--------------------------------------------------------------------------------------------- |
+| 1-10   | All of the plant-life in the area                                                             |
+| 11-40  | A specific species of plant-life                                                              |
+| 41-70  | A small number of particular plants within  the  area:  (1-3)  1d20,  (4-5) 5d20, (6) 10d100. |
+| 71-100 | A single plant                                                                                |
+
+
+The plants are . . .
 
 
 70-table-5.md
 
-| d100   | Result      |
-|:-------|:------------|
-| 1-20   | Moss/Lichen |
-| 21-40  | Fungi       |
+| d100   | Result          |
+|:------ |:--------------- |
+| 1-20   | Moss/Lichen     |
+| 21-40  | Fungi           |
+| 41-60  | Grasses/Flowers |
+| 61-80  | Shrubs          |
+| 81-100 | Trees           |
+
+The plants possess the following qualities.
 
 
-71-table-1.md
+70-table-2.md
 
-| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-40   | Plants  survive  on  something  other than sunlight:  (1-2)  meat,  (3)  heat  or  cold,  (4) esoterica (thoughts, emotions, etc.), (5) ore (gold, copper, etc.), or (6) magic.                                                                                                                                                                                                                                                                                                                                                       |
-| 41-80  | Plants  produce  unusual  fruit:  (1)  made  of  a valuable material (gold, spun glass), (2) with healing (1-3) or harmful (4-6) properties, (3) containing  a  magical  spell  that  is  triggered by eating,  or  breaking,  or throwing, (4) which  transports  the  eater  to  another  plane or  dimension,  (5)  which  acts  as  a  randomly determined potion, or (6) that when thrown will turn into a randomly determined monster. The plant produces (1-3) only a single special fruit, (4-5) 1d10 fruit, (6) 1d100 fruit. |
-| 81-100 | Roll on Table 11.2 for an additional effect.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| d100  | Result                            |
+|:----- |:--------------------------------- |
+| 1-16  | (1-3) Beneficial or (4-6) Baneful |
+| 17-32 | Mobile                            |
+| 33-48 | Sentient                          |
+| 49-64 | Unusual Size                      |
+| 65-82 | Unusual Form                      |
+| 81-92 | Unusual Features                  |
+| 97-99 | Roll Twice                        |
+| 100   | Roll Thrice                       |
 
+
+Beneficial/Baneful. While not possessing an actual intelligence, the plant-life within the area subtly works to help or hinder those passing through.
+
+When beneficial, travelers find that their path always seems straight and clear of hazards, food grows abundantly, and they can shelter from the elements under spreading boughs. Travel time decreases by 25% in these areas, and enough food for 1d12 individuals can be found per day without even stopping to scavenge.
+
+When baneful, it seems as if there are always roots to trip on, low-hanging branches threatening to knock riders off their mounts, paths are difficult to follow and easy to loose, etc. Travel time is increased by 25% in these areas, and at the end of each day each traveler must make a Save against Wands or suffer 1d4 points of damage from scratches, sprained ankles, etc.
+
+If this result comes up twice for the same area either double the modifiers (movement modified by 50%, etc.) or, in the case of one roll indicating beneficial and the other baneful, assume there is a hidden dichotomy between the plants, with some seeking to hinder and some to help. Why is this, and how do the players react when it becomes apparent? Perhaps the characters are being shepherded to a specific location, or shielded by the beneficial plants from the wilder, more chaotic plants that lurk off the trail.
+
+Mobile. The plant-life in the area is mobile but not necessarily sentient. There’s a 1-4 in 6 chance the plants move as one expects them to, by pulling themselves from the ground and using their roots like legs, but on a 5-6 they don’t. Perhaps they float, or burrow, or teleport.
+
+If the plants aren’t sentient they move (1-2) to hunt prey,
+
+
+(3-4) to find better sources of light, or (5-6) to satisfy some inscrutable design. There’s a 1-3 in 6 chance the plants are subtle with their movement and do so when travelers aren’t looking, or at night. Double chances of getting lost in these instances as landmarks shift, trails are obscured, and tracks erased.
+
+Sentient. The plants are aware and intelligent. They have an alignment of (1) Lawful, (2-5) Neutral, or (6) Chaotic. There’s a 1-3 in 6 chance the plant-life can communicate via (1-3) speech, (4-5) signs or movements of their bodies, (6-7) empathic projections, or (8) telepathy.
+
+Roll 3d6 to determine the average equivalent Intelligence of the plant-life. The plants have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows:
+
+􏰀 All plants. 1 in 100, equivalent caster level 1d4. 􏰀Single species of plants. 1-3 in 100, equivalent
+
+caster level 1d6.
+
+􏰀Small number of plants. 1-5 in 100, equivalent caster level 1d8.
+
+Unusual Features. Something about the plants is different from normal . . .
+
+d100 Result
+
+1-40
+
+Plants survive on something other than sunlight: (1-2) meat, (3) heat or cold, (4) esoterica (thoughts, emotions, etc.), (5) ore (gold, copper, etc.), or (6) magic.
+
+41-80
+
+Plants produce unusual fruit: (1) made of a valuable material (gold, spun glass), (2) with healing (1-3) or harmful (4-6) properties, (3) containing a magical spell that is triggered by eating, or breaking, or throwing, (4) which transports the eater to another plane or dimension, (5) which acts as a randomly determined potion, or (6) that when thrown will turn into a randomly determined monster. The plant produces (1-3) only a single special fruit, (4-5) 1d10 fruit, (6) 1d100 fruit.
+
+81-100
+
+Roll on Table 11.2 for an additional effect.
+
+􏰀 A single plant. 1 in 10, equivalent caster level 1d10. If this is the case, the plants can cast spells as a (1-3)
+
+druid, (4-5) cleric, (6-7) illusionist, or (8) magic-user.
+
+Unusual Size. The plants are either (1-4) larger or (5-6) smaller than normal. The size difference is . . .
 
 71-table-2.md
 
@@ -4031,15 +4680,9 @@ MULTIPLE
 | 91-100 | 3d6 times |
 
 
-71-table-3.md
+Ex. There’s a single tree in a given area that is larger than normal. Rolling above, the result is a 95. Rolling 3d6, the result is 10. The tree is 10 times larger than normal. Assuming it is a white oak, which average 50-80 feet tall, this tree is somewhere around 500-800 feet tall.
 
-| d100                   | Result                                                                             |
-|:-----------------------|:-----------------------------------------------------------------------------------|
-| 1-10                   | All of the animals in the area                                                     |
-| 11-40                  | A specific species of animal                                                       |
-| 41-70                  | A  small  number  of  animals  within the area: (1-3) 1d20, (4-5) 5d20, (6) 10d100 |
-| 71-100 A single animal |                                                                                    |
-
+Unusual Form. The plants are a different form or shape than normal. They are . . .
 
 71-table-4.md
 
@@ -4051,6 +4694,33 @@ MULTIPLE
 | 76-100 | Non-native  plants.  Instead  of  trees,  maybe they are giant mushrooms, or waving kelp. |
 
 
+Unusual Features. Something about the plants is different from normal . . .
+
+71-table-1.md
+
+| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1-40   | Plants  survive  on  something  other than sunlight:  (1-2)  meat,  (3)  heat  or  cold,  (4) esoterica (thoughts, emotions, etc.), (5) ore (gold, copper, etc.), or (6) magic.                                                                                                                                                                                                                                                                                                                                                       |
+| 41-80  | Plants  produce  unusual  fruit:  (1)  made  of  a valuable material (gold, spun glass), (2) with healing (1-3) or harmful (4-6) properties, (3) containing  a  magical  spell  that  is  triggered by eating,  or  breaking,  or throwing, (4) which  transports  the  eater  to  another  plane or  dimension,  (5)  which  acts  as  a  randomly determined potion, or (6) that when thrown will turn into a randomly determined monster. The plant produces (1-3) only a single special fruit, (4-5) 1d10 fruit, (6) 1d100 fruit. |
+| 81-100 | Roll on Table 11.2 for an additional effect.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+
+##### 11.2.2. Fauna
+
+This category covers only the non-magical, normal- sized animals that dwell within the given area. Neither monsters, Men, nor giant versions of normal animals are covered in this category. If a specific type of animal lairs in the area then this feature will automatically affect them (and potentially other animals as well), but if not, assume that the animals affected are those that would normally live in the area: small birds, rodents, etc. Arachnids are specifically excluded from this category and are covered under the next, catch-all category. This feature affects . . .
+
+
+
+71-table-3.md
+
+| d100                   | Result                                                                             |
+|:-----------------------|:-----------------------------------------------------------------------------------|
+| 1-10                   | All of the animals in the area                                                     |
+| 11-40                  | A specific species of animal                                                       |
+| 41-70                  | A  small  number  of  animals  within the area: (1-3) 1d20, (4-5) 5d20, (6) 10d100 |
+| 71-100 A single animal |                                                                                    |
+
+The animals are . . .
+
 71-table-5.md
 
 | d100           | Result     |
@@ -4060,6 +4730,8 @@ MULTIPLE
 | 41-60          | Reptiles   |
 | 61-80          | Bird       |
 | 81-100 Mammals |            |
+
+The animals have the following qualities . . .
 
 
 72-table-1.md
@@ -4075,6 +4747,39 @@ MULTIPLE
 | 97-99  | Roll Twice                        |
 | 100    | Roll Thrice                       |
 
+Beneficial or Baneful. Even if not sentient, the animals act in ways that either help or hinder travelers through the area. Initially, this means that all reaction rolls with the designated animals are made with a modifier of (1- 3) 1, (4-5) 2, or (6) 3. There’s a 1-4 in 6 chance that this modifier will not change, regardless of the actions of the adventurers. Killing one of the animals will not impose a penalty, nor will feeding them.
+
+Additionally, there’s a 1-3 in 6 chance that the animals act in an unnatural manner that can be construed as helpful or harmful. If the animals are not sentient or capable of communication their attempts may likely be rudimentary; if helpful, perhaps they seek to warn the adventurers away from a particular hazard, or the lair of a monster. If harmful, perhaps they try to lead the adventurers on a chase ending at the edge of a cliff, or into the lair of said monster.
+
+Magical communication can certainly be helpful, but if baneful the animals may choose to not answer, or even to deceive.
+
+Awakened. Distinct from those that are sapient, Awakened animals are not only possessed of intelligence potentially equal to, or even surpassing, that of Man, but of mannerisms and characteristics of the humanoid races.
+
+Awakened creatures can walk on two legs, if their anatomy allows it, and their extremities are altered slightly to allow the use of tools. Awakened animals can be found wearing the garb and accoutrements of Man, and acting as Men do.
+
+They will, however, typically have no change in size; Awakened mice are still the size of mice. They will have an Intelligence score of (1) 2d4, (2-3) 2d6, (4) 3d4, (5) 4d4, or (6) 3d6. There’s a further 1-2 in 6 chance the Awakened creatures will be able to communicate via speech. This chance increases by 1 should their Intelligence be 13 or higher.
+
+Overall, Awakened creatures are (1) Lawful, (2-5) Neutral, or (6) Chaotic, although exceptions may exist among multiple creatures of the same kind, just as it does within a population of Men.
+
+Awakened animals can possess racial class levels.
+
+Sentient. As Awakened creatures, above, but without the likeness of Men, sentient animals possess an intelligence. They have the same chance of speech as Awakened animals; otherwise, there’s a 1-3 in 6 chance the animals can communicate via (1-3) speech, (4-5) signs or movements of their bodies, (6-7) empathic projections, or (8) telepathy.
+
+The animals have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows:
+
+􏰀 All animals. 1 in 100, equivalent caster level 1d4. 􏰀 Single species of animals. 1-3 in 100, equivalent
+
+caster level 1d6.
+
+􏰀 Small number of animals. 1-5 in 100, equivalent caster level 1d8.
+
+􏰀 A single animal. 1 in 10, equivalent caster level 1d10.
+
+If this is the case, the animals can cast spells as a (1-3) druid, (4-5) cleric, (6-7) illusionist, or (8) magic-user.
+
+Unusual Size. The animals are either (1-4) larger or (5- 6) smaller than normal. The size difference is . . .
+
+
 
 72-table-2.md
 
@@ -4086,6 +4791,12 @@ MULTIPLE
 | 51-90  | 100%      |
 | 91-100 | 3d6 times |
 
+Animals that are smaller than normal have reduced HD, typically proportionate to the decrease in size. A black bear, typically with 4 HD, that is 50% smaller than normal would have 2 HD.
+
+Likewise, the larger a creature is the more HD it has, by the same proportions: a black bear that normally has 4 HD that is 50% larger will have 6 HD.
+
+Unusual Form. The animals are a different form or shape than normal. They are . . .
+
 
 73-table-1.md
 
@@ -4096,28 +4807,25 @@ MULTIPLE
 | 51-75  | The animal is a mixture of (1-3) two, (4-5) three, or  (6)  four  animals,  sharing  characteristics of  all  of  them.  There’s  a  1  in  6  chance  per animal type that the main characteristic is a hindrance, or non-beneficial. |
 | 76-100 | Non-native  animals. In this  part  of the world perhaps fish swim through the air as if it were water, or penguins hunt the plains for insects.                                                                                       |
 
-
-73-table-2.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 71-85  | Special Defense. The animal gains a special defense.  This  is  (1)  resistance  to  a  form  of damage (bludgeoning, fire, etc.), (2) immunity to a form of damage, (3) regeneration (1-3: 1 hp per round, 4-5: 2 hp per round, or 6: 3 hp per round), (4) successful attacks upon them damage or negate weapons (such as a living iron  statue’s  ability  to  absorb  weapons),  (5) some of the damage suffered from attacks is borne by the attacker, or (6) the creature can change  form  to  escape  (such  as  a  vampire’s ability to turn into a bat or mist). |
-| 86-90  | Magical Manifestation. The animal can cast a randomly determined spell of level (1-3) 1, (4-5) 2, or (6) 3. This spell is used as a special ability  and  can  be  used  (1-4)  once  per  day, (5-7) twice per day, (8-9) three times per day, or (10) is always active/available.                                                                                                                                                                                                                                                                                       |
-| 91-97  | Movement. The  creature’s  Move  score (1-4) increases  by  (1-3)  10’,  (4-5)  20’,  or  (6)  30’,  or (5-6)  they  gain  a  new  form  of  movement  in addition to their old form. This new form is (1-2) 1 category slower than their current form, (3-4) the same speed, or (5-6) 1 category faster.                                                                                                                                                                                                                                                                 |
-| 98-99  | Roll Twice.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 100    | Roll Thrice.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-
+There’s a 1-2 in 6 chance the difference is directly beneficial. The animal gains . . .
 
 73-table-3.md
 
-| d100   | Result                                                                                                                                                                                                                                                                                                                         |
-|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-15   | Additional  hit  points.  They  have  (1-3)  +1, (4-5) +2, or (6) +4 hit points.                                                                                                                                                                                                                                               |
-| 16-20  | Additional Hit Dice. The creatures’ Hit Dice (1-4) increases by (1-3) 1, (4-5) 2, or (6) 3, or (5-6) increases from 1d8 to (1-4) 1d10 or (5-6) 1d12.                                                                                                                                                                           |
-| 21-35  | Armor Class. The creatures’ AC improves by (1-3) 1, (4-5) 2, or (6) 3.                                                                                                                                                                                                                                                         |
-| 36-50  | Damage. The creature’s existing damage (1-4) increases by one die type (from d6 to d8, for instance) or (5-6) they gain an additional attack  at  a  die  type  one  lower  than  their current lowest attack (if the animal can attack twice doing 1d6 points of damage they gain a third attack doing 1d4 points of damage). |
-| 51-55  | Saving Throws. The animal uses the Fighter Saving Throw chart at the normal progression (Animal HD equals fighter level, as opposed to half progression).                                                                                                                                                                      |
-| 56-70  | Special  Attack.  The  animal  gains  a  special attack.  This  is  (1)  poison,  (2)  disease,  (3) elemental, (4)  paralyzing, (5) a special combat maneuver (grapple, trample, etc.), or (6) something else.                                                                                                                |
+| d100  | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|:----- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-15  | Additional  hit  points.  They  have  (1-3)  +1, (4-5) +2, or (6) +4 hit points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 16-20 | Additional Hit Dice. The creatures’ Hit Dice (1-4) increases by (1-3) 1, (4-5) 2, or (6) 3, or (5-6) increases from 1d8 to (1-4) 1d10 or (5-6) 1d12.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 21-35 | Armor Class. The creatures’ AC improves by (1-3) 1, (4-5) 2, or (6) 3.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 36-50 | Damage. The creature’s existing damage (1-4) increases by one die type (from d6 to d8, for instance) or (5-6) they gain an additional attack  at  a  die  type  one  lower  than  their current lowest attack (if the animal can attack twice doing 1d6 points of damage they gain a third attack doing 1d4 points of damage).                                                                                                                                                                                                                                            |
+| 51-55 | Saving Throws. The animal uses the Fighter Saving Throw chart at the normal progression (Animal HD equals fighter level, as opposed to half progression).                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 56-70 | Special  Attack.  The  animal  gains  a  special attack.  This  is  (1)  poison,  (2)  disease,  (3) elemental, (4)  paralyzing, (5) a special combat maneuver (grapple, trample, etc.), or (6) something else.                                                                                                                                                                                                                                                                                                                                                           |
+| 71-85 | Special Defense. The animal gains a special defense.  This  is  (1)  resistance  to  a  form  of damage (bludgeoning, fire, etc.), (2) immunity to a form of damage, (3) regeneration (1-3: 1 hp per round, 4-5: 2 hp per round, or 6: 3 hp per round), (4) successful attacks upon them damage or negate weapons (such as a living iron  statue’s  ability  to  absorb  weapons),  (5) some of the damage suffered from attacks is borne by the attacker, or (6) the creature can change  form  to  escape  (such  as  a  vampire’s ability to turn into a bat or mist). |
+| 86-90 | Magical Manifestation. The animal can cast a randomly determined spell of level (1-3) 1, (4-5) 2, or (6) 3. This spell is used as a special ability  and  can  be  used  (1-4)  once  per  day, (5-7) twice per day, (8-9) three times per day, or (10) is always active/available.                                                                                                                                                                                                                                                                                       |
+| 91-97 | Movement. The  creature’s  Move  score (1-4) increases  by  (1-3)  10’,  (4-5)  20’,  or  (6)  30’,  or (5-6)  they  gain  a  new  form  of  movement  in addition to their old form. This new form is (1-2) 1 category slower than their current form, (3-4) the same speed, or (5-6) 1 category faster.                                                                                                                                                                                                                                                                 |
+| 98-99 | Roll Twice.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 100   | Roll Thrice.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+Unusual Features. Something about the animals is different from normal . . .
 
 
 73-table-4.md
@@ -4127,6 +4835,11 @@ MULTIPLE
 | 1-40   | Animals feed  on  something  other than their  normal  diet:  (1-2)  meat instead  of vegetation,  or  vice  versa,  (3)  heat  or  cold, (4) esoterica (thoughts, emotions, etc.), (5) ore (gold, copper, etc.), or (6) magic.                                                                       |
 | 41-80  | Parts of the animal are valuable for use by alchemists  or  magicians.  There’s  a  1  in  6 chance  that  the  body  part  can  actually  be used  by  the  animal  for  offense  or  defense (a  gland  that  allows  them  to  breath  fire, for instance),  but  otherwise it is  non-functional. |
 | 81-100 | Roll on Table 11.2 for an additional effect.                                                                                                                                                                                                                                                          |
+
+
+##### 11.2.3. Other Creatures
+
+Other creatures that inhabit the area have been shaped by magic. It affects .
 
 
 74-table-1.md
@@ -4139,13 +4852,7 @@ MULTIPLE
 | 71-100 | A single creature                                                                |
 
 
-74-table-2.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|:-------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 61-80  | Plane-touched. The creature (1-4) possesses  an  ancestry that  comes from another plane or dimension or (5-6) actually is  from  another  dimension  or  plane.  They may exhibit traits from that plane, such as a creature with an ancestry tracing back to the plane of Fire being immune to fire, or similar,  or  may  actually  exist  out  of  sync with the normal world.                                                                                                                 |
-| 81-100 | Spellcaster. The creature(s) possess a native ability  to  cast  spells.  They  do  so  as  a  (1-2)  magic-user,  (3-4)  cleric,  (5)  druid,  (6) illusionist, or (7-8) other spellcasting class. They  do  so  either  (1-4)  at  a  class  level,  if they belong to the given class, meaning that not all creatures in the area can cast spells, or  (5-6)  innately,  with  all  members  of  the species in the area casting spells as a caster of level (1-3) 1d4, (4-5) 1d8, or (6) 1d12. |
-
+Roll to randomly determine the creature(s) affected. When determining what form the magical influence takes roll on the Animal table, above. However, if the result is Awakened or Sapient and the creature to be affected already is one of those two, the options are (1- 3) roll again, disregarding those results, (4-5) increase the creatures’ average Intelligence by one category (i.e. a range of 9-12 is increased to 13-15), or (6) roll on the Specials table, in the next column.
 
 74-table-3.md
 
@@ -4154,26 +4861,45 @@ MULTIPLE
 | 1-20   | Alternate Mode of Communication. The creature communicates via (1-4) empathy (projecting their emotions) or (5-6) telepathy (projecting their thoughts). There’s a 1 in 6 chance that a creature that can  do  this  can  also  read  emotions  and thoughts  in  others,  and  a  further  1  in  6 chance  that  this  is  their  only  means  of communication. |
 | 21-40  | Immortality.  The creature is immortal and (1-3) cannot die of old age but can die of  disease  or  injury,  (4-5)  can  only  die  of injury, or (6) cannot be permanently slain.                                                                                                                                                                                 |
 | 41-60  | Out of Time. The creature is from the (1-2)  past,  (3-4)  future,  or  (5-6)  an  alternate version  of  reality.  There’s  a  1  in  6  chance that whatever magic has brought them here can  fling  the  unwary  to  (1-4)  their  native time or (5-6) a random time.                                                                                          |
+| 61-80  | Plane-touched. The creature (1-4) possesses  an  ancestry that  comes from another plane or dimension or (5-6) actually is  from  another  dimension  or  plane.  They may exhibit traits from that plane, such as a creature with an ancestry tracing back to the plane of Fire being immune to fire, or similar,  or  may  actually  exist  out  of  sync with the normal world.                                                                                                                 |
+| 81-100 | Spellcaster. The creature(s) possess a native ability  to  cast  spells.  They  do  so  as  a  (1-2)  magic-user,  (3-4)  cleric,  (5)  druid,  (6) illusionist, or (7-8) other spellcasting class. They  do  so  either  (1-4)  at  a  class  level,  if they belong to the given class, meaning that not all creatures in the area can cast spells, or  (5-6)  innately,  with  all  members  of  the species in the area casting spells as a caster of level (1-3) 1d4, (4-5) 1d8, or (6) 1d12. |
+
+
+#### 11.3. Other
+
+This is a catch-all category for a range of magical effects.
+
+1-15. Alignment. The area possesses an alignment: (1) Lawful, (2-4) Neutral, or (5-6) Chaotic. Creatures of the given alignment are naturally attracted to the region. When populating it, discard results that are more than one step away (Neutral and Chaotic creatures can populate a region with an alignment of Chaotic, but not Lawful creatures). The aura is subtle, having one or more of the following effects . . .
 
 
 74-table-4.md
 
-| d100   | Result                                                                                                                                                                                                                                                             |
-|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-15   | Beneficial/Baneful to those  of  different alignments. Refer to the examples above in Flora/Fauna.                                                                                                                                                                 |
-| 16-30  | Helpful  to  those  of  the  same  alignment. Creatures of the same alignment as the land enjoy (1) a +1 bonus to AC, (2) +1 to attack rolls,  (3)  +1  to  damage  rolls,  (4)  +1  to  all Saves,  (5)  regenerate  1  hp  per  turn,  or  (6) two of the above. |
-
-
-75-table-1.md
-
 | d100   | Result                                                                                                                                                                                                                                                                                              |
-|:-------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-15   | Beneficial/Baneful to those  of  different alignments. Refer to the examples above in Flora/Fauna.                                                                                                                                                                                                  |
+| 16-30  | Helpful  to  those  of  the  same  alignment. Creatures of the same alignment as the land enjoy (1) a +1 bonus to AC, (2) +1 to attack rolls,  (3)  +1  to  damage  rolls,  (4)  +1  to  all Saves,  (5)  regenerate  1  hp  per  turn,  or  (6) two of the above.                                  |
 | 31-45  | Dangerous to those of a different alignment. Creatures of a different alignment suffer a (1) penalty of 1 to AC, (2) –1 penalty to attack rolls, (3) –1 penalty to damage rolls, (4) –1 penalty to Saves, (5) will not heal naturally in the region, or (6) two of the above.                       |
 | 46-60  | Dampens  spells.  Spells  with  an  opposite alignment descriptor do not function within the  area.  Inside  a  Chaotically  aligned  area the spells detect evil and protection from evil would not function.                                                                                      |
 | 61-75  | Inimical to those of an opposite alignment. There’s  a  1-2 in  6  chance  that in  order to enter the region those  of  differing alignments must make a Save v. Spells. The roll is penalized by 1d4 if the difference is greater  than  one  step  (Lawful  characters entering a Chaotic land). |
 | 76-90  | Unease. Those not of the alignment of the land are uneasy, suffering (1-3) a –1 penalty to surprise rolls, (4-5) the inability to rest, or (6) both.                                                                                                                                                |
 | 91-96  | Roll Twice. Redundant results are cumulative.                                                                                                                                                                                                                                                       |
 | 97-100 | Roll  Thrice. Redundant results are cumulative.                                                                                                                                                                                                                                                     |
+
+
+16-30. Life. The area is either (1-3) baneful or (4-6) beneficial to life. If it is baneful, living creatures within its influence lose 1 hp per (1-3) day, (4-5) hour, or (6) turn. If it is beneficial, living creatures gain 1 hp per (1- 3) day, (4-5) hour, or (6) turn. The reverse is true of any undead within the zone (i.e. they suffer damage when in beneficial zones and heal in baneful zones).
+
+There’s a 1-2 in 6 chance that healing magic is minimized within baneful areas (healing spells or effects restore the minimum amount) or maximized in beneficial areas (healing spells or effects restore the maximum amounts). Further, in beneficial zones there’s a 1-2 in 6 chance that the healing just does not stop; it can exceed the maximum, and when a creature’s hp reaches its maximum plus 10 the creature dies.
+
+There’s a 1-3 in 6 chance that plant-life is not affected by this magic. Living creatures slain by this magic have a 1 in 6 chance of returning as a random sort of undead: (1-2) skeletons, (3-4) zombies, (5-6) ghouls, (7) wights, (8) wraiths, (9) specters, (10) other.
+
+
+31-45. Other. Design a new magical effect not covered in this section.
+
+46-60. Resource. The area is rich in a resource that has magical or alchemical applications. Refer to the section on resources.
+
+61-75. Settlement. The area features a settlement that is magical in nature. This manifests as . . .
+
+
 
 
 75-table-2.md
@@ -4187,117 +4913,108 @@ MULTIPLE
 | 91-100 | Other.                                                                                                                                                                                                                                                                                                                                |
 
 
+76-100. Spell. The inhabitants (1-3), or the zone itself (4- 6), is under the effect of magical energy that functions as a spell. If this energy affects a creature, the spell will (1-3) be targeted upon the creature and is activated as below, or (4-6) will be usable by the creature as a spell-like ability.
+
+This effect is (1-3) permanently functioning, (4-5) activates on a schedule of some sort, or (6) activates on a particular action.
+
+If it occurs as a spell-like ability it can be used . . .
+
+Level 1 spell. (1-3) 1d6 times per day, (4-5) 1d4 times per turn, or (6) at will.
+
+Level 2 spell. (1-3) 1d4 times per day, (4-5) 1d3 times per turn, or (6) at will
+
+Level 3 spell. (1-3) 1d2 times per day, (4-5) 1d2 times per turn, or (6) once per minute
+
+Level 4 spell. (1-3) 1d4 times per week, (4-5) 1d4 times per day, or (6) once per turn.
+
+Level 5 spell. (1-3) 1d3 times per week, (4-5) 1d3 times per day, or (6) once per hour.
+
+Level 6 spell. (1-3) 1d2 times per week, (4-5) 1d2 per day, or (6) once per hour.
+
+The spell that is mimicked is . . .
+
+
+
 76-table-1.md
 
-|   d100 | Result                                                                             |
-|-------:|:-----------------------------------------------------------------------------------|
-|      1 | Acid Fog (6th-level illusionist)                                                   |
-|      2 | Animate  Dead  (dead  are  animated  within 1d4 rounds of death, 5th-level MU)     |
-|      3 | Auditory Illusion (1st-level illusionist)                                          |
-|      4 | Blacklight (3rd-level illusionist)                                                 |
-|      5 | Bless/Blight (2nd-level cleric)                                                    |
-|      6 | Blur (2nd-level illusionist)                                                       |
-|      7 | Chaos (5th-level illusionist)                                                      |
-|      8 | Cloudkill (5th-level MU)                                                           |
-|      9 | Confusion (4th-level MU)                                                           |
-|     10 | Dancing Lights (1st-level illusionist)                                             |
-|     11 | Demi-shadow Monsters (5th-level illusionist)                                       |
-|     12 | Detect Evil (1st-level cleric, 2nd-level MU)                                       |
-|     13 | Dispel Illusion (3rd-level illusionist)                                            |
-|     14 | Detect Invisible (2nd-level MU)                                                    |
-|     15 | Dispel Magic (3rd-level MU)                                                        |
-|     16 | Dream Quest (6th-level illusionist)                                                |
-|     17 | Emotion (4th-level illusionist)                                                    |
-|     18 | Entangle (1st-level druid)                                                         |
-|     19 | ESP  (2nd-level  MU,  all  who  enter  the  area can sense the thoughts of others) |
-|     20 | Faerie Fire (1st-level druid)                                                      |
-|     21 | False Aura (2nd-level illusionist)                                                 |
-|     22 | Fascinate  (centered  on  a  feature  within  the area, 2nd-level illusionist)     |
-|     23 | Fear (3rd-level illusionist)                                                       |
-|     24 | Feeblemind (5th-level MU)                                                          |
-|     25 | Illusion (5th-level illusionist)                                                   |
-|     26 | Impersonation (6th-level illusionist)                                              |
-|     27 | Growth of Nature (3rd-level druid)                                                 |
-|     28 | Hallucinatory  Terrain  (4th-level  MU,  3rd-level illusionist)                    |
-|     29 | Haste (3rd-level MU)                                                               |
-|     30 | Heat Metal (2nd-level druid)                                                       |
+|  d100 | Result                                                                                    |
+| -----:|:----------------------------------------------------------------------------------------- |
+|     1 | Acid Fog (6th-level illusionist)                                                          |
+|     2 | Animate  Dead  (dead  are  animated  within 1d4 rounds of death, 5th-level MU)            |
+|     3 | Auditory Illusion (1st-level illusionist)                                                 |
+|     4 | Blacklight (3rd-level illusionist)                                                        |
+|     5 | Bless/Blight (2nd-level cleric)                                                           |
+|     6 | Blur (2nd-level illusionist)                                                              |
+|     7 | Chaos (5th-level illusionist)                                                             |
+|     8 | Cloudkill (5th-level MU)                                                                  |
+|     9 | Confusion (4th-level MU)                                                                  |
+|    10 | Dancing Lights (1st-level illusionist)                                                    |
+|    11 | Demi-shadow Monsters (5th-level illusionist)                                              |
+|    12 | Detect Evil (1st-level cleric, 2nd-level MU)                                              |
+|    13 | Dispel Illusion (3rd-level illusionist)                                                   |
+|    14 | Detect Invisible (2nd-level MU)                                                           |
+|    15 | Dispel Magic (3rd-level MU)                                                               |
+|    16 | Dream Quest (6th-level illusionist)                                                       |
+|    17 | Emotion (4th-level illusionist)                                                           |
+|    18 | Entangle (1st-level druid)                                                                |
+|    19 | ESP  (2nd-level  MU,  all  who  enter  the  area can sense the thoughts of others)        |
+|    20 | Faerie Fire (1st-level druid)                                                             |
+|    21 | False Aura (2nd-level illusionist)                                                        |
+|    22 | Fascinate  (centered  on  a  feature  within  the area, 2nd-level illusionist)            |
+|    23 | Fear (3rd-level illusionist)                                                              |
+|    24 | Feeblemind (5th-level MU)                                                                 |
+|    25 | Illusion (5th-level illusionist)                                                          |
+|    26 | Impersonation (6th-level illusionist)                                                     |
+|    27 | Growth of Nature (3rd-level druid)                                                        |
+|    28 | Hallucinatory  Terrain  (4th-level  MU,  3rd-level illusionist)                           |
+|    29 | Haste (3rd-level MU)                                                                      |
+|    30 | Heat Metal (2nd-level druid)                                                              |
+|    31 | Hypnotic Pattern (2nd-level illusionist)                                                  |
+|    32 | Hypnotism (1st-level illusionist)                                                         |
+|    33 | Improved Phantasmal Force (2nd-level illusionist)                                         |
+|    34 | Insect Plague (5th-level cleric)                                                          |
+|    35 | Invisibility (2nd-level MU)                                                               |
+|    36 | Levitate (2nd-level MU)                                                                   |
+|    37 | Light/Darkness (1st-level cleric/MU)                                                      |
+|    38 | Manifest Dream (6th-level illusionist)                                                    |
+|    39 | Massmorph (4th-level MU)                                                                  |
+|    40 | Maze of Mirrors (5th-level illusionist)                                                   |
+|    41 | Nondetection (3rd-level illusionist)                                                      |
+|    42 | Permanent Illusion (6th-level illusionist)                                                |
+|    43 | Obscuring Mist (2nd-level druid)                                                          |
+| 44-74 | Other                                                                                     |
+| 75-76 | Roll two times                                                                            |
+|    77 | Roll three times                                                                          |
+|    78 | Pass Plant (5th-level druid, only affects certain plants, use Flora section to determine) |
+|    79 | Phantasmal Force (1st-level illusionist, 2nd-level MU)                                    |
+|    80 | Phantasmal Killer (4th-level illusionist)                                                 |
+|    81 | Protection from Evil/Good (1st-level cleric/MU)                                           |
+|    82 | Remove Fear/Cause Fear (1st-level cleric)                                                 |
+|    83 | Seeming (5th-level illusionist)                                                           |
+|    84 | Shades (6th-level illusionist)                                                            |
+|    85 | Silence 15’ radius (larger than normal radius, 2nd-level cleric)                          |
+|    86 | Shadow Monsters (4th-level illusionist)                                                   |
+|    87 | Shadowcast (5th-level illusionist)                                                        |
+|    88 | Shadowy Transformation (5th-level illusionist)                                            |
+|    89 | Sleep (1st-level MU)                                                                      |
+|    90 | Slow Poison (2nd-level druid)                                                             |
+|    91 | Solid Fog (4th-level illusionist)                                                         |
+|    92 | Spectral Force (3rd-level illusionist)                                                    |
+|    93 | Spook (1st-level illusionist)                                                             |
+|    94 | Stone to Flesh (6th-level MU)                                                             |
+|    95 | Time Flow (5th-level illusionist)                                                         |
+|    96 | Triggered Illusion (6th-level illusionist)                                                |
+|    97 | Veil of Abandonment (4th-level illusionist)                                               |
+|    98 | Wall of Fog (1st-level illusionist)                                                       |
+|    99 | Warp Wood (2nd-level druid)                                                               |
+|   100 | Water Breathing (3rd-level MU)                                                            |
 
 
-76-table-2.md
+For spells that have a normal and reversed variety roll 1d6. On a roll of 1-3 it is the normal version, on a 4-6 it is the reversed version. For spells that have variables determined by the caster level it will be (1-3) 1d6, (4- 5)1d10, or (6) 1d12.
 
-| d100   | Result                                                                                    |
-|:-------|:------------------------------------------------------------------------------------------|
-| 31     | Hypnotic Pattern (2nd-level illusionist)                                                  |
-| 32     | Hypnotism (1st-level illusionist)                                                         |
-| 33     | Improved Phantasmal Force (2nd-level illusionist)                                         |
-| 34     | Insect Plague (5th-level cleric)                                                          |
-| 35     | Invisibility (2nd-level MU)                                                               |
-| 36     | Levitate (2nd-level MU)                                                                   |
-| 37     | Light/Darkness (1st-level cleric/MU)                                                      |
-| 38     | Manifest Dream (6th-level illusionist)                                                    |
-| 39     | Massmorph (4th-level MU)                                                                  |
-| 40     | Maze of Mirrors (5th-level illusionist)                                                   |
-| 41     | Nondetection (3rd-level illusionist)                                                      |
-| 42     | Permanent Illusion (6th-level illusionist)                                                |
-| 43     | Obscuring Mist (2nd-level druid)                                                          |
-| 44-74  | Other                                                                                     |
-| 75-76  | Roll two times                                                                            |
-| 77     | Roll three times                                                                          |
-| 78     | Pass Plant (5th-level druid, only affects certain plants, use Flora section to determine) |
-| 79     | Phantasmal Force (1st-level illusionist, 2nd-level MU)                                    |
-| 80     | Phantasmal Killer (4th-level illusionist)                                                 |
-| 81     | Protection from Evil/Good (1st-level cleric/MU)                                           |
-| 82     | Remove Fear/Cause Fear (1st-level cleric)                                                 |
-| 83     | Seeming (5th-level illusionist)                                                           |
-| 84     | Shades (6th-level illusionist)                                                            |
-| 85     | Silence 15’ radius (larger than normal radius, 2nd-level cleric)                          |
-| 86     | Shadow Monsters (4th-level illusionist)                                                   |
-| 87     | Shadowcast (5th-level illusionist)                                                        |
-| 88     | Shadowy Transformation (5th-level illusionist)                                            |
-| 89     | Sleep (1st-level MU)                                                                      |
-| 90     | Slow Poison (2nd-level druid)                                                             |
-| 91     | Solid Fog (4th-level illusionist)                                                         |
-| 92     | Spectral Force (3rd-level illusionist)                                                    |
-| 93     | Spook (1st-level illusionist)                                                             |
-| 94     | Stone to Flesh (6th-level MU)                                                             |
-| 95     | Time Flow (5th-level illusionist)                                                         |
+#### 11.5. Magical Resonance or Dissonance
 
-
-77-table-1.md
-
-|   d100 | Result                                      |
-|-------:|:--------------------------------------------|
-|     96 | Triggered Illusion (6th-level illusionist)  |
-|     97 | Veil of Abandonment (4th-level illusionist) |
-|     98 | Wall of Fog (1st-level illusionist)         |
-|     99 | Warp Wood (2nd-level druid)                 |
-|    100 | Water Breathing (3rd-level MU)              |
-
-
-77-table-2.md
-
-| d100   | Result                                                                                  |
-|:------ |:--------------------------------------------------------------------------------------- |
-| 1-30   | Arcane                                                                                  |
-| 31-60  | Divine                                                                                  |
-| 61-70  | School (healing, divination, alteration, etc.)                                          |
-| 71-80  | Specific spells (ESP does not work within the radius, etc.)                             |
-| 81-90  | Spells with elemental affinity (fire, cold, etc.)                                       |
-| 91-98  | Spells interacting  with  Alignment (detect evil/good, protection from evil/good, etc.) |
-| 99-100 | All magic.                                                                              |
-
-
-77-table-3.md
-
-| d10   | Result   |
-|:------|:---------|
-| 1-2   | 25%      |
-| 3-4   | 50%      |
-| 5-6   | 75%      |
-| 7-8   | 100%     |
-| 9     | 125%     |
-| 10    | 150%     |
-
+Within a roughly spherical zone magic – of all types or only specific varieties – is either enhanced or stymied. The effects only last for as long as one remains within the area. Magical effects . . .
 
 77-table-4.md
 
@@ -4317,6 +5034,79 @@ MULTIPLE
 | 100    | Roll three times, ignore results of 98-100.                  |
 
 
+Note that wild magic and null magic results are singular, canceling all other results.
+
+The feature affects . . .
+
+
+
+77-table-2.md
+
+| d100   | Result                                                                                  |
+|:------ |:--------------------------------------------------------------------------------------- |
+| 1-30   | Arcane                                                                                  |
+| 31-60  | Divine                                                                                  |
+| 61-70  | School (healing, divination, alteration, etc.)                                          |
+| 71-80  | Specific spells (ESP does not work within the radius, etc.)                             |
+| 81-90  | Spells with elemental affinity (fire, cold, etc.)                                       |
+| 91-98  | Spells interacting  with  Alignment (detect evil/good, protection from evil/good, etc.) |
+| 99-100 | All magic.                                                                              |
+
+
+
+Durations Increased/Decreased. The duration of a spell is either increased or decreased. There is a 1-4 in 6 chance that the feature only affects spells cast within the area, not those that already exist that are then brought into the area. The duration of spells is modified by . . .
+
+
+77-table-3.md
+
+| d10   | Result   |
+|:------|:---------|
+| 1-2   | 25%      |
+| 3-4   | 50%      |
+| 5-6   | 75%      |
+| 7-8   | 100%     |
+| 9     | 125%     |
+| 10    | 150%     |
+
+Ranges Increased/Decreased. The range of a spell is increased or decreased by a given amount. If the spell has a range of 10’ or less it is reduced to touch. If a spell has a range of touch it is reduced to personal only. Spells with a range of personal can be cast as normal.
+
+Use the table above for durations to determine the range increase or decrease.
+
+More Potent/Less Potent. Targets of spells suffer/gain a (1-3) –1/+1, (4-5) –2/+2, or (6) –4/+4 penalty/bonus to saving throws.
+
+Area of Effect Increased/Decreased. Spells that have an area of effect called out in feet or yards have this amount modified according to the table for duration. Ex. The web spell creates a 10’ cube of sticky material. If this spell is cast in a location where the area of effect is increased by 50% it would fill a 15’ cube.
+
+Variables Increased/Decreased. Increase or decrease all of the variables of a spell by one die category (1-3), two categories (4-5), or three categories (6), not to go below 1d4.
+
+Ex. A cleric casting cure light wounds in an area that increases by one die category would roll 1d8 instead of 1d6.
+
+Ex. A magic-user casting mirror image summons 1d6 illusory duplicates instead of 1d4.
+
+Variables Maximized/Minimized. Spells that have a variable effect have their results maximized or minimized. A fireball, therefore, does either 1 hp of damage per die or 6 hp per die.
+
+Easier/Harder to Cast. Magic is partially unbound or suppressed in an area, making it easier or harder to cast spells. Whenever a character attempts to cast a spell they must roll less than or equal to their primary attribute (Int for magic-users, Wis for clerics, etc.) on 3d6 plus the level of spell being cast. Ex. Casting a 3rd-level spell requires a roll of 3d6+3.
+
+In areas where casting is more difficult, failure indicates that the spell simply is not cast. On a roll of 1-4 the spell slot is expended, on a roll of 5-6 it is not.
+
+In areas where casting is easier, a successful roll indicates the spell is cast but a spell slot is not expended.
+
+Suppressed/Enhanced. Spells that are suppressed simply do not take effect if cast within the area. If the spell was cast previous to entering the area it is suppressed upon entering. If a spell is suppressed it (1-3) will resume upon leaving the area, as if no time had passed or (4-6) will potentially resume, assuming the duration (measured from the time of casting) has not expired.
+
+Spells that are enhanced have their effects roughly doubled. This is up to the Referee to adjudicate. Note that it does not affect any of the above variables. Therefore, a hold portal spell would have the same duration and range, but a door held by such a spell could only be opened by a creature of 6 or more HD. A shield spell would grant the caster an AC of 2 (against missile attacks) or 4 (against other attacks).
+
+Null Magic
+
+Magic cannot be cast within the area. Spells that are cast within the zone either don’t take effect (1-5) or are suppressed until leaving the zone (6). Spells or magical effects that are active before entering the area are canceled (1-4) or suppressed (5-6).
+
+This affects spell-like abilities that certain creatures might possess (such as the petrifying gaze of a basilisk) as well as creatures that are animated by magic (undead, or golems). Spell-like abilities are never destroyed (a basilisk regains its ability to petrify upon leaving the
+
+effect), while creatures animated by magic are destroyed upon entering a null magic zone.
+
+##### Wild Magic
+
+The effect upon magic is constantly shifting. Roll again on the table to determine the effect, and reroll every . . .
+
+
 78-table-1.md
 
 | d100   | Result      |
@@ -4328,15 +5118,30 @@ MULTIPLE
 | 81-90  | 1d4 weeks   |
 | 91-100 | 1d12 months |
 
+#### 11.6. Ley Lines
+
+A ley line either passes through the hex (1-5) or terminates in the hex (6). If a ley line terminates in the hex there’s a 1-4 in 100 chance it is a nexus where multiple ley lines meet. If it passes through the hex there’s a 1 in 100 chance that another ley line crosses it, forming a nexus.
+
+Every campaign has its own rules for ley lines. Third Kingdom Games has rules for ley lines that can be found in Hex 13.22 – The Plateau of Sighs.
+
+If a nexus does exist it will be formed from the intersection of . . .
 
 78-table-2.md
 
-| d100                  | Result                                              |
-|:----------------------|:----------------------------------------------------|
-| 1-70                  | Two ley lines                                       |
-| 71-95 Three ley lines |                                                     |
-| 96-99                 | Four ley lines                                      |
-| 100                   | Five  (1-3),  six  (4-5),  or  seven  (6) ley lines |
+| d100  | Result                                              |
+|:----- |:--------------------------------------------------- |
+| 1-70  | Two ley lines                                       |
+| 71-95 | Three ley lines                                     |
+| 96-99 | Four ley lines                                      |
+| 100   | Five  (1-3),  six  (4-5),  or  seven  (6) ley lines |
+
+#### 11.7. Space and Time
+
+Space and time work differently in these areas. Those entering the area (1-4) get no saving throws to avoid the effect or (5-6) may Save v. Spells to avoid the effect. It is also possible to purposefully fail the saving throw should a character desire to be affected. The magic affects (1-7) space, (8-11) travel, or (12) time.
+
+##### 11.7.1. Space
+
+Geometry is strange and twisted. There’s a 1-3 in 6 chance that those unfamiliar with the area must Save v. Death or become disoriented by the eldritch angles and non-euclidean geometry. Those that are native to the area, or succeed on the save, suffer no penalties. The effect manifests as . . .
 
 
 79-table-1.md
@@ -4348,3 +5153,66 @@ MULTIPLE
 | 51-75  | See around corners/obstacles                                                            |
 | 76-95  | Distance between points is distorted, taking more (1-3)/less (4-6) time to move between |
 | 96-100 | Gravity is non-standard                                                                 |
+
+
+
+Increased/decreased vision. Objects appear either closer or farther away than they are, with a multiplier of (1-3) 25%, (4-5) 50%, or (6) 100%. Those unused to the effect suffer a penalty equal to –1/–2/–5 to attack rolls.
+
+Increased/decreased sounds. Sound travels strangely here. Those unfamiliar with the effect suffer a penalty to surprise rolls equal to (1-3) –1, (4-5) –2, or (6) –3, or an equivalent penalty to actions that depend on sound (such as Move Silently). Those familiar with the effect gain an equivalent positive modifier, if applicable.
+
+See around corners/obstacles. Light bends weirdly here. Those familiar with the effect can ignore any cover that targets may have, or can use the twisting geometries to hide in plain sight: (1-3) +1, (4-5) +2, or (6) +4 bonus to missile attacks to hit targets behind cover, or an equivalent penalty to such attacks made against one under this effect.
+
+Distance is Distorted. The spatial relationship between any two points is distorted and malleable. Those familiar with the terrain can move between points easily, while those unfamiliar with this effect find it takes longer to reach their destination. There are two effects of this:
+
+Those familiar with the area have their base movement increased by (1-3) 10’, (4-5) 20’, or (60) 30’. Those unfamiliar have their movement rate reduced by the same amount (to a minimum of 0’ per round).
+
+However, there is a 1 in 6 chance that those familiar with the area can actually travel between the warp and weft of space and time, teleporting (1-3) 30’, (4-5) 60’, or (6) 90’ in any direction in lieu of their normal movement. This movement is instantaneous and allows them to move in any direction they can see.
+
+Gravity is Distorted
+
+Gravity does not function as normal. It is either (1-3) stronger than normal, (4-6) weaker than normal, or (7- 8) non-existent. The following conditions apply: (1-3) #1, (4-5) #1 and #2, or (6) #1, #2, and #3.
+
+1. Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by (1-3) 10’, (4-5) 20’, or (6) 30’.
+
+2. Missile ranges are modified by (1-3) 25%, (4-5) 50%, or (6) 75%.
+
+3. Movement is either more or less exhausting. Characters can travel (1-3) 25%, (4-5) 50%, or (6) 75% longer/less than normal before needing to rest.
+
+If gravity is non-existent, characters, and all unattached objects, “fall” 1d6×10’ into the air, and are only capable of movement through flight, pushing off nearby objects, etc.
+
+##### 11.7.2. Travel
+
+There’s a portal of some kind within the area, one that leads to (1-5) another place on the same plane, (6-9) another plane, (10-11) another time, or (12) another place and time. The portal is (1-4) two-way or (5-6) one-way.
+
+The portal is a . . . (1-3) physical doorway or structure that one steps through, (4-5) a road or course that one has to traverse, or (6) a seamless transition.
+
+The portal (1-2) functions continuously, (3-4) functions only at a given time or event, or (5-6) can only be opened by magic (spell, ritual, item, etc.).
+
+There’s a 1-2 in 6 chance that one can glean localized clues about where the portal leads. Additionally, there’s a 1 in 6 chance that features from the connected location bleed through into the area: if the portal leads to the elemental plane of fire, for instance, the area surrounding the portal may be hotter than normal.
+
+##### 11.7.3. Time
+
+Time is funny in these parts. In the area affected by the feature, time is (1-3) slower or (4-6) faster relative to the surrounding area. There’s only a 1 in 6 chance the change is imperceptible and easy to enter. Otherwise, the change is noticeable and difficult to enter, requiring (1-2) an item, (3- 4) a spell or ritual, (5-6) or a supreme force of will (roll equal to or under Charisma on 4d6) in order to enter the zone.
+
+Inside, time passes either slower or faster at the following rate: (1-3) x5, (4-5) x10, or (6) x100.
+
+There’s a 1 in 6 chance that the magical effect will actually transport the adventurers through time, to the (1-2) past, (3- 4) future, or (5-6) an alternate timeline of their present world.
+
+
+There’s a 1-5 in 6 chance they will be able to get back to their real time by (1-3) retracing their steps, (4-5) performing a task, or (6) resorting to powerful magics or an item.
+
+Magical Feature Example. Subhex 0303 has a magical feature. The 1d100 result is a 17, indicating a “Flora and Fauna” magical effect. Referring to that section, the initial result is a “6”, meaning that just plants are affected.
+
+Some more rolls are made:
+
+-   􏰀  The magical effect covers a total of 9 subhexes.
+    
+-   􏰀  It affects a small number of plants: 550, to be precise.
+    
+-   􏰀  They’re mobile, moving by traveling on their root system, and do so to get more sunlight.
+    
+-   􏰀  Their movement is subtle, though, and unlikely to be noticed immediately.
+    
+    􏰀The plants are not sentient, moving in much the same way that a sunflower tracks the sun’s passage through the sky.
+    
+    The same technique is used to determine the area affected as is used to place terrain changes. Our first d6 roll is a 3, meaning the next hex to be affected is 0304, then 0205, and so forth, until the entire area affected is determined. On the map the area is drawn out in red.
