@@ -3580,12 +3580,12 @@ Hazards range from quicksand and slippery slopes to carnivorous plants and unsta
 Roll 1d10 to determine what the hazard is . . . 
 
 
-| dice: 1d10 |                                                 |
-| ---------- | ----------------------------------------------- |
-| 1-3        | Geologic `dice: [[Fill#^HazardGeologicMaster]]` |
-| 4-6        | Plant-based                                     |
-| 7-9        | Weather/climate                                 |
-| 10         | Magical or Unusual                              |
+| dice: 1d10 |                                                     |
+| ---------- | --------------------------------------------------- |
+| 1-3        | Geologic `dice: [[Fill#^HazardGeologicMaster]]`     |
+| 4-6        | Plant-based `dice: [[Fill#^hazardFloraFaunaMaster]] |
+| 7-9        | Weather/climate                                     |
+| 10         | Magical or Unusual                                  |
 ^HazardMaster
 
 
@@ -3770,7 +3770,7 @@ These hazards are from living creatures. Animals and magical plants are spotted 
 | 31-60       | Poisonous plants (edible). If non-woodswise adventurers attempt to forage for food in these hexes they inadvertently pick poisonous plants instead of harmless varieties. Those that partake of the food must Save v. Poison. Those failing `dice: [[Fill#^florapoisondmg]]`                                                                                                          |
 | 61-90       | Dangerous plants (contact). While passing through this hex the adventurers come into contact with poisonous or dangerous non-magical plants. `dice: [[Fill#^hazarddangerousplants]]`                                                                                                                                                                                                  |
 | 91-100      | Magical plants. A dangerous type of magical plant (including oozes) can be found in this subhex. Some of the threats included below won’t be found in the OSE core book, and the source is noted when appropriate. Some of the below creatures may need to be revamped for the wilderness. Otherwise, these are just treated like a normal encounter. `dice: [[Fill#^MagicalPlants]]` |
-
+^hazardFloraFaunaMaster
 
 51-table-1.md
 
@@ -4236,7 +4236,10 @@ thought should go into the infrastructure needed to support the settlement. The 
 
 An assumption is made that in Civilized domains there is a settlement in each hex. These common settlements typically range in size from Market Classes 1 to 3; they’re small, relatively inconsequential villages and hamlets that exist mostly as background noise unless they are needed to serve a particular purpose – as the setting for an adventure, or perhaps an important NPC lives there.
 
-As the percentages are determined now, each hex has a 1 in 20 chance per feature of having a settlement in it. Depending on how densely populated the campaign world is the Referee may want to reduce the chances of a settlement in Borderlands or Wilderness hexes. It is suggested that when the Settlement result is rolled in these hexes that an additional 1d6 is rolled. In Borderland hexes if the result is a 1-5 there is a settlement present. If the result is a 6 there is no settlement, and the feature result is re-rolled. In Wilderness hexes, if the result is a 1-3 there is a settlement, and if the result is 4-6 there is no settlement, the result rolled again.
+As the percentages are determined now, each hex has a 1 in 20 chance per feature of having a settlement in it. Depending on how densely populated the campaign world is the Referee may want to reduce the chances of a settlement in Borderlands or Wilderness hexes. It is suggested that when the Settlement result is rolled in these hexes that an additional 1d6 is rolled. In Borderland hexes if the result is a 1-5 there is a settlement present. If the result is a 6 there is no settlement, and the feature result is re-rolled. In Wilderness hexes, if the result is a 
+
+1-3 there is a settlement, and if the result is 
+4-6 there is no settlement, the result rolled again.
 
 The presence of a settlement has the potential to change a hex designation. The larger the settlement, the less likely it is to be found in Wilderness or Borderland hexes. One solution would be to modify the map to add a new domain. Another would be to assume the settlement is unable to project the power needed to pacify the surrounding territory. Perhaps it is an ancient city in decline, fallen into decadence and infighting, or perhaps it simply doesn’t have the resources needed to tame the surrounding lands.
 
@@ -4341,15 +4344,61 @@ Brooks are 1d3 feet wide, creeks 1d4+1, and streams 3d4 feet in width. Rivers ca
 
 Streams that are wider than 9 feet are typically only navigable via canoe or extremely small watercraft. Rivers that range from 10-30 feet wide are only navigable by canoes or other small, shallow draft craft. Most rivers can be plied by flat bottom craft or rafts; those deeper than fifteen feet or so can be sailed by boats with keels. As a general rule, boats can sail on waters with a minimum depth of four times the boat’s draft without worrying about grounding.
 
-Brooks are: (1-2) 10d100 feet, (3-4) 1d4 miles, or (5-6) 1d8 miles long before: (1-2) disappearing (water dries up or goes underground) or (3-6) merging with: (1-3) another moving source of water or (4-6) a still body.
+Brooks are: 
 
-Creeks are (1-2) 1d4 miles, (3-4) 2d4 miles, or (5-6) 3d4 miles long before: (1) disappearing (water dries up or goes underground) or (2-6) merging with: (1-3) another moving source of water or (4-6) still body.
+(1-2) 10d100 feet, 
+(3-4) 1d4 miles, or 
+(5-6) 1d8 miles 
 
-Streams are (1-2) 1d8 miles, (3-4) 2d8 miles, or (5- 6) 3d8 miles long before merging with: (1-3) another moving source of water or (4-6) still body.
+long before: 
 
-Rivers are (1) 1d8 miles long, (2) 2d10 miles long, (3) 3d20 miles long, (4) 5d20 miles long, (5) 5d100 miles long, or (6) 10d100 miles long. They will merge with (1-3) another moving body of water or (4-6) a still body of water.
+(1-2) disappearing (water dries up or goes underground) or 
+(3-6) merging with:
 
-As a general rule moving bodies of water will be freshwater, although there’s a 1 in 6 chance there’s something unusual about the waterway: It is (1- 3) extremely alkaline or acidic, causing nausea as described on p., above, (4-5) brackish (a mixture of salt and freshwater), or (6) has a unique property (refer to the magic section).
+(1-3) another moving source of water or 
+(4-6) a still body.
+
+Creeks are 
+
+(1-2) 1d4 miles, 
+(3-4) 2d4 miles, or 
+(5-6) 3d4 miles long before: 
+
+(1) disappearing (water dries up or goes underground) or
+ (2-6) merging with: 
+ 
+(1-3) another moving source of water or 
+(4-6) still body.
+
+Streams are 
+
+(1-2) 1d8 miles, 
+(3-4) 2d8 miles, or
+(5- 6) 3d8 miles long before merging with: 
+
+(1-3) another moving source of water or 
+(4-6) still body.
+
+Rivers are 
+
+(1) 1d8 miles long, 
+(2) 2d10 miles long,
+(3) 3d20 miles long, 
+(4) 5d20 miles long, 
+(5) 5d100 miles long, or 
+(6) 10d100 miles long. 
+
+They will merge with 
+
+(1-3) another moving body of water or 
+(4-6) a still body of water.
+
+As a general rule moving bodies of water will be freshwater, although there’s a 1 in 6 chance there’s something unusual about the waterway: It is 
+
+(1- 3) extremely alkaline or acidic, causing nausea as described on p., above, 
+(4-5) brackish (a mixture of salt and freshwater), or 
+(6) has a unique property (refer to the magic section).
+
 
 While to some degree the direction of flow of a watercourse will be determined by the geography, the Referee can also randomly determine the direction of flow using the rules presented in the Roads section on p.23
 
@@ -4357,9 +4406,7 @@ While to some degree the direction of flow of a watercourse will be determined b
 
 Note that the term “river” is used below to describe any moving body of water, regardless of size. Roll once per river to determine a defining feature.
 
-1-10. Deltas. The river widens and gets shallower as it meets a larger body of water, whether (1-4) another stream or (5-6) a still body. It gets 2d4 times wider and the same proportion shallower.
-
-There’s a 1 in 6 chance the delta becomes a bayou, a much wider (10d20 times), marshy piece of land that filters the water from the river into the larger body. Bayous are swamps, difficult to navigate on foot, but teeming with wildlife, thick foliage, and plentiful insects.
+1-10. Deltas. The river widens and gets shallower as it meets a larger body of water, whether (1-4) another stream or (5-6) a still body. It gets 2d4 times wider and the same proportion shallower. There’s a 1 in 6 chance the delta becomes a bayou, a much wider (10d20 times), marshy piece of land that filters the water from the river into the larger body. Bayous are swamps, difficult to navigate on foot, but teeming with wildlife, thick foliage, and plentiful insects.
 
 11-20. Dry bed. The source of water has either (1-3) dried up or (4-6) moved elsewhere, leaving a dried riverbed behind as evidence it once existed. If it has dried up there’s a 1 in 6 chance that the source of the water is actually being blocked by something – perhaps a beaver dam, or something more nefarious.
 
@@ -4388,7 +4435,12 @@ The island may certainly be inhabited, either by intelligent creatures or animal
 
 46. Magic. There’s some magical quality about the river. Refer to the Chapter on Magic to determine what it is.
 
-47-57. Pool. The river widens and slows down here, creating a relatively large, slow-moving pool of water that is 2d4 times wider than the average width of the river. The depth will (1-2) get shallower, (3-4) get deeper, or (5-6) not change.
+47-57. Pool. The river widens and slows down here, creating a relatively large, slow-moving pool of water that is 2d4 times wider than the average width of the river. The depth will 
+
+(1-2) get shallower, 
+(3-4) get deeper, or 
+(5-6) not change.
+
 
 58-60. Rapids. The river picks up speed as it runs downhill, creating turbulence in the water. The rapids are . . .
 
@@ -4407,7 +4459,12 @@ They are dangerous to navigate. When entering rapids by boat, an attack roll is 
 
 Roll to attack when the boat first enters the rapids, every mile thereafter, and when it leaves the rapids.
 
-The attack roll is made as a (1-3) 3 HD monster, (4-5) 5 HD monster, or (6) 8 HD monster.
+The attack roll is made as a 
+
+(1-3) 3 HD monster, 
+(4-5) 5 HD monster, or
+(6) 8 HD monster.
+
 
 Each successful “attack” does 2d6 points of damage to the boat. Failed attacks still do 1 point of damage, unless a natural 1 is rolled, in which case the boat suffers no damage.
 
@@ -4419,9 +4476,21 @@ Each time an attack is made those within must Save v. Petrification with a +2 bo
 
 If the river is used by civilized races there is a 1-4 in 6 chance that some means of passage around the rapids has been established, whether it be a portage, canal, or something else.
 
-61-65. Rocks. There are a number of large rocks in this section of river, reducing its effective depth by (1-3) 25%, (4-5) 50%, or (6) 75%.
+61-65. Rocks. There are a number of large rocks in this section of river, reducing its effective depth by 
 
-66-70. Swamp/marsh/bog. The land surrounding the watercourse is saturated, creating a marsh or swamp. It covers (1-3) 1 subhex, (4-5) 1d4 subhexes, (6-7) 2d6 subhexes, (8) 3d8 subhexes, (9) 1 full hex, or (10) 1d4 hexes. Roll 1d4 if the body of water is a brook or smaller, 1d6 if a creek, 1d8 if a stream, and 1d10 if a river.
+(1-3) 25%, 
+(4-5) 50%, or
+(6) 75%.
+
+66-70. Swamp/marsh/bog. The land surrounding the watercourse is saturated, creating a marsh or swamp. It covers
+
+(1-3) 1 subhex, 
+(4-5) 1d4 subhexes, 
+(6-7) 2d6 subhexes, 
+(8) 3d8 subhexes, (9) 1 full hex, or 
+(10) 1d4 hexes. Roll 1d4 if the body of water is a brook or smaller, 1d6 if a creek, 1d8 if a stream, and 1d10 if a river.
+
+
 
 71-90. Tributaries. The river either (1-3) joins with another source of water of equal or greater size or (4-6) is joined by another source of water of equal or lesser size. Add the width of the two together to get the new width.
 
@@ -4455,11 +4524,19 @@ Springs, ponds, and lakes will be freshwater unless fed by sources that are othe
 
 The spring is 3d6 feet in diameter and 1d4 feet deep.
 
-31-50 (46-80). Pond. Larger than a spring, ponds will be (1-2) 5d20 feet in diameter, (3-4) 10d20 feet in diameter, (5) 5d100 feet in diameter, or (6) 10d100 feet in diameter.
+31-50 (46-80). Pond. Larger than a spring, ponds will be 
+
+(1-2) 5d20 feet in diameter, 
+(3-4) 10d20 feet in diameter, 
+(5) 5d100 feet in diameter, or 
+(6) 10d100 feet in diameter.
 
 They average 1d8 feet in depth.
 
-Ponds have a 1 in 6 chance of being spring-fed, and a further 1 in 6 chance of having no outlet; the amount of water in the pond stays stable due to evaporation and/or ground seepage. Otherwise, there will typically be 1d2 brooks (1-3) or creeks (4-6) feeding into and leaving the pond.
+Ponds have a 1 in 6 chance of being spring-fed, and a further 1 in 6 chance of having no outlet; the amount of water in the pond stays stable due to evaporation and/or ground seepage. Otherwise, there will typically be 1d2 brooks
+
+(1-3) or creeks 
+(4-6) feeding into and leaving the pond.
 
 51-75 (81-100). Lake. Larger than ponds, lakes are usually fed by multiple sources of water. They will be . . .
 
@@ -4478,7 +4555,12 @@ Ponds have a 1 in 6 chance of being spring-fed, and a further 1 in 6 chance of h
 ^232946
 
 
-The lake will be (1-2) deeper than normal by a factor of 1d4+1, (3-4) shallower than normal by a factor of 1d4+1, or (5-8) the indicated depth.
+The lake will be
+
+(1-2) deeper than normal by a factor of 1d4+1,
+(3-4) shallower than normal by a factor of 1d4+1, or 
+(5-8) the indicated depth.
+
 
 For every size category above the lake will be fed by a combination of moving water sources. As a general rule, each size category will have a single river or large stream feeding it, and multiple streams, creeks, and brooks.
 
@@ -4506,9 +4588,23 @@ A bay will have a mouth that is . . .
 
 Bays tend to be around 10d20 feet deep.
 
-There’s a 1 in 8 chance that a bay has a restricted entrance or dangerous waters at the mouth. These are due to (1- 2) rocks near the surface, (3-4) sandbars, or (5-6) coral reefs. If so, the bay will be (1-3) navigable only by trained pilots, (4-5) navigable only by craft with minimal draft, (6-7) both of the above, or (8) non-navigable. Bays that cannot be entered still have the same chances of supporting settlements, the inhabitants of which will still be able to ply the interior waters.
+There’s a 1 in 8 chance that a bay has a restricted entrance or dangerous waters at the mouth. These are due to 
 
-81-85. Sound. A sound is a wide ocean or sea inlet or a narrow section of ocean/sea between two pieces of land. They tend to be wider and longer than bays and are either (1-3) open on both ends or (4-6) closed on one end.
+(1- 2) rocks near the surface, 
+(3-4) sandbars, or
+(5-6) coral reefs. If so, the bay will be 
+
+(1-3) navigable only by trained pilots,
+(4-5) navigable only by craft with minimal draft, 
+(6-7) both of the above, or 
+(8) non-navigable. 
+
+Bays that cannot be entered still have the same chances of supporting settlements, the inhabitants of which will still be able to ply the interior waters.
+
+81-85. Sound. A sound is a wide ocean or sea inlet or a narrow section of ocean/sea between two pieces of land. They tend to be wider and longer than bays and are either 
+
+(1-3) open on both ends or 
+(4-6) closed on one end.
 
 They are deeper than bays, averaging 20d20 feet deep. Numerous rivers, inlets, and bays feed into a sound.
 
@@ -4564,7 +4660,20 @@ They have an internal diameter and depth of (roll for each) . . .
 
 and deep, averaging 12,000 feet deep. Oceans are too large to cover in this supplement and should be placed thoughtfully.
 
-There is a 1-5 in 6 chance any body of water has an unusual feature, drawn from the list below. The size of these features is, unless otherwise stated, determined by the size of the body of water. As a general rule, if the body of water is one hex or smaller the feature will occupy 1d20 subhexes. If it is between one and four hexes it will occupy (1-3) 2d10 subhexes, (4-5) 3d20 subhexes, or (6) 1d4 hexes. Any larger than that and the feature will occupy (1-2) 1d6 hexes, (3) 2d8 hexes, (4) 3d10 hexes (5) 4d20 hexes, or (6) the entire body of water. Alternatively, the Referee can roll for each subhex or hex, with each having a 1 in 6 chance of possessing one of the following features.
+There is a 1-5 in 6 chance any body of water has an unusual feature, drawn from the list below. The size of these features is, unless otherwise stated, determined by the size of the body of water. As a general rule, if the body of water is one hex or smaller the feature will occupy 1d20 subhexes. If it is between one and four hexes it will occupy 
+
+
+(1-3) 2d10 subhexes,
+(4-5) 3d20 subhexes, or
+(6) 1d4 hexes. Any larger than that and the feature will occupy
+
+(1-2) 1d6 hexes, 
+(3) 2d8 hexes,
+(4) 3d10 hexes 
+(5) 4d20 hexes, or 
+(6) the entire body of water. 
+
+Alternatively, the Referee can roll for each subhex or hex, with each having a 1 in 6 chance of possessing one of the following features.
 
 1. Dry. The body of water is dry. The source of water has either (1-3) dried up or (4-6) moved elsewhere, leaving a dried water-bed behind as evidence it once existed. If it has dried up there’s a 1 in 6 chance that the source of the water is actually being blocked by something – perhaps a beaver dam, or something more nefarious. If the body of water was brackish or salt-water it is likely there will be a significant amount of salt left behind.
 
@@ -4586,37 +4695,103 @@ The water-bed will have disappeared . . .
 
 
 
-2-20. Fishing. The body of water is exceptional for fishing. (1-4) Double or (5-6) treble the chance for “hunting” as described on p. 110 of OSE core. If successful, enough fish (or other appropriate food, like clams, crawfish, etc.) can be caught in a day to feed (1-3) 2d6, (4-5) 3d8, or (6) 4d10 individuals. If using the resource rules from Domain Building increase the “Animal, game” resource of this hex by 1d6×.1.
+2-20. Fishing. The body of water is exceptional for fishing. 
 
-If the body of water occupies more than one hex this feature will occupy (1) one hex, (2) 1d4 hexes, (3-5) 1d8 hexes, (6) 1d20 hexes. If the result is for a number of hexes larger than the body of water occupies add .1 to the resource value to each viable hex.
+(1-4) Double or 
+(5-6) treble the chance for “hunting” as described on p. 110 of OSE core. If successful, enough fish (or other appropriate food, like clams, crawfish, etc.) can be caught in a day to feed
 
-21-25. Hot Springs. The water is heated by geothermal means and is often (1-4 in 6) accompanied by a strong smell of sulfur. It will rarely (1 in 6) be unbearable hot, inflicting (1-3) 1, (4-5) 1d4, or (6) 1d6 points of damage for every round someone not immune to fire damage is within. If it is hot enough to inflict damage there’s a 1-2 in 6 chance it is actually a geyser (see Hazards, p 45.).
+(1-3) 2d6, 
+(4-5) 3d8, or
+(6) 4d10 individuals. If using the resource rules from Domain Building increase the “Animal, game” resource of this hex by 1d6×.1.
 
-26-55. Island. The body of water has (1-2) a single island, (3-5) 1d20 islands, or (6) 1d100 islands. Obviously, an ocean can have thousands of islands of varying sizes, so common sense is suggested when rolling this result.
+If the body of water occupies more than one hex this feature will occupy 
+
+(1) one hex, 
+(2) 1d4 hexes, 
+(3-5) 1d8 hexes, 
+(6) 1d20 hexes. 
+
+If the result is for a number of hexes larger than the body of water occupies add .1 to the resource value to each viable hex.
+
+21-25. Hot Springs. The water is heated by geothermal means and is often (1-4 in 6) accompanied by a strong smell of sulfur. It will rarely (1 in 6) be unbearable hot, inflicting 
+
+(1-3) 1, 
+(4-5) 1d4, or 
+(6) 1d6 points of damage for every round 
+
+someone not immune to fire damage is within. If it is hot enough to inflict damage there’s a 1-2 in 6 chance it is actually a geyser (see Hazards, p 45.).
+
+26-55. Island. The body of water has 
+
+(1-2) a single island, 
+(3-5) 1d20 islands, or 
+(6) 1d100 islands. 
+
+
+Obviously, an ocean can have thousands of islands of varying sizes, so common sense is suggested when rolling this result.
 
 These islands will vary in size, with the overall size dependent upon the size of the body of water.
 
 56-57. Magic. Refer to the section on Magic to determine an appropriate magical effect.
 
-58-65. Reef/Shoal. Refer to the section on bays, above, for more information. If the proper sailing conditions are not met roll an attack every time a ship enters a hex with a reef. The reef attacks as a (1-3) 3 HD monster, (4-5) 5 HD monster, or (6) 10 HD monster. An attack is made each time the boat enters and leaves the hex, and on a successful attack the boat suffers (1-3) 2d6, (4-5) 3d6, or (6) 4d8 points of hull damage.
+58-65. Reef/Shoal. Refer to the section on bays, above, for more information. If the proper sailing conditions are not met roll an attack every time a ship enters a hex with a reef. The reef attacks as a 
+
+(1-3) 3 HD monster,
+ (4-5) 5 HD monster, or
+  (6) 10 HD monster. 
+  
+  An attack is made each time the boat enters and leaves the hex, and on a successful attack the boat suffers 
+  
+(1-3) 2d6, 
+(4-5) 3d6, or
+(6) 4d8 points of hull damage.
+
+
 
 66-70. Sandbar. As above, but instead of inflicting damage the boat is grounded. There’s a 1-3 in 6 chance that when the tide rises the boat will float free.
 
-71-80. Swamp/Marsh/Bog. The land surrounding the body of water is saturated, created a marsh or swamp. It covers (1-3) 1 subhex, (4-5) 1d4 subhexes), (6-7) 2d6 subhexes, (8) 3d8 subhexes, (9) 1 full hex, or (10) 1d4 hexes. Roll 1d4 if the water is a pond or smaller, 1d6 if a lake, 1d8 if a bay or similar, and 1d10 if a sea or ocean.
+71-80. Swamp/Marsh/Bog. The land surrounding the body of water is saturated, created a marsh or swamp. It covers 
+(1-3) 1 subhex, 
+(4-5) 1d4 subhexes), 
+(6-7) 2d6 subhexes, 
+(8) 3d8 subhexes,
+(9) 1 full hex, or 
+(10) 1d4 hexes. 
 
-81-87. Trench. A portion of the body of water is (1-3) ×2, (4-5) ×3, or (6) ×1d4+3 times deeper than normal. It is a (1-3) trench longer than it is wide or (4-6) a hole, and occupies an area proportional to the size of the body of water. A trench in a pond may only be ten feet in diameter, while one in an ocean may stretch for multiple hexes.
+Roll 1d4 if the water is a pond or smaller, 1d6 if a lake, 1d8 if a bay or similar, and 1d10 if a sea or ocean.
+
+81-87. Trench. A portion of the body of water is 
+
+(1-3) ×2, 
+
+(4-5) ×3, or 
+(6) ×1d4+3 times deeper than normal. It is a 
+
+(1-3) trench longer than it is wide or 
+(4-6) a hole, and occupies an area proportional to the size of the body of water. A trench in a pond may only be ten feet in diameter, while one in an ocean may stretch for multiple hexes.
 
 At great depths water behaves strangely, and there’s a 1-3 in 6 chance that there’s something magical about the trench. Refer to the section on Magic to expand upon this.
 
-88-93. Treacherous Currents. The currents in this section of the body of water run counter to prevailing currents. They reduce ship movement by (1-3) 25%, (4-5) 50%, or
+88-93. Treacherous Currents. The currents in this section of the body of water run counter to prevailing currents. They reduce ship movement by (
 
-(6) 75% while a ship remains in the area. There’s a 1 in 6 chance the currents are strong enough that the ship, barring exceptional piloting or magical assistance, cannot escape the currents and must travel in the indicated direction. If the currents pull towards land, or a shoal, there’s a chance the ship will run aground (see above).
+1-3) 25%, 
+(4-5) 50%, or
+(6) 75% 
+
+while a ship remains in the area. There’s a 1 in 6 chance the currents are strong enough that the ship, barring exceptional piloting or magical assistance, cannot escape the currents and must travel in the indicated direction. If the currents pull towards land, or a shoal, there’s a chance the ship will run aground (see above).
 
 94-96. Unusual Pocket. Something is odd in this area of the body of water. Perhaps it is a pocket of freshwater in an otherwise salt-water sea, or perhaps the water is warmer or colder than the rest. It may be a dead zone, where there is no oxygen and no living things (although there may be undead!).
 
 97. Whirlpool. The water swirls around, dragging objects on the surface underwater. Those that have the potential to be caught in a whirlpool must Save v. Petrification. Failure indicates they are caught and suffer a double normal chance of drowning.
 
-Unlike whirlpools in rivers, these have the possibility of sinking ships. A whirlpool can affect ships with a length up to (1) 25’, (2) 45’, (3) 60’, (4) 75’, (5’) 90’, or (6) 120’ or longer.
+Unlike whirlpools in rivers, these have the possibility of sinking ships. A whirlpool can affect ships with a length up to
+
+(1) 25’, 
+(2) 45’, 
+(3) 60’, 
+(4) 75’, 
+(5’) 90’, or
+(6) 120’ or longer.
 
 98-99. Roll twice.
 
