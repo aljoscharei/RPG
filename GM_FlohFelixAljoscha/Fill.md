@@ -1,9 +1,22 @@
-## Current position:
+### Current position:
 [[#Infrastructure]]
 [[#Structures]]
 [[#Resources]]
 
 
+### Snippets
+
+`dice: [[Fill#^geysernumber]]`
+`dice: [[Fill#^volcanuashdurationlong]]`
+`dice: 1d6 <=1`
+`dice: 1d20 <=1`
+`dice: 1d4`
+`dice: 1d6`
+`dice: 1d6-1`
+`dice: 1d8`
+`dice: 1d20`
+
+dice: 1d6
 
 
 7-table-1.md
@@ -43,18 +56,18 @@
 ## Master Table
 1.1 Feature Type `dice: [[Fill#^FeatureNoLairs]]`
 
-| dice: 1d20 | Result                                                                    |
-| ---------- | ------------------------------------------------------------------------- |
-| 1-4        | Geologic Feature `dice: [[Fill#^GeologicFeature]]` |
-| 5-8        | Structure `dice: [[Fill#^StructuresMaster]]`                                                                |
-| 9-12       | Resource [[#Resources]]. `dice: [[Fill#^ResourceMaster]]` .This resource `dice: [[Fill#^exceptionalResource]]`.                                                                  |
-| 13         | Hazard [[#Hazard]]                                                                   |
-| 14         | Sign                                                                      |
-| 15         | Dungeon                                                                   |
-| 18         | Settlement                                                                |
-| 20         | Magic                                                                     |
-| 16-17      | Terrain `dice: [[Fill#^TerrainType]]`                                                                  |
-| 19         | Water                                                                     |
+| dice: 1d20 | Result                                                                                                          |
+| ---------- | --------------------------------------------------------------------------------------------------------------- |
+| 1-4        | Geologic Feature `dice: [[Fill#^GeologicFeature]]`                                                              |
+| 5-8        | Structure `dice: [[Fill#^StructuresMaster]]`                                                                    |
+| 9-12       | Resource [[#Resources]]. `dice: [[Fill#^ResourceMaster]]` .This resource `dice: [[Fill#^exceptionalResource]]`. |
+| 13         | Hazard [[#Hazard]] `dice: [[Fill#^HazardMaster]]`, `dice: [[Fill#^HazardArea]]`                                                   | 
+| 14         | Sign                                                                                                            |
+| 15         | Dungeon                                                                                                         |
+| 18         | Settlement                                                                                                      |
+| 20         | Magic                                                                                                           |
+| 16-17      | Terrain `dice: [[Fill#^TerrainType]]`                                                                           |
+| 19         | Water                                                                                                           |
 ^FeatureNoLairs
 
 ### Geologic
@@ -3567,137 +3580,196 @@ Hazards range from quicksand and slippery slopes to carnivorous plants and unsta
 Roll 1d10 to determine what the hazard is . . . 
 
 
-| dice: 1d10 |                      |
-| ---------- | -------------------- |
-| 1-3        | . Geological         |
-| 4-6        | . Plant-based        |
-| 7-9        | . Weather/climate    |
-| 10         | . Magical or Unusual |
+| dice: 1d10 |                                                 |
+| ---------- | ----------------------------------------------- |
+| 1-3        | Geologic `dice: [[Fill#^HazardGeologicMaster]]` |
+| 4-6        | Plant-based                                     |
+| 7-9        | Weather/climate                                 |
+| 10         | Magical or Unusual                              |
 ^HazardMaster
 
 
 The hazard can be found in . . .  
 
-| dice: 1d100 |                          |
-| ----------- | ------------------------ |
+| dice: 1d100 |                        |
+| ----------- | ---------------------- |
 | 1-50        | 1 subhex               |
 | 51-75       | `dice: 1d4+1` subhexes |
 | 76-85       | `dice: 3d6` subhexes   |
-| 86-95.      | `dice: 3d10` subhexes    |
+| 86-95.      | `dice: 3d10` subhexes  |
 | 96-100      | `dice: 1d4` hexes      |
+^HazardArea
+
 
 |If the hazard is Weather/Climate add 10 to the roll.
 
 
 #### Geologic
 
-Geologic hazards are terrain-based. They can be spotted
+Geologic hazards are terrain-based. They can be spotted as per secret doors. Dwarves, druids, and other nature-based classes have the same chances of spotting these hazards as elves.
 
-as per secret doors. Dwarves, druids, and other nature- based classes have the same chances of spotting these hazards as elves.
 
-1-20. Concealed holes. These are smaller holes that largely pose a danger to mounts; oftentimes animal holes concealed in undergrowth. When passing through a hex with this hazard all travelers (or their mounts) must Save v. Wands. Those failing suffer twisted ankles, reducing movement by 1⁄2 for 1d4 days. There’s a 1-2 in 6 chance that horses or similar are lamed permanently unless magically healed.
+|        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-20   | Concealed holes. These are smaller holes that largely pose a danger to mounts; oftentimes animal holes concealed in undergrowth. When passing through a hex with thishazard all travelers (or their mounts) must Save v. Wands. Those failing suffer twisted ankles, reducing movement by 1⁄2 for 1d4 days. There’s `dice: 1d6>=2` chance that horses or similar are lamed permanently unless magically healed. If the party is accompanied by an experienced scout, ranger, or native to the region there’s `dice: 1d6>=2` chance of avoiding this hazard altogether, and even if they don’t travelers gain a +2 bonus to saves during this time.                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 21-40  | Falling objects. Travelers in these hexes run the risk of injury from falling objects, likely branches from overhead trees or rocks. All passing through the hex must Save v. Wands or suffer  `dice: [[Fill#^HazardFallingObjects]]`. If the party is accompanied by an experienced scout, ranger, or native to the region they gain a +2 bonus to this save.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 41-60  | Quicksand. The ground is saturated here, creating areas of quicksand. There are `dice: [[Fill#^Quicksand]]` When traveling through an area with quicksand all party members must make Saves v. Death to avoid falling into the quicksand. This hazard is typically not dangerous unless all of the members fall in or people or animals begin to panic. Make a morale check for each NPC and animal that falls into the quicksand. Those that fail the morale check begin to thrash around, dying in `dice: 3d6` rounds unless help is available. Assume it takes one person per stuck individual or three people per stuck mount `dice: 2d6` rounds to rescue a sinking individual, or double the time and people needed if they are panicking. Predators can often be found stalking the perimeter of quicksand pits. When a party enters a hex with quicksand make an additional wandering monster check as follows to determine if there is a monster lurking to take advantage of trapped adventurers. See [[#^Quicksand]]                                          |
+| 61-80  | Landslide. Loose soil or snow moves quickly downhill, traveling for `dice: [[Fill#^landslidelength]]`. For every 250 feet that a landslide passes over someone they must make a Save v. Death. Failure indicates they take 2d6 points of damage, or half that on a successful save. Landslides have a width of  `dice: [[Fill#^landslidewidth]]`. Individuals caught in a landslide have `dice: 1d8` rounds to react before it hits them. If there is solid shelter available (a wall, perhaps) that can be used they gain a +2 bonus to their saving throws. Landslides last for `dice: 3d6` rounds. At the end of the landslide each member caught in it must make a final Save v. Death. Failure indicates they are buried a number of feet below the surface equal to the amount by which they failed the saving throw. Treat buried individuals as if they were drowning. A success indicates they manage to remain on the surface. Ex. A character is caught in a landslide and they fail their final Save by 6, meaning they are buried 6 feet under the surface. |
+| 81-98  | Sinkhole. A large hole opens up underneath the adventurers, threatening to swallow them. It has a diameter of `dice: [[Fill#^Sinkholediameter]]` and will be `dice: [[Fill#^sinkholedepth]]`. There’s `dice: 1d6<=4` chance it leads to a cave or dungeon complex. For every five feet in diameter, `dice: 1d2` individuals run the risk of falling into the sinkhole. Each character caught in the sinkhole must Save v. Death to avoid tumbling in. Failure indicates they take falling damage equal to the depth of the fall, with `dice: 1d6<=4` chance they take an additional `dice: 1d8` points of amage from falling earth and debris.                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 99-100 | Unusual. These hazards are rare or unusual. If they occur in a location without the necessary terrain features (a volcano appearing in a location without mountains, for instance), the Referee has the option of either rerolling the result for a more appropriate one, or placing the hazard as generated and assuming it is simply an unusual location. `dice: [[Fill#^hazardunusual]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+^HazardGeologicMaster
 
-If the party is accompanied by an experienced scout, ranger, or native to the region there’s a 1-2 in 6 chance of avoiding this hazard altogether, and even if they don’t travelers gain a +2 bonus to saves during this time.
 
-21-40. Falling objects. Travelers in these hexes run the risk of injury from falling objects, likely branches from overhead trees or rocks. All passing through the hex must Save v. Wands or suffer (1-3) 1d6–1 points of damage, (4-5) 2d4 points of damage, or (6) 2d8 points of damage.
+| dice: 1d100 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-50        | Geyser. There will be `dice: [[Fill#^geysernumber]]` with an additional `dice: 1d6 <=1` chance this feature occurs over `dice: 1d20` subhexes. Geysers are pools of extremely hot `dice: [[Fill#^geysermudwater]]`. There’s only`dice: 1d6 <=1` chance the pool will be cool enough (relatively) that individuals can enter it without suffering damage; otherwise someone not resistant to fire will suffer `dice: 1d6` points of damage for every round they’re within the pool. Geysers erupt every `dice: [[Fill#^geyserfrequency]]`. If this is generated as a hazard, assume they erupt upon the adventurers first entering the subhex, with subsequent eruptions occurring on a regular basis thereafter. Boiling water (or mud) is spread over a radius of `dice: [[Fill#^geyserrange]]`. Being Hit by boiling substance causes  `dice: [[Fill#^geyserdamage]]`. A geyser will erupt for `dice: [[Fill#^geyserduration]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 51-90       | Other. Up to the Referee to determine.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 91-100      | Volcano. A volcano erupts, sending ash and poisonous gas high into the air. The effects of a volcano depend on how close the adventurers are to it. A volcanic eruption will affect a radius of `dice: [[Fill#^Volcanoeruptionerea]]`. The effects of a volcano include lava, gas, and ash, and are as follows: Lava affects a relatively small area surrounding the volcano, equal to a few hundred feet for small eruptions and no more than a subhex for the largest of eruptions. Creatures within the range of lava suffer 3d6 points of damage per round, taking half damage if they save against breath weapons. Lava remains a threat for `dice: [[Fill#^lavaduration]]`. Moving out of range is enough the avoid the risk of damage from lava. Gas affects an area equal to roughly 1/20th of the overall radius of the volcano’s effects, to a maximum range of four hexes from the point of eruption. Creatures within the area of effect take 1 point of suffocation damage for every minute they remain within the effect. Creatures that do not need to breathe are immune to this effect. Ash is the most widespread hazard, falling within the entire range of the eruption, and divided into zones. Close range is within 1/4 of the overall radius, Medium with 1/4-3/4 of the overall radius, and Long from 3/4 to the outer limit. Ex. A volcano has a range of 4 subhexes. Those within 1 subhex of the volcano are within close range, those within 2-3 subhexes within medium range, and those in the 4th hex are at long range. At long range everyone (and everythingthing) is coated in a thin layer of ash that falls for `dice: [[Fill#^volcanuashdurationlong]]`. At medium range it falls for the same amount of time, but for `dice: [[Fill#^volcanuashdurationmedium]]` all breathing creatures suffer a –2 penalty to all 1d20 rolls. After this initial period ash continues to fall for the length of time determined above. At short range the above applies, but additionally all creatures within range suffer `dice: 1d6` points of damage from hot ash. |
+^hazardunusual
 
-If the party is accompanied by an experienced scout, ranger, or native to the region they gain a +2 bonus to this save.
 
-41-60. Quicksand. The ground is saturated here, creating areas of quicksand. There are (1-3) a single pool of quicksand, (4-5) a few pools of quicksand, (6) many pools of quicksand. A single pool of quicksand is a single hazard that must be dealt with once and reduces the party’s movement by 25%. A few pools are two hazards that are dealt with separately, reducing the party’s movement by 50%. Many pools of quicksand are three hazards, each dealt with individually, and the party’s movement rate is cut by 75% while in this area.
+| dice: 1d6 |                          |
+| --------- | ------------------------ |
+| 1-3       | 1d6–1 points of damage,  |
+| 4-5       | 2d4 points of damage, or |
+| 6         | 2d8 points of damage.    |
+^HazardFallingObjects
 
-When traveling through an area with quicksand all party members must make Saves v. Death to avoid falling into the quicksand. This hazard is typically not dangerous unless all of the members fall in or people or animals begin to panic. Make a morale check for each NPC and animal that falls into the quicksand. Those that fail the morale check begin to thrash around, dying in 3d6 rounds unless help is available. Assume it takes one person per stuck individual or three people per stuck mount 2d6 rounds to rescue a sinking individual, or double the time and people needed if they are panicking.
 
-Predators can often be found stalking the perimeter of quicksand pits. When a party enters a hex with quicksand make an additional wandering monster check as follows to determine if there is a monster lurking to take advantage of trapped adventurers: 1 in 6 chance if a single pool, 2 in 6 if several, or 4 in 6 if multiple pools.
+| dice: 1d6 |                                                                                                                                                                                                                        |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | a single pool of quicksand, A single Pool of quicksand is a single hazard that must be dealt with once and reduces the party’s movement by 25%. Wandering Monster around Quicksand: `dice: 1d6<= 1`                    |
+| 4-5       | a few pools of quicksand, A few pools are two hazards that are dealt with separately, reducing the party’s movement by 50%. Wandering Monster around Quicksand: `dice: 1d6<= 2`                                        |
+| 6         | many pools of quicksand.  Many pools of quicksand are three hazards, each dealt with individually, and the party’s movement rate is cut by 75% while in this area. Wandering Monster around Quicksand: `dice: 1d6<= 4` |
+^Quicksand
 
-61-80. Landslide. Loose soil or snow moves quickly downhill, traveling for (1-3) 5d100 feet, (4-5) 10d100 feet, or (6) 10d100 yards. For every 250 feet that a landslide passes over someone they must make a Save v. Death. Failure indicates they take 2d6 points of damage, or half that on a successful save.
 
-Landslides have a width of (1-2) 5d20, (3-4) 10d20, (5) 5d100, or (6)15d100 feet.
+| dice: 1d6 |                 |
+| --------- | --------------- |
+| 1-3       | 5d100 feet,     |
+| 4-5       | 10d100 feet, or |
+| 6         | 10d100 yards.   |
+^landslidelength
 
-Individuals caught in a landslide have 1d8 rounds to react before it hits them. If there is solid shelter available (a wall, perhaps) that can be used they gain a +2 bonus to their saving throws.
 
-Landslides last for 3d6 rounds. At the end of the landslide each member caught in it must make a final Save v. Death. Failure indicates they are buried a number of feet below the surface equal to the amount by which they failed the saving throw. Treat buried individuals as if they were drowning. A success indicates they manage to remain on the surface.
+| dice: 1d6 |              |
+| --------- | ------------ |
+| 1-2       | 5d20,        |
+| 3-4       | 10d20,       |
+| 5         | 5d100, or    |
+| 6         | 15d100 feet. |
+^landslidewidth
 
-Ex. A character is caught in a landslide and they fail their final Save by 6, meaning they are buried 6 feet under the surface.
 
-81-98. Sinkhole. A large hole opens up underneath the adventurers, threatening to swallow them. It has a diameter of (1-3) 3d10 feet, (4-5) 4d12 feet, or (6)
+| dice: 1d6 |               |
+| --------- | ------------- |
+| 1-3       | 3d10 feet,    |
+| 4-5       | 4d12 feet, or |
+| 6         | 5d20 feet     |
+^Sinkholediameter
 
-5d20 feet and will be (1-3) 3d6, (4-5) 4d8, or (6) 5d10 feet deep. There’s a 1-4 in 6 chance it leads to a cave or dungeon complex.
 
-For every five feet in diameter, 1d2 individuals run the risk of falling into the sinkhole. Each character caught in the sinkhole must Save v. Death to avoid tumbling in. Failure indicates they take falling damage equal to the depth of the fall, with a 1-4 in 6 chance they take an additional 1d8 points of damage from falling earth and debris.
+| dice: 1d6 |                 |
+| --------- | --------------- |
+| 1-3       | 3d6 feet deep.  |
+| 4-5       | 4d8 feet deep.  |
+| 6         | 5d10 feet deep. |
+^sinkholedepth
 
-99-100. Unusual. These hazards are rare or unusual. If they occur in a location without the necessary terrain features (a volcano appearing in a location without mountains, for instance), the Referee has the option of either rerolling the result for a more appropriate one, or placing the hazard as generated and assuming it is simply an unusual location.
 
-1-50. Geyser. There will be (1-3) one geyser, (4-5) 2d4, or (6) 3d8 spread throughout the subhex, with an additional 1 in 6 chance this feature occurs over 1d20 subhexes.
+| dice: 1d6 |                                           |
+| --------- | ----------------------------------------- |
+| 1-3       | one geyser, spread throughout the subhex, |
+| 4-5       | 2d4, or spread throughout the subhex,     |
+| 6         | 3d8 spread throughout the subhex,         |
+^geysernumber
 
-Geysers are pools of extremely hot (1-4) water or (5-6) mud. There’s only a 1 in 6 chance the pool will be cool enough (relatively) that individuals can enter it without suffering damage; otherwise someone not resistant to fire will suffer 1d6 points of damage for every round they’re within the pool.
 
-Geysers erupt every (1) 1d6 hours, (2-3) 1d8 days, (4-5) 1d4 weeks, (6) 1d4 months. If this is generated as a hazard, assume they erupt upon the adventurers first entering the subhex, with subsequent eruptions occurring on a regular basis thereafter.
 
-Boiling water (or mud) is spread over a radius of (1- 3) 1d20 yards, (4-5) 5d20 yards, or (6) 10d100 yards (reduce ranges for mud eruptions by half), inflicting (1- 3) 1d6, (4-5) 2d6, or (6) 3d6 points of damage. If it is a mud eruption, increase the damage by 1d6. A Save v. Breath reduces the damage by half.
+| dice: 1d6 |          |
+| --------- | -------- |
+| 1-4       | water or |
+| 5-6       | mud.     |
+^geysermudwater
 
-A geyser will erupt for (1-3) 1d6 rounds, (4-5) 1d10 minutes, or (6)1d8 hours.
 
-51-90. Other. Up to the Referee to determine.
+| dice: 1d6 |                                                                  |
+| --------- | ---------------------------------------------------------------- |
+| 1- 3      | 1d20 yards,                                                      |
+| 4-5       | 5d20 yards, or                                                   |
+| 6         | 10d100 yards reduce ranges for mud eruptions by half, inflicting |
+^geyserrange
 
-91-100. Volcano. A volcano erupts, sending ash and poisonous gas high into the air. The effects of a volcano depend on how close the adventurers are to it. A volcanic eruption will affect a radius of (1) 1d20 subhexes, (2-3) 1d4 hexes, (4-6) 5d20 hexes, (7-11) 10d100 hexes, or (12) an entire continent.
 
-The effects of a volcano include lava, gas, and ash, and are as follows:
+| dice: 1d6 |                       |
+| --------- | --------------------- |
+| 1- 3      | `dice: 1d6`points of damage.If it is a mud eruption, increase the damage by 1d6. A Save v. Breath reduces the damage by half.                  |
+| 4-5       | `dice: 2d6` points of damage.If it is a mud eruption, increase the damage by 1d6. A Save v. Breath reduces the damage by half.             |
+| 6         | `dice: 3d6` points of damage. If it is a mud eruption, increase the damage by 1d6. A Save v. Breath reduces the damage by half.|
+^geyserdamage
 
-Lava affects a relatively small area surrounding the volcano, equal to a few hundred feet for small eruptions and no more than a subhex for the largest of eruptions. Creatures within the range of lava suffer 3d6 points of damage per round, taking half damage if they save against breath weapons. Lava remains a threat for (1- 3) 1d4 rounds, (4-5) 1d10 minutes, or (6) 1d12 hours. Moving out of range is enough the avoid the risk of damage from lava.
 
-Gas affects an area equal to roughly 1/20th of the overall radius of the volcano’s effects, to a maximum range of four hexes from the point of eruption. Creatures within the area of effect take 1 point of suffocation damage for every minute they remain within the effect. Creatures that do not need to breathe are immune to this effect.
+| dice:1d6 |                  |
+| -------- | ---------------- |
+| 1-3      | `dice: 1d6` rounds,      |
+| 4-5      | `dice: 1d10` minutes, or |
+| 6        | `dice: 1d8` hours.       |
+^geyserduration
 
-Ash is the most widespread hazard, falling within the entire range of the eruption, and divided into zones. Close range is within 1/4 of the overall radius, Medium with 1/4-3/4 of the overall radius, and Long from 3/4 to the outer limit.
 
-Ex. A volcano has a range of 4 subhexes. Those within 1 subhex of the volcano are within close range, those within 2-3 subhexes within medium range, and those in the 4th hex are at long range.
+| dice: 1d6 |             |
+| --------- | ----------- |
+| 1         | `dice: 1d6` hours,  |
+| 2-3       | `dice: 1d8` days,   |
+| 4-5       | `dice: 1d4` weeks,  |
+| 6         | `dice: 1d4` months. |
+^geyserfrequency
 
-At long range everyone (and everythingthing) is coated in a thin layer of ash that falls for (1-3) 1d10 minutes, (4-5) 1d12 hours, or (6)1d6 days.
+| dice: 1d6 |                      |
+| --------- | -------------------- |
+| 1         | 1d20 subhexes,       |
+| 2-3       | 1d4 hexes,           |
+| 4-6       | 5d20 hexes,          |
+| 7-11      | 10d100 hexes, or     |
+| 12        | an entire continent. |
+^Volcanoeruptionerea
 
-At medium range it falls for the same amount of time, but for (1-3) 1d10 rounds, (4-5) 1d10 minutes, or (6) 1d6 hours all breathing creatures suffer a –2 penalty to all 1d20 rolls. After this initial period ash continues to fall for the length of time determined above.
 
-At short range the above applies, but additionally all creatures within range suffer 1d6 points of damage from hot ash.
+| dice: 1d6 |                  |
+| --------- | ---------------- |
+| 1- 3      | 1d4 rounds,      |
+| 4-5       | 1d10 minutes, or |
+| 6         | 1d12 hours.      |
+^lavaduration
+
+
+| dice: 1d6 |                |
+| --------- | -------------- |
+| 1-3       | 1d10 minutes,  |
+| 4-5       | 1d12 hours, or |
+| 6         | 1d6 days.      |
+^volcanuashdurationlong
+
+
+| dice: 1d6 |                  |
+| --------- | ---------------- |
+| 1-3       | 1d10 rounds,     |
+| 4-5       | 1d10 minutes, or |
+| 6         | 1d6 hours        |
+^volcanuashdurationmedium
+
 
 #### Flora and fauna
 
 These hazards are from living creatures. Animals and magical plants are spotted as per the surprise rules; inanimate plants are spotted as per secret doors. Druids and other nature-based classes have the same chances of spotting these hazards as elves.
 
-1-30. Animals. There are normal animals that present a hazard in this hex. These include:
 
-􏰀 Rabid animals.  
-􏰀 Poisonous snakes, spiders, etc.  
-􏰀 Disturbed bees, hornets, wasps, etc.
-􏰀 Territorial animals defending their territory.
-􏰀 Stampede/panicked animals.
-
-For rabid or poisonous animals roll a single attack against a randomly determined target in the party. If the attack hits, and the target fails a Save against Poison, the target is diseased or poisoned, dying in 1d4 days (diseased) or 1d100 rounds (poisoned) unless cared for.
-
-Disturbed bees and territorial animals take 1d4 hours to resolve, during which time no travel is possible. There’s a 1 in 20 chance that a randomly determined individual takes enough damage to potentially pose a health danger. If this occurs, randomly determine the target. They take 1d6–1 points of damage.
-
-There’s a 1-3 in 6 chance the insects are of the smaller, more annoying mosquito/gnat/midge variety. In this case there’s a 1-2 in 6 chance the insects carry a disease (see below). Even if they don’t, the insects prove annoying. Increase the chance of being surprised while moving through the area by 1. Additionally, if the adventurers are sleeping outside without some form of insect-proof shelter or magical aid there’s a 1-3 in 6 chance per night that the insects are simply too annoying for those sleeping to get the needed rest. This chance is reduced to 1-2 in 6 if the adventurers build a fire.
-
-If the result is for stampede, either (1-3) the adventurers’ mounts and/or pack animals will stampede, or (4-6) the adventurers will be caught in a stampede of a herd of animals native to the region.
-
-If the adventurers’ mounts run the risk of being stampeded make a single morale check for each type of animal (if the mounts consist of war horses, riding horses, and pack mules three morale checks would be made). Those groups that fail the morale check begin to stampede. Those mounts with riders take 1d6 minutes to bring under control (or 1d4 rounds if the rider is an
-
-experienced horseman). Treat those mounts without riders as wilderness chases (p. 116, OSE core) lasting a day at minimum (more if the adventurers insist on tracking down lost animals).
-
-Those on foot are treated as being in the middle of an animal stampede (see below).
-
-If the party is caught in a stampeding herd each mount or individual must make a Save v. Death or suffer 1d6 points of damage. Mounts and NPCs must also make morale checks to avoid being spooked (treat as if targeted by the cause fear spell).
-
-31-60. Poisonous plants (edible). If non-woodswise adventurers attempt to forage for food in these hexes they inadvertently pick poisonous plants instead of harmless varieties. Those that partake of the food must Save v. Poison. Those failing (1-3) become sick as per giant centipede venom, but lasting 4d6 hours, (4-5) take 1d6 points of damage, or (6) die in 1d20 rounds.
-
-61-90. Dangerous plants (contact). While passing through this hex the adventurers come into contact with poisonous or dangerous non-magical plants. Roll below to determine which . . .
-
-1. Contact rash. Annoying but not deadly, each adventurer must Save v. Poison to avoid breaking out in rashes. For 1d6 days those afflicted suffer a –2 penalty to attack rolls and skill checks (if applicable) due to annoyance.
-
-2. Contact Poison. Those touching the plant must Save v. Poison. Those failing suffer (1-2) 1d6 points of damage (3-4) 2d6 points of damage, (5) 3d6 points of damage, (5) death. There’s a 1 in 6 chance the save is made with a (1-3) +1d4 bonus or (4-6) –1d4 penalty.
-
-3. Airborne. As contact rash or contact poison, but airborne with a range of (1-2) 20’, (3-4) 45’, (5) 90’, (6) 120’ or greater.
-
-4. Thorns. Those not wearing metal armor passing through this hex must Save v. Wands or suffer 1d2 points of damage. Passage through this area takes 25% longer.
-
-91-100. Magical plants. A dangerous type of magical plant (including oozes) can be found in this subhex. Some of the threats included below won’t be found in the OSE core book, and the source is noted when appropriate. Some of the below creatures may need to be revamped for the wilderness. Otherwise, these are just treated like a normal encounter.
+| dice: 1d100 |                                                                                                                                                                                                                                                                                                                                                                                       |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-30        | Animals. There are normal animals that present a hazard in this hex. These include `dice: [[Fill#^hazardFauna]]`                                                                                                                                                                                                                                                                      |
+| 31-60       | Poisonous plants (edible). If non-woodswise adventurers attempt to forage for food in these hexes they inadvertently pick poisonous plants instead of harmless varieties. Those that partake of the food must Save v. Poison. Those failing `dice: [[Fill#^florapoisondmg]]`                                                                                                          |
+| 61-90       | Dangerous plants (contact). While passing through this hex the adventurers come into contact with poisonous or dangerous non-magical plants. `dice: [[Fill#^hazarddangerousplants]]`                                                                                                                                                                                                  |
+| 91-100      | Magical plants. A dangerous type of magical plant (including oozes) can be found in this subhex. Some of the threats included below won’t be found in the OSE core book, and the source is noted when appropriate. Some of the below creatures may need to be revamped for the wilderness. Otherwise, these are just treated like a normal encounter. `dice: [[Fill#^MagicalPlants]]` |
 
 
 51-table-1.md
@@ -3726,6 +3798,59 @@ If the party is caught in a stampeding herd each mount or individual must make a
 | 93-96      | Yellow Mold                                                       |
 | 97-100     | Ygg “Gallows Tree” (S&W Monster Book, p. 109)                     |
 ^MagicalPlants
+
+
+| dice: 1d5 |                                                                                                                                                                                                                                                                                                                                       |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Rabid animals.  For rabid or poisonous animals roll a single attack against a randomly determined target in the party. If the attack hits, and the target fails a Save against Poison, the target is diseased or poisoned, dying in `dice: 1d4` days (diseased) or `dice: 1d100` rounds (poisoned) unless cared for.                  |
+| 2         | Poisonous snakes, spiders, etc.  For rabid or poisonous animals roll a single attack against a randomly determined target in the party. If the attack hits, and the target fails a Save against Poison, the target is diseased or poisoned, dying in `dice: 1d4` days (diseased) or `dice: 1d100` rounds (poisoned) unless cared for. |
+| 3         | Disturbed bees, hornets, wasps, etc. Disturbed bees and territorial animals take `dice: 1d4` hours to resolve, during which time no travel is possible. How bad is it? `dice: [[Fill#^hazardInsects]]`                                                                                                                                |
+| 4         | Territorial animals defending their territory. [[202001052047 Random Encounter Table MOC]]                                                                                                                                                                                                                                            |
+| 5         | Stampede/panicked animals. If the result is for stampede,  `dice: [[Fill#^stampede]]`                                                                                                                                                                                                                                                 |
+^hazardFauna
+
+
+| dice: 1d6 |                                                                  |
+| --------- | ---------------------------------------------------------------- |
+| 1-3       | become sick as per giant centipede venom, but lasting 4d6 hours, |
+| 4-5       | take 1d6 points of damage, or                                    |
+| 6         | die in 1d20 rounds.                                              |
+^florapoisondmg
+
+
+| dice: 1d6 |               |
+| --------- | ------------- |
+| dice: 1d6 |               |
+| 1-3       | +1d4 bonus or |
+| 4-6       | –1d4 penalty. |
+^floradeathsave
+
+
+| dice: 1d6 |                                                                                         |
+| --------- | --------------------------------------------------------------------------------------- |
+| 1-2       | 1d6 points of damage                                                                    |
+| 3-4       | 2d6 points of damage,                                                                   |
+| 5         | 3d6 points of damage,                                                                   |
+| 5         | death. There’s a 1 in 6 chance the save is made with a `dice: [[Fill#^floradeathsave]]` |
+^florapoisondmg
+
+
+| dice: 1d4 |                                                                                                                                                                                                                                 |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Contact rash. Annoying but not deadly, each adventurer must Save v. Poison to avoid breaking out in rashes. For 1d6 days those afflicted suffer a –2 penalty to attack rolls and skill checks (if applicable) due to annoyance. |
+| 2         | Contact Poison. Those touching the plant must Save v. Poison. Those failing suffer `dice: [[Fill#^florapoisondmg]]`                                                                                                             |
+| 3         | Airborne. As contact rash or contact poison, but airborne with a range of  `dice: [[Fill#^floraairborne]]                                                                                                                       |
+| 4         | Thorns. Those not wearing metal armor passing through this hex must Save v. Wands or suffer 1d2 points of damage. Passage through this area takes 25% longer.                                                                   |
+^hazarddangerousplants
+
+
+| dice: 1d6 |                  |
+| --------- | ---------------- |
+| 1-2       | 20’,             |
+| 3-4       | 45’,             |
+| 5         | 90’,             |
+| 6         | 120’ or greater. |
+^floraairborne
 
 
 #### Weather/climate
@@ -4863,6 +4988,28 @@ Roll to randomly determine the creature(s) affected. When determining what form 
 | 41-60  | Out of Time. The creature is from the (1-2)  past,  (3-4)  future,  or  (5-6)  an  alternate version  of  reality.  There’s  a  1  in  6  chance that whatever magic has brought them here can  fling  the  unwary  to  (1-4)  their  native time or (5-6) a random time.                                                                                          |
 | 61-80  | Plane-touched. The creature (1-4) possesses  an  ancestry that  comes from another plane or dimension or (5-6) actually is  from  another  dimension  or  plane.  They may exhibit traits from that plane, such as a creature with an ancestry tracing back to the plane of Fire being immune to fire, or similar,  or  may  actually  exist  out  of  sync with the normal world.                                                                                                                 |
 | 81-100 | Spellcaster. The creature(s) possess a native ability  to  cast  spells.  They  do  so  as  a  (1-2)  magic-user,  (3-4)  cleric,  (5)  druid,  (6) illusionist, or (7-8) other spellcasting class. They  do  so  either  (1-4)  at  a  class  level,  if they belong to the given class, meaning that not all creatures in the area can cast spells, or  (5-6)  innately,  with  all  members  of  the species in the area casting spells as a caster of level (1-3) 1d4, (4-5) 1d8, or (6) 1d12. |
+
+
+
+
+| dice: 1d20 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-6        | the insects are of the smaller, more annoying mosquito/gnat/midge variety. In this case there’s `dice: 1d6 <=2` chance the insects carry a disease (see below). Even if they don’t, the insects prove annoying. Increase the chance of being surprised while moving through the area by 1. Additionally, if the adventurers are sleeping outside without some form of insect-proof shelter or magical aid there’s `dice: 1d6 <=3` chance per night that the insects are simply too annoying for those sleeping to get the needed rest. This chance is reduced to `dice: 1d6 <=2` if the adventurers build a fire. |
+| 7-19       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 20         | a randomly determined individual takes enough damage to potentially pose a health danger. If this occurs, randomly determine the target. They take `dice: 1d6-1` points of damage.                                                                                                                                                                                                                                                                                                                                                                                                                                |
+^hazardInsects
+
+
+| dice: 1d6 |                                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-3       | the adventurers’ mounts and/or pack animals will stampede. If the adventurers’ mounts run the risk of being stampeded make a single morale check for each type of animal                                                                                                                                                                           | if the mounts consist of war horses, riding horses, and pack mules three morale checks would be made). Those groups that fail the morale check begin to stampede. Those mounts with riders take `dice: 1d6` minutes to bring under control (or `dice: 1d4` rounds if the rider is an experienced horseman). Treat those mounts without riders as wilderness chases (p. 116, OSE core) lasting a day at minimum (more if the adventurers insist on tracking down lost animals). Those on foot are treated as being in the middle of an animal stampede (see below). |
+| 4-6       | the adventurers will be caught in a stampede of a herd of animals native to the region. If the party is caught in a stampeding herd each mount or individual must make a Save v. Death or suffer `dice: 1d6` points of damage. Mounts and NPCs must also make morale checks to avoid being spooked (treat as if targeted by the cause fear spell). |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+^stampede
+
+
+
+
+
 
 
 #### 11.3. Other
