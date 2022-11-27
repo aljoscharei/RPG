@@ -114,6 +114,9 @@
     ],
     "currentTab": 0
   },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
   "active": "9e01da818d7e99a2",
   "lastOpenFiles": [
     "GM_FlohFelixAljoscha/5e monsters by name.md",
