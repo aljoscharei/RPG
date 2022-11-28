@@ -71178,134 +71178,6 @@
       }
     ],
     [
-      "Symbaroum Monster Lostling Possession",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Frostlight.png"
-          ]
-        ],
-        "name": "Symbaroum Monster Lostling Possession",
-        "size": "Small",
-        "type": "undead",
-        "alignment": null,
-        "ac": 18,
-        "hp": 33,
-        "hit_dice": "(6d6 + 12)",
-        "speed": "25 ft.",
-        "stats": [
-          10,
-          18,
-          14,
-          10,
-          15,
-          7
-        ],
-        "senses": "darkvision 60 ft., passive Perception 12",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 2,
-        "traits": [
-          {
-            "name": "Haunting",
-            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
-          },
-          {
-            "name": "Insubstantial",
-            "desc": "The lostling can pass through objects and creatures without issue."
-          },
-          {
-            "name": "Pack Tactics",
-            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Vitality Drain",
-            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 26,
-            "col": 3,
-            "offset": 1148
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession 2.md",
-        "mtime": 1666950651000
-      }
-    ],
-    [
-      "Symbaroum Monster Drunkard",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Drunkard",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 10,
-        "hp": 11,
-        "hit_dice": "(2d8 + 2)",
-        "speed": "30 ft.",
-        "stats": [
-          14,
-          10,
-          12,
-          10,
-          11,
-          11
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Ambrian",
-        "equipment": "1d8 ortegs",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Cheap Shots",
-            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Unarmed Strikes",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Wild Swing",
-            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 25,
-            "col": 3,
-            "offset": 663
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
-        "mtime": 1668195332083
-      }
-    ],
-    [
       "Symbaroum Monster Illgobilin",
       {
         "statblock": true,
@@ -71399,8 +71271,8 @@
             "offset": 1591
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Illgobilin.md",
-        "mtime": 1668194378034
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Illgoblin.md",
+        "mtime": 1668195332088
       }
     ],
     [
@@ -71489,8 +71361,8 @@
             "offset": 1230
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order 2.md",
-        "mtime": 1666869256000
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order.md",
+        "mtime": 1668194357370
       }
     ],
     [
@@ -71587,8 +71459,8 @@
             "offset": 2665
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Tunneler CR 17.md",
-        "mtime": 1668194398857
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Tunneler.md",
+        "mtime": 1668194366093
       }
     ],
     [
@@ -71897,8 +71769,8 @@
             "offset": 789
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan CR 1.md",
-        "mtime": 1668193986818
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan.md",
+        "mtime": 1668195332067
       }
     ],
     [
@@ -72046,6 +71918,69 @@
       }
     ],
     [
+      "Symbaroum Monster Drunkard",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Drunkard",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 10,
+        "hp": 11,
+        "hit_dice": "(2d8 + 2)",
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          10,
+          12,
+          10,
+          11,
+          11
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Ambrian",
+        "equipment": "1d8 ortegs",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Cheap Shots",
+            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Unarmed Strikes",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Wild Swing",
+            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 25,
+            "col": 3,
+            "offset": 663
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
+        "mtime": 1668195332083
+      }
+    ],
+    [
       "Symbaroum Monster Glint",
       {
         "statblock": true,
@@ -72104,6 +72039,71 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Glint.md",
         "mtime": 1668195332071
+      }
+    ],
+    [
+      "Symbaroum Monster Lostling Possession",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Frostlight.png"
+          ]
+        ],
+        "name": "Symbaroum Monster Lostling Possession",
+        "size": "Small",
+        "type": "undead",
+        "alignment": null,
+        "ac": 18,
+        "hp": 33,
+        "hit_dice": "(6d6 + 12)",
+        "speed": "25 ft.",
+        "stats": [
+          10,
+          18,
+          14,
+          10,
+          15,
+          7
+        ],
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Haunting",
+            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
+          },
+          {
+            "name": "Insubstantial",
+            "desc": "The lostling can pass through objects and creatures without issue."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Vitality Drain",
+            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 1148
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession 2.md",
+        "mtime": 1666950651000
       }
     ],
     [
@@ -72289,6 +72289,115 @@
       }
     ],
     [
+      "Symbaroum Monster World Serpent Wallower",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster World Serpent Wallower",
+        "size": "Gargantuan",
+        "type": "beast",
+        "alignment": null,
+        "ac": 17,
+        "hp": 410,
+        "hit_dice": "(20d20 + 200)",
+        "stats": [
+          28,
+          10,
+          30,
+          9,
+          14,
+          6
+        ],
+        "skillsaves": [
+          {
+            "Perception": 10
+          },
+          {
+            "Survival": 10
+          }
+        ],
+        "damage_immunities": "acid, poison, psychic; bludgeoning from nonmagical weapons",
+        "senses": "tremorsense 120 ft., passive Perception 20",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 26,
+        "traits": [
+          {
+            "name": "Legendary Resistance (3/day)",
+            "desc": "If the world serpent fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Life Sense",
+            "desc": "The world serpent has advantage on Wisdom (Perception) checks to detect living creatures."
+          },
+          {
+            "name": "Siege Monster",
+            "desc": "The world serpent deals double damage to objects and structures."
+          },
+          {
+            "name": "Tunneler",
+            "desc": "If the world serpent leaves a creature’s reach by burrowing it does not provoke an opportunity attack."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 34 (10d4 + 9) bludgeoning damage and if the target is a Huge or smaller creature it is swallowed. If the target is swallowed, it is [[202202102106 5e Conditions Blinded]] and [[202202102010 5e Conditions Restrained]]; and it has total cover against attacks and other effects outside the world serpent. At the start of each of its turns, it takes 13 (2d12) acid damage."
+          },
+          {
+            "name": "The world serpent can swallow any number of creatures",
+            "desc": "If the world serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 30 feet of movement, exiting prone."
+          },
+          {
+            "name": "Tail Swipe",
+            "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 41 (5d12 + 9) bludgeoning damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "The world serpent can take 2 legendary actions, choos- ing from the options below",
+            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The world serpent regains spent leg- endary actions at the start of its turn."
+          },
+          {
+            "name": "Bite",
+            "desc": "The world serpent makes a bite attack."
+          },
+          {
+            "name": "Tail",
+            "desc": "The world serpent makes a tail attack."
+          },
+          {
+            "name": "Earthquake (Costs 2 Actions)",
+            "desc": "The world serpent shivers its body, sending waves through the earthfor 80 feet. Each creature must make a DC 25 Strength saving throw, taking 10 (1d20) bludgeoning damage and becoming [[5e Conditions Prone]] on a failure. On a success, the creature takes half damage. Each structure in the area takes double damage automatically."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Roll Over",
+            "desc": "When a Large or smallercreature comes within 5 feet, the world serpent can rotate its body to crush the creature between itself and the ground. The creature takes 20 (1d20 + 10) bludgeoning damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 47,
+            "col": 3,
+            "offset": 2789
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Wallower.md",
+        "mtime": 1668195332063
+      }
+    ],
+    [
       "Symbaroum Monster Witch - Keeper",
       {
         "statblock": true,
@@ -72464,115 +72573,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho.md",
         "mtime": 1668193986822
-      }
-    ],
-    [
-      "Symbaroum Monster World Serpent Wallower",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster World Serpent Wallower",
-        "size": "Gargantuan",
-        "type": "beast",
-        "alignment": null,
-        "ac": 17,
-        "hp": 410,
-        "hit_dice": "(20d20 + 200)",
-        "stats": [
-          28,
-          10,
-          30,
-          9,
-          14,
-          6
-        ],
-        "skillsaves": [
-          {
-            "Perception": 10
-          },
-          {
-            "Survival": 10
-          }
-        ],
-        "damage_immunities": "acid, poison, psychic; bludgeoning from nonmagical weapons",
-        "senses": "tremorsense 120 ft., passive Perception 20",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 26,
-        "traits": [
-          {
-            "name": "Legendary Resistance (3/day)",
-            "desc": "If the world serpent fails a saving throw, it can choose to succeed instead."
-          },
-          {
-            "name": "Life Sense",
-            "desc": "The world serpent has advantage on Wisdom (Perception) checks to detect living creatures."
-          },
-          {
-            "name": "Siege Monster",
-            "desc": "The world serpent deals double damage to objects and structures."
-          },
-          {
-            "name": "Tunneler",
-            "desc": "If the world serpent leaves a creature’s reach by burrowing it does not provoke an opportunity attack."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Bite",
-            "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 34 (10d4 + 9) bludgeoning damage and if the target is a Huge or smaller creature it is swallowed. If the target is swallowed, it is [[202202102106 5e Conditions Blinded]] and [[202202102010 5e Conditions Restrained]]; and it has total cover against attacks and other effects outside the world serpent. At the start of each of its turns, it takes 13 (2d12) acid damage."
-          },
-          {
-            "name": "The world serpent can swallow any number of creatures",
-            "desc": "If the world serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 30 feet of movement, exiting prone."
-          },
-          {
-            "name": "Tail Swipe",
-            "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 41 (5d12 + 9) bludgeoning damage."
-          }
-        ],
-        "legendary_actions": [
-          {
-            "name": "The world serpent can take 2 legendary actions, choos- ing from the options below",
-            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The world serpent regains spent leg- endary actions at the start of its turn."
-          },
-          {
-            "name": "Bite",
-            "desc": "The world serpent makes a bite attack."
-          },
-          {
-            "name": "Tail",
-            "desc": "The world serpent makes a tail attack."
-          },
-          {
-            "name": "Earthquake (Costs 2 Actions)",
-            "desc": "The world serpent shivers its body, sending waves through the earthfor 80 feet. Each creature must make a DC 25 Strength saving throw, taking 10 (1d20) bludgeoning damage and becoming [[5e Conditions Prone]] on a failure. On a success, the creature takes half damage. Each structure in the area takes double damage automatically."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Roll Over",
-            "desc": "When a Large or smallercreature comes within 5 feet, the world serpent can rotate its body to crush the creature between itself and the ground. The creature takes 20 (1d20 + 10) bludgeoning damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 47,
-            "col": 3,
-            "offset": 2789
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Wallower.md",
-        "mtime": 1668195332063
       }
     ],
     [
