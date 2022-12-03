@@ -4474,10 +4474,10 @@ In addition, results should be adjusted downwards to reflect the terrain type: c
 
 There are two broad types of water features that will be found within a hex: `dice: [[Fill#^waterMaster]]`
 
-| dice: 1d6 |               |
-| --------- | ------------- |
-| 1-3       | Flowing `dice: [[Fill#^FlowingSize]]`.    |
-| 4-6       | Still bodies. |
+| dice: 1d6 |                                        |
+| --------- | -------------------------------------- |
+| 1-3       | Flowing `dice: [[Fill#^FlowingSize]]`. |
+| 4-6       | Still bodies.                          |
 ^waterMaster
 
 
@@ -4491,219 +4491,38 @@ As a general rule of thumb you can step across a brook, jump across a creek, wad
 
 The water feature will be a  `dice: [[Fill#^FlowingSize]]`
 
-63-table-1.md
-
-| dice: 1d100 | Result                                                                                                                        |
-|:----------- |:----------------------------------------------------------------------------------------------------------------------------- |
-| 1-35        | Brook Brooks are `dice: 1d3` feet wide.Brooks are `dice: [[Fill#^Brooklength]]` long before `dice: [[Fill#^BrookDisappear]]`. |
-| 36-60       | Creek.  `dice: 1d4 + 1` feet wide. Creeks are `dice: [[Fill#^Creeklength]]` long before `dice: [[Fill#^CreekDisappear]`       |
-| 61-85       | Stream. streams `dice: 3d4` feet in width                                                                                     |
-| 86-100      | River. Rivers can be `dice: [[Fill#^RiverWidth]]`                                                                             |
-^FlowingSize
-
-A moving body of water will typically be no deeper than one quarter its width. A brook that is a foot wide will be, on average, three inches deep, while a river that is 100 feet wide will be no more than 25 feet deep in the middle. The wider a river is the shallower it will be proportionally, unlike the smaller bodies of water, and narrow rivers have a tendency to be deeper than wider rivers.
+A moving body of water will typically be no deeper than one quarter its width. A brook that is a foot wide will be, on average, three inches deep, while a river that is 100 feet wide will be no more than 25 feet deep in the middle. The wider a river is the shallower it will be proportionally, unlike the smaller bodies of water, and narrow rivers have a tendency to be deeper than wider rivers. Streams that are wider than 9 feet are typically only navigable via canoe or extremely small watercraft. Rivers that range from 10-30 feet wide are only navigable by canoes or other small, shallow draft craft. Most rivers can be plied by flat bottom craft or rafts; those deeper than fifteen feet or so can be sailed by boats with keels. As a general rule, boats can sail on waters with a minimum depth of four times the boat’s draft without worrying about grounding.
 
 
 
-64-table-1.md
-
-| dice: d100   | Result            |
-|:-------|:------------------|
-| 1-50   | 4d10 feet wide    |
-| 51-75  | 10d20 feet wide   |
-| 76-90  | 10d100 feet wide  |
-| 91-100 | 10d100 yards wide |
-^RiverWidth
 
 
-Streams that are wider than 9 feet are typically only navigable via canoe or extremely small watercraft. Rivers that range from 10-30 feet wide are only navigable by canoes or other small, shallow draft craft. Most rivers can be plied by flat bottom craft or rafts; those deeper than fifteen feet or so can be sailed by boats with keels. As a general rule, boats can sail on waters with a minimum depth of four times the boat’s draft without worrying about grounding.
-
-
-
-| dice: 1d6 |                       |
-| --------- | --------------------- |
-| 1-2       | `dice: 10d100` feet,          |
-| 3-4       | `dice: 1d4` miles, or |
-| 5-6       | `dice: 1d8` miles     |
-^Brooklength
-
-
-| dice: 1d6 |                                                    |
-| --------- | -------------------------------------------------- |
-| 1-2       | disappearing water dries up or goes underground or |
-| 3-6       | merging with `dice: [[Fill#^mergingWith]]`         |
-^BrookDisappear
-
-| dice: 1d6 |                                   |
-| --------- | --------------------------------- |
-| 1-3       | another moving source of water or |
-| 4-6       | a still body.                     |
-^mergingWith
-
-
-
-| dice: 1d6 |                    |
-| --------- | ------------------ |
-| 1-2       | `dice: 1d4` miles, |
-| 3-4       | `dice: 2d4` miles  |
-| 5-6       | `dice: 3d4` miles  |
-^Creeklength
-
-
-| dice: 1d6 |                                                      |
-| --------- | ---------------------------------------------------- |
-| 1         | disappearing (water dries up or goes underground) or |
-| 2-6       | merging with `dice: [[Fill#^mergingWith]]`           |
-^CreekDisappear
-
-
-
-Streams are `dice: [[Fill#^streamlength]]` before merging with: 
-
-
-| dice: 1d6 |                                     |
-| --------- | ----------------------------------- |
-| 1-2       | `dice: 1d8` miles,                  |
-| 3-4       | 2d8 miles, or                       |
-| 5- 6      | 3d8 miles long |
-^streamlength
-
-
-|1-3| another moving source of water or 
-|4-6| still body.
-
-Rivers are 
-
-|1| `dice: 1d8` miles long, 
-|2| 2d10 miles long,
-|3| 3d20 miles long, 
-|4| 5d20 miles long, 
-|5| 5d100 miles long, or 
-|6| 10d100 miles long. 
-
-They will merge with 
-
-|1-3| another moving body of water or 
-|4-6| a still body of water.
-
-As a general rule moving bodies of water will be freshwater, although there’s a 1 in 6 chance there’s something unusual about the waterway: It is 
-
-|1- 3| extremely alkaline or acidic, causing nausea as described on p., above, 
-|4-5| brackish a mixture of salt and freshwater, or 
-|6| has a unique property (refer to the magic section).
-
+As a general rule moving bodies of water will be freshwater, although there’s `dice: 1d6 <=1` chance there’s something unusual about the waterway: It is  `dice: [[Fill#^unusualWater]]`
 
 While to some degree the direction of flow of a watercourse will be determined by the geography, the Referee can also randomly determine the direction of flow using the rules presented in the Roads section on p.23
 
 `dice: 1d6 <=5` bodies of moving water have a special feature, drawn from the list below. Note that these features are usually `dice: 1d6 <=5` only found in specific sections of the waterway (i.e. where they are generated), but there is a chance that these traits are exhibited over the entire length.
 
-Note that the term “river” is used below to describe any moving body of water, regardless of size. Roll once per river to determine a defining feature.
+Note that the term “river” is used below to describe any moving body of water, regardless of size. Roll once per river to determine a defining feature `dice: [[Fill#^RiverFeature]]`
 
 
-|1-10|. Deltas. The river widens and gets shallower as it meets a larger body of water, whether (1-4) another stream or (5-6) a still body. It gets 2d4 times wider and the same proportion shallower. There’s a 1 in 6 chance the delta becomes a bayou, a much wider (10d20 times), marshy piece of land that filters the water from the river into the larger body. Bayous are swamps, difficult to navigate on foot, but teeming with wildlife, thick foliage, and plentiful insects.
-|11-20|. Dry bed. The source of water has either (1-3) dried up or (4-6) moved elsewhere, leaving a dried riverbed behind as evidence it once existed. If it has dried up there’s a 1 in 6 chance that the source of the water is actually being blocked by something – perhaps a beaver dam, or something more nefarious.
+| dice: 1d20 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-10       | Deltas. The river widens and gets shallower as it meets a larger body of water. Its `dice: [[Fill#^deltameets]]`   It gets `dice: 2d4` times wider and the same proportion shallower. There’s `dice: 1d6 <=1` chance the delta becomes a bayou, a much wider (`dice: 10d20` times), marshy piece of land that filters the water from the river into the larger body. Bayous are swamps, difficult to navigate on foot, but teeming with wildlife, thick foliage, and plentiful insects.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 11-20      | Dry bed. The source of water has `dice: [[fill#^driedUp]]` leaving a dried riverbed behind as evidence it once existed. If it has dried up there’s `dice: 1d6 <=1` chance that the source of the water is actually being blocked by something – perhaps a beaver dam, or something more nefarious. If the source is not being blocked there’s `dice: 1d6 <=2` chance – increased to `dice: 1d6 <=3` for arid climates – that the source of the water is seasonal or weather dependent; it either flows only `dice: [[Fill#^seasonalRiver]]`. Depending on how long ago the river vanished the bed will be in varying states of overgrowth; the longer ago it occurred the more likely the bed will be difficult to spot, and is in the process of being filled in through erosion. The river will have disappeared `dice: [[Fill#^RiverYearsDry]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 21-35      | Fishing. This section of the river is exceptional for fishing.  `dice: [[Fill#^fishingGood]]` the chance for “hunting” as described on p. 110 of OSE core. If successful, enough fish (or other appropriate food, like clams, crawfish, etc.) can be caught in a day to feed  `dice: [[Fill#^fishingfeedmany]]` individuals. If using the resource rules from Domain Building increase the “Animal, game” resource of this hex by `dice: 1d6`×.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 36-45      | Islands. The stream or river is wide enough to have an island. It will be `dice: [[Fill#^IslandNumber]]` islands within the given area. An island is typically no wider than one half the width of the river itself, and `dice: [[Fill#^islandlength]]` as it is wide. The island may certainly be inhabited, either by intelligent creatures or animals. There’s`dice: 1d6 <=1` chance the terrain type on the island differs from that around the river.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 46         | Magic. There’s some magical quality about the river. Refer to the Chapter on [[#Magic]] to determine what it is.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 47-57      | Pool. The river widens and slows down here, creating a relatively large, slow-moving pool of water that is `dice: 2d4` times wider than the average width of the river. The depth will `dice:  [[fill#^poolDepth]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 58-60      | Rapids. The river picks up speed as it runs downhill, creating turbulence in the water. The rapids are `dice: [[Fill#^Rapidlength]]`. They are dangerous to navigate. When entering rapids by boat, an attack roll is made as follows: Roll to attack when the boat first enters the rapids, every mile thereafter, and when it leaves the rapids. The attack roll is made as a `dice: [[Fill#^RapidHD]]`. Each successful “attack” does `dice. 2d6` points of damage to the boat. Failed attacks still do 1 point of damage, unless a natural 1 is rolled, in which case the boat suffers no damage. Ex. The adventurers’ canoe enters a stretch of rapids that is 1⁄4 mile long. An attack roll is made twice; once when they enter and once when they leave. If the rapids were two miles long, four attack rolls would be made. Skilled outdoorspeople steering the craft can raise the boat’s AC by `dice: 1d6` (depending on the Referee’s judgment. Each time an attack is made those within must Save v. Petrification with a +2 bonus. Failure indicates the individual falls overboard. Adventurers that fall overboard suffer `dice: 1d4` points of damage from the buffeting water and have their chance of drowning increased by 25%. If the river is used by civilized races there is`dice: 1d6 <=4` chance that some means of passage around the rapids has been established, whether it be a portage, canal, or something else. |
+| 61-65      | Rocks. There are a number of large rocks in this section of river, reducing its effective depth by `dice: [[Fill#^rocksdepth]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 66-70      | Swamp/marsh/bog. The land surrounding the watercourse is saturated, creating a marsh or swamp. It covers `dice: [[Fill#^swamparea]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 71-90      | Tributaries. The river either `dice: [[Fill#^RiverJoin]]`. Add the width of the two together to get the new width.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 91-95      | Waterfalls. Due to an abrupt change in elevation the river plunges steeply downhill. The waterfall is `dice: [[Fill#^waterfallheight]]` Waterfalls often `dice: 1d6 <=4` form a pool of water at their base.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 96         | Whirlpools. The water swirls around, dragging objects on the surface underwater. Those that have the potential to be caught in a whirlpool must Save v. Petrification. Failure indicates they are caught and suffer a double normal chance of drowning.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 97-100     | Roll twice, rerolling if a result is not appropriate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+^RiverFeature
 
-If the source is not being blocked there’s a 1-2 in 6 chance – increased to 1-3 in 6 for arid climates – that the source of the water is seasonal or weather dependent; it either flows only (1-3) after winter when snow melts, for `dice: 1d8` months afterwards, (4-5) during a local rainy season, or (6) after heavy rains.
-
-Depending on how long ago the river vanished the bed will be in varying states of overgrowth; the longer ago it occurred the more likely the bed will be difficult to spot, and is in the process of being filled in through erosion.
-
-The river will have disappeared . . .
-
-64-table-2.md
-
-| dice: 1d100 | Result                     |
-|:----------- |:-------------------------- |
-| 1-10        | `dice: 1d4` weeks prior    |
-| 11-20       | `dice: 1d12` months prior  |
-| 21-80       | `dice: 1d10` years prior   |
-| 81-90       | `dice: 2d100` years prior  |
-| 91-100      | `dice: 10d100` years prior |
-
-
-21-35. Fishing. This section of the river is exceptional for fishing. (1-4) Double or (5-6) treble the chance for “hunting” as described on p. 110 of OSE core. If successful, enough fish (or other appropriate food, like clams, crawfish, etc.) can be caught in a day to feed (1-3) 2d6, (4-5) 3d8, or (6) 4d10 individuals. If using the resource rules from Domain Building increase the “Animal, game” resource of this hex by `dice: 1d6`×.1
-
-36-45. Islands. The stream or river is wide enough to have an island. It will be (1-4) singular or (5-6) `dice: 1d4` islands within the given area. An island is typically no wider than one half the width of the river itself, and (1-3) as long as it is wide or (4-6) 2d4 times as long as it is wide.
-
-The island may certainly be inhabited, either by intelligent creatures or animals. There’s a 1 in 6 chance the terrain type on the island differs from that around the river.
-
-46. Magic. There’s some magical quality about the river. Refer to the Chapter on Magic to determine what it is.
-
-47-57. Pool. The river widens and slows down here, creating a relatively large, slow-moving pool of water that is 2d4 times wider than the average width of the river. The depth will 
-
-(1-2) get shallower, 
-(3-4) get deeper, or 
-(5-6) not change.
-
-
-58-60. Rapids. The river picks up speed as it runs downhill, creating turbulence in the water. The rapids are . . .
-
-65-table-1.md
-
-| d100   | Result           |
-|:-------|:-----------------|
-| 1-25   | `dice: 1d10`0 feet long  |
-| 26-50  | 10d100 feet long |
-| 51-75  | `dice: 1d4` miles long   |
-| 76-100 | `dice: 1d8` miles long   |
-
-
-
-They are dangerous to navigate. When entering rapids by boat, an attack roll is made as follows:
-
-Roll to attack when the boat first enters the rapids, every mile thereafter, and when it leaves the rapids.
-
-The attack roll is made as a 
-
-(1-3) 3 HD monster, 
-(4-5) 5 HD monster, or
-(6) 8 HD monster.
-
-
-Each successful “attack” does 2d6 points of damage to the boat. Failed attacks still do 1 point of damage, unless a natural 1 is rolled, in which case the boat suffers no damage.
-
-Ex. The adventurers’ canoe enters a stretch of rapids that is 1⁄4 mile long. An attack roll is made twice; once when they enter and once when they leave. If the rapids were two miles long, four attack rolls would be made.
-
-Skilled outdoorspeople steering the craft can raise the boat’s AC by `dice: 1d6` (depending on the Referee’s judgment.
-
-Each time an attack is made those within must Save v. Petrification with a +2 bonus. Failure indicates the individual falls overboard. Adventurers that fall overboard suffer `dice: 1d4` points of damage from the buffeting water and have their chance of drowning increased by 25%.
-
-If the river is used by civilized races there is a 1-4 in 6 chance that some means of passage around the rapids has been established, whether it be a portage, canal, or something else.
-
-61-65. Rocks. There are a number of large rocks in this section of river, reducing its effective depth by 
-
-(1-3) 25%, 
-(4-5) 50%, or
-(6) 75%.
-
-66-70. Swamp/marsh/bog. The land surrounding the watercourse is saturated, creating a marsh or swamp. It covers
-
-(1-3) 1 subhex, 
-(4-5) `dice: 1d4` subhexes, 
-(6-7) 2d6 subhexes, 
-(8) 3d8 subhexes, (9) 1 full hex, or 
-(10) `dice: 1d4` hexes. Roll `dice: 1d4` if the body of water is a brook or smaller, `dice: 1d6` if a creek, `dice: 1d8` if a stream, and `dice: 1d10` if a river.
-
-
-
-71-90. Tributaries. The river either (1-3) joins with another source of water of equal or greater size or (4-6) is joined by another source of water of equal or lesser size. Add the width of the two together to get the new width.
-
-91-95. Waterfalls. Due to an abrupt change in elevation the river plunges steeply downhill. The waterfall is . . .
-
-66-table-1.md
-
-| d100   | Result           |
-|:-------|:-----------------|
-| 1-40   | `dice: 1d10` feet high   |
-| 41-75  | 2d20 feet high   |
-| 76-90  | 3d100 feet high  |
-| 91-99  | 10d100 feet high |
-| 100    | 20d100 feet high |
-
-Waterfalls often (1-4 in 6) form a pool of water at their base.
-
-96. Whirlpools. The water swirls around, dragging objects on the surface underwater. Those that have the potential to be caught in a whirlpool must Save v. Petrification. Failure indicates they are caught and suffer a double normal chance of drowning.
-
-97-100. Roll twice, rerolling if a result is not appropriate. 10.2. Still Water
 
 #### Still Water
 
@@ -5001,6 +4820,219 @@ Water Feature Example. There’s a water feature in subhex 0507. The result of t
 -   -   Excellent fishing, providing twice the fish for foraging purposes. Since it is a small brook, unlikely to have large fish, it seems appropriate to say that there are large numbers of crayfish that live in the brook.
     
     - Again, rolling `dice: 1d6` to determine the direction, the brook runs to the southeast.
+
+
+
+
+
+
+
+
+
+
+| dice: 1d6 |                                                                         |
+| --------- | ----------------------------------------------------------------------- |
+| 1- 3      | extremely alkaline or acidic, causing nausea as described on p., above, |
+| 4-5       | brackish a mixture of salt and freshwater, or                           |
+| 6         | has a unique property (refer to the magic section).                     |
+^unusualWater
+
+
+
+| dice: 1d6 |                   |
+| --------- | ----------------- |
+| 1-4       | another stream or |
+| 5-6       | a still body.     |
+^deltameets
+
+| dice: 1d6 |                  |
+| --------- | ---------------- |
+| 1-3       | dried up or      |
+| 4-6       | moved elsewhere, |
+^driedUp
+
+
+| dice: 1d6 |                       |
+| --------- | --------------------- |
+| 1-2       | `dice: 10d100` feet,          |
+| 3-4       | `dice: 1d4` miles, or |
+| 5-6       | `dice: 1d8` miles     |
+^Brooklength
+
+
+| dice: 1d6 |                                                    |
+| --------- | -------------------------------------------------- |
+| 1-2       | disappearing water dries up or goes underground or |
+| 3-6       | merging with `dice: [[Fill#^mergingWith]]`         |
+^BrookDisappear
+
+| dice: 1d6 |                                   |
+| --------- | --------------------------------- |
+| 1-3       | another moving source of water or |
+| 4-6       | a still body.                     |
+^mergingWith
+
+
+
+| dice: 1d6 |                    |
+| --------- | ------------------ |
+| 1-2       | `dice: 1d4` miles, |
+| 3-4       | `dice: 2d4` miles  |
+| 5-6       | `dice: 3d4` miles  |
+^Creeklength
+
+
+| dice: 1d6 |                                                      |
+| --------- | ---------------------------------------------------- |
+| 1         | disappearing (water dries up or goes underground) or |
+| 2-6       | merging with `dice: [[Fill#^mergingWith]]`           |
+^CreekDisappear
+
+
+
+
+
+
+| dice: 1d6 |                                     |
+| --------- | ----------------------------------- |
+| 1-2       | `dice: 1d8` miles,                  |
+| 3-4       | 2d8 miles, or                       |
+| 5- 6      | 3d8 miles long |
+^streamlength
+
+
+
+
+
+
+| dice: 1d6 |                              |
+| --------- | ---------------------------- |
+| 1         | `dice: 1d8` miles long,      |
+| 2         | `dice: 2d10` miles long,     |
+| 3         | `dice: 3d20` miles long,     |
+| 4         | `dice: 5d20` miles long,     |
+| 5         | `dice: 5d100` miles long, or |
+| 6         | `dice: 10d100` miles long.   |
+^Riverlength
+
+
+| dice: d100   | Result            |
+|:-------|:------------------|
+| 1-50   | 4d10 feet wide    |
+| 51-75  | 10d20 feet wide   |
+| 76-90  | 10d100 feet wide  |
+| 91-100 | 10d100 yards wide |
+^RiverWidth
+
+
+
+
+| dice: 1d100 | Result                     |
+|:----------- |:-------------------------- |
+| 1-10        | `dice: 1d4` weeks prior    |
+| 11-20       | `dice: 1d12` months prior  |
+| 21-80       | `dice: 1d10` years prior   |
+| 81-90       | `dice: 2d100` years prior  |
+| 91-100      | `dice: 10d100` years prior |
+^RiverYearsDry
+
+
+| dice: 1d6 |                                                                  |
+| --------- | ---------------------------------------------------------------- |
+| 1-3       | after winter when snow melts, for `dice: 1d8` months afterwards, |
+| 4-5       | during a local rainy season, or                                  |
+| 6         | after heavy rains.                                               |
+^seasonalRiver
+
+| dice: 1d6 |           |
+| --------- | --------- |
+| 1-4       | Double or |
+| 5-6       | treble    |
+^fishingGood
+
+
+| dice: 1d6 |         |
+| --------- | ------- |
+| 1-3       | 2d6,    |
+| 4-5       | 3d8, or |
+| 6         | 4d10    |
+^fishingfeedmany
+
+
+| dice: 1d6 |             |
+| --------- | ----------- |
+| 1-4       | singular or |
+| 5-6       | `dice: 1d4` |
+^IslandNumber
+
+
+| dice: 1d6 |                          |
+| --------- | ------------------------ |
+| 1-3       | as long as it is wide or |
+| 4-6       | 2d4 times as long        |
+^islandlength
+
+| dice: 1d6 |                |
+| --------- | -------------- |
+| 1-2       | get shallower, |
+| 3-4       | get deeper, or |
+| 5-6       | not change.    |
+^poolDepth
+
+
+
+| dice: 1d100 | Result                  |
+|:----------- |:----------------------- |
+| 1-25        | `dice: 1d10`0 feet long |
+| 26-50       | 10d100 feet long        |
+| 51-75       | `dice: 1d4` miles long  |
+| 76-100      | `dice: 1d8` miles long  |
+^Rapidlength
+
+
+| dice: 1d6 |                  |
+| --------- | ---------------- |
+| 1-3       | 3 HD monster,    |
+| 4-5       | 5 HD monster, or |
+| 6         | 8 HD monster.    |
+^RapidHD
+
+| dice: 1d6 |         |
+| --------- | ------- |
+| 1-3       | 25%,    |
+| 4-5       | 50%, or |
+| 6         | 75%.    |
+^rocksdepth
+
+
+
+| dice: 1d6 |                                                                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | 1 subhex,                                                                                                                                                     |
+| 4-5       | `dice: 1d4` subhexes,                                                                                                                                         |
+| 6-7       | 2d6 subhexes,                                                                                                                                                 |
+| 8         | 3d8 subhexes,                                                                                                                                                 |
+| 9         | 1 full hex, or                                                                                                                                                |
+| 10        | `dice: 1d4` hexes. Roll `dice: 1d4` if the body of water is a brook or smaller, `dice: 1d6` if a creek, `dice: 1d8` if a stream, and `dice: 1d10` if a river. |
+^swamparea
+
+
+| dice: 1d6 |                                                                |
+| --------- | -------------------------------------------------------------- |
+| 1-3       | joins with another source of water of equal or greater size or |
+| 4-6       | is joined by another source of water of equal or lesser size   |
+^RiverJoin
+
+
+
+| dice: 1d100 | Result                 | 
+|:---------- |:---------------------- |
+| 1-40       | `dice: 1d10` feet high |
+| 41-75      | 2d20 feet high         |
+| 76-90      | 3d100 feet high        |
+| 91-99      | 10d100 feet high       |
+| 100        | 20d100 feet high       |
+^waterfallheight
 
 
 ### Magic
