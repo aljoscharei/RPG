@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8af2ab2b1cd1a2d8",
+        "id": "cf5fbc560be5a79f",
         "type": "tabs",
-        "dimension": 34.21487603305785,
+        "dimension": 50,
         "children": [
           {
-            "id": "7d96580675a02e06",
+            "id": "a93baab0dc838bb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,12 +23,12 @@
         ]
       },
       {
-        "id": "a83f333229742186",
+        "id": "b0b4618c39ece392",
         "type": "tabs",
-        "dimension": 34.628099173553714,
+        "dimension": 30.79416531604538,
         "children": [
           {
-            "id": "8d230f3e3c855469",
+            "id": "c4b7a9c9ed0a048d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,12 +42,12 @@
         ]
       },
       {
-        "id": "3970e2e7a39b1dd3",
+        "id": "18312a28a677dda5",
         "type": "tabs",
-        "dimension": 31.157024793388427,
+        "dimension": 19.20583468395462,
         "children": [
           {
-            "id": "d025de993d8e38c6",
+            "id": "9166d3a4e8d0044d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -57,21 +57,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "be8adb4d3c1a4e0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202104290619 Todd Into the Wild.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202104290619 Todd Into the Wild.md",
+                "file": "GM_FlohFelixAljoscha/Fill.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202104290619 Todd Into the Wild.md"
+                "file": "GM_FlohFelixAljoscha/Fill.md"
               }
             }
           },
@@ -191,7 +178,7 @@
     "direction": "horizontal",
     "width": 234.5
   },
-  "active": "be8adb4d3c1a4e0d",
+  "active": "9166d3a4e8d0044d",
   "lastOpenFiles": [
     "GM_FlohFelixAljoscha/Fill.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202104290619 Todd Into the Wild.md",
