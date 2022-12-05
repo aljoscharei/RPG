@@ -6,7 +6,7 @@
       {
         "id": "cf5fbc560be5a79f",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 37.15277777777777,
         "children": [
           {
             "id": "a93baab0dc838bb2",
@@ -23,28 +23,9 @@
         ]
       },
       {
-        "id": "b0b4618c39ece392",
-        "type": "tabs",
-        "dimension": 30.79416531604538,
-        "children": [
-          {
-            "id": "c4b7a9c9ed0a048d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "18312a28a677dda5",
         "type": "tabs",
-        "dimension": 19.20583468395462,
+        "dimension": 31.423611111111107,
         "children": [
           {
             "id": "9166d3a4e8d0044d",
@@ -56,6 +37,41 @@
                 "mode": "source",
                 "source": true
               }
+            }
+          },
+          {
+            "id": "2f331ef004adbbc6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "d987b51e1314f92d",
+        "type": "tabs",
+        "dimension": 31.423611111111107,
+        "children": [
+          {
+            "id": "375f1cdfd8d8099a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/Fill.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a7e33424c35d6128",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -178,7 +194,7 @@
     "direction": "horizontal",
     "width": 234.5
   },
-  "active": "a93baab0dc838bb2",
+  "active": "375f1cdfd8d8099a",
   "lastOpenFiles": [
     "GM_FlohFelixAljoscha/Fill.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202104290619 Todd Into the Wild.md",
