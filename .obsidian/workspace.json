@@ -6,7 +6,7 @@
       {
         "id": "cf5fbc560be5a79f",
         "type": "tabs",
-        "dimension": 37.15277777777777,
+        "dimension": 39.3841166936791,
         "children": [
           {
             "id": "a93baab0dc838bb2",
@@ -25,7 +25,7 @@
       {
         "id": "18312a28a677dda5",
         "type": "tabs",
-        "dimension": 31.423611111111107,
+        "dimension": 60.6158833063209,
         "children": [
           {
             "id": "9166d3a4e8d0044d",
@@ -40,34 +40,7 @@
             }
           },
           {
-            "id": "2f331ef004adbbc6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "d987b51e1314f92d",
-        "type": "tabs",
-        "dimension": 31.423611111111107,
-        "children": [
-          {
-            "id": "375f1cdfd8d8099a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a7e33424c35d6128",
+            "id": "32c20d523f6e3c25",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -194,9 +167,10 @@
     "direction": "horizontal",
     "width": 234.5
   },
-  "active": "375f1cdfd8d8099a",
+  "active": "9166d3a4e8d0044d",
   "lastOpenFiles": [
     "GM_FlohFelixAljoscha/Fill.md",
+    "Players_FlohFelixAljoscha/202108162351 NPC Namensliste.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202104290619 Todd Into the Wild.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/201801010947 Todd MOC.md",
     "GM_FlohFelixAljoscha/Forbidden Lands Legend Generator.md",
@@ -204,7 +178,6 @@
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Encounters MOC.md",
     "GM_FlohFelixAljoscha/fantastic lairs Sly Flourish.md",
     "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
-    "Players_FlohFelixAljoscha/spell_List/dimension door teleport to visible w not favoured.md",
-    "GM_FlohFelixAljoscha/Symbaroum Session MOC.md"
+    "Players_FlohFelixAljoscha/spell_List/dimension door teleport to visible w not favoured.md"
   ]
 }

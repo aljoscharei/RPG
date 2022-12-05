@@ -26,6 +26,7 @@ grond,
 rayanian
 Sarkolom
 Lorinc
+Kjartan
 
 # Symbarische Namen
 - asap nast

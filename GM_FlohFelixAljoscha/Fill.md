@@ -3827,7 +3827,6 @@ These hazards are from living creatures. Animals and magical plants are spotted 
 
 | dice: 1d6 |               |
 | --------- | ------------- |
-| dice: 1d6 |               |
 | 1-3       | +1d4 bonus or |
 | 4-6       | –1d4 penalty. |
 ^floradeathsave
@@ -3858,6 +3857,25 @@ These hazards are from living creatures. Animals and magical plants are spotted 
 | 5         | 90’,             |
 | 6         | 120’ or greater. |
 ^floraairborne
+
+
+
+
+| dice: `dice: 1d20` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-6                | the insects are of the smaller, more annoying mosquito/gnat/midge variety. In this case there’s `dice: 1d6 <=2` chance the insects carry a disease (see below). Even if they don’t, the insects prove annoying. Increase the chance of being surprised while moving through the area by 1. Additionally, if the adventurers are sleeping outside without some form of insect-proof shelter or magical aid there’s `dice: 1d6 <=3` chance per night that the insects are simply too annoying for those sleeping to get the needed rest. This chance is reduced to `dice: 1d6 <=2` if the adventurers build a fire. |
+| 7-19               | nothing serious                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 20                 | a randomly determined individual takes enough damage to potentially pose a health danger. If this occurs, randomly determine the target. They take `dice: `dice: 1d6`-1` points of damage.                                                                                                                                                                                                                                                                                                                                                                                                                        |
+^hazardInsects
+
+
+| dice: `dice: 1d6` |                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3               | the adventurers’ mounts and/or pack animals will stampede. If the adventurers’ mounts run the risk of being stampeded make a single morale check for each type of animal                                                                                                                                                                                   | if the mounts consist of war horses, riding horses, and pack mules three morale checks would be made). Those groups that fail the morale check begin to stampede. Those mounts with riders take `dice: `dice: 1d6`` minutes to bring under control (or `dice: `dice: 1d4`` rounds if the rider is an experienced horseman). Treat those mounts without riders as wilderness chases (p. 116, OSE core) lasting a day at minimum (more if the adventurers insist on tracking down lost animals). Those on foot are treated as being in the middle of an animal stampede (see below). |
+| 4-6               | the adventurers will be caught in a stampede of a herd of animals native to the region. If the party is caught in a stampeding herd each mount or individual must make a Save v. Death or suffer `dice: `dice: 1d6`` points of damage. Mounts and NPCs must also make morale checks to avoid being spooked (treat as if targeted by the cause fear spell). |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+^stampede
+
+
 
 
 #### Weather/climate
@@ -3999,8 +4017,10 @@ These hazards are weather-based, quick hazards that typically affect larger area
 ^ChaosstormWhatAltered
 
 
-|1- 3| introduced or 
-|4-6| removed from the area.
+| dice: 1d6 |                        |
+| --------- | ---------------------- |
+| 1- 3      | introduced or          |
+| 4-6       | removed from the area. |
 ^introducedremoved
 
 ##### Diseases
@@ -5054,7 +5074,7 @@ There’s a 1-2 in 6 chance that, when subjects of a magical effect leave the af
 | dice: 1d100 | Result                                                                                                               |
 | ----------- | -------------------------------------------------------------------------------------------------------------------- |
 | 1-15        | Climate [[Fill#11.1. Climate]] The local climate has been magically influenced. It is `dice: [[Fill#^magicclimate]]` |
-| 16-30       | Flora and Fauna [[Fill#11.2. Flora and Fauna]]                                                                       |
+| 16-30       | Flora and Fauna [[Fill#11.2. Flora and Fauna]]. `dice: [[Fill#^FloraFaunaMaster]]`                                                                       |
 | 31-55       | Other [[Fill#11.3. Other]]                                                                                           |
 | 56-70       | Ley Lines [[Fill#11.6. Ley Lines]]                                                                                   |
 | 71-85       | Resonance or Dissonance [[Fill#11.5. Magical Resonance or Dissonance]]s                                              |
@@ -5080,322 +5100,31 @@ The life in this affected area is magically altered in some way. It affects the 
 
 70-table-3.md
 
-| d100                          | Result           |
-|:------------------------------|:-----------------|
-| 1-30                          | Plants           |
-| 31-60                         | Animals          |
-| 61-90                         | Other Creatures  |
-| 91-98                         | Two of the above |
-| 99-100 All three of the above |                  |
-
+| dice: d100 | Result                 |
+|:---------- |:---------------------- |
+| 1-30       | Plants                 |
+| 31-60      | Animals                |
+| 61-90      | Other Creatures        |
+| 91-98      | Two of the above       |
+| 99-100     | All three of the above |
+^FloraFaunaMaster
 
 ##### 11.2.1. Flora
 
-This feature affects . . .
-
-
-70-table-4.md
-
-| d100   | Result                                                                                        |
-|:------ |:--------------------------------------------------------------------------------------------- |
-| 1-10   | All of the plant-life in the area                                                             |
-| 11-40  | A specific species of plant-life                                                              |
-| 41-70  | A small number of particular plants within  the  area:  (1-3)  `dice: 1d20`,  (4-5) 5d20, (6) 10d100. |
-| 71-100 | A single plant                                                                                |
-
-
-The plants are . . .
-
-
-70-table-5.md
-
-| d100   | Result          |
-|:------ |:--------------- |
-| 1-20   | Moss/Lichen     |
-| 21-40  | Fungi           |
-| 41-60  | Grasses/Flowers |
-| 61-80  | Shrubs          |
-| 81-100 | Trees           |
-
-The plants possess the following qualities.
-
-
-70-table-2.md
-
-| d100  | Result                            |
-|:----- |:--------------------------------- |
-| 1-16  | (1-3) Beneficial or (4-6) Baneful |
-| 17-32 | Mobile                            |
-| 33-48 | Sentient                          |
-| 49-64 | Unusual Size                      |
-| 65-82 | Unusual Form                      |
-| 81-92 | Unusual Features                  |
-| 97-99 | Roll Twice                        |
-| 100   | Roll Thrice                       |
-
-
-Beneficial/Baneful. While not possessing an actual intelligence, the plant-life within the area subtly works to help or hinder those passing through.
-
-When beneficial, travelers find that their path always seems straight and clear of hazards, food grows abundantly, and they can shelter from the elements under spreading boughs. Travel time decreases by 25% in these areas, and enough food for `dice: 1d12` individuals can be found per day without even stopping to scavenge.
-
-When baneful, it seems as if there are always roots to trip on, low-hanging branches threatening to knock riders off their mounts, paths are difficult to follow and easy to loose, etc. Travel time is increased by 25% in these areas, and at the end of each day each traveler must make a Save against Wands or suffer `dice: 1d4` points of damage from scratches, sprained ankles, etc.
-
-If this result comes up twice for the same area either double the modifiers (movement modified by 50%, etc.) or, in the case of one roll indicating beneficial and the other baneful, assume there is a hidden dichotomy between the plants, with some seeking to hinder and some to help. Why is this, and how do the players react when it becomes apparent? Perhaps the characters are being shepherded to a specific location, or shielded by the beneficial plants from the wilder, more chaotic plants that lurk off the trail.
-
-Mobile. The plant-life in the area is mobile but not necessarily sentient. There’s a 1-4 in 6 chance the plants move as one expects them to, by pulling themselves from the ground and using their roots like legs, but on a 5-6 they don’t. Perhaps they float, or burrow, or teleport.
-
-If the plants aren’t sentient they move (1-2) to hunt prey,
-
-
-(3-4) to find better sources of light, or (5-6) to satisfy some inscrutable design. There’s a 1-3 in 6 chance the plants are subtle with their movement and do so when travelers aren’t looking, or at night. Double chances of getting lost in these instances as landmarks shift, trails are obscured, and tracks erased.
-
-Sentient. The plants are aware and intelligent. They have an alignment of (1) Lawful, (2-5) Neutral, or (6) Chaotic. There’s a 1-3 in 6 chance the plant-life can communicate via (1-3) speech, (4-5) signs or movements of their bodies, (6-7) empathic projections, or (8) telepathy.
-
-Roll 3d6 to determine the average equivalent Intelligence of the plant-life. The plants have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows:
-
--  All plants. 1 in 100, equivalent caster level `dice: 1d4`. - Single species of plants. 1-3 in 100, equivalent
-
-caster level `dice: 1d6`.
-
-- Small number of plants. 1-5 in 100, equivalent caster level `dice: 1d8`.
-
-Unusual Features. Something about the plants is different from normal . . .
-
-d100 Result
-
-1-40
-
-Plants survive on something other than sunlight: (1-2) meat, (3) heat or cold, (4) esoterica (thoughts, emotions, etc.), (5) ore (gold, copper, etc.), or (6) magic.
-
-41-80
-
-Plants produce unusual fruit: (1) made of a valuable material (gold, spun glass), (2) with healing (1-3) or harmful (4-6) properties, (3) containing a magical spell that is triggered by eating, or breaking, or throwing, (4) which transports the eater to another plane or dimension, (5) which acts as a randomly determined potion, or (6) that when thrown will turn into a randomly determined monster. The plant produces (1-3) only a single special fruit, (4-5) `dice: 1d10` fruit, (6) `dice: 1d10`0 fruit.
-
-81-100
-
-Roll on Table 11.2 for an additional effect.
-
--  A single plant. 1 in 10, equivalent caster level `dice: 1d10`. If this is the case, the plants can cast spells as a (1-3)
-
-druid, (4-5) cleric, (6-7) illusionist, or (8) magic-user.
-
-Unusual Size. The plants are either (1-4) larger or (5-6) smaller than normal. The size difference is . . .
-
-71-table-2.md
-
-| d100   | Result    |
-|:-------|:----------|
-| 1-10   | 25%       |
-| 11-30  | 50%       |
-| 31-50  | 75%       |
-| 51-90  | 100%      |
-| 91-100 | 3d6 times |
-
-
-Ex. There’s a single tree in a given area that is larger than normal. Rolling above, the result is a 95. Rolling 3d6, the result is 10. The tree is 10 times larger than normal. Assuming it is a white oak, which average 50-80 feet tall, this tree is somewhere around 500-800 feet tall.
-
-Unusual Form. The plants are a different form or shape than normal. They are . . .
-
-71-table-4.md
-
-| d100   | Result                                                                                    |
-|:-------|:------------------------------------------------------------------------------------------|
-| 1-25   | Different color (1-3) bark, (4-6) leaves, (7-8) both.                                     |
-| 26-50  | Different shape.  Perhaps the trunk and branches are geometric.                           |
-| 51-75  | Different texture/surface.                                                                |
-| 76-100 | Non-native  plants.  Instead  of  trees,  maybe they are giant mushrooms, or waving kelp. |
-
-
-Unusual Features. Something about the plants is different from normal . . .
-
-71-table-1.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-40   | Plants  survive  on  something  other than sunlight:  (1-2)  meat,  (3)  heat  or  cold,  (4) esoterica (thoughts, emotions, etc.), (5) ore (gold, copper, etc.), or (6) magic.                                                                                                                                                                                                                                                                                                                                                       |
-| 41-80  | Plants  produce  unusual  fruit:  (1)  made  of  a valuable material (gold, spun glass), (2) with healing (1-3) or harmful (4-6) properties, (3) containing  a  magical  spell  that  is  triggered by eating,  or  breaking,  or throwing, (4) which  transports  the  eater  to  another  plane or  dimension,  (5)  which  acts  as  a  randomly determined potion, or (6) that when thrown will turn into a randomly determined monster. The plant produces (1-3) only a single special fruit, (4-5) `dice: 1d10` fruit, (6) `dice: 1d10`0 fruit. |
-| 81-100 | Roll on Table 11.2 for an additional effect.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+This feature affects `dice: [[Fill#^howmanyplants]]`. The plants are `dice: [[Fill#^whichplants]]`. The plants possess the following qualities `dice: [[Fill#^plantqualities]]`
 
 ##### 11.2.2. Fauna
-
-This category covers only the non-magical, normal- sized animals that dwell within the given area. Neither monsters, Men, nor giant versions of normal animals are covered in this category. If a specific type of animal lairs in the area then this feature will automatically affect them (and potentially other animals as well), but if not, assume that the animals affected are those that would normally live in the area: small birds, rodents, etc. Arachnids are specifically excluded from this category and are covered under the next, catch-all category. This feature affects . . .
-
+This category covers only the non-magical, normal- sized animals that dwell within the given area. Neither monsters, Men, nor giant versions of normal animals are covered in this category. If a specific type of animal lairs in the area then this feature will automatically affect them (and potentially other animals as well), but if not, assume that the animals affected are those that would normally live in the area: small birds, rodents, etc. Arachnids are specifically excluded from this category and are covered under the next, catch-all category. This feature affects `dice: [[Fill#^numberAnimal]]` The animals are  `dice: [[Fill#^animalKind]]` The animals have the following qualities `dice: [[Fill#^animalqualities]|`
 
 
-71-table-3.md
-
-| d100                   | Result                                                                             |
-|:-----------------------|:-----------------------------------------------------------------------------------|
-| 1-10                   | All of the animals in the area                                                     |
-| 11-40                  | A specific species of animal                                                       |
-| 41-70                  | A  small  number  of  animals  within the area: (1-3) `dice: 1d20`, (4-5) 5d20, (6) 10d100 |
-| 71-100 A single animal |                                                                                    |
-
-The animals are . . .
-
-71-table-5.md
-
-| d100           | Result     |
-|:---------------|:-----------|
-| 1-20           | Insects    |
-| 21-40          | Amphibians |
-| 41-60          | Reptiles   |
-| 61-80          | Bird       |
-| 81-100 Mammals |            |
-
-The animals have the following qualities . . .
-
-
-72-table-1.md
-
-| d100   | Result                            |
-|:-------|:----------------------------------|
-| 1-16   | (1-3) Beneficial or (4-6) Baneful |
-| 17-32  | Awakened                          |
-| 33-48  | Sentient                          |
-| 49-64  | Unusual Size                      |
-| 65-82  | Unusual Form                      |
-| 81-92  | Unusual Features                  |
-| 97-99  | Roll Twice                        |
-| 100    | Roll Thrice                       |
-
-Beneficial or Baneful. Even if not sentient, the animals act in ways that either help or hinder travelers through the area. Initially, this means that all reaction rolls with the designated animals are made with a modifier of (1- 3) 1, (4-5) 2, or (6) 3. There’s a 1-4 in 6 chance that this modifier will not change, regardless of the actions of the adventurers. Killing one of the animals will not impose a penalty, nor will feeding them.
-
-Additionally, there’s a 1-3 in 6 chance that the animals act in an unnatural manner that can be construed as helpful or harmful. If the animals are not sentient or capable of communication their attempts may likely be rudimentary; if helpful, perhaps they seek to warn the adventurers away from a particular hazard, or the lair of a monster. If harmful, perhaps they try to lead the adventurers on a chase ending at the edge of a cliff, or into the lair of said monster.
-
-Magical communication can certainly be helpful, but if baneful the animals may choose to not answer, or even to deceive.
-
-Awakened. Distinct from those that are sapient, Awakened animals are not only possessed of intelligence potentially equal to, or even surpassing, that of Man, but of mannerisms and characteristics of the humanoid races.
-
-Awakened creatures can walk on two legs, if their anatomy allows it, and their extremities are altered slightly to allow the use of tools. Awakened animals can be found wearing the garb and accoutrements of Man, and acting as Men do.
-
-They will, however, typically have no change in size; Awakened mice are still the size of mice. They will have an Intelligence score of (1) 2d4, (2-3) 2d6, (4) 3d4, (5) 4d4, or (6) 3d6. There’s a further 1-2 in 6 chance the Awakened creatures will be able to communicate via speech. This chance increases by 1 should their Intelligence be 13 or higher.
-
-Overall, Awakened creatures are (1) Lawful, (2-5) Neutral, or (6) Chaotic, although exceptions may exist among multiple creatures of the same kind, just as it does within a population of Men.
-
-Awakened animals can possess racial class levels.
-
-Sentient. As Awakened creatures, above, but without the likeness of Men, sentient animals possess an intelligence. They have the same chance of speech as Awakened animals; otherwise, there’s a 1-3 in 6 chance the animals can communicate via (1-3) speech, (4-5) signs or movements of their bodies, (6-7) empathic projections, or (8) telepathy.
-
-The animals have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows:
-
--  All animals. 1 in 100, equivalent caster level `dice: 1d4`. -  Single species of animals. 1-3 in 100, equivalent
-
-caster level `dice: 1d6`.
-
--  Small number of animals. 1-5 in 100, equivalent caster level `dice: 1d8`.
-
--  A single animal. 1 in 10, equivalent caster level `dice: 1d10`.
-
-If this is the case, the animals can cast spells as a (1-3) druid, (4-5) cleric, (6-7) illusionist, or (8) magic-user.
-
-Unusual Size. The animals are either (1-4) larger or (5- 6) smaller than normal. The size difference is . . .
-
-
-
-72-table-2.md
-
-| d100   | Result    |
-|:-------|:----------|
-| 1-10   | 25%       |
-| 11-30  | 50%       |
-| 31-50  | 75%       |
-| 51-90  | 100%      |
-| 91-100 | 3d6 times |
-
-Animals that are smaller than normal have reduced HD, typically proportionate to the decrease in size. A black bear, typically with 4 HD, that is 50% smaller than normal would have 2 HD.
-
-Likewise, the larger a creature is the more HD it has, by the same proportions: a black bear that normally has 4 HD that is 50% larger will have 6 HD.
-
-Unusual Form. The animals are a different form or shape than normal. They are . . .
-
-
-73-table-1.md
-
-| d100   | Result                                                                                                                                                                                                                                 |
-|:-------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-25   | Different (1-3) skin/fur, (4-6) color, (7-8) both.                                                                                                                                                                                     |
-| 26-50  | Different  shape.  The  animal  may  have  six legs instead of four, or wings (and potentially a fly speed) where it had none before.                                                                                                  |
-| 51-75  | The animal is a mixture of (1-3) two, (4-5) three, or  (6)  four  animals,  sharing  characteristics of  all  of  them.  There’s  a  1  in  6  chance  per animal type that the main characteristic is a hindrance, or non-beneficial. |
-| 76-100 | Non-native  animals. In this  part  of the world perhaps fish swim through the air as if it were water, or penguins hunt the plains for insects.                                                                                       |
-
-There’s a 1-2 in 6 chance the difference is directly beneficial. The animal gains . . .
-
-73-table-3.md
-
-| d100  | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|:----- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-15  | Additional  hit  points.  They  have  (1-3)  +1, (4-5) +2, or (6) +4 hit points.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| 16-20 | Additional Hit Dice. The creatures’ Hit Dice (1-4) increases by (1-3) 1, (4-5) 2, or (6) 3, or (5-6) increases from `dice: 1d8` to (1-4) `dice: 1d10` or (5-6) `dice: 1d12`.                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 21-35 | Armor Class. The creatures’ AC improves by (1-3) 1, (4-5) 2, or (6) 3.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| 36-50 | Damage. The creature’s existing damage (1-4) increases by one die type (from d6 to d8, for instance) or (5-6) they gain an additional attack  at  a  die  type  one  lower  than  their current lowest attack (if the animal can attack twice doing `dice: 1d6` points of damage they gain a third attack doing `dice: 1d4` points of damage).                                                                                                                                                                                                                                            |
-| 51-55 | Saving Throws. The animal uses the Fighter Saving Throw chart at the normal progression (Animal HD equals fighter level, as opposed to half progression).                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| 56-70 | Special  Attack.  The  animal  gains  a  special attack.  This  is  (1)  poison,  (2)  disease,  (3) elemental, (4)  paralyzing, (5) a special combat maneuver (grapple, trample, etc.), or (6) something else.                                                                                                                                                                                                                                                                                                                                                           |
-| 71-85 | Special Defense. The animal gains a special defense.  This  is  (1)  resistance  to  a  form  of damage (bludgeoning, fire, etc.), (2) immunity to a form of damage, (3) regeneration (1-3: 1 hp per round, 4-5: 2 hp per round, or 6: 3 hp per round), (4) successful attacks upon them damage or negate weapons (such as a living iron  statue’s  ability  to  absorb  weapons),  (5) some of the damage suffered from attacks is borne by the attacker, or (6) the creature can change  form  to  escape  (such  as  a  vampire’s ability to turn into a bat or mist). |
-| 86-90 | Magical Manifestation. The animal can cast a randomly determined spell of level (1-3) 1, (4-5) 2, or (6) 3. This spell is used as a special ability  and  can  be  used  (1-4)  once  per  day, (5-7) twice per day, (8-9) three times per day, or (10) is always active/available.                                                                                                                                                                                                                                                                                       |
-| 91-97 | Movement. The  creature’s  Move  score (1-4) increases  by  (1-3)  10’,  (4-5)  20’,  or  (6)  30’,  or (5-6)  they  gain  a  new  form  of  movement  in addition to their old form. This new form is (1-2) 1 category slower than their current form, (3-4) the same speed, or (5-6) 1 category faster.                                                                                                                                                                                                                                                                 |
-| 98-99 | Roll Twice.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 100   | Roll Thrice.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-
-Unusual Features. Something about the animals is different from normal . . .
-
-
-73-table-4.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                                |
-|:-------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-40   | Animals feed  on  something  other than their  normal  diet:  (1-2)  meat instead  of vegetation,  or  vice  versa,  (3)  heat  or  cold, (4) esoterica (thoughts, emotions, etc.), (5) ore (gold, copper, etc.), or (6) magic.                                                                       |
-| 41-80  | Parts of the animal are valuable for use by alchemists  or  magicians.  There’s  a  1  in  6 chance  that  the  body  part  can  actually  be used  by  the  animal  for  offense  or  defense (a  gland  that  allows  them  to  breath  fire, for instance),  but  otherwise it is  non-functional. |
-| 81-100 | Roll on Table 11.2 for an additional effect.                                                                                                                                                                                                                                                          |
 
 
 ##### 11.2.3. Other Creatures
 
-Other creatures that inhabit the area have been shaped by magic. It affects .
+Other creatures that inhabit the area have been shaped by magic. It affects `dice: [[Fill#^creaturewhich]]`
 
 
-74-table-1.md
-
-| d100   | Result                                                                           |
-|:------ |:-------------------------------------------------------------------------------- |
-| 1-10   | All of the creatures in the area                                                 |
-| 11-40  | A specific species                                                               |
-| 41-70  | A small number of creatures within the area: (1-3) `dice: 1d20`, (4-5) 5d20, (6) 10d100. |
-| 71-100 | A single creature                                                                |
-
-
-Roll to randomly determine the creature(s) affected. When determining what form the magical influence takes roll on the Animal table, above. However, if the result is Awakened or Sapient and the creature to be affected already is one of those two, the options are (1- 3) roll again, disregarding those results, (4-5) increase the creatures’ average Intelligence by one category (i.e. a range of 9-12 is increased to 13-15), or (6) roll on the Specials table, in the next column.
-
-74-table-3.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                                                                                             |
-|:-------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-20   | Alternate Mode of Communication. The creature communicates via (1-4) empathy (projecting their emotions) or (5-6) telepathy (projecting their thoughts). There’s a 1 in 6 chance that a creature that can  do  this  can  also  read  emotions  and thoughts  in  others,  and  a  further  1  in  6 chance  that  this  is  their  only  means  of communication. |
-| 21-40  | Immortality.  The creature is immortal and (1-3) cannot die of old age but can die of  disease  or  injury,  (4-5)  can  only  die  of injury, or (6) cannot be permanently slain.                                                                                                                                                                                 |
-| 41-60  | Out of Time. The creature is from the (1-2)  past,  (3-4)  future,  or  (5-6)  an  alternate version  of  reality.  There’s  a  1  in  6  chance that whatever magic has brought them here can  fling  the  unwary  to  (1-4)  their  native time or (5-6) a random time.                                                                                          |
-| 61-80  | Plane-touched. The creature (1-4) possesses  an  ancestry that  comes from another plane or dimension or (5-6) actually is  from  another  dimension  or  plane.  They may exhibit traits from that plane, such as a creature with an ancestry tracing back to the plane of Fire being immune to fire, or similar,  or  may  actually  exist  out  of  sync with the normal world.                                                                                                                 |
-| 81-100 | Spellcaster. The creature(s) possess a native ability  to  cast  spells.  They  do  so  as  a  (1-2)  magic-user,  (3-4)  cleric,  (5)  druid,  (6) illusionist, or (7-8) other spellcasting class. They  do  so  either  (1-4)  at  a  class  level,  if they belong to the given class, meaning that not all creatures in the area can cast spells, or  (5-6)  innately,  with  all  members  of  the species in the area casting spells as a caster of level (1-3) `dice: 1d4`, (4-5) `dice: 1d8`, or (6) `dice: 1d12`. |
-
-
-
-
-| dice: `dice: 1d20` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-6        | the insects are of the smaller, more annoying mosquito/gnat/midge variety. In this case there’s `dice: `dice: 1d6` <=2` chance the insects carry a disease (see below). Even if they don’t, the insects prove annoying. Increase the chance of being surprised while moving through the area by 1. Additionally, if the adventurers are sleeping outside without some form of insect-proof shelter or magical aid there’s `dice: `dice: 1d6` <=3` chance per night that the insects are simply too annoying for those sleeping to get the needed rest. This chance is reduced to `dice: `dice: 1d6` <=2` if the adventurers build a fire. |
-| 7-19       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| 20         | a randomly determined individual takes enough damage to potentially pose a health danger. If this occurs, randomly determine the target. They take `dice: `dice: 1d6`-1` points of damage.                                                                                                                                                                                                                                                                                                                                                                                                                                |
-^hazardInsects
-
-
-| dice: `dice: 1d6` |                                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1-3       | the adventurers’ mounts and/or pack animals will stampede. If the adventurers’ mounts run the risk of being stampeded make a single morale check for each type of animal                                                                                                                                                                           | if the mounts consist of war horses, riding horses, and pack mules three morale checks would be made). Those groups that fail the morale check begin to stampede. Those mounts with riders take `dice: `dice: 1d6`` minutes to bring under control (or `dice: `dice: 1d4`` rounds if the rider is an experienced horseman). Treat those mounts without riders as wilderness chases (p. 116, OSE core) lasting a day at minimum (more if the adventurers insist on tracking down lost animals). Those on foot are treated as being in the middle of an animal stampede (see below). |
-| 4-6       | the adventurers will be caught in a stampede of a herd of animals native to the region. If the party is caught in a stampeding herd each mount or individual must make a Save v. Death or suffer `dice: `dice: 1d6`` points of damage. Mounts and NPCs must also make morale checks to avoid being spooked (treat as if targeted by the cause fear spell). |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-^stampede
-
-
-
-
+Roll to randomly determine the creature(s) affected. When determining what form the magical influence takes roll on the Animal table, above. However, if the result is Awakened or Sapient and the creature to be affected already is one of those two, the options are `dice: [[Fill#^creatureawakenedSentient]]`
 
 
 
@@ -5403,7 +5132,15 @@ Roll to randomly determine the creature(s) affected. When determining what form 
 
 This is a catch-all category for a range of magical effects.
 
-1-15. Alignment. The area possesses an alignment: (1) Lawful, (2-4) Neutral, or (5-6) Chaotic. Creatures of the given alignment are naturally attracted to the region. When populating it, discard results that are more than one step away (Neutral and Chaotic creatures can populate a region with an alignment of Chaotic, but not Lawful creatures). The aura is subtle, having one or more of the following effects . . .
+1-15. Alignment. The area possesses an alignment: `dice: [[Fill#^areaalignment]]`. Creatures of the given alignment are naturally attracted to the region. When populating it, discard results that are more than one step away (Neutral and Chaotic creatures can populate a region with an alignment of Chaotic, but not Lawful creatures). The aura is subtle, having one or more of the following effects . . .
+
+
+
+(1) Lawful, 
+(2-4) Neutral, or 
+(5-6) Chaotic
+^areaalignment
+
 
 
 74-table-4.md
@@ -5758,3 +5495,446 @@ Some more rolls are made:
 | 1-4       | noticeably different than the surrounding region |
 | 5-6       | extremely different from the region              |
 ^magicairtemp
+
+
+70-table-4.md
+
+| d100   | Result                                                                                        |
+|:------ |:--------------------------------------------------------------------------------------------- |
+| 1-10   | All of the plant-life in the area                                                             |
+| 11-40  | A specific species of plant-life                                                              |
+| 41-70  | A small number of particular plants within  the  area:  (1-3)  `dice: 1d20`,  (4-5) 5d20, (6) 10d100. |
+| 71-100 | A single plant                                                                                |
+^howmanyplants
+
+
+
+70-table-5.md
+
+| d100   | Result          |
+|:------ |:--------------- |
+| 1-20   | Moss/Lichen     |
+| 21-40  | Fungi           |
+| 41-60  | Grasses/Flowers |
+| 61-80  | Shrubs          |
+| 81-100 | Trees           |
+^whichplants
+
+
+
+
+| dice: 1d6 |                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| 1-4       | the plants move as one expects them to, by pulling themselves from the ground and using their roots like legs |
+| 5-6       | The plant don't move as one expects.  Perhaps they float, or burrow, or teleport.                             |
+^plantsmovehow
+
+
+(1-2) to hunt prey,
+(3-4) to find better sources of light,
+(5-6) to satisfy some inscrutable design. There’s a 1-3 in 6 chance the plants are subtle with their movement and do so when travelers aren’t looking, or at night. Double chances of getting lost in these instances as landmarks shift, trails are obscured, and tracks erased.
+^plantsmovewhy
+
+
+
+
+(1) Lawful, 
+(2-5) Neutral
+(6) Chaotic. 
+^plantalignment
+
+
+
+
+
+(1-3) speech, 
+(4-5) signs or movements of their bodies,
+(6-7) empathic projections
+(8) telepathy.
+^plantspeech
+
+
+
+(1-2) meat, 
+(3) heat or cold, 
+(4) esoterica (thoughts, emotions, etc.),
+(5) ore (gold, copper, etc.), or 
+(6) magic.
+^plantunusualsustenance
+
+
+(1) made of a valuable material (gold, spun glass), 
+(2) with `dice: [[Fill#^healingharmful]]`  properties, 
+(3) containing a magical spell that is triggered by eating, or breaking, or throwing, 
+(4) which transports the eater to another plane or dimension,
+(5) which acts as a randomly determined potion, or 
+(6) that when thrown will turn into a randomly determined monster. 
+^plantunusualfruit
+
+
+(1-3)  healing 
+(4-6) harmful 
+^healingharmful
+
+(1-3) only a single special fruit, 
+(4-5) `dice: 1d10` fruit,
+(6) `dice: 1d10`0 fruit.
+^noFruit
+
+(1-3) druid, 
+(4-5) cleric, 
+(6-7) illusionist, or 
+(8) magic-user.   
+^plantCaster
+
+
+| d100   | Result                                                                                                        |
+| ------ | ------------------------------------------------------------------------------------------------------------- |
+| 1-40   | Plants survive on something other than sunlight `dice: [[Fill#^plantunusualsustenance]]`                      |
+| 41-80  | Plants produce unusual fruit `dice: [[Fill#^plantunusualfruit]]` The plant produces `dice: [[Fill#^noFruit]]` |
+| 81-100 | Roll on Table 11.2 [[Fill#^plantqualities]] for an additional effect.                                         |
+^unusualfeature
+
+
+
+(1-4) larger or
+(5-6) smaller than normal.
+^largersmaller
+
+
+71-table-2.md
+
+| d100   | Result            |
+|:------ |:----------------- |
+| 1-10   | 25%               |
+| 11-30  | 50%               |
+| 31-50  | 75%               |
+| 51-90  | 100%              |
+| 91-100 | `dice: 3d6` times |
+^sizediff
+
+
+(1-3) bark, 
+(4-6) leaves, 
+(7-8) both.
+^barkleaves
+
+
+71-table-4.md
+
+| d100   | Result                                                                                    |
+|:------ |:----------------------------------------------------------------------------------------- |
+| 1-25   | Different color `dice: [[Fill#^barkleaves]]`                                              |
+| 26-50  | Different shape.  Perhaps the trunk and branches are geometric.                           |
+| 51-75  | Different texture/surface.                                                                |
+| 76-100 | Non-native  plants.  Instead  of  trees,  maybe they are giant mushrooms, or waving kelp. |
+^plantsunusualshape
+
+
+70-table-2.md
+
+| dice: d100 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|:---------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-16       | BeneficialBeneficial/Baneful. While not possessing an actual intelligence, the plant-life within the area subtly works to help or hinder those passing through. When beneficial, travelers find that their path always seems straight and clear of hazards, food grows abundantly, and they can shelter from the elements under spreading boughs. Travel time decreases by 25% in these areas, and enough food for `dice: 1d12` individuals can be found per day without even stopping to scavenge. If this result comes up twice for the same area either double the modifiers (movement modified by 50%, etc.) or, in the case of one roll indicating beneficial and the other baneful, assume there is a hidden dichotomy between the plants, with some seeking to hinder and some to help. Why is this, and how do the players react when it becomes apparent? Perhaps the characters are being shepherded to a specific location, or shielded by the beneficial plants from the wilder, more chaotic plants that lurk off the trail.                                                          |
+| 9-16       | Baneful. Beneficial/Baneful. While not possessing an actual intelligence, the plant-life within the area subtly works to help or hinder those passing through. When baneful, it seems as if there are always roots to trip on, low-hanging branches threatening to knock riders off their mounts, paths are difficult to follow and easy to loose, etc. Travel time is increased by 25% in these areas, and at the end of each day each traveler must make a Save against Wands or suffer `dice: 1d4` points of damage from scratches, sprained ankles, etc. If this result comes up twice for the same area either double the modifiers (movement modified by 50%, etc.) or, in the case of one roll indicating beneficial and the other baneful, assume there is a hidden dichotomy between the plants, with some seeking to hinder and some to help. Why is this, and how do the players react when it becomes apparent? Perhaps the characters are being shepherded to a specific location, or shielded by the beneficial plants from the wilder, more chaotic plants that lurk off the trail. |
+| 17-32      | Mobile. Mobile. The plant-life in the area is mobile but not necessarily sentient. How do they move `dice: [[Fill#^plantsmovehow]]`. If the plants aren’t sentient they move `dice: [[Fill#^plantsmovewhy]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 33-48      | Sentient. Sentient. The plants are aware and intelligent. They have an alignment of `dice: [[Fill#^plantalignment]]`. There’s `dice: 1d6 <= 3` chance the plant-life can communicate via `dice: [[Fill#^plantspeech]]`. Roll `dice: 3d6` to determine the average equivalent Intelligence of the plant-life. The plants have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows: All plants. 1 spellcaster in 100, equivalent caster level `dice: 1d4`. Single species of plants. `dice: 1d3` spellcaster in 100, equivalent caster level `dice: 1d6`. Small number of plants.  `dice: 1d5` in 100, equivalent caster level `dice: 1d8`. -  A single plant. 1 in 10, equivalent caster level `dice: 1d10`. If this is the case, the plants can cast spells as a `dice: [[Fill#^plantCaster]]`                                                                                                                                                                                                                                               |
+| 49-64      | Unusual Size. Unusual Size. The plants are either `dice: [[Fill#^largersmaller]]`. The size difference is `dice: [[Fill#^sizediff]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 65-82      | Unusual Form. Unusual Form. The plants are a different form or shape than normal. They are `dice: [[Fill#^plantsunusualshape]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 81-92      | Unusual Features. Unusual Features. Something about the plants is different from normal `dice: [[Fill#^unusualfeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 97-99      | Roll Twice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 100        | Roll Thrice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+^plantqualities
+
+
+
+
+(1-3) `dice: 1d20`, 
+(4-5) `dice: 5d20`, 
+(6) `dice: 10d100` 
+^smallNoAnimals
+
+
+71-table-3.md
+
+| dice: 1d100 | Result                                                                          |
+|:----------- |:------------------------------------------------------------------------------- |
+| 1-10        | All of the animals in the area                                                  |
+| 11-40       | A specific species of animal                                                    |
+| 41-70       | A  small  number  of  animals  within the area: `dice: [[Fill#^smallNoAnimals]` |
+| 71-100      | A single animal                                                                 |
+^numberAnimal
+
+
+
+71-table-5.md
+
+| dice: 1d100 | Result     |
+|:----------- |:---------- |
+| 1-20        | Insects    |
+| 21-40       | Amphibians |
+| 41-60       | Reptiles   |
+| 61-80       | Bird       |
+| 81-100      | Mammals    |
+^animalKind
+
+
+
+
+
+ (1- 3) 1,
+ (4-5) 2, or 
+ (6) 3
+ ^reactionRollMod
+
+(1) 2d4, 
+(2-3) 2d6,
+(4) 3d4, 
+(5) 4d4, or 
+(6) 3d6
+^awakendIntel
+
+
+
+(1-3) skin/fur,
+(4-6) color,
+(7-8) both.
+^skinfur
+
+(1-3) two, 
+(4-5) three, or 
+(6)  four
+^chimera
+
+
+
+73-table-1.md
+
+| d100   | Result                                                                                                                                                                                                                    |
+|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-25   | Different `dice: [[Fill#^skinfur]]`                                                                                                                                                                                       |
+| 26-50  | Different  shape.  The  animal  may  have  six legs instead of four, or wings (and potentially a fly speed) where it had none before.                                                                                     |
+| 51-75  | The animal is a mixture of `dice: [[Fill#^chimera]]` animals,  sharing  characteristics of  all  of  them.  There’s  a  `dice: 1d6 <= 1`  per animal type that the main characteristic is a hindrance, or non-beneficial. |
+| 76-100 | Non-native  animals. In this  part  of the world perhaps fish swim through the air as if it were water, or penguins hunt the plains for insects.                                                                          |
+^animalunusualshape
+
+
+
+
+
+73-table-3.md
+
+| d100  | Result                                                                                                                                                                                                        |
+|:----- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-15  | Additional  hit  points.  They  have `dice: [[Fill#^diffHp]]?                                                                                                                                                 |
+| 16-20 | Additional Hit Dice. The creatures’ Hit Dice `dice: [[Fill#^HDinc1]]`                                                                                                                                         |
+| 21-35 | Armor Class. The creatures’ AC improves by `dice: [[Fill#^ACinc]]`                                                                                                                                            |
+| 36-50 | Damage. The creature’s existing damage `dice: [[Fill#^animalDMG]]`                                                                                                                                            |
+| 51-55 | Saving Throws. The animal uses the Fighter Saving Throw chart at the normal progression (Animal HD equals fighter level, as opposed to half progression).                                                     |
+| 56-70 | Special  Attack.  The  animal  gains  a  special attack.  This  is `dice: [[Fill#^animalspecAtk]]`                                                                                                            |
+| 71-85 | Special Defense. The animal gains a special defense.  This  is  `dice: [[Fill#^specialdef]]`                                                                                                                  |
+| 86-90 | Magical Manifestation. The animal can cast a randomly determined spell of level `dice: [[Fill#^animalspelllvl]]` This spell is used as a special ability  and  can  be  used  `dice: [[Fill#^howoftenspell]]` |
+| 91-97 | Movement. The  creature’s  Move  score `dice:[[Fill#^animalmvmt]]`                                                                                                                                            |
+| 98-99 | Roll Twice.                                                                                                                                                                                                   |
+| 100   | Roll Thrice.                                                                                                                                                                                                  |
+^advantagediff
+
+
+
+
+(1-4) increases  by  `dice: [[Fill#^mvinc]]`
+(5-6)  they  gain  a  new  form  of  movement  in addition to their old form. This new form is `dice [[Fill#^newmvmt]]`
+^animalmvmt
+
+(1-3)  10’,  
+(4-5)  20’,  or  
+(6)  30’,  or 
+^mvinc
+
+(1-2) 1 category slower than their current form, (
+3-4) the same speed, or
+(5-6) 1 category faster.
+^newmvmt
+
+
+(1-3) 1, 
+(4-5) 2, or 
+(6) 3.
+^animalspelllvl
+
+(1-4)  once  per  day,
+(5-7) twice per day, 
+(8-9) three times per day, or 
+(10) is always active/available.
+^howoftenspell
+
+
+(1-3)  +1, 
+(4-5) +2, or
+(6) +4 hit points.
+^diffHp
+
+
+
+(1-4) increases by `dice: [[Fill#^HDinc2]]
+(5-6) increases from 1d8 to `dice: [[Fill#^HDstep]]`
+^HDinc1
+
+
+(1-3) 1, 
+(4-5) 2, or 
+(6) 3, or 
+^HDinc2
+
+(1-4) dice: 1d10
+(5-6) dice: 1d12
+^HDstep
+
+
+(1-3) 1,
+(4-5) 2, or 
+(6) 3.
+^ACinc
+
+
+
+(1-4) increases by one die type (from d6 to d8, for instance) or 
+(5-6) they gain an additional attack  at  a  die  type  one  lower  than  their current lowest attack (if the animal can attack twice doing `dice: 1d6` points of damage they gain a third attack doing `dice: 1d4` points of damage). 
+^animalDMG
+
+
+(1)  poison, 
+(2)  disease, 
+(3) elemental, 
+(4)  paralyzing, 
+(5) a special combat maneuver (grapple, trample, etc.), or
+(6) something else.
+^animalspecAtk
+
+(1)  resistance  to  a  form  of damage (bludgeoning, fire, etc.), 
+(2) immunity to a form of damage, 
+(3) regeneration `dice: [[Fill#^regeneration]]`
+(4) successful attacks upon them damage or negate weapons (such as a living iron  statue’s  ability  to  absorb  weapons),  
+(5) some of the damage suffered from attacks is borne by the attacker, or 
+(6) the creature can change  form  to  escape  (such  as  a  vampire’s ability to turn into a bat or mist).
+^specialdef
+
+| dice: 1d6 |                      |
+| --------- | -------------------- |
+| 1-3       | : 1 hp per round,    |
+| 4-5       | : 2 hp per round, or |
+| 6         | 3 hp per round),     |
+^regeneration
+
+73-table-4.md
+
+| d100   | Result                                                                                                                                                                                                                                                                                                    |
+|:------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-40   | Animals feed  on  something  other than their  normal  diet:  `dice: [[Fill#^anumaldiet]]`                                                                                                                                                                                                                |
+| 41-80  | Parts of the animal are valuable for use by alchemists  or  magicians.  There’s  `dice: 1d6 <=1` chance  that  the  body  part  can  actually  be used  by  the  animal  for  offense  or  defense (a  gland  that  allows  them  to  breath  fire, for instance),  but  otherwise it is  non-functional. |
+| 81-100 | Roll on Table 11.2 for an additional effect.                                                                                                                                                                                                                                                              |
+^animalunusualfeature
+
+
+
+(1-2)  meat instead  of vegetation,  or  vice  versa, 
+(3)  heat  or  cold, 
+(4) esoterica (thoughts, emotions, etc.),
+(5) ore (gold, copper, etc.), or 
+(6) magic.
+^anumaldiet
+
+
+
+72-table-1.md
+
+| d100  | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:----- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-8   | Beneficial.  Even if not sentient, the animals act in ways that either help or hinder travelers through the area. Initially, this means that all reaction rolls with the designated animals are made with a modifier of `dice: [[Fill#^reactionRollMod]]` . There’s `dice: 1d6 <= 4` chance that this modifier will not change, regardless of the actions of the adventurers. Killing one of the animals will not impose a penalty, nor will feeding them. Additionally, there’s`dice: 1d6 <= 3` chance that the animals act in an unnatural manner that can be construed as helpful or harmful. If the animals are not sentient or capable of communication their attempts may likely be rudimentary; if helpful, perhaps they seek to warn the adventurers away from a particular hazard, or the lair of a monster. If harmful, perhaps they try to lead the adventurers on a chase ending at the edge of a cliff, or into the lair of said monster. Magical communication can certainly be helpful, but if baneful the animals may choose to not answer, or even to deceive.   |
+| 9-16  | Baneful. Even if not sentient, the animals act in ways that either help or hinder travelers through the area. Initially, this means that all reaction rolls with the designated animals are made with a modifier of `dice: [[Fill#^reactionRollMod]]` . There’s `dice: 1d6 <= 4` chance that this modifier will not change, regardless of the actions of the adventurers. Killing one of the animals will not impose a penalty, nor will feeding them. Additionally, there’s`dice: 1d6 <= 3` chance that the animals act in an unnatural manner that can be construed as helpful or harmful. If the animals are not sentient or capable of communication their attempts may likely be rudimentary; if helpful, perhaps they seek to warn the adventurers away from a particular hazard, or the lair of a monster. If harmful, perhaps they try to lead the adventurers on a chase ending at the edge of a cliff, or into the lair of said monster. Magical communication can certainly be helpful, but if baneful the animals may choose to not answer, or even to deceive.       |
+| 17-32 | Awakened. Awakened. Distinct from those that are sapient, Awakened animals are not only possessed of intelligence potentially equal to, or even surpassing, that of Man, but of mannerisms and characteristics of the humanoid races. Awakened creatures can walk on two legs, if their anatomy allows it, and their extremities are altered slightly to allow the use of tools. Awakened animals can be found wearing the garb and accoutrements of Man, and acting as Men do. They will, however, typically have no change in size; Awakened mice are still the size of mice. They will have an Intelligence score of `dice: [[Fill#^awakendIntel]]` . There’s a further `dice: 1d6 <=2` chance the Awakened creatures will be able to communicate via speech. This chance increases by 1 should their Intelligence be 13 or higher. Overall, Awakened creatures are  `dice: [[fill#^plantalignment]]`, although exceptions may exist among multiple creatures of the same kind, just as it does within a population of Men.. Awakened animals can possess racial class levels. |
+| 33-48 | Sentient. Sentient. As Awakened creatures, above, but without the likeness of Men, sentient animals possess an intelligence. They have the same chance of speech as Awakened animals; otherwise, there’s `dice: 1d6 <=3` chance the animals can communicate via `dice: [[Fill#^plantspeech]]`. The animals have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows: All animals. 1 in 100, equivalent caster level `dice: 1d4`. Single species of animals. `dice: 1d3` in 100, equivalent caster level `dice: 1d6`. Small number of animals. `dice: 1d3` in 100, equivalent caster level `dice: 1d8`. A single animal. 1 in 10, equivalent caster level `dice: 1d10`. If this is the case, the animals can cast spells as a `dice: [[Fill#^plantCaster]]`                                                                                                                                                                                                                                                                  |
+| 49-64 | Unusual Size. Unusual Size. The animals are either `dice: [[Fill#^largersmaller]]` than normal. The size difference is `dice: [[Fill#^sizediff]]` Animals that are smaller than normal have reduced HD, typically proportionate to the decrease in size. A black bear, typically with 4 HD, that is 50% smaller than normal would have 2 HD. Likewise, the larger a creature is the more HD it has, by the same proportions: a black bear that normally has 4 HD that is 50% larger will have 6 HD.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 65-82 | Unusual Form. Unusual Form. The animals are a different form or shape than normal. They are `dice: [[Fill#^animalunusualshape]]`. There’s `dice: 1d6 <= 2` chance the difference is directly beneficial. The animal gains `dice: [[Fill#^advantagediff]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 81-92 | Unusual Features. Something about the animals is different from normal `dice: [[Fill#^animalunusualfeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 97-99 | Roll Twice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 100   | Roll Thrice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+^animalqualities
+
+
+
+
+74-table-1.md
+
+| d100   | Result                                                                        |
+|:------ |:----------------------------------------------------------------------------- |
+| 1-10   | All of the creatures in the area                                              |
+| 11-40  | A specific species                                                            |
+| 41-70  | A small number of creatures within the area: `dice: [[Fill#^smallNoAnimals]]` |
+| 71-100 | A single creature                                                             |
+^creaturewhich
+
+
+74-table-3.md
+
+| dice: 1d100 | Result                                                                                                                                                                                                                                                                                                    |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-20        | Alternate Mode of Communication. The creature communicates via `dice: [[Fill#^creaturecomms]]`. There’s `dice: 1d6<=1` chance that a creature that can  do  this  can  also  read  emotions  and thoughts  in  others,  and  `dice: 1d6<=1` chance  that  this  is  their  only  means  of communication. |
+| 21-40       | Immortality.  The creature is immortal and `dice: [[Fill#^creatureimmortal]]`.                                                                                                                                                                                                                            |
+| 41-60       | Out of Time. The creature is from the `dice: [[Fill#^creatureTime]]`  There’s  `dice: 1d6<=1`  chance that whatever magic has brought them here can  fling  the  unwary  to `dice: [[Fill#^unwarytime]]`.                                                                                                 |
+| 61-80       | Plane-touched. The creature `dice: [[Fill#^creaturePlane]]`.  They may exhibit traits from that plane, such as a creature with an ancestry tracing back to the plane of Fire being immune to fire, or similar,  or  may  actually  exist  out  of  sync with the normal world.                            |
+| 81-100      | Spellcaster. The creature(s) possess a native ability  to  cast  spells.  They  do  so  as  a  `dice: [[Fill#^creatureCasterClass]]`. They  do  so  either  `dice: [[Fill#^creatureCasterInnate]]`.                                                                                                       |
+^creaturespecial
+
+
+
+(1-4)  at  a  class  level,  if they belong to the given class, meaning that not all creatures in the area can cast spells, or  (5-6)  innately,  with  all  members  of  the species in the area casting spells as a caster of level `dice [[Fill#^innatespelllvl]]`
+^creatureCasterInnate
+
+
+(1-3) `dice: 1d4`, 
+(4-5) `dice: 1d8`, or
+(6) `dice: 1d12`.
+^innatespelllvl
+
+
+
+(1-2)  magic-user,  
+(3-4)  cleric,  
+(5)  druid,  
+(6) illusionist, or 
+(7-8) other spellcasting class
+^creatureCasterClass
+
+(1-4) possesses  an  ancestry that  comes from another plane or dimension or 
+(5-6) actually is  from  another  dimension  or  plane
+^creaturePlane
+
+
+
+
+(1-4)  their  native time or 
+(5-6) a random time
+^unwarytime
+
+(1-4) empathy (projecting their emotions) or 
+(5-6) telepathy (projecting their thoughts)
+^creaturecomms
+
+(1-3) cannot die of old age but can die of  disease  or  injury,  
+(4-5)  can  only  die  of injury, or 
+(6) cannot be permanently slain
+^creatureimmortal
+
+
+(1-2)  past,  
+(3-4)  future,  or  
+(5-6)  an  alternate version  of  reality.
+^creatureTime
+
+
+
+(1- 3) roll again, disregarding those results, 
+(4-5) increase the creatures’ average Intelligence by one category (i.e. a range of 9-12 is increased to 13-15), or 
+(6) roll on the Specials table, in the next column. `dice: [[Fill#^creaturespecial]]`
+^creatureawakenedSentient

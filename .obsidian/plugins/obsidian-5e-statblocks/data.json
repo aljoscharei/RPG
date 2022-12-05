@@ -71289,7 +71289,83 @@
       }
     ],
     [
-      "Symbaroum Monster Novice of the Order",
+      "Symbaroum Monster Barbarian Village guard",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Village Guard.jpeg"
+          ]
+        ],
+        "name": "Symbaroum Monster Barbarian Village guard",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 13,
+        "hp": 22,
+        "hit_dice": "(4d8 + 4)",
+        "speed": "30 ft.",
+        "stats": [
+          15,
+          12,
+          13,
+          10,
+          14,
+          10
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 4
+          },
+          {
+            "Perception": 4
+          },
+          {
+            "Survival": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Ambrian, Barbarian",
+        "equipment": "hunting traps and fishing gear, wooden figurine (the clan’s spirit guardian), 3 throwing spears, 1d10 ortegs",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Hunter’s Instinct",
+            "desc": "The village guard can use its bonus action to mark one creature as its chosen target. Thea first time it does damage to the target, it does +2 bonus damage. It can use its reaction when the target moves to make a ranged weapon attack."
+          },
+          {
+            "name": "Trapper",
+            "desc": "The village guard can use its action to deploy a mechanical trap within 5 feet of its position. A creature that enters the area must make a DC 10 Dexterity saving throw or take 6 (1d12) bludgeoning damage. The village guard is never affected by the trap, but treats the area around the trap as difficult terrain."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Axe",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+          },
+          {
+            "name": "Spear",
+            "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60, one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 30,
+            "col": 3,
+            "offset": 1440
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard 2.md",
+        "mtime": 1666787628000
+      }
+    ],
+    [
+      "Symbaroum Monster Drunkard",
       {
         "statblock": true,
         "image": [
@@ -71297,165 +71373,42 @@
             "Wikilink To Image"
           ]
         ],
-        "name": "Symbaroum Monster Novice of the Order",
-        "alignment": "",
-        "ac": 11,
-        "hp": 13,
-        "hit_dice": "(2d8 + 4)",
+        "name": "Symbaroum Monster Drunkard",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 10,
+        "hp": 11,
+        "hit_dice": "(2d8 + 2)",
         "speed": "30 ft.",
         "stats": [
           14,
           10,
-          15,
-          16,
+          12,
+          10,
           11,
           11
         ],
-        "saves": [
-          {
-            "Int": 5
-          },
-          {
-            "Wis": 2
-          }
-        ],
-        "skillsaves": [
-          {
-            "Arcana": 5
-          },
-          {
-            "Nature": 5
-          },
-          {
-            "Perception": 2
-          }
-        ],
-        "senses": "passive Perception 12",
+        "senses": "passive Perception 10",
         "languages": "Ambrian",
-        "equipment": "order medallion, 1d4 shillings",
-        "cr": 2,
+        "equipment": "1d8 ortegs",
+        "cr": 1,
         "traits": [
           {
-            "name": "Corrpution Threshold",
-            "desc": "4"
-          },
-          {
-            "name": "Spellcasting",
-            "desc": "the adept’s spellcasting ability is Intelligence (spell attack +5, save DC 13) and it knows the following spells:"
-          },
-          {
-            "name": "Cantrips",
-            "desc": "[[5e spells fire_bolt 1d10 dmg w]] (0), [[5e spells light wc]] (0), [[5e spells message 120 ft w]] (1), [[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (1), [[5e spells ray of frost 1d8 dmg slowed down w]]] (1)"
-          },
-          {
-            "name": "1st-level spells",
-            "desc": "[[5e spells detect magic wc]] (1d4 + 1),[[5e spells magic missile 3 x 1d4 plus 1 w]](1d4 + 1), [[shield w]]] (1d4 + 1), [[5e spells sleep w]] (1)"
-          },
-          {
-            "name": "Rituals",
-            "desc": " [[5e spells alarm w 5e]]"
+            "name": "Cheap Shots",
+            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
           }
         ],
         "actions": [
           {
-            "name": "Quarterstaff",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage"
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 35,
-            "col": 3,
-            "offset": 1230
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order.md",
-        "mtime": 1668194357370
-      }
-    ],
-    [
-      "Symbaroum Monster Ravenous Willow, Young Strangler",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Ravenous Willow, Young Strangler",
-        "size": "Huge",
-        "type": "plant",
-        "alignment": null,
-        "ac": 19,
-        "hp": 161,
-        "hit_dice": "(17d12 + 51)",
-        "speed": "15 ft.",
-        "stats": [
-          27,
-          10,
-          17,
-          6,
-          14,
-          12
-        ],
-        "saves": [
-          {
-            "Str": 13
-          },
-          {
-            "Con": 8
-          },
-          {
-            "Wis": 7
-          }
-        ],
-        "skillsaves": [
-          {
-            "Perception": 7
-          }
-        ],
-        "damage_resistances": "bludgeoning and piercing from nonmagical weapons",
-        "senses": "tremorsense 120 ft., passive Perception 17",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 14,
-        "traits": [
-          {
-            "name": "False Appearance",
-            "desc": "While the ravenous willow remains motionless, it is indistinguishable from a normal plant."
-          },
-          {
-            "name": "Mirage",
-            "desc": "The ravenous willow can produce an illusion to attract prey. A creature can detect the illusion by making a DC 14 Wisdom (Perception) check."
-          },
-          {
-            "name": "Root Walls (3/day)",
-            "desc": "The ravenous willow can use a bonus action to erect a root wall. Each root wall is 10 feet high, 10 feet thick and consists of 1 to 4 10- foot wide sections. Each section is AC 18, has 50 hit points and is resistant to bludgeoning and piercing from nonmagical weapons. No root wall section can be further than 60 feet from the main body of the ravenous willow."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The ravenous willow makes an attack with its vines and then with its branches."
-          },
-          {
-            "name": "Entangling Vines",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 13 (1d10 + 8) bludgeon- ing damage and, if the target is a Medium or smaller creature, it is grappled (Escape DC 18)."
-          },
-          {
-            "name": "Gnarled Branches",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 21 (2d12 + 8) bludgeoning damage."
+            "name": "Unarmed Strikes",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
           }
         ],
         "reactions": [
           {
-            "name": "Crushing Embrace",
-            "desc": "When a grappled creature attempts to escape and fails, the ravenous willow can squeeze it to do 13 (2d12) bludgeoning damage."
+            "name": "Wild Swing",
+            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
           }
         ],
         "position": {
@@ -71465,13 +71418,13 @@
             "offset": 0
           },
           "end": {
-            "line": 40,
+            "line": 25,
             "col": 3,
-            "offset": 1818
+            "offset": 663
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Ravenous Willow, Young Strangler CR 14.md",
-        "mtime": 1668194357969
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
+        "mtime": 1668195332083
       }
     ],
     [
@@ -71479,7 +71432,16 @@
       {
         "statblock": true,
         "name": "Adult Black Dragon",
+        "source": [
+          "Monster Manual",
+          "Hoard of the Dragon Queen",
+          "Princes of the Apocalypse",
+          "The Rise of Tiamat",
+          "Ghosts of Saltmarsh",
+          "Candlekeep Mysteries"
+        ],
         "type": "dragon",
+        "subtype": null,
         "size": "Huge",
         "alignment": "chaotic or evil",
         "hp": 195,
@@ -71576,6 +71538,7 @@
           }
         ],
         "spells": null,
+        "spellsNotes": null,
         "position": {
           "start": {
             "line": 0,
@@ -71583,13 +71546,78 @@
             "offset": 0
           },
           "end": {
-            "line": 61,
+            "line": 69,
             "col": 3,
-            "offset": 2514
+            "offset": 2659
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Adult Black Dragon.md",
-        "mtime": 1667969751178
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/5e Monster adult black dragon.md",
+        "mtime": 1667754652868
+      }
+    ],
+    [
+      "Symbaroum Monster Lostling Possession",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Frostlight.png"
+          ]
+        ],
+        "name": "Symbaroum Monster Lostling Possession",
+        "size": "Small",
+        "type": "undead",
+        "alignment": null,
+        "ac": 18,
+        "hp": 33,
+        "hit_dice": "(6d6 + 12)",
+        "speed": "25 ft.",
+        "stats": [
+          10,
+          18,
+          14,
+          10,
+          15,
+          7
+        ],
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Haunting",
+            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
+          },
+          {
+            "name": "Insubstantial",
+            "desc": "The lostling can pass through objects and creatures without issue."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Vitality Drain",
+            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 1148
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession 2.md",
+        "mtime": 1666950651000
       }
     ],
     [
@@ -71860,145 +71888,6 @@
       }
     ],
     [
-      "Symbaroum Monster Barbarian Village guard",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Village Guard.jpeg"
-          ]
-        ],
-        "name": "Symbaroum Monster Barbarian Village guard",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 13,
-        "hp": 22,
-        "hit_dice": "(4d8 + 4)",
-        "speed": "30 ft.",
-        "stats": [
-          15,
-          12,
-          13,
-          10,
-          14,
-          10
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 4
-          },
-          {
-            "Perception": 4
-          },
-          {
-            "Survival": 4
-          }
-        ],
-        "senses": "passive Perception 14",
-        "languages": "Ambrian, Barbarian",
-        "equipment": "hunting traps and fishing gear, wooden figurine (the clan’s spirit guardian), 3 throwing spears, 1d10 ortegs",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Hunter’s Instinct",
-            "desc": "The village guard can use its bonus action to mark one creature as its chosen target. Thea first time it does damage to the target, it does +2 bonus damage. It can use its reaction when the target moves to make a ranged weapon attack."
-          },
-          {
-            "name": "Trapper",
-            "desc": "The village guard can use its action to deploy a mechanical trap within 5 feet of its position. A creature that enters the area must make a DC 10 Dexterity saving throw or take 6 (1d12) bludgeoning damage. The village guard is never affected by the trap, but treats the area around the trap as difficult terrain."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Axe",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
-          },
-          {
-            "name": "Spear",
-            "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60, one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 30,
-            "col": 3,
-            "offset": 1440
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard 2.md",
-        "mtime": 1666787628000
-      }
-    ],
-    [
-      "Symbaroum Monster Drunkard",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Drunkard",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 10,
-        "hp": 11,
-        "hit_dice": "(2d8 + 2)",
-        "speed": "30 ft.",
-        "stats": [
-          14,
-          10,
-          12,
-          10,
-          11,
-          11
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Ambrian",
-        "equipment": "1d8 ortegs",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Cheap Shots",
-            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Unarmed Strikes",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Wild Swing",
-            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 25,
-            "col": 3,
-            "offset": 663
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
-        "mtime": 1668195332083
-      }
-    ],
-    [
       "Symbaroum Monster Glint",
       {
         "statblock": true,
@@ -72158,52 +72047,77 @@
       }
     ],
     [
-      "Symbaroum Monster Lostling Possession",
+      "Symbaroum Monster Novice of the Order",
       {
         "statblock": true,
         "image": [
           [
-            "Frostlight.png"
+            "Wikilink To Image"
           ]
         ],
-        "name": "Symbaroum Monster Lostling Possession",
-        "size": "Small",
-        "type": "undead",
-        "alignment": null,
-        "ac": 18,
-        "hp": 33,
-        "hit_dice": "(6d6 + 12)",
-        "speed": "25 ft.",
+        "name": "Symbaroum Monster Novice of the Order",
+        "alignment": "",
+        "ac": 11,
+        "hp": 13,
+        "hit_dice": "(2d8 + 4)",
+        "speed": "30 ft.",
         "stats": [
-          10,
-          18,
           14,
           10,
           15,
-          7
+          16,
+          11,
+          11
         ],
-        "senses": "darkvision 60 ft., passive Perception 12",
-        "languages": "—",
-        "equipment": "—",
+        "saves": [
+          {
+            "Int": 5
+          },
+          {
+            "Wis": 2
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 5
+          },
+          {
+            "Nature": 5
+          },
+          {
+            "Perception": 2
+          }
+        ],
+        "senses": "passive Perception 12",
+        "languages": "Ambrian",
+        "equipment": "order medallion, 1d4 shillings",
         "cr": 2,
         "traits": [
           {
-            "name": "Haunting",
-            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
+            "name": "Corrpution Threshold",
+            "desc": "4"
           },
           {
-            "name": "Insubstantial",
-            "desc": "The lostling can pass through objects and creatures without issue."
+            "name": "Spellcasting",
+            "desc": "the adept’s spellcasting ability is Intelligence (spell attack +5, save DC 13) and it knows the following spells:"
           },
           {
-            "name": "Pack Tactics",
-            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+            "name": "Cantrips",
+            "desc": "[[5e spells fire_bolt 1d10 dmg w]] (0), [[5e spells light wc]] (0), [[5e spells message 120 ft w]] (1), [[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (1), [[5e spells ray of frost 1d8 dmg slowed down w]]] (1)"
+          },
+          {
+            "name": "1st-level spells",
+            "desc": "[[5e spells detect magic wc]] (1d4 + 1),[[5e spells magic missile 3 x 1d4 plus 1 w]](1d4 + 1), [[shield w]]] (1d4 + 1), [[5e spells sleep w]] (1)"
+          },
+          {
+            "name": "Rituals",
+            "desc": " [[5e spells alarm w 5e]]"
           }
         ],
         "actions": [
           {
-            "name": "Vitality Drain",
-            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
+            "name": "Quarterstaff",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage"
           }
         ],
         "position": {
@@ -72213,13 +72127,109 @@
             "offset": 0
           },
           "end": {
-            "line": 26,
+            "line": 35,
             "col": 3,
-            "offset": 1148
+            "offset": 1230
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession.md",
-        "mtime": 1668194392685
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order.md",
+        "mtime": 1668194357370
+      }
+    ],
+    [
+      "Symbaroum Monster Ravenous Willow, Young Strangler",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Ravenous Willow, Young Strangler",
+        "size": "Huge",
+        "type": "plant",
+        "alignment": null,
+        "ac": 19,
+        "hp": 161,
+        "hit_dice": "(17d12 + 51)",
+        "speed": "15 ft.",
+        "stats": [
+          27,
+          10,
+          17,
+          6,
+          14,
+          12
+        ],
+        "saves": [
+          {
+            "Str": 13
+          },
+          {
+            "Con": 8
+          },
+          {
+            "Wis": 7
+          }
+        ],
+        "skillsaves": [
+          {
+            "Perception": 7
+          }
+        ],
+        "damage_resistances": "bludgeoning and piercing from nonmagical weapons",
+        "senses": "tremorsense 120 ft., passive Perception 17",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 14,
+        "traits": [
+          {
+            "name": "False Appearance",
+            "desc": "While the ravenous willow remains motionless, it is indistinguishable from a normal plant."
+          },
+          {
+            "name": "Mirage",
+            "desc": "The ravenous willow can produce an illusion to attract prey. A creature can detect the illusion by making a DC 14 Wisdom (Perception) check."
+          },
+          {
+            "name": "Root Walls (3/day)",
+            "desc": "The ravenous willow can use a bonus action to erect a root wall. Each root wall is 10 feet high, 10 feet thick and consists of 1 to 4 10- foot wide sections. Each section is AC 18, has 50 hit points and is resistant to bludgeoning and piercing from nonmagical weapons. No root wall section can be further than 60 feet from the main body of the ravenous willow."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The ravenous willow makes an attack with its vines and then with its branches."
+          },
+          {
+            "name": "Entangling Vines",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 13 (1d10 + 8) bludgeon- ing damage and, if the target is a Medium or smaller creature, it is grappled (Escape DC 18)."
+          },
+          {
+            "name": "Gnarled Branches",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 21 (2d12 + 8) bludgeoning damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Crushing Embrace",
+            "desc": "When a grappled creature attempts to escape and fails, the ravenous willow can squeeze it to do 13 (2d12) bludgeoning damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 40,
+            "col": 3,
+            "offset": 1818
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Ravenous Willow, Young Strangler.md",
+        "mtime": 1668193986822
       }
     ],
     [
@@ -72306,6 +72316,104 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior.md",
         "mtime": 1668194386538
+      }
+    ],
+    [
+      "Symbaroum Monster World Serpent Tunneler",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster World Serpent Tunneler",
+        "size": "Huge",
+        "type": "beast",
+        "alignment": null,
+        "ac": 13,
+        "hp": 310,
+        "hit_dice": "(20d12 + 180)",
+        "speed": "40 ft., burrow 60 ft.",
+        "stats": [
+          25,
+          10,
+          28,
+          3,
+          12,
+          6
+        ],
+        "damage_immunities": "acid, poison, psychic; bludgeoning from nonmagical weapons",
+        "senses": "tremorsense 120 ft., passive Perception 11",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 17,
+        "traits": [
+          {
+            "name": "Legendary Resistance (2/day)",
+            "desc": "If the world serpent fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Life Sense",
+            "desc": "The world serpent has advantage on Wis- dom (Perception) checks to detect living creatures."
+          },
+          {
+            "name": "Siege Monster",
+            "desc": "The world serpent deals double damage to objects and structures."
+          },
+          {
+            "name": "Tunneler",
+            "desc": "If the world serpent leaves a creature’s reach by burrowing it does not provoke an opportunity attack."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 22 (6d4 + 7) bludgeoning damage and if the target is a Large or smaller creature it is swal- lowed. If the target is swallowed, it is blinded and restrained; and it has total cover against attacks and other effects outside the world serpent. At the start of each of its turns, it takes 11 (2d10) acid damage. The world serpent can swallow any number of creatures. If the world serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 30 feet of movement, exiting prone."
+          },
+          {
+            "name": "Tail Swipe",
+            "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 33 (4d12 + 7) bludgeoning damage."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "The world serpent can take 2 legendary actions, choos- ing from the options below",
+            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The world serpent regains spent leg- endary actions at the start of its turn."
+          },
+          {
+            "name": "Bite",
+            "desc": "The world serpent makes a bite attack."
+          },
+          {
+            "name": "Tail",
+            "desc": "The world serpent makes a tail attack."
+          },
+          {
+            "name": "Earthquake (Costs 2 Actions)",
+            "desc": "The world serpent shivers its body, sending waves through the earth for 60 feet. Each creature must make a DC 21 Strength saving throw, taking 6 (1d12) bludgeoning damage and becoming prone on a failure. On a success, the creature takes half damage. Each structure in the area takes double damage automatically."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Roll Over",
+            "desc": "When a Medium or smaller creature comes within 5 feet, the world serpent can rotate its body to crush the creature between itself and the ground. The creature takes 15 (1d12 + 9) bludgeoning damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 43,
+            "col": 3,
+            "offset": 2665
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Tunneler.md",
+        "mtime": 1668194366093
       }
     ],
     [
@@ -72418,6 +72526,72 @@
       }
     ],
     [
+      "Symbaroum Monster frostlight",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster frostlight",
+        "type": "undead",
+        "alignment": null,
+        "ac": 20,
+        "hp": 45,
+        "hit_dice": "(10d4 + 20)",
+        "speed": "0 ft., fly 60 ft. (hover)",
+        "stats": [
+          10,
+          20,
+          14,
+          10,
+          15,
+          10
+        ],
+        "senses": "darkvision 120 ft., passive Perception 12",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 3,
+        "traits": [
+          {
+            "name": "Insubstantial",
+            "desc": "The frostlight can pass through objects and creatures without issue. It cannot wear or carry anything."
+          },
+          {
+            "name": "Nimble",
+            "desc": "The frostlight’s armor class is equal to 10 plus twice its Dexterity modifier."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Shock",
+            "desc": "Ranged Spell Attack: +7 to hit, range  25 ft./100 ft., one target. Hit: 14 (4d6) lightning damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Drain",
+            "desc": "As a bonus action the frostlight can drain the life from a creature it shares a space with. The creature takes 5 (1d10) necrotic damage and 1 (oder besser d4) temporary Corruption."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 907
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho.md",
+        "mtime": 1668193986822
+      }
+    ],
+    [
       "Symbaroum Monster Witch - Keeper",
       {
         "statblock": true,
@@ -72527,170 +72701,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Witch - Keeper.md",
         "mtime": 1668189529285
-      }
-    ],
-    [
-      "Symbaroum Monster frostlight",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster frostlight",
-        "type": "undead",
-        "alignment": null,
-        "ac": 20,
-        "hp": 45,
-        "hit_dice": "(10d4 + 20)",
-        "speed": "0 ft., fly 60 ft. (hover)",
-        "stats": [
-          10,
-          20,
-          14,
-          10,
-          15,
-          10
-        ],
-        "senses": "darkvision 120 ft., passive Perception 12",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 3,
-        "traits": [
-          {
-            "name": "Insubstantial",
-            "desc": "The frostlight can pass through objects and creatures without issue. It cannot wear or carry anything."
-          },
-          {
-            "name": "Nimble",
-            "desc": "The frostlight’s armor class is equal to 10 plus twice its Dexterity modifier."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Shock",
-            "desc": "Ranged Spell Attack: +7 to hit, range  25 ft./100 ft., one target. Hit: 14 (4d6) lightning damage."
-          }
-        ],
-        "bonus_actions": [
-          {
-            "name": "Drain",
-            "desc": "As a bonus action the frostlight can drain the life from a creature it shares a space with. The creature takes 5 (1d10) necrotic damage and 1 (oder besser d4) temporary Corruption."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 26,
-            "col": 3,
-            "offset": 907
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho.md",
-        "mtime": 1668193986822
-      }
-    ],
-    [
-      "Symbaroum Monster World Serpent Tunneler",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster World Serpent Tunneler",
-        "size": "Huge",
-        "type": "beast",
-        "alignment": null,
-        "ac": 13,
-        "hp": 310,
-        "hit_dice": "(20d12 + 180)",
-        "speed": "40 ft., burrow 60 ft.",
-        "stats": [
-          25,
-          10,
-          28,
-          3,
-          12,
-          6
-        ],
-        "damage_immunities": "acid, poison, psychic; bludgeoning from nonmagical weapons",
-        "senses": "tremorsense 120 ft., passive Perception 11",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 17,
-        "traits": [
-          {
-            "name": "Legendary Resistance (2/day)",
-            "desc": "If the world serpent fails a saving throw, it can choose to succeed instead."
-          },
-          {
-            "name": "Life Sense",
-            "desc": "The world serpent has advantage on Wis- dom (Perception) checks to detect living creatures."
-          },
-          {
-            "name": "Siege Monster",
-            "desc": "The world serpent deals double damage to objects and structures."
-          },
-          {
-            "name": "Tunneler",
-            "desc": "If the world serpent leaves a creature’s reach by burrowing it does not provoke an opportunity attack."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Bite",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 22 (6d4 + 7) bludgeoning damage and if the target is a Large or smaller creature it is swal- lowed. If the target is swallowed, it is blinded and restrained; and it has total cover against attacks and other effects outside the world serpent. At the start of each of its turns, it takes 11 (2d10) acid damage. The world serpent can swallow any number of creatures. If the world serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 30 feet of movement, exiting prone."
-          },
-          {
-            "name": "Tail Swipe",
-            "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 33 (4d12 + 7) bludgeoning damage."
-          }
-        ],
-        "legendary_actions": [
-          {
-            "name": "The world serpent can take 2 legendary actions, choos- ing from the options below",
-            "desc": "Only one legendary action can be used at a time and only at the end of another creature’s turn. The world serpent regains spent leg- endary actions at the start of its turn."
-          },
-          {
-            "name": "Bite",
-            "desc": "The world serpent makes a bite attack."
-          },
-          {
-            "name": "Tail",
-            "desc": "The world serpent makes a tail attack."
-          },
-          {
-            "name": "Earthquake (Costs 2 Actions)",
-            "desc": "The world serpent shivers its body, sending waves through the earth for 60 feet. Each creature must make a DC 21 Strength saving throw, taking 6 (1d12) bludgeoning damage and becoming prone on a failure. On a success, the creature takes half damage. Each structure in the area takes double damage automatically."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Roll Over",
-            "desc": "When a Medium or smaller creature comes within 5 feet, the world serpent can rotate its body to crush the creature between itself and the ground. The creature takes 15 (1d12 + 9) bludgeoning damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 43,
-            "col": 3,
-            "offset": 2665
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster World Serpent Tunneler.md",
-        "mtime": 1668194366093
       }
     ]
   ],
