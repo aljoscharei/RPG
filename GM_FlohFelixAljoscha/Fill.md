@@ -61,18 +61,18 @@ dice: 1d6
 ### Master Table
 1.1 Feature Type `dice: [[Fill#^FeatureNoLairs]]`
 
-| dice: 1d20 | Result                                                                                                          |
-| ---------- | --------------------------------------------------------------------------------------------------------------- |
-| 1-4        | Geologic Feature `dice: [[Fill#^GeologicFeature]]`                                                              |
-| 5-8        | Structure `dice: [[Fill#^StructuresMaster]]`                                                                    |
-| 9-12       | Resource [[Fill#Resources]]. `dice: [[Fill#^ResourceMaster]]` .This resource `dice: [[Fill#^exceptionalResource]]`. |
-| 13         | Hazard [[Fill#Hazard]] `dice: [[Fill#^HazardMaster]]`, `dice: [[Fill#^HazardArea]]`                                                   | 
-| 14         | Sign [[Fill#Sign]] `dice: [[[Fill#^signHex]]`]. It is: `dice: [[Fill#^signage]]`                                                                                                           |
-| 15         | Dungeon [[Fill#Dungeons]]                                                                                                        |
-| 18         | Settlement [[Fill#Settlements]]                                                                                                     |
-| 20         | Magic [[Fill#Magic]] `dice: [[Fill#^magicmaster]]`                                                                                                          |
-| 16-17      | Terrain. The local Terrain varies from surrounding Terrain. [[Fill#Terrain]] `dice: [[Fill#^TerrainVariance]]`,  `dice: [[Fill#^TerrainType]]`                                                                           |
-| 19         | Water [[Fill#Water]]. `dice: [[Fill#^waterMaster]]`                                                                                                        |
+| dice: 1d20 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-4        | Geologic Feature `dice: [[Fill#^GeologicFeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 5-8        | Structure `dice: [[Fill#^StructuresMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 9-12       | Resource [[Fill#Resources]]. `dice: [[Fill#^ResourceMaster]]` .This resource `dice: [[Fill#^exceptionalResource]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 13         | Hazard [[Fill#Hazard]] `dice: [[Fill#^HazardMaster]]`, `dice: [[Fill#^HazardArea]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 14         | Sign [[Fill#Sign]] `dice: [[[Fill#^signHex]]`]. It is: `dice: [[Fill#^signage]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 15         | Dungeon [[Fill#Dungeons]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 18         | Settlement [[Fill#Settlements]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 20         | Magic [[Fill#Magic]] `dice: [[Fill#^magicmaster]]`. Magical features are broken into several categories, but they all share several broad traits: Unless otherwise stated magical features cannot be dispelled by anything short of a wish or divine intervention. Unless otherwise stated, the effects of a magical feature always occur. A zone where spells have their range increased by 25% *always* increases their range by 25%. The magic affects `dice: [[Fill#^magicarea]]`There’s `dice: 1d6<=2` chance that, when subjects of a magical effect leave the affected area, the effect ends. This applies to effects such as curses, but also more permanent effects, like the sentience of animals, which may find themselves reverting to their normal intelligence should they leave the magical area. |
+| 16-17      | Terrain. The local Terrain varies from surrounding Terrain. [[Fill#Terrain]] `dice: [[Fill#^TerrainVariance]]`,  `dice: [[Fill#^TerrainType]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 19         | Water [[Fill#Water]]. `dice: [[Fill#^waterMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 ^FeatureNoLairs
 
 When done Check [[Fill#^ChaosstormWhatAltered]]
@@ -5047,9 +5047,7 @@ Alternatively, the Referee can roll for each subhex or hex, with each having`dic
 
 ### Magic
 
-Magical features are broken into several categories, but they all share several broad traits: Unless otherwise stated magical features cannot be dispelled by anything short of a wish or divine intervention. Unless otherwise stated, the effects of a magical feature always occur. A zone where spells have their range increased by 25% *always* increases their range by 25%.
 
-The magic affects `dice: [[Fill#^magicarea]]`
 
 
 
@@ -5066,16 +5064,14 @@ The magic affects `dice: [[Fill#^magicarea]]`
 | 99-100      | `dice: 2d6` hexes      |
 ^magicarea
 
-There’s a 1-2 in 6 chance that, when subjects of a magical effect leave the affected area, the effect ends. This applies to effects such as curses, but also more permanent effects, like the sentience of animals, which may find themselves reverting to their normal intelligence should they leave the magical area.
-
 
 
 
 | dice: 1d100 | Result                                                                                                               |
 | ----------- | -------------------------------------------------------------------------------------------------------------------- |
 | 1-15        | Climate [[Fill#11.1. Climate]] The local climate has been magically influenced. It is `dice: [[Fill#^magicclimate]]` |
-| 16-30       | Flora and Fauna [[Fill#11.2. Flora and Fauna]]. `dice: [[Fill#^FloraFaunaMaster]]`                                                                       |
-| 31-55       | Other [[Fill#11.3. Other]]                                                                                           |
+| 16-30       | Flora and Fauna [[Fill#11.2. Flora and Fauna]]. `dice: [[Fill#^FloraFaunaMaster]]`                                   |
+| 31-55       | Other [[Fill#11.3. Other]] `dice: [[Fill#^magicalOtherMaster]]`                                                      |
 | 56-70       | Ley Lines [[Fill#11.6. Ley Lines]]                                                                                   |
 | 71-85       | Resonance or Dissonance [[Fill#11.5. Magical Resonance or Dissonance]]s                                              |
 | 86-100      | Space and Time [[Fill#11.7. Space and Time]]                                                                         |
@@ -5118,377 +5114,37 @@ This category covers only the non-magical, normal- sized animals that dwell with
 
 
 
-
 ##### 11.2.3. Other Creatures
 
-Other creatures that inhabit the area have been shaped by magic. It affects `dice: [[Fill#^creaturewhich]]`
-
-
-Roll to randomly determine the creature(s) affected. When determining what form the magical influence takes roll on the Animal table, above. However, if the result is Awakened or Sapient and the creature to be affected already is one of those two, the options are `dice: [[Fill#^creatureawakenedSentient]]`
+Other creatures that inhabit the area have been shaped by magic. It affects `dice: [[Fill#^creaturewhich]]` Roll to randomly determine the creature(s) affected. When determining what form the magical influence takes roll on the Animal table, above. However, if the result is Awakened or Sapient and the creature to be affected already is one of those two, the options are `dice: [[Fill#^creatureawakenedSentient]]`
 
 
 
 #### 11.3. Other
 
-This is a catch-all category for a range of magical effects.
-
-1-15. Alignment. The area possesses an alignment: `dice: [[Fill#^areaalignment]]`. Creatures of the given alignment are naturally attracted to the region. When populating it, discard results that are more than one step away (Neutral and Chaotic creatures can populate a region with an alignment of Chaotic, but not Lawful creatures). The aura is subtle, having one or more of the following effects . . .
-
-
-
-(1) Lawful, 
-(2-4) Neutral, or 
-(5-6) Chaotic
-^areaalignment
-
-
-
-74-table-4.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                              |
-|:------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-15   | Beneficial/Baneful to those  of  different alignments. Refer to the examples above in Flora/Fauna.                                                                                                                                                                                                  |
-| 16-30  | Helpful  to  those  of  the  same  alignment. Creatures of the same alignment as the land enjoy (1) a +1 bonus to AC, (2) +1 to attack rolls,  (3)  +1  to  damage  rolls,  (4)  +1  to  all Saves,  (5)  regenerate  1  hp  per  turn,  or  (6) two of the above.                                  |
-| 31-45  | Dangerous to those of a different alignment. Creatures of a different alignment suffer a (1) penalty of 1 to AC, (2) –1 penalty to attack rolls, (3) –1 penalty to damage rolls, (4) –1 penalty to Saves, (5) will not heal naturally in the region, or (6) two of the above.                       |
-| 46-60  | Dampens  spells.  Spells  with  an  opposite alignment descriptor do not function within the  area.  Inside  a  Chaotically  aligned  area the spells detect evil and protection from evil would not function.                                                                                      |
-| 61-75  | Inimical to those of an opposite alignment. There’s  a  1-2 in  6  chance  that in  order to enter the region those  of  differing alignments must make a Save v. Spells. The roll is penalized by `dice: 1d4` if the difference is greater  than  one  step  (Lawful  characters entering a Chaotic land). |
-| 76-90  | Unease. Those not of the alignment of the land are uneasy, suffering (1-3) a –1 penalty to surprise rolls, (4-5) the inability to rest, or (6) both.                                                                                                                                                |
-| 91-96  | Roll Twice. Redundant results are cumulative.                                                                                                                                                                                                                                                       |
-| 97-100 | Roll  Thrice. Redundant results are cumulative.                                                                                                                                                                                                                                                     |
-
-
-16-30. Life. The area is either (1-3) baneful or (4-6) beneficial to life. If it is baneful, living creatures within its influence lose 1 hp per (1-3) day, (4-5) hour, or (6) turn. If it is beneficial, living creatures gain 1 hp per (1- 3) day, (4-5) hour, or (6) turn. The reverse is true of any undead within the zone (i.e. they suffer damage when in beneficial zones and heal in baneful zones).
-
-There’s a 1-2 in 6 chance that healing magic is minimized within baneful areas (healing spells or effects restore the minimum amount) or maximized in beneficial areas (healing spells or effects restore the maximum amounts). Further, in beneficial zones there’s a 1-2 in 6 chance that the healing just does not stop; it can exceed the maximum, and when a creature’s hp reaches its maximum plus 10 the creature dies.
-
-There’s a 1-3 in 6 chance that plant-life is not affected by this magic. Living creatures slain by this magic have a 1 in 6 chance of returning as a random sort of undead: (1-2) skeletons, (3-4) zombies, (5-6) ghouls, (7) wights, (8) wraiths, (9) specters, (10) other.
-
-
-31-45. Other. Design a new magical effect not covered in this section.
-
-46-60. Resource. The area is rich in a resource that has magical or alchemical applications. Refer to the section on resources.
-
-61-75. Settlement. The area features a settlement that is magical in nature. This manifests as . . .
-
-
-
-
-75-table-2.md
-
-| d100   | Result                                                                                                                                                                                                                                                                                                                                |
-|:-------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-25   | The  residents  are  all  magically inclined. Most  are  equivalent to  1st-level  magic-users.                                                                                                                                                                                                                                       |
-| 26-50  | The  settlement  has  some  form  of  magical or  unusual  defense:  (1) trained  griffons or  similar,  (2)  golems  guarding  the  gates, (3)  wards  that  prevent  entry  by  invisible creatures,  (4)  fixed  crossbows  that  shoot bolts of fire, (5) walls magically reinforced to have extra hit points, or (6) roll twice. |
-| 51-70  | The settlement is airborne. It is built (1) on a  cloud,  (2)  on  a  floating  rock,  (3)  on  the back  of  an  enormous  flying  creature,  (4) suspended between two mountains.                                                                                                                                                   |
-| 71-90  | The  settlement  is  mobile.  It  (1)  is  built  on the back  of an enormous creature, (2) has legs and walks around like a spider, (3) has wheels and a sail, (4) floats on water.                                                                                                                                                  |
-| 91-100 | Other.                                                                                                                                                                                                                                                                                                                                |
-
-
-76-100. Spell. The inhabitants (1-3), or the zone itself (4- 6), is under the effect of magical energy that functions as a spell. If this energy affects a creature, the spell will (1-3) be targeted upon the creature and is activated as below, or (4-6) will be usable by the creature as a spell-like ability.
-
-This effect is (1-3) permanently functioning, (4-5) activates on a schedule of some sort, or (6) activates on a particular action.
-
-If it occurs as a spell-like ability it can be used . . .
-
-Level 1 spell. (1-3) `dice: 1d6` times per day, (4-5) `dice: 1d4` times per turn, or (6) at will.
-
-Level 2 spell. (1-3) `dice: 1d4` times per day, (4-5) 1d3 times per turn, or (6) at will
-
-Level 3 spell. (1-3) 1d2 times per day, (4-5) 1d2 times per turn, or (6) once per minute
-
-Level 4 spell. (1-3) `dice: 1d4` times per week, (4-5) `dice: 1d4` times per day, or (6) once per turn.
-
-Level 5 spell. (1-3) 1d3 times per week, (4-5) 1d3 times per day, or (6) once per hour.
-
-Level 6 spell. (1-3) 1d2 times per week, (4-5) 1d2 per day, or (6) once per hour.
-
-The spell that is mimicked is . . .
-
-
-
-76-table-1.md
-
-|  d100 | Result                                                                                    |
-| -----:|:----------------------------------------------------------------------------------------- |
-|     1 | Acid Fog (6th-level illusionist)                                                          |
-|     2 | Animate  Dead  (dead  are  animated  within `dice: 1d4` rounds of death, 5th-level MU)            |
-|     3 | Auditory Illusion (1st-level illusionist)                                                 |
-|     4 | Blacklight (3rd-level illusionist)                                                        |
-|     5 | Bless/Blight (2nd-level cleric)                                                           |
-|     6 | Blur (2nd-level illusionist)                                                              |
-|     7 | Chaos (5th-level illusionist)                                                             |
-|     8 | Cloudkill (5th-level MU)                                                                  |
-|     9 | Confusion (4th-level MU)                                                                  |
-|    10 | Dancing Lights (1st-level illusionist)                                                    |
-|    11 | Demi-shadow Monsters (5th-level illusionist)                                              |
-|    12 | Detect Evil (1st-level cleric, 2nd-level MU)                                              |
-|    13 | Dispel Illusion (3rd-level illusionist)                                                   |
-|    14 | Detect Invisible (2nd-level MU)                                                           |
-|    15 | Dispel Magic (3rd-level MU)                                                               |
-|    16 | Dream Quest (6th-level illusionist)                                                       |
-|    17 | Emotion (4th-level illusionist)                                                           |
-|    18 | Entangle (1st-level druid)                                                                |
-|    19 | ESP  (2nd-level  MU,  all  who  enter  the  area can sense the thoughts of others)        |
-|    20 | Faerie Fire (1st-level druid)                                                             |
-|    21 | False Aura (2nd-level illusionist)                                                        |
-|    22 | Fascinate  (centered  on  a  feature  within  the area, 2nd-level illusionist)            |
-|    23 | Fear (3rd-level illusionist)                                                              |
-|    24 | Feeblemind (5th-level MU)                                                                 |
-|    25 | Illusion (5th-level illusionist)                                                          |
-|    26 | Impersonation (6th-level illusionist)                                                     |
-|    27 | Growth of Nature (3rd-level druid)                                                        |
-|    28 | Hallucinatory  Terrain  (4th-level  MU,  3rd-level illusionist)                           |
-|    29 | Haste (3rd-level MU)                                                                      |
-|    30 | Heat Metal (2nd-level druid)                                                              |
-|    31 | Hypnotic Pattern (2nd-level illusionist)                                                  |
-|    32 | Hypnotism (1st-level illusionist)                                                         |
-|    33 | Improved Phantasmal Force (2nd-level illusionist)                                         |
-|    34 | Insect Plague (5th-level cleric)                                                          |
-|    35 | Invisibility (2nd-level MU)                                                               |
-|    36 | Levitate (2nd-level MU)                                                                   |
-|    37 | Light/Darkness (1st-level cleric/MU)                                                      |
-|    38 | Manifest Dream (6th-level illusionist)                                                    |
-|    39 | Massmorph (4th-level MU)                                                                  |
-|    40 | Maze of Mirrors (5th-level illusionist)                                                   |
-|    41 | Nondetection (3rd-level illusionist)                                                      |
-|    42 | Permanent Illusion (6th-level illusionist)                                                |
-|    43 | Obscuring Mist (2nd-level druid)                                                          |
-| 44-74 | Other                                                                                     |
-| 75-76 | Roll two times                                                                            |
-|    77 | Roll three times                                                                          |
-|    78 | Pass Plant (5th-level druid, only affects certain plants, use Flora section to determine) |
-|    79 | Phantasmal Force (1st-level illusionist, 2nd-level MU)                                    |
-|    80 | Phantasmal Killer (4th-level illusionist)                                                 |
-|    81 | Protection from Evil/Good (1st-level cleric/MU)                                           |
-|    82 | Remove Fear/Cause Fear (1st-level cleric)                                                 |
-|    83 | Seeming (5th-level illusionist)                                                           |
-|    84 | Shades (6th-level illusionist)                                                            |
-|    85 | Silence 15’ radius (larger than normal radius, 2nd-level cleric)                          |
-|    86 | Shadow Monsters (4th-level illusionist)                                                   |
-|    87 | Shadowcast (5th-level illusionist)                                                        |
-|    88 | Shadowy Transformation (5th-level illusionist)                                            |
-|    89 | Sleep (1st-level MU)                                                                      |
-|    90 | Slow Poison (2nd-level druid)                                                             |
-|    91 | Solid Fog (4th-level illusionist)                                                         |
-|    92 | Spectral Force (3rd-level illusionist)                                                    |
-|    93 | Spook (1st-level illusionist)                                                             |
-|    94 | Stone to Flesh (6th-level MU)                                                             |
-|    95 | Time Flow (5th-level illusionist)                                                         |
-|    96 | Triggered Illusion (6th-level illusionist)                                                |
-|    97 | Veil of Abandonment (4th-level illusionist)                                               |
-|    98 | Wall of Fog (1st-level illusionist)                                                       |
-|    99 | Warp Wood (2nd-level druid)                                                               |
-|   100 | Water Breathing (3rd-level MU)                                                            |
-
-
-For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll of 1-3 it is the normal version, on a 4-6 it is the reversed version. For spells that have variables determined by the caster level it will be (1-3) `dice: 1d6`, (4- 5)`dice: 1d10`, or (6) `dice: 1d12`.
+This is a catch-all category for a range of magical effects. `dice: [[Fill#^magicalOtherMaster]]`
 
 #### 11.5. Magical Resonance or Dissonance
 
-Within a roughly spherical zone magic – of all types or only specific varieties – is either enhanced or stymied. The effects only last for as long as one remains within the area. Magical effects . . .
-
-77-table-4.md
-
-| d100   | Result                                                       |
-|:-------|:-------------------------------------------------------------|
-| 1-13   | Have durations increased (1-3) or decreased (4-6).           |
-| 14-26  | Have  ranges  increased  (1-3)  or  decreased (4-6).         |
-| 27-39  | Have their area of effect increased (1-3) or decreased (4-6) |
-| 40-53  | Have variables increased (1-3) or decreased (4-6).           |
-| 54-67  | Have variables maximized (1-3) or minimized (4-6)            |
-| 68-81  | Are more potent (1-3) or less potent (4-6).                  |
-| 82-90  | Are easier to cast (1-3) or more difficult to cast (4-6).    |
-| 91-93  | Are suppressed (1-3) or enhanced (4-6).                      |
-| 94-95  | Null-magic.                                                  |
-| 96-97  | Wild magic.                                                  |
-| 98-99  | Roll twice, ignoring results of 98-100.                      |
-| 100    | Roll three times, ignore results of 98-100.                  |
-
-
-Note that wild magic and null magic results are singular, canceling all other results.
-
-The feature affects . . .
-
-
-
-77-table-2.md
-
-| d100   | Result                                                                                  |
-|:------ |:--------------------------------------------------------------------------------------- |
-| 1-30   | Arcane                                                                                  |
-| 31-60  | Divine                                                                                  |
-| 61-70  | School (healing, divination, alteration, etc.)                                          |
-| 71-80  | Specific spells (ESP does not work within the radius, etc.)                             |
-| 81-90  | Spells with elemental affinity (fire, cold, etc.)                                       |
-| 91-98  | Spells interacting  with  Alignment (detect evil/good, protection from evil/good, etc.) |
-| 99-100 | All magic.                                                                              |
-
-
-
-Durations Increased/Decreased. The duration of a spell is either increased or decreased. There is a 1-4 in 6 chance that the feature only affects spells cast within the area, not those that already exist that are then brought into the area. The duration of spells is modified by . . .
-
-
-77-table-3.md
-
-| d10   | Result   |
-|:------|:---------|
-| 1-2   | 25%      |
-| 3-4   | 50%      |
-| 5-6   | 75%      |
-| 7-8   | 100%     |
-| 9     | 125%     |
-| 10    | 150%     |
-
-Ranges Increased/Decreased. The range of a spell is increased or decreased by a given amount. If the spell has a range of 10’ or less it is reduced to touch. If a spell has a range of touch it is reduced to personal only. Spells with a range of personal can be cast as normal.
-
-Use the table above for durations to determine the range increase or decrease.
-
-More Potent/Less Potent. Targets of spells suffer/gain a (1-3) –1/+1, (4-5) –2/+2, or (6) –4/+4 penalty/bonus to saving throws.
-
-Area of Effect Increased/Decreased. Spells that have an area of effect called out in feet or yards have this amount modified according to the table for duration. Ex. The web spell creates a 10’ cube of sticky material. If this spell is cast in a location where the area of effect is increased by 50% it would fill a 15’ cube.
-
-Variables Increased/Decreased. Increase or decrease all of the variables of a spell by one die category (1-3), two categories (4-5), or three categories (6), not to go below `dice: 1d4`.
-
-Ex. A cleric casting cure light wounds in an area that increases by one die category would roll `dice: 1d8` instead of `dice: 1d6`.
-
-Ex. A magic-user casting mirror image summons `dice: 1d6` illusory duplicates instead of `dice: 1d4`.
-
-Variables Maximized/Minimized. Spells that have a variable effect have their results maximized or minimized. A fireball, therefore, does either 1 hp of damage per die or 6 hp per die.
-
-Easier/Harder to Cast. Magic is partially unbound or suppressed in an area, making it easier or harder to cast spells. Whenever a character attempts to cast a spell they must roll less than or equal to their primary attribute (Int for magic-users, Wis for clerics, etc.) on 3d6 plus the level of spell being cast. Ex. Casting a 3rd-level spell requires a roll of 3d6+3.
-
-In areas where casting is more difficult, failure indicates that the spell simply is not cast. On a roll of 1-4 the spell slot is expended, on a roll of 5-6 it is not.
-
-In areas where casting is easier, a successful roll indicates the spell is cast but a spell slot is not expended.
-
-Suppressed/Enhanced. Spells that are suppressed simply do not take effect if cast within the area. If the spell was cast previous to entering the area it is suppressed upon entering. If a spell is suppressed it (1-3) will resume upon leaving the area, as if no time had passed or (4-6) will potentially resume, assuming the duration (measured from the time of casting) has not expired.
-
-Spells that are enhanced have their effects roughly doubled. This is up to the Referee to adjudicate. Note that it does not affect any of the above variables. Therefore, a hold portal spell would have the same duration and range, but a door held by such a spell could only be opened by a creature of 6 or more HD. A shield spell would grant the caster an AC of 2 (against missile attacks) or 4 (against other attacks).
-
-Null Magic
-
-Magic cannot be cast within the area. Spells that are cast within the zone either don’t take effect (1-5) or are suppressed until leaving the zone (6). Spells or magical effects that are active before entering the area are canceled (1-4) or suppressed (5-6).
-
-This affects spell-like abilities that certain creatures might possess (such as the petrifying gaze of a basilisk) as well as creatures that are animated by magic (undead, or golems). Spell-like abilities are never destroyed (a basilisk regains its ability to petrify upon leaving the
-
-effect), while creatures animated by magic are destroyed upon entering a null magic zone.
-
-##### Wild Magic
-
-The effect upon magic is constantly shifting. Roll again on the table to determine the effect, and reroll every . . .
-
-
-78-table-1.md
-
-| d100   | Result      |
-|:-------|:------------|
-| 1-20   | `dice: 1d10` rounds |
-| 21-40  | `dice: 1d6` turns   |
-| 41-60  | `dice: 1d20` hours  |
-| 61-80  | `dice: 1d8` days    |
-| 81-90  | `dice: 1d4` weeks   |
-| 91-100 | `dice: 1d12` months |
+Within a roughly spherical zone magic – of all types or only specific varieties – is either enhanced or stymied. The effects only last for as long as one remains within the area. Magical effects `dice: [[Fill#^resonancedissonance]]`. The feature affects `dice: [[Fill#^affectedMagic]]`
 
 #### 11.6. Ley Lines
 
-A ley line either passes through the hex (1-5) or terminates in the hex (6). If a ley line terminates in the hex there’s a 1-4 in 100 chance it is a nexus where multiple ley lines meet. If it passes through the hex there’s a 1 in 100 chance that another ley line crosses it, forming a nexus.
-
-Every campaign has its own rules for ley lines. Third Kingdom Games has rules for ley lines that can be found in Hex 13.22 – The Plateau of Sighs.
-
-If a nexus does exist it will be formed from the intersection of . . .
-
-78-table-2.md
-
-| d100  | Result                                              |
-|:----- |:--------------------------------------------------- |
-| 1-70  | Two ley lines                                       |
-| 71-95 | Three ley lines                                     |
-| 96-99 | Four ley lines                                      |
-| 100   | Five  (1-3),  six  (4-5),  or  seven  (6) ley lines |
+A ley line either `dice: [[Fill#^leylineendhere]]`. If a ley line terminates in the hex there’s `dice: 1d100<=4` chance it is a nexus where multiple ley lines meet. If it passes through the hex there’s`dice: 1d100<=1` chance that another ley line crosses it, forming a nexus. Every campaign has its own rules for ley lines. Third Kingdom Games has rules for ley lines that can be found in Hex 13.22 – The Plateau of Sighs. If a nexus does exist it will be formed from the intersection of `dice: [[Fill#^howmanyleylines]]`
 
 #### 11.7. Space and Time
 
-Space and time work differently in these areas. Those entering the area (1-4) get no saving throws to avoid the effect or (5-6) may Save v. Spells to avoid the effect. It is also possible to purposefully fail the saving throw should a character desire to be affected. The magic affects (1-7) space, (8-11) travel, or (12) time.
-
-##### 11.7.1. Space
-
-Geometry is strange and twisted. There’s a 1-3 in 6 chance that those unfamiliar with the area must Save v. Death or become disoriented by the eldritch angles and non-euclidean geometry. Those that are native to the area, or succeed on the save, suffer no penalties. The effect manifests as . . .
-
-
-79-table-1.md
-
-| d100   | Result                                                                                  |
-|:------ |:--------------------------------------------------------------------------------------- |
-| 1-25   | Increased (1-3)/decreased (4-6) vision                                                  |
-| 26-50  | Increased (1-3)/decreased (4-6) sound                                                   |
-| 51-75  | See around corners/obstacles                                                            |
-| 76-95  | Distance between points is distorted, taking more (1-3)/less (4-6) time to move between |
-| 96-100 | Gravity is non-standard                                                                 |
-
-
-
-Increased/decreased vision. Objects appear either closer or farther away than they are, with a multiplier of (1-3) 25%, (4-5) 50%, or (6) 100%. Those unused to the effect suffer a penalty equal to –1/–2/–5 to attack rolls.
-
-Increased/decreased sounds. Sound travels strangely here. Those unfamiliar with the effect suffer a penalty to surprise rolls equal to (1-3) –1, (4-5) –2, or (6) –3, or an equivalent penalty to actions that depend on sound (such as Move Silently). Those familiar with the effect gain an equivalent positive modifier, if applicable.
-
-See around corners/obstacles. Light bends weirdly here. Those familiar with the effect can ignore any cover that targets may have, or can use the twisting geometries to hide in plain sight: (1-3) +1, (4-5) +2, or (6) +4 bonus to missile attacks to hit targets behind cover, or an equivalent penalty to such attacks made against one under this effect.
-
-Distance is Distorted. The spatial relationship between any two points is distorted and malleable. Those familiar with the terrain can move between points easily, while those unfamiliar with this effect find it takes longer to reach their destination. There are two effects of this:
-
-Those familiar with the area have their base movement increased by (1-3) 10’, (4-5) 20’, or (60) 30’. Those unfamiliar have their movement rate reduced by the same amount (to a minimum of 0’ per round).
-
-However, there is a 1 in 6 chance that those familiar with the area can actually travel between the warp and weft of space and time, teleporting (1-3) 30’, (4-5) 60’, or (6) 90’ in any direction in lieu of their normal movement. This movement is instantaneous and allows them to move in any direction they can see.
-
-Gravity is Distorted
-
-Gravity does not function as normal. It is either (1-3) stronger than normal, (4-6) weaker than normal, or (7- 8) non-existent. The following conditions apply: (1-3) #1, (4-5) #1 and #2, or (6) #1, #2, and #3.
-
-1. Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by (1-3) 10’, (4-5) 20’, or (6) 30’.
-
-2. Missile ranges are modified by (1-3) 25%, (4-5) 50%, or (6) 75%.
-
-3. Movement is either more or less exhausting. Characters can travel (1-3) 25%, (4-5) 50%, or (6) 75% longer/less than normal before needing to rest.
-
-If gravity is non-existent, characters, and all unattached objects, “fall” `dice: 1d6`×10’ into the air, and are only capable of movement through flight, pushing off nearby objects, etc.
-
-##### 11.7.2. Travel
-
-There’s a portal of some kind within the area, one that leads to (1-5) another place on the same plane, (6-9) another plane, (10-11) another time, or (12) another place and time. The portal is (1-4) two-way or (5-6) one-way.
-
-The portal is a . . . (1-3) physical doorway or structure that one steps through, (4-5) a road or course that one has to traverse, or (6) a seamless transition.
-
-The portal (1-2) functions continuously, (3-4) functions only at a given time or event, or (5-6) can only be opened by magic (spell, ritual, item, etc.).
-
-There’s a 1-2 in 6 chance that one can glean localized clues about where the portal leads. Additionally, there’s a 1 in 6 chance that features from the connected location bleed through into the area: if the portal leads to the elemental plane of fire, for instance, the area surrounding the portal may be hotter than normal.
-
-##### 11.7.3. Time
-
-Time is funny in these parts. In the area affected by the feature, time is (1-3) slower or (4-6) faster relative to the surrounding area. There’s only a 1 in 6 chance the change is imperceptible and easy to enter. Otherwise, the change is noticeable and difficult to enter, requiring (1-2) an item, (3- 4) a spell or ritual, (5-6) or a supreme force of will (roll equal to or under Charisma on 4d6) in order to enter the zone.
-
-Inside, time passes either slower or faster at the following rate: (1-3) x5, (4-5) x10, or (6) x100.
-
-There’s a 1 in 6 chance that the magical effect will actually transport the adventurers through time, to the (1-2) past, (3- 4) future, or (5-6) an alternate timeline of their present world.
-
-
-There’s a 1-5 in 6 chance they will be able to get back to their real time by (1-3) retracing their steps, (4-5) performing a task, or (6) resorting to powerful magics or an item.
-
-Magical Feature Example. Subhex 0303 has a magical feature. The `dice: 1d10`0 result is a 17, indicating a “Flora and Fauna” magical effect. Referring to that section, the initial result is a “6”, meaning that just plants are affected.
-
-Some more rolls are made:
-
--   -   The magical effect covers a total of 9 subhexes.
-    
--   -   It affects a small number of plants: 550, to be precise.
-    
--   -   They’re mobile, moving by traveling on their root system, and do so to get more sunlight.
-    
--   -   Their movement is subtle, though, and unlikely to be noticed immediately.
-    
-    - The plants are not sentient, moving in much the same way that a sunflower tracks the sun’s passage through the sky.
-    
-    The same technique is used to determine the area affected as is used to place terrain changes. Our first d6 roll is a 3, meaning the next hex to be affected is 0304, then 0205, and so forth, until the entire area affected is determined. On the map the area is drawn out in red
+Space and time work differently in these areas. Those entering the area `dice: [[Fill#^timesave]]`. It is also possible to purposefully fail the saving throw should a character desire to be affected. The magic affects `dice: [[Fill#^spacetimemaster]]`
 
 ### RefTables
+
+| dice: 1d6 |        |
+| --------- | ------ |
+| 1-3       | slower |
+| 4-6       | faster |
+^slowerfastaer
+
+
 
 | dice: 1d6 |                                                  |
 | --------- | ------------------------------------------------ |
@@ -5499,14 +5155,20 @@ Some more rolls are made:
 
 70-table-4.md
 
-| d100   | Result                                                                                        |
-|:------ |:--------------------------------------------------------------------------------------------- |
-| 1-10   | All of the plant-life in the area                                                             |
-| 11-40  | A specific species of plant-life                                                              |
-| 41-70  | A small number of particular plants within  the  area:  (1-3)  `dice: 1d20`,  (4-5) 5d20, (6) 10d100. |
-| 71-100 | A single plant                                                                                |
+| dice: 1d100 | Result                                               |
+|:----------- |:---------------------------------------------------- |
+| 1-10        | All of the plant-life in the area                    |
+| 11-40       | A specific species of plant-life                     |
+| 41-70       | A small number of particular plants within the area. |
+| 71-100      | A single plant                                       |
 ^howmanyplants
 
+| dice: 1d6 |                |
+| --------- | -------------- |
+| 1-3       | `dice: 1d20`   |
+| 4-5       | `dice: 5d20`   |
+| 6         | `dice: 10d100` |
+^snallnumplants
 
 
 70-table-5.md
@@ -5530,128 +5192,129 @@ Some more rolls are made:
 ^plantsmovehow
 
 
-(1-2) to hunt prey,
-(3-4) to find better sources of light,
-(5-6) to satisfy some inscrutable design. There’s a 1-3 in 6 chance the plants are subtle with their movement and do so when travelers aren’t looking, or at night. Double chances of getting lost in these instances as landmarks shift, trails are obscured, and tracks erased.
+|1-2) to hunt prey,
+|3-4) to find better sources of light,
+|5-6) to satisfy some inscrutable design. There’s a 1-3 in 6 chance the plants are subtle with their movement and do so when travelers aren’t looking, or at night. Double chances of getting lost in these instances as landmarks shift, trails are obscured, and tracks erased.
 ^plantsmovewhy
 
 
 
 
-(1) Lawful, 
-(2-5) Neutral
-(6) Chaotic. 
+|1) Lawful, 
+|2-5) Neutral
+|6) Chaotic. 
 ^plantalignment
 
 
 
 
 
-(1-3) speech, 
-(4-5) signs or movements of their bodies,
-(6-7) empathic projections
-(8) telepathy.
+|1-3) speech, 
+|4-5) signs or movements of their bodies,
+|6-7) empathic projections
+|8) telepathy.
 ^plantspeech
 
 
 
-(1-2) meat, 
-(3) heat or cold, 
-(4) esoterica (thoughts, emotions, etc.),
-(5) ore (gold, copper, etc.), or 
-(6) magic.
+|1-2) meat, 
+|3) heat or cold, 
+|4) esoterica |thoughts, emotions, etc.),
+|5) ore |gold, copper, etc.), or 
+|6) magic.
 ^plantunusualsustenance
 
 
-(1) made of a valuable material (gold, spun glass), 
-(2) with `dice: [[Fill#^healingharmful]]`  properties, 
-(3) containing a magical spell that is triggered by eating, or breaking, or throwing, 
-(4) which transports the eater to another plane or dimension,
-(5) which acts as a randomly determined potion, or 
-(6) that when thrown will turn into a randomly determined monster. 
+|1) made of a valuable material |gold, spun glass), 
+|2) with `dice: [[Fill#^healingharmful]]`  properties, 
+|3) containing a magical spell that is triggered by eating, or breaking, or throwing, 
+|4) which transports the eater to another plane or dimension,
+|5) which acts as a randomly determined potion, or 
+|6) that when thrown will turn into a randomly determined monster. 
 ^plantunusualfruit
 
 
-(1-3)  healing 
-(4-6) harmful 
+|1-3)  healing 
+|4-6) harmful 
 ^healingharmful
 
-(1-3) only a single special fruit, 
-(4-5) `dice: 1d10` fruit,
-(6) `dice: 1d10`0 fruit.
+|1-3) only a single special fruit, 
+|4-5) `dice: 1d10` fruit,
+|6) `dice: 1d10`0 fruit.
 ^noFruit
 
-(1-3) druid, 
-(4-5) cleric, 
-(6-7) illusionist, or 
-(8) magic-user.   
+|1-3) druid, 
+|4-5) cleric, 
+|6-7) illusionist, or 
+|8) magic-user.   
 ^plantCaster
 
 
-| d100   | Result                                                                                                        |
-| ------ | ------------------------------------------------------------------------------------------------------------- |
-| 1-40   | Plants survive on something other than sunlight `dice: [[Fill#^plantunusualsustenance]]`                      |
-| 41-80  | Plants produce unusual fruit `dice: [[Fill#^plantunusualfruit]]` The plant produces `dice: [[Fill#^noFruit]]` |
-| 81-100 | Roll on Table 11.2 [[Fill#^plantqualities]] for an additional effect.                                         |
+| dice: 1d100 | Result                                                                                                        |
+| ----------- | ------------------------------------------------------------------------------------------------------------- |
+| 1-40        | Plants survive on something other than sunlight `dice: [[Fill#^plantunusualsustenance]]`                      |
+| 41-80       | Plants produce unusual fruit `dice: [[Fill#^plantunusualfruit]]` The plant produces `dice: [[Fill#^noFruit]]` |
+| 81-100      | Roll on Table 11.2 [[Fill#^plantqualities]] for an additional effect.                                         |
 ^unusualfeature
 
 
 
-(1-4) larger or
-(5-6) smaller than normal.
+|1-4) larger or
+|5-6) smaller than normal.
 ^largersmaller
 
 
 71-table-2.md
 
-| d100   | Result            |
-|:------ |:----------------- |
-| 1-10   | 25%               |
-| 11-30  | 50%               |
-| 31-50  | 75%               |
-| 51-90  | 100%              |
-| 91-100 | `dice: 3d6` times |
+| dice: 1d100 | Result            |
+|:----------- |:----------------- |
+| 1-10        | 25%               |
+| 11-30       | 50%               |
+| 31-50       | 75%               |
+| 51-90       | 100%              |
+| 91-100      | `dice: 3d6` times |
 ^sizediff
 
 
-(1-3) bark, 
-(4-6) leaves, 
-(7-8) both.
+|1-3) bark, 
+|4-6) leaves, 
+|7-8) both.
 ^barkleaves
 
 
 71-table-4.md
 
-| d100   | Result                                                                                    |
-|:------ |:----------------------------------------------------------------------------------------- |
-| 1-25   | Different color `dice: [[Fill#^barkleaves]]`                                              |
-| 26-50  | Different shape.  Perhaps the trunk and branches are geometric.                           |
-| 51-75  | Different texture/surface.                                                                |
-| 76-100 | Non-native  plants.  Instead  of  trees,  maybe they are giant mushrooms, or waving kelp. |
+| dice: 1d100 | Result                                                                                    |
+|:----------- |:----------------------------------------------------------------------------------------- |
+| 1-25        | Different color `dice: [[Fill#^barkleaves]]`                                              |
+| 26-50       | Different shape.  Perhaps the trunk and branches are geometric.                           |
+| 51-75       | Different texture/surface.                                                                |
+| 76-100      | Non-native  plants.  Instead  of  trees,  maybe they are giant mushrooms, or waving kelp. |
 ^plantsunusualshape
 
 
 70-table-2.md
 
-| dice: d100 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|:---------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-16       | BeneficialBeneficial/Baneful. While not possessing an actual intelligence, the plant-life within the area subtly works to help or hinder those passing through. When beneficial, travelers find that their path always seems straight and clear of hazards, food grows abundantly, and they can shelter from the elements under spreading boughs. Travel time decreases by 25% in these areas, and enough food for `dice: 1d12` individuals can be found per day without even stopping to scavenge. If this result comes up twice for the same area either double the modifiers (movement modified by 50%, etc.) or, in the case of one roll indicating beneficial and the other baneful, assume there is a hidden dichotomy between the plants, with some seeking to hinder and some to help. Why is this, and how do the players react when it becomes apparent? Perhaps the characters are being shepherded to a specific location, or shielded by the beneficial plants from the wilder, more chaotic plants that lurk off the trail.                                                          |
-| 9-16       | Baneful. Beneficial/Baneful. While not possessing an actual intelligence, the plant-life within the area subtly works to help or hinder those passing through. When baneful, it seems as if there are always roots to trip on, low-hanging branches threatening to knock riders off their mounts, paths are difficult to follow and easy to loose, etc. Travel time is increased by 25% in these areas, and at the end of each day each traveler must make a Save against Wands or suffer `dice: 1d4` points of damage from scratches, sprained ankles, etc. If this result comes up twice for the same area either double the modifiers (movement modified by 50%, etc.) or, in the case of one roll indicating beneficial and the other baneful, assume there is a hidden dichotomy between the plants, with some seeking to hinder and some to help. Why is this, and how do the players react when it becomes apparent? Perhaps the characters are being shepherded to a specific location, or shielded by the beneficial plants from the wilder, more chaotic plants that lurk off the trail. |
-| 17-32      | Mobile. Mobile. The plant-life in the area is mobile but not necessarily sentient. How do they move `dice: [[Fill#^plantsmovehow]]`. If the plants aren’t sentient they move `dice: [[Fill#^plantsmovewhy]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 33-48      | Sentient. Sentient. The plants are aware and intelligent. They have an alignment of `dice: [[Fill#^plantalignment]]`. There’s `dice: 1d6 <= 3` chance the plant-life can communicate via `dice: [[Fill#^plantspeech]]`. Roll `dice: 3d6` to determine the average equivalent Intelligence of the plant-life. The plants have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows: All plants. 1 spellcaster in 100, equivalent caster level `dice: 1d4`. Single species of plants. `dice: 1d3` spellcaster in 100, equivalent caster level `dice: 1d6`. Small number of plants.  `dice: 1d5` in 100, equivalent caster level `dice: 1d8`. -  A single plant. 1 in 10, equivalent caster level `dice: 1d10`. If this is the case, the plants can cast spells as a `dice: [[Fill#^plantCaster]]`                                                                                                                                                                                                                                               |
-| 49-64      | Unusual Size. Unusual Size. The plants are either `dice: [[Fill#^largersmaller]]`. The size difference is `dice: [[Fill#^sizediff]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 65-82      | Unusual Form. Unusual Form. The plants are a different form or shape than normal. They are `dice: [[Fill#^plantsunusualshape]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| 81-92      | Unusual Features. Unusual Features. Something about the plants is different from normal `dice: [[Fill#^unusualfeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| 97-99      | Roll Twice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 100        | Roll Thrice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| dice: 1d100 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|:----------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-16        | BeneficialBeneficial/Baneful. While not possessing an actual intelligence, the plant-life within the area subtly works to help or hinder those passing through. When beneficial, travelers find that their path always seems straight and clear of hazards, food grows abundantly, and they can shelter from the elements under spreading boughs. Travel time decreases by 25% in these areas, and enough food for `dice: 1d12` individuals can be found per day without even stopping to scavenge. If this result comes up twice for the same area either double the modifiers -  movement modified by 50%, etc.- or, in the case of one roll indicating beneficial and the other baneful, assume there is a hidden dichotomy between the plants, with some seeking to hinder and some to help. Why is this, and how do the players react when it becomes apparent? Perhaps the characters are being shepherded to a specific location, or shielded by the beneficial plants from the wilder, more chaotic plants that lurk off the trail. |
+| 9-16        | Baneful. Beneficial/Baneful. While not possessing an actual intelligence, the plant-life within the area subtly works to help or hinder those passing through. When baneful, it seems as if there are always roots to trip on, low-hanging branches threatening to knock riders off their mounts, paths are difficult to follow and easy to loose, etc. Travel time is increased by 25% in these areas, and at the end of each day each traveler must make a Save against Wands or suffer `dice: 1d4` points of damage from scratches, sprained ankles, etc. If this result comes up twice for the same area either double the modifiers (movement modified by 50%, etc.) or, in the case of one roll indicating beneficial and the other baneful, assume there is a hidden dichotomy between the plants, with some seeking to hinder and some to help. Why is this, and how do the players react when it becomes apparent? Perhaps the characters are being shepherded to a specific location, or shielded by the beneficial plants from the wilder, more chaotic plants that lurk off the trail. |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 17-32       | Mobile. Mobile. The plant-life in the area is mobile but not necessarily sentient. How do they move `dice: [[Fill#^plantsmovehow]]`. If the plants aren’t sentient they move `dice: [[Fill#^plantsmovewhy]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 33-48       | Sentient. Sentient. The plants are aware and intelligent. They have an alignment of `dice: [[Fill#^plantalignment]]`. There’s `dice: 1d6 <= 3` chance the plant-life can communicate via `dice: [[Fill#^plantspeech]]`. Roll `dice: 3d6` to determine the average equivalent Intelligence of the plant-life. The plants have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows: All plants. 1 spellcaster in 100, equivalent caster level `dice: 1d4`. Single species of plants. `dice: 1d3` spellcaster in 100, equivalent caster level `dice: 1d6`. Small number of plants.  `dice: 1d5` in 100, equivalent caster level `dice: 1d8`. -  A single plant. 1 in 10, equivalent caster level `dice: 1d10`. If this is the case, the plants can cast spells as a `dice: [[Fill#^plantCaster]]`                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 49-64       | Unusual Size. Unusual Size. The plants are either `dice: [[Fill#^largersmaller]]`. The size difference is `dice: [[Fill#^sizediff]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 65-82       | Unusual Form. Unusual Form. The plants are a different form or shape than normal. They are `dice: [[Fill#^plantsunusualshape]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 81-92       | Unusual Features. Unusual Features. Something about the plants is different from normal `dice: [[Fill#^unusualfeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 97-99       | Roll Twice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 100         | Roll Thrice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 ^plantqualities
 
 
 
-
-(1-3) `dice: 1d20`, 
-(4-5) `dice: 5d20`, 
-(6) `dice: 10d100` 
+| dice: 1d6 |                |
+| --------- | -------------- |
+| 1-3       | `dice: 1d20`,  |
+| 4-5       | `dice: 5d20`,  |
+| 6         | `dice: 10d100` |
 ^smallNoAnimals
 
 
@@ -5681,41 +5344,47 @@ Some more rolls are made:
 
 
 
-
- (1- 3) 1,
- (4-5) 2, or 
- (6) 3
+| dice: 1d6 |       |
+| --------- | ----- |
+| 1- 3      | 1,    |
+| 4-5       | 2, or |
+| 6         | 3     |
  ^reactionRollMod
 
-(1) 2d4, 
-(2-3) 2d6,
-(4) 3d4, 
-(5) 4d4, or 
-(6) 3d6
+| dice: 1d6 |         |
+| --------- | ------- |
+| 1         | 2d4,    |
+| 2-3       | 2d6,    |
+| 4         | 3d4,    |
+| 5         | 4d4, or |
+| 6         | 3d6     |
 ^awakendIntel
 
 
-
-(1-3) skin/fur,
-(4-6) color,
-(7-8) both.
+| dice: 1d6 |           |
+| --------- | --------- |
+| 1-3       | skin/fur, |
+| 4-6       | color,    |
+| 7-8       | both.     |
 ^skinfur
 
-(1-3) two, 
-(4-5) three, or 
-(6)  four
+
+
+| dice: 1d6 |       |
+| --------- | ----- |
+| 1-3       | two,  |
+| 4-5       | three |
+| 6         | four  |
 ^chimera
 
 
 
-73-table-1.md
-
-| d100   | Result                                                                                                                                                                                                                    |
-|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-25   | Different `dice: [[Fill#^skinfur]]`                                                                                                                                                                                       |
-| 26-50  | Different  shape.  The  animal  may  have  six legs instead of four, or wings (and potentially a fly speed) where it had none before.                                                                                     |
-| 51-75  | The animal is a mixture of `dice: [[Fill#^chimera]]` animals,  sharing  characteristics of  all  of  them.  There’s  a  `dice: 1d6 <= 1`  per animal type that the main characteristic is a hindrance, or non-beneficial. |
-| 76-100 | Non-native  animals. In this  part  of the world perhaps fish swim through the air as if it were water, or penguins hunt the plains for insects.                                                                          |
+| dice: 1d100 | Result                                                                                                                                                                                                                    |
+|:----------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-25        | Different `dice: [[Fill#^skinfur]]`                                                                                                                                                                                       |
+| 26-50       | Different  shape.  The  animal  may  have  six legs instead of four, or wings (and potentially a fly speed) where it had none before.                                                                                     |
+| 51-75       | The animal is a mixture of `dice: [[Fill#^chimera]]` animals,  sharing  characteristics of  all  of  them.  There’s  a  `dice: 1d6 <= 1`  per animal type that the main characteristic is a hindrance, or non-beneficial. |
+| 76-100      | Non-native  animals. In this  part  of the world perhaps fish swim through the air as if it were water, or penguins hunt the plains for insects.                                                                          |
 ^animalunusualshape
 
 
@@ -5741,82 +5410,110 @@ Some more rolls are made:
 
 
 
-
-(1-4) increases  by  `dice: [[Fill#^mvinc]]`
-(5-6)  they  gain  a  new  form  of  movement  in addition to their old form. This new form is `dice [[Fill#^newmvmt]]`
+| dice: 1d6 |                                                                                                                  |
+| --------- | ---------------------------------------------------------------------------------------------------------------- |
+| 1-4       | increases  by  `dice: [[Fill#^mvinc]]`                                                                           |
+| 5-6       | they  gain  a  new  form  of  movement  in addition to their old form. This new form is `dice [[Fill#^newmvmt]]` |
 ^animalmvmt
 
-(1-3)  10’,  
-(4-5)  20’,  or  
-(6)  30’,  or 
+
+| dice: 1d6 |          |
+| --------- | -------- |
+| 1-3       | 10’,     |
+| 4-5       | 20’,  or |
+| 6         | 30’,  or |
 ^mvinc
 
-(1-2) 1 category slower than their current form, (
-3-4) the same speed, or
-(5-6) 1 category faster.
+
+
+| dice: 1d6 |                                            |
+| --------- | ------------------------------------------ |
+| 1-2       | 1 category slower than their current form, |
+| 3-4       | the same speed, or                         |
+| 5-6       | 1 category faster.                         |
 ^newmvmt
 
 
-(1-3) 1, 
-(4-5) 2, or 
-(6) 3.
+| dice: 1d6 |       |
+| --------- | ----- |
+| 1-3       | 1,    |
+| 4-5       | 2, or |
+| 6         | 3.    |
 ^animalspelllvl
 
-(1-4)  once  per  day,
-(5-7) twice per day, 
-(8-9) three times per day, or 
-(10) is always active/available.
+
+| dice: 1d10 |                             |
+| ---------- | --------------------------- |
+| 1-4        | once  per  day,             |
+| 5-7        | twice per day,              |
+| 8-9        | three times per day, or     |
+| 10         | is always active/available. |
 ^howoftenspell
 
 
-(1-3)  +1, 
-(4-5) +2, or
-(6) +4 hit points.
+| dice: 1d6 |                |
+| --------- | -------------- |
+| 1-3       | +1,            |
+| 4-5       | +2, or         |
+| 6         | +4 hit points. |
 ^diffHp
 
 
-
-(1-4) increases by `dice: [[Fill#^HDinc2]]
-(5-6) increases from 1d8 to `dice: [[Fill#^HDstep]]`
+| dice: 1d6 |                                                |
+| --------- | ---------------------------------------------- |
+| 1-4       | increases by `dice: [[Fill#^HDinc2]]           |
+| 5-6       | increases from 1d8 to `dice: [[Fill#^HDstep]]` |
 ^HDinc1
 
-
-(1-3) 1, 
-(4-5) 2, or 
-(6) 3, or 
+| dice: 1d6 |       |
+| --------- | ----- |
+| 1-3       | 1,    |
+| 4-5       | 2, or |
+| 6         | 3, or |
 ^HDinc2
 
-(1-4) dice: 1d10
-(5-6) dice: 1d12
+
+| dice: 1d6 |            |
+| --------- | ---------- |
+| 1-4       | dice: 1d10 |
+| 5-6       | dice: 1d12 |
 ^HDstep
 
 
-(1-3) 1,
-(4-5) 2, or 
-(6) 3.
+| dice: 1d6 |       |
+| --------- | ----- |
+| 1-3       | 1,    |
+| 4-5       | 2, or |
+| 6         | 3.    |
 ^ACinc
 
 
-
-(1-4) increases by one die type (from d6 to d8, for instance) or 
-(5-6) they gain an additional attack  at  a  die  type  one  lower  than  their current lowest attack (if the animal can attack twice doing `dice: 1d6` points of damage they gain a third attack doing `dice: 1d4` points of damage). 
+| dice: 1d6 |                                                                                                                                                                                                                                 |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-4       | increases by one die type from d6 to d8, for instance or                                                                                                                                                                        |
+| 5-6       | they gain an additional attack  at  a  die  type  one  lower  than  their current lowest attack -if the animal can attack twice doing `dice: 1d6` points of damage they gain a third attack doing `dice: 1d4` points of damage. |
 ^animalDMG
 
 
-(1)  poison, 
-(2)  disease, 
-(3) elemental, 
-(4)  paralyzing, 
-(5) a special combat maneuver (grapple, trample, etc.), or
-(6) something else.
+| dice: 1d6 |                                                        |
+| --------- | ------------------------------------------------------ |
+| 1         | poison,                                                |
+| 2         | disease,                                               |
+| 3         | elemental,                                             |
+| 4         | paralyzing,                                            |
+| 5         | a special combat maneuver - grapple, trample, etc., or |
+| 6         | something else.                                        |
 ^animalspecAtk
 
-(1)  resistance  to  a  form  of damage (bludgeoning, fire, etc.), 
-(2) immunity to a form of damage, 
-(3) regeneration `dice: [[Fill#^regeneration]]`
-(4) successful attacks upon them damage or negate weapons (such as a living iron  statue’s  ability  to  absorb  weapons),  
-(5) some of the damage suffered from attacks is borne by the attacker, or 
-(6) the creature can change  form  to  escape  (such  as  a  vampire’s ability to turn into a bat or mist).
+
+| dice: 1d6 |                                                                                                                      |
+| --------- | -------------------------------------------------------------------------------------------------------------------- |
+| 1         | resistance  to  a  form  of damage bludgeoning, fire, etc.,                                                          |
+| 2         | immunity to a form of damage,                                                                                        |
+| 3         | regeneration `dice: [[Fill#^regeneration]]`                                                                          |
+| 4         | successful attacks upon them damage or negate weapons such as a living iron  statue’s  ability  to  absorb  weapons, |
+| 5         | some of the damage suffered from attacks is borne by the attacker, or                                                |
+| 6         | the creature can change  form  to  escape  (such  as  a  vampire’s ability to turn into a bat or mist).              |
 ^specialdef
 
 | dice: 1d6 |                      |
@@ -5828,37 +5525,38 @@ Some more rolls are made:
 
 73-table-4.md
 
-| d100   | Result                                                                                                                                                                                                                                                                                                    |
-|:------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-40   | Animals feed  on  something  other than their  normal  diet:  `dice: [[Fill#^anumaldiet]]`                                                                                                                                                                                                                |
-| 41-80  | Parts of the animal are valuable for use by alchemists  or  magicians.  There’s  `dice: 1d6 <=1` chance  that  the  body  part  can  actually  be used  by  the  animal  for  offense  or  defense (a  gland  that  allows  them  to  breath  fire, for instance),  but  otherwise it is  non-functional. |
-| 81-100 | Roll on Table 11.2 for an additional effect.                                                                                                                                                                                                                                                              |
+| dice: 1d100 | Result                                                                                                                                                                                                                                                                                                    |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-40        | Animals feed  on  something  other than their  normal  diet:  `dice: [[Fill#^anumaldiet]]`                                                                                                                                                                                                                |
+| 41-80       | Parts of the animal are valuable for use by alchemists  or  magicians.  There’s  `dice: 1d6 <=1` chance  that  the  body  part  can  actually  be used  by  the  animal  for  offense  or  defense (a  gland  that  allows  them  to  breath  fire, for instance),  but  otherwise it is  non-functional. |
+| 81-100      | Roll on Table 11.2 for an additional effect.                                                                                                                                                                                                                                                              |
 ^animalunusualfeature
 
 
-
-(1-2)  meat instead  of vegetation,  or  vice  versa, 
-(3)  heat  or  cold, 
-(4) esoterica (thoughts, emotions, etc.),
-(5) ore (gold, copper, etc.), or 
-(6) magic.
+| dice: 1d6 |                                                |
+| --------- | ---------------------------------------------- |
+| 1-2       | meat instead  of vegetation,  or  vice  versa, |
+| 3         | heat  or  cold,                                |
+| 4         | esoterica thoughts, emotions, etc.,            |
+| 5         | ore gold, copper, etc., or                     |
+| 6         | magic.                                         |
 ^anumaldiet
 
 
 
 72-table-1.md
 
-| d100  | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|:----- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-8   | Beneficial.  Even if not sentient, the animals act in ways that either help or hinder travelers through the area. Initially, this means that all reaction rolls with the designated animals are made with a modifier of `dice: [[Fill#^reactionRollMod]]` . There’s `dice: 1d6 <= 4` chance that this modifier will not change, regardless of the actions of the adventurers. Killing one of the animals will not impose a penalty, nor will feeding them. Additionally, there’s`dice: 1d6 <= 3` chance that the animals act in an unnatural manner that can be construed as helpful or harmful. If the animals are not sentient or capable of communication their attempts may likely be rudimentary; if helpful, perhaps they seek to warn the adventurers away from a particular hazard, or the lair of a monster. If harmful, perhaps they try to lead the adventurers on a chase ending at the edge of a cliff, or into the lair of said monster. Magical communication can certainly be helpful, but if baneful the animals may choose to not answer, or even to deceive.   |
-| 9-16  | Baneful. Even if not sentient, the animals act in ways that either help or hinder travelers through the area. Initially, this means that all reaction rolls with the designated animals are made with a modifier of `dice: [[Fill#^reactionRollMod]]` . There’s `dice: 1d6 <= 4` chance that this modifier will not change, regardless of the actions of the adventurers. Killing one of the animals will not impose a penalty, nor will feeding them. Additionally, there’s`dice: 1d6 <= 3` chance that the animals act in an unnatural manner that can be construed as helpful or harmful. If the animals are not sentient or capable of communication their attempts may likely be rudimentary; if helpful, perhaps they seek to warn the adventurers away from a particular hazard, or the lair of a monster. If harmful, perhaps they try to lead the adventurers on a chase ending at the edge of a cliff, or into the lair of said monster. Magical communication can certainly be helpful, but if baneful the animals may choose to not answer, or even to deceive.       |
-| 17-32 | Awakened. Awakened. Distinct from those that are sapient, Awakened animals are not only possessed of intelligence potentially equal to, or even surpassing, that of Man, but of mannerisms and characteristics of the humanoid races. Awakened creatures can walk on two legs, if their anatomy allows it, and their extremities are altered slightly to allow the use of tools. Awakened animals can be found wearing the garb and accoutrements of Man, and acting as Men do. They will, however, typically have no change in size; Awakened mice are still the size of mice. They will have an Intelligence score of `dice: [[Fill#^awakendIntel]]` . There’s a further `dice: 1d6 <=2` chance the Awakened creatures will be able to communicate via speech. This chance increases by 1 should their Intelligence be 13 or higher. Overall, Awakened creatures are  `dice: [[fill#^plantalignment]]`, although exceptions may exist among multiple creatures of the same kind, just as it does within a population of Men.. Awakened animals can possess racial class levels. |
-| 33-48 | Sentient. Sentient. As Awakened creatures, above, but without the likeness of Men, sentient animals possess an intelligence. They have the same chance of speech as Awakened animals; otherwise, there’s `dice: 1d6 <=3` chance the animals can communicate via `dice: [[Fill#^plantspeech]]`. The animals have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows: All animals. 1 in 100, equivalent caster level `dice: 1d4`. Single species of animals. `dice: 1d3` in 100, equivalent caster level `dice: 1d6`. Small number of animals. `dice: 1d3` in 100, equivalent caster level `dice: 1d8`. A single animal. 1 in 10, equivalent caster level `dice: 1d10`. If this is the case, the animals can cast spells as a `dice: [[Fill#^plantCaster]]`                                                                                                                                                                                                                                                                  |
-| 49-64 | Unusual Size. Unusual Size. The animals are either `dice: [[Fill#^largersmaller]]` than normal. The size difference is `dice: [[Fill#^sizediff]]` Animals that are smaller than normal have reduced HD, typically proportionate to the decrease in size. A black bear, typically with 4 HD, that is 50% smaller than normal would have 2 HD. Likewise, the larger a creature is the more HD it has, by the same proportions: a black bear that normally has 4 HD that is 50% larger will have 6 HD.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 65-82 | Unusual Form. Unusual Form. The animals are a different form or shape than normal. They are `dice: [[Fill#^animalunusualshape]]`. There’s `dice: 1d6 <= 2` chance the difference is directly beneficial. The animal gains `dice: [[Fill#^advantagediff]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 81-92 | Unusual Features. Something about the animals is different from normal `dice: [[Fill#^animalunusualfeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| 97-99 | Roll Twice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 100   | Roll Thrice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| dice: 1d100 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:----------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-8         | Beneficial.  Even if not sentient, the animals act in ways that either help or hinder travelers through the area. Initially, this means that all reaction rolls with the designated animals are made with a modifier of `dice: [[Fill#^reactionRollMod]]` . There’s `dice: 1d6 <= 4` chance that this modifier will not change, regardless of the actions of the adventurers. Killing one of the animals will not impose a penalty, nor will feeding them. Additionally, there’s`dice: 1d6 <= 3` chance that the animals act in an unnatural manner that can be construed as helpful or harmful. If the animals are not sentient or capable of communication their attempts may likely be rudimentary; if helpful, perhaps they seek to warn the adventurers away from a particular hazard, or the lair of a monster. If harmful, perhaps they try to lead the adventurers on a chase ending at the edge of a cliff, or into the lair of said monster. Magical communication can certainly be helpful, but if baneful the animals may choose to not answer, or even to deceive.   |
+| 9-16        | Baneful. Even if not sentient, the animals act in ways that either help or hinder travelers through the area. Initially, this means that all reaction rolls with the designated animals are made with a modifier of `dice: [[Fill#^reactionRollMod]]` . There’s `dice: 1d6 <= 4` chance that this modifier will not change, regardless of the actions of the adventurers. Killing one of the animals will not impose a penalty, nor will feeding them. Additionally, there’s`dice: 1d6 <= 3` chance that the animals act in an unnatural manner that can be construed as helpful or harmful. If the animals are not sentient or capable of communication their attempts may likely be rudimentary; if helpful, perhaps they seek to warn the adventurers away from a particular hazard, or the lair of a monster. If harmful, perhaps they try to lead the adventurers on a chase ending at the edge of a cliff, or into the lair of said monster. Magical communication can certainly be helpful, but if baneful the animals may choose to not answer, or even to deceive.       |
+| 17-32       | Awakened. Awakened. Distinct from those that are sapient, Awakened animals are not only possessed of intelligence potentially equal to, or even surpassing, that of Man, but of mannerisms and characteristics of the humanoid races. Awakened creatures can walk on two legs, if their anatomy allows it, and their extremities are altered slightly to allow the use of tools. Awakened animals can be found wearing the garb and accoutrements of Man, and acting as Men do. They will, however, typically have no change in size; Awakened mice are still the size of mice. They will have an Intelligence score of `dice: [[Fill#^awakendIntel]]` . There’s a further `dice: 1d6 <=2` chance the Awakened creatures will be able to communicate via speech. This chance increases by 1 should their Intelligence be 13 or higher. Overall, Awakened creatures are  `dice: [[fill#^plantalignment]]`, although exceptions may exist among multiple creatures of the same kind, just as it does within a population of Men.. Awakened animals can possess racial class levels. |
+| 33-48       | Sentient. Sentient. As Awakened creatures, above, but without the likeness of Men, sentient animals possess an intelligence. They have the same chance of speech as Awakened animals; otherwise, there’s `dice: 1d6 <=3` chance the animals can communicate via `dice: [[Fill#^plantspeech]]`. The animals have a chance to possess spell-casting abilities dependent upon the number of affected individuals, as follows: All animals. 1 in 100, equivalent caster level `dice: 1d4`. Single species of animals. `dice: 1d3` in 100, equivalent caster level `dice: 1d6`. Small number of animals. `dice: 1d3` in 100, equivalent caster level `dice: 1d8`. A single animal. 1 in 10, equivalent caster level `dice: 1d10`. If this is the case, the animals can cast spells as a `dice: [[Fill#^plantCaster]]`                                                                                                                                                                                                                                                                  |
+| 49-64       | Unusual Size. Unusual Size. The animals are either `dice: [[Fill#^largersmaller]]` than normal. The size difference is `dice: [[Fill#^sizediff]]` Animals that are smaller than normal have reduced HD, typically proportionate to the decrease in size. A black bear, typically with 4 HD, that is 50% smaller than normal would have 2 HD. Likewise, the larger a creature is the more HD it has, by the same proportions: a black bear that normally has 4 HD that is 50% larger will have 6 HD.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 65-82       | Unusual Form. Unusual Form. The animals are a different form or shape than normal. They are `dice: [[Fill#^animalunusualshape]]`. There’s `dice: 1d6 <= 2` chance the difference is directly beneficial. The animal gains `dice: [[Fill#^advantagediff]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 81-92       | Unusual Features. Something about the animals is different from normal `dice: [[Fill#^animalunusualfeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 97-99       | Roll Twice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 100         | Roll Thrice                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 ^animalqualities
 
 
@@ -5866,12 +5564,12 @@ Some more rolls are made:
 
 74-table-1.md
 
-| d100   | Result                                                                        |
-|:------ |:----------------------------------------------------------------------------- |
-| 1-10   | All of the creatures in the area                                              |
-| 11-40  | A specific species                                                            |
-| 41-70  | A small number of creatures within the area: `dice: [[Fill#^smallNoAnimals]]` |
-| 71-100 | A single creature                                                             |
+| dice: 1d10 | Result                                                                        |
+|:---------- |:----------------------------------------------------------------------------- |
+| 1-10       | All of the creatures in the area                                              |
+| 11-40      | A specific species                                                            |
+| 41-70      | A small number of creatures within the area: `dice: [[Fill#^smallNoAnimals]]` |
+| 71-100     | A single creature                                                             |
 ^creaturewhich
 
 
@@ -5887,54 +5585,710 @@ Some more rolls are made:
 ^creaturespecial
 
 
-
-(1-4)  at  a  class  level,  if they belong to the given class, meaning that not all creatures in the area can cast spells, or  (5-6)  innately,  with  all  members  of  the species in the area casting spells as a caster of level `dice [[Fill#^innatespelllvl]]`
+| dice: 1d6 |                                                                                                                                |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1-4       | at  a  class  level,  if they belong to the given class, meaning that not all creatures in the area can cast spells, or        |
+| 5-6       | innately,  with  all  members  of  the species in the area casting spells as a caster of level `dice [[Fill#^innatespelllvl]]` |
 ^creatureCasterInnate
 
 
-(1-3) `dice: 1d4`, 
-(4-5) `dice: 1d8`, or
-(6) `dice: 1d12`.
+| dice: 1d6 |                 |
+| --------- | --------------- |
+| 1-3       | `dice: 1d4`,    |
+| 4-5       | `dice: 1d8`, or |
+| 6         | `dice: 1d12`.   |
 ^innatespelllvl
 
 
-
-(1-2)  magic-user,  
-(3-4)  cleric,  
-(5)  druid,  
-(6) illusionist, or 
-(7-8) other spellcasting class
+| dice: 1d8 |                          |
+| --------- | ------------------------ |
+| 1-2       | magic-user,              |
+| 3-4       | cleric,                  |
+| 5         | druid,                   |
+| 6         | illusionist, or          |
+| 7-8       | other spellcasting class |
 ^creatureCasterClass
 
-(1-4) possesses  an  ancestry that  comes from another plane or dimension or 
-(5-6) actually is  from  another  dimension  or  plane
+
+
+| dice: 1d6 |                                                                        |
+| --------- | ---------------------------------------------------------------------- |
+| 1-4       | possesses  an  ancestry that  comes from another plane or dimension or |
+| 5-6       | actually is  from  another  dimension  or  plane                       |
 ^creaturePlane
 
 
 
-
-(1-4)  their  native time or 
-(5-6) a random time
+| dice: 1d6 |                       |
+| --------- | --------------------- |
+| 1-4       | their  native time or |
+| 5-6       | a random time         |
 ^unwarytime
 
-(1-4) empathy (projecting their emotions) or 
-(5-6) telepathy (projecting their thoughts)
+
+| dice: 1d6 |                                        |
+| --------- | -------------------------------------- |
+| 1-4       | empathy -projecting their emotions- or |
+| 5-6       | telepathy (projecting their thoughts)  |
 ^creaturecomms
 
-(1-3) cannot die of old age but can die of  disease  or  injury,  
-(4-5)  can  only  die  of injury, or 
-(6) cannot be permanently slain
+
+| dice: 1d6 |                                                            |
+| --------- | ---------------------------------------------------------- |
+| 1-3       | cannot die of old age but can die of  disease  or  injury, |
+| 4-5       | can  only  die  of injury, or                              |
+| 6         | cannot be permanently slain                                |
 ^creatureimmortal
 
 
-(1-2)  past,  
-(3-4)  future,  or  
-(5-6)  an  alternate version  of  reality.
+
+| dice: 1d6 |                                  |
+| --------- | -------------------------------- |
+| 1-2       | past                             |
+| 3-4       | future                           |
+| 5-6       | an alternate version of reality. |
 ^creatureTime
 
 
-
-(1- 3) roll again, disregarding those results, 
-(4-5) increase the creatures’ average Intelligence by one category (i.e. a range of 9-12 is increased to 13-15), or 
-(6) roll on the Specials table, in the next column. `dice: [[Fill#^creaturespecial]]`
+| dice: 1d6 |                                                                                                             |
+| --------- | ----------------------------------------------------------------------------------------------------------- |
+| 1- 3      | roll again, disregarding those results,                                                                     |
+| 4-5       | increase the creatures’ average Intelligence by one category i.e. a range of 9-12 is increased to 13-15, or |
+| 6         | roll on the Specials table, in the next column. `dice: [[Fill#^creaturespecial]]`                           |
 ^creatureawakenedSentient
+
+
+| dice: 1d6 |             |
+| --------- | ----------- |
+| 1         | Lawful,     |
+| 2-4       | Neutral, or |
+| 5-6       | Chaotic     |
+^areaalignment
+
+
+
+
+74-table-4.md
+
+| dice: 1d100 | Result                                                                                                                                                                                                                                                                                                         |
+|:----------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-15        | Beneficial/Baneful to those  of  different alignments. Refer to the examples above in Flora/Fauna.                                                                                                                                                                                                             |
+| 16-30       | Helpful  to  those  of  the  same  alignment. Creatures of the same alignment as the land enjoy `dice: [[Fill#^alignmentbuff]]`                                                                                                                                                                                |
+| 31-45       | Dangerous to those of a different alignment. Creatures of a different alignment suffer a `dice: [[Fill#^alignmentDeBuff]]`                                                                                                                                                                                     |
+| 46-60       | Dampens  spells.  Spells  with  an  opposite alignment descriptor do not function within the  area.  Inside  a  Chaotically  aligned  area the spells detect evil and protection from evil would not function.                                                                                                 |
+| 61-75       | Inimical to those of an opposite alignment. There’s  `dice: 1d6 <=2`  chance  that in  order to enter the region those  of  differing alignments must make a Save v. Spells. The roll is penalized by `dice: 1d4` if the difference is greater  than  one  step  (Lawful  characters entering a Chaotic land). |
+| 76-90       | Unease. Those not of the alignment of the land are uneasy, suffering `dice: [[Fill#^alignmentUneasy]]`                                                                                                                                                                                                         |
+| 91-96       | Roll Twice. Redundant results are cumulative.                                                                                                                                                                                                                                                                  |
+| 97-100      | Roll  Thrice. Redundant results are cumulative.                                                                                                                                                                                                                                                                |
+^alignmentEffects
+
+
+
+| dice: 1d6 |                                   |
+| --------- | --------------------------------- |
+| 1         | a +1 bonus to AC,                 |
+| 2         | +1 to attack rolls,               |
+| 3         | +1  to  damage  rolls,            |
+| 4         | +1  to  all Saves,                |
+| 5         | regenerate  1  hp  per  turn,  or |
+| 6         | two of the above.                 |
+^alignmentbuff
+
+
+
+| dice: 1d6 |                                           |
+| --------- | ----------------------------------------- |
+| 1         | penalty of 1 to AC,                       |
+| 2         | –1 penalty to attack rolls,               |
+| 3         | –1 penalty to damage rolls,               |
+| 4         | –1 penalty to Saves,                      |
+| 5         | will not heal naturally in the region, or |
+| 6         | two of the above.                         |
+^alignmentDeBuff
+
+
+| dice: 1d6 |                                 |
+| --------- | ------------------------------- |
+| 1-3       | a –1 penalty to surprise rolls, |
+| 4-5       | the inability to rest, or       |
+| 6         | both.                           |
+^alignmentUneasy
+
+
+
+
+| dice: 1d6 |            |
+| --------- | ---------- |
+| 1-3       | baneful or |
+| 4-6       | beneficial |
+^banefulbeneficial
+
+
+| dice: 1d6 |          |
+| --------- | -------- |
+| 1-3       | day,     |
+| 4-5       | hour, or |
+| 6         | turn     |
+^dayHourTurn
+
+
+
+
+| dice: 1d10 |            |
+| ---------- | ---------- |
+| 1-2        | skeletons, |
+| 3-4        | zombies,   |
+| 5-6        | ghouls,    |
+| 7          | wights,    |
+| 8          | wraiths,   |
+| 9          | specters,  |
+| 10         | other.     |
+^d10undead
+
+
+
+
+
+
+
+
+75-table-2.md
+
+| d100   | Result                                                                                                                                                                               |
+|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-25   | The  residents  are  all  magically inclined. Most  are  equivalent to  1st-level  magic-users.                                                                                      |
+| 26-50  | The  settlement  has  some  form  of  magical or  unusual  defense:  `dice: [[Fill#^settlementMagicDefense]]`                                                                        |
+| 51-70  | The settlement is airborne. It is built `dice: [[Fill#^flyingsettlement]]`                                                                                                           |
+| 71-90  | The  settlement  is  mobile.  It  `dice: [[Fill#^mobilesettlement]]`. |
+| 91-100 | Other.                                                                                                                                                                               |
+^magicalSettlement
+
+
+
+| dice: 1d6 |                                                         |
+| --------- | ------------------------------------------------------- |
+| 1         | trained  griffons or  similar,                          |
+| 2         | golems  guarding  the  gates,                           |
+| 3         | wards  that  prevent  entry  by  invisible creatures,   |
+| 4         | fixed  crossbows  that  shoot bolts of fire,            |
+| 5         | walls magically reinforced to have extra hit points, or |
+| 6         | roll twice.                                             |
+^settlementMagicDefense
+
+
+
+| dice: 1d6 |                                                   |
+| --------- | ------------------------------------------------- |
+| 1         | on a  cloud,                                      |
+| 2         | on  a  floating  rock,                            |
+| 3         | on  the back  of  an  enormous  flying  creature, |
+| 4         | suspended between two mountains.                  |
+^flyingsettlement
+
+
+
+| dice: 1d6 |                                                  |
+| --------- | ------------------------------------------------ |
+| 1         | is  built  on the back  of an enormous creature, |
+| 2         | has legs and walks around like a spider,         |
+| 3         | has wheels and a sail,                           |
+| 4         | floats on water                                  |
+^mobilesettlement
+
+
+
+
+| dice: 1d6 |                 |
+| --------- | --------------- |
+| 1-3       | The inhabitants |
+| 4- 6      | the zone itself |
+^inhabitantsSpell
+
+
+
+| dice: 1d6 |                                                                                                                                                      |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | be targeted upon the creature and is activated as below                                                                                              |
+| 4-6       | will be usable by the creature as a spell-like ability. If it occurs as a spell-like ability it can be used `dice: [[Fill#^spellLikeAbilityMaster]]` |
+^spellTargetInhabitants
+
+
+| dice: 1d6 |                                          |
+| --------- | ---------------------------------------- |
+| 1-3       | permanently functioning,                 |
+| 4-5       | activates on a schedule of some sort, or |
+| 6         | activates on a particular action.        |
+^spellSchedule
+
+
+
+| dice: 1d6 |                                           |
+| --------- | ----------------------------------------- |
+| 1         | Level 1 spell. `dice: [[Fill#^lvl1num]]`  |
+| 2         | Level 2 spell. `dice: [[Fill#^lvl2num]]`  |
+| 3         | Level 3 spell.  `dice: [[Fill#^lvl3num]]` |
+| 4         | Level 4 spell.  `dice: [[Fill#^lvl4num]]` |
+| 5         | Level 5 spell. `dice: [[Fill#^lvl5num]]`  |
+| 6         | Level 6 spell. `dice: [[Fill#^lvl6num]]`  |
+^spellLikeAbilityMaster
+
+| dice: 1d6 |                                |
+| --------- | ------------------------------ |
+| 1-3       | `dice: 1d6` times per day,     |
+| 4-5       | `dice: 1d4` times per turn, or |
+| 6         | at will.                       |
+^lvl1num
+
+
+
+| dice: 1d6 |                                |
+| --------- | ------------------------------ |
+| 1-3       | `dice: 1d4` times per day,     |
+| 4-5       | `dice: 1d3` times per turn, or |
+| 6         | at will                        |
+^lvl2num
+
+
+
+| dice: 1d6 |                                |
+| --------- | ------------------------------ |
+| 1-3       | `dice: 1d3` times per day,     |
+| 4-5       | `dice: 1d3` times per turn, or |
+| 6         | once per minute                |
+^lvl3num
+
+| dice: 1d6 |                               |
+| --------- | ----------------------------- |
+| 1-3       | `dice: 1d4` times per week,   |
+| 4-5       | `dice: 1d4` times per day, or |
+| 6         | once per turn.                |
+^lvl4num
+
+
+
+
+| dice: 1d6 |                               |
+| --------- | ----------------------------- |
+| 1-3       | `dice: 1d3` times per week,   |
+| 4-5       | `dice: 1d3` times per day, or |
+| 6         | once per hour.                |
+^lvl5num
+
+
+| dice: 1d6 |                             |
+| --------- | --------------------------- |
+| 1-3       | `dice: 1d3` times per week, |
+| 4-5       | `dice: 1d3` per day, or     |
+| 6         | once per hour.              |
+^lvl6num
+
+
+The spell that is mimicked is `dice; [[Fill#^d100spelllist]]`
+
+
+
+76-table-1.md
+
+| dice: 1d100 | Result                                                                                    |
+| -----------:|:----------------------------------------------------------------------------------------- |
+|           1 | Acid Fog (6th-level illusionist)                                                          |
+|           2 | Animate  Dead  (dead  are  animated  within `dice: 1d4` rounds of death, 5th-level MU)    |
+|           3 | Auditory Illusion (1st-level illusionist)                                                 |
+|           4 | Blacklight (3rd-level illusionist)                                                        |
+|           5 | Bless/Blight (2nd-level cleric)                                                           |
+|           6 | Blur (2nd-level illusionist)                                                              |
+|           7 | Chaos (5th-level illusionist)                                                             |
+|           8 | Cloudkill (5th-level MU)                                                                  |
+|           9 | Confusion (4th-level MU)                                                                  |
+|          10 | Dancing Lights (1st-level illusionist)                                                    |
+|          11 | Demi-shadow Monsters (5th-level illusionist)                                              |
+|          12 | Detect Evil (1st-level cleric, 2nd-level MU)                                              |
+|          13 | Dispel Illusion (3rd-level illusionist)                                                   |
+|          14 | Detect Invisible (2nd-level MU)                                                           |
+|          15 | Dispel Magic (3rd-level MU)                                                               |
+|          16 | Dream Quest (6th-level illusionist)                                                       |
+|          17 | Emotion (4th-level illusionist)                                                           |
+|          18 | Entangle (1st-level druid)                                                                |
+|          19 | ESP  (2nd-level  MU,  all  who  enter  the  area can sense the thoughts of others)        |
+|          20 | Faerie Fire (1st-level druid)                                                             |
+|          21 | False Aura (2nd-level illusionist)                                                        |
+|          22 | Fascinate  (centered  on  a  feature  within  the area, 2nd-level illusionist)            |
+|          23 | Fear (3rd-level illusionist)                                                              |
+|          24 | Feeblemind (5th-level MU)                                                                 |
+|          25 | Illusion (5th-level illusionist)                                                          |
+|          26 | Impersonation (6th-level illusionist)                                                     |
+|          27 | Growth of Nature (3rd-level druid)                                                        |
+|          28 | Hallucinatory  Terrain  (4th-level  MU,  3rd-level illusionist)                           |
+|          29 | Haste (3rd-level MU)                                                                      |
+|          30 | Heat Metal (2nd-level druid)                                                              |
+|          31 | Hypnotic Pattern (2nd-level illusionist)                                                  |
+|          32 | Hypnotism (1st-level illusionist)                                                         |
+|          33 | Improved Phantasmal Force (2nd-level illusionist)                                         |
+|          34 | Insect Plague (5th-level cleric)                                                          |
+|          35 | Invisibility (2nd-level MU)                                                               |
+|          36 | Levitate (2nd-level MU)                                                                   |
+|          37 | Light/Darkness (1st-level cleric/MU)                                                      |
+|          38 | Manifest Dream (6th-level illusionist)                                                    |
+|          39 | Massmorph (4th-level MU)                                                                  |
+|          40 | Maze of Mirrors (5th-level illusionist)                                                   |
+|          41 | Nondetection (3rd-level illusionist)                                                      |
+|          42 | Permanent Illusion (6th-level illusionist)                                                |
+|          43 | Obscuring Mist (2nd-level druid)                                                          |
+|       44-74 | Other                                                                                     |
+|       75-76 | Roll two times                                                                            |
+|          77 | Roll three times                                                                          |
+|          78 | Pass Plant (5th-level druid, only affects certain plants, use Flora section to determine) |
+|          79 | Phantasmal Force (1st-level illusionist, 2nd-level MU)                                    |
+|          80 | Phantasmal Killer (4th-level illusionist)                                                 |
+|          81 | Protection from Evil/Good (1st-level cleric/MU)                                           |
+|          82 | Remove Fear/Cause Fear (1st-level cleric)                                                 |
+|          83 | Seeming (5th-level illusionist)                                                           |
+|          84 | Shades (6th-level illusionist)                                                            |
+|          85 | Silence 15’ radius (larger than normal radius, 2nd-level cleric)                          |
+|          86 | Shadow Monsters (4th-level illusionist)                                                   |
+|          87 | Shadowcast (5th-level illusionist)                                                        |
+|          88 | Shadowy Transformation (5th-level illusionist)                                            |
+|          89 | Sleep (1st-level MU)                                                                      |
+|          90 | Slow Poison (2nd-level druid)                                                             |
+|          91 | Solid Fog (4th-level illusionist)                                                         |
+|          92 | Spectral Force (3rd-level illusionist)                                                    |
+|          93 | Spook (1st-level illusionist)                                                             |
+|          94 | Stone to Flesh (6th-level MU)                                                             |
+|          95 | Time Flow (5th-level illusionist)                                                         |
+|          96 | Triggered Illusion (6th-level illusionist)                                                |
+|          97 | Veil of Abandonment (4th-level illusionist)                                               |
+|          98 | Wall of Fog (1st-level illusionist)                                                       |
+|          99 | Warp Wood (2nd-level druid)                                                               |
+|         100 | Water Breathing (3rd-level MU)                                                            |
+^d100spelllist
+
+For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll of `dice: [[Fill#^spellreversal]]`. For spells that have variables determined by the caster level it will be `dice: [[Fill#^casterlevel]]`.
+
+
+
+|1-3| it is the normal version, on a 
+|4-6| it is the reversed version
+^spellreversal
+
+
+
+|1-3) `dice: 1d6`, 
+|4- 5)`dice: 1d10`, or 
+|6) `dice: 1d12`
+^casterlevel
+
+
+
+| dice: 1d100 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-15        | . Alignment. The area possesses an alignment: `dice: [[Fill#^areaalignment]]`. Creatures of the given alignment are naturally attracted to the region. When populating it, discard results that are more than one step away (Neutral and Chaotic creatures can populate a region with an alignment of Chaotic, but not Lawful creatures). The aura is subtle, having one or more of the following effects `dice: [[Fill#^alignmentEffects]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 16-30       | . Life. The area is either `dice: [[Fill#^banefulbeneficial]]` to life. If it is baneful, living creatures within its influence lose 1 hp per  `dice: [[Fill#^dayHourTurn]]`. If it is beneficial, living creatures gain 1 hp per `dice: [[Fill#^dayHourTurn]]`. The reverse is true of any undead within the zone (i.e. they suffer damage when in beneficial zones and heal in baneful zones). There’s a `dice. 1d6 <=2` chance that healing magic is minimized within baneful areas (healing spells or effects restore the minimum amount) or maximized in beneficial areas (healing spells or effects restore the maximum amounts). Further, in beneficial zones there’s `dice. 1d6 <=2` chance that the healing just does not stop; it can exceed the maximum, and when a creature’s hp reaches its maximum plus 10 the creature dies. There’s `dice. 1d6 <=3` chance that plant-life is not affected by this magic. Living creatures slain by this magic have `dice. 1d6 <=1` chance of returning as a random sort of undead: `dice: [[Fill#^d10undead]]` |
+| 31-45       | . Other. Design a new magical effect not covered in this section.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 46-60       | . Resource. The area is rich in a resource that has magical or alchemical applications. Refer to the section on resources. [[Fill#Resources]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 61-75       | . Settlement. The area features a settlement that is magical in nature. This manifests as `dice: [[Fill#^magicalSettlement]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 76-100      | . Spell. `dice: [[Fill#^inhabitantsSpell]]` is under the effect of magical energy that functions as a spell. If this energy affects a creature, the spell will `dice:; [[Fill#^spellTargetInhabitants]]`. This effect is `dice: [[Fill#^spellSchedule]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+^magicalOtherMaster
+
+
+
+77-table-4.md
+
+| d100  | Result                                                                                                                                                                                                                                                                                                                                                                                                             |
+|:----- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-13  | Have durations. `dice: [[Fill#^incdec]]`. Durations Increased/Decreased. The duration of a spell is either increased or decreased. There is `dice: 1d6<=4` chance that the feature only affects spells cast within the area, not those that already exist that are then brought into the area. The duration of spells is modified by `dice: [[Fill#^durmod]]`                                                      |
+| 14-26 | Have  ranges  `dice: [[Fill#^incdec]]`. Ranges Increased/Decreased. The range of a spell is increased or decreased by a given amount. If the spell has a range of 10’ or less it is reduced to touch. If a spell has a range of touch it is reduced to personal only. Spells with a range of personal can be cast as normal. Modified by `dice: [[Fill#^durmod]]`                                                  |
+| 27-39 | Have their area of effect `dice: [[Fill#^incdec]]`. Area of Effect Increased/Decreased. Spells that have an area of effect called out in feet or yards have this amount modified according to the table for duration: `dice: [[Fill#^durmod]]` Ex. The web spell creates a 10’ cube of sticky material. If this spell is cast in a location where the area of effect is increased by 50% it would fill a 15’ cube. |
+| 40-53 | Have variables `dice: [[Fill#^incdec]]`. Variables Increased/Decreased. Increase or decrease all of the variables of a spell by `dice: [[Fill#^variableStep]]`. Ex. A cleric casting cure light wounds in an area that increases by one die category would roll `dice: 1d8` instead of `dice: 1d6`. Ex. A magic-user casting mirror image summons `dice: 1d6` illusory duplicates instead of `dice: 1d4`.          |
+| 54-67 | Have variables `dice: [[Fill#^maxmin]]`. Variables Maximized/Minimized. Spells that have a variable effect have their results maximized or minimized. A fireball, therefore, does either 1 hp of damage per die or 6 hp per die.                                                                                                                                                                                                                                                                                                                                                                            |
+| 68-81 | Are `dice: [[Fill#^potency]]`. More Potent/Less Potent. Targets of spells suffer/gain a `dice: [[Fill#^penaltybonus]]` penalty/bonus to saving throws.                                                                                                                                                                                                                                                                                                                                                                                    |
+| 82-90 | Are `dice: [[Fill#^castdiff]]`. Easier/Harder to Cast. Magic is partially unbound or suppressed in an area, making it easier or harder to cast spells. Whenever a character attempts to cast a spell they must roll less than or equal to their primary attribute (Int for magic-users, Wis for clerics, etc.) on 3d6 plus the level of spell being cast. Ex. Casting a 3rd-level spell requires a roll of 3d6+3. In areas where casting is more difficult, failure indicates that the spell simply is not cast. On a roll of 1-4 the spell `dice: 1d6<=4` slot is expended, on a roll of 5-6 `dice: 1d6<=2` it is not. In areas where casting is easier, a successful roll indicates the spell is cast but a spell slot is not expended.                                                                                                                                                                                                                                                                                                                                                                                   |
+| 91-93 | Are `dice: [[Fill#^supprenh]]`. Suppressed/Enhanced. Spells that are suppressed simply do not take effect if cast within the area. If the spell was cast previous to entering the area it is suppressed upon entering. If a spell is suppressed it `dice: [[Fill#^expired]]`. Spells that are enhanced have their effects roughly doubled. This is up to the Referee to adjudicate. Note that it does not affect any of the above variables. Therefore, a hold portal spell would have the same duration and range, but a door held by such a spell could only be opened by a creature of 6 or more HD. A shield spell would grant the caster an AC of 2 (against missile attacks) or 4 (against other attacks).                                                                                                                                                                                                                                                                                                                                                                                     |
+| 94-95 | Null-magic. Note that wild magic and null magic results are singular, canceling all other results. Null Magic. Magic cannot be cast within the area. Spells that are cast within the zone either `dice: [[Fill#^nullmagicinzone]]`. Spells or magical effects that are active before entering the area are `dice: [[Fill#^nullmagicentering]]`. This affects spell-like abilities that certain creatures might possess (such as the petrifying gaze of a basilisk) as well as creatures that are animated by magic (undead, or golems). Spell-like abilities are never destroyed (a basilisk regains its ability to petrify upon leaving the effect), while creatures animated by magic are destroyed upon entering a null magic zone.                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 96-97 | Wild magic. Note that wild magic and null magic results are singular, canceling all other results. The effect upon magic is constantly shifting. Roll again on the table to determine the effect, and reroll every `dice: [[Fill#^wildmagicschedule]]`.                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 98-99 | Roll twice, ignoring results of 98-100.                                                                                                                                                                                                                                                                                                                                                                            |
+| 100   | Roll three times, ignore results of 98-100.                                                                                                                                                                                                                                                                                                                                                                        |
+^resonancedissonance
+
+
+
+
+| dice. 1d2 |           |
+| --------- | --------- |
+| 1         | increased |
+| 2         | decreased |
+^incdec
+
+
+| dice. 1d2 |           |
+| --------- | --------- |
+| 1         | maximized |
+| 2         | minimized |
+^maxmin
+
+
+
+| dice. 1d2 |           |
+| --------- | --------- |
+| 1         | more potent  |
+| 2         | less potent |
+^potency
+
+
+
+
+| dice. 1d2 |                        |
+| --------- | ---------------------- |
+| 1         | easier to cast         |
+| 2         | more difficult to cast |
+^castdiff
+
+
+
+| dice. 1d2 |            |
+| --------- | ---------- |
+| 1         | suppressed |
+| 2         | enhanced   |
+^supprenh
+
+
+
+
+
+
+77-table-2.md
+
+| d100   | Result                                                                                  |
+|:------ |:--------------------------------------------------------------------------------------- |
+| 1-30   | Arcane                                                                                  |
+| 31-60  | Divine                                                                                  |
+| 61-70  | School (healing, divination, alteration, etc.)                                          |
+| 71-80  | Specific spells (ESP does not work within the radius, etc.)                             |
+| 81-90  | Spells with elemental affinity (fire, cold, etc.)                                       |
+| 91-98  | Spells interacting  with  Alignment (detect evil/good, protection from evil/good, etc.) |
+| 99-100 | All magic.                                                                              |
+^affectedMagic
+
+
+
+
+
+77-table-3.md
+
+| d10   | Result   |
+|:------|:---------|
+| 1-2   | 25%      |
+| 3-4   | 50%      |
+| 5-6   | 75%      |
+| 7-8   | 100%     |
+| 9     | 125%     |
+| 10    | 150%     |
+^durmod
+
+
+
+|1-3) –1/+1, 
+|4-5) –2/+2, or
+|6) –4/+4 
+^penaltybonus
+ 
+ 
+
+
+|1-3|one die category not to go below `dice: 1d4`
+|4-5|two categories  not to go below `dice: 1d4`
+|6| three categories  not to go below `dice: 1d4`
+^variableStep
+
+
+|1-3) will resume upon leaving the area, as if no time had passed
+|4-6) will potentially resume, assuming the duration (measured from the time of casting) has not expired
+^expired
+
+
+
+
+| dice: 1d6 |                                           |
+| --------- | ----------------------------------------- |
+| 1-5       | don’t take effect (1-5)                   |
+| 6         | are suppressed until leaving the zone (6) |
+^nullmagicinzone
+
+
+| dice: 1d6 |            |
+| --------- | ---------- |
+| 1-4       | canceled   |
+| 5-6       | suppressed |
+^nullmagicentering
+
+
+
+
+78-table-1.md
+
+| d100   | Result      |
+|:-------|:------------|
+| 1-20   | `dice: 1d10` rounds |
+| 21-40  | `dice: 1d6` turns   |
+| 41-60  | `dice: 1d20` hours  |
+| 61-80  | `dice: 1d8` days    |
+| 81-90  | `dice: 1d4` weeks   |
+| 91-100 | `dice: 1d12` months |
+^wildmagicschedule
+
+
+
+
+|1-5| passes through the hex 
+|6| or terminates in the hex
+^leylineendhere
+
+
+
+78-table-2.md
+
+| d100  | Result                              |
+|:----- |:----------------------------------- |
+| 1-70  | Two ley lines                       |
+| 71-95 | Three ley lines                     |
+| 96-99 | Four ley lines                      |
+| 100   | Five `dice: [[Fill#^moreleylines]]` |
+^howmanyleylines
+
+
+|1-3),  six  
+|4-5),  or  seven  
+|6) ley lines
+^moreleylines
+
+79-table-1.md
+
+| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|:------ |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-25   | `dice: [[Fill#^incdec]]` vision. Objects appear either closer or farther away than they are, with a multiplier of `dice: [[Fill#^visionmultiplier]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| 26-50  | `dice: [[Fill#^incdec]]` sound. Increased/decreased sounds. Sound travels strangely here. Those unfamiliar with the effect suffer a penalty to surprise rolls equal to `dice: [[Fill#^soundsurprise]]` or an equivalent penalty to actions that depend on sound (such as Move Silently). Those familiar with the effect gain an equivalent positive modifier, if applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 51-75  | See around corners/obstacles. Light bends weirdly here. Those familiar with the effect can ignore any cover that targets may have, or can use the twisting geometries to hide in plain sight:  `dice: [[Fill#^corners]]` to missile attacks to hit targets behind cover, or an equivalent penalty to such attacks made against one under this effect.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 76-95  | Distance between points is distorted, taking `dice: [[Fill#^incdec]]` time to move between. Distance is Distorted. The spatial relationship between any two points is distorted and malleable. Those familiar with the terrain can move between points easily, while those unfamiliar with this effect find it takes longer to reach their destination. There are two effects of this: Those familiar with the area have their base movement increased by `dice: [[Fill#^movementdistorted]]` Those unfamiliar have their movement rate reduced by the same amount (to a minimum of 0’ per round). However, there is `dice: 1d6<=1` chance that those familiar with the area can actually travel between the warp and weft of space and time, teleporting `dice: [[Fill#^teleport]]` in any direction in lieu of their normal movement. This movement is instantaneous and allows them to move in any direction they can see. |
+| 96-100 | Gravity is non-standard. Gravity does not function as normal. It is either `dice: [[Fill#^gravitymaster]]`. The following conditions apply: `dice: [[Fill#^gravityconditions]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+^spacemaster
+
+
+
+
+
+|1-3) 25%, Those unused to the effect suffer a penalty equal to –1 to attack rolls.
+|4-5) 50% Those unused to the effect suffer a penalty equal to –2 to attack rolls.
+|6) 100% Those unused to the effect suffer a penalty equal to –5 to attack rolls.
+^visionmultiplier
+
+
+
+|1-3) –1, 
+|4-5) –2, or
+|6) –3,
+^soundsurprise
+
+
+
+
+|1-3) +1 bonus
+|4-5) +2 bonus
+|6) +4 bonus
+^corners
+
+
+
+
+
+|1-3) 10’, 
+|4-5) 20’,
+|6) 30’.
+^movementdistorted
+
+
+
+
+|1-3) 30’, 
+|4-5) 60’,
+|6) 90’ 
+^teleport
+
+
+
+
+
+
+|1-3) stronger than normal, 
+|4-6) weaker than normal, or
+|7- 8) non-existent. If gravity is non-existent, characters, and all unattached objects, “fall” `dice: 1d6 * 10` ft  into the air, and are only capable of movement through flight, pushing off nearby objects, etc.
+^gravitymaster
+
+
+
+
+
+
+|1-3) #1, Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`
+|4-5) #1 and #2, Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`,  Missile ranges are modified by `dice: [[Fill#^255075]]`
+|6) #1, #2, and #3. Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`,  Missile ranges are modified by `dice: [[Fill#^255075]]`. Movement is either more or less exhausting. Characters can travel `dice: [[Fill#^255075]]` longer/less than normal before needing to rest.
+^gravityconditions
+
+
+
+|1-3) 25%, 
+|4-5) 50%, or 
+|6) 75%
+^255075
+
+
+|1-4) two-way
+|5-6) one-way.
+^portaloneway
+
+|1-5) another place on the same plane, 
+|6-9) another plane, 
+|10-11) another time, or 
+|12) another place and time. 
+^portalto
+
+
+|1-3) physical doorway or structure that one steps through, 
+|4-5) a road or course that one has to traverse, or 
+|6) a seamless transition.
+^portallook
+
+|1-2) functions continuously, 
+|3-4) functions only at a given time or event, or 
+|5-6) can only be opened by magic- spell, ritual, item, etc..
+^portaltrigger
+
+|1-2) an item, 
+|3- 4) a spell or ritual, 
+|5-6) or a supreme force of will (roll equal to or under Charisma on 4d6) 
+^timeenter
+
+
+|1-3) x5, 
+|4-5) x10, or 
+|6) x100.
+^timerate
+
+|1-2) past, 
+|3- 4) future, or
+|5-6) an alternate timeline
+^pastfuture
+
+|1-3) retracing their steps, 
+|4-5) performing a task,
+|6) resorting to powerful magics or an item.
+^timegetback
+
+
+|1-7) space. Geometry is strange and twisted. There’s `dice: 1d6 <=3` chance that those unfamiliar with the area must Save v. Death or become disoriented by the eldritch angles and non-euclidean geometry. Those that are native to the area, or succeed on the save, suffer no penalties. The effect manifests as `dice: [[Fill#^spacemaster]]`
+|8-11) travel. There’s a portal of some kind within the area, one that leads to `dice: [[Fill#^portalto]]` The portal is `dice: [[Fill#^portaloneway]]`. The portal is a `dice: [[Fill#^portallook]]`. The portal `dice: [[Fill#^portaltrigger]]`. There’s `dice: 1d6<=2`chance that one can glean localized clues about where the portal leads. Additionally, there’s`dice: 1d6<=1` chance that features from the connected location bleed through into the area: if the portal leads to the elemental plane of fire, for instance, the area surrounding the portal may be hotter than normal.
+|12) time. Time is funny in these parts. In the area affected by the feature, time is `dice: [[Fill#^slowerfastaer]]` relative to the surrounding area. There’s only `dice: 1d6 <=1` chance the change is imperceptible and easy to enter. Otherwise, the change is noticeable and difficult to enter, requiring `dice: [[Fill#^timeenter]]` in order to enter the zone. Inside, time passes either slower or faster at the following rate: `dice: [[Fill#^timerate]]`  There’s  `dice: 1d6 <=1` chance that the magical effect will actually transport the adventurers through time, to the `dice: [[Fill#^pastfuture]]`  of their present world. There’s`dice: 1d6 <=5` chance they will be able to get back to their real time by `dice: [[Fill#^timegetback]]`
+^spacetimemaster
+
+
+|1-4) get no saving throws to avoid the effect or 
+|5-6) may Save v. Spells to avoid the effect
+^timesave

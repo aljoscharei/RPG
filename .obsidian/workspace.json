@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "cf5fbc560be5a79f",
-        "type": "tabs",
-        "dimension": 39.3841166936791,
-        "children": [
-          {
-            "id": "a93baab0dc838bb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "18312a28a677dda5",
         "type": "tabs",
-        "dimension": 60.6158833063209,
         "children": [
           {
             "id": "9166d3a4e8d0044d",
@@ -37,14 +17,6 @@
                 "mode": "source",
                 "source": true
               }
-            }
-          },
-          {
-            "id": "32c20d523f6e3c25",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
