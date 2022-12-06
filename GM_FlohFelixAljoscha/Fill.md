@@ -1,28 +1,3 @@
-### Current position:
-
-^292114
-
-[[#Magic]]
-
-
-### Snippets
-
-`dice: [[Fill#^geysernumber]]`
-`dice: [[Fill#^volcanuashdurationlong]]`
-
-`dice: 1d20 <=1`
-`dice: 1d6 <=1`
-`dice: 1d10 <=1`
-`dice: 1d100`
-`dice: 1d4`
-`dice: 1d6`
-`dice: 1d6-1`
-`dice: 1d8`
-`dice: 1d12`
-`dice: 1d20`
-
-dice: 1d6
-
 
 7-table-1.md
 
@@ -67,7 +42,7 @@ dice: 1d6
 | 5-8        | Structure `dice: [[Fill#^StructuresMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | 9-12       | Resource [[Fill#Resources]]. `dice: [[Fill#^ResourceMaster]]` .This resource `dice: [[Fill#^exceptionalResource]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 13         | Hazard [[Fill#Hazard]] `dice: [[Fill#^HazardMaster]]`, `dice: [[Fill#^HazardArea]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 14         | Sign [[Fill#Sign]] `dice: [[[Fill#^signHex]]`]. It is: `dice: [[Fill#^signage]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 14         | Sign [[Fill#Sign]] `dice: [[Fill#^signHex]]`. It is: `dice: [[Fill#^signage]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 15         | Dungeon [[Fill#Dungeons]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | 18         | Settlement [[Fill#Settlements]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 20         | Magic [[Fill#Magic]] `dice: [[Fill#^magicmaster]]`. Magical features are broken into several categories, but they all share several broad traits: Unless otherwise stated magical features cannot be dispelled by anything short of a wish or divine intervention. Unless otherwise stated, the effects of a magical feature always occur. A zone where spells have their range increased by 25% *always* increases their range by 25%. The magic affects `dice: [[Fill#^magicarea]]`There’s `dice: 1d6<=2` chance that, when subjects of a magical effect leave the affected area, the effect ends. This applies to effects such as curses, but also more permanent effects, like the sentience of animals, which may find themselves reverting to their normal intelligence should they leave the magical area. |
@@ -75,7 +50,6 @@ dice: 1d6
 | 19         | Water [[Fill#Water]]. `dice: [[Fill#^waterMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 ^FeatureNoLairs
 
-When done Check [[Fill#^ChaosstormWhatAltered]]
 
 ### Geologic
 
@@ -83,10 +57,10 @@ When done Check [[Fill#^ChaosstormWhatAltered]]
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1         | Change in Elevation. `dice: [[Fill#^hiLow]]` of `dice: [[Fill#^ElevationYards]]` `dice: [[Fill#^ElevationType]]`. The Area is `dice: [[Fill#^ElevationArea]]`. The Terrain is `dice: [[Fill#^elevationTerrain]]` comparing to surrounding Terrain |
 | 2         | Soil `dice: [[Fill#^SoilApprearance]]` The soil is `dice: [[Fill#^SoilFecundity]]`, `dice: [[Fill#^SoilReasonFecundity]]`                                                                                                                                                                                                                                            |
-| 3         | Terrain                                                                                                                                                                                                                                           |
+| 3         | Terrain. Terrain. The local Terrain varies from surrounding Terrain. [[Fill#Terrain]] `dice: [[Fill#^TerrainVariance]]`,  `dice: [[Fill#^TerrainType]]`                                                                                                                                                                                                                                           |
 | 4         | Caves. The cave has `dice: [[Fill#^CaveEntrances]]`.One Entrance is `dice: [[Fill#^TypeCaveEntrance]]`. There are `dice: [[Fill#^NumberChambers]]`. Is the water in the cave? `dice: [[Fill#^caveWater]]`                                         |
 | 5         | Rock `dice: [[Fill#^typeRocks]]`                                                                                                                                                                                                                                              |
-| 6         | Water                                                                                                                                                                                                                                             |
+| 6         | Water [[Fill#Water]]. `dice: [[Fill#^waterMaster]]`                                                                                                                                                                                                                                              |
 ^GeologicFeature
 
 #### Caves
@@ -3994,7 +3968,7 @@ These hazards are weather-based, quick hazards that typically affect larger area
 | 51-54       | Gas Pockets. Gasses vent or gather in the location, posing a danger to travelers. There’s `dice: 1d6 <= 3` 6 chance that the presence of the gas has a tangible manifestation that can potentially be noticed, such as dead animals or plants, discoloration, strange smell, etc. There’s `dice: 1d6 <= 3` chance the gas is not permanent but is instead released every `dice: [[Fill#^gasPocketInterval]]` Roll again to determine how long the cloud remains before dispersing. Gas pockets cause `dice: [[Fill#^GasPocketEffect]]`. The cloud of gas has a radius of `dice: [[Fill#^gasRadius]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 55-75       | Other. Up to the Referee’s discretion.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 76-99       | Trap. Someone, or something, has set a trap. This could be a trap meant to catch an animal, intruders, or specifically tailored to harm the adventurers. Use the general guidelines for designing and placing traps in a dungeon.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 100         | Magical. Refer to Section 11 and tailor a magical effect as a hazard. [[Fill#Magic]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 100         | Magical. Refer to Section 11 and tailor a magical effect as a hazard. [[Fill#Magic]] `dice: [[Fill#^magicmaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 ^HazardMagical
 
 | dice: 1d6 |              |
@@ -4007,13 +3981,13 @@ These hazards are weather-based, quick hazards that typically affect larger area
 
 53-table-1.md
 
-| dice: d12 | Result                                             |
-|:--------- |:-------------------------------------------------- |
-| 1-2       | Geologic Feature `dice: [[Fill#^GeologicFeature]]` |
-| 3-4       | Resource                                           |
-| 5-6       | Terrain Terrain `dice: [[Fill#^TerrainType]]`      |
-| 7-8       | Water                                              |
-| 9-12      | Magic                                              |
+| dice: d12 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:--------- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | Geologic Feature `dice: [[Fill#^GeologicFeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 3-4       | Resource Resource [[Fill#Resources]]. `dice: [[Fill#^ResourceMaster]]` .This resource `dice: [[Fill#^exceptionalResource]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 5-6       | Terrain Terrain `dice: [[Fill#^TerrainType]]`Terrain. The local Terrain varies from surrounding Terrain. [[Fill#Terrain]] `dice: [[Fill#^TerrainVariance]]`,  `dice: [[Fill#^TerrainType]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 7-8       | Water.  [[Fill#Water]]. `dice: [[Fill#^waterMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 9-12      | Magic [[Fill#Magic]] `dice: [[Fill#^magicmaster]]`. Magical features are broken into several categories, but they all share several broad traits: Unless otherwise stated magical features cannot be dispelled by anything short of a wish or divine intervention. Unless otherwise stated, the effects of a magical feature always occur. A zone where spells have their range increased by 25% *always* increases their range by 25%. The magic affects `dice: [[Fill#^magicarea]]`There’s `dice: 1d6<=2` chance that, when subjects of a magical effect leave the affected area, the effect ends. This applies to effects such as curses, but also more permanent effects, like the sentience of animals, which may find themselves reverting to their normal intelligence should they leave the magical area. |
 ^ChaosstormWhatAltered
 
 
@@ -5067,14 +5041,14 @@ Alternatively, the Referee can roll for each subhex or hex, with each having`dic
 
 
 
-| dice: 1d100 | Result                                                                                                               |
-| ----------- | -------------------------------------------------------------------------------------------------------------------- |
-| 1-15        | Climate [[Fill#11.1. Climate]] The local climate has been magically influenced. It is `dice: [[Fill#^magicclimate]]` |
-| 16-30       | Flora and Fauna [[Fill#11.2. Flora and Fauna]]. `dice: [[Fill#^FloraFaunaMaster]]`                                   |
-| 31-55       | Other [[Fill#11.3. Other]] `dice: [[Fill#^magicalOtherMaster]]`                                                      |
-| 56-70       | Ley Lines [[Fill#11.6. Ley Lines]]                                                                                   |
-| 71-85       | Resonance or Dissonance [[Fill#11.5. Magical Resonance or Dissonance]]s                                              |
-| 86-100      | Space and Time [[Fill#11.7. Space and Time]]                                                                         |
+| dice: 1d100 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-15        | Climate [[Fill#11.1. Climate]] The local climate has been magically influenced. It is `dice: [[Fill#^magicclimate]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 16-30       | Flora and Fauna [[Fill#11.2. Flora and Fauna]]. `dice: [[Fill#^FloraFaunaMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 31-55       | Other [[Fill#11.3. Other]] This is a catch-all category for a range of magical effects..  `dice: [[Fill#^magicalOtherMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 56-70       | Ley Lines [[Fill#11.6. Ley Lines]] A ley line either `dice: [[Fill#^leylineendhere]]`. If a ley line terminates in the hex there’s `dice: 1d100<=4` chance it is a nexus where multiple ley lines meet. If it passes through the hex there’s`dice: 1d100<=1` chance that another ley line crosses it, forming a nexus. Every campaign has its own rules for ley lines. Third Kingdom Games has rules for ley lines that can be found in Hex 13.22 – The Plateau of Sighs. If a nexus does exist it will be formed from the intersection of `dice: [[Fill#^howmanyleylines]]` |
+| 71-85       | Resonance or Dissonance [[Fill#11.5. Magical Resonance or Dissonance]]. Within a roughly spherical zone magic – of all types or only specific varieties – is either enhanced or stymied. The effects only last for as long as one remains within the area. Magical effects `dice: [[Fill#^resonancedissonance]]`. The feature affects `dice: [[Fill#^affectedMagic]]`                                                                                                                                                                                                        |
+| 86-100      | Space and Time [[Fill#11.7. Space and Time]]. Space and time work differently in these areas. Those entering the area `dice: [[Fill#^timesave]]`. It is also possible to purposefully fail the saving throw should a character desire to be affected. The magic affects `dice: [[Fill#^spacetimemaster]]`                                                                                                                                                                                                                                                                    |
 ^magicmaster
 
 
@@ -5098,43 +5072,47 @@ The life in this affected area is magically altered in some way. It affects the 
 
 | dice: d100 | Result                 |
 |:---------- |:---------------------- |
-| 1-30       | Plants                 |
-| 31-60      | Animals                |
-| 61-90      | Other Creatures        |
+| 1-30       | Plants. This feature affects `dice: [[Fill#^howmanyplants]]`. The plants are `dice: [[Fill#^whichplants]]`. The plants possess the following qualities `dice: [[Fill#^plantqualities]]`                |
+| 31-60      | Animals. This category covers only the non-magical, normal- sized animals that dwell within the given area. Neither monsters, Men, nor giant versions of normal animals are covered in this category. If a specific type of animal lairs in the area then this feature will automatically affect them (and potentially other animals as well), but if not, assume that the animals affected are those that would normally live in the area: small birds, rodents, etc. Arachnids are specifically excluded from this category and are covered under the next, catch-all category. This feature affects `dice: [[Fill#^numberAnimal]]` The animals are  `dice: [[Fill#^animalKind]]` The animals have the following qualities `dice: [[Fill#^animalqualities]|`                |
+| 61-90      | Other Creatures. Other creatures that inhabit the area have been shaped by magic. It affects `dice: [[Fill#^creaturewhich]]` Roll to randomly determine the creature(s) affected. When determining what form the magical influence takes roll on the Animal table, above. However, if the result is Awakened or Sapient and the creature to be affected already is one of those two, the options are `dice: [[Fill#^creatureawakenedSentient]]`        |
 | 91-98      | Two of the above       |
 | 99-100     | All three of the above |
 ^FloraFaunaMaster
 
 ##### 11.2.1. Flora
 
-This feature affects `dice: [[Fill#^howmanyplants]]`. The plants are `dice: [[Fill#^whichplants]]`. The plants possess the following qualities `dice: [[Fill#^plantqualities]]`
+
 
 ##### 11.2.2. Fauna
-This category covers only the non-magical, normal- sized animals that dwell within the given area. Neither monsters, Men, nor giant versions of normal animals are covered in this category. If a specific type of animal lairs in the area then this feature will automatically affect them (and potentially other animals as well), but if not, assume that the animals affected are those that would normally live in the area: small birds, rodents, etc. Arachnids are specifically excluded from this category and are covered under the next, catch-all category. This feature affects `dice: [[Fill#^numberAnimal]]` The animals are  `dice: [[Fill#^animalKind]]` The animals have the following qualities `dice: [[Fill#^animalqualities]|`
+
 
 
 
 ##### 11.2.3. Other Creatures
 
-Other creatures that inhabit the area have been shaped by magic. It affects `dice: [[Fill#^creaturewhich]]` Roll to randomly determine the creature(s) affected. When determining what form the magical influence takes roll on the Animal table, above. However, if the result is Awakened or Sapient and the creature to be affected already is one of those two, the options are `dice: [[Fill#^creatureawakenedSentient]]`
+
 
 
 
 #### 11.3. Other
 
-This is a catch-all category for a range of magical effects. `dice: [[Fill#^magicalOtherMaster]]`
+ `dice: [[Fill#^magicalOtherMaster]]` 
+
+
+[[Fill#^magicalOtherMaster]]
+
 
 #### 11.5. Magical Resonance or Dissonance
 
-Within a roughly spherical zone magic – of all types or only specific varieties – is either enhanced or stymied. The effects only last for as long as one remains within the area. Magical effects `dice: [[Fill#^resonancedissonance]]`. The feature affects `dice: [[Fill#^affectedMagic]]`
+
 
 #### 11.6. Ley Lines
 
-A ley line either `dice: [[Fill#^leylineendhere]]`. If a ley line terminates in the hex there’s `dice: 1d100<=4` chance it is a nexus where multiple ley lines meet. If it passes through the hex there’s`dice: 1d100<=1` chance that another ley line crosses it, forming a nexus. Every campaign has its own rules for ley lines. Third Kingdom Games has rules for ley lines that can be found in Hex 13.22 – The Plateau of Sighs. If a nexus does exist it will be formed from the intersection of `dice: [[Fill#^howmanyleylines]]`
+
 
 #### 11.7. Space and Time
 
-Space and time work differently in these areas. Those entering the area `dice: [[Fill#^timesave]]`. It is also possible to purposefully fail the saving throw should a character desire to be affected. The magic affects `dice: [[Fill#^spacetimemaster]]`
+
 
 ### RefTables
 
@@ -5192,61 +5170,78 @@ Space and time work differently in these areas. Those entering the area `dice: [
 ^plantsmovehow
 
 
-|1-2) to hunt prey,
-|3-4) to find better sources of light,
-|5-6) to satisfy some inscrutable design. There’s a 1-3 in 6 chance the plants are subtle with their movement and do so when travelers aren’t looking, or at night. Double chances of getting lost in these instances as landmarks shift, trails are obscured, and tracks erased.
+| dice: 1d6 |                                                                                                                                                                                                                                                                             |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | to hunt prey,                                                                                                                                                                                                                                                               |
+| 3-4       | to find better sources of light,                                                                                                                                                                                                                                            |
+| 5-6       | to satisfy some inscrutable design. There’s a 1-3 in 6 chance the plants are subtle with their movement and do so when travelers aren’t looking, or at night. Double chances of getting lost in these instances as landmarks shift, trails are obscured, and tracks erased. |
 ^plantsmovewhy
 
 
 
-
-|1) Lawful, 
-|2-5) Neutral
-|6) Chaotic. 
+| dice: 1d6 |          |
+| --------- | -------- |
+| 1         | Lawful,  |
+| 2-5       | Neutral  |
+| 6         | Chaotic. |
 ^plantalignment
 
 
 
 
-
-|1-3) speech, 
-|4-5) signs or movements of their bodies,
-|6-7) empathic projections
-|8) telepathy.
+| dice: 1d6 |                                     |
+| --------- | ----------------------------------- |
+| 1-3       | speech,                             |
+| 4-5       | signs or movements of their bodies, |
+| 6-7       | empathic projections                |
+| 8         | telepathy.                          |
 ^plantspeech
 
 
 
-|1-2) meat, 
-|3) heat or cold, 
-|4) esoterica |thoughts, emotions, etc.),
-|5) ore |gold, copper, etc.), or 
-|6) magic.
+| dice: 1d6 |                                     |
+| --------- | ----------------------------------- |
+| 1-2       | meat,                               |
+| 3         | heat or cold,                       |
+| 4         | esoterica thoughts, emotions, etc., |
+| 5         | ore gold, copper, etc., or          |
+| 6         | magic.                              | 
 ^plantunusualsustenance
 
 
-|1) made of a valuable material |gold, spun glass), 
-|2) with `dice: [[Fill#^healingharmful]]`  properties, 
-|3) containing a magical spell that is triggered by eating, or breaking, or throwing, 
-|4) which transports the eater to another plane or dimension,
-|5) which acts as a randomly determined potion, or 
-|6) that when thrown will turn into a randomly determined monster. 
+
+| dice: 1d6 |                                                                                   |                    |
+| --------- | --------------------------------------------------------------------------------- | ------------------ |
+| 1         | made of a valuable material                                                       | gold, spun glass), |
+| 2         | with `dice: [[Fill#^healingharmful]]`  properties,                                |                    |
+| 3         | containing a magical spell that is triggered by eating, or breaking, or throwing, |                    |
+| 4         | which transports the eater to another plane or dimension,                         |                    |
+| 5         | which acts as a randomly determined potion, or                                    |                    |
+| 6         | that when thrown will turn into a randomly determined monster.                    |                    |
 ^plantunusualfruit
 
-
-|1-3)  healing 
-|4-6) harmful 
+| dice: 1d6 |         |
+| --------- | ------- |
+| 1-3       | healing |
+| 4-6       | harmful |
 ^healingharmful
 
-|1-3) only a single special fruit, 
-|4-5) `dice: 1d10` fruit,
-|6) `dice: 1d10`0 fruit.
+
+| dice: 1d6 |                              |
+| --------- | ---------------------------- |
+| 1-3       | only a single special fruit, |
+| 4-5       | `dice: 1d10` fruit,          |
+| 6         | `dice: 1d10`0 fruit.         |
 ^noFruit
 
-|1-3) druid, 
-|4-5) cleric, 
-|6-7) illusionist, or 
-|8) magic-user.   
+
+
+| dice: 1d6 |                 |
+| --------- | --------------- |
+| 1-3       | druid,          |
+| 4-5       | cleric,         |
+| 6-7       | illusionist, or |
+| 8         | magic-user.     |
 ^plantCaster
 
 
@@ -5258,9 +5253,10 @@ Space and time work differently in these areas. Those entering the area `dice: [
 ^unusualfeature
 
 
-
-|1-4) larger or
-|5-6) smaller than normal.
+| dice: 1d6 |                      |
+| --------- | -------------------- |
+| 1-4       | larger or            |
+| 5-6       | smaller than normal. |
 ^largersmaller
 
 
@@ -5276,9 +5272,11 @@ Space and time work differently in these areas. Those entering the area `dice: [
 ^sizediff
 
 
-|1-3) bark, 
-|4-6) leaves, 
-|7-8) both.
+| dice: 1d6 |         |
+| --------- | ------- |
+| 1-3       | bark,   |
+| 4-6       | leaves, |
+| 7-8       | both.   |
 ^barkleaves
 
 
@@ -5390,7 +5388,6 @@ Space and time work differently in these areas. Those entering the area `dice: [
 
 
 
-
 73-table-3.md
 
 | d100  | Result                                                                                                                                                                                                        |
@@ -5465,6 +5462,7 @@ Space and time work differently in these areas. Those entering the area `dice: [
 | 5-6       | increases from 1d8 to `dice: [[Fill#^HDstep]]` |
 ^HDinc1
 
+
 | dice: 1d6 |       |
 | --------- | ----- |
 | 1-3       | 1,    |
@@ -5495,6 +5493,7 @@ Space and time work differently in these areas. Those entering the area `dice: [
 ^animalDMG
 
 
+
 | dice: 1d6 |                                                        |
 | --------- | ------------------------------------------------------ |
 | 1         | poison,                                                |
@@ -5504,6 +5503,7 @@ Space and time work differently in these areas. Those entering the area `dice: [
 | 5         | a special combat maneuver - grapple, trample, etc., or |
 | 6         | something else.                                        |
 ^animalspecAtk
+
 
 
 | dice: 1d6 |                                                                                                                      |
@@ -5516,6 +5516,8 @@ Space and time work differently in these areas. Those entering the area `dice: [
 | 6         | the creature can change  form  to  escape  (such  as  a  vampire’s ability to turn into a bat or mist).              |
 ^specialdef
 
+
+
 | dice: 1d6 |                      |
 | --------- | -------------------- |
 | 1-3       | : 1 hp per round,    |
@@ -5523,7 +5525,7 @@ Space and time work differently in these areas. Those entering the area `dice: [
 | 6         | 3 hp per round),     |
 ^regeneration
 
-73-table-4.md
+
 
 | dice: 1d100 | Result                                                                                                                                                                                                                                                                                                    |
 |:----------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -5749,9 +5751,6 @@ Space and time work differently in these areas. Those entering the area `dice: [
 
 
 
-
-
-
 75-table-2.md
 
 | d100   | Result                                                                                                                                                                               |
@@ -5822,6 +5821,7 @@ Space and time work differently in these areas. Those entering the area `dice: [
 
 
 
+
 | dice: 1d6 |                                           |
 | --------- | ----------------------------------------- |
 | 1         | Level 1 spell. `dice: [[Fill#^lvl1num]]`  |
@@ -5883,7 +5883,7 @@ Space and time work differently in these areas. Those entering the area `dice: [
 ^lvl6num
 
 
-The spell that is mimicked is `dice; [[Fill#^d100spelllist]]`
+
 
 
 
@@ -5962,19 +5962,21 @@ The spell that is mimicked is `dice; [[Fill#^d100spelllist]]`
 |         100 | Water Breathing (3rd-level MU)                                                            |
 ^d100spelllist
 
-For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll of `dice: [[Fill#^spellreversal]]`. For spells that have variables determined by the caster level it will be `dice: [[Fill#^casterlevel]]`.
 
 
 
-|1-3| it is the normal version, on a 
-|4-6| it is the reversed version
+| dice: 1d6 |                                |
+| --------- | ------------------------------ |
+| 1-3       | it is the normal version, on a |
+| 4-6       | it is the reversed version     |
 ^spellreversal
 
 
-
-|1-3) `dice: 1d6`, 
-|4- 5)`dice: 1d10`, or 
-|6) `dice: 1d12`
+| dice: 1d6 |                  |
+| --------- | ---------------- |
+| 1-3       | `dice: 1d6`,     |
+| 4- 5      | `dice: 1d10`, or |
+| 6         | `dice: 1d12`     |
 ^casterlevel
 
 
@@ -5986,8 +5988,10 @@ For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll o
 | 31-45       | . Other. Design a new magical effect not covered in this section.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 46-60       | . Resource. The area is rich in a resource that has magical or alchemical applications. Refer to the section on resources. [[Fill#Resources]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 61-75       | . Settlement. The area features a settlement that is magical in nature. This manifests as `dice: [[Fill#^magicalSettlement]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| 76-100      | . Spell. `dice: [[Fill#^inhabitantsSpell]]` is under the effect of magical energy that functions as a spell. If this energy affects a creature, the spell will `dice:; [[Fill#^spellTargetInhabitants]]`. This effect is `dice: [[Fill#^spellSchedule]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 76-100      | . Spell. `dice: [[Fill#^inhabitantsSpell]]` is under the effect of magical energy that functions as a spell. If this energy affects a creature, the spell will `dice:; [[Fill#^spellTargetInhabitants]]`. This effect is `dice: [[Fill#^spellSchedule]]`.The spell that is mimicked is `dice; [[Fill#^d100spelllist]]`. For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll of `dice: [[Fill#^spellreversal]]`. For spells that have variables determined by the caster level it will be `dice: [[Fill#^casterlevel]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 ^magicalOtherMaster
+
+
 
 
 
@@ -6085,23 +6089,27 @@ For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll o
 ^durmod
 
 
-
-|1-3) –1/+1, 
-|4-5) –2/+2, or
-|6) –4/+4 
+| dice: 1d6 |           |
+| --------- | --------- |
+| 1-3       | –1/+1,    |
+| 4-5       | –2/+2, or |
+| 6         | –4/+4     |
 ^penaltybonus
  
  
 
-
-|1-3|one die category not to go below `dice: 1d4`
-|4-5|two categories  not to go below `dice: 1d4`
-|6| three categories  not to go below `dice: 1d4`
+| dice: 1d6 |                                               |
+| --------- | --------------------------------------------- |
+| 1-3       | one die category not to go below `dice: 1d4`  |
+| 4-5       | two categories  not to go below `dice: 1d4`   |
+| 6         | three categories  not to go below `dice: 1d4` |
 ^variableStep
 
 
-|1-3) will resume upon leaving the area, as if no time had passed
-|4-6) will potentially resume, assuming the duration (measured from the time of casting) has not expired
+| dice: 1d6 |                                                                                                    |
+| --------- | -------------------------------------------------------------------------------------------------- |
+| 1-3       | will resume upon leaving the area, as if no time had passed                                        |
+| 4-6       | will potentially resume, assuming the duration (measured from the time of casting) has not expired |
 ^expired
 
 
@@ -6137,9 +6145,10 @@ For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll o
 
 
 
-
-|1-5| passes through the hex 
-|6| or terminates in the hex
+| dice: 1d6 |                          |
+| --------- | ------------------------ |
+| 1-5       | passes through the hex   |
+| 6         | or terminates in the hex |
 ^leylineendhere
 
 
@@ -6155,9 +6164,11 @@ For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll o
 ^howmanyleylines
 
 
-|1-3),  six  
-|4-5),  or  seven  
-|6) ley lines
+| dice: 1d6 |              |
+| --------- | ------------ |
+| 1-3       | ,  six       |
+| 4-5       | ,  or  seven |
+| 6         | ley lines    |
 ^moreleylines
 
 79-table-1.md
@@ -6174,121 +6185,165 @@ For spells that have a normal and reversed variety roll `dice: 1d6`. On a roll o
 
 
 
-
-|1-3) 25%, Those unused to the effect suffer a penalty equal to –1 to attack rolls.
-|4-5) 50% Those unused to the effect suffer a penalty equal to –2 to attack rolls.
-|6) 100% Those unused to the effect suffer a penalty equal to –5 to attack rolls.
+| dice: 1d6 |                                                                               |
+| --------- | ----------------------------------------------------------------------------- |
+| 1-3       | 25%, Those unused to the effect suffer a penalty equal to –1 to attack rolls. |
+| 4-5       | 50% Those unused to the effect suffer a penalty equal to –2 to attack rolls.  |
+| 6         | 100% Those unused to the effect suffer a penalty equal to –5 to attack rolls. |
 ^visionmultiplier
 
 
-
-|1-3) –1, 
-|4-5) –2, or
-|6) –3,
+| dice: 1d6 |        |
+| --------- | ------ |
+| 1-3       | –1,    |
+| 4-5       | –2, or |
+| 6         | –3,    |
 ^soundsurprise
 
 
 
-
-|1-3) +1 bonus
-|4-5) +2 bonus
-|6) +4 bonus
+| dice: 1d6 |          |
+| --------- | -------- |
+| 1-3       | +1 bonus |
+| 4-5       | +2 bonus |
+| 6         | +4 bonus |
 ^corners
 
 
 
 
-
-|1-3) 10’, 
-|4-5) 20’,
-|6) 30’.
+| dice: 1d6 |      |
+| --------- | ---- |
+| 1-3       | 10’, |
+| 4-5       | 20’, |
+| 6         | 30’. |
 ^movementdistorted
 
 
 
-
-|1-3) 30’, 
-|4-5) 60’,
-|6) 90’ 
+| dice: 1d6 |      |
+| --------- | ---- |
+| 1-3       | 30’, |
+| 4-5       | 60’, |
+| 6         | 90’  |
 ^teleport
 
 
 
 
 
-
-|1-3) stronger than normal, 
-|4-6) weaker than normal, or
-|7- 8) non-existent. If gravity is non-existent, characters, and all unattached objects, “fall” `dice: 1d6 * 10` ft  into the air, and are only capable of movement through flight, pushing off nearby objects, etc.
+| dice: 1d6 |                                                                                                                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | stronger than normal,                                                                                                                                                                                         |
+| 4-6       | weaker than normal, or                                                                                                                                                                                        |
+| 7- 8      | non-existent. If gravity is non-existent, characters, and all unattached objects, “fall” `dice: 1d6 * 10` ft  into the air, and are only capable of movement through flight, pushing off nearby objects, etc. |
 ^gravitymaster
 
 
 
 
 
-
-|1-3) #1, Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`
-|4-5) #1 and #2, Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`,  Missile ranges are modified by `dice: [[Fill#^255075]]`
-|6) #1, #2, and #3. Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`,  Missile ranges are modified by `dice: [[Fill#^255075]]`. Movement is either more or less exhausting. Characters can travel `dice: [[Fill#^255075]]` longer/less than normal before needing to rest.
+| dice: 1d6 |                                                                                                                                                                                                                                                                                                                                                                               |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | #1, Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`                                                                                                                                                                                                                   |
+| 4-5       | #1 and #2, Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`,  Missile ranges are modified by `dice: [[Fill#^255075]]`                                                                                                                                                  |
+| 6         | #1, #2, and #3. Movement rates are either increased (for weaker gravity) or decreased (for stronger gravity). Rates are modified by `dice: [[Fill#^movementdistorted]]`,  Missile ranges are modified by `dice: [[Fill#^255075]]`. Movement is either more or less exhausting. Characters can travel `dice: [[Fill#^255075]]` longer/less than normal before needing to rest. |
 ^gravityconditions
 
 
-
-|1-3) 25%, 
-|4-5) 50%, or 
-|6) 75%
+| dice: 1d6 |         |
+| --------- | ------- |
+| 1-3       | 25%,    |
+| 4-5       | 50%, or |
+| 6         | 75%     |
 ^255075
 
 
-|1-4) two-way
-|5-6) one-way.
+
+| dice: 1d6 |          |
+| --------- | -------- |
+| 1-4       | two-way  |
+| 5-6       | one-way. |
 ^portaloneway
 
-|1-5) another place on the same plane, 
-|6-9) another plane, 
-|10-11) another time, or 
-|12) another place and time. 
+
+
+
+| dice: 1d12 |                                  |
+| ---------- | -------------------------------- |
+| 1-5        | another place on the same plane, |
+| 6-9        | another plane,                   |
+| 10-11      | another time, or                 |
+| 12         | another place and time.          |
 ^portalto
 
 
-|1-3) physical doorway or structure that one steps through, 
-|4-5) a road or course that one has to traverse, or 
-|6) a seamless transition.
+
+
+| dice: 1d6 |                                                       |
+| --------- | ----------------------------------------------------- |
+| 1-3       | physical doorway or structure that one steps through, |
+| 4-5       | a road or course that one has to traverse, or         |
+| 6         | a seamless transition.                                |
 ^portallook
 
-|1-2) functions continuously, 
-|3-4) functions only at a given time or event, or 
-|5-6) can only be opened by magic- spell, ritual, item, etc..
+
+
+| dice: 1d6 |                                                         |
+| --------- | ------------------------------------------------------- |
+| 1-2       | functions continuously,                                 |
+| 3-4       | functions only at a given time or event, or             |
+| 5-6       | can only be opened by magic- spell, ritual, item, etc.. |
 ^portaltrigger
 
-|1-2) an item, 
-|3- 4) a spell or ritual, 
-|5-6) or a supreme force of will (roll equal to or under Charisma on 4d6) 
+
+
+
+| dice: 1d6 |                                                                     |
+| --------- | ------------------------------------------------------------------- |
+| 1-2       | an item,                                                            |
+| 3- 4      | a spell or ritual,                                                  |
+| 5-6       | or a supreme force of will (roll equal to or under Charisma on 4d6) |
 ^timeenter
 
 
-|1-3) x5, 
-|4-5) x10, or 
-|6) x100.
+
+| dice: 1d6 |         |
+| --------- | ------- |
+| 1-3       | x5,     |
+| 4-5       | x10, or |
+| 6         | x100.   |
 ^timerate
 
-|1-2) past, 
-|3- 4) future, or
-|5-6) an alternate timeline
+
+| dice: 1d6 |                       |
+| --------- | --------------------- |
+| 1-2       | past,                 |
+| 3- 4      | future, or            |
+| 5-6       | an alternate timeline |
 ^pastfuture
 
-|1-3) retracing their steps, 
-|4-5) performing a task,
-|6) resorting to powerful magics or an item.
+
+| dice: 1d6 |                                          |
+| --------- | ---------------------------------------- |
+| 1-3       | retracing their steps,                   |
+| 4-5       | performing a task,                       |
+| 6         | resorting to powerful magics or an item. |
 ^timegetback
 
 
-|1-7) space. Geometry is strange and twisted. There’s `dice: 1d6 <=3` chance that those unfamiliar with the area must Save v. Death or become disoriented by the eldritch angles and non-euclidean geometry. Those that are native to the area, or succeed on the save, suffer no penalties. The effect manifests as `dice: [[Fill#^spacemaster]]`
-|8-11) travel. There’s a portal of some kind within the area, one that leads to `dice: [[Fill#^portalto]]` The portal is `dice: [[Fill#^portaloneway]]`. The portal is a `dice: [[Fill#^portallook]]`. The portal `dice: [[Fill#^portaltrigger]]`. There’s `dice: 1d6<=2`chance that one can glean localized clues about where the portal leads. Additionally, there’s`dice: 1d6<=1` chance that features from the connected location bleed through into the area: if the portal leads to the elemental plane of fire, for instance, the area surrounding the portal may be hotter than normal.
-|12) time. Time is funny in these parts. In the area affected by the feature, time is `dice: [[Fill#^slowerfastaer]]` relative to the surrounding area. There’s only `dice: 1d6 <=1` chance the change is imperceptible and easy to enter. Otherwise, the change is noticeable and difficult to enter, requiring `dice: [[Fill#^timeenter]]` in order to enter the zone. Inside, time passes either slower or faster at the following rate: `dice: [[Fill#^timerate]]`  There’s  `dice: 1d6 <=1` chance that the magical effect will actually transport the adventurers through time, to the `dice: [[Fill#^pastfuture]]`  of their present world. There’s`dice: 1d6 <=5` chance they will be able to get back to their real time by `dice: [[Fill#^timegetback]]`
+
+| dice: 1d6 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-7       | space. Geometry is strange and twisted. There’s `dice: 1d6 <=3` chance that those unfamiliar with the area must Save v. Death or become disoriented by the eldritch angles and non-euclidean geometry. Those that are native to the area, or succeed on the save, suffer no penalties. The effect manifests as `dice: [[Fill#^spacemaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 8-11      | travel. There’s a portal of some kind within the area, one that leads to `dice: [[Fill#^portalto]]` The portal is `dice: [[Fill#^portaloneway]]`. The portal is a `dice: [[Fill#^portallook]]`. The portal `dice: [[Fill#^portaltrigger]]`. There’s `dice: 1d6<=2`chance that one can glean localized clues about where the portal leads. Additionally, there’s`dice: 1d6<=1` chance that features from the connected location bleed through into the area: if the portal leads to the elemental plane of fire, for instance, the area surrounding the portal may be hotter than normal.                                                                                                                                                                      |
+| 12        | time. Time is funny in these parts. In the area affected by the feature, time is `dice: [[Fill#^slowerfastaer]]` relative to the surrounding area. There’s only `dice: 1d6 <=1` chance the change is imperceptible and easy to enter. Otherwise, the change is noticeable and difficult to enter, requiring `dice: [[Fill#^timeenter]]` in order to enter the zone. Inside, time passes either slower or faster at the following rate: `dice: [[Fill#^timerate]]`  There’s  `dice: 1d6 <=1` chance that the magical effect will actually transport the adventurers through time, to the `dice: [[Fill#^pastfuture]]`  of their present world. There’s`dice: 1d6 <=5` chance they will be able to get back to their real time by `dice: [[Fill#^timegetback]]` |
 ^spacetimemaster
 
 
-|1-4) get no saving throws to avoid the effect or 
-|5-6) may Save v. Spells to avoid the effect
+
+| dice: 1d6 |                                             |
+| --------- | ------------------------------------------- |
+| 1-4       | get no saving throws to avoid the effect or |
+| 5-6       | may Save v. Spells to avoid the effect      |
 ^timesave
