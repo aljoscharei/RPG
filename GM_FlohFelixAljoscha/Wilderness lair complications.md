@@ -1,3 +1,6 @@
+### Roller
+`dice: [[Wilderness lair complications#^lair]]`
+### Table
 | Heading                                                                                                                           |
 | --------------------------------------------------------------------------------------------------------------------------------- |
 | Numerous deadfalls or covered pits have been placed on side paths here                                                            |

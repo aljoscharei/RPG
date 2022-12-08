@@ -71289,82 +71289,6 @@
       }
     ],
     [
-      "Symbaroum Monster Barbarian Village guard",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Village Guard.jpeg"
-          ]
-        ],
-        "name": "Symbaroum Monster Barbarian Village guard",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 13,
-        "hp": 22,
-        "hit_dice": "(4d8 + 4)",
-        "speed": "30 ft.",
-        "stats": [
-          15,
-          12,
-          13,
-          10,
-          14,
-          10
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 4
-          },
-          {
-            "Perception": 4
-          },
-          {
-            "Survival": 4
-          }
-        ],
-        "senses": "passive Perception 14",
-        "languages": "Ambrian, Barbarian",
-        "equipment": "hunting traps and fishing gear, wooden figurine (the clan’s spirit guardian), 3 throwing spears, 1d10 ortegs",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Hunter’s Instinct",
-            "desc": "The village guard can use its bonus action to mark one creature as its chosen target. Thea first time it does damage to the target, it does +2 bonus damage. It can use its reaction when the target moves to make a ranged weapon attack."
-          },
-          {
-            "name": "Trapper",
-            "desc": "The village guard can use its action to deploy a mechanical trap within 5 feet of its position. A creature that enters the area must make a DC 10 Dexterity saving throw or take 6 (1d12) bludgeoning damage. The village guard is never affected by the trap, but treats the area around the trap as difficult terrain."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Axe",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
-          },
-          {
-            "name": "Spear",
-            "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60, one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 30,
-            "col": 3,
-            "offset": 1440
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard 2.md",
-        "mtime": 1666787628000
-      }
-    ],
-    [
       "Symbaroum Monster Drunkard",
       {
         "statblock": true,
@@ -71428,20 +71352,209 @@
       }
     ],
     [
+      "Symbaroum Monster Witch - Keeper",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Witch - Keeper",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 13,
+        "hp": 58,
+        "hit_dice": "(9d8 + 18)",
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          14,
+          15,
+          13,
+          20,
+          11
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 4
+          },
+          {
+            "Insight": 8
+          },
+          {
+            "Perception": 8
+          }
+        ],
+        "senses": "passive Perception 18",
+        "languages": "Ambrian, Barbarian, Goblin",
+        "equipment": "component pouch, elixir of life, witch braid, healing spider",
+        "cr": 5,
+        "traits": [
+          {
+            "name": "Lay on Hands (3/day)",
+            "desc": "the witch can touch a creature and restore 6 hit points to them as an action."
+          },
+          {
+            "name": "Nature’s Lullaby (3/day)",
+            "desc": "the witch can use this feature to bypass an abomination."
+          },
+          {
+            "name": "Shapeshither (3/day)",
+            "desc": "the witch can become a baiagorn (see page 136) for four hours."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "the witch’s spellcasting ability is Wisdom (+8 to hit, spell save DC 16) and it knows the follow- ing spells:"
+          },
+          {
+            "name": "Cantrips",
+            "desc": "[[5e Spell Symbaroum Spell Accurate Strike]] (0), [[5e spells chill_touch 1d8 dmg w]] (0), [[5e spells mage_hand remote w]] (0), [[5e spells minor_illusion sight or sound w]] (0),[[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (0)"
+          },
+          {
+            "name": "1st-level spell",
+            "desc": "[[5e spells comprehend_languages but not speak w]] (1), [[5e spells expeditious retreat dash w]](1), [[find_familiar w]] (1d4 + 1)"
+          },
+          {
+            "name": "2nd-level spells",
+            "desc": "[[mirror_image 3 duplicates w]] (1d4 + 2), [[suggestion mind control w]] (1d4 + 2)"
+          },
+          {
+            "name": "3rd-level spells",
+            "desc": "[[5e spells counterspell interrupt w]] (1d4 + 3),[[hypnotic_pattern mass charm w]] (3)"
+          },
+          {
+            "name": "4th-level spells",
+            "desc": "[[blight wither w]] (1d4 + 4), [[hallucinatory_terrain no touch w]] (4)"
+          },
+          {
+            "name": "5th-level spells",
+            "desc": "[[scrying on creature wc]] (1d4 + 5), [[5e spells Symbaroum Rituals Turn weather]] (5)"
+          },
+          {
+            "name": "Rituals",
+            "desc": "[[5e Spells Symbaroum Spells Blood Bond]], [[illusory_script w]], [[unseen_servant w]]"
+          },
+          {
+            "name": "Witch Braid",
+            "desc": "the witch has advantage on death saving throws."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Dagger",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 48,
+            "col": 3,
+            "offset": 2172
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Witch - Keeper.md",
+        "mtime": 1668189529285
+      }
+    ],
+    [
+      "Symbaroum Monster Village Barbarian warrior",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Barbarian Warrior.jpeg"
+          ]
+        ],
+        "name": "Symbaroum Monster Village Barbarian warrior",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 17,
+        "hp": 37,
+        "hit_dice": "(5d8 + 15)",
+        "speed": "30 ft.",
+        "stats": [
+          18,
+          12,
+          17,
+          10,
+          14,
+          12
+        ],
+        "saves": [
+          {
+            "Strength": 6
+          },
+          {
+            "Constitution": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 6
+          },
+          {
+            "Perception": 4
+          },
+          {
+            "Survival": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Ambrian, Barbarian",
+        "equipment": "a wooden or metal beaker, wooden figurine (the clan’s spirit guardian), stone for sharpening the axe, 1d10 shillings",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Man-at-Arms",
+            "desc": "The village warrior’s armor class is improved by +1. It can don or doff armor in half the regular required time."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The village warrior makes two attacks with its double-axe."
+          },
+          {
+            "name": "Double-axe",
+            "desc": "Melee Weapon Attack: +6 to hit, reach  5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Two-handed Force",
+            "desc": "If the village warrior misses an attack, it can use its reaction to reroll the attack."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 34,
+            "col": 3,
+            "offset": 1049
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior 2.md",
+        "mtime": 1666787738000
+      }
+    ],
+    [
       "Adult Black Dragon",
       {
         "statblock": true,
         "name": "Adult Black Dragon",
-        "source": [
-          "Monster Manual",
-          "Hoard of the Dragon Queen",
-          "Princes of the Apocalypse",
-          "The Rise of Tiamat",
-          "Ghosts of Saltmarsh",
-          "Candlekeep Mysteries"
-        ],
         "type": "dragon",
-        "subtype": null,
         "size": "Huge",
         "alignment": "chaotic or evil",
         "hp": 195,
@@ -71538,7 +71651,6 @@
           }
         ],
         "spells": null,
-        "spellsNotes": null,
         "position": {
           "start": {
             "line": 0,
@@ -71546,78 +71658,13 @@
             "offset": 0
           },
           "end": {
-            "line": 69,
+            "line": 61,
             "col": 3,
-            "offset": 2659
+            "offset": 2514
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/5e Monster adult black dragon.md",
-        "mtime": 1667754652868
-      }
-    ],
-    [
-      "Symbaroum Monster Lostling Possession",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Frostlight.png"
-          ]
-        ],
-        "name": "Symbaroum Monster Lostling Possession",
-        "size": "Small",
-        "type": "undead",
-        "alignment": null,
-        "ac": 18,
-        "hp": 33,
-        "hit_dice": "(6d6 + 12)",
-        "speed": "25 ft.",
-        "stats": [
-          10,
-          18,
-          14,
-          10,
-          15,
-          7
-        ],
-        "senses": "darkvision 60 ft., passive Perception 12",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 2,
-        "traits": [
-          {
-            "name": "Haunting",
-            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
-          },
-          {
-            "name": "Insubstantial",
-            "desc": "The lostling can pass through objects and creatures without issue."
-          },
-          {
-            "name": "Pack Tactics",
-            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Vitality Drain",
-            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 26,
-            "col": 3,
-            "offset": 1148
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession 2.md",
-        "mtime": 1666950651000
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Adult Black Dragon.md",
+        "mtime": 1667969751178
       }
     ],
     [
@@ -71761,11 +71808,7 @@
       "Symbaroum Monster Artisan",
       {
         "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
+        "image": "Wikilink To Image",
         "name": "Symbaroum Monster Artisan",
         "size": "Medium",
         "type": "human",
@@ -71803,6 +71846,9 @@
             "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage or 9 (1d10 + 4) bludgeoning damage if wielded with two hands."
           }
         ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
         "position": {
           "start": {
             "line": 0,
@@ -71810,13 +71856,89 @@
             "offset": 0
           },
           "end": {
-            "line": 24,
+            "line": 39,
             "col": 3,
-            "offset": 789
+            "offset": 893
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan.md",
-        "mtime": 1668195332067
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan CR 1 2.md",
+        "mtime": 1666115803000
+      }
+    ],
+    [
+      "Symbaroum Monster Barbarian Village guard",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Village Guard.jpeg"
+          ]
+        ],
+        "name": "Symbaroum Monster Barbarian Village guard",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 13,
+        "hp": 22,
+        "hit_dice": "(4d8 + 4)",
+        "speed": "30 ft.",
+        "stats": [
+          15,
+          12,
+          13,
+          10,
+          14,
+          10
+        ],
+        "skillsaves": [
+          {
+            "Athletics": 4
+          },
+          {
+            "Perception": 4
+          },
+          {
+            "Survival": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Ambrian, Barbarian",
+        "equipment": "hunting traps and fishing gear, wooden figurine (the clan’s spirit guardian), 3 throwing spears, 1d10 ortegs",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Hunter’s Instinct",
+            "desc": "The village guard can use its bonus action to mark one creature as its chosen target. Thea first time it does damage to the target, it does +2 bonus damage. It can use its reaction when the target moves to make a ranged weapon attack."
+          },
+          {
+            "name": "Trapper",
+            "desc": "The village guard can use its action to deploy a mechanical trap within 5 feet of its position. A creature that enters the area must make a DC 10 Dexterity saving throw or take 6 (1d12) bludgeoning damage. The village guard is never affected by the trap, but treats the area around the trap as difficult terrain."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Axe",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage."
+          },
+          {
+            "name": "Spear",
+            "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60, one target. Hit: 5 (1d6 + 2) piercing damage or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 30,
+            "col": 3,
+            "offset": 1440
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Barbarian Village guard 2.md",
+        "mtime": 1666787628000
       }
     ],
     [
@@ -72047,6 +72169,71 @@
       }
     ],
     [
+      "Symbaroum Monster Lostling Possession",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Frostlight.png"
+          ]
+        ],
+        "name": "Symbaroum Monster Lostling Possession",
+        "size": "Small",
+        "type": "undead",
+        "alignment": null,
+        "ac": 18,
+        "hp": 33,
+        "hit_dice": "(6d6 + 12)",
+        "speed": "25 ft.",
+        "stats": [
+          10,
+          18,
+          14,
+          10,
+          15,
+          7
+        ],
+        "senses": "darkvision 60 ft., passive Perception 12",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 2,
+        "traits": [
+          {
+            "name": "Haunting",
+            "desc": "A lostling that is inside a creature can attempt to take control of the creature. The creature must make a DC 12 Wisdom saving throw or become [[20220210209 5e Conditions Possessed]] by the creature. At the end of its turn it can repeat the saving throw, ending the effect on a success. A creature that succeeds on the saving throw is immune to the haunting feature for 24 hours."
+          },
+          {
+            "name": "Insubstantial",
+            "desc": "The lostling can pass through objects and creatures without issue."
+          },
+          {
+            "name": "Pack Tactics",
+            "desc": "The lostling has advantage on an attack roll against a creature if at least one of the lostling’s allies is within 5 feet of the creature and the ally isn’t incapacitated."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Vitality Drain",
+            "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 14 (4d6) necrotic damage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 1148
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Lostling Possession.md",
+        "mtime": 1668194392685
+      }
+    ],
+    [
       "Symbaroum Monster Novice of the Order",
       {
         "statblock": true,
@@ -72132,8 +72319,8 @@
             "offset": 1230
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order.md",
-        "mtime": 1668194357370
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Novice of the Order 2.md",
+        "mtime": 1666869256000
       }
     ],
     [
@@ -72230,92 +72417,6 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Ravenous Willow, Young Strangler.md",
         "mtime": 1668193986822
-      }
-    ],
-    [
-      "Symbaroum Monster Village Barbarian warrior",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Barbarian Warrior.jpeg"
-          ]
-        ],
-        "name": "Symbaroum Monster Village Barbarian warrior",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 17,
-        "hp": 37,
-        "hit_dice": "(5d8 + 15)",
-        "speed": "30 ft.",
-        "stats": [
-          18,
-          12,
-          17,
-          10,
-          14,
-          12
-        ],
-        "saves": [
-          {
-            "Strength": 6
-          },
-          {
-            "Constitution": 5
-          }
-        ],
-        "skillsaves": [
-          {
-            "Athletics": 6
-          },
-          {
-            "Perception": 4
-          },
-          {
-            "Survival": 4
-          }
-        ],
-        "senses": "passive Perception 14",
-        "languages": "Ambrian, Barbarian",
-        "equipment": "a wooden or metal beaker, wooden figurine (the clan’s spirit guardian), stone for sharpening the axe, 1d10 shillings",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Man-at-Arms",
-            "desc": "The village warrior’s armor class is improved by +1. It can don or doff armor in half the regular required time."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Multiattack",
-            "desc": "The village warrior makes two attacks with its double-axe."
-          },
-          {
-            "name": "Double-axe",
-            "desc": "Melee Weapon Attack: +6 to hit, reach  5 ft., one target. Hit: 10 (1d12 + 4) slashing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Two-handed Force",
-            "desc": "If the village warrior misses an attack, it can use its reaction to reroll the attack."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 34,
-            "col": 3,
-            "offset": 1049
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior.md",
-        "mtime": 1668194386538
       }
     ],
     [
@@ -72587,120 +72688,8 @@
             "offset": 907
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho.md",
-        "mtime": 1668193986822
-      }
-    ],
-    [
-      "Symbaroum Monster Witch - Keeper",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Witch - Keeper",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 13,
-        "hp": 58,
-        "hit_dice": "(9d8 + 18)",
-        "speed": "30 ft.",
-        "stats": [
-          10,
-          14,
-          15,
-          13,
-          20,
-          11
-        ],
-        "skillsaves": [
-          {
-            "Arcana": 4
-          },
-          {
-            "Insight": 8
-          },
-          {
-            "Perception": 8
-          }
-        ],
-        "senses": "passive Perception 18",
-        "languages": "Ambrian, Barbarian, Goblin",
-        "equipment": "component pouch, elixir of life, witch braid, healing spider",
-        "cr": 5,
-        "traits": [
-          {
-            "name": "Lay on Hands (3/day)",
-            "desc": "the witch can touch a creature and restore 6 hit points to them as an action."
-          },
-          {
-            "name": "Nature’s Lullaby (3/day)",
-            "desc": "the witch can use this feature to bypass an abomination."
-          },
-          {
-            "name": "Shapeshither (3/day)",
-            "desc": "the witch can become a baiagorn (see page 136) for four hours."
-          },
-          {
-            "name": "Spellcasting",
-            "desc": "the witch’s spellcasting ability is Wisdom (+8 to hit, spell save DC 16) and it knows the follow- ing spells:"
-          },
-          {
-            "name": "Cantrips",
-            "desc": "[[5e Spell Symbaroum Spell Accurate Strike]] (0), [[5e spells chill_touch 1d8 dmg w]] (0), [[5e spells mage_hand remote w]] (0), [[5e spells minor_illusion sight or sound w]] (0),[[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (0)"
-          },
-          {
-            "name": "1st-level spell",
-            "desc": "[[5e spells comprehend_languages but not speak w]] (1), [[5e spells expeditious retreat dash w]](1), [[find_familiar w]] (1d4 + 1)"
-          },
-          {
-            "name": "2nd-level spells",
-            "desc": "[[mirror_image 3 duplicates w]] (1d4 + 2), [[suggestion mind control w]] (1d4 + 2)"
-          },
-          {
-            "name": "3rd-level spells",
-            "desc": "[[5e spells counterspell interrupt w]] (1d4 + 3),[[hypnotic_pattern mass charm w]] (3)"
-          },
-          {
-            "name": "4th-level spells",
-            "desc": "[[blight wither w]] (1d4 + 4), [[hallucinatory_terrain no touch w]] (4)"
-          },
-          {
-            "name": "5th-level spells",
-            "desc": "[[scrying on creature wc]] (1d4 + 5), [[5e spells Symbaroum Rituals Turn weather]] (5)"
-          },
-          {
-            "name": "Rituals",
-            "desc": "[[5e Spells Symbaroum Spells Blood Bond]], [[illusory_script w]], [[unseen_servant w]]"
-          },
-          {
-            "name": "Witch Braid",
-            "desc": "the witch has advantage on death saving throws."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Dagger",
-            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 48,
-            "col": 3,
-            "offset": 2172
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Witch - Keeper.md",
-        "mtime": 1668189529285
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho 2.md",
+        "mtime": 1666786665000
       }
     ]
   ],

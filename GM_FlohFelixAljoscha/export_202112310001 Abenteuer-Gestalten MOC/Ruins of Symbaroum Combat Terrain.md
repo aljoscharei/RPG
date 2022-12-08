@@ -1,9 +1,25 @@
 [[Encounters MOC]]
 [[Room-Design]]
-
+### Roll Urban:
+![[Urban dwelling complications#Roller]]
+`dice: [[Ruins of Symbaroum Combat Terrain#^city]]`
+### Roll Farm
+`dice: [[Ruins of Symbaroum Combat Terrain#^farm]]`
+### Roll Forest
+`dice: [[Ruins of Symbaroum Combat Terrain#^forest]]`
+### Roll Mountain: 
+`dice: [[Ruins of Symbaroum Combat Terrain#^mntn]]`
+### Roll Ruins: 
+`dice: [[Ruins of Symbaroum Combat Terrain#^ruins]]`
+![[Deep Chamber Complications#Roller]]
+### Roll Swamp:
+`dice: [[Ruins of Symbaroum Combat Terrain#^swamp]]`
+### Roll Underworld: 
+`dice: [[Ruins of Symbaroum Combat Terrain#^underworld]]`
+### Roll Water: 
+`dice: [[Ruins of Symbaroum Combat Terrain#^waters]]`
 
 # city
-
 
 | Heading                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -102,3 +118,7 @@ these are unDerGrounD areas, anywhere from the basement areas of ruins, to mine 
 | shoreLines - At the edge of a sea, ocean, or large lake is often a shoreline that has withstood the waves and tides of innumerable years. Many of these areas have soft sand (see Muddy Areas, above). Others have jagged rocks or steep cliffs. For these, a creature must make a DC 10 Dexterity saving throw when entering the area, taking 3 (1d6) slashing damage on a failure.      | 
 
 ^waters
+
+
+---
+[[202203091119 Random Tables MOC]]

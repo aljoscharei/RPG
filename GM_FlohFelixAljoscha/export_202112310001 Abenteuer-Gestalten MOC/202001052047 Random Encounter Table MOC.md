@@ -64,6 +64,8 @@ Suggested encounters in Bright Davokar:◆ ◆ Elves: Spring Elf, Summer Elf (Ea
 [[Encounter Distance]]
 
 
+[[Wilderness Exploration]]
+
 _Created at 20200105._
 _Last updated at 20200105._
 

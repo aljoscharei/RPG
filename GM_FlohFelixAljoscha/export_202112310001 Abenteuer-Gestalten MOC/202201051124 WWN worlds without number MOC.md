@@ -23,7 +23,7 @@
 - [[202203280513 WWN p 247 Random Encounters]]
 
 
-
+[[WWN Index of Random Tables]]
 - Campaign building [[202203091103 Sly flourish lazy dm companion MOC#^5d4b96]]
 	-  Terrain
 		- Terrain Biome p125/121

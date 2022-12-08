@@ -11,3 +11,4 @@
 [[Symbaroum Monster Blight-Born Human]]
 [[Symbaroum Monster Blight-Born Aboar]]
 [[Symbaroum Monster Blight-born Elk]]
+^table

@@ -5,7 +5,7 @@
  [[202101270827 Stocking Hexes Dressing MOC]]
  [[202203091119 Random Tables MOC]]
 ---
-![[Fill]]
+![[Filling in the Blanks]]
 
 [[000 media/Filling_in_the_Blanks.pdf]]
 https://www.evernote.com/shard/s411/nl/67319131/3cbe0e32-6fd2-4943-be53-66bd4493618b/

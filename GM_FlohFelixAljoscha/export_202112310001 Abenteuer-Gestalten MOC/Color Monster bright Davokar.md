@@ -1,5 +1,5 @@
-- [[Symbaroum Monster Ettermite]]
--[[Symbaroum Monster Arach Poisoner]]
+[[Symbaroum Monster Ettermite]]
+[[Symbaroum Monster Arach Poisoner]]
 [[Symbaroum Monster Arach Exalted]]
 [[Symbaroum Monster glowing Guard]]
 [[Symbaroum Monster Coloss]]
@@ -11,3 +11,4 @@
 [[Symbaroum Monster Jakaar, battle-trained]]
 [[Symbaroum Monster Kelder]]
 [[Symbaroum Monster Lostling Possession]]
+^table

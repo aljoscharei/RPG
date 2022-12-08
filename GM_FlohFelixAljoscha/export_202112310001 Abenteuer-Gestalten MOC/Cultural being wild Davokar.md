@@ -2,3 +2,4 @@
 [[Symbaroum Monster Bestiaal Winged Hunter]]
 [[Symbaroum Monster bestiaal clawing fighter]]
 [[Symbaroum Monster Bestiaal - Glint Carrier]]
+^table

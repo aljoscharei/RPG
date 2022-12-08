@@ -1,3 +1,6 @@
+## Roller
+`dice: [[Urban dwelling complications#^urban]]`
+## table
 | Heading                                                                                                    |
 | ---------------------------------------------------------------------------------------------------------- |
 | The guards are unusually vigilant and attentive to their duties for some reason                            |

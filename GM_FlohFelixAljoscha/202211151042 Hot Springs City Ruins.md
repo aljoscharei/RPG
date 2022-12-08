@@ -277,3 +277,7 @@
 | Major NPC                 |
 | One Massive Sleeping Ogre |
 ^Encounter
+
+
+---
+[[202203091119 Random Tables MOC]]

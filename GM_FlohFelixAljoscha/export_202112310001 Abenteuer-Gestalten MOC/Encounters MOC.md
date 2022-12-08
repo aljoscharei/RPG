@@ -25,25 +25,30 @@
  [[202201051124 WWN worlds without number MOC]]
 Lair: `dice: [[Wilderness lair complications#^lair]]`
 Dungeon: `dice: [[Deep Chamber Complications#^deep]]`
+![[Symbaroum Random Encounter Tables]]
+
 
 ## Terrain
 ### Urban:
-Urban dwelling: `dice: [[Urban dwelling complications#^urban]]`
-`dice: [[Ruins of Symbaroum Combat Terrain#^city]]`
+![[Urban dwelling complications#Roller]]
+![[Ruins of Symbaroum Combat Terrain#Roll Urban:]]
 ### Farm: 
-`dice: [[Ruins of Symbaroum Combat Terrain#^farm]]`
+![[Ruins of Symbaroum Combat Terrain#Roll Farm]]
 ### Forest: 
-`dice: [[Ruins of Symbaroum Combat Terrain#^forest]]`
+![[Ruins of Symbaroum Combat Terrain#Roll Forest]]
+![[Wilderness lair complications#Roller]]
 ### Mountain: 
-`dice: [[Ruins of Symbaroum Combat Terrain#^mntn]]`
+![[Ruins of Symbaroum Combat Terrain#Roll Mountain:]]
 ### Ruins: 
-`dice: [[Ruins of Symbaroum Combat Terrain#^ruins]]`
+![[Ruins of Symbaroum Combat Terrain#Roll Ruins:]]
 ### Swamp:
-`dice: [[Ruins of Symbaroum Combat Terrain#^swamp]]`
+![[Ruins of Symbaroum Combat Terrain#Roll Swamp:]]
 ### Underworld: 
-`dice: [[Ruins of Symbaroum Combat Terrain#^underworld]]`
+![[Ruins of Symbaroum Combat Terrain#Roll Underworld:]]
 ### Water: 
-`dice: [[Ruins of Symbaroum Combat Terrain#^waters]]`
+![[Ruins of Symbaroum Combat Terrain#Roll Water:]]
+
+
 
 
 

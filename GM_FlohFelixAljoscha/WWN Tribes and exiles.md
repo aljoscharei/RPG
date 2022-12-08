@@ -177,3 +177,4 @@ Features of this tribe: `dice:[[WWN Tribes and exiles#^Features]]`
 
 ---
 [[202203091119 Random Tables MOC]]
+[[5e DMG 05 Adventure Environments]]

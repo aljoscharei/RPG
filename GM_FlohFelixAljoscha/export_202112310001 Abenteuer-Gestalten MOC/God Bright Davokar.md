@@ -1,1 +1,3 @@
 [[Symbaroum Monster lindwurm]]
+
+^table

@@ -87,6 +87,7 @@ Andererseits vielleicht ist es besser, den Apparat an Vordaten zu ignorieren und
 -   Adventure hooks
  **No Database, forget**
  https://slyflourish.com/throwing_away_secrets.html
+ How to show? ![[How to Show Info#Roll]]
 ## Scenes je nach Abenteuerart 
 - ortsgebunden
 	- hexes from database or make new [[202201102142 Hexcrawl MOC]] [[202101270827 Stocking Hexes Dressing MOC]]
@@ -98,6 +99,8 @@ Andererseits vielleicht ist es besser, den Apparat an Vordaten zu ignorieren und
 
 ##  Locations 
 - [[Symbaroum Locations MOC]]
+- [[Wilderness Exploration]]
+
 - https://dysonlogos.blog/maps/
 ---
 ## NPCs
@@ -112,10 +115,11 @@ Review NPCs likely to come up
 	- Calculate the **deadly encounter benchmark** by adding together all character levels and dividing by 2 if they're 5th level or above or divide by 4 if they're 1st to 4th level. An encounter may be deadly if the sum total of monster challenge ratings is greater than half the sum total of character levels or one quarter of character levels if the characters are 4th level or below.
 
 ---
-
+## Quest Hooks
+[[Random Quest Hook]]
 ## Encounters:
 ![[Encounters MOC#Planned Encounters]]
-![[Symbaroum Random Encounter Tables#Roller]]
+![[Symbaroum Random Encounter Tables]]
 ![[Encounters MOC#Actions]]
 ![[Encounters MOC#Terrain]]
 ## Treasure

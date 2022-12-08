@@ -41,7 +41,7 @@
 - General places of advenure 146 [[202203191259 WWN p146 Ruins and Points of Interest]]
 - Places specific to the latter earth 146
 - Communities
-	- rural villages [[202211151020 WWN Rural Village]]
+	- rural villages [[202211151020 WWN Rural Village]] integriert in [[202211150936 Random Village]]
 		- rationale for village existence 149
 		- features of village 149
 		- ivolvement with adventurers 149

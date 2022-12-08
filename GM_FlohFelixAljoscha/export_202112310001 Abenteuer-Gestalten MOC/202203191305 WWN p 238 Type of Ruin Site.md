@@ -1,85 +1,156 @@
+## Roller:
+`dice: [[202203191305 WWN p 238 Type of Ruin Site#^dungeonType]]`
+## Table
+| Dungeon Type                                                             |
+| ------------------------------------------------------------------------ |
+| Residential Site Isolated rural estate of nobility                       |
+| Residential Site Compact fortified village                               |
+| Residential Site Mazey urban residential block                           |
+| Residential Site Sprawling slum of shanties and huts                     |
+| Residential Site Townhouse of minor gentry                               |
+| Residential Site Rural grange with outbuildings                          |
+| Residential Site Hidden shelter against calamity                         |
+| Residential Site Rubble-wrought makeshift village                        |
+| Residential Site Inhabited natural feature or cave                       |
+| Residential Site Outpost of refugees or recluses                         |
+| Residential Site Inhabitet Natural Feature or Cave                       |
+| Military Site Grand fortress of major significance                       |
+| Military Site Remote frontier keep                                       |
+| Military Site Isolated watchtower                                        |
+| Military Site Military training camp                                     |
+| Military Site Half-subterranean entrenchments                            |
+| Military Site Battlefield littered with fortifications                   |
+| Military Site Hidden bunker or strongpoint                               |
+| Military Site Secret operations base                                     |
+| Military Site Battered front-line fortress                               |
+| Military Site Gatehouse controlling a vital pass                         |
+| Military Site Military cache or storehouse                               |
+| Military Site Fortified waystation                                       |
+| Production Site Illicit manufactory for illegal goods                    |
+| Production Site Sacred shrine for holy product                           |
+| Production Site Destroyed camp or extraction site                        |
+| Production Site Inexplicable ancient manufactory                         |
+| Production Site Magical production facility                              |
+| Production Site Mine or open pit for excavation                          |
+| Production Site Overgrown ancient plantation                             |
+| Production Site Managed woodland gone feral                              |
+| Production Site Farm for now-feral valuable beasts                       |
+| Production Site Repurposed ancient manufactory                           |
+| Production Site Fishery or salt extraction site                          |
+| Religious Site Lost pilgrimage destination                               |
+| Religious Site Tomb of some mighty ancient                               |
+| Religious Site Shrine repurposed for a newer god                         |
+| Religious Site Inexplicable sacred structure                             |
+| Religious Site Pilgrim hospital or waystation                            |
+| Religious Site Fortified frontier monastery                              |
+| Religious Site Prison-monastery for heretics                             |
+| Religious Site Place of some holy trial or test                          |
+| Religious Site Prison for a sealed demonic force                         |
+| Religious Site Holy archive or relic-fortress                            |
+| Cultural Site Ancient culture’s gathering site                           |
+| Cultural Site Monument complex to lost glories                           |
+| Cultural Site Abandoned school or study center                           |
+| Cultural Site Museum of a lost nation                                    |
+| Cultural Site Library or ancient archive                                 |
+| Cultural Site Resort for nobles at ease                                  |
+| Cultural Site Enormous musical structure                                 |
+| Cultural Site Massive ceremonial structure                               |
+| Cultural Site Taboo site of dark magic                                   |
+| Infrastructure Site Psychic or tech communications site or fire Beacons! |
+| Infrastructure Site Canal or aqueduct control center                     |
+| Infrastructure Site Massive bridge or tunnel                             |
+| Infrastructure Site Huge ancient dam                                     |
+| Infrastructure Site Ancient road through an obstacle                     |
+| Infrastructure Site Now-incomprehensible wreckage                        |
+
+^dungeonType
+
+- Residential Site
+	Isolated rural estate of nobility
+	Compact fortified village
+	Mazey urban residential block
+	Sprawling slum of shanties and huts
+	Townhouse of minor gentry
+	Rural grange with outbuildings 
+	Hidden shelter against calamity
+	Rubble-wrought makeshift village Inhabited natural feature or cave
+	Outpost of refugees or recluses
+	Inhabitet Natural Feature or Cave
+	**NO**Massive tenement or slum tower
+	**NO**Ancient arcology or fragment of it
+
+- Military Site
+	 - Grand fortress of major significance
+	 - Remote frontier keep
+	 - Isolated watchtower
+	 - Military training camp
+	 - Half-subterranean entrenchments
+	 - Battlefield littered with fortifications
+	 - Hidden bunker or strongpoint
+	 - Secret operations base
+	 - Battered front-line fortress
+	 - Gatehouse controlling a vital pass
+	 - Military cache or storehouse
+	 - Fortified waystation
+
+-  Production Site
+	  - Illicit manufactory for illegal goods
+	  - Sacred shrine for holy product 
+	  - Destroyed camp or extraction site
+	  - Inexplicable ancient manufactory
+	  - Magical production facility
+	  - Mine or open pit for excavation
+	  - Overgrown ancient plantation 
+	  - Managed woodland gone feral
+	  - Farm for now-feral valuable beasts
+	  - Repurposed ancient manufactory
+	  - Fishery or salt extraction site
+	  - **NO**Outsider goods production site
+
+-   Religious
+  - Lost pilgrimage destination
+  - Tomb of some mighty ancient 
+  - Shrine repurposed for a newer god
+  - Inexplicable sacred structure
+  - Pilgrim hospital or waystation
+  - Fortified frontier monastery
+  - Prison-monastery for heretics 
+  - Place of some holy trial or test 
+  - Prison for a sealed demonic force
+  - Holy archive or relic-fortress
+  - **NO**Fragment of megastructure temple
+  - **NO**Outsider fane to an alien god
+
+-   Cultural Site
+  - Ancient culture’s gathering site
+  - Monument complex to lost glories
+  - Abandoned school or study center
+  - Museum of a lost nation
+  - Library or ancient archive
+  - Resort for nobles at ease  
+  - Enormous musical structure
+  - Massive ceremonial structure
+  - Taboo site of dark magic
+  - **NO**Indoctrination camp or prison
+  - **NO**Preserved “heritage” village-resort
+  - **NO**Inscrutable Outsider art structure
+
+-   Infrastructure
+   - Psychic or tech communications site or fire Beacons!
+   - Canal or aqueduct control center
+   - Massive bridge or tunnel
+   - Huge ancient dam 
+   - Ancient road through an obstacle
+   - Now-incomprehensible wreckage
+  - **NO** Subterranean transit tunnels
+   - **NO**Weather-control Working ruin 
+   - **NO**Semi-ruined teleportation node
+   - **NO**Ancient power production center
+   - **NO**Outsider xenoforming engine
+   - **NO**Reality-stabilizing Working ruin
+
+---
 [[202101270827 Stocking Hexes Dressing MOC]]
 [[202201051124 WWN worlds without number MOC]]
 [[202203091119 Random Tables MOC]]
-
-- Residential Site
-	1. Isolated rural estate of nobility
-	2. Compact fortified village
-	3. Mazey urban residential block
-	4. Sprawling slum of shanties and huts
-	5. Townhouse of minor gentry
-	6. Rural grange with outbuildings 
-	7. Hidden shelter against calamity
-	8. Rubble-wrought makeshift village Inhabited natural feature or cave
-	9. Outpost of refugees or recluses
-	10. Inhabitet Natural Feature or Cave
-	11. **NO**Massive tenement or slum tower
-	12. **NO**Ancient arcology or fragment of it
-- Military Site
-	1.  Grand fortress of major significance
-	2.  Remote frontier keep
-	3.  Isolated watchtower
-	4.  Military training camp
-	5.  Half-subterranean entrenchments
-	6.  Battlefield littered with fortifications
-	7.  Hidden bunker or strongpoint
-	8.  Secret operations base
-	9.  Battered front-line fortress
-	10.  Gatehouse controlling a vital pass
-	11.  Military cache or storehouse
-	12.  Fortified waystation
--  Production Site
-	1.   Illicit manufactory for illegal goods
-	2.   Sacred shrine for holy product 
-	3.   Destroyed camp or extraction site
-	4.   Inexplicable ancient manufactory
-	5.   Magical production facility
-	6.   Mine or open pit for excavation
-	7.   Overgrown ancient plantation 
-	8.   Managed woodland gone feral
-	9.   Farm for now-feral valuable beasts
-	10.   Repurposed ancient manufactory
-	11.   Fishery or salt extraction site
-	12.   **NO**Outsider goods production site
--   Religious
-	1.   Lost pilgrimage destination
-	2.   Tomb of some mighty ancient 
-	3.   Shrine repurposed for a newer god
-	4.   Inexplicable sacred structure
-	5.   Pilgrim hospital or waystation
-	6.   Fortified frontier monastery
-	7.   Prison-monastery for heretics 
-	8.   Place of some holy trial or test 
-	9.   Prison for a sealed demonic force
-	10.   Holy archive or relic-fortress
-	11.   **NO**Fragment of megastructure temple
-	12.   **NO**Outsider fane to an alien god
--   Cultural Site
-	1.   Ancient culture’s gathering site
-	2.   Monument complex to lost glories
-	3.   Abandoned school or study center
-	4.   Museum of a lost nation
-	5.   Library or ancient archive
-	6.   Resort for nobles at ease  
-	7.   Enormous musical structure
-	8.   Massive ceremonial structure
-	9.   Taboo site of dark magic
-	10.   **NO**Indoctrination camp or prison
-	11.   **NO**Preserved “heritage” village-resort
-	12.   **NO**Inscrutable Outsider art structure
--   Infrastructure
-	1.    Psychic or tech communications site or fire Beacons!
-	2.    Canal or aqueduct control center
-	3.    Massive bridge or tunnel
-	4.    Huge ancient dam 
-	5.    Ancient road through an obstacle
-	6.    Now-incomprehensible wreckage
-	7.   **NO** Subterranean transit tunnels
-	8.    **NO**Weather-control Working ruin 
-	9.    **NO**Semi-ruined teleportation node
-	10.    **NO**Ancient power production center
-	11.    **NO**Outsider xenoforming engine
-	12.    **NO**Reality-stabilizing Working ruin
-
-
-
+[[Random Dungeon DMG]]

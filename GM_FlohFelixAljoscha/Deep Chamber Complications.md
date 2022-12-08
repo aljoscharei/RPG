@@ -1,3 +1,6 @@
+### Roller
+`dice: [[Deep Chamber Complications#^deep]]`
+### Table
 | Heading                                                                                                        |
 | -------------------------------------------------------------------------------------------------------------- |
 | Part of the structure is fragile and prone to collapse if damaged                                              |

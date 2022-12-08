@@ -8,36 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "85bddc1957c428e0",
+            "id": "21e0464c303b756d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md",
+                "file": "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
                 "mode": "source",
                 "source": true
               }
-            },
-            "group": "0e34352c8cf58609"
+            }
           }
         ]
       },
       {
-        "id": "d4bce7073c92e707",
+        "id": "13b772e2cced9659",
         "type": "tabs",
         "children": [
           {
-            "id": "de28b43a938267a2",
+            "id": "560f4980329aaa7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md",
-                "mode": "preview",
+                "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md",
+                "mode": "source",
                 "source": true
               }
-            },
-            "group": "0e34352c8cf58609"
+            }
           }
         ]
       }
@@ -68,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stone shape",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "45f2f42350a021b3",
@@ -107,9 +104,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md",
+                "file": "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
@@ -132,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Fill.md"
+                "file": "GM_FlohFelixAljoscha/Sly flourish Prep Template.md"
               }
             }
           },
@@ -152,24 +149,23 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 234.5
   },
-  "active": "de28b43a938267a2",
+  "active": "21e0464c303b756d",
   "lastOpenFiles": [
-    "GM_FlohFelixAljoscha/Fill.md",
-    "Players_FlohFelixAljoscha/202108162351 NPC Namensliste.md",
-    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202104290619 Todd Into the Wild.md",
-    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/201801010947 Todd MOC.md",
-    "GM_FlohFelixAljoscha/Forbidden Lands Legend Generator.md",
-    "Players_FlohFelixAljoscha/spell_List/misty_step teleport 30ft w not favoured.md",
-    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Encounters MOC.md",
-    "GM_FlohFelixAljoscha/fantastic lairs Sly Flourish.md",
-    "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
-    "Players_FlohFelixAljoscha/spell_List/dimension door teleport to visible w not favoured.md"
+    "GM_FlohFelixAljoscha/WWN Index of Random Tables.md",
+    "GM_FlohFelixAljoscha/fractal adventure seeds.md",
+    "GM_FlohFelixAljoscha/oracular adventure adjustment.md",
+    "GM_FlohFelixAljoscha/How to Show Info.md",
+    "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
+    "GM_FlohFelixAljoscha/Adventure reward.md",
+    "GM_FlohFelixAljoscha/Random Quest Hook.md",
+    "GM_FlohFelixAljoscha/202211152356 WWN Monster AI.md",
+    "GM_FlohFelixAljoscha/Symbaroum Random Encounter Tables.md",
+    "GM_FlohFelixAljoscha/202206130913 Detektivabenteuer Mysteries.md"
   ]
 }

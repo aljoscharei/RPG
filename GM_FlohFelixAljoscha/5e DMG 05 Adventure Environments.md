@@ -1,10 +1,10 @@
 
-## Dungeon
+## Roller Dungeon
 Where is the Dungeon found: `dice: [[5e DMG 05 Adventure Environments#^dungeonLocation]]`
 Exotic Dugeon location: `dice: [[5e DMG 05 Adventure Environments#^exoticDungeoLocation]]`
 Dungeon Creator: `dice: [[5e DMG 05 Adventure Environments#^dugeonCreator]]`
 Dungeons History`dice: [[5e DMG 05 Adventure Environments#^dungeonHistory]]`
-## Settlements
+## Roller Settlements
 Settlement, Who Rules: `dice: [[5e DMG 05 Adventure Environments#^rulestate]]`
 Settlement Traits: `dice: [[5e DMG 05 Adventure Environments#^settlementTraits]]`
 What is the Settlement known for: `dice: [[5e DMG 05 Adventure Environments#^knownforits]]`
@@ -15,10 +15,13 @@ Religious Building: `dice: [[5e DMG 05 Adventure Environments#^rlig]]`
 Warehouse: `dice: [[5e DMG 05 Adventure Environments#^warehouse]]`
 Shop: `dice: [[5e DMG 05 Adventure Environments#^shop]]`
 City Encounters: `dice: [[5e DMG 05 Adventure Environments#^cityEncounters]]`
-## Tavern
+[[202211150936 Random Village]]
+[[202211151038 Random City]]
+[[WWN Tribes and exiles]]
+## Roller Tavern
 Tavern: `dice: [[5e DMG 05 Adventure Environments#^tvrn]]`
 `dice: [[5e DMG 05 Adventure Environments#^taverName]]`
-## Wilderness Exploration
+## Roller Wilderness Exploration
 Monuments: `dice: [[5e DMG 05 Adventure Environments#^monument]]`
 Weird Wilderness Locales: `dice: [[5e DMG 05 Adventure Environments#^weirdlocales]]`
 ## Roller

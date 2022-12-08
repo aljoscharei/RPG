@@ -1,7 +1,7 @@
 ## Roller
 ![[202203191305 WWN p 238 Type of Ruin Site#Roller:]]
 ![[202203241302 WWN p 187 One Roll Dungeon Generation#Roller]]
-![[5e DMG 05 Adventure Environments#Dungeon]]
+![[5e DMG 05 Adventure Environments#Roller Dungeon]]
 Factions: ![[202203241242 WWN 239 Framework of Inhabitants#Roller]]
 Tags: ![[202202130655 WWN Dungeon Tags MOC#Roller]]
 Starting Area: `dice: [[Random Dungeon DMG#^startingArea]]`
@@ -24,6 +24,7 @@ Temple Dungeon Room: `dice: [[Random Dungeon DMG#^DungeonTemple]]`
 Tomb Dungeon Room: `dice: [[Random Dungeon DMG#^dungeonTomb]]`
 Treasure Vault Dungeon Room: `dice: [[Random Dungeon DMG#^dungeonTreasureVault]]`
 Dungeon Chambers: `dice: [[Random Dungeon DMG#^generalDungeonChambers]]`
+WWN: ![[202203241249 WWN 240 Dungeon Encounter Table#Roller]]
 ![[WWN Stocking Rooms#Roller]]
 ![[202211151046 WWN Room Theme#Roller]]
 Dungeon Chamber State: `dice: [[Random Dungeon DMG#^currentChamberState]]`
@@ -46,6 +47,7 @@ Dungeon Mage Furnishings: `dice: [[Random Dungeon DMG#^magefurnishings]]`
 Dungeon Utensils: `dice: [[Random Dungeon DMG#^utensil]]`
 Dungeon Container Content: `dice: [[Random Dungeon DMG#^containerContent]]`
 Dungeon Books etc:`dice: [[Random Dungeon DMG#^BooksTomeScrools]]`
+WWN Room Theme ![[202211151046 WWN Room Theme#Roller]]
 ## Tables
 Starting Area
 

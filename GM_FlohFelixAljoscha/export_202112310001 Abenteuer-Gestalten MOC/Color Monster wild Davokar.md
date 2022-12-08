@@ -14,3 +14,4 @@
 [[Symbaroum Monster Cryptwalker]]
 [[5e Monster basilisk redtrained to petrified poisonous bite]]
 [[Symbaroum Monster Krazaragas der Hüter]]
+^table
