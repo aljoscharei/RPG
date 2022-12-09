@@ -71289,181 +71289,6 @@
       }
     ],
     [
-      "Symbaroum Monster Drunkard",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Drunkard",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 10,
-        "hp": 11,
-        "hit_dice": "(2d8 + 2)",
-        "speed": "30 ft.",
-        "stats": [
-          14,
-          10,
-          12,
-          10,
-          11,
-          11
-        ],
-        "senses": "passive Perception 10",
-        "languages": "Ambrian",
-        "equipment": "1d8 ortegs",
-        "cr": 1,
-        "traits": [
-          {
-            "name": "Cheap Shots",
-            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Unarmed Strikes",
-            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
-          }
-        ],
-        "reactions": [
-          {
-            "name": "Wild Swing",
-            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 25,
-            "col": 3,
-            "offset": 663
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
-        "mtime": 1668195332083
-      }
-    ],
-    [
-      "Symbaroum Monster Witch - Keeper",
-      {
-        "statblock": true,
-        "image": [
-          [
-            "Wikilink To Image"
-          ]
-        ],
-        "name": "Symbaroum Monster Witch - Keeper",
-        "size": "Medium",
-        "type": "human",
-        "alignment": null,
-        "ac": 13,
-        "hp": 58,
-        "hit_dice": "(9d8 + 18)",
-        "speed": "30 ft.",
-        "stats": [
-          10,
-          14,
-          15,
-          13,
-          20,
-          11
-        ],
-        "skillsaves": [
-          {
-            "Arcana": 4
-          },
-          {
-            "Insight": 8
-          },
-          {
-            "Perception": 8
-          }
-        ],
-        "senses": "passive Perception 18",
-        "languages": "Ambrian, Barbarian, Goblin",
-        "equipment": "component pouch, elixir of life, witch braid, healing spider",
-        "cr": 5,
-        "traits": [
-          {
-            "name": "Lay on Hands (3/day)",
-            "desc": "the witch can touch a creature and restore 6 hit points to them as an action."
-          },
-          {
-            "name": "Nature’s Lullaby (3/day)",
-            "desc": "the witch can use this feature to bypass an abomination."
-          },
-          {
-            "name": "Shapeshither (3/day)",
-            "desc": "the witch can become a baiagorn (see page 136) for four hours."
-          },
-          {
-            "name": "Spellcasting",
-            "desc": "the witch’s spellcasting ability is Wisdom (+8 to hit, spell save DC 16) and it knows the follow- ing spells:"
-          },
-          {
-            "name": "Cantrips",
-            "desc": "[[5e Spell Symbaroum Spell Accurate Strike]] (0), [[5e spells chill_touch 1d8 dmg w]] (0), [[5e spells mage_hand remote w]] (0), [[5e spells minor_illusion sight or sound w]] (0),[[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (0)"
-          },
-          {
-            "name": "1st-level spell",
-            "desc": "[[5e spells comprehend_languages but not speak w]] (1), [[5e spells expeditious retreat dash w]](1), [[find_familiar w]] (1d4 + 1)"
-          },
-          {
-            "name": "2nd-level spells",
-            "desc": "[[mirror_image 3 duplicates w]] (1d4 + 2), [[suggestion mind control w]] (1d4 + 2)"
-          },
-          {
-            "name": "3rd-level spells",
-            "desc": "[[5e spells counterspell interrupt w]] (1d4 + 3),[[hypnotic_pattern mass charm w]] (3)"
-          },
-          {
-            "name": "4th-level spells",
-            "desc": "[[blight wither w]] (1d4 + 4), [[hallucinatory_terrain no touch w]] (4)"
-          },
-          {
-            "name": "5th-level spells",
-            "desc": "[[scrying on creature wc]] (1d4 + 5), [[5e spells Symbaroum Rituals Turn weather]] (5)"
-          },
-          {
-            "name": "Rituals",
-            "desc": "[[5e Spells Symbaroum Spells Blood Bond]], [[illusory_script w]], [[unseen_servant w]]"
-          },
-          {
-            "name": "Witch Braid",
-            "desc": "the witch has advantage on death saving throws."
-          }
-        ],
-        "actions": [
-          {
-            "name": "Dagger",
-            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
-          }
-        ],
-        "position": {
-          "start": {
-            "line": 0,
-            "col": 0,
-            "offset": 0
-          },
-          "end": {
-            "line": 48,
-            "col": 3,
-            "offset": 2172
-          }
-        },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Witch - Keeper.md",
-        "mtime": 1668189529285
-      }
-    ],
-    [
       "Symbaroum Monster Village Barbarian warrior",
       {
         "statblock": true,
@@ -71545,8 +71370,8 @@
             "offset": 1049
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior 2.md",
-        "mtime": 1666787738000
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Village Barbarian warrior.md",
+        "mtime": 1668194386538
       }
     ],
     [
@@ -71554,7 +71379,16 @@
       {
         "statblock": true,
         "name": "Adult Black Dragon",
+        "source": [
+          "Monster Manual",
+          "Hoard of the Dragon Queen",
+          "Princes of the Apocalypse",
+          "The Rise of Tiamat",
+          "Ghosts of Saltmarsh",
+          "Candlekeep Mysteries"
+        ],
         "type": "dragon",
+        "subtype": null,
         "size": "Huge",
         "alignment": "chaotic or evil",
         "hp": 195,
@@ -71651,6 +71485,7 @@
           }
         ],
         "spells": null,
+        "spellsNotes": null,
         "position": {
           "start": {
             "line": 0,
@@ -71658,13 +71493,79 @@
             "offset": 0
           },
           "end": {
-            "line": 61,
+            "line": 69,
             "col": 3,
-            "offset": 2514
+            "offset": 2659
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Adult Black Dragon.md",
-        "mtime": 1667969751178
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/human_readable_monsters/5e Monster adult black dragon.md",
+        "mtime": 1667754652868
+      }
+    ],
+    [
+      "Symbaroum Monster frostlight",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster frostlight",
+        "type": "undead",
+        "alignment": null,
+        "ac": 20,
+        "hp": 45,
+        "hit_dice": "(10d4 + 20)",
+        "speed": "0 ft., fly 60 ft. (hover)",
+        "stats": [
+          10,
+          20,
+          14,
+          10,
+          15,
+          10
+        ],
+        "senses": "darkvision 120 ft., passive Perception 12",
+        "languages": "—",
+        "equipment": "—",
+        "cr": 3,
+        "traits": [
+          {
+            "name": "Insubstantial",
+            "desc": "The frostlight can pass through objects and creatures without issue. It cannot wear or carry anything."
+          },
+          {
+            "name": "Nimble",
+            "desc": "The frostlight’s armor class is equal to 10 plus twice its Dexterity modifier."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Shock",
+            "desc": "Ranged Spell Attack: +7 to hit, range  25 ft./100 ft., one target. Hit: 14 (4d6) lightning damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Drain",
+            "desc": "As a bonus action the frostlight can drain the life from a creature it shares a space with. The creature takes 5 (1d10) necrotic damage and 1 (oder besser d4) temporary Corruption."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 26,
+            "col": 3,
+            "offset": 907
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho.md",
+        "mtime": 1668193986822
       }
     ],
     [
@@ -71808,7 +71709,11 @@
       "Symbaroum Monster Artisan",
       {
         "statblock": true,
-        "image": "Wikilink To Image",
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
         "name": "Symbaroum Monster Artisan",
         "size": "Medium",
         "type": "human",
@@ -71846,9 +71751,6 @@
             "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage or 9 (1d10 + 4) bludgeoning damage if wielded with two hands."
           }
         ],
-        "bonus_actions": [],
-        "reactions": [],
-        "legendary_actions": [],
         "position": {
           "start": {
             "line": 0,
@@ -71856,13 +71758,13 @@
             "offset": 0
           },
           "end": {
-            "line": 39,
+            "line": 24,
             "col": 3,
-            "offset": 893
+            "offset": 789
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan CR 1 2.md",
-        "mtime": 1666115803000
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Artisan.md",
+        "mtime": 1668195332067
       }
     ],
     [
@@ -72007,6 +71909,69 @@
         },
         "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drug Peddler.md",
         "mtime": 1668195332052
+      }
+    ],
+    [
+      "Symbaroum Monster Drunkard",
+      {
+        "statblock": true,
+        "image": [
+          [
+            "Wikilink To Image"
+          ]
+        ],
+        "name": "Symbaroum Monster Drunkard",
+        "size": "Medium",
+        "type": "human",
+        "alignment": null,
+        "ac": 10,
+        "hp": 11,
+        "hit_dice": "(2d8 + 2)",
+        "speed": "30 ft.",
+        "stats": [
+          14,
+          10,
+          12,
+          10,
+          11,
+          11
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Ambrian",
+        "equipment": "1d8 ortegs",
+        "cr": 1,
+        "traits": [
+          {
+            "name": "Cheap Shots",
+            "desc": "the drunkard’s unarmed strikes do 1d6 bludgeoning damage."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Unarmed Strikes",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeon- ing damage."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Wild Swing",
+            "desc": "If a creature comes into the drunkard’s reach it can try to make an unarmed strike with disadvantage."
+          }
+        ],
+        "position": {
+          "start": {
+            "line": 0,
+            "col": 0,
+            "offset": 0
+          },
+          "end": {
+            "line": 25,
+            "col": 3,
+            "offset": 663
+          }
+        },
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Drunkard.md",
+        "mtime": 1668195332083
       }
     ],
     [
@@ -72627,7 +72592,7 @@
       }
     ],
     [
-      "Symbaroum Monster frostlight",
+      "Symbaroum Monster Witch - Keeper",
       {
         "statblock": true,
         "image": [
@@ -72635,45 +72600,91 @@
             "Wikilink To Image"
           ]
         ],
-        "name": "Symbaroum Monster frostlight",
-        "type": "undead",
+        "name": "Symbaroum Monster Witch - Keeper",
+        "size": "Medium",
+        "type": "human",
         "alignment": null,
-        "ac": 20,
-        "hp": 45,
-        "hit_dice": "(10d4 + 20)",
-        "speed": "0 ft., fly 60 ft. (hover)",
+        "ac": 13,
+        "hp": 58,
+        "hit_dice": "(9d8 + 18)",
+        "speed": "30 ft.",
         "stats": [
           10,
-          20,
           14,
-          10,
           15,
-          10
+          13,
+          20,
+          11
         ],
-        "senses": "darkvision 120 ft., passive Perception 12",
-        "languages": "—",
-        "equipment": "—",
-        "cr": 3,
-        "traits": [
+        "skillsaves": [
           {
-            "name": "Insubstantial",
-            "desc": "The frostlight can pass through objects and creatures without issue. It cannot wear or carry anything."
+            "Arcana": 4
           },
           {
-            "name": "Nimble",
-            "desc": "The frostlight’s armor class is equal to 10 plus twice its Dexterity modifier."
+            "Insight": 8
+          },
+          {
+            "Perception": 8
+          }
+        ],
+        "senses": "passive Perception 18",
+        "languages": "Ambrian, Barbarian, Goblin",
+        "equipment": "component pouch, elixir of life, witch braid, healing spider",
+        "cr": 5,
+        "traits": [
+          {
+            "name": "Lay on Hands (3/day)",
+            "desc": "the witch can touch a creature and restore 6 hit points to them as an action."
+          },
+          {
+            "name": "Nature’s Lullaby (3/day)",
+            "desc": "the witch can use this feature to bypass an abomination."
+          },
+          {
+            "name": "Shapeshither (3/day)",
+            "desc": "the witch can become a baiagorn (see page 136) for four hours."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "the witch’s spellcasting ability is Wisdom (+8 to hit, spell save DC 16) and it knows the follow- ing spells:"
+          },
+          {
+            "name": "Cantrips",
+            "desc": "[[5e Spell Symbaroum Spell Accurate Strike]] (0), [[5e spells chill_touch 1d8 dmg w]] (0), [[5e spells mage_hand remote w]] (0), [[5e spells minor_illusion sight or sound w]] (0),[[5e spells poison_spray touch 1d12 w]] (0), [[5e spells prestidigitation w]] (0)"
+          },
+          {
+            "name": "1st-level spell",
+            "desc": "[[5e spells comprehend_languages but not speak w]] (1), [[5e spells expeditious retreat dash w]](1), [[find_familiar w]] (1d4 + 1)"
+          },
+          {
+            "name": "2nd-level spells",
+            "desc": "[[mirror_image 3 duplicates w]] (1d4 + 2), [[suggestion mind control w]] (1d4 + 2)"
+          },
+          {
+            "name": "3rd-level spells",
+            "desc": "[[5e spells counterspell interrupt w]] (1d4 + 3),[[hypnotic_pattern mass charm w]] (3)"
+          },
+          {
+            "name": "4th-level spells",
+            "desc": "[[blight wither w]] (1d4 + 4), [[hallucinatory_terrain no touch w]] (4)"
+          },
+          {
+            "name": "5th-level spells",
+            "desc": "[[scrying on creature wc]] (1d4 + 5), [[5e spells Symbaroum Rituals Turn weather]] (5)"
+          },
+          {
+            "name": "Rituals",
+            "desc": "[[5e Spells Symbaroum Spells Blood Bond]], [[illusory_script w]], [[unseen_servant w]]"
+          },
+          {
+            "name": "Witch Braid",
+            "desc": "the witch has advantage on death saving throws."
           }
         ],
         "actions": [
           {
-            "name": "Shock",
-            "desc": "Ranged Spell Attack: +7 to hit, range  25 ft./100 ft., one target. Hit: 14 (4d6) lightning damage."
-          }
-        ],
-        "bonus_actions": [
-          {
-            "name": "Drain",
-            "desc": "As a bonus action the frostlight can drain the life from a creature it shares a space with. The creature takes 5 (1d10) necrotic damage and 1 (oder besser d4) temporary Corruption."
+            "name": "Dagger",
+            "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
           }
         ],
         "position": {
@@ -72683,13 +72694,13 @@
             "offset": 0
           },
           "end": {
-            "line": 26,
+            "line": 48,
             "col": 3,
-            "offset": 907
+            "offset": 2172
           }
         },
-        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster frostlight alt dmg resolute and d4 temp corr res save oder zwangshandlung Geisterecho 2.md",
-        "mtime": 1666786665000
+        "note": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/Symbaroum Monsters/Symbaroum Monster Witch - Keeper.md",
+        "mtime": 1668189529285
       }
     ]
   ],
