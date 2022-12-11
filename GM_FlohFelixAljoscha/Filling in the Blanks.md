@@ -59,14 +59,14 @@ Python script um tabellen in perchance format zu konvertieren perchance.py
 
 ### Geologic
 
-| dice: 1d6 | Result                                                                                                                                                                                                                                            |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1         | Change in Elevation. `dice: [[Filling in the Blanks#^hiLow]]` of `dice: [[Filling in the Blanks#^ElevationYards]]` `dice: [[Filling in the Blanks#^ElevationType]]`. The Area is `dice: [[Filling in the Blanks#^ElevationArea]]`. The Terrain is `dice: [[Filling in the Blanks#^elevationTerrain]]` comparing to surrounding Terrain |
-| 2         | Soil `dice: [[Filling in the Blanks#^SoilApprearance]]` The soil is `dice: [[Filling in the Blanks#^SoilFecundity]]`, `dice: [[Filling in the Blanks#^SoilReasonFecundity]]`                                                                                                                                                                                                                                            |
-| 3         | Terrain. Terrain. The local Terrain varies from surrounding Terrain. [[Filling in the Blanks#Terrain]] `dice: [[Filling in the Blanks#^TerrainVariance]]`,  `dice: [[Filling in the Blanks#^TerrainType]]` [[Filling in the Blanks#^TerrainType]]                                                                                                                                                                                                                                           |
-| 4         | Caves. The cave has `dice: [[Filling in the Blanks#^CaveEntrances]]`.One Entrance is `dice: [[Filling in the Blanks#^TypeCaveEntrance]]`. There are `dice: [[Filling in the Blanks#^NumberChambers]]`. Is the water in the cave? `dice: [[Filling in the Blanks#^caveWater]]`                                         |
-| 5         | Rock `dice: [[Filling in the Blanks#^typeRocks]]`                                                                                                                                                                                                                                              |
-| 6         | Water [[Filling in the Blanks#Water]]. `dice: [[Filling in the Blanks#^waterMaster]]`                                                                                                                                                                                                                                              |
+| dice: 1d6 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Change in Elevation. The terrain in a given area is at a different elevation than the surrounding land. This can be hill, butte, plateau, valley, holler, sinkhole, or other descriptive term. `dice: [[Filling in the Blanks#^hiLow]]` of `dice: [[Filling in the Blanks#^ElevationYards]]` `dice: [[Filling in the Blanks#^ElevationType]]`. The Area is `dice: [[Filling in the Blanks#^ElevationArea]]`. The Terrain is `dice: [[Filling in the Blanks#^elevationTerrain]]` comparing to surrounding Terrain. See [[Filling in the Blanks#Terrain]] |
+| 2         | Soil `dice: [[Filling in the Blanks#^SoilApprearance]]` The soil is `dice: [[Filling in the Blanks#^SoilFecundity]]`, `dice: [[Filling in the Blanks#^SoilReasonFecundity]]`                                                                                                                                                                                                                                                                                                                                                                            |
+| 3         | Terrain. Terrain. The local Terrain varies from surrounding Terrain. [[Filling in the Blanks#Terrain]] `dice: [[Filling in the Blanks#^TerrainVariance]]`,  `dice: [[Filling in the Blanks#^TerrainType]]` [[Filling in the Blanks#^TerrainType]]                                                                                                                                                                                                                                                                                                       |
+| 4         | Caves. The cave has `dice: [[Filling in the Blanks#^CaveEntrances]]`.One Entrance is `dice: [[Filling in the Blanks#^TypeCaveEntrance]]`. There are `dice: [[Filling in the Blanks#^NumberChambers]]`. Is the water in the cave? `dice: [[Filling in the Blanks#^caveWater]]`                                                                                                                                                                                                                                                                           |
+| 5         | Rock. The terrain is unusually rocky. There is/are `dice: [[Filling in the Blanks#^typeRocks]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 6         | Water [[Filling in the Blanks#Water]]. `dice: [[Filling in the Blanks#^waterMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 ^GeologicFeature
 
 #### Caves
@@ -110,41 +110,35 @@ Caves will have the following number of chambers. Add 5 to the roll for every en
 
 For every ten chambers in a cave there is a 1 in 6 chance the remaining chambers are treated as one level “deeper” (in terms of threats found in a dungeon of the same level). For every actual level a cave system possesses there is a cumulative 1% chance the system is connected to the mysterious subterranean world known as the “Underdark”.
 
-Chambers in a cave are connected by tunnels. On a roll of 
+Chambers in a cave are connected by tunnels. `dice: [[Filling in the Blanks#^ChamberDistances]]`
 
 | dice: 1d6 | Resut                                                  |
 | --------- | ------------------------------------------------------ |
 | 1-4       | the chambers are separated by normal dungeon distances |
-| 5-6       | `dice: [[Filling in the Blanks#^ExtremeCaveDistances]]`                 |
+| 5-6       | the chambers are  `dice: [[Filling in the Blanks#^ExtremeCaveDistances]]`                 |
 ^ChamberDistances
 
-12-table-2.md
 
 
 | d100   | Result              |
 |:-------|:--------------------|
-| 1-65   | `dice: 1d4`x100 yards apart |
-| 66-90  | `dice: 4d6`x100 yards apart |
+| 1-65   | `dice: 1d4 *100` yards apart |
+| 66-90  | `dice: 4d6 * 100` yards apart |
 | 91-100 | `dice: 1d4` miles apart     |
 ^ExtremeCaveDistances
 
-| dice: 1d6 | Result                                                                                                                                                                                                                                                                                                      |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-2       | dry. Dry caves are essentially dead and devoid of moisture; the moisture that created them has long vanished                                                                                                                                                                                                |
-| 3-4       | wet.Wet caves are living; not only will they often have water sources, but the walls and ceiling are often coated with moisture and dissolved minerals.                                                                                                                                                     |
-| 5         | dry and wet. Caves that are a combination of dry and wet should have these two microclimates separated based upon some kind of logical demarcation. Perhaps the underground river that formed the cavern system has cut its way down from the upper levels and can only be found further beneath the earth. |
-| 6         | Formed not by water. t is also possible that a cave system has been created by other means: burrowing monsters such as purple worms, or extinct lava tubes, or the intrusion of elemental planes into the material are all possible sources for the creation of unique cave systems.                        |
+
+
+| dice: 1d6 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | dry. Dry caves are essentially dead and devoid of moisture; the moisture that created them has long vanished                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 3-4       | wet.Wet caves are living; not only will they often have water sources, but the walls and ceiling are often coated with moisture and dissolved minerals.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 5         | dry and wet. Caves that are a combination of dry and wet should have these two microclimates separated based upon some kind of logical demarcation. Perhaps the underground river that formed the cavern system has cut its way down from the upper levels and can only be found further beneath the earth.                                                                                                                                                                                                                                                                                                                                                     |
+| 6         | Formed not by water. It is also possible that a cave system has been created by other means: burrowing monsters such as purple worms, or extinct lava tubes, or the intrusion of elemental planes into the material are all possible sources for the creation of unique cave systems. Use the Dungeon Stocking Table on p. 225 of OSE core to determine what is present in a cave system. As a rule of thumb, caves of 1-4 chambers will generally be inhabited by only a single type of monster (whether goblins, mountain lions, etc.). Larger caves will be populated as dungeons, with multiple and diverse populations. [[Filling in the Blanks#Dungeons]] |
 ^caveWater
 
 XXX
 
-Caves will be dry (1-2), wet (3-4), a combination of the two (5), or formed through different means (6). Dry caves are essentially dead and devoid of moisture; the moisture that created them has long vanished. Wet caves are living; not only will they often have water sources, but the walls and ceiling are often coated with moisture and dissolved minerals.
-
-Caves that are a combination of dry and wet should have these two microclimates separated based upon some kind of logical demarcation. Perhaps the underground river that formed the cavern system has cut its way down from the upper levels and can only be found further beneath the earth.
-
-It is also possible that a cave system has been created by other means: burrowing monsters such as purple worms, or extinct lava tubes, or the intrusion of elemental planes into the material are all possible sources for the creation of unique cave systems.
-
-Use the Dungeon Stocking Table on p. 225 of OSE core to determine what is present in a cave system. As a rule of thumb, caves of 1-4 chambers will generally be inhabited by only a single type of monster (whether goblins, mountain lions, etc.). Larger caves will be populated as dungeons, with multiple and diverse populations.
 
 #### Change in Elevation
 The terrain in a given area is at a different elevation than the surrounding land. This can be hill, butte, plateau, valley, holler, sinkhole, or other descriptive term.
@@ -168,7 +162,6 @@ The terrain in a given area is at a different elevation than the surrounding lan
 ^ElevationType
 
 
-The elevation will be higher (1-3) or lower (4-6) than the surrounding land.
 
 13-table-4.md
 
@@ -179,7 +172,6 @@ The elevation will be higher (1-3) or lower (4-6) than the surrounding land.
 | 76-100 | The land is `dice: 1d10 *100` yards lower or higher than the surrounding area. |
 
 ^ElevationYards
-
 
 
 Change in Elevation Comprises...
@@ -195,7 +187,6 @@ Change in Elevation Comprises...
 | 99-100 | `dice: 1d4+1` total hexes |
 ^ElevationArea
 
-There is a 1-4 in 6 chance that the change in elevation represents a differing terrain type than the surrounding environs. This change in terrain will most often (1-4 in 6) be within one degree of the surrounding terrain or (5-6) within two degrees (see Terrain, p. 55 below).
 
 | dice: 1d100 | Result                        |
 | ----------- | ----------------------------- |
@@ -209,12 +200,22 @@ The terrain is unusually rocky. This manifests itself in three different ways:
 
 13-table-2.md
 
-| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1-35   | A  number  of  smaller  rocks  (roll  `dice: 1d6`-1  to indicate the average diameter, in feet), with a  density  of  `dice: 3d10`  per  `dice: 1d20`×100  sq.  ft.  A result of 0 indicates the rocks are, on average, smaller than a foot in diameter.`dice: [[Filling in the Blanks#^AreaRocks]]` `dice: [[Filling in the Blanks#^rocksUnusual]]`                                                                                                                                                                                                  |
-| 36-70  | a  smaller  number  of  larger  rocks,  with  an average diameter `dice: 3d6` feet and a density of 1d4 per `dice: 1d20 *100` feet. `dice: [[Filling in the Blanks#^AreaRocks]]` `dice: [[Filling in the Blanks#^OriginRocks]]` `dice: [[Filling in the Blanks#^rocksUnusual]]`                                                                                                                                                                                                                                                                                                            |
-| 71-100 | an  outcropping  of  rock.  If  the  outcropping occupies  a  single  subhex  there  is  only  one; if  multiple  subhexes  there  is  a  chance  each subhex will have (1-3) a single outcropping, (4-5) 1d4 outcroppings (depending on overall  size),  or  (6)  the  outcroppings  join together  to  form  one  massive  outcropping that covers the entire area.  To determine the size of the outcropping roll below: `dice: [[Filling in the Blanks#^OutcroppingSize]]`, `dice: [[Filling in the Blanks#^OutcroppingArea]]` |
+| d100   | Result                                                                                                                                                                                                                                                                                                                                                                            |
+|:------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-35   |  |
+| 36-70  | a  smaller  number  of  larger  rocks,  with  an average diameter `dice: 3d6` feet and a density of 1d4 per `dice: 1d20 *100` feet. `dice: [[Filling in the Blanks#^AreaRocks]]` `dice: [[Filling in the Blanks#^OriginRocks]]` `dice: [[Filling in the Blanks#^rocksUnusual]]`                                                                                                   |
+| 71-100 | an  outcropping  of  rock.  `dice: [[Filling in the Blanks#^OutcroppingSize]]`, in  `dice: [[Filling in the Blanks#^OutcroppingArea]]` (Area of Outcopping).  If  the  outcropping occupies  a  single  subhex  there  is  only  one;  if  multiple  subhexes,  each subhex will have `dice: [[Filling in the Blanks#^largeoutcropping]]`                                         |
 ^typeRocks
+
+
+
+
+| dice: 1d6 |                                                                                                   |
+| --------- | ------------------------------------------------------------------------------------------------- |
+| 1-3       | a single outcropping,                                                                             |
+| 4-5)      | 1d4 outcroppings (depending on overall  size),  or                                                |
+| 6         | the  outcroppings  join together  to  form  one  massive  outcropping that covers the entire area |
+^largeoutcropping
 
 
 size of Outcropping
@@ -229,8 +230,8 @@ size of Outcropping
 | 76-100 | `dice: 1d10 *1000000` sq. ft (2,400 feet to a side)              |
 ^OutcroppingSize
 
-Area of Outcopping
-13-table-6.md
+
+
 
 | d100  | Result                 |
 |:----- |:---------------------- |
@@ -241,7 +242,15 @@ Area of Outcopping
 | 100   | `dice: 1d4+1` hexes    |
 ^OutcroppingArea
 
-If the rocks are not an outcropping they will cover an area of . . .
+A  number  of  smaller  rocks  with an average diameter  `dice: 1d6-1`  in feet. A result of 0 indicates the rocks are, on average, smaller than a foot in diameter. The rocks are distributed with a  density  of  `dice: 3d10`  per  `dice: 1d20 *100`  sq.  ft.  The rocks  cover an area of `dice: [[Filling in the Blanks#^AreaRocks]]`. The Type of Rock can bei looked up in the section [[Filling in the Blanks#Resources]]. `dice: [[Filling in the Blanks#^rocksnormal]]`.
+
+| dice: 1d6 |                                                                        |
+| --------- | ---------------------------------------------------------------------- |
+| 1-5       | The Rocks are normal                                                   |
+| 6         | The Rocks are unusual. `dice: [[Filling in the Blanks#^rocksUnusual]]` |
+^rocksnormal
+
+
 14-table-1.md
 
 
@@ -271,9 +280,8 @@ The rocks will be . .
 ^OriginRocks
 
 
-The Referee can refer to the Resources section on p. 37 to determine the type of rock.
 
-There’s an additional 1 in 6 chance of something unusual about the rocks . . .
+
 
 | dice: 1d36 | result                                                                                                                                                                                |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -295,11 +303,11 @@ There’s an additional 1 in 6 chance of something unusual about the rocks . . .
 
 
 
-| dice: 1d6 | result            |
-| --------- | ----------------- |
-| 1-3       | one single stone  |
-| 4-5       | 1d20+1 stones     |
-| 6         | all of the stones |
+| dice: 1d6 | result                |
+| --------- | --------------------- |
+| 1-3       | one single stone      |
+| 4-5       | `dice: 1d20+1` stones |
+| 6         | all of the stones     |
 ^WritingRockAmount
 
 `dice: [[Filling in the Blanks#^writingContent]]`
@@ -309,13 +317,34 @@ The writing
 | dice: 1d6 | result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1         | Is meaningless, obscene or pornographic graffiti.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| 2         | Contains the formula to a spell (1-4) or magical item (5-6). It takes 1d8 weeks plus one day per additional stone containing the writing to decipher and understand what is scribed upon it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 3         | A prophecy, concerning events that are yet to come (1-4) or have already passed (5-6). There’s a 1-2 in 6 chance the prophecy is wrong.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| 4         | A map. On a 1-2 it’s a treasure map (roll on the Scrolls treasure table, treating all non treasure map results as a reroll), 3-4 it’s a map of the surrounding area, 5 it’s a map to an undiscovered/unknown area (1-2 in 6 chance of being in another plane or dimension), or 6 a map of a random location.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 2         | Contains the formula to `dice: [[Filling in the Blanks#^rockspell]]` . It takes `dice: 1d8` weeks plus one day per additional stone containing the writing to decipher and understand what is scribed upon it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 3         | A prophecy, concerning events that `dice: [[Filling in the Blanks#^Rocksprophecy]]`. There’s `dice: 1d6 <=2` chance the prophecy is wrong.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 4         | XXX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | 5         | There’s a small crevice in the rock, and if the adventurers write a question on a slip of paper (1-2 in 6 chance that the question must be asked in a specific language, (3-4) written in the asker’s blood, or (5-6) accompanied by a gift), slip it into the crevice, and return the next day the writing will reform itself as an answer to the question posed (treat as 1-3 augury, 4-5 divination, or 6 commune, all as if cast by a cleric of level 6+1d8).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | 6         | The writing is 1 a record of historical events (see Monuments, p. 17), 2 a warning about dangers (1-4 current, 5-6 past and no longer relevant) in the area, 3 a personal missive directed to one of the adventurers (1-3 chance of being accurate, from a dead relative or friend. There’s a 1-2 chance it will contain advice about upcoming events, otherwise it will just be the friend or relative saying hello), 4 a single letter per stone (see above to determine the number of stones with writing on them), arranged in a random fashion (the letters, when sorted, spell out 1-2 a dirty word, 3-4 the name of an ancient king or magician, 5 the name of an ally of the party who means to betray them, or 6 the true name of a demon or fairy that can be used to bind said creature), 5 assembly directions (if the stones are arranged according to the directions written upon them they will create 1-2 a sculpture, 3-4 a crude dwelling, 5 a portal that functions as a gate to another world, or 6 a circle 1d20+10 feet in diameter, inside which the adventurers may camp without fear of wandering monsters. In the last two instances the effects last for 1 1d4 uses (camping 8 hours counts as a “use”), 2 1d4 hours, 3 3d4 hours, 4 1d4 days, 5 1d4 weeks, 6 permanently) or 6 something else of the Referee’s choosing. |
 
 ^writingContent
+
+| dice: 1d6 |                 |
+| --------- | --------------- |
+| 1-4       | a spell         |
+| 5-6       | or magical item |
+^rockspell
+
+
+| dice: 1d6 |                     |
+| --------- | ------------------- |
+| 1-4       | are yet to come     |
+| 5-6       | have already passed |
+^Rocksprophecy
+
+
+A map. On a 
+
+1-2 it’s a treasure map (roll on the Scrolls treasure table, treating all non treasure map results as a reroll), 3-4 it’s a map of the surrounding area, 5 it’s a map to an undiscovered/unknown area (1-2 in 6 chance of being in another plane or dimension), or 6 a map of a random location.
+
+
+
 
 4-5) The rocks are arranged in a specific pattern. The pattern can
 

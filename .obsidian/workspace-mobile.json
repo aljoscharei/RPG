@@ -11,12 +11,8 @@
             "id": "9e01da818d7e99a2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Aboleth.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -74,7 +70,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Aboleth.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -106,9 +101,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Aboleth.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -119,15 +112,15 @@
   },
   "active": "9e01da818d7e99a2",
   "lastOpenFiles": [
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203091119 Random Tables MOC.md",
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/201907132204 Tome of Adventure Design MOC.md",
+    "GM_FlohFelixAljoscha/Solo RPG.md",
+    "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
+    "GM_FlohFelixAljoscha/Symbaroum Treasure MOC.md",
+    "GM_FlohFelixAljoscha/202201101101 NPC MOC.md",
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Aboleth.md",
     "GM_FlohFelixAljoscha/5e monsters by name.md",
     "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Cloaker.md",
-    "GM_FlohFelixAljoscha/Ruins GM Index.md",
-    "GM_FlohFelixAljoscha/Fill.md",
-    "GM_FlohFelixAljoscha/Random Quest Hook.md",
-    "GM_FlohFelixAljoscha/Solo RPG.md",
-    "GM_FlohFelixAljoscha/Hexcrawl.md",
-    "GM_FlohFelixAljoscha/Random Dungeon DMG.md",
-    "5e DMG 05 Adventure Environments.md",
-    "202203241302 WWN p 187 One Roll Dungeon Generation.md"
+    "GM_FlohFelixAljoscha/Ruins GM Index.md"
   ]
 }
