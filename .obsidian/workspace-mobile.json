@@ -11,8 +11,12 @@
             "id": "9e01da818d7e99a2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -70,6 +74,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -101,7 +106,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md"
+          }
         }
       }
     ],
@@ -112,6 +119,7 @@
   },
   "active": "9e01da818d7e99a2",
   "lastOpenFiles": [
+    "GM_FlohFelixAljoscha/Wilderness Exploration.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203091119 Random Tables MOC.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/201907132204 Tome of Adventure Design MOC.md",
     "GM_FlohFelixAljoscha/Solo RPG.md",
@@ -120,7 +128,6 @@
     "GM_FlohFelixAljoscha/202201101101 NPC MOC.md",
     "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Aboleth.md",
     "GM_FlohFelixAljoscha/5e monsters by name.md",
-    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Cloaker.md",
-    "GM_FlohFelixAljoscha/Ruins GM Index.md"
+    "GM_FlohFelixAljoscha/gamemaster_rules/monsters/yamlmonsters/Cloaker.md"
   ]
 }

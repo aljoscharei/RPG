@@ -13,6 +13,7 @@
 - Monster AI Ironsworn: ![[201811200023 Ironsworn MOC#Combat Magic]]
 - Monster AI WWN by Kind: ![[202211152356 WWN Monster AI#Roller]]
 - Where is the encounter Happening: Random Monument
+- How far away is the Encounter: ![[Encounter Distance]]
 - ![[Wilderness Exploration#Roller]]
 - ![[202203280513 WWN p 247 Random Encounters#Roller]]
 - [[WWN Wilderness Encouters#Roller]] 

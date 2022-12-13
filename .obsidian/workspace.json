@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1db3835ffe7146c6",
+        "id": "7c327e1f9e297c8f",
         "type": "tabs",
-        "dimension": 20.366598778004075,
         "children": [
           {
-            "id": "21e0464c303b756d",
+            "id": "2577b8874eacdb16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
+                "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ]
-      },
-      {
-        "id": "0f7f287cbc96cb36",
-        "type": "split",
-        "dimension": 79.63340122199592,
-        "children": [
-          {
-            "id": "13b772e2cced9659",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "560f4980329aaa7a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md",
-                    "mode": "preview",
-                    "source": true
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "fa6da0260f83f535",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3c0b99d135b2da1e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -183,17 +138,17 @@
     "direction": "horizontal",
     "width": 234.5
   },
-  "active": "560f4980329aaa7a",
+  "active": "2577b8874eacdb16",
   "lastOpenFiles": [
-    "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
+    "Subhex.png",
     "GM_FlohFelixAljoscha/Filling in the Blanks.md",
+    "Hex Direction.png",
+    "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202001052047 Random Encounter Table MOC.md",
+    "GM_FlohFelixAljoscha/Symbaroum Random Encounter Tables.md",
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Encounter Distance.md",
+    "GM_FlohFelixAljoscha/Wilderness Exploration.md",
     "GM_FlohFelixAljoscha/WWN Index of Random Tables.md",
-    "GM_FlohFelixAljoscha/fractal adventure seeds.md",
-    "GM_FlohFelixAljoscha/oracular adventure adjustment.md",
-    "GM_FlohFelixAljoscha/How to Show Info.md",
-    "GM_FlohFelixAljoscha/Adventure reward.md",
-    "GM_FlohFelixAljoscha/Random Quest Hook.md",
-    "GM_FlohFelixAljoscha/202211152356 WWN Monster AI.md",
-    "GM_FlohFelixAljoscha/Symbaroum Random Encounter Tables.md"
+    "GM_FlohFelixAljoscha/fractal adventure seeds.md"
   ]
 }

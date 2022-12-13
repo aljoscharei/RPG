@@ -1,8 +1,111 @@
 ![[Filling in the Blanks#Random Feature]]
 ToDo: XXX
-[[#Geologic]]
+[[#Soil]] ^e98a91
 
 Python script um tabellen in perchance format zu konvertieren perchance.py
+
+###  Hex Generation
+The rules in this document present guidelines for generating random hex content for use in fantasy role-playing games. It uses the Old School Essentials system by Necrotic Gnome as well as the Third Kingdom Games Populated Hexcrawl series and other supplements. However, it can be easily adapted for use by any fantasy system, OSR or not. This document references other publications by Third Kingdom Games:
+- Domain Building. A free supplement geared towards higher-level domain play.
+- Hexcrawl Basics. A free supplement that offers a mechanical process for running hexcrawl-style games.
+- Random Weather Generation. A supplement that provides a method of randomly generating weather and unusual events.
+The system used here assumes that each hex is 6 miles from face to face and is divided into a number of subhexes, each one 1.2 miles face to face. **Each 6-mile hex has 1d6 features and 1d6 lairs**. As an alternate rule, the Referee can roll 1d4 for both features and lairs when populating desert or grassland hexes, and 1d8 for both when populating jungle and mountainous hexes. Ex. Rolling 1d6 twice yields a 3 and a 5. There are 3 lairs and 5 features in the sample hex.
+It is trivially easy to adjust the hex spacing: 5- and 8-mile hexes are two other popular hex sizes. If using sizes smaller or larger than this range, however, it is recommended that you adjust the number of lairs and features accordingly. Smaller hexes should have 1d4 lairs and features, while larger hexes should have 1d8 lairs and features. It is also possible to use this supplement to populate maps that are much less dense, or to generate features on the fly as needed.
+
+Likewise, it is possible that the Referee does not want this level of granularity in their game, and chooses to use this supplement to place one feature or lair per hex, rather than placing multiple features and lairs within a hex. If this is the case, it is recommended that the Referee use Table 1.2 [[Filling in the Blanks#^LairandFeature]], below, instead of [[Filling in the Blanks#^FeatureNoLairs]]. Additionally, don’t roll 1d6 to determine the number of lairs and features per hex; instead, roll 1d20 once, or potentially twice, per hex, depending on how many points of interest are desired.
+
+This supplement assumes that a hex map is generated and filled in with the appropriate terrain before hexes are populated. It does not provide guidance for the creation of an initial hex map. for that, see [[202203191340 Welsh Piper MOC]]
+
+#### Placing Lairs and Features
+
+Once it has been determined how many lairs and features are present in a hex you can determine where they are placed. This initial placement is not set in stone and can be adjusted during the process as the overall content of the hex becomes apparent. For each point of interest use a random number generator to generate a number between 1 and 31, and refer to Figure One. ![[Subhex.png]].
+An online random number generator or dice roller is recommended for several of the mechanics described in this book, whether to generate a range of numbers for which there are not corresponding dice or to generate large numbers (such as rolling 10d100).
+Reroll any duplicates in the same category, but not those in separate categories.
+
+This book presents lair generation prior to feature generation. However, it is recommended that features be generated first, as it is possible the terrain in a hex will change upon feature generation, and a generated lair may not fit in the new terrain. Conversely, you may find creative explanations for a lair that exists in a non- traditional terrain.
+
+The same applies to generating features. If a feature is not appropriate for the given terrain either roll again or find a creative solution for its placement. Why, for instance, would a large body of water be in the middle of a sun-baked desert? If the Referee does not want to deal with this it is simple enough to reroll, otherwise a creative explanation can be incorporated, utilizing a strange feature to bedevil the players.
+
+
+
+Features are typically rolled for and placed first, since they may have an impact on the location of lairs or the encounter table that is used (if the terrain changes as a result of the feature, for instance).
+
+Roll 1d20 for each feature present, ignoring or rerolling results that don’t make any sense, and compare to the table  [[Filling in the Blanks#^FeatureNoLairs]].
+
+Note that some feature types can appear across multiple categories. For instance, it is possible to find changed terrain in the Geologic, Terrain, and Magic sections.
+
+
+As a general rule of thumb the tables provided herein are to be used as a guide. Occasionally a random roll will produce a result that is seemingly out of place; these results present the Referee with two options: Option One is to ignore the result and reroll, which is a perfectly valid option. Option Two, however, is to ask oneself “why” the result is as it is. Oftentimes an unexpected or incongruous result can lead to interesting encounters.
+In some cases a feature is hidden and not immediately obvious to a casual inspection. This is the case for a cave system that has no entrances above ground, or a deposit of iron ore buried deep beneath the surface. In such instances, rather than deprive the adventurers of a potentially interesting/dangerous/lucrative feature, it is recommended that such features become apparent after a thorough survey of the hex by an expert prospector (see below).
+
+##### Value of Features
+
+PCs are going to PC, as the saying goes, and you can assume that any potentially usable features that are discovered will potentially be used by the adventurers. This should be allowed — nay, encouraged — with the caveat that the process of utilizing a structure will become an adventure in and of itself. Crumbling keeps left abandoned should certainly be claimed by the PCs, and fixed up, and used as a base for future operations. However, such tasks should not be accomplished without significant effort on the part of the PCs. The surrounding territory will need to be cleared of all threats in order to attract workers (see p. 11 of Domain Building) to repair the keep, materials will need to be obtained and transported, etc. At some point the Referee will likely want to determine both the potential value of the structure and the cost to repair it. The OSE core rulebook provides some guidelines for pricing strongholds starting on p. 136. These can be used to extrapolate general base values: a civilian building made of stone has a base cost of 25 gp per linear foot of wall, for instance, so an abandoned manor house with a total perimeter of 600 linear feet would have a value of 15,000 gp. The work that needs to be done in order to make a structure habitable or usable can be estimated from its age and condition.
+
+Sometimes structures can be used even in poor condition. A ruined keep that is half collapsed can still provide temporary shelter for troops, but would use its current gp value to determine the amount of land it can garrison. A castle with a base value of 100,000 gp could, in theory, garrison six hexes, but if it has been damaged to the point of needing 50,000 gp of work it could only garrison three hexes until repaired.
+Structures made of exotic or magical components have an increased value, although this only counts towards the cost of repairs or potentially sale. A keep made of magically-shaped diamond might be worth five times what a stone keep of the same size is worth, but it can only be used to garrison the same area of land; the value of the diamond does not count towards the garrison size.
+In their exploration the adventurers will also likely discover resources that can be claimed and used. There are several ways to handle this: as discussed in the book Domain Building, these resources can potentially be used to increase the productive value of the hex, or the resources can be utilized immediately to create wealth for the adventurers.
+It is up to the Referee to determine the in-game effects of various resources; a vein of rare granite could be used, perhaps, to build a stronghold more resistant to damage, or it could be of sufficiently high quality to be used as base material for the creation of magical items. If the Referee uses some system of alchemy, mineral or herbal resources can be used to aid in the creation of alchemical or herbal concoctions.
+Once a hex has been cleared of all threats and safely patrolled, the party can bring in hirelings to conduct a more thorough survey in order to uncover any hidden, as yet undiscovered features. Surveying requires a trained hireling and uses the following guidelines:
+
+
+
+- Surveyors cost 250 gp per month.
+- It takes 1d8 days plus additional days dependent upon the type of terrain to conduct an entire survey of a 6-mile hex
+	- Plains, farmland, savannah, etc. 18 days.  
+	- Woods (light), hills (barren, grass). 24 days. 
+	- Wooded hills, mountains. 30 days.
+	- Jungle, swamp, wooded mountain, desert, arctic, etc. 40 days.
+- The survey detects all subterranean features that are within 50’ of the surface as well as hidden or undiscovered features/lairs.
+- It increases the land revenue of the hex by 10% due to increased efficiency.
+
+#### Age of Features
+In many fantasy settings civilizations have risen and fallen multiple times, leaving behind ruined cities, forbidden dungeons, and once-marvelous magic or technology. Many of the features that can be discovered while exploring may be relics from bygone eras.
+
+It may be helpful to establish a rough timeline of previous civilizations before beginning to populate your setting, as well as establishing certain key aspects of these bygone features. Perhaps the previous civilization specialized in building using carefully fitted and shaped stones, laid so tightly and precisely that no mortar was needed. Roads and buildings dating back to this era might all be built in a similar fashion.
+
+Some cultures may have built structures using forgotten techniques, whether magical or mundane, that have withstood the grind of the centuries and function just as well now as they did then, while other more decadent or corrupt civilizations may have built with lesser materials, or more hastily, and their leavings are crumbling mere decades after societal collapse.
+
+Perhaps current settlements are built utilizing the structures of previous civilizations; a bridge, built by the ancients, still functions, and so is used as a primary means of passage, or two cities have arisen at opposite ends of an ancient road, flat and smooth and wide enough for six wagons to pass side by side, yet built thousands of years ago by unknown hands.
+
+Some features, chiefly those that are not natural, have entries that refer to “their original use”. This means that the feature is used for the original purpose intended by the builder or the builder’s descendants. Therefore, a wizard’s tower that currently houses a gang of goblins would not be used for its original purposes, nor would a keep that is now inhabited by brigands.
+
+#### Frequency of Features
+
+This document seeks to provide a means of randomly populating hexmaps in a relatively efficient manner. In doing so, assumptions are made that those features generated are simply the most interesting ones discovered in a hex. It does not seek to plot all of the streams, creeks, and brooks that can be found in 32 square miles, nor every tree, nor every road. Use your judgment when placing features and describing the map to your players.
+
+#### Determine Directions
+
+Sometimes the Referee will need to determine which direction a feature faces or is oriented. The simplest way to do this is to roll 1d6 and compare it to Figure Two.
+
+Another option would be to roll 1d8 and assign 1 to north, 2 to northeast, 3 to east, etc. Directional generation can be used once to determine the general direction in which a feature is running, or, for large features spanning more than one subhex, multiple times (every subhex, every other one, etc.) to create a more random and chaotic feature. ![[Hex Direction.png]]
+
+
+### Lairs
+
+For each lair that is present within the hex roll 1d8 and compare the result to the Wilderness Encounter table on p. 206 of the OSE rules. This determines which encounter sub-table to use.
+
+Ex. The results of 1d8 are 4, 5, and 3, which correspond to subtables 1 – Flyer, F – Human, and 1 – Dragon.
+
+Depending on your campaign and the hex being populated you may wish to reroll one or more results.
+
+
+For instance, I typically reroll an initial result of “Dragon”, as such creatures are rare in the Absalom setting. I also reroll an initial result of Human when populating hexes in wilderness terrain, as human habitations are few and far between. Rerolling the initial result means that you reroll the first time it comes up, but not if it comes up again.
+
+Once the subtables are determined you can generate the type of lair encountered. Each subtable has results between 1-12, with each being a monster from the rulebook. Instead of rolling 1d12, however, I use a random number generator to produce a result from 1-16. A result of 1-12 is referenced from the entry in the book; a result of 13-15 means I draw a monster from another source, and a result of 16 indicates a unique monster created for the lair.
+
+The results are 3 (for Flyer), 9 (for Human), and 14 (for Dragon). Referring to the tables we get the following results:
+
+- Flyer is Griffon 
+- Human is High-level cleric  
+- Dragon is drawn from another source.
+
+Referring to the initial placement rolls above, the griffon lair is in subhex 0304, the cleric lair in subhex 0703, and the dragon in 0403.
+
+###### Placing Lairs
+
+As mentioned at the beginning of this book, monster lairs are placed using the Wilderness Encounter tables (starting on p. 206 of OSE core). As with features, lair locations can be chosen, rather than placed randomly; if a subhex has a ruined structure, it will likely make sense for a monster to lair in it, if possible. Once the type of creatures are determined refer to the appropriate monster listing and roll to determine the number of monsters encountered using the die roll in the parenthesis. There is a 1-2 in 6 chance that the number of monsters in the lair are actually that number multiplied by (1-4) 2, (5-7) 4, (8-10) 5, (11-12) 6. Ex. The entry for goblin states that 6d10 goblins are encountered in the wilderness. There’s a 1-2 in 6 chance that a goblin lair actually numbers 12d10, 24d10, 30d10, or 36d10. Otherwise, placement of lairs is similar to populating a dungeon, except in a much larger, open area.
+
 
 7-table-1.md
 
@@ -35,6 +138,7 @@ Python script um tabellen in perchance format zu konvertieren perchance.py
 | 17    | Water                    |
 | 18    | Magic                    |
 | 19-20 | No Feature               |
+^LairandFeature
 
 ### Random Feature
 
@@ -42,35 +146,48 @@ Python script um tabellen in perchance format zu konvertieren perchance.py
 
 ### Master Table
 
-| dice: 1d20 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-4        | Geologic Feature `dice: [[Filling in the Blanks#^GeologicFeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| 5-8        | Structure `dice: [[Filling in the Blanks#^StructuresMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 9-12       | Resource [[Filling in the Blanks#Resources]]. `dice: [[Filling in the Blanks#^ResourceMaster]]` .This resource `dice: [[Filling in the Blanks#^exceptionalResource]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 13         | Hazard [[Filling in the Blanks#Hazard]] `dice: [[Filling in the Blanks#^HazardMaster]]`, `dice: [[Filling in the Blanks#^HazardArea]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 14         | Sign [[Filling in the Blanks#Sign]] `dice: [[Filling in the Blanks#^signHex]]`. It is: `dice: [[Filling in the Blanks#^signage]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| 15         | Dungeon [[Filling in the Blanks#Dungeons]] [[Random Dungeon DMG]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 18         | Settlement [[Filling in the Blanks#Settlements]] [[202211150936 Random Village]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| 16-17      | Terrain. The local Terrain varies from surrounding Terrain. [[Filling in the Blanks#Terrain]] `dice: [[Filling in the Blanks#^TerrainVariance]]`,  `dice: [[Filling in the Blanks#^TerrainType]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| 19         | Water [[Filling in the Blanks#Water]]. `dice: [[Filling in the Blanks#^waterMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| dice: 1d20 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-4        | Geologic Feature `dice: [[Filling in the Blanks#^GeologicFeature]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 5-8        | Structure `dice: [[Filling in the Blanks#^StructuresMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 9-12       | Resource [[Filling in the Blanks#Resources]]. `dice: [[Filling in the Blanks#^ResourceMaster]]` .This resource `dice: [[Filling in the Blanks#^exceptionalResource]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 13         | Hazard [[Filling in the Blanks#Hazard]] `dice: [[Filling in the Blanks#^HazardMaster]]`, `dice: [[Filling in the Blanks#^HazardArea]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 14         | Sign [[Filling in the Blanks#Sign]] `dice: [[Filling in the Blanks#^signHex]]`. It is: `dice: [[Filling in the Blanks#^signage]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 15         | Dungeon [[Filling in the Blanks#Dungeons]] [[Random Dungeon DMG]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 18         | Settlement [[Filling in the Blanks#Settlements]] [[202211150936 Random Village]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 16-17      | Terrain. The local Terrain varies from surrounding Terrain. [[Filling in the Blanks#Terrain]] `dice: [[Filling in the Blanks#^TerrainVariance]]`,  `dice: [[Filling in the Blanks#^TerrainType]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 19         | Water [[Filling in the Blanks#Water]]. `dice: [[Filling in the Blanks#^waterMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | 20         | Magic [[Filling in the Blanks#Magic]] `dice: [[Filling in the Blanks#^magicmaster]]`. Magical features are broken into several categories, but they all share several broad traits: Unless otherwise stated magical features cannot be dispelled by anything short of a wish or divine intervention. Unless otherwise stated, the effects of a magical feature always occur. A zone where spells have their range increased by 25% *always* increases their range by 25%. The magic affects `dice: [[Filling in the Blanks#^magicarea]]`There’s `dice: 1d6 <=2` chance that, when subjects of a magical effect leave the affected area, the effect ends. This applies to effects such as curses, but also more permanent effects, like the sentience of animals, which may find themselves reverting to their normal intelligence should they leave the magical area. |
 ^FeatureNoLairs
 
 
 ### Geologic
 
-| dice: 1d6 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1         | Change in Elevation. The terrain in a given area is at a different elevation than the surrounding land. This can be hill, butte, plateau, valley, holler, sinkhole, or other descriptive term. `dice: [[Filling in the Blanks#^hiLow]]` of `dice: [[Filling in the Blanks#^ElevationYards]]` `dice: [[Filling in the Blanks#^ElevationType]]`. The Area is `dice: [[Filling in the Blanks#^ElevationArea]]`. The Terrain is `dice: [[Filling in the Blanks#^elevationTerrain]]` comparing to surrounding Terrain. See [[Filling in the Blanks#Terrain]] |
-| 2         | Soil `dice: [[Filling in the Blanks#^SoilApprearance]]` The soil is `dice: [[Filling in the Blanks#^SoilFecundity]]`, `dice: [[Filling in the Blanks#^SoilReasonFecundity]]`                                                                                                                                                                                                                                                                                                                                                                            |
-| 3         | Terrain. Terrain. The local Terrain varies from surrounding Terrain. [[Filling in the Blanks#Terrain]] `dice: [[Filling in the Blanks#^TerrainVariance]]`,  `dice: [[Filling in the Blanks#^TerrainType]]` [[Filling in the Blanks#^TerrainType]]                                                                                                                                                                                                                                                                                                       |
-| 4         | Caves. The cave has `dice: [[Filling in the Blanks#^CaveEntrances]]`.One Entrance is `dice: [[Filling in the Blanks#^TypeCaveEntrance]]`. There are `dice: [[Filling in the Blanks#^NumberChambers]]`. Is the water in the cave? `dice: [[Filling in the Blanks#^caveWater]]`                                                                                                                                                                                                                                                                           |
-| 5         | Rock. The terrain is unusually rocky. There is/are `dice: [[Filling in the Blanks#^typeRocks]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 6         | Water [[Filling in the Blanks#Water]]. `dice: [[Filling in the Blanks#^waterMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| dice: 1d6 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1         | Change in Elevation. The terrain in a given area is at a different elevation than the surrounding land. This can be hill, butte, plateau, valley, holler, sinkhole, or other descriptive term. `dice: [[Filling in the Blanks#^hiLow]]` of `dice: [[Filling in the Blanks#^ElevationYards]]` `dice: [[Filling in the Blanks#^ElevationType]]`. The Area is `dice: [[Filling in the Blanks#^ElevationArea]]`. The Terrain is `dice: [[Filling in the Blanks#^elevationTerrain]]` comparing to surrounding Terrain. See [[Filling in the Blanks#Terrain]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 2         | Soil `dice: [[Filling in the Blanks#^SoilApprearance]]` The soil is `dice: [[Filling in the Blanks#^SoilFecundity]]`, `dice: [[Filling in the Blanks#^SoilReasonFecundity]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 3         | Terrain. Terrain. The local Terrain varies from surrounding Terrain. [[Filling in the Blanks#Terrain]] `dice: [[Filling in the Blanks#^TerrainVariance]]`,  `dice: [[Filling in the Blanks#^TerrainType]]` [[Filling in the Blanks#^TerrainType]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| 4         | Caves. Caves, obviously, are located below the ground and so are not always visible. Use the following rules to determine what the cave looks like. Note that any hex that has caves present gains the “Hazard (Sinkhole)”  feature on a roll of 1 in 6 in the subhex containing the cave and the six subhexes around it - [[Filling in the Blanks#^HazardGeologicMaster]].  `dice: [[Filling in the Blanks#^caveinhabited]]`. The cave has `dice: [[Filling in the Blanks#^CaveEntrances]]`.One Entrance is `dice: [[Filling in the Blanks#^TypeCaveEntrance]]`. There are `dice: [[Filling in the Blanks#^NumberChambers]]`. Is the water in the cave? `dice: [[Filling in the Blanks#^caveWater]]`. Caves, obviously, are located below the ground and so are not always visible. Use the following rules to determine what the cave looks like. Note that any hex that has caves present gains the “Hazard (Sinkhole)”  feature on a roll of 1 in 6 in the subhex containing the cave and the six subhexes around it - [[Filling in the Blanks#^HazardGeologicMaster]].  `dice: [[Filling in the Blanks#^caveinhabited]]`. |
+| 5         | Rock. The terrain is unusually rocky. There is/are `dice: [[Filling in the Blanks#^typeRocks]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 6         | Water [[Filling in the Blanks#Water]]. `dice: [[Filling in the Blanks#^waterMaster]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 ^GeologicFeature
 
 #### Caves
-Caves, obviously, are located below the ground and so are not always visible. Use the following rules to determine what the cave looks like. Note that any hex that has caves present gains the “Hazard (Sinkhole)” feature on a roll of 1 in 6 in the subhex containing the cave and the six subhexes around it. In addition, the vast majority of the time a cave system will be inhabited by a monster of some kind, even if it is not normally open to the surface world. There is a 1 in 20 chance per cave that it is totally uninhabited, with a further 1-3 in 6 chance that the cave is uninhabited for a specific reason (the air within is poisonous, the rock emits strong radiation, difficult to reach, etc.).
+Caves, obviously, are located below the ground and so are not always visible. Use the following rules to determine what the cave looks like. Note that any hex that has caves present gains the “Hazard (Sinkhole)”  feature on a roll of 1 in 6 in the subhex containing the cave and the six subhexes around it - [[Filling in the Blanks#^HazardGeologicMaster]].  `dice: [[Filling in the Blanks#^caveinhabited]]`.
+
+| dice: 1d20 |                                                                                                                                               |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | The cave is totally uninhabited. `dice: [[Filling in the Blanks#^specificReasonuninhabited]]`                                                                                                             |
+| 2-20       | The vast majority of the time a cave system will be inhabited by a monster of some kind, even if it is not normally open to the surface world |
+^caveinhabited
+
+
+| dice: 1d6 |                                                                                                                                        |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | The cave is uninhabited for a specific reason (the air within is poisonous, the rock emits strong radiation, difficult to reach, etc.) |
+| 4-6       |                                                                                                                                        |
+^specificReasonuninhabited
 
 12-table-3.md
 
@@ -137,7 +254,7 @@ Chambers in a cave are connected by tunnels. `dice: [[Filling in the Blanks#^Cha
 | 6         | Formed not by water. It is also possible that a cave system has been created by other means: burrowing monsters such as purple worms, or extinct lava tubes, or the intrusion of elemental planes into the material are all possible sources for the creation of unique cave systems. Use the Dungeon Stocking Table on p. 225 of OSE core to determine what is present in a cave system. As a rule of thumb, caves of 1-4 chambers will generally be inhabited by only a single type of monster (whether goblins, mountain lions, etc.). Larger caves will be populated as dungeons, with multiple and diverse populations. [[Filling in the Blanks#Dungeons]] |
 ^caveWater
 
-XXX
+
 
 
 #### Change in Elevation
@@ -200,11 +317,11 @@ The terrain is unusually rocky. This manifests itself in three different ways:
 
 13-table-2.md
 
-| d100   | Result                                                                                                                                                                                                                                                                                                                                                                            |
-|:------ |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-35   |  |
-| 36-70  | a  smaller  number  of  larger  rocks,  with  an average diameter `dice: 3d6` feet and a density of 1d4 per `dice: 1d20 *100` feet. `dice: [[Filling in the Blanks#^AreaRocks]]` `dice: [[Filling in the Blanks#^OriginRocks]]` `dice: [[Filling in the Blanks#^rocksUnusual]]`                                                                                                   |
-| 71-100 | an  outcropping  of  rock.  `dice: [[Filling in the Blanks#^OutcroppingSize]]`, in  `dice: [[Filling in the Blanks#^OutcroppingArea]]` (Area of Outcopping).  If  the  outcropping occupies  a  single  subhex  there  is  only  one;  if  multiple  subhexes,  each subhex will have `dice: [[Filling in the Blanks#^largeoutcropping]]`                                         |
+| d100   | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-35   | A  number  of  smaller  rocks  with an average diameter  `dice: 1d6-1`  in feet. A result of 0 indicates the rocks are, on average, smaller than a foot in diameter. The rocks are distributed with a  density  of  `dice: 3d10`  per  `dice: 1d20 *100`  sq.  ft.  The rocks  cover an area of `dice: [[Filling in the Blanks#^AreaRocks]]`. The rocks will be  `dice: [[Filling in the Blanks#^OriginRocks]]`. The Type of Rock can bei looked up in the section [[Filling in the Blanks#Resources]]. `dice: [[Filling in the Blanks#^rocksnormal]]`. |
+| 36-70  | a  smaller  number  of  larger  rocks,  with  an average diameter `dice: 3d6` feet and a density of `dice: 1d4` per `dice: 1d20 *100` feet. `dice: [[Filling in the Blanks#^AreaRocks]]`. The rocks will be  `dice: [[Filling in the Blanks#^OriginRocks]]`. The Type of Rock can bei looked up in the section [[Filling in the Blanks#Resources]]. `dice: [[Filling in the Blanks#^rocksnormal]]`                                                                                                                                                      |
+| 71-100 | an  outcropping  of  rock.  `dice: [[Filling in the Blanks#^OutcroppingSize]]`, in  `dice: [[Filling in the Blanks#^OutcroppingArea]]` (Area of Outcopping).  If  the  outcropping occupies  a  single  subhex  there  is  only  one;  if  multiple  subhexes,  each subhex will have `dice: [[Filling in the Blanks#^largeoutcropping]]`                                                                                                                                                                                                               |
 ^typeRocks
 
 
@@ -242,7 +359,7 @@ size of Outcropping
 | 100   | `dice: 1d4+1` hexes    |
 ^OutcroppingArea
 
-A  number  of  smaller  rocks  with an average diameter  `dice: 1d6-1`  in feet. A result of 0 indicates the rocks are, on average, smaller than a foot in diameter. The rocks are distributed with a  density  of  `dice: 3d10`  per  `dice: 1d20 *100`  sq.  ft.  The rocks  cover an area of `dice: [[Filling in the Blanks#^AreaRocks]]`. The Type of Rock can bei looked up in the section [[Filling in the Blanks#Resources]]. `dice: [[Filling in the Blanks#^rocksnormal]]`.
+
 
 | dice: 1d6 |                                                                        |
 | --------- | ---------------------------------------------------------------------- |
@@ -269,7 +386,7 @@ A  number  of  smaller  rocks  with an average diameter  `dice: 1d6-1`  in feet.
 
 
 
-The rocks will be . .
+
 14-table-2.md
 
 | d100   | Result                                                                                                                                                        |
@@ -283,12 +400,12 @@ The rocks will be . .
 
 
 
-| dice: 1d36 | result                                                                                                                                                                                |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-3        | The rocks have been written on. The writing is `dice: [[Filling in the Blanks#^writingRockHow]]`, Further, the writing will be on `dice: [[Filling in the Blanks#^WritingRockAmount]]`,`dice: [[Filling in the Blanks#^writingContent]]` |
-| 4-5        | The rocks are arranged in a specific pattern. The pattern can `dice: [[Filling in the Blanks#^patternPerspective]]` , `dice: [[Filling in the Blanks#^patternFunction]]`                                                |
-| 6          | The Rocks are Magical. Refer to the section on Magical Features.                                                                                                                      |
-| 7-36       | There is nothing unusual about the rocks                                                                                                                                              |
+| dice: 1d6 | result                                                                                                                                                                                                                                   |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3       | The rocks have been written on. The writing is `dice: [[Filling in the Blanks#^writingRockHow]]`, Further, the writing will be on `dice: [[Filling in the Blanks#^WritingRockAmount]]`,`dice: [[Filling in the Blanks#^writingContent]]` |
+| 4-5       | The rocks are arranged in a specific pattern. The pattern can `dice: [[Filling in the Blanks#^patternPerspective]]` , `dice: [[Filling in the Blanks#^patternFunction]]`                                                                 |
+| 6         | The Rocks are Magical. Refer to the [[Filling in the Blanks#Magic]]                                                                                                                                                                      |
+
 ^rocksUnusual
 
 
@@ -314,16 +431,76 @@ The rocks will be . .
 
 The writing 
 
-| dice: 1d6 | result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1         | Is meaningless, obscene or pornographic graffiti.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| 2         | Contains the formula to `dice: [[Filling in the Blanks#^rockspell]]` . It takes `dice: 1d8` weeks plus one day per additional stone containing the writing to decipher and understand what is scribed upon it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 3         | A prophecy, concerning events that `dice: [[Filling in the Blanks#^Rocksprophecy]]`. There’s `dice: 1d6 <=2` chance the prophecy is wrong.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| 4         | XXX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| 5         | There’s a small crevice in the rock, and if the adventurers write a question on a slip of paper (1-2 in 6 chance that the question must be asked in a specific language, (3-4) written in the asker’s blood, or (5-6) accompanied by a gift), slip it into the crevice, and return the next day the writing will reform itself as an answer to the question posed (treat as 1-3 augury, 4-5 divination, or 6 commune, all as if cast by a cleric of level 6+1d8).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| 6         | The writing is 1 a record of historical events (see Monuments, p. 17), 2 a warning about dangers (1-4 current, 5-6 past and no longer relevant) in the area, 3 a personal missive directed to one of the adventurers (1-3 chance of being accurate, from a dead relative or friend. There’s a 1-2 chance it will contain advice about upcoming events, otherwise it will just be the friend or relative saying hello), 4 a single letter per stone (see above to determine the number of stones with writing on them), arranged in a random fashion (the letters, when sorted, spell out 1-2 a dirty word, 3-4 the name of an ancient king or magician, 5 the name of an ally of the party who means to betray them, or 6 the true name of a demon or fairy that can be used to bind said creature), 5 assembly directions (if the stones are arranged according to the directions written upon them they will create 1-2 a sculpture, 3-4 a crude dwelling, 5 a portal that functions as a gate to another world, or 6 a circle 1d20+10 feet in diameter, inside which the adventurers may camp without fear of wandering monsters. In the last two instances the effects last for 1 1d4 uses (camping 8 hours counts as a “use”), 2 1d4 hours, 3 3d4 hours, 4 1d4 days, 5 1d4 weeks, 6 permanently) or 6 something else of the Referee’s choosing. |
+| dice: 1d6 | result                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Is meaningless, obscene or pornographic graffiti.                                                                                                                                                                                                                                                                                                                                                                                 |
+| 2         | Contains the formula to `dice: [[Filling in the Blanks#^rockspell]]` . It takes `dice: 1d8` weeks plus one day per additional stone containing the writing to decipher and understand what is scribed upon it.                                                                                                                                                                                                                    |
+| 3         | A prophecy, concerning events that `dice: [[Filling in the Blanks#^Rocksprophecy]]`. There’s `dice: 1d6 <=2` chance the prophecy is wrong.                                                                                                                                                                                                                                                                                        |
+| 4         | A map. `dice: [[Filling in the Blanks#^rocksmap]]`                                                                                                                                                                                                                                                                                                                                                                                |
+| 5         | There’s a small crevice in the rock, and if the adventurers write a question on a slip of paper (the question must be `dice: [[Filling in the Blanks#^rockcreviceQuestionGift]]`),slip it into the crevice, and return the next day the writing will reform itself as an answer to the question posed (treat as `dice: [[Filling in the Blanks#^rockCreviceQuestionSpell]]` all as if cast by a cleric of level `dice: 1d8 + 6`.) |
+| 6         | The writing is `dice: [[Filling in the Blanks#^rockmessage]]`                                                                                                                                                                                                                                                                                                                                                                     |
 
 ^writingContent
+
+
+
+
+
+| dice: 1d6 | result                                                                                                                                                                                                                 |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | a record of historical events (see Monuments, p. 17),                                                                                                                                                                  |
+| 2         | a warning about dangers (`dice: [[Filling in the Blanks#^rockdangerwarning]]`) in the area,                                                                                                                            |
+| 3         | a personal missive directed to one of the adventurers `dice: [[Filling in the Blanks#^rockspersonalnote]]`                                                                                                             |
+| 4         | a single letter per stone (see above to determine the number of stones with writing on them), arranged in a random fashion (the letters, when sorted, spell out `dice: [[Filling in the Blanks#^rocksingleletters]]`), |
+| 5         | assembly directions (if the stones are arranged according to the directions written upon them they will create `dice: [[Filling in the Blanks#^Rockinstructions]]`)                                                    |
+| 6         | something else of the Referee’s choosing.                                                                                                                                                                              |
+^rockmessage
+
+
+| dice: 1d6 | result                                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-3       | chance of being accurate, from a dead relative or friend. There’s `dice: 1d6<=2`chance it will contain advice about upcoming events, |
+| 4-6       | otherwise it will just be the friend or relative saying hello)                                                                       |
+^rockspersonalnote
+
+
+| dice: 1d6 | result                                                                                                                                                                                |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | a sculpture,                                                                                                                                                                          |
+| 3-4       | a crude dwelling,                                                                                                                                                                     |
+| 5         | a portal that functions as a gate to another world. The effects last for `dice: [[Filling in the Blanks#^durationassembly]]`                                                          |
+| 6         | a circle `dice: 1d20+10` feet in diameter, inside which the adventurers may camp without fear of wandering monsters. The effects last for `dice: [[Filling in the Blanks#^durationassembly]]` |
+^Rockinstructions
+
+
+
+| dice: 1d6 | result                                                |
+| --------- | ----------------------------------------------------- |
+| 1         | `dice: 1d4` uses (camping 8 hours counts as a “use”), |
+| 2         | `dice: 1d4` hours,                                    |
+| 3         | `dice: 3d4` hours,                                    |
+| 4         | `dice: 1d4` days,                                     |
+| 5         | `dice: 1d4` weeks,                                    |
+| 6         | permanently                                           |
+^durationassembly
+
+
+| dice: 1d6 | result                      |
+| --------- | --------------------------- |
+| 1-4       | current                     |
+| 5-6       | past and no longer relevant |
+^rockdangerwarning
+
+
+| dice: 1d6 | result                                                                   |
+| --------- | ------------------------------------------------------------------------ |
+| 1-2       | a dirty word                                                             |
+| 3-4       | the name of an ancient king or magician,                                 |
+| 5         | the name of an ally of the party who means to betray them, or            |
+| 6         | the true name of a demon or fairy that can be used to bind said creature |
+^rocksingleletters
+
+
 
 | dice: 1d6 |                 |
 | --------- | --------------- |
@@ -339,11 +516,36 @@ The writing
 ^Rocksprophecy
 
 
-A map. On a 
-
-1-2 it’s a treasure map (roll on the Scrolls treasure table, treating all non treasure map results as a reroll), 3-4 it’s a map of the surrounding area, 5 it’s a map to an undiscovered/unknown area (1-2 in 6 chance of being in another plane or dimension), or 6 a map of a random location.
 
 
+
+| dice: 1d6 |                                                                                                              |
+| --------- | ------------------------------------------------------------------------------------------------------------ |
+| 1-2       | it’s a treasure map (roll on the Scrolls treasure table, treating all non treasure map results as a reroll), |
+| 3-4       | it’s a map of the surrounding area,                                                                          |
+| 5         | it’s a map to an undiscovered/unknown area (`dice: 1d6 <=2` chance of being in another plane or dimension)   |
+| 6         | it is a map of a random location.                                                                                  |
+^rocksmap
+
+
+
+
+
+
+| dice: 1d6 |                                  |
+| --------- | -------------------------------- |
+| 1-2       | asked in a specific language,    |
+| 3-4       | written in the asker’s blood, or |
+| 5-6       | accompanied by a gift            |
+^rockcreviceQuestionGift
+
+
+| dice: 1d6 |                |
+| --------- | -------------- |
+| 1-3       | augury        |
+| 4-5       | divination, or |
+| 6         | commune,       |
+^rockCreviceQuestionSpell
 
 
 4-5) The rocks are arranged in a specific pattern. The pattern can
@@ -360,9 +562,9 @@ The pattern will be one of the following
 
 | dice: 1d108 | result                                                                                                                                                                                                                           |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-6         | There is power within the pattern, but it is not clear what it is. It takes 1d8 days of study to determine what the pattern does. It is a ward against something (roll on the Scrolls table to determine what it wards against), |
-| 7-9         | There is power within the pattern, but it is not clear what it is. It takes 1d8 days of study to determine what the pattern does. functions as a gate to another place in this world,                                                                                                                                                                              |
-| 10-11       | There is power within the pattern, but it is not clear what it is. It takes 1d8 days of study to determine what the pattern does. functions as a gate to a place in another world or dimension, or                                                                                                                                                                 |
+| 1-6         | There is power within the pattern, but it is not clear what it is. It takes `dice: 1d8` days of study to determine what the pattern does. It is a ward against something (roll on the Scrolls table to determine what it wards against), |
+| 7-9         | There is power within the pattern, but it is not clear what it is. It takes `dice: 1d8` days of study to determine what the pattern does. functions as a gate to another place in this world,                                                                                                                                                                              |
+| 10-11       | There is power within the pattern, but it is not clear what it is. It takes `dice: 1d8` days of study to determine what the pattern does. functions as a gate to a place in another world or dimension, or                                                                                                                                                                 |
 | 12          | functions as a gate to another time                                                                                                                                                                                              |
 | 13-14       | functions to alter the surrounding weather by moderating,                                                                                                                                                                        |
 | 15-16       | functions to alter the surrounding weather by intensifying, or                                                                                                                                                                   |
@@ -416,44 +618,38 @@ If a third or more of the subhexes in this hex are more productive, increase the
 ### Structures
 This section covers all sorts of structures that can be found in the wilderness, from simple lean-to shelters to elaborate mansions and free-holds, from abandoned shepherd huts to ruined castles and keeps.
 
-Unless otherwise stated, structures in Civilized areas have a 1-5 in 6 chance of being used for their intended purposes, 
-those in Borderlands have a 1-3 in 6 chance, and those in Wilderness areas have a 1-2 in 6 chance. F
-or a discussion of the differences between Civilized, Borderlands, and Wilderness hexes refer to p. 15 of the supplement Domain Building.
 
-Structures used for their intended purpose will not be abandoned, or lairs for monsters, or otherwise unusable.
+Unless otherwise stated, structures  in Civilized are `dice: [[Filling in the Blanks#^structureabandoned]]`those in Borderlands have a 1-3 in 6 chance, and those in Wilderness areas have a 1-2 in 6 chance. For a discussion of the differences between Civilized, Borderlands, and Wilderness hexes refer to p. 15 of the supplement Domain Building. [[202104290619 Todd Into the Wild]].  The Structures are `dice: [[Filling in the Blanks#^StructuresMaster]]`.
 
-If structures are abandoned or no longer in use they can potentially be used either to house lairs of monsters that have already been rolled for (see Lairs, above) *or* they can be used to introduce a new lair. It is up to the Referee to decide how they want to populate structures within a hex.
+
+| dice 1d6 |                                                                                                                                                                                                                                                                                                        |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-5      | used for their intended purposes, Structures used for their intended purpose will not be abandoned, or lairs for monsters, or otherwise unusable.                                                                                                                                                      |
+| 6        | abandoned. If structures are abandoned or no longer in use they can potentially be used either to house lairs of monsters that have already been rolled for (see Lairs, above) *or* they can be used to introduce a new lair. It is up to the Referee to decide how they want to populate structures within a hex |
+^structureabandoned
+
+
+
 
 17-table-2.md
 
-| d10 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|:--- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Burial Grounds. Its Size is `dice: [[Filling in the Blanks#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Filling in the Blanks#^HowBuried]]`. How long  have they been dead: `dice: [[Filling in the Blanks#^howlongDead]]`. The dead are: `dice: [[Filling in the Blanks#^deadAncestry]]`, `dice: [[Filling in the Blanks#^buriedceremony]]`  `dice: [[Filling in the Blanks#^buriedTemple]]`.                                                                                                                                                                                                                                                                                                                                                   |
-| 2   | Monuments to `dice: [[Filling in the Blanks#^MonumenttoWhom]]` `dice: [[Filling in the Blanks#^monumentShape]]`, `dice: [[Filling in the Blanks#^MonumentSize]]`, `dice: [[Filling in the Blanks#^monumentHollow]]`, `dice: [[Filling in the Blanks#^monumentAge]]`, `dice: [[Filling in the Blanks#^monumentMaterial]]` , `dice: [[Filling in the Blanks#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 3-5 | Dwellings `dice: [[Filling in the Blanks#^dwellingInhabitants]]`, age `dice: [[Filling in the Blanks#^monumentAge]]`, condition `dice: [[Filling in the Blanks#^dwellingCondition]]`, The dwelling is made of . . . `dice: [[Filling in the Blanks#^dwellingMaterials]]` , its size is:  `dice: [[Filling in the Blanks#^dwellingSize]]`                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| 6   | Fortificaton. A `dice: [[Filling in the Blanks#^fortificationType]]` made of `dice: [[Filling in the Blanks#^fortificationMaterial]]`. It is `dice: [[Filling in the Blanks#^dwellingCondition]]` its age is `dice: [[Filling in the Blanks#^monumentAge]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 7-8 | Infrastructure `dice: [[Filling in the Blanks#^InfrastructureType]]`,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| d10 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|:--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Burial Grounds. Its Size is `dice: [[Filling in the Blanks#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Filling in the Blanks#^HowBuried]]`.  `dice: [[Filling in the Blanks#^buriedceremony]]`. This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is marked or they were ritually exposed. The chance is decreased by 1 in Wilderness hexes, and again if the dead weren’t buried, were buried in unmarked graves, or were killed as a punishment..  How long  have they been dead: `dice: [[Filling in the Blanks#^howlongDead]]`. The dead are: `dice: [[Filling in the Blanks#^deadAncestry]]`,  `dice: [[Filling in the Blanks#^buriedTemple]]`.             |
+| 2   | Monuments to `dice: [[Filling in the Blanks#^MonumenttoWhom]]` `dice: [[Filling in the Blanks#^monumentShape]]`, `dice: [[Filling in the Blanks#^MonumentSize]]`, `dice: [[Filling in the Blanks#^monumentHollow]]`, `dice: [[Filling in the Blanks#^monumentAge]]`, `dice: [[Filling in the Blanks#^monumentMaterial]]` , `dice: [[Filling in the Blanks#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                                                                   |
+| 3-5 | Dwellings. The wilderness is filled with hovels, huts and houses erected by various peoples, either inhabited by the original builder, a recent arrival or completely abandoned. The dwellings are `dice: [[Filling in the Blanks#^dwellingInhabitants]]`,  age `dice: [[Filling in the Blanks#^monumentAge]]`, condition `dice: [[Filling in the Blanks#^dwellingCondition]]`, The dwelling is made of `dice: [[Filling in the Blanks#^dwellingMaterials]]` , its size is:  `dice: [[Filling in the Blanks#^dwellingSize]]`.                                                                                                                                                                                                                    |
+| 6   | Fortificaton. A `dice: [[Filling in the Blanks#^fortificationType]]` made of `dice: [[Filling in the Blanks#^fortificationMaterial]]`. It is `dice: [[Filling in the Blanks#^dwellingCondition]]` its age is `dice: [[Filling in the Blanks#^monumentAge]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 7-8 | Infrastructure `dice: [[Filling in the Blanks#^InfrastructureType]]`,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | 9   | Barriers `dice: [[Filling in the Blanks#^barriertype]]`, Barriers, if the adventurers insist on continuing on their path, will slow progress by `dice: [[Filling in the Blanks#^BarrierIntensity]]`, Each barrier affects a “zone”, or a certain area. The smallest area a zone can affect is a single subhex. Roll below to determine the size of the zone `dice: [[Filling in the Blanks#^BarrierZone]]`. Barriers can be overcome or avoided through spells, clever thinking, or simple brute force or ignorance. Labor can be used to clear a forest of hampering underbrush or to build a bridge across a ravine, as a permanent solution. Powerful magics may be needed to permanently eliminate other barriers, both magical and mundane. |
-| 10  | Dungeons                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| 10  | Dungeons                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 ^StructuresMaster
 
 ---
 
 
 #### Burial Ground
-Structures in this category range from simple wooden or stone grave markers to large mausoleums and sprawling necropolises. Roll below to determine what is found.
 
 
-There’s a 1-3 in 6 chance the dead have been buried as part of a religious ceremony (see Unhallowed Ground, below). This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is marked or they were ritually exposed. The chance is decreased by 1 in Wilderness hexes, and again if the dead weren’t buried, were buried in unmarked graves, or were killed as a punishment.
-
-In Civilized hexes there’s a 1-3 in 6 chance the burial ground is part of a temple or sacred ground, and a further 1-3 in 6 chance that one or more priests or guardians stand vigil over the dead. In Borderlands these chances are reduced to 1-2 in 6 and 1-2 in 8, respectively, and in Wilderness hexes they are reduced further to 1 in 8 and 1 in 12, respectively.
-
-As a general rule of thumb each body occupies between 1d20+15 sq. ft. for purposes of determining the size of the burial grounds. Add modifiers as needed, and only roll once to determine the average size, then apply that to all the bodies within. For instance, bodies interred in a mausoleum take up less space than, say, bodies left to rot after a battle.
-
-In Civilized hexes there’s a1-3 in 6 chance the burial ground is part of a temple or sacred ground, and a further 1-3 in 6 chance that one or more priests or guardians stand vigil over the dead. In Borderlands these chances are reduced to 1-2 in 6 and 1-2 in 8, respectively, and in Wilderness hexes they are reduced further to 1 in 8 and 1 in 12, respectively.
-
-
-As a general rule of thumb each body occupies between 1d20+15 sq. ft. for purposes of determining the size of the burial grounds. Add modifiers as needed, and only roll once to determine the average size, then apply that to all the bodies within. For instance, bodies interred in a mausoleum take up less space than, say, bodies left to rot after a battle.
 
 
 
@@ -477,21 +673,22 @@ How are the dead buried?
 
 18-table-2.md
 
-| d100  | Result                                                                                                        |
-|:----- |:------------------------------------------------------------------------------------------------------------- |
+| d100  | Result                                                                                                                         |
+|:----- |:------------------------------------------------------------------------------------------------------------------------------ |
 | 1-25  | They’re not Buried.  The dead are left exposed to the elements as they fell. `dice: [[Filling in the Blanks#^diedofviolence]]` |
-| 36-30 | Buried in a mass grave                                                                                        |
+| 36-30 | Buried in a mass grave                                                                                                         |
 | 31-60 | Wooden markers The markers `dice: [[Filling in the Blanks#^graveWriting]]`                                                     |
 | 61-75 | Stone tombstones. The stones `dice: [[Filling in the Blanks#^graveWriting]]`                                                   |
 | 76-80 | Mausoleums or crypts. Is there writing?  `dice: [[Filling in the Blanks#^graveWriting]]`                                       |
-| 81-86 | Barrows or burial mounds                                                                                      |
-| 87-90 | Ritually exposed to the elements                                                                              |
-| 91-95 | As punishment (gibbets, crucifixion, gallows, etc.)                                                           |
-| 96-99 | In unmarked graves.                                                                                           |
-| 100   | Unique or magically (turned to stone or trees, frozen in blocks of ice, embedded in amber, etc.)              |
+| 81-86 | Barrows or burial mounds                                                                                                       |
+| 87-90 | Ritually exposed to the elements                                                                                               |
+| 91-95 | As punishment (gibbets, crucifixion, gallows, etc.)                                                                            |
+| 96-99 | In unmarked graves.                                                                                                            |
+| 100   | Unique or magically (turned to stone or trees, frozen in blocks of ice, embedded in amber, etc.)                               |
 ^HowBuried
 
-`dice: [[Filling in the Blanks#^buriedceremony]]`
+
+How long have they been dead?
 
 Have the dead been buried with a ceremony?
 
@@ -505,6 +702,7 @@ Have the dead been buried with a ceremony?
 
 This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is marked or they were ritually exposed. The chance is decreased by 1 in Wilderness hexes, and again if the dead weren’t buried, were buried in unmarked graves, or were killed as a punishment.
 
+
 | dice: 1d4 | result                                                                                                                                                                                                           |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1-2       | the burial ground is not part of a temple or sacred ground. The ground is `dice: [[Filling in the Blanks#^unhallowedNoTemple]]` This chance increases by 1 for every 50 bodies interred in the area, up to a maximum of 1-5 in 6. |
@@ -512,12 +710,14 @@ This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is
 | 4         | the burial ground is part of a temple or sacred ground and one or more priests or guardians stand vigil over the dead. `dice: [[Filling in the Blanks#^unhallowedTemple]]`                                                        |
 ^buriedTemple
 
+
 | dice: 1d6 | result                                                                                                                                                                            |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1-5       | hallowed                                                                                                                                                                          |
 | 6         | unhallowed. The forces of Chaos and undeath rule supreme in unhallowed ground. An unhallowed burial site will have qualities from the below table. `dice: [[Filling in the Blanks#^1-3qualities]]` |
 
 ^unhallowedTemple
+
 
 | dice: 1d6 | result                                                                                                                                                                           |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -534,11 +734,12 @@ This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is
 | 6         | 1: `dice: [[Filling in the Blanks#^unhallowedQualities]]` 2: `dice: [[Filling in the Blanks#^unhallowedQualities]]` 3: `dice: [[Filling in the Blanks#^unhallowedQualities]]`  If duplicates are rolled the effects stack unless otherwise noted. |
 ^1-3qualities
 
+
 | unhallowed qualities                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | The dead walk. Those that die within unhallowed ground for every night their body remains within the borders.  `dice: [[Filling in the Blanks#^deadRise]]`                                                                                                                                                                                                                                                                                                                                                                                                     |
 | The dead resist. `dice: [[Filling in the Blanks#^deadresist]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| The dead persist. Undead that are created within the unhallowed ground (whether “naturally” or due to spells such as animate dead) do so with 1d10 hit points per HD rather than 1d8. There’s a further 1-2 in 6 chance that one of the following occurs `dice: [[Filling in the Blanks#^deadPersistTable]]`                                                                                                                                                                                                                                                   |
+| The dead persist. Undead that are created within the unhallowed ground (whether “naturally” or due to spells such as animate dead) do so with 1d10 hit points per HD rather than 1d8. `dice: [[Filling in the Blanks#^isdeadpersist]]`                                                                                                                                                                                                                                                   |
 | The dead protest. Both clerical and natural healing is stifled within the unhallowed ground. Natural healing does not occur, and magical healing is minimized (roll twice, taking the lower result).                                                                                                                                                                                                                                                                                                                                          |
 | The evil permeates. The entire unhallowed area radiates evil. Spells that detect evil or alignment do not function due to the aura of Chaos that suffuses the space, and spells or items that ward or rely on the identification of alignment also do not function. Lawful-aligned creatures are uneasy in this place, taking a –1 penalty to surprise rolls, and having difficulty sleeping. Each night they try to sleep in the area they make a Save v. Spells; failure indicates they do not sleep soundly enough to regain hp or spells. |
 | The dead hunger. If an undead creature rolls a 19 or 20, their blows automatically inflict maximum damage. There’s an additional 1-2 in 6 chance that saving throws made by non-Chaotic creatures within the unhallowed ground are done with disadvantage (rolling twice and taking the worse result).                                                                                                                                                                                                                                        |
@@ -564,6 +765,12 @@ This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is
 | 34-35      | dead rise as zombies   |
 | 36         | dead rise as ghouls    |
 ^deadRise
+
+| dice: 1d6 |                                                     |
+| --------- | --------------------------------------------------- |
+| 1-2       | `dice: [[Filling in the Blanks#^deadPersistTable]]` |
+| 3-6       |                                                     |
+^isdeadpersist
 
 
 | dice: 1d4 | result                                                                                                                                                                                            |
@@ -605,21 +812,21 @@ This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is
 
 | dice: 1d2 | Died of violence                                                                                                                                                                             |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1         | they died of violence from a creature that appears on the wandering monster table for the hex. A careful examination of the bodies may give a clue as to what threat waits to be discovered. |
+| 1         | they died of violence from a creature that appears on the wandering monster table for the hex [[202001052047 Random Encounter Table MOC]]. A careful examination of the bodies may give a clue as to what threat waits to be discovered. |
 | 2         | they died without violence                                                                                                                                                                                             |
 ^diedofviolence
 
- Graves with permanent markers
+
 | dice: 1d20 | result                                                            |
 | ---------- | ----------------------------------------------------------------- |
-| 1-10       | have no writing                                                        |
+| 1-10       | have no writing                                                   |
 | 11-12      | have some sort of writing describing  who is buried,              |
 | 13-14      | have some sort of writing describing when they were born and died |
 | 15         | have some sort of writing describing how they died,               |
-| 16         | some other fact about them,                                       |
-| 17         | two of the previous                                               | 
-| 18         | three of the previous, or                                         |
-| 19-20      | the writing is illegible.                                         |
+| 16         | have some sort of writing describing some other fact about them,  |
+| 17         | writing: two of the previous                                      |
+| 18         | writing:three of the previous, or                                 |
+| 19-20      | writing:the writing is illegible.                                 |
 ^graveWriting
 
 
@@ -656,7 +863,7 @@ The dead will be . . .
 ^deadAncestry
 
 
-#### Monuments:
+#### Monuments
 The civilizations of the past leave behind great works whose function is to memorialize great heroes and rulers, portentous events and defining battles, while current rulers do the same to make their glory known to their subjects. Monuments can also be alien or inscrutable in nature, of uncertain purpose or provenance, or even simple structures erected by the common folk to commemorate certain events.
 
 Monuments fall into several different categories. . .
@@ -755,17 +962,16 @@ The last category is all-encompassing. Perhaps the memorial is a permanent illus
 |:-------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1      | Small. probably erected by a race of Micronians or perhaps awakened animals.                                                                                                                                                                                                 |
 | 2-60   | Medium. sized or scaled for Men (statues will be approximately human height, buildings and other structures scaled for human habitation).                                                                                                                                    |
-| 61-90  | Large. sized for ogres and such. Statues will be approximately 8-10’ tall, obelisks around 20-35 feet. There is a 1-2 in 6 chance that the monuments are actually designed by a large race; the other 66% of the time they’re built by human-sized creatures with big ideas. |
-| 91-99  | Giant-sized.  Statues  will  be  approximately 11-20’ tall,  obelisks  and  columns  around 36-50 feet. There is a 1 in 6 chance that the monuments are actually designed by a large race;  the  rest  of  the  time  they’re  built  by human-sized folks with big ideas.   |
-| 100    | Enormous.  These  monuments  are  so  large they boggle the mind and are either built by creatures larger than the largest giants (1 in 6 chance) or by large kingdoms and empires (such as the Pyramids at Giza).                                                           |
+| 61-90  | Large. sized for ogres and such. Statues will be approximately 8-10’ tall, obelisks around 20-35 feet. There is a `dice 1d6 <= 2`chance that the monuments are actually designed by a large race; the other 66% of the time they’re built by human-sized creatures with big ideas. |
+| 91-99  | Giant-sized.  Statues  will  be  approximately 11-20’ tall,  obelisks  and  columns  around 36-50 feet. There is `dice 1d6 <= 1` chance that the monuments are actually designed by a large race;  the  rest  of  the  time  they’re  built  by human-sized folks with big ideas.   |
+| 100    | Enormous.  These  monuments  are  so  large they boggle the mind and are either built by creatures larger than the largest giants (`dice 1d6 <= 1`chance) or by large kingdoms and empires (such as the Pyramids at Giza).                                                           |
 ^MonumentSize
 
-There’s a 1 in 6 chance 
 
 | dice: 1d6 |                                                                                                                                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1         | the monuments have internal space (if appropriate). Monuments with internal spaces will contain `dice: 1d4` chambers, with size obviously being a limiting factor.  `dice: [[Filling in the Blanks#^MonumentEntrance]]` |
-| 2-6       | monument is solid                                                                                                                                                                                      |
+| 2-6       | the monument is solid                                                                                                                                                                                      |
 ^monumentHollow
 
 
@@ -850,18 +1056,39 @@ There’s a further 1 in 20 chance that the monument possesses a special quality
 
 #### Dwellings
 
-The wilderness is filled with hovels, huts and houses erected by various peoples, either inhabited by the original builder, a recent arrival or completely abandoned.
 
-The dwellings are . . .
 
 22-table-1.md
 
-| d100   | Result                                                                                                                                                                                                                                   |
-|:-------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1-25   | Inhabited by monsters. Roll on the wandering encounter  table  appropriate  for  the  area  to determine exactly what lives within.                                                                                                      |
-| 26-60  | Uninhabited. If it is uninhabited there is a 1-2 in 6 chance of there being valuables within the house, with the following treasure type (1-A, 2-B, 3-C, 4-D, 5-E, 6-F). There is an additional 1-3 in 6 chance the treasure is trapped. |
-| 61-100 | Inhabited  by the  original  builders (or the descendants/same race as the original builders).                                                                                                                                           |
+| d100   | Result                                                                                                                                                                    |
+|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-25   | Inhabited by monsters. Roll on the wandering encounter  table  appropriate  for  the  area  to determine exactly what lives within. [[Symbaroum Random Encounter Tables]] |
+| 26-60  | Uninhabited. If it is uninhabited there is a `dice: [[Filling in the Blanks#^dwellingTreasure]]`                                                                          |
+| 61-100 | Inhabited  by the  original  builders (or the descendants/same race as the original builders).                                                                            |
 ^dwellingInhabitants
+
+
+
+
+
+| dice: 1d6 |                                                                                                                                                                                       |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | there are valuables within the house, with the following treasure type `dice: [[Filling in the Blanks#^oseTreasureTable]]` There is   `dice: 1d6 <=1` chance the treasure is trapped. |
+| 3-6       | no valuables                                                                                                                                                                                      |
+^dwellingTreasure
+
+
+
+| dice: 1d6 |     |
+| --------- | --- |
+| 1         | -A, |
+| 2         | -B, |
+| 3         | -C, |
+| 4         | -D, |
+| 5         | -E, |
+| 6         | -F) |
+^oseTreasureTable
+
 
 
 22-table-2.md
@@ -3600,8 +3827,8 @@ Hazards range from quicksand and slippery slopes to carnivorous plants and unsta
 Roll 1d10 to determine what the hazard is . . . 
 
 
-| dice: 1d10 |                                                     |
-| ---------- | --------------------------------------------------- |
+| dice: 1d10 |                                                                      |
+| ---------- | -------------------------------------------------------------------- |
 | 1-3        | Geoloic `dice: [[Filling in the Blanks#^HazardGeologicMaster]]`      |
 | 4-6        | Plant-based `dice: [[Filling in the Blanks#^hazardFloraFaunaMaster]] |
 | 7-9        | Weather/climate `dice: [[Filling in the Blanks#^WeatherHazard]]`     |
