@@ -8,8 +8,12 @@ Python script um tabellen in perchance format zu konvertieren perchance.py
 The rules in this document present guidelines for generating random hex content for use in fantasy role-playing games. It uses the Old School Essentials system by Necrotic Gnome as well as the Third Kingdom Games Populated Hexcrawl series and other supplements. However, it can be easily adapted for use by any fantasy system, OSR or not. This document references other publications by Third Kingdom Games:
 - Domain Building. A free supplement geared towards higher-level domain play.
 - Hexcrawl Basics. A free supplement that offers a mechanical process for running hexcrawl-style games.
-- Random Weather Generation. A supplement that provides a method of randomly generating weather and unusual events.
-The system used here assumes that each hex is 6 miles from face to face and is divided into a number of subhexes, each one 1.2 miles face to face. **Each 6-mile hex has 1d6 features and 1d6 lairs**. As an alternate rule, the Referee can roll 1d4 for both features and lairs when populating desert or grassland hexes, and 1d8 for both when populating jungle and mountainous hexes. Ex. Rolling 1d6 twice yields a 3 and a 5. There are 3 lairs and 5 features in the sample hex.
+- Random Weather Generation. A supplement that provides a method of randomly generating weather and unusual events. [[202104290619 Todd Into the Wild#Random Weather Generation]]
+The system used here assumes that each hex is 6 miles from face to face and is divided into a number of subhexes, each one 1.2 miles face to face. _The area of the 6 mile hex. is: 31.82643359m2_
+
+.**Each 6-mile hex has 1d6 features and 1d6 lairs**.
+
+As an alternate rule, the Referee can roll 1d4 for both features and lairs when populating desert or grassland hexes, and 1d8 for both when populating jungle and mountainous hexes. Ex. Rolling 1d6 twice yields a 3 and a 5. There are 3 lairs and 5 features in the sample hex.
 It is trivially easy to adjust the hex spacing: 5- and 8-mile hexes are two other popular hex sizes. If using sizes smaller or larger than this range, however, it is recommended that you adjust the number of lairs and features accordingly. Smaller hexes should have 1d4 lairs and features, while larger hexes should have 1d8 lairs and features. It is also possible to use this supplement to populate maps that are much less dense, or to generate features on the fly as needed.
 
 Likewise, it is possible that the Referee does not want this level of granularity in their game, and chooses to use this supplement to place one feature or lair per hex, rather than placing multiple features and lairs within a hex. If this is the case, it is recommended that the Referee use Table 1.2 [[Filling in the Blanks#^LairandFeature]], below, instead of [[Filling in the Blanks#^FeatureNoLairs]]. Additionally, don’t roll 1d6 to determine the number of lairs and features per hex; instead, roll 1d20 once, or potentially twice, per hex, depending on how many points of interest are desired.
@@ -18,23 +22,14 @@ This supplement assumes that a hex map is generated and filled in with the appro
 
 #### Placing Lairs and Features
 
-Once it has been determined how many lairs and features are present in a hex you can determine where they are placed. This initial placement is not set in stone and can be adjusted during the process as the overall content of the hex becomes apparent. For each point of interest use a random number generator to generate a number between 1 and 31, and refer to Figure One. ![[Subhex.png]].
+Once it has been determined how many lairs and features are present in a hex you can determine where they are placed. This initial placement is not set in stone and can be adjusted during the process as the overall content of the hex becomes apparent. For each point of interest use a random number generator to generate a number between 1 and 31, and refer to Figure One. ![[Subhex.png]]. `dice: 1d31`.
 An online random number generator or dice roller is recommended for several of the mechanics described in this book, whether to generate a range of numbers for which there are not corresponding dice or to generate large numbers (such as rolling 10d100).
 Reroll any duplicates in the same category, but not those in separate categories.
-
 This book presents lair generation prior to feature generation. However, it is recommended that features be generated first, as it is possible the terrain in a hex will change upon feature generation, and a generated lair may not fit in the new terrain. Conversely, you may find creative explanations for a lair that exists in a non- traditional terrain.
-
 The same applies to generating features. If a feature is not appropriate for the given terrain either roll again or find a creative solution for its placement. Why, for instance, would a large body of water be in the middle of a sun-baked desert? If the Referee does not want to deal with this it is simple enough to reroll, otherwise a creative explanation can be incorporated, utilizing a strange feature to bedevil the players.
-
-
-
 Features are typically rolled for and placed first, since they may have an impact on the location of lairs or the encounter table that is used (if the terrain changes as a result of the feature, for instance).
-
 Roll 1d20 for each feature present, ignoring or rerolling results that don’t make any sense, and compare to the table  [[Filling in the Blanks#^FeatureNoLairs]].
-
 Note that some feature types can appear across multiple categories. For instance, it is possible to find changed terrain in the Geologic, Terrain, and Magic sections.
-
-
 As a general rule of thumb the tables provided herein are to be used as a guide. Occasionally a random roll will produce a result that is seemingly out of place; these results present the Referee with two options: Option One is to ignore the result and reroll, which is a perfectly valid option. Option Two, however, is to ask oneself “why” the result is as it is. Oftentimes an unexpected or incongruous result can lead to interesting encounters.
 In some cases a feature is hidden and not immediately obvious to a casual inspection. This is the case for a cave system that has no entrances above ground, or a deposit of iron ore buried deep beneath the surface. In such instances, rather than deprive the adventurers of a potentially interesting/dangerous/lucrative feature, it is recommended that such features become apparent after a thorough survey of the hex by an expert prospector (see below).
 
@@ -84,28 +79,35 @@ Another option would be to roll 1d8 and assign 1 to north, 2 to northeast, 3 to 
 ### Lairs
 
 For each lair that is present within the hex roll 1d8 and compare the result to the Wilderness Encounter table on p. 206 of the OSE rules. This determines which encounter sub-table to use.
-
 Ex. The results of 1d8 are 4, 5, and 3, which correspond to subtables 1 – Flyer, F – Human, and 1 – Dragon.
-
 Depending on your campaign and the hex being populated you may wish to reroll one or more results.
-
-
 For instance, I typically reroll an initial result of “Dragon”, as such creatures are rare in the Absalom setting. I also reroll an initial result of Human when populating hexes in wilderness terrain, as human habitations are few and far between. Rerolling the initial result means that you reroll the first time it comes up, but not if it comes up again.
-
 Once the subtables are determined you can generate the type of lair encountered. Each subtable has results between 1-12, with each being a monster from the rulebook. Instead of rolling 1d12, however, I use a random number generator to produce a result from 1-16. A result of 1-12 is referenced from the entry in the book; a result of 13-15 means I draw a monster from another source, and a result of 16 indicates a unique monster created for the lair.
-
 The results are 3 (for Flyer), 9 (for Human), and 14 (for Dragon). Referring to the tables we get the following results:
-
 - Flyer is Griffon 
 - Human is High-level cleric  
 - Dragon is drawn from another source.
-
 Referring to the initial placement rolls above, the griffon lair is in subhex 0304, the cleric lair in subhex 0703, and the dragon in 0403.
-
 ###### Placing Lairs
+As mentioned at the beginning of this book, monster lairs are placed using the Wilderness Encounter tables (starting on p. 206 of OSE core). As with features, lair locations can be chosen, rather than placed randomly; if a subhex has a ruined structure, it will likely make sense for a monster to lair in it, if possible. Once the type of creatures are determined refer to the appropriate monster listing and roll to determine the number of monsters encountered using the die roll in the parenthesis. 
 
-As mentioned at the beginning of this book, monster lairs are placed using the Wilderness Encounter tables (starting on p. 206 of OSE core). As with features, lair locations can be chosen, rather than placed randomly; if a subhex has a ruined structure, it will likely make sense for a monster to lair in it, if possible. Once the type of creatures are determined refer to the appropriate monster listing and roll to determine the number of monsters encountered using the die roll in the parenthesis. There is a 1-2 in 6 chance that the number of monsters in the lair are actually that number multiplied by (1-4) 2, (5-7) 4, (8-10) 5, (11-12) 6. Ex. The entry for goblin states that 6d10 goblins are encountered in the wilderness. There’s a 1-2 in 6 chance that a goblin lair actually numbers 12d10, 24d10, 30d10, or 36d10. Otherwise, placement of lairs is similar to populating a dungeon, except in a much larger, open area.
+There is a 1-2 in 6 chance that the number of monsters in the lair are actually that number multiplied by (1-4) 2, (5-7) 4, (8-10) 5, (11-12) 6. Ex. 
 
+| dice 1d6 |                                                                                                        |
+| -------- | ------------------------------------------------------------------------------------------------------ |
+| 1-2      | There are more creatures in the lair than expected. multiply the determined number by `dice: [[Filling in the Blanks#^morelairmonsters]]` |
+| 3-6      |                                                                                                        |
+^lairmonsters
+
+| dice: 1d12 |     |
+| ---------- | --- |
+| 1-4        | 2 * |
+| 5-7        | 4 * |
+| 8-10       | 5 * |
+| 11-12      | 6 * |
+^morelairmonsters
+
+The entry for goblin states that 6d10 goblins are encountered in the wilderness. There’s a 1-2 in 6 chance that a goblin lair actually numbers 12d10, 24d10, 30d10, or 36d10. Otherwise, placement of lairs is similar to populating a dungeon, except in a much larger, open area.
 
 7-table-1.md
 
@@ -870,47 +872,39 @@ Monuments fall into several different categories. . .
 
 20-table-2.md
 
-| d100   | Result                                                                                                           |
-|:-------|:-----------------------------------------------------------------------------------------------------------------|
-| 1-25   | Built  to  honor  the  dead  (usually  fallen  in battle or disaster)                                            |
-| 26-50  | Built to honor an event (such as a battle, the signing of a treaty, the birth of a ruler, etc.).                 |
-| 51-75  | Built to honor an individual (such as a ruler, powerful mage, etc.)                                              |
-| 76-85  | Built to honor a concept (such as Law or Chaos)                                                                  |
-| 86-95  | Built to honor a religion or deity. Refer to the section on shrines on p. 34                                     |
-| 96-100 | Built  to  house  an  object  or  person  (such as  an  artifact  or  relic,  or  an  emperor’s burial chambers) |
+| d100   | Result                                                                                                                                                                                                                               |
+|:------ |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-25   | Built  to  honor  the  dead  (usually  fallen  in battle or disaster). Monuments built to honor the dead typically do not have any dead interred within them, but occasionally will contain relics or memento mori in some capacity. |
+| 26-50  | Built to honor an event (such as a battle, the signing of a treaty, the birth of a ruler, etc.).                                                                                                                                     |
+| 51-75  | Built to honor an individual (such as a ruler, powerful mage, etc.)                                                                                                                                                                  |
+| 76-85  | Built to honor a concept (such as Law or Chaos)                                                                                                                                                                                      |
+| 86-95  | Built to honor a religion or deity. Refer to the section on shrines [[Filling in the Blanks#Shrine.]]                                                                                                                                                   |
+| 96-100 | Built  to  house  an  object  or  person  (such as  an  artifact  or  relic,  or  an  emperor’s burial chambers)                                                                                                                     |
 ^MonumenttoWhom
 
-Monuments built to honor the dead typically do not have any dead interred within them, but occasionally will contain relics or memento mori in some capacity.
 
 The monument will take the shape of . . .
 
 20-table-3.md
 
-| d600    | Result                                                                                                                              |
-|:------- |:----------------------------------------------------------------------------------------------------------------------------------- |
-| 1-100   | A statue (1-4). It is a `dice: [[Filling in the Blanks#^petrified]]`, `dice: [[Filling in the Blanks#^defaced]]` `dice: [[Filling in the Blanks#^StatuesDepict]]`,                                                       |
-| 101-150 | multiple statues (5-6). It is a `dice: [[Filling in the Blanks#^petrified]]`, `dice: [[Filling in the Blanks#^defaced]]`                                              |
-| 151-225 | An obelisk (1-3) Obelisks are rectangular columns with a pyramidal cap                                                              |
-| 226-275 | column singular columns are typically round                                                                                         |
-| 276-300 | regular columns found in clusters of `dice: 1d8+1`.                                                                                 |
-| 301-450 | Megalith                                                                                                                            |
-| 451-480 | Arch (1-3),                                                                                                                         |
-| 481-500 | building (4-5) or                                                                                                                   |
-| 501-510 | freeform structure (6)                                                                                                              |
-| 511-520 | Pyramid  (1-2),                                                                                                                     |
-| 521-530 | terraced  pyramid  (3-4)  or                                                                                                        |
-| 531-540 | earthen mounds `dice: [[Filling in the Blanks#^earthenMound]]`                                                                                       |
-| 541-570 | Fountain or Water feature Fountains or similar water features are occasionally built as memorials, especially by cultures for which |
-| 571-600 | Magical or Unique material/form. Size: ``                                                                                                     |
+| d600    | Result                                                                                                                                                                                                                                                                                                                                                                                       |
+|:------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-100   | A statue. It is a `dice: [[Filling in the Blanks#^petrified]]`, `dice: [[Filling in the Blanks#^defaced]]` `dice: [[Filling in the Blanks#^StatuesDepict]]`,                                                                                                                                                                                                                                 |
+| 101-150 | multiple statues (5-6). It is a `dice: [[Filling in the Blanks#^petrified]]`, `dice: [[Filling in the Blanks#^defaced]]` `dice: [[Filling in the Blanks#^StatuesDepict]]`                                                                                                                                                                                                                    |
+| 151-225 | An obelisk: Obelisks are rectangular columns with a pyramidal cap                                                                                                                                                                                                                                                                                                                            |
+| 226-275 | column. singular. columns are typically round                                                                                                                                                                                                                                                                                                                                                |
+| 276-300 | regular columns found in clusters of `dice: 1d8+1`.                                                                                                                                                                                                                                                                                                                                          |
+| 301-450 | Megalith. Megaliths are large stones erected as monuments or ritual foci. They are either single stones, called menhirs, potentially arranged in a pattern with other menhirs, or arranged to form a structure (such as Stonehenge) or even rudimentary shelter.                                                                                                                             |
+| 451-480 | Arch, Arches, buildings, and other abstract structures are designed as larger memorial complexes. Think of l’Arc de Triomph in Paris, or the Vietnam Memorial Wall in Washington DC.                                                                                                                                                                                                         |
+| 481-500 | building. Arches, buildings, and other abstract structures are designed as larger memorial complexes. Think of l’Arc de Triomph in Paris, or the Vietnam Memorial Wall in Washington DC.                                                                                                                                                                                                     |
+| 501-510 | freeform structure. Arches, buildings, and other abstract structures are designed as larger memorial complexes. Think of l’Arc de Triomph in Paris, or the Vietnam Memorial Wall in Washington DC.                                                                                                                                                                                           |
+| 511-520 | Pyramid. Pyramids, stepped pyramids, and earthen mounds are all similar in appearance but built using different techniques and levels of technology. Earthen mounds will be                                                                                                                                                                                                                  |
+| 521-530 | terraced  pyramid . Pyramids, stepped pyramids, and earthen mounds are all similar in appearance but built using different techniques and levels of technology. Earthen mounds will be                                                                                                                                                                                                       |
+| 531-540 | earthen mounds. Pyramids, stepped pyramids, and earthen mounds are all similar in appearance but built using different techniques and levels of technology. Earthen mounds will be  `dice: [[Filling in the Blanks#^earthenMound]]`                                                                                                                                                          |
+| 541-570 | Fountain or Water feature Fountains or similar water features are occasionally built as memorials, especially by cultures for which                                                                                                                                                                                                                                                          |
+| 571-600 | Magical or Unique material/form. The last category is all-encompassing. Perhaps the memorial is a permanent illusion that constantly replays the final moments of a decisive battle, or a field of magical energy that causes those within it to experience a specific emotion. Memorials could also be abstract works of art like the chalk figures of England, or the Nazca lines of Peru. |
 ^monumentShape
 
-Obelisks are rectangular columns with a pyramidal cap, while columns are typically round. There’s a 1-2 in 6 chance that regular columns are found in clusters of 1d8+1.
-
-Megaliths are large stones erected as monuments or ritual foci. They are either single stones, called menhirs, potentially arranged in a pattern with other menhirs, or arranged to form a structure (such as Stonehenge) or even rudimentary shelter.
-
-Arches, buildings, and other abstract structures are designed as larger memorial complexes. Think of l’Arc de Triomph in Paris, or the Vietnam Memorial Wall in Washington DC.
-
-Pyramids, stepped pyramids, and earthen mounds are all similar in appearance but built using different techniques and levels of technology. Earthen mounds will be 
 
 
 
@@ -922,26 +916,26 @@ Pyramids, stepped pyramids, and earthen mounds are all similar in appearance but
 ^earthenMound
 
 
-| dice: d300 | result                            |
-| ---------- | --------------------------------- |
+| dice: d300 | result                                   |
+| ---------- | ---------------------------------------- |
 | 1          | Petrified person with petrified Treasure |
 | 2-3        | Petrified person without Treasure        |
-| 4-300      | normal statue                     |
+| 4-300      | normal statue                            |
 ^petrified
 
 | dice: 1d12 | result                                               |
 | ---------- | ---------------------------------------------------- |
 | 1          | statue’s features will have been erased by time      |
 | 2          | statue’s features will have been erased by vandalism |
-| 3-12       | features intact                                                     |
+| 3-12       | features intact                                      |
 ^defaced
 
 This chance increases by 1 in Borderlands hexes or 2 in Wilderness hexes.
 
-There’s a 1 in 100 chance that statues discovered in an area are in fact the petrified remains of once-living beings, turned to stone either by monsters such as basilisks, curses, or stray magical effects. If this is the case there’s a 1-2 in 6 chance that level appropriate treasure can be found on the statue if it were un-petrified.
 
 
-20-table-1.md
+
+
 Statues will depict: 
 
 | d100   | Result                            |
@@ -954,7 +948,7 @@ Statues will depict:
 ^StatuesDepict
 
 
-The last category is all-encompassing. Perhaps the memorial is a permanent illusion that constantly replays the final moments of a decisive battle, or a field of magical energy that causes those within it to experience a specific emotion. Memorials could also be abstract works of art like the chalk figures of England, or the Nazca lines of Peru.
+
 
 21-table-3.md
 
@@ -1002,6 +996,7 @@ If a monument contains internal space use the Dungeon Stocking Table on p. 225 o
 | 10    | Level 7* |
 | 11    | Level 8  |
 | 12    | Level 9* |
+^dungeonLevelTreasure
 
 * Roll for each treasure category twice, taking the lower of the two results. Ex. A treasure is to be found within, equivalent to that found on a level three dungeon. The Referee rolls 1d100 twice for each category listed (sp, gp, gems, jewelry, magic item), taking the lower result of each pair.
 

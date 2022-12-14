@@ -6,6 +6,7 @@
       {
         "id": "7c327e1f9e297c8f",
         "type": "tabs",
+        "dimension": 79.63340122199592,
         "children": [
           {
             "id": "2577b8874eacdb16",
@@ -17,7 +18,28 @@
                 "mode": "source",
                 "source": true
               }
-            }
+            },
+            "group": "30ae12a272cde8b5"
+          }
+        ]
+      },
+      {
+        "id": "3b76eb7d2d548446",
+        "type": "tabs",
+        "dimension": 20.366598778004075,
+        "children": [
+          {
+            "id": "b630c78a79d63805",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md",
+                "mode": "preview",
+                "source": true
+              }
+            },
+            "group": "30ae12a272cde8b5"
           }
         ]
       }
@@ -138,7 +160,7 @@
     "direction": "horizontal",
     "width": 234.5
   },
-  "active": "2577b8874eacdb16",
+  "active": "27d7cc2c46493318",
   "lastOpenFiles": [
     "Subhex.png",
     "GM_FlohFelixAljoscha/Filling in the Blanks.md",
