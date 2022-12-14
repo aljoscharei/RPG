@@ -13,4 +13,9 @@ Adventure city
 10 places
 10 weird monuments along the way
 10 encounter
-Rumors to motivate why are we her
+Rumors to motivate why are we here
+
+[[Ruined City Random Tables Dread Thingonomicon p 318]]
+
+[[000 media/A Magical Society Ecology and Culture.pdf]]
+[[A Magical Medieval Society Western Europe Third Edition.pdf]]

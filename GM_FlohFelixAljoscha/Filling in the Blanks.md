@@ -71,7 +71,7 @@ This document seeks to provide a means of randomly populating hexmaps in a relat
 
 #### Determine Directions
 
-Sometimes the Referee will need to determine which direction a feature faces or is oriented. The simplest way to do this is to roll 1d6 and compare it to Figure Two.
+Sometimes the Referee will need to determine which direction a feature faces or is oriented. The simplest way to do this is to roll 1d6 and compare it to Figure Two. 
 
 Another option would be to roll 1d8 and assign 1 to north, 2 to northeast, 3 to east, etc. Directional generation can be used once to determine the general direction in which a feature is running, or, for large features spanning more than one subhex, multiple times (every subhex, every other one, etc.) to create a more random and chaotic feature. ![[Hex Direction.png]]
 
@@ -638,7 +638,7 @@ Unless otherwise stated, structures  in Civilized are `dice: [[Filling in the Bl
 | d10 | Result                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |:--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1   | Burial Grounds. Its Size is `dice: [[Filling in the Blanks#^BurialGroundSize]]`. Each dead occupies `dice: 1d20+15` sq. ft. The dead are buried.. `dice: [[Filling in the Blanks#^HowBuried]]`.  `dice: [[Filling in the Blanks#^buriedceremony]]`. This chance is increased by 1 in Civilized hexes, and again by 1 if the grave is marked or they were ritually exposed. The chance is decreased by 1 in Wilderness hexes, and again if the dead weren’t buried, were buried in unmarked graves, or were killed as a punishment..  How long  have they been dead: `dice: [[Filling in the Blanks#^howlongDead]]`. The dead are: `dice: [[Filling in the Blanks#^deadAncestry]]`,  `dice: [[Filling in the Blanks#^buriedTemple]]`.             |
-| 2   | Monuments to `dice: [[Filling in the Blanks#^MonumenttoWhom]]` `dice: [[Filling in the Blanks#^monumentShape]]`, `dice: [[Filling in the Blanks#^MonumentSize]]`, `dice: [[Filling in the Blanks#^monumentHollow]]`, `dice: [[Filling in the Blanks#^monumentAge]]`, `dice: [[Filling in the Blanks#^monumentMaterial]]` , `dice: [[Filling in the Blanks#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                                                                   |
+| 2   | Monuments to `dice: [[Filling in the Blanks#^MonumenttoWhom]]`. The monument will take the shape of  `dice: [[Filling in the Blanks#^monumentShape]]`, `dice: [[Filling in the Blanks#^MonumentSize]]`, `dice: [[Filling in the Blanks#^monumentHollow]]`, `dice: [[Filling in the Blanks#^monumentAge]]`, `dice: [[Filling in the Blanks#^monumentMaterial]]` , `dice: [[Filling in the Blanks#^isSpecialQuality]]`                                                                                                                                                                                                                                                                                                                                                                   |
 | 3-5 | Dwellings. The wilderness is filled with hovels, huts and houses erected by various peoples, either inhabited by the original builder, a recent arrival or completely abandoned. The dwellings are `dice: [[Filling in the Blanks#^dwellingInhabitants]]`,  age `dice: [[Filling in the Blanks#^monumentAge]]`, condition `dice: [[Filling in the Blanks#^dwellingCondition]]`, The dwelling is made of `dice: [[Filling in the Blanks#^dwellingMaterials]]` , its size is:  `dice: [[Filling in the Blanks#^dwellingSize]]`.                                                                                                                                                                                                                    |
 | 6   | Fortificaton. A `dice: [[Filling in the Blanks#^fortificationType]]` made of `dice: [[Filling in the Blanks#^fortificationMaterial]]`. It is `dice: [[Filling in the Blanks#^dwellingCondition]]` its age is `dice: [[Filling in the Blanks#^monumentAge]]`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | 7-8 | Infrastructure `dice: [[Filling in the Blanks#^InfrastructureType]]`,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -883,7 +883,7 @@ Monuments fall into several different categories. . .
 ^MonumenttoWhom
 
 
-The monument will take the shape of . . .
+
 
 20-table-3.md
 
@@ -923,14 +923,14 @@ The monument will take the shape of . . .
 | 4-300      | normal statue                            |
 ^petrified
 
-| dice: 1d12 | result                                               |
-| ---------- | ---------------------------------------------------- |
-| 1          | statue’s features will have been erased by time      |
-| 2          | statue’s features will have been erased by vandalism |
-| 3-12       | features intact                                      |
+| dice: 1d12 | result                                                                                                                          |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | statue’s features will have been erased by time. This chance increases by 1 in Borderlands hexes or 2 in Wilderness hexes.      |
+| 2          | statue’s features will have been erased by vandalism. This chance increases by 1 in Borderlands hexes or 2 in Wilderness hexes. |
+| 3-12       | features intact                                                                                                                 |
 ^defaced
 
-This chance increases by 1 in Borderlands hexes or 2 in Wilderness hexes.
+
 
 
 
@@ -962,43 +962,40 @@ Statues will depict:
 ^MonumentSize
 
 
-| dice: 1d6 |                                                                                                                                                                                                        |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1         | the monuments have internal space (if appropriate). Monuments with internal spaces will contain `dice: 1d4` chambers, with size obviously being a limiting factor.  `dice: [[Filling in the Blanks#^MonumentEntrance]]` |
-| 2-6       | the monument is solid                                                                                                                                                                                      |
+| dice: 1d6 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | the monuments have internal space (if appropriate). Monuments with internal spaces will contain `dice: 1d4` chambers, with size obviously being a limiting factor.  `dice: [[Filling in the Blanks#^MonumentEntrance]]`. If a monument contains internal space use the Dungeon Stocking Table on p. 225 of OSE core to determine what can be found within. Roll `dice: 1d12` to determine the “level” of the dungeon for purposes of stocking with monsters and treasure (p. 225 of OSE core gives the amount of treasure to be found) `dice: [[Filling in the Blanks#^dungeonLevelTreasure]]` |
+| 2-6       | the monument is solid                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 ^monumentHollow
 
 
-| dice: 1d4 |                                             |
-| --------- | ------------------------------------------- |
-| 1         | the entrance is visible on a roll of 1-2,   |
-| 2         | visible but locked on a roll of 3-4,        |
-| 3         | concealed but unlocked on a roll of 5-6, or |
-| 4         | concealed and locked on a roll of 7-8.      |
+| dice: 1d4 |                         |
+| --------- | ----------------------- |
+| 1         | the entrance is visible |
+| 2         | visible but locked      |
+| 3         | concealed but unlocked  |
+| 4         | concealed and locked.   |
 ^MonumentEntrance
 
 
 
 
-If a monument contains internal space use the Dungeon Stocking Table on p. 225 of OSE core to determine what can be found within. Roll 1d12 to determine the “level” of the dungeon for purposes of stocking with monsters and treasure (p. 225 of OSE core gives the amount of treasure to be found):
-
-
 21-table-1.md
 
-| d12   | Result   |
-|:------|:---------|
-| 1-2   | Level 1  |
-| 3-4   | Level 2  |
-| 5-6   | Level 3* |
-| 7     | Level 4  |
-| 8     | Level 5* |
-| 9     | Level 5  |
-| 10    | Level 7* |
-| 11    | Level 8  |
-| 12    | Level 9* |
+| d12 | Result                                                                                                                                                                                                                                                                                                         |
+|:--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2 | Level 1                                                                                                                                                                                                                                                                                                        |
+| 3-4 | Level 2                                                                                                                                                                                                                                                                                                        |
+| 5-6 | Level 3 Roll for each treasure category twice, taking the lower of the two results. Ex. A treasure is to be found within, equivalent to that found on a level three dungeon. The Referee rolls 1d100 twice for each category listed (sp, gp, gems, jewelry, magic item), taking the lower result of each pair. |
+| 7   | Level 4                                                                                                                                                                                                                                                                                                        |
+| 8   | Level 5 Roll for each treasure category twice, taking the lower of the two results. Ex. A treasure is to be found within, equivalent to that found on a level three dungeon. The Referee rolls 1d100 twice for each category listed (sp, gp, gems, jewelry, magic item), taking the lower result of each pair. |
+| 9   | Level 5                                                                                                                                                                                                                                                                                                        |
+| 10  | Level 7 Roll for each treasure category twice, taking the lower of the two results. Ex. A treasure is to be found within, equivalent to that found on a level three dungeon. The Referee rolls 1d100 twice for each category listed (sp, gp, gems, jewelry, magic item), taking the lower result of each pair. |
+| 11  | Level 8                                                                                                                                                                                                                                                                                                        |
+| 12  | Level 9 Roll for each treasure category twice, taking the lower of the two results. Ex. A treasure is to be found within, equivalent to that found on a level three dungeon. The Referee rolls 1d100 twice for each category listed (sp, gp, gems, jewelry, magic item), taking the lower result of each pair. |
 ^dungeonLevelTreasure
 
-* Roll for each treasure category twice, taking the lower of the two results. Ex. A treasure is to be found within, equivalent to that found on a level three dungeon. The Referee rolls 1d100 twice for each category listed (sp, gp, gems, jewelry, magic item), taking the lower result of each pair.
+* 
 
 Monuments will be of the following age . . .
 

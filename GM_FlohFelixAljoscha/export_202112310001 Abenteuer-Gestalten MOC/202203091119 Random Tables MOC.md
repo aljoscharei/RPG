@@ -42,3 +42,4 @@ go thru Dysons Map
 - [[Random Dungeon DMG]]
 - [[Ruins of Symbaroum Combat Terrain]]
 - ![[202203241259 WWN p 240 Wilderness Encnounter Table#Roller]]
+- [[Ruined City Random Tables Dread Thingonomicon p 318]]
