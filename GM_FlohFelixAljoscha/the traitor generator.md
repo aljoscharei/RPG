@@ -121,3 +121,6 @@ Abyssal cyst
 Sunken ship
 Multiverse orrery
 Dead titan’s carcass
+
+---
+[[202203091103 Sly flourish lazy dm companion MOC]]

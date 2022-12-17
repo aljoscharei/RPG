@@ -4,6 +4,7 @@
 [[Magical Medieval Society Western Europe 2nd printing.pdf]]
 [[S John Ross Medieval Demographics Made Easy.pdf]]
 [[geography demographics sociology ecology economy MOC]]
+[[Urbancrawl Citycrawl MOC]]
 
 - Settlement locations d8 village, d12 town, d20 city
 	1. Inn 

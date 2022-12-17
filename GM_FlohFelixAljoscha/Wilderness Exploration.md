@@ -14,7 +14,7 @@ Forest Marvels: `dice: [[Wilderness Exploration#^woundrous]]`
 WWN Terrain Feature: ![[202203191239 WWN p121 Significant Terrain Features#Roller]]
 WWN Terrain Feature Detail: ![[202203241052 WWN p 123 Terrain Feature Details#Roller]]
 ![[202201121842 WWN Wilderness Tags MOC#Roller:]]
-![[5e DMG 05 Adventure Environments#Wilderness Exploration]]
+![[5e DMG 05 Adventure Environments#Roller Wilderness Exploration]]
 ![[201811200023 Ironsworn MOC#Delve Sites]]
 ![[201811200023 Ironsworn MOC#Location]]
 ![[202203191259 WWN p146 Ruins and Points of Interest#Roller]]
@@ -36,7 +36,7 @@ Seek the counsel of an ancient being
 Plant a magical acorn
 ^quests
 
-### Wilderness Landmarks
+###  Landmarks
 Cracked megalith
 Hollow meteorite 
 Perfectly still pool

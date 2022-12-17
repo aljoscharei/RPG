@@ -6,6 +6,7 @@
 [[202002270909 On Downtime and Demesnes]]
 [[202101230921 Downtime Activity- Find the Right Buyer]]
 [[201903311522 city-of-golotha]]
+[[Settlement Generator]]
 
 Spiral campaign development What houses pc would be interested in area
 

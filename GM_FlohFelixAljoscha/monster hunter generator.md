@@ -121,3 +121,6 @@ Isolationist druids
 Ancient knightly order
 Outlander wolf-riders
 Opportunistic fiends
+
+---
+[[202203091103 Sly flourish lazy dm companion MOC]]
