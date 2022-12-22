@@ -15,7 +15,7 @@ Band of Blades Missions
 - [[the long road missions]]
 	- Find the wizard caravan's leader
 	- get a magical warding stone from the old road to craft a protection
-	- Find the  were bear graveyard so that the bodies cannot be reanimated
+	- Find the were bear graveyard so that the bodies cannot be reanimated
 - [[barrak mines missions]]
 	- kill roaming undead
 	- find out what is lurking deep in the mine close to the best vein

@@ -100,7 +100,7 @@ Andererseits vielleicht ist es besser, den Apparat an Vordaten zu ignorieren und
 ##  Locations 
 - [[Symbaroum Locations MOC]]
 - [[Wilderness Exploration]]
-
+,
 - https://dysonlogos.blog/maps/
 ---
 ## NPCs
@@ -111,6 +111,7 @@ Review NPCs likely to come up
 - [[monsters by cr]]
 - [[5e monsters by name]]
 - [[Symbaroum Monsters MOC]]
+- [[Symbaroum Random Encounter Tables]]
 - Balancing:
 	- Calculate the **deadly encounter benchmark** by adding together all character levels and dividing by 2 if they're 5th level or above or divide by 4 if they're 1st to 4th level. An encounter may be deadly if the sum total of monster challenge ratings is greater than half the sum total of character levels or one quarter of character levels if the characters are 4th level or below.
 

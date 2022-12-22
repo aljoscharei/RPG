@@ -42,7 +42,7 @@ Schlaf gesungen worden, hat sich jedoch jetzt befreit
 -   Erwacht, zerstört ein Dorf nach dem anderen
     
 
-Elfen haben kürzlich Skaramagos gesagt, dass es die Verbindung zum Land ist, die ihn mächtig macht. Dass er diese Verbindung stärken muss um zum Drachen zu werden. Daher will er Ordo rauswerfen.
+Elfen haben kürzlich [[Symbaroum Monster Skaramagos]] gesagt, dass es die Verbindung zum Land ist, die ihn mächtig macht. Dass er diese Verbindung stärken muss um zum Drachen zu werden. Daher will er Ordo rauswerfen.
 
 Viele kleine fürsten. 
 

@@ -52,7 +52,7 @@
 - [[monster hunter generator]] p 48 monster hunting
 - [[Vengeance for hire generator]] p49
 - Protect the village p 50  [[Protect the village generator]]
-- The keep [[Evil Power wants to escape its prison generator]] p 51
+- The keep [[Evil Power wants to escape its prison generator#Roller]] p 51
 - Invaders Infestation Alien p 52
 - Raiders of the lost ark p 53
 - The heist p 54

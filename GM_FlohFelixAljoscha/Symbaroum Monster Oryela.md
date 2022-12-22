@@ -10,6 +10,9 @@
 - **Hook**: [[NPC Motivation]], [[NPC Hook]]
 - Stats: 
 	- [[earthquake terrain collapse structure fissures c]]
+	- [[5e spells etherealness ghost wc not favoured]] 
+	- [[earthquake terrain collapse structure fissures c]]
+	- [[5e spells sleep w]] 
 	- [[Symbaroum Monster Witch - Keeper]]
 
 # Wo Vorgekommen

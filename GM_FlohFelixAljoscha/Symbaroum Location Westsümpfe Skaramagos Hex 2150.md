@@ -31,7 +31,7 @@ Brainstorming
 -   The cell psychoreise
 -   Qelong fluss ist naga, sumpf ist drache
 
-Stakes: Skaramagos: general well being vs personal interest: elfen wollen dass drache seinen wille kriegt um zu kooperieren. Der will opfergaben
+Stakes: [[Symbaroum Monster Skaramagos]]: general well being vs personal interest: elfen wollen dass drache seinen wille kriegt um zu kooperieren. Der will opfergaben
 
 Reference: Evernote [[Swamp MOC]]
 Faction Dragons [01 Faction Dragons](https://docs.google.com/document/d/1DHdW0hWgOEfIYk_G8-lyTlZLTdVluhCDrZq2f1xKZ0U/edit#bookmark=id.kgaz931ckpmg)

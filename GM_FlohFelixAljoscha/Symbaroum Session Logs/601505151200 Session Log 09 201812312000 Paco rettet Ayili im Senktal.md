@@ -53,7 +53,7 @@ werden beim klettern über mauer entdeckt. alarm. weg zur fluchtroute versperrt 
 
 klettern unter pfeilhagel. sobald ober verteidigt sie wildschwein
 
-**sie gehen zurück ins dorf, das ist ca 1 tagesreise zu füß. alle zurückgelassenen sind weg. im dorf nur anderer stamm der gerade fest vorbereitet. ayili erzählt Ereignisse und wird von Häuptling Amaralovest aus Baiaga-Clan (ODER ANDERER UNTERCLAN VON ZAREK) nicht unterstützt sonder wegen tabubruchs festgenommen. WEr sagt mir, dass ihr die dunkelheit nicht hierher gebracht habt.. bei ihm ist runzelige Frau.**
+**sie gehen zurück ins dorf, das ist ca 1 tagesreise zu füß. alle zurückgelassenen sind weg. im dorf nur anderer stamm der gerade fest vorbereitet. ayili erzählt Ereignisse und wird von Häuptling [[Symbaroum Monster Amralovest]] aus Baiaga-Clan (ODER ANDERER UNTERCLAN VON ZAREK) nicht unterstützt sonder wegen tabubruchs festgenommen. WEr sagt mir, dass ihr die dunkelheit nicht hierher gebracht habt.. bei ihm ist runzelige Frau.**
 
 ayili berichtet vom kampf. Ayili hatte mädchen nie gesehen untoter symbarischer fürst
 
@@ -112,7 +112,7 @@ Mädchen mächtig teleportiert sich tausendfüßler komemn aus der yonderworld. 
 
 ![[2018-12-31 26 Klettern Klappt Pfeilhagel Verfehlt Ambrier Rennen Auf Ay U P Zu Wildschweine Verteidigt Sie Heraus Aus Taburegion Zurück Insdotf 1 Tagesreise Dorf Alle Weg Sbderer Stamm Zum Dorf Eingenommen Von Anderem Stamm.m4a]]
 
-![[2018-12-31 27 Andeeer Stamm Ayili Bittet Um Hilfeamralovest Chef Von Baiaga Slte Runzlige Frau Keine Hilfe Wer Weiß Dass Nicht Ihr Die Dunkelheit Über Uns Gebracht Habt Festnahme.m4a]]
+![[2018-12-31 27 Andeeer Stamm Ayili Bittet Um Hilfe amralovest Chef Von Baiaga Slte Runzlige Frau Keine Hilfe Wer Weiß Dass Nicht Ihr Die Dunkelheit Über Uns Gebracht Habt Festnahme.m4a]]
 
 ![[2018-12-31 28 Flashback Axili Hat Hexerin Nicht Gesehen Weil Korript Gruppe Untote U Sklaven The Ring Mädchen.m4a]]
 

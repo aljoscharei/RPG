@@ -1,4 +1,15 @@
+## Roller
+Patron: `dice: [[Vengeance for hire generator#^patron]]`
+Villain `dice: [[Vengeance for hire generator#^villain]]`
+Villains Crime `dice: [[Vengeance for hire generator#^crime]]`
+Minions: `dice: [[Vengeance for hire generator#^minions]]`
+Where does the villain hide? `dice: [[Vengeance for hire generator#^hideout]]`
+Mission Complication `dice: [[Vengeance for hire generator#^compl]]`
+
+## Tables
+
 ### vengeful patrons
+
 Vengeful spirits 
 Warring king
 Struggling priest
@@ -19,8 +30,11 @@ Historian with a secret
 Mourning widows
 Orphaned children
 Merchant’s guild
+^patron
+
 
 ### Hunted Villains
+
 Uncaring mage  
 Corrupt noble  
 Bloodthirsty gladiator 
@@ -41,9 +55,11 @@ Unbound devil
 Twisted faerie
 Horrifying hag
 Murderous medusa
+^villain
 
 
 ### What crime did the villain commit. The villain ...
+
 ... murdered a friend of a character.  
 ... assassinated a local lord.  
 ... abandoned someone to a terrible fate.  
@@ -54,9 +70,10 @@ Murderous medusa
 ... grievously wounded someone important.
 ... defiled something holy.
 ... betrayed someone.
-
+^crime
 
 ### who protects the villain
+
 Thieving bandits
 Mercenary orcs
 Loyal kobolds
@@ -76,9 +93,11 @@ Trained wolves
 Mercenary drow
 Loyal dragon
 Murderous wererats
+^minions
 
 
 ### Where does the villain hide?
+
 Well-guarded inn
 Ruined watchtower 
 Abandoned prison
@@ -99,9 +118,11 @@ Sinister cathedral
 Dragon’s lair
 Dank crypt
 Local lord’s keep
+^hideout
 
 
 ### Complications
+
 Law enforcement protects the villain.
 Eliminating the villain will unleash a greater threat.
 The villain is beloved by their family.
@@ -112,7 +133,7 @@ The villain has turned over a new leaf.
 The villain knows vital information.
 The villain was a patsy used by another foe.
 The villain hid a valuable treasure.
-
+^compl
 ---
 [[202203091103 Sly flourish lazy dm companion MOC]]
 [[202203091119 Random Tables MOC]]

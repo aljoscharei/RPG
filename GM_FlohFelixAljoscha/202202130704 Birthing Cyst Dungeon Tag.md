@@ -11,4 +11,4 @@ T Item needed to harm or kill the thing, Key to halt or abort the process, Preci
 
 P Arcane lab where it’s growing, Fortified chambers to guard it, Shrine depicting its eventual glory
 
-[[Evil Power wants to escape its prison generator]]
+[[Evil Power wants to escape its prison generator#Roller]]

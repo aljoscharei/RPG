@@ -8,75 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2577b8874eacdb16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/Filling in the Blanks.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "9e0508abb3923826",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
+                "file": "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
                 "mode": "source",
                 "source": true
               }
-            }
-          },
-          {
-            "id": "ca4913d2a65df9db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Settlement Generator.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d74028d66dd9a1f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/the traitor generator.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c80e62dd6c3f5437",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203091103 Sly flourish lazy dm companion MOC.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "583d81a4d797dc5c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,8 +86,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
-                "collapseAll": true,
+                "file": "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
@@ -168,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md"
+                "file": "GM_FlohFelixAljoscha/Sly flourish Prep Template.md"
               }
             }
           },
@@ -194,17 +137,32 @@
     "direction": "horizontal",
     "width": 234.5
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "publish:Publish changes": false,
+      "templater-obsidian:Templater": false
+    }
+  },
   "active": "9e0508abb3923826",
   "lastOpenFiles": [
     "GM_FlohFelixAljoscha/Symbaroum Session MOC.md",
-    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203091144 War Theme MOC.md",
-    "War Theme Random Tables.md",
-    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/Wargame MOC.md",
+    "GM_FlohFelixAljoscha/Sly flourish Prep Template.md",
+    "GM_FlohFelixAljoscha/60210116 Session Log 51 202211072100.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/201810201658 Band of blades MOC.md",
-    "GM_FlohFelixAljoscha/Assault Missions.md",
+    "GM_FlohFelixAljoscha/Random Quest Hook.md",
     "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202203091103 Sly flourish lazy dm companion MOC.md",
-    "GM_FlohFelixAljoscha/monster hunter generator.md",
-    "GM_FlohFelixAljoscha/Filling in the Blanks.md",
-    "GM_FlohFelixAljoscha/the traitor generator.md"
+    "GM_FlohFelixAljoscha/Evil Power wants to escape its prison generator.md",
+    "GM_FlohFelixAljoscha/202202130704 Birthing Cyst Dungeon Tag.md",
+    "GM_FlohFelixAljoscha/export_202112310001 Abenteuer-Gestalten MOC/202001052047 Random Encounter Table MOC.md",
+    "GM_FlohFelixAljoscha/Random NPC.md"
   ]
 }
